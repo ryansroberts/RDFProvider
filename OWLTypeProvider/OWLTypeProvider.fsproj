@@ -61,10 +61,9 @@
     <Compile Include="Xsd.fs" />
     <Compile Include="Rdf.fs" />
     <Compile Include="Owl.fs" />
-    <Compile Include="Library1.fs" />
     <None Include="Script.fsx" />
-    <None Include="packages.config" />
     <Compile Include="ScratchPad.fs" />
+    <None Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

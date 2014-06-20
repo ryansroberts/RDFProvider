@@ -19,15 +19,16 @@ let op = ProviderImplementation.ProvidedTypes.ProvidedTypeDefinition(asm, ns, "O
 
 let (++) l r = System.IO.Path.Combine(l,r)
 
-let (store,connection) = Store.emptyStore "http://localhost:5820" "Foaf"
+let (store,connection) = Store.emptyStore "http://localhost:5820" "Biopax"
 
-(connection ()) |> Store.bootStrap (Uri "http://xmlns.com/foaf/spec/index.rdf")
-                                   (Uri "http://xmlns.com/foaf/0.1/")
+(connection ()) |> Store.bootStrap (Uri "http://www.biopax.org/release/biopax-level3.owl")
+                                   (Uri "http://www.w3.org/2002/07/owl#Thing")
 
 #load "Generator.fs"
-
-let root = Store.Claz connection (Schema.Uri "http://xmlns.com/foaf/0.1/Agent")
-Generator.generate root (Store.Claz connection) 
+let map = [("bio",Schema.Uri "http://www.biopax.org/release/biopax-level3.owl#")
+           ("owl",Schema.Uri "http://www.w3.org/2002/07/owl#")]
+let root = Store.Claz connection map (Schema.Uri "http://www.w3.org/2002/07/owl#Thing")
+Generator.generate root (Store.Claz connection map) 
 op.AddMember root.ProvidedType
 printf "%s\r\n" (ProviderImplementation.Debug.prettyPrint false false 10 10 root.ProvidedType)
 

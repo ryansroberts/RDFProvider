@@ -14,6 +14,7 @@ type Uri(s : string) =
         member x.S = s
         override x.ToString() = s.ToString()
         member x.Id = typeName s
+        member x.isComponent (u:Uri) = x.S.Contains(u.S)
     end
 
 type EntityType = 

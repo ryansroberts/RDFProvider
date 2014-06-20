@@ -31,10 +31,11 @@ let typeName (uri : string) =
 //        printf "Adding prop %s %s to %s\r\n" (p.Uri.Id) (t.Name) (c.ProvidedType.Name)
 //        ProvidedProperty(p.Uri.Id, t, GetterCode = (fun args -> <@@ t @@>), IsStatic = true) |> c.ProvidedType.AddMember
 
+let properties (c:Schema.ClassDefinition) (builder:Schema.Uri -> Schema.ClassDefinition) = 
+    ()
 
 let rec generate (c : Schema.ClassDefinition) (builder:Schema.Uri -> Schema.ClassDefinition) = 
     for c' in c.SubClasses do
-        printf "Subclass - %A\r\n" c'
         let subType = builder c'
         generate subType builder
         c.ProvidedType.AddMember subType.ProvidedType

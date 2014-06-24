@@ -63,6 +63,9 @@
     <Compile Include="ProvidedTypes\Signatures\ProvidedTypes.fsi" />
     <Compile Include="ProvidedTypes\Code\ProvidedTypes.fs" />
     <Compile Include="ProvidedTypes\Code\Debug.fs" />
+    <Compile Include="Xsd.fs" />
+    <Compile Include="Rdf.fs" />
+    <Compile Include="Owl.fs" />
     <Compile Include="Schema.fs" />
     <Compile Include="Store.fs" />
     <Compile Include="Generator.fs" />
@@ -70,13 +73,6 @@
     <None Include="packages.config" />
     <None Include="Script.fsx" />
     <None Include="Wine.rdf" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\OWLTypeProvider\OWLTypeProvider.fsproj">
-      <Name>OWLTypeProvider</Name>
-      <Project>{f1baea92-43ac-45e4-b257-4ad014e1fea3}</Project>
-      <Private>True</Private>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

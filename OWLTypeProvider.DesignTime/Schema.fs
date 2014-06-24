@@ -1,4 +1,5 @@
 ﻿module Schema
+
 open System.IO
 open System
 open ProviderImplementation.ProvidedTypes
@@ -14,7 +15,7 @@ type Uri(s : string) =
         member x.S = s
         override x.ToString() = s.ToString()
         member x.Id = typeName s
-        member x.isComponent (u:Uri) = x.S.Contains(u.S)
+        member x.isComponent (u : Uri) = x.S.Contains(u.S)
     end
 
 type EntityType = 
@@ -28,14 +29,24 @@ type Range =
 
 type ObjectProperty = 
     { Uri : Uri
-      Range : Range }
+      Range : Range
+      ProvidedType : ProvidedTypeDefinition }
+
+type DataProperty = 
+    { Uri : Uri
+      ProvidedType : ProvidedTypeDefinition }
+
+type Instance = 
+    { Uri : Uri
+      ProvidedType : ProvidedTypeDefinition }
 
 type ClassDefinition = 
     { Uri : Uri
       SuperClasses : Uri list
       ObjectProperties : ObjectProperty seq
+      DataProperties : DataProperty seq
+      Instances : Instance seq
       SubClasses : Uri list
       ProvidedType : ProvidedTypeDefinition
-      EntityType : EntityType 
-      Statements : Rdf.Statement list
-      }
+      EntityType : EntityType
+      Statements : Rdf.Statement list }

@@ -7,3 +7,5 @@ type Node =
 
 type Statement = (Node * Node)
 
+type Triple = (Node * Node * Node)
+

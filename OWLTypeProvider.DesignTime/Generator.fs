@@ -46,7 +46,10 @@ let properties (c : Schema.ClassDefinition) (builder : Schema.Uri -> Schema.Clas
       let propertyType = ProvidedTypeDefinition("Properties", Some typeof<Object>)
       c.ProvidedType.AddMember propertyType
       for p in c.ObjectProperties do
-          propertyUriProperty p |> p.ProvidedType.AddMember
+          let range = (ProvidedTypeDefinition("Range",Some typeof<Object>))
+          range.AddMember (builder p.Range).ProvidedType
+          p.ProvidedType.AddMember range
+          p.ProvidedType.AddMember (propertyUriProperty p)
           propertyType.AddMember p.ProvidedType
           yield p.ProvidedType ]
 

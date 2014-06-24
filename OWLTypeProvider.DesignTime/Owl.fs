@@ -1,7 +1,0 @@
-﻿namespace Owl
-
-open System
-
-
-
-

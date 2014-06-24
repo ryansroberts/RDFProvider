@@ -24,13 +24,7 @@ type EntityType =
     | Property
 
 type Range = 
-    | Object of Uri
-    | Literal of Type
-
-type ObjectProperty = 
-    { Uri : Uri
-      Range : Range
-      ProvidedType : ProvidedTypeDefinition }
+    | Class of Uri
 
 type DataProperty = 
     { Uri : Uri
@@ -38,6 +32,12 @@ type DataProperty =
 
 type Instance = 
     { Uri : Uri
+      ProvidedType : ProvidedTypeDefinition }
+
+type ObjectProperty = 
+    { Uri : Uri
+      Range : Uri
+      Instances : Instance seq
       ProvidedType : ProvidedTypeDefinition }
 
 type ClassDefinition = 
@@ -48,5 +48,4 @@ type ClassDefinition =
       Instances : Instance seq
       SubClasses : Uri list
       ProvidedType : ProvidedTypeDefinition
-      EntityType : EntityType
       Statements : Rdf.Statement list }

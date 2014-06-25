@@ -81,6 +81,7 @@ let propertyRange (root:Uri) (conn :StardogConnector) =
         select distinct ?r
         where {
           <%s> rdfs:range ?r
+          FILTER ( ?p != owl:Thing && ?p != owl:Nothing) 
         }
     """ (string root)) conn |> oneTuple
 

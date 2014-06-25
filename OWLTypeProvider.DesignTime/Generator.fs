@@ -42,14 +42,20 @@ let rec generate c (builder : Schema.Uri -> Schema.Node) =
         node.ProvidedType.AddMember properties
         for uri in node.ObjectProperties do
             properties.AddMemberDelayed(fun () ->
-                let subNode = builder uri
-                generate (Entity.ObjectProperty(subNode)) builder
+                generate (Entity.ObjectProperty(builder uri)) builder
             )
         instances node
         node.ProvidedType
     | Entity.ObjectProperty(node) ->
         let uriStr = Expr.Value(string node.Uri)
         node.ProvidedType.AddMember <| ProvidedProperty("Uri", typeof<Rdf.Property>,GetterCode = (fun args -> <@@ Rdf.ObjectProperty(Rdf.Uri(System.Uri(%%(uriStr)))) @@>), IsStatic = true) 
+        let ranges = ProvidedTypeDefinition("Ranges",Some typeof<Object>)
+        for uri in node.Ranges do
+            ranges.AddMemberDelayed(fun () ->
+                generate (Entity.Class(builder uri)) builder
+            )
+        node.ProvidedType.AddMember <| ranges
+        
         subtypes node Entity.ObjectProperty
         instances node
         node.ProvidedType

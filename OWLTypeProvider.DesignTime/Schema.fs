@@ -32,3 +32,4 @@ type Entity =
     | Class of Node
     | ObjectProperty of Node
     | Instance of Node
+    | DataProperty of Node

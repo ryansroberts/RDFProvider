@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   <meta charset="utf-8">
+   <title>Charting World Bank data with F#</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Tomas Petricek">
+
+    <script src="http://code.jquery.com/jquery-1.8.0.js"></script>
+    <script src="http://code.jquery.com/ui/1.8.23/jquery-ui.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <link href="//cdn.jsdelivr.net/foundation/4.3.1/css/foundation.min.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet" type="text/css" />
+    <script src="page.js"></script>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <header id="top-header">
+    <div class="row">
+      <div class="twelve columns">
+        <h1><!-- [title] -->Charting World Bank data with F#<!-- [/title] --></h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- [body] -->
+  <style type="text/css">
+    .countryList input {
+      margin:0px 10px 0px 20px;
+    }
+    .countryList label {
+      margin-bottom:10px;
+      font-size:100%;
+    }
+  </style>
+  <div class="row">
+    <p>
+      Comparing university enrollment using F# type provider for the WorldBank data,
+      FunScript F# to JavaScript compiler with a type provider for TypeScript definitions
+      and Highcharts charting library for JavaScript.
+      Select countries you want to compare:
+    </p>
+  </div>
+
+  <div class="row">
+    <div class="large-1 columns">&#160;</div>
+    <div class="large-10 columns">
+      <div class="row">
+        <div class="small-4 columns countryList" id="countryList1">
+        </div>
+        <div class="small-4 columns countryList" id="countryList2">
+        </div>
+        <div class="small-4 columns countryList" id="countryList3">
+        </div>
+      </div>
+    </div>
+    <div class="large-1 columns">&#160;</div>
+  </div>
+
+
+  <div class="row">        
+
+  <h3>Chart updates automatically</h3>
+  <div id="chart">
+  </div>
+
+  </div>
+  <!-- [/body] -->
+
+  <div class="footer">
+    <p>&copy; Tomas Petricek (<a href="http://tomasp.net">tomasp.net</a>) 2012</p>
+  </div>
+
+  </body>
+</html>

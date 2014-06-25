@@ -15,14 +15,14 @@ let ns = "Owl"
 let asm = System.Reflection.Assembly.GetExecutingAssembly()
 let op = ProviderImplementation.ProvidedTypes.ProvidedTypeDefinition(asm, ns, "Ontology", Some(typeof<obj>))
 let (++) l r = System.IO.Path.Combine(l, r)
-let (connection) = Store.connectStarDog "http://localhost:5820" "Geo"
+let (store,connection) = Store.emptyStore "http://localhost:5820" "Nice"
 
-//(connection ()) |> Store.bootStrapFromFile (__SOURCE_DIRECTORY__ ++ "geospecies.rdf")
-//                                           (Uri "http://www.geonames.org/ontology")
+(connection ()) |> Store.bootStrapFromFile (__SOURCE_DIRECTORY__ ++ "combined.ttl")
+                                           (Uri "http://nice.org/ontology/")
 #load "Generator.fs"
 
 let map = 
-    [ ("geo", Schema.Uri "http://www.geonames.org/ontology#")
+    [ ("nice", Schema.Uri "http://nice.org/ontology/")
       ("owl", Schema.Uri "http://www.w3.org/2002/07/owl#") ]
 
 let root = Store.Node connection map (Schema.Uri "http://www.w3.org/2002/07/owl#Thing")

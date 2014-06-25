@@ -79,7 +79,7 @@ type Triple = Subject * Predicate * Object
 
 [<AutoOpen>]
 module Predicates = 
-    let a = Predicate.from "http://www.w3.org/1999/02/22-rdf-syntax-ns#Type"
+    let a = Predicate.from "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
 
 [<AutoOpen>]
 module Manipulation = 

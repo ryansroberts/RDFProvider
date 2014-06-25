@@ -9,27 +9,30 @@ open Rdf
 let server = "http://localhost:5820"
 
 [<Literal>]
-let store = "Geo"
+let store = "Nice"
 
 [<Literal>]
 let ontologyRoot = "http://www.w3.org/2002/07/owl#Thing"
 
 [<Literal>]
-let nsmap = """food:http://www.mooney.net/restaurant#,
-               owl:http://www.w3.org/2002/07/owl#,
-               tel:http://telegraphis.net/data/,
-               geo:http://www.geonames.org/ontology#"""
+let nsmap = """nice:http://nice.org/ontology/,
+               owl:http://www.w3.org/2002/07/owl#"""
               
 let assertTriples = LinkedData.assertTriples server store "admin" "admin" nsmap
 
-type geo = LinkedData.Stardog<server, store, ontologyRoot, nsmap>
+type nice = LinkedData.Stardog<server, store, ontologyRoot, nsmap>
 
-type code = geo.``owl:Thing``.``http://telegraphis.net/ontology/measurement/code#Code``
+type thing = nice.``owl:Thing``
+type guideline = thing.``nice:guideline``
+type evidenceStatement = thing.``nice:evidenceStatement``
+type discussion =  thing.``nice:discussion``
 
-
-
-type capital = geo.``owl:Thing``.``geo:Capital``
-
-statementsFor (Subject.from "http://www.geonames.org/ontology#New_Capital") [ (a, Object.from capital.Uri) ]
+statementsFor (Subject.from "http://nice.org.uk/guideline/CG15")
+    [(a , Object.from guideline.Uri)] @
+    [for i in [1..10] do
+     yield! statementsFor (Subject.from ("http://nice.org.uk/guideline/CG15/ST" + (string i))) 
+                          [(a, Object.from evidenceStatement.Uri)]
+    ]
+|> assertTriples
 
 

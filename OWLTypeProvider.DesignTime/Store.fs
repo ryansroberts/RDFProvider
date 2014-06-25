@@ -58,9 +58,9 @@ let subTypes (root : Uri) (conn : StardogConnector) =
         where {
             {?t rdfs:subClassOf <%s> .} UNION {?t rdfs:subPropertyOf <%s> . }
             OPTIONAL { ?t rdfs:label ?label } 
-           	FILTER ( ?t != owl:Thing && ?t != owl:Nothing && ?t != owl:bottomObjectProperty && ?t != owl:topObjectProperty ) 
+           	FILTER ( ?t != <%s> && ?t != owl:Thing && ?t != owl:Nothing && ?t != owl:bottomObjectProperty && ?t != owl:topObjectProperty ) 
         }
-    """ (string root) (string root)) conn |> oneTuple
+    """ (string root) (string root) (string root)) conn |> oneTuple
 
 let objectProperties (root : Uri) (conn : StardogConnector) = 
     inference (sprintf """

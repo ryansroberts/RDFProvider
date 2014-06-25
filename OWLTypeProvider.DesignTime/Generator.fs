@@ -14,60 +14,48 @@ let typeName (uri : string) =
     | fragment when not (String.IsNullOrEmpty fragment) -> fragment.Substring(1)
     | _ -> uri.Segments |> Seq.last
 
-let classUriProperty c = 
-    let uriStr = Expr.Value(string c.Uri)
-    ProvidedProperty
-        ("Uri", typeof<Rdf.Class>, GetterCode = (fun args -> <@@ Rdf.Class(Rdf.Uri(System.Uri(%%(uriStr)))) @@>), 
-         IsStatic = true)
+let rec generate c (builder : Schema.Uri -> Schema.Node) =
+    let instances node =
+        let instances = ProvidedTypeDefinition("Individuals",Some typeof<Object>)
+        instances.AddXmlDoc "A sample set of up to 100 individuals" 
+        node.ProvidedType.AddMember instances
+        for uri in node.Instances do 
+              instances.AddMemberDelayed(fun () ->
+                let subNode = builder uri
+                generate (Entity.Instance(subNode)) builder
+            )  
 
-let propertyUriProperty (p : ObjectProperty) = 
-    let uriStr = Expr.Value(string p.Uri)
-    ProvidedProperty
-        ("Uri", typeof<Rdf.Property>, 
-         GetterCode = (fun args -> <@@ Rdf.ObjectProperty(Rdf.Uri(System.Uri(%%(uriStr)))) @@>), IsStatic = true)
-
-let instanceUriProperty (i:Instance) =  
-    let uriStr = Expr.Value(string i.Uri)
-    ProvidedProperty
-        ("Uri", typeof<Rdf.Instance>, 
-         GetterCode = (fun args -> <@@ Rdf.Instance(Rdf.Uri(System.Uri(%%(uriStr)))) @@>), IsStatic = true) 
+    let subtypes node nodeType = 
+        for uri in node.SubClasses do
+        node.ProvidedType.AddMemberDelayed(fun () ->
+            let subNode = builder uri
+            generate (nodeType(subNode)) builder
+        )
 
 
-let instances (c : Schema.ClassDefinition) (builder : Schema.Uri -> Schema.ClassDefinition) = 
-    let instances = ProvidedTypeDefinition("Instances",Some typeof<Object>)
-    c.ProvidedType.AddMember instances
-    instances.AddMembersDelayed(fun () -> 
-        [ for i in c.Instances do
-              i.ProvidedType.AddMember (instanceUriProperty i)
-              yield i.ProvidedType ])
+    match c with 
+    | Entity.Class(node) -> 
+        let uriStr = Expr.Value(string node.Uri)
+        node.ProvidedType.AddMember <| ProvidedProperty("Uri", typeof<Rdf.Class>, GetterCode = (fun args -> <@@ Rdf.Class(Rdf.Uri(System.Uri(%%(uriStr)))) @@>),IsStatic = true)
+        subtypes node Entity.Class
+        let properties = ProvidedTypeDefinition("Properties", Some typeof<Object>)
+        node.ProvidedType.AddMember properties
+        for uri in node.ObjectProperties do
+            properties.AddMemberDelayed(fun () ->
+                let subNode = builder uri
+                generate (Entity.ObjectProperty(subNode)) builder
+            )
+        instances node
+        node.ProvidedType
+    | Entity.ObjectProperty(node) ->
+        let uriStr = Expr.Value(string node.Uri)
+        node.ProvidedType.AddMember <| ProvidedProperty("Uri", typeof<Rdf.Property>,GetterCode = (fun args -> <@@ Rdf.ObjectProperty(Rdf.Uri(System.Uri(%%(uriStr)))) @@>), IsStatic = true) 
+        subtypes node Entity.ObjectProperty
+        instances node
+        node.ProvidedType
+    | Entity.Instance(node) ->
+        let uriStr = Expr.Value(string node.Uri)
+        node.ProvidedType.AddMember <| ProvidedProperty("Uri", typeof<Rdf.Instance>,GetterCode = (fun args -> <@@ Rdf.Instance(Rdf.Uri(System.Uri(%%(uriStr)))) @@>), IsStatic = true)  
+        node.ProvidedType   
 
-let properties (c : Schema.ClassDefinition) (builder : Schema.Uri -> Schema.ClassDefinition) = 
-    [ classUriProperty c |> c.ProvidedType.AddMember
-      let propertyType = ProvidedTypeDefinition("Properties", Some typeof<Object>)
-      c.ProvidedType.AddMember propertyType
-      for p in c.ObjectProperties do
-          let range = (ProvidedTypeDefinition("Range",Some typeof<Object>))
-          range.AddMember (builder p.Range).ProvidedType
-          p.ProvidedType.AddMember range
-          p.ProvidedType.AddMember (propertyUriProperty p)
-          propertyType.AddMember p.ProvidedType
-          yield p.ProvidedType ]
-
-let dataProperties (c : Schema.ClassDefinition) = 
-    [ let propertyType = ProvidedTypeDefinition("Data", Some typeof<Object>)
-      c.ProvidedType.AddMember propertyType
-      for p in c.DataProperties do
-          propertyType.AddMember p.ProvidedType ]
-
-let generate (c : Schema.ClassDefinition) (builder : Schema.Uri -> Schema.ClassDefinition) = 
-    let rec generate c builder = 
-        properties c builder |> ignore
-        instances c builder
-        dataProperties c |> ignore
-        c.ProvidedType.HideObjectMethods <- true
-        for c' in c.SubClasses do
-            c.ProvidedType.AddMemberDelayed(fun () -> 
-                let subType = builder c'
-                generate subType builder
-                subType.ProvidedType)
-    generate c builder
+            

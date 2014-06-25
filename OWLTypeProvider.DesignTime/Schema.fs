@@ -23,29 +23,16 @@ type EntityType =
     | Individual
     | Property
 
-type Range = 
-    | Class of Uri
-
-type DataProperty = 
+type Node = 
     { Uri : Uri
-      ProvidedType : ProvidedTypeDefinition }
-
-type Instance = 
-    { Uri : Uri
-      ProvidedType : ProvidedTypeDefinition }
-
-type ObjectProperty = 
-    { Uri : Uri
-      Range : Uri
-      Instances : Instance seq
-      ProvidedType : ProvidedTypeDefinition }
-
-type ClassDefinition = 
-    { Uri : Uri
-      SuperClasses : Uri list
-      ObjectProperties : ObjectProperty seq
-      DataProperties : DataProperty seq
-      Instances : Instance seq
+      ObjectProperties : Uri list
+      DataProperties : Uri list
+      Instances : Uri list
       SubClasses : Uri list
-      ProvidedType : ProvidedTypeDefinition
-      Statements : Rdf.Statement list }
+      Ranges : Uri list
+      ProvidedType : ProvidedTypeDefinition }
+
+type Entity = 
+    | Class of Node
+    | ObjectProperty of Node
+    | Instance of Node

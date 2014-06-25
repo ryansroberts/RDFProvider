@@ -8,10 +8,14 @@ open VDS.RDF
 open System
 open System.Text.RegularExpressions
 open Microsoft.FSharp.Quotations
+open System.IO
 
 [<TypeProvider>]
 type OwlProvider(config : TypeProviderConfig) as x = 
     inherit TypeProviderForNamespaces()
+
+    do x.RegisterRuntimeAssemblyLocationAsProbingFolder(config)
+
     let ns = "LinkedData"
     let asm = Assembly.GetExecutingAssembly()
     let op = ProvidedTypeDefinition(asm, ns, "Stardog", Some(typeof<obj>))
@@ -41,7 +45,15 @@ type OwlProvider(config : TypeProviderConfig) as x =
           ("rdfs", Schema.Uri "http://www.w3.org/2000/01/rdf-schema#")
           ("rdf", Schema.Uri "http://www.w3.org/1999/02/22-rdf-syntax-ns#")
           ("xsd", Schema.Uri "http://www.w3.org/2001/XMLSchema#") ]
-    
+
+//    let assembly =          
+//            Reflection.Assembly.LoadFrom(
+//                if String.IsNullOrEmpty config.ResolutionFolder then "DotNetRdf.dll"
+//                else Path.GetFullPath(System.IO.Path.Combine(config.ResolutionFolder,"DotNetRdf.dll")))
+//    
+//    let stardogConnector =  (assembly.GetTypes() |> Array.find(fun t -> t.Name = "StardogConnector"))
+//    let reasoningMode    =  (assembly.GetTypes() |> Array.find(fun t -> t.Name = "StardogReasoningMode"))
+
     let connectionProperty connection ns = 
         let assrt = Store.assertTriples connection ns
         ProvidedMethod
@@ -57,17 +69,17 @@ type OwlProvider(config : TypeProviderConfig) as x =
                 printf "NSMAP %A" nsmap
                 let nsmap = (parse nsmap) @ defaultNs
                 printf "NAMESPACES %A\r\n" nsmap
-                let generateClass = Store.Claz connection nsmap
+                let generateClass = Store.Node connection nsmap
                 let root = generateClass (Schema.Uri baseUri)
-                Generator.generate root generateClass
+                
                 erasedType.AddMember(connectionProperty connection nsmap)
-                erasedType.AddMember root.ProvidedType
+                erasedType.AddMember (Generator.generate (Schema.Entity.Class(root)) generateClass)
                 erasedType
         op.DefineStaticParameters(parameters, init)
         op
     
     do 
-        x.RegisterRuntimeAssemblyLocationAsProbingFolder(config)
+        
         x.AddNamespace(ns, [ createOwl() ])
 
 [<TypeProviderAssembly>]

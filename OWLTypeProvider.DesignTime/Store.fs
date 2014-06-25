@@ -17,17 +17,23 @@ let emptyStore url =
     use server = new StardogV2Server(url, "admin", "admin")
     (fun store -> 
     if ((server.ListStores() |> Seq.exists ((=) store))) then do server.DeleteStore store
-    server.CreateStore(StardogMemTemplate(store, IcvEnabled = true, IcvReasoningMode = StardogReasoningMode.SL)) 
+    server.CreateStore(StardogDiskTemplate(store, IcvEnabled = true, IcvReasoningMode = StardogReasoningMode.SL)) 
     |> ignore
     (server, connectStarDog url store))
 
-let bootStrap (loadFrom : Uri) (baseUri : Uri) (c : StardogConnector) = 
+let bootStrapFromUri (loadFrom : Uri) (baseUri : Uri) (c : StardogConnector) = 
     use g = new Graph()
     g.LoadFromUri loadFrom
     g.BaseUri <- null
     c.UpdateGraph(g.BaseUri, g.Triples, [])
 
-let inference a (c : StardogConnector) = 
+let bootStrapFromFile (loadFrom : string) (baseUri : Uri) (c : StardogConnector) = 
+    use g = new Graph()
+    g.LoadFromFile(loadFrom)
+    g.BaseUri <- null
+    c.UpdateGraph(g.BaseUri, g.Triples, []) 
+
+let inference a (c : StardogConnector) =
     c.Reasoning <- StardogReasoningMode.SL
     c.Query a :?> SparqlResultSet
 
@@ -47,19 +53,14 @@ open Schema
 
 let subTypes (root : Uri) (conn : StardogConnector) =
     inference (sprintf """
-        prefix sp: <tag:stardog:api:property:>
-        select distinct ?uri  where {
-        ?uri sp:DirectSubClassOf <%s> .
+        prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        select distinct ?t ?label
+        where {
+            {?t rdfs:subClassOf <%s> .} UNION {?t rdfs:subPropertyOf <%s> . }
+            OPTIONAL { ?t rdfs:label ?label } 
+           	FILTER ( ?t != owl:Thing && ?t != owl:Nothing && ?t != owl:bottomObjectProperty && ?t != owl:topObjectProperty ) 
         }
-    """ (string root)) conn |> oneTuple
-
-let superTypes (root : Uri) (conn : StardogConnector) =
-     inference (sprintf """
-        prefix sp: <tag:stardog:api:property:>
-        select distinct ?uri  where {
-        <%s> sp:DirectClassOf ?uri .
-        }
-    """ (string root)) conn |> oneTuple
+    """ (string root) (string root)) conn |> oneTuple
 
 let objectProperties (root : Uri) (conn : StardogConnector) = 
     inference (sprintf """
@@ -69,6 +70,7 @@ let objectProperties (root : Uri) (conn : StardogConnector) =
         where {
           ?p a owl:ObjectProperty .
           ?p rdfs:domain <%s>
+          FILTER ( ?p != owl:Thing && ?p != owl:Nothing && ?p != owl:bottomObjectProperty && ?p != owl:topObjectProperty ) 
         }
     """ (string root)) conn |> oneTuple
 
@@ -93,13 +95,14 @@ let dataProperties (root : Uri) (conn : StardogConnector) =
         }
     """ (string root)) conn |> oneTuple
 
-let instances (root : Uri) (conn : StardogConnector) = 
+let sampleIndividuals (root : Uri) (conn : StardogConnector) = 
     inference (sprintf """
         SELECT ?entity
         WHERE {
           ?entity a ?type.
-          ?type rdfs:subClassOf* <%s>.
+          ?type rdfs:subClassOf <%s>.
         }
+        LIMIT 100 
     """ (string root)) conn |> oneTuple
 
 let typeName (ns : namespaceMappings) (uri : Schema.Uri) = 
@@ -133,33 +136,12 @@ let assertTriples (conn : unit -> StardogConnector) (ns : namespaceMappings) (tx
 
 open ProviderImplementation.ProvidedTypes
 
-let Claz (conn : unit -> StardogConnector) (ns : namespaceMappings) (uri : Schema.Uri) = 
+let Node (conn : unit -> StardogConnector) (ns : namespaceMappings) (uri : Schema.Uri) = 
     { Uri = uri
-      SuperClasses = superTypes uri (conn()) |> List.map nodeUri
-      ObjectProperties = 
-          [ for p in objectProperties uri (conn()) do
-                let pUri = nodeUri p
-                yield { Uri = pUri
-                        Range = nodeUri ((propertyRange pUri (conn ())) |> List.head)
-                        ProvidedType = ProvidedTypeDefinition(typeName ns pUri, Some typeof<obj>)
-                        Instances = 
-                            seq { 
-                                for i in instances pUri (conn()) do
-                                    yield { Uri = pUri
-                                            ProvidedType = ProvidedTypeDefinition(typeName ns pUri, Some typeof<obj>) }
-                            } } ]
-      DataProperties = 
-          [ for p in dataProperties uri (conn()) do
-                let pUri = nodeUri p
-                yield { Uri = pUri
-                        ProvidedType = ProvidedTypeDefinition(typeName ns pUri, Some typeof<obj>) } ]
-      Instances = 
-          seq { 
-              for p in instances uri (conn()) do
-                  let pUri = nodeUri p
-                  yield { Uri = pUri
-                          ProvidedType = ProvidedTypeDefinition(typeName ns pUri, Some typeof<obj>) }
-          }
-      SubClasses = subTypes uri (conn()) |> List.map nodeUri
+      ObjectProperties = [for p in objectProperties uri (conn()) do yield nodeUri p]
+      DataProperties = [for p in dataProperties uri (conn()) do yield nodeUri p]
+      Instances = [for p in sampleIndividuals uri (conn()) do yield nodeUri p ]
+      SubClasses = [for p in subTypes uri (conn()) do yield nodeUri p ]
+      Ranges     = [for p in propertyRange uri (conn()) do yield nodeUri p]
       ProvidedType = ProvidedTypeDefinition(typeName ns uri, Some typeof<obj>)
-      Statements = List.empty }
+    }

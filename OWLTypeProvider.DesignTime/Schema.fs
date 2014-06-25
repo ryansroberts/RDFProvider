@@ -18,10 +18,6 @@ type Uri(s : string) =
         member x.isComponent (u : Uri) = x.S.Contains(u.S)
     end
 
-type EntityType = 
-    | Class
-    | Individual
-    | Property
 
 type Node = 
     { Uri : Uri

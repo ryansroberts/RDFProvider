@@ -129,10 +129,11 @@ let toStorageTriple (g : Graph) (t : Rdf.Triple) =
     
     Triple(s, p, o)
 
+
 let assertTriples (conn : unit -> StardogConnector) (ns : namespaceMappings) (tx : Rdf.Triple list) = 
     use conn = conn()
     use g = new Graph()
-    conn.UpdateGraph("", tx |> List.map (toStorageTriple g), [])
+    conn.UpdateGraph(null :> string, tx |> List.map (toStorageTriple g), [])
 
 open ProviderImplementation.ProvidedTypes
 

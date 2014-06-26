@@ -1,4 +1,4 @@
-﻿module Store
+module Store
 
 open System.IO
 open System
@@ -12,34 +12,32 @@ open VDS.RDF.Query
 type namespaceMappings = (String * Schema.Uri) list
 
 let connectStarDog server store = 
-    (fun () -> new StardogConnector(server, store, StardogReasoningMode.RL, "admin", "admin") :> IQueryableStorage)
+    (fun () -> new StardogConnector(server, store, StardogReasoningMode.SL, "admin", "admin"))
 
-let emptyStardog url = 
+let emptyStore url = 
     use server = new StardogV2Server(url, "admin", "admin")
     (fun store -> 
     if ((server.ListStores() |> Seq.exists ((=) store))) then do server.DeleteStore store
-    server.CreateStore(StardogDiskTemplate(store, IcvEnabled = false, IcvReasoningMode = StardogReasoningMode.RL)) 
+    server.CreateStore(StardogDiskTemplate(store, IcvEnabled = true, IcvReasoningMode = StardogReasoningMode.SL)) 
     |> ignore
     (server, connectStarDog url store))
 
-let connectMemory () = (new InMemoryManager() :> IQueryableStorage)
-
-let bootStrapFromUri (loadFrom : Uri) (baseUri : Uri) (c : IStorageProvider) = 
+let bootStrapFromUri (loadFrom : Uri) (baseUri : Uri) (c : StardogConnector) = 
     use g = new Graph()
     g.LoadFromUri loadFrom
     g.BaseUri <- null
     c.UpdateGraph(g.BaseUri, g.Triples, [])
 
-let bootStrapFromFile (loadFrom : string) (baseUri : Uri) (c : IStorageProvider) = 
+let bootStrapFromFile (loadFrom : string) (baseUri : Uri) (c : StardogConnector) = 
     use g = new Graph()
     g.LoadFromFile(loadFrom)
     g.BaseUri <- null
     c.UpdateGraph(g.BaseUri, g.Triples, []) 
 
-let inference a (c : IQueryableStorage) =
-    printf "%s\r\n" a
+let inference a (c : StardogConnector) =
+    c.Reasoning <- StardogReasoningMode.SL
     c.Query a :?> SparqlResultSet
- 
+
 let oneTuple (rx : SparqlResultSet) = 
     [ for r in rx do
           yield (r.[0]) ]
@@ -101,13 +99,12 @@ let dataProperties root conn =
 
 let sampleIndividuals root conn = 
     inference (sprintf """
-        prefix sp: <tag:stardog:api:property:>
         SELECT ?entity
         WHERE {
           ?entity a ?type.
-          ?type sp:strictSubClassOf <%s>.
+          ?type rdfs:subClassOf <%s>.
         }
-        LIMIT 10 
+        LIMIT 100 
     """ (string root)) conn |> oneTuple
 
 let statements root conn = 
@@ -150,7 +147,7 @@ let assertTriples (conn : unit -> StardogConnector) (ns : namespaceMappings) (tx
 
 open ProviderImplementation.ProvidedTypes
 
-let Node (conn : unit -> IQueryableStorage) (ns : namespaceMappings) (uri : Schema.Uri) = 
+let Node (conn : unit -> StardogConnector) (ns : namespaceMappings) (uri : Schema.Uri) = 
     { Uri = uri
       ObjectProperties = [for p in objectProperties uri (conn()) do yield nodeUri p]
       DataProperties = [for p in dataProperties uri (conn()) do yield nodeUri p]

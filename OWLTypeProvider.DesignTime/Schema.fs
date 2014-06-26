@@ -18,6 +18,7 @@ type Uri(s : string) =
         member x.isComponent (u : Uri) = x.S.Contains(u.S)
     end
 
+type Statement = Uri * String
 
 type Node = 
     { Uri : Uri
@@ -26,7 +27,9 @@ type Node =
       Instances : Uri list
       SubClasses : Uri list
       Ranges : Uri list
-      ProvidedType : ProvidedTypeDefinition }
+      ProvidedType : ProvidedTypeDefinition
+      Statements : Statement list
+    }
 
 type Entity = 
     | Class of Node

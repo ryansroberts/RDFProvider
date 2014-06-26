@@ -49,6 +49,10 @@
       <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="PerfUtil">
+      <HintPath>..\packages\PerfUtil.0.1.5\lib\net40\PerfUtil.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
@@ -71,6 +75,7 @@
     <Compile Include="Provider.fs" />
     <None Include="packages.config" />
     <None Include="Script.fsx" />
+    <None Include="app.config" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

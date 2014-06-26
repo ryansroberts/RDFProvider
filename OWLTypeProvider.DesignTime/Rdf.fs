@@ -2,7 +2,7 @@
 
 type Uri = 
     | Uri of System.Uri
-    | Curie of string * string
+    | QName of string * string
     static member parse (s : string) = Uri.Uri(System.Uri(s))
 
 type Class = 
@@ -21,7 +21,8 @@ type Entity =
     | Instance of Instance
 
 type Literal = 
-    | Literal of obj
+    | Int of int
+    | String of string
 
 type Subject = 
     | Subject of Uri

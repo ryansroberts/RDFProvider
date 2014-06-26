@@ -1,0 +1,264 @@
+@prefix : <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#> .
+@prefix dc: <http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl#> .
+@prefix ng: <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#> .
+@prefix nqs: <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov-o-20130430#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.nice.org/nice_guideline> .
+
+<http://www.nice.org/nice_guideline> rdf:type owl:Ontology ;
+                                     
+                                     owl:imports <http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl> ,
+                                                 <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard> ,
+                                                 <http://www.w3.org/ns/prov-o#> .
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+<http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl> rdf:type owl:AnnotationProperty .
+
+
+
+<http://www.nice.org/nice_guideline#recommendationStrength> rdf:type owl:AnnotationProperty .
+
+
+
+<http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg> rdf:type owl:AnnotationProperty .
+
+
+
+<http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg> rdf:type owl:AnnotationProperty .
+
+
+
+<http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl> rdf:type owl:AnnotationProperty .
+
+
+
+<http://www.nice.org/nice_guideline#evidenceType> rdf:type owl:AnnotationProperty .
+
+
+
+<http://www.nice.org/nice_guideline#evidenceLevel> rdf:type owl:AnnotationProperty .
+
+
+
+<http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg> rdf:type owl:AnnotationProperty .
+
+
+
+
+
+#################################################################
+#
+#    Datatypes
+#
+#################################################################
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.nice.org/nice_guideline#follows
+
+<http://www.nice.org/nice_guideline#follows> rdf:type owl:ObjectProperty ;
+                                             
+                                             <http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg> "followsed" ;
+                                             
+                                             <http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl> "follows" ;
+                                             
+                                             <http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg> "followses" ;
+                                             
+                                             rdfs:range <http://www.nice.org/nice_guideline#recommendation> ;
+                                             
+                                             rdfs:domain <http://www.nice.org/nice_guideline#recommendation> .
+
+
+
+###  http://www.nice.org/nice_guideline#hasRationale
+
+<http://www.nice.org/nice_guideline#hasRationale> rdf:type owl:ObjectProperty ;
+                                                  
+                                                  <http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl> "hasRationale" ;
+                                                  
+                                                  <http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg> "hasRationales" ;
+                                                  
+                                                  <http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg> "hasRationaled" ;
+                                                  
+                                                  rdfs:range <http://www.nice.org/nice_guideline#rationale> ;
+                                                  
+                                                  rdfs:domain <http://www.nice.org/nice_guideline#topic> .
+
+
+
+###  http://www.nice.org/nice_guideline#isAbout
+
+<http://www.nice.org/nice_guideline#isAbout> rdf:type owl:ObjectProperty ;
+                                             
+                                             <http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg> "isAbouted" ;
+                                             
+                                             <http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg> "isAbouts" ;
+                                             
+                                             <http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl> "isAbout" ;
+                                             
+                                             rdfs:domain <http://www.nice.org/nice_guideline#discussion> ,
+                                                         <http://www.nice.org/nice_guideline#evidenceStatement> ,
+                                                         <http://www.nice.org/nice_guideline#recommendation> ;
+                                             
+                                             rdfs:range <http://www.nice.org/nice_guideline#topic> .
+
+
+
+###  http://www.nice.org/nice_guideline#isPartOf
+
+<http://www.nice.org/nice_guideline#isPartOf> rdf:type owl:ObjectProperty ;
+                                              
+                                              <http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg> "isPartOfed" ;
+                                              
+                                              <http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl> "isPartOf" ;
+                                              
+                                              <http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg> "isPartOfs" ;
+                                              
+                                              rdfs:range <http://www.nice.org/nice_guideline#guideline> ;
+                                              
+                                              rdfs:domain <http://www.nice.org/nice_guideline#topic> .
+
+
+
+###  http://www.nice.org/nice_guideline#isUsedBy
+
+<http://www.nice.org/nice_guideline#isUsedBy> rdf:type owl:ObjectProperty ;
+                                              
+                                              <http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg> "isUsedBied" ;
+                                              
+                                              <http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl> "isUsedBy" ;
+                                              
+                                              <http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg> "isUsedBies" ;
+                                              
+                                              rdfs:domain <http://www.nice.org/nice_guideline#recommendation> ;
+                                              
+                                              rdfs:range nqs:qualityStatement .
+
+
+
+###  http://www.nice.org/nice_guideline#summarises
+
+<http://www.nice.org/nice_guideline#summarises> rdf:type owl:ObjectProperty ;
+                                                
+                                                <http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl> "summarises" ;
+                                                
+                                                <http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg> "summariseses" ;
+                                                
+                                                <http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg> "summarisesed" .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.nice.org/nice_guideline#discussion
+
+<http://www.nice.org/nice_guideline#discussion> rdf:type owl:Class ;
+                                                
+                                                <http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg> "discussion" ;
+                                                
+                                                <http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl> "discussions" .
+
+
+
+###  http://www.nice.org/nice_guideline#evidenceStatement
+
+<http://www.nice.org/nice_guideline#evidenceStatement> rdf:type owl:Class ;
+                                                       
+                                                       <http://www.nice.org/nice_guideline#evidenceLevel> ""^^xsd:string ;
+                                                       
+                                                       <http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg> "evidenceStatement" ;
+                                                       
+                                                       <http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl> "evidenceStatements" .
+
+
+
+###  http://www.nice.org/nice_guideline#guideline
+
+<http://www.nice.org/nice_guideline#guideline> rdf:type owl:Class ;
+                                               
+                                               <http://purl.org/dc/elements/1.1/title> ""^^xsd:string ;
+                                               
+                                               <http://purl.org/dc/elements/1.1/identifier> ""^^xsd:string ;
+                                               
+                                               <http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl> "guidelines" ;
+                                               
+                                               <http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg> "guideline" .
+
+
+
+###  http://www.nice.org/nice_guideline#rationale
+
+<http://www.nice.org/nice_guideline#rationale> rdf:type owl:Class ;
+                                               
+                                               <http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg> "rationale" ;
+                                               
+                                               <http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl> "rationales" .
+
+
+
+###  http://www.nice.org/nice_guideline#recommendation
+
+<http://www.nice.org/nice_guideline#recommendation> rdf:type owl:Class ;
+                                                    
+                                                    <http://www.nice.org/nice_guideline#recommendationStrength> ""^^xsd:string ;
+                                                    
+                                                    <http://purl.org/dc/elements/1.1/title> ""^^xsd:string ;
+                                                    
+                                                    <http://purl.org/dc/elements/1.1/identifier> ""^^xsd:string ;
+                                                    
+                                                    <http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg> "recommendation" ;
+                                                    
+                                                    <http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl> "recommendations" .
+
+
+
+###  http://www.nice.org/nice_guideline#topic
+
+<http://www.nice.org/nice_guideline#topic> rdf:type owl:Class ;
+                                           
+                                           <http://purl.org/dc/elements/1.1/subject> ""^^xsd:string ;
+                                           
+                                           <http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg> "topic" ;
+                                           
+                                           <http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl> "topics" .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#qualityStatement
+
+nqs:qualityStatement <http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl> "qualityStatements" ;
+                     
+                     <http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg> "qualityStatement" .
+
+
+
+
+###  Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net
+

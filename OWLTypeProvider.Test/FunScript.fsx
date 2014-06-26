@@ -3,7 +3,6 @@
 #r "../OWLTypeProvider.DesignTime/bin/Debug/Newtonsoft.Json.dll"
 #r "../OWLTypeProvider.DesignTime/bin/Debug/OWLTypeProvider.DesignTime.dll"
 
-[<ReflectedDefinition>]
 module lol = 
     open Rdf
     [<Literal>]
@@ -16,14 +15,24 @@ module lol =
     let ontologyRoot = "http://www.w3.org/2002/07/owl#Thing"
 
     [<Literal>]
-    let nsmap = """nice:http://nice.org/ontology/,
-                   owl:http://www.w3.org/2002/07/owl#"""
+    let nsmap = """ng:http://www.nice.org/nice_guideline#,
+                   nqs:http://nice.org.uk/nice_quality_standard#,
+                   owl:http://www.w3.org/2002/07/owl#,
+                   prov:http://www.w3.org/ns/prov#"""
               
     let assertTriples = LinkedData.assertTriples server store "admin" "admin" nsmap
 
     type nice = LinkedData.Stardog<server, store, ontologyRoot, nsmap>
+    type ting = nice.``owl:Thing``
 
-    type thing = nice.``owl:Thing``
-    type guideline = thing.``nice:guideline``
-    type evidenceStatement = thing.``nice:evidenceStatement``
-    type discussion =  thing.``nice:discussion``
+
+    type qs = ting.``nqs:qualityStandard``
+    type guideline = ting.``ng:guideline``
+    type evidenceStatement = ting.``ng:evidenceStatement``
+    type isAbout = evidenceStatement.Properties.``ng:isAbout``
+    type topic = isAbout.Ranges.``ng:topic``
+    type hasRationale = topic.Properties.``ng:hasRationale``
+    
+
+    
+    

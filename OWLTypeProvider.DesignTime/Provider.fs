@@ -30,7 +30,38 @@ module Namespaces =
 open Namespaces
 
 [<TypeProvider>]
-type OwlProvider(config : TypeProviderConfig) as x = 
+type FileProvider(config: TypeProviderConfig) as x = 
+    inherit TypeProviderForNamespaces()
+    do x.RegisterRuntimeAssemblyLocationAsProbingFolder(config)
+    let ns = "LinkedData"
+    let asm = Assembly.GetExecutingAssembly()
+    let op = ProvidedTypeDefinition(asm, ns, "Files", Some(typeof<obj>))
+
+    let parameters = [ ProvidedStaticParameter("OntologyRoot", typeof<string>)
+                       ProvidedStaticParameter("NamespaceMappings", typeof<string>) ]
+            
+    let (++) l r = System.IO.Path.Combine(l, r)
+
+    let createOwl() = 
+        let init (typeName : string) (parameterValues : obj []) = 
+            match parameterValues with
+            | [|:? string as baseUri; :? string as nsmap |] -> 
+                let erasedType = ProvidedTypeDefinition(asm, ns, typeName, Some(typeof<obj>))
+                let connection = Store.connectMemory 
+                let nsmap = (parse nsmap) @ defaultNs
+                let generateClass = Store.Node (connection) nsmap
+                let root = generateClass (Schema.Uri baseUri)
+                erasedType.AddMember(Generator.generate (Schema.Entity.Class(root)) generateClass)
+                erasedType
+               
+        op.DefineStaticParameters(parameters, init)
+        op
+    
+    do x.AddNamespace(ns, [ createOwl() ])
+
+
+[<TypeProvider>]
+type StardogProvider(config : TypeProviderConfig) as x = 
     inherit TypeProviderForNamespaces()
     do x.RegisterRuntimeAssemblyLocationAsProbingFolder(config)
     let ns = "LinkedData"
@@ -42,9 +73,6 @@ type OwlProvider(config : TypeProviderConfig) as x =
           ProvidedStaticParameter("Store", typeof<string>)
           ProvidedStaticParameter("OntologyRoot", typeof<string>)
           ProvidedStaticParameter("NamespaceMappings", typeof<string>) ]
-    
-    let (++) l r = System.IO.Path.Combine(l, r)
-
     
  
     let createOwl() = 

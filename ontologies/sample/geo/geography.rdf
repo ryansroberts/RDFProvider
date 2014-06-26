@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dbpprop="http://dbpedia.org/property/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geographis="http://www.telegraphis.net/ontology/geography/geography#" xmlns:gn="http://www.geonames.org/ontology#" xmlns:lingvoj="http://www.lingvoj.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:quantity="http://www.telegraphis.net/ontology/measurement/quantity#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <owl:Ontology rdf:about="http://www.telegraphis.net/ontology/geography/geography#">
+    <dc:creator rdf:resource="http://www.pipian.com/people/pipian/card#me"/>
+    <dc:description xml:lang="en">The Geographis Ontology serves as a sort of extension to existing geographic ontologies.</dc:description>
+    <dc:title>Geographis Ontology</dc:title>
+  </owl:Ontology>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#Country">
+    <owl:equivalentClass rdf:resource="http://downlode.org/rdf/iso-3166/schema#Country"/>
+    <owl:equivalentClass rdf:resource="http://psi.oasis-open.org/iso/3166/#country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://psi.oasis-open.org/iso/3166/#country">
+    <owl:equivalentClass rdf:resource="http://www.geonames.org/ontology#Country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://downlode.org/rdf/iso-3166/schema#Country">
+    <owl:equivalentClass rdf:resource="http://www.geonames.org/ontology#Country"/>
+  </rdf:Description>
+  <owl:ObjectProperty rdf:about="http://www.telegraphis.net/ontology/geography/geography#landArea">
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+    <rdfs:label xml:lang="en">land area</rdfs:label>
+    <rdfs:range rdf:resource="http://www.telegraphis.net/ontology/measurement/quantity#Area"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.telegraphis.net/ontology/measurement/quantity#area"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.telegraphis.net/ontology/geography/geography#capital">
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+    <rdfs:label xml:lang="en">capital</rdfs:label>
+    <rdfs:range rdf:resource="http://www.telegraphis.net/ontology/geography/geography#Capital"/>
+    <owl:inverseProperty rdf:resource="http://www.telegraphis.net/ontology/geography/geography#capitalOf"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.telegraphis.net/ontology/geography/geography#officialCapital">
+    <rdfs:label xml:lang="en">official capital</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://www.telegraphis.net/ontology/geography/geography#capital"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.telegraphis.net/ontology/geography/geography#defactoCapital">
+    <rdfs:label xml:lang="en">de facto capital</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://www.telegraphis.net/ontology/geography/geography#capital"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.telegraphis.net/ontology/geography/geography#administrativeCapital">
+    <rdfs:label xml:lang="en">administrative capital</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://www.telegraphis.net/ontology/geography/geography#capital"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.telegraphis.net/ontology/geography/geography#judicialCapital">
+    <rdfs:label xml:lang="en">judicial capital</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://www.telegraphis.net/ontology/geography/geography#capital"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.telegraphis.net/ontology/geography/geography#legislativeCapital">
+    <rdfs:label xml:lang="en">legislative capital</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://www.telegraphis.net/ontology/geography/geography#capital"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.telegraphis.net/ontology/geography/geography#onContinent">
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Feature"/>
+    <rdfs:label xml:lang="en">on continent</rdfs:label>
+    <rdfs:range rdf:resource="http://www.telegraphis.net/ontology/geography/geography#Continent"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.telegraphis.net/ontology/geography/geography#language">
+    <rdfs:label xml:lang="en">language</rdfs:label>
+    <rdfs:range rdf:resource="http://www.lingvoj.org/ontology#Lingvo"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.telegraphis.net/ontology/geography/geography#officialLanguage">
+    <rdfs:label xml:lang="en">official language</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://www.telegraphis.net/ontology/geography/geography#language"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.telegraphis.net/ontology/geography/geography#defactoLanguage">
+    <rdfs:label xml:lang="en">de facto language</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://www.telegraphis.net/ontology/geography/geography#language"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://www.telegraphis.net/ontology/geography/geography#isoAlpha2">
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Country"/>
+    <rdfs:label xml:lang="en">ISO-3166-1 alpha-2 code</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:equivalentProperty rdf:resource="http://downlode.org/rdf/iso-3166/schema#alpha_2"/>
+    <owl:equivalentProperty rdf:resource="http://psi.oasis-open.org/iso/3166/#code-a2"/>
+  </owl:DatatypeProperty>
+  <rdf:Description rdf:about="http://psi.oasis-open.org/iso/3166/#code-a2">
+    <owl:equivalentProperty rdf:resource="http://www.telegraphis.net/ontology/geography/geography#isoAlpha2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://downlode.org/rdf/iso-3166/schema#alpha_2">
+    <owl:equivalentProperty rdf:resource="http://www.telegraphis.net/ontology/geography/geography#isoAlpha2"/>
+  </rdf:Description>
+  <owl:DatatypeProperty rdf:about="http://www.telegraphis.net/ontology/geography/geography#isoAlpha3">
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Country"/>
+    <rdfs:label xml:lang="en">ISO-3166-1 alpha-3 code</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:equivalentProperty rdf:resource="http://downlode.org/rdf/iso-3166/schema#alpha_3"/>
+    <owl:equivalentProperty rdf:resource="http://psi.oasis-open.org/iso/3166/#code-a3"/>
+  </owl:DatatypeProperty>
+  <rdf:Description rdf:about="http://psi.oasis-open.org/iso/3166/#code-a3">
+    <owl:equivalentProperty rdf:resource="http://www.telegraphis.net/ontology/geography/geography#isoAlpha3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://downlode.org/rdf/iso-3166/schema#alpha_3">
+    <owl:equivalentProperty rdf:resource="http://www.telegraphis.net/ontology/geography/geography#isoAlpha3"/>
+  </rdf:Description>
+  <owl:DatatypeProperty rdf:about="http://www.telegraphis.net/ontology/geography/geography#isoNumeric">
+    <rdfs:domain rdf:resource="http://www.geonames.org/ontology#Country"/>
+    <rdfs:label xml:lang="en">ISO-3166-1 numeric code</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:equivalentProperty rdf:resource="http://psi.oasis-open.org/iso/3166/#code-a3"/>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="http://www.telegraphis.net/ontology/geography/geography#Continent">
+    <rdfs:label xml:lang="en">continent</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.telegraphis.net/ontology/geography/geography#Capital">
+    <rdfs:label xml:lang="en">capital</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.telegraphis.net/ontology/geography/geography#capitalOf">
+    <rdfs:domain rdf:resource="http://www.telegraphis.net/ontology/geography/geography#Capital"/>
+    <rdfs:label xml:lang="en">capital of</rdfs:label>
+    <owl:inverseProperty rdf:resource="http://www.telegraphis.net/ontology/geography/geography#capital"/>
+  </owl:ObjectProperty>
+</rdf:RDF>

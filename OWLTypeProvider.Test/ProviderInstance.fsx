@@ -16,7 +16,8 @@ let ontologyRoot = "http://www.w3.org/2002/07/owl#Thing"
 
 [<Literal>]
 let nsmap = """nice:http://nice.org/ontology/,
-               owl:http://www.w3.org/2002/07/owl#"""
+               owl:http://www.w3.org/2002/07/owl#,
+               prov:http://www.w3.org/ns/prov#"""
               
 let assertTriples = LinkedData.assertTriples server store "admin" "admin" nsmap
 
@@ -27,6 +28,8 @@ type guideline = thing.``nice:guideline``
 type evidenceStatement = thing.``nice:evidenceStatement``
 type discussion =  thing.``nice:discussion``
 
+thing.Individuals.``http://nice.org.uk/guideline/CG15``.Statements
+
 statementsFor (Subject.from "http://nice.org.uk/guideline/CG15")
     [(a , Object.from guideline.Uri)] @
     [for i in [1..10] do
@@ -34,5 +37,6 @@ statementsFor (Subject.from "http://nice.org.uk/guideline/CG15")
                           [(a, Object.from evidenceStatement.Uri)]
     ]
 |> assertTriples
+
 
 

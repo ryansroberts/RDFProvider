@@ -49,7 +49,6 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
-    <None Include="Wine.rdf" />
     <None Include="ProviderInstance.fsx" />
     <Compile Include="Runtime.fs" />
     <Compile Include="Float.fs" />

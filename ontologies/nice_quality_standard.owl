@@ -21,9 +21,9 @@
 
 :isPartOf rdf:type owl:ObjectProperty ;
           
-          rdfs:range :qualityStandard ;
+          rdfs:range :QualityStandard ;
           
-          rdfs:domain :qualityStatement .
+          rdfs:domain :QualityStatement .
 
 
 
@@ -36,15 +36,15 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#qualityStandard
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStandard
 
-:qualityStandard rdf:type owl:Class .
+:QualityStandard rdf:type owl:Class .
 
 
 
-###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#qualityStatement
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStatement
 
-:qualityStatement rdf:type owl:Class .
+:QualityStatement rdf:type owl:Class .
 
 
 

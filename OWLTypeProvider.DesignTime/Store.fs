@@ -7,6 +7,7 @@ open VDS.RDF.Storage
 open VDS.RDF.Storage.Management
 open VDS.RDF.Storage.Management.Provisioning.Stardog
 open VDS.RDF.Query
+open VDS.RDF.Parsing.Handlers
 
 
 type namespaceMappings = (String * Schema.Uri) list
@@ -24,6 +25,11 @@ let emptyStardog url =
 
 let connectMemory () = (new InMemoryManager() :> IQueryableStorage)
 
+let connectRemote uri = (new SparqlRemoteEndpoint(System.Uri uri))
+
+
+
+
 let bootStrapFromUri (loadFrom : Uri) (baseUri : Uri) (c : IStorageProvider) = 
     use g = new Graph()
     g.LoadFromUri loadFrom
@@ -36,9 +42,25 @@ let bootStrapFromFile (loadFrom : string) (baseUri : Uri) (c : IStorageProvider)
     g.BaseUri <- null
     c.UpdateGraph(g.BaseUri, g.Triples, []) 
 
-let inference a (c : IQueryableStorage) =
-    printf "%s\r\n" a
-    c.Query a :?> SparqlResultSet
+let inline memo f =
+    let dict = new System.Collections.Generic.Dictionary<String,_>()
+    fun a b ->
+        match dict.TryGetValue(string a) with
+        | (true, v) -> v
+        | _ ->
+            let temp = f a b
+            dict.Add((string a), temp)
+            temp
+
+let inference a c =
+    use g = new Graph()
+    let rdfhandler = GraphHandler(g)
+    let resultset = new SparqlResultSet() 
+    let reshandler = ResultSetHandler(resultset)
+    c(rdfhandler,reshandler,a)
+    resultset
+
+let cachedinference = memo inference
  
 let oneTuple (rx : SparqlResultSet) = 
     [ for r in rx do
@@ -55,9 +77,9 @@ let threeTuple (rx : SparqlResultSet) =
 open Schema
 
 let subTypes root conn =
-    inference (sprintf """
+    cachedinference (sprintf """
         prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-        select distinct ?t ?label
+        select distinct ?t 
         where {
             {?t rdfs:subClassOf <%s> .} UNION {?t rdfs:subPropertyOf <%s> . }
             OPTIONAL { ?t rdfs:label ?label } 
@@ -66,7 +88,7 @@ let subTypes root conn =
     """ (string root) (string root) (string root)) conn |> oneTuple
 
 let objectProperties root conn = 
-    inference (sprintf """
+    cachedinference (sprintf """
         prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         prefix owl:  <http://www.w3.org/2002/07/owl#>
         select distinct ?p 
@@ -78,7 +100,7 @@ let objectProperties root conn =
     """ (string root)) conn |> oneTuple
 
 let propertyRange root conn =
-    inference (sprintf """
+    cachedinference (sprintf """
     prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         prefix owl:  <http://www.w3.org/2002/07/owl#>
         select distinct ?r
@@ -89,29 +111,32 @@ let propertyRange root conn =
     """ (string root)) conn |> oneTuple
 
 let dataProperties root conn = 
-    inference (sprintf """
+    cachedinference (sprintf """
         PREFIX owl: <http://www.w3.org/2002/07/owl#>
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-        SELECT ?p
+        SELECT ?p ?t
         WHERE {
              ?p rdfs:domain <%s> ; a owl:DatatypeProperty .
+             ?p rdfs:range ?t
+
         }
-    """ (string root)) conn |> oneTuple
+    """ (string root)) conn |> twoTuple 
 
 let sampleIndividuals root conn = 
-    inference (sprintf """
-        prefix sp: <tag:stardog:api:property:>
+    cachedinference (sprintf """
+        PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         SELECT ?entity
         WHERE {
           ?entity a ?type.
-          ?type sp:strictSubClassOf <%s>.
+          ?type rdfs:subClassOf* <%s>.
         }
         LIMIT 10 
     """ (string root)) conn |> oneTuple
 
 let statements root conn = 
-    inference (sprintf """
+    cachedinference (sprintf """
         SELECT ?o ?s
         WHERE {
           <%s> ?o ?s
@@ -150,13 +175,16 @@ let assertTriples (conn : unit -> StardogConnector) (ns : namespaceMappings) (tx
 
 open ProviderImplementation.ProvidedTypes
 
-let Node (conn : unit -> IQueryableStorage) (ns : namespaceMappings) (uri : Schema.Uri) = 
+let Node (query) (ns : namespaceMappings) (uri : Schema.Uri) = 
     { Uri = uri
-      ObjectProperties = [for p in objectProperties uri (conn()) do yield nodeUri p]
-      DataProperties = [for p in dataProperties uri (conn()) do yield nodeUri p]
-      Instances = [for p in sampleIndividuals uri (conn()) do yield nodeUri p ]
-      SubClasses = [for p in subTypes uri (conn()) do yield nodeUri p ]
-      Ranges     = [for p in propertyRange uri (conn()) do yield nodeUri p]
-      Statements =  [for (s,o) in statements uri (conn()) do yield (nodeUri s,string o)]
+      ObjectProperties = [for p in objectProperties uri (query) do yield nodeUri p]
+      DataProperties = [for (p,t) in dataProperties uri (query) do 
+                        yield {
+                            Uri= nodeUri p;
+                            XsdType = typeName ns (nodeUri t)}]
+      Instances = [for p in sampleIndividuals uri (query) do yield nodeUri p ]
+      SubClasses = [for p in subTypes uri (query) do yield nodeUri p ]
+      Ranges     = [for p in propertyRange uri (query) do yield nodeUri p]
+      Statements =  [for (s,o) in statements uri (query) do yield (typeName ns (nodeUri s),string o)]
       ProvidedType = ProvidedTypeDefinition(typeName ns uri, Some typeof<obj>)
     }

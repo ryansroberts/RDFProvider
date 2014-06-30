@@ -31,20 +31,33 @@ let rec generate c (builder : Schema.Uri -> Schema.Node) =
                 generate (nodeType (subNode)) builder)
     
     let uriProp node t = 
+        let uri = Rdf.Uri(string node.Uri)
         node.ProvidedType.AddMember 
         <| ProvidedProperty
-               ("Uri", typeof<Rdf.Class>, 
-                GetterCode = (fun args -> <@@ t (Rdf.Uri(System.Uri(%%(Expr.Value(string node.Uri))))) @@>), 
+               ("Uri", typeof<Rdf.Uri>, 
+                GetterCode = (fun args -> <@@ uri @@>), 
                 IsStatic = true)
+
+    let dataProperties node = 
+        let dataProperties = ProvidedTypeDefinition("DataProperties" , Some typeof<obj>)
+        node.ProvidedType.AddMember dataProperties
+        for p in node.DataProperties do
+            dataProperties.AddMemberDelayed (fun () ->
+                let dataType = mapXsdToType (typeName(string p.Uri))
+                ProvidedProperty(typeName (string p.Uri),typedefof<list<_>>.MakeGenericType [|dataType|],
+                    GetterCode = (fun args -> <@@ [] @@>),IsStatic = true )
+            )
+
     match c with
     | Entity.Class(node) -> 
         uriProp node Rdf.Class
         subtypes node Entity.Class
-        let properties = ProvidedTypeDefinition("Properties", Some typeof<obj>)
+        let properties = ProvidedTypeDefinition("ObjectProperties", Some typeof<obj>)
         node.ProvidedType.AddMember properties
         for uri in node.ObjectProperties do
             properties.AddMemberDelayed(fun () -> generate (Entity.ObjectProperty(builder uri)) builder)
         instances node
+        dataProperties node 
         node.ProvidedType
     | Entity.ObjectProperty(node) -> 
         uriProp node Rdf.ObjectProperty
@@ -53,13 +66,18 @@ let rec generate c (builder : Schema.Uri -> Schema.Node) =
             ranges.AddMemberDelayed(fun () -> generate (Entity.Class(builder uri)) builder)
         node.ProvidedType.AddMember <| ranges
         subtypes node Entity.ObjectProperty
+        dataProperties node
         instances node
         node.ProvidedType
     | Entity.Instance(node) -> 
         let uriStr = Expr.Value(string node.Uri)
         uriProp node Rdf.Instance
-        node.ProvidedType.AddMemberDelayed(fun () ->
-            let statements = node.Statements |> List.map (fun (p, o) -> ((Predicate.from (string p)), Rdf.Object.from o))
-            ProvidedProperty("Statements", typeof<Statement list>, GetterCode = (fun args -> <@@ statements @@>), IsStatic = true)
-        )
+        let statements = node.Statements |> List.map (fun (p, o) -> ((Predicate.from (string p)), Rdf.Object.from o))
+        node.ProvidedType.AddMember <| ProvidedProperty("Statements", typeof<Rdf.Statement list>, GetterCode = (fun args -> <@@ statements @@>), IsStatic = true)
+
+        let statements = statements |> Map.ofList
+        
+
+
+
         node.ProvidedType

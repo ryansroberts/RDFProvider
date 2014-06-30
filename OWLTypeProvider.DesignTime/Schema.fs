@@ -18,12 +18,18 @@ type Uri(s : string) =
         member x.isComponent (u : Uri) = x.S.Contains(u.S)
     end
 
-type Statement = Uri * String
+type Statement = String * String
+
+
+type DataProperty = {
+    Uri : Uri
+    XsdType : String
+}
 
 type Node = 
     { Uri : Uri
       ObjectProperties : Uri list
-      DataProperties : Uri list
+      DataProperties : DataProperty list
       Instances : Uri list
       SubClasses : Uri list
       Ranges : Uri list

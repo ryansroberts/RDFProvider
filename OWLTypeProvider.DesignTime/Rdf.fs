@@ -1,9 +1,9 @@
 ﻿namespace Rdf
 
+
 type Uri = 
-    | Uri of System.Uri
+    | Uri of string
     | QName of string * string
-    static member parse (s : string) = Uri.Uri(System.Uri(s))
 
 type Class = 
     | Class of Uri
@@ -23,10 +23,9 @@ type Entity =
 type Literal = 
     | Int of int
     | String of string
-
+        
 type Subject = 
     | Subject of Uri
-    static member from uri = Subject(Uri.parse (uri))
     static member from uri = Subject(Uri.Uri(uri))
     
     static member from c = 
@@ -43,7 +42,6 @@ type Subject =
 
 type Predicate = 
     | Predicate of Uri
-    static member from uri = Predicate(Uri.parse (uri))
     static member from uri = Predicate(Uri.Uri(uri))
     static member from c = 
         match c with
@@ -60,7 +58,6 @@ type Predicate =
 type Object = 
     | Uri of Uri
     | Literal of Literal
-    static member from uri = Object.Uri(Uri.parse (uri))
     static member from uri = Object.Uri(Uri.Uri(uri))
     static member from c = 
         match c with
@@ -77,6 +74,13 @@ type Object =
 type Statement = Predicate * Object
 
 type Triple = Subject * Predicate * Object
+
+[<AutoOpen>]
+module XsdMap =
+    let mapXsdToType = function
+        | "xsd:string" -> typeof<System.String>
+        | "xsd:integer" -> typeof<int>
+        | _ -> typeof<System.String>
 
 [<AutoOpen>]
 module Predicates = 

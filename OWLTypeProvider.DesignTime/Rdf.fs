@@ -1,4 +1,4 @@
-﻿namespace Rdf
+﻿namespace Owl
 
 
 type Uri = 
@@ -26,6 +26,7 @@ type Literal =
         
 type Subject = 
     | Subject of Uri
+    static member from uri = Subject(uri)
     static member from uri = Subject(Uri.Uri(uri))
     
     static member from c = 
@@ -42,6 +43,7 @@ type Subject =
 
 type Predicate = 
     | Predicate of Uri
+    static member from uri = Predicate(uri)
     static member from uri = Predicate(Uri.Uri(uri))
     static member from c = 
         match c with
@@ -58,7 +60,9 @@ type Predicate =
 type Object = 
     | Uri of Uri
     | Literal of Literal
-    static member from uri = Object.Uri(Uri.Uri(uri))
+    static member from uri = Object.Uri(uri)
+    static member from i = Object.Literal(Literal.Int(i))
+    static member from s = Object.Literal(Literal.String(s))
     static member from c = 
         match c with
         | Class.Class(uri) -> Object.Uri(uri)

@@ -7,7 +7,7 @@
 #load "Schema.fs"
 #load "Store.fs"
 
-open Rdf
+open Owl
 open System.IO
 open System
 

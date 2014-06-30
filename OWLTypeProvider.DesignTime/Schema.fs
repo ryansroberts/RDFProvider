@@ -33,6 +33,7 @@ type Node =
       Instances : Uri list
       SubClasses : Uri list
       Ranges : Uri list
+      InRangeOf : Uri list
       ProvidedType : ProvidedTypeDefinition
       Statements : Statement list
     }

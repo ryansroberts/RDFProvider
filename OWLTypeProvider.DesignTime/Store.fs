@@ -99,6 +99,18 @@ let objectProperties root conn =
         }
     """ (string root)) conn |> oneTuple
 
+let inRangeOf root conn = 
+    cachedinference (sprintf """
+        prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        prefix owl:  <http://www.w3.org/2002/07/owl#>
+        select distinct ?p 
+        where {
+          ?p a owl:ObjectProperty .
+          ?p rdfs:range <%s>
+          FILTER ( ?p != owl:Thing && ?p != owl:Nothing && ?p != owl:bottomObjectProperty && ?p != owl:topObjectProperty ) 
+        }
+    """ (string root)) conn |> oneTuple 
+
 let propertyRange root conn =
     cachedinference (sprintf """
     prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -150,25 +162,25 @@ let typeName (ns : namespaceMappings) (uri : Schema.Uri) =
 
 let nodeUri (n : INode) = Uri(string (n :?> UriNode).Uri)
 
-let toStorageTriple (g : Graph) (t : Rdf.Triple) = 
+let toStorageTriple (g : Graph) (t : Owl.Triple) = 
     let (s, p, o) = t
     
     let s = 
         match s with
-        | Rdf.Subject(Rdf.Uri uri) -> g.CreateUriNode(uri)
+        | Owl.Subject(Owl.Uri uri) -> g.CreateUriNode(uri)
     
     let p = 
         match p with
-        | Rdf.Predicate(Rdf.Uri uri) -> g.CreateUriNode(uri)
+        | Owl.Predicate(Owl.Uri uri) -> g.CreateUriNode(uri)
     
     let o = 
         match o with
-        | Rdf.Object.Uri(Rdf.Uri uri) -> g.CreateUriNode(uri)
+        | Owl.Object.Uri(Owl.Uri uri) -> g.CreateUriNode(uri)
     
     Triple(s, p, o)
 
 
-let assertTriples (conn : unit -> StardogConnector) (ns : namespaceMappings) (tx : Rdf.Triple list) = 
+let assertTriples (conn : unit -> StardogConnector) (ns : namespaceMappings) (tx : Owl.Triple list) = 
     use conn = conn()
     use g = new Graph()
     conn.UpdateGraph(null :> string, tx |> List.map (toStorageTriple g), [])
@@ -182,9 +194,10 @@ let Node (query) (ns : namespaceMappings) (uri : Schema.Uri) =
                         yield {
                             Uri= nodeUri p;
                             XsdType = typeName ns (nodeUri t)}]
-      Instances = [for p in sampleIndividuals uri (query) do yield nodeUri p ]
-      SubClasses = [for p in subTypes uri (query) do yield nodeUri p ]
-      Ranges     = [for p in propertyRange uri (query) do yield nodeUri p]
-      Statements =  [for (s,o) in statements uri (query) do yield (typeName ns (nodeUri s),string o)]
+      Instances    = [for p in sampleIndividuals uri (query) do yield nodeUri p ]
+      SubClasses   = [for p in subTypes uri (query) do yield nodeUri p ]
+      Ranges       = [for p in propertyRange uri (query) do yield nodeUri p]
+      InRangeOf    = [for p in inRangeOf uri (query) do yield nodeUri p]
+      Statements   = [for (s,o) in statements uri (query) do yield (typeName ns (nodeUri s),string o)]
       ProvidedType = ProvidedTypeDefinition(typeName ns uri, Some typeof<obj>)
     }

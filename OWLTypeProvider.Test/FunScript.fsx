@@ -3,7 +3,9 @@
 #r "../OWLTypeProvider.DesignTime/bin/Debug/Newtonsoft.Json.dll"
 #r "../OWLTypeProvider.DesignTime/bin/Debug/OWLTypeProvider.DesignTime.dll"
 
-open Rdf
+open Owl
+
+module 
 [<Literal>]
 let server = "http://localhost:5820"
 

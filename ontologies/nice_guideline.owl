@@ -1,0 +1,217 @@
+@prefix : <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#> .
+@prefix ng: <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov-o-20130430#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline> .
+
+<http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline> rdf:type owl:Ontology ;
+                                                                        
+                                                                        owl:imports <http://www.w3.org/ns/prov-o#> .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#follows
+
+:follows rdf:type owl:ObjectProperty ;
+         
+         rdfs:domain :Recommendation ;
+         
+         rdfs:range :Recommendation .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#hasRationale
+
+:hasRationale rdf:type owl:ObjectProperty ;
+              
+              rdfs:range :Rationale ;
+              
+              rdfs:domain :Topic .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isAbout
+
+:isAbout rdf:type owl:ObjectProperty ;
+         
+         rdfs:domain :Discussion ,
+                     :EvidenceStatement ,
+                     :Recommendation ;
+         
+         rdfs:range :Topic .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isPartOf
+
+:isPartOf rdf:type owl:ObjectProperty ;
+          
+          rdfs:range :Guideline ;
+          
+          rdfs:domain :Topic .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isUsedBy
+
+:isUsedBy rdf:type owl:ObjectProperty ;
+          
+          rdfs:domain :Recommendation .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#summarises
+
+:summarises rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#supportedBy
+
+:supportedBy rdf:type owl:ObjectProperty ;
+             
+             rdfs:range :EvidenceStatement ;
+             
+             rdfs:domain :Recommendation .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#evidenceLevel
+
+:evidenceLevel rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :EvidenceStatement ;
+               
+               rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#evidenceType
+
+:evidenceType rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :EvidenceStatement ;
+              
+              rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#identifier
+
+:identifier rdf:type owl:DatatypeProperty ;
+            
+            rdfs:domain :Guideline ,
+                        :Recommendation ;
+            
+            rdfs:range xsd:anyURI .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#recommendationStrength
+
+:recommendationStrength rdf:type owl:DatatypeProperty ;
+                        
+                        rdfs:domain :Recommendation ;
+                        
+                        rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#subject
+
+:subject rdf:type owl:DatatypeProperty ;
+         
+         rdfs:domain :Topic ;
+         
+         rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#title
+
+:title rdf:type owl:DatatypeProperty ;
+       
+       rdfs:domain :Guideline ,
+                   :Recommendation ;
+       
+       rdfs:range xsd:string .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Discussion
+
+:Discussion rdf:type owl:Class ;
+            
+            rdfs:subClassOf <http://www.w3.org/ns/prov#Activity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#EvidenceStatement
+
+:EvidenceStatement rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Guideline
+
+:Guideline rdf:type owl:Class ;
+           
+           rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Rationale
+
+:Rationale rdf:type owl:Class ;
+           
+           rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation
+
+:Recommendation rdf:type owl:Class ;
+                
+                rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Topic
+
+:Topic rdf:type owl:Class .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+

@@ -23,7 +23,12 @@ let emptyStardog url =
     |> ignore
     (server, connectStarDog url store))
 
-let connectMemory () = (new InMemoryManager() :> IQueryableStorage)
+let connectMemory g = 
+        let m = new InMemoryManager() 
+        
+        m.SaveGraph(g)
+        
+        m :> IQueryableStorage
 
 let connectRemote uri = (new SparqlRemoteEndpoint(System.Uri uri))
 
@@ -68,36 +73,38 @@ let oneTuple (rx : SparqlResultSet) =
 
 let twoTuple (rx : SparqlResultSet) = 
     [ for r in rx do
-          yield (r.[0], r.[1]) ]
+          yield (r.[0], r.[1]) ] 
+    |> Seq.distinctBy fst
 
 let threeTuple (rx : SparqlResultSet) = 
     [ for r in rx do
           yield (r.[0], r.[1], r.[0]) ]
-
 open Schema
 
 let subTypes root conn =
     cachedinference (sprintf """
         prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-        select distinct ?t 
+        select distinct ?t ?comment
         where {
             {?t rdfs:subClassOf <%s> .} UNION {?t rdfs:subPropertyOf <%s> . }
             OPTIONAL { ?t rdfs:label ?label } 
+            OPTIONAL { ?t rdfs:comment ?comment } 
            	FILTER ( ?t != <%s> && ?t != owl:Thing && ?t != owl:Nothing && ?t != owl:bottomObjectProperty && ?t != owl:topObjectProperty ) 
         }
-    """ (string root) (string root) (string root)) conn |> oneTuple
+    """ (string root) (string root) (string root)) conn |> twoTuple 
 
 let objectProperties root conn = 
     cachedinference (sprintf """
         prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         prefix owl:  <http://www.w3.org/2002/07/owl#>
-        select distinct ?p 
+        select distinct ?p ?comment
         where {
           ?p a owl:ObjectProperty .
           ?p rdfs:domain <%s>
+          OPTIONAL { ?t rdfs:comment ?comment } 
           FILTER ( ?p != owl:Thing && ?p != owl:Nothing && ?p != owl:bottomObjectProperty && ?p != owl:topObjectProperty ) 
         }
-    """ (string root)) conn |> oneTuple
+    """ (string root)) conn |> twoTuple
 
 let inRangeOf root conn = 
     cachedinference (sprintf """
@@ -167,15 +174,21 @@ let toStorageTriple (g : Graph) (t : Owl.Triple) =
     
     let s = 
         match s with
-        | Owl.Subject(Owl.Uri uri) -> g.CreateUriNode(uri)
+        | Owl.Subject(Owl.Uri uri) -> g.CreateUriNode(System.Uri uri)
+        | Owl.Subject(Owl.QName(p,u)) -> g.CreateUriNode(p + ":" + u)
     
     let p = 
         match p with
-        | Owl.Predicate(Owl.Uri uri) -> g.CreateUriNode(uri)
+        | Owl.Predicate(Owl.Uri uri) -> g.CreateUriNode(System.Uri uri)
+        | Owl.Predicate(Owl.QName(p,u)) -> g.CreateUriNode(p + ":" + u)
     
     let o = 
         match o with
-        | Owl.Object.Uri(Owl.Uri uri) -> g.CreateUriNode(uri)
+        | Owl.Object.Uri(Owl.Uri uri) -> g.CreateUriNode(System.Uri uri) :> INode
+        | Owl.Object.Uri(Owl.QName(p,u)) -> g.CreateUriNode(p + ":" + u) :> INode
+        | Owl.Object.Literal(Owl.String(s)) -> g.CreateLiteralNode(s) :> INode
+        | Owl.Object.Literal(Owl.Int(i)) -> i.ToLiteral(g) :> INode
+
     
     Triple(s, p, o)
 
@@ -189,13 +202,13 @@ open ProviderImplementation.ProvidedTypes
 
 let Node (query) (ns : namespaceMappings) (uri : Schema.Uri) = 
     { Uri = uri
-      ObjectProperties = [for p in objectProperties uri (query) do yield nodeUri p]
+      ObjectProperties = [for (p,c) in objectProperties uri (query) do yield (nodeUri p,string c)]
       DataProperties = [for (p,t) in dataProperties uri (query) do 
                         yield {
                             Uri= nodeUri p;
                             XsdType = typeName ns (nodeUri t)}]
       Instances    = [for p in sampleIndividuals uri (query) do yield nodeUri p ]
-      SubClasses   = [for p in subTypes uri (query) do yield nodeUri p ]
+      SubClasses   = [for (p,c) in subTypes uri (query) do yield (nodeUri p,string c) ]
       Ranges       = [for p in propertyRange uri (query) do yield nodeUri p]
       InRangeOf    = [for p in inRangeOf uri (query) do yield nodeUri p]
       Statements   = [for (s,o) in statements uri (query) do yield (typeName ns (nodeUri s),string o)]

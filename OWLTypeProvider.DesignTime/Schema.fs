@@ -28,10 +28,10 @@ type DataProperty = {
 
 type Node = 
     { Uri : Uri
-      ObjectProperties : Uri list
+      ObjectProperties : (Uri * String) list
       DataProperties : DataProperty list
       Instances : Uri list
-      SubClasses : Uri list
+      SubClasses : (Uri * String) list
       Ranges : Uri list
       InRangeOf : Uri list
       ProvidedType : ProvidedTypeDefinition

@@ -24,4 +24,4 @@ let (?) jq name = jq("#" + name)
 let main() =
   jq?helloWorld.click(fun _ -> hello() :> obj)
 
-do Runtime.Run(components = [])
+do Runtime.Run(components = FunScript.Data.Components.DataProviders)

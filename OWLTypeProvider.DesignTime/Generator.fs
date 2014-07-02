@@ -14,6 +14,8 @@ let typeName (uri : string) =
     | fragment when not (System.String.IsNullOrEmpty fragment) -> fragment.Substring(1)
     | _ -> uri.Segments |> Seq.last
 
+let xmlDoc text = "<summary>" + System.Security.SecurityElement.Escape text + "</summary>"
+
 let rec generate c (builder : Schema.Uri -> Schema.Node) = 
     let instances node = 
         let instances = ProvidedTypeDefinition("Individuals", Some typeof<Object>)
@@ -25,10 +27,13 @@ let rec generate c (builder : Schema.Uri -> Schema.Node) =
                 generate (Entity.Instance(subNode)) builder)
     
     let subtypes node nodeType = 
-        for uri in node.SubClasses do
+        for (uri,comment) in node.SubClasses do
+            node.ProvidedType.AddXmlDocDelayed(fun ()-> xmlDoc comment)
             node.ProvidedType.AddMemberDelayed(fun () -> 
                 let subNode = builder uri
+                subNode.ProvidedType.AddXmlDoc (xmlDoc comment)
                 generate (nodeType (subNode)) builder)
+
     
     let uriProp node t = 
         node.ProvidedType.AddMember 
@@ -44,8 +49,9 @@ let rec generate c (builder : Schema.Uri -> Schema.Node) =
 
         let properties = ProvidedTypeDefinition("ObjectProperties", Some typeof<obj>)
         node.ProvidedType.AddMember properties
-        for uri in node.ObjectProperties do
-            properties.AddMemberDelayed(fun () -> generate (Entity.ObjectProperty(builder uri)) builder)
+        for (uri,coment) in node.ObjectProperties do
+            properties.AddMemberDelayed(fun () -> 
+                generate (Entity.ObjectProperty(builder uri)) builder)
 
         let properties = ProvidedTypeDefinition("DataProperties", Some typeof<obj>)
         node.ProvidedType.AddMember properties

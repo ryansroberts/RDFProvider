@@ -81,9 +81,24 @@ type FileProvider(config : TypeProviderConfig) as x =
             match parameterValues with
             | [| :? string as baseUri; :? string as nsmap |] -> 
                 let erasedType = ProvidedTypeDefinition(asm, ns, typeName, Some(typeof<obj>))
-                let connection = Store.connectMemory
+
                 let nsmap = (parse nsmap) @ defaultNs
-                let generateClass = Store.Node (connection().Query) nsmap
+                let g = new Graph()
+
+
+
+                if (baseUri.StartsWith("http")) then
+                    g.LoadFromUri (Uri baseUri)
+                else
+                    g.LoadFromFile (baseUri)
+
+                for (p,u) in nsmap do
+                   printf "ns : %A\r\n" (p,u)
+                   g.NamespaceMap.AddNamespace(p,Uri (string u)) 
+                    
+                let connection = Store.connectMemory g
+                
+                let generateClass = Store.Node (connection.Query) nsmap
                 let root = generateClass (Schema.Uri baseUri)
                 erasedType.AddMember(Generator.generate (Schema.Entity.Class(root)) generateClass)
                 erasedType

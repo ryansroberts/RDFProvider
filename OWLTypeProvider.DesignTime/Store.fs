@@ -83,6 +83,7 @@ open Schema
 
 let subTypes root conn =
     cachedinference (sprintf """
+        prefix owl:  <http://www.w3.org/2002/07/owl#>
         prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         select distinct ?t ?comment
         where {

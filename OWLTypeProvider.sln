@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OWLTypeProvider.DesignTime", "OWLTypeProvider.DesignTime\OWLTypeProvider.DesignTime.fsproj", "{F94094C5-AAD1-4BE5-A083-B4CC7A987153}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{830D6DA4-906C-466C-AF0B-1F05B73DB9A1}"
+	ProjectSection(SolutionItems) = preProject
+		GenerateSetupScript.fsx = GenerateSetupScript.fsx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

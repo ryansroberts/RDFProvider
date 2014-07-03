@@ -71,7 +71,10 @@ type FileProvider(config : TypeProviderConfig) as x =
     let op = ProvidedTypeDefinition(asm, ns, "File", Some(typeof<obj>))
     
     let parameters = 
-        [ ProvidedStaticParameter("OntologyRoot", typeof<string>)
+
+        [ 
+          ProvidedStaticParameter("Path", typeof<string>)
+          ProvidedStaticParameter("OntologyRoot", typeof<string>)
           ProvidedStaticParameter("NamespaceMappings", typeof<string>) ]
     
     let (++) l r = System.IO.Path.Combine(l, r)
@@ -79,18 +82,16 @@ type FileProvider(config : TypeProviderConfig) as x =
     let createOwl() = 
         let init (typeName : string) (parameterValues : obj []) = 
             match parameterValues with
-            | [| :? string as baseUri; :? string as nsmap |] -> 
+            | [| :? string as path; :? string as ontologyRoot; :? string as nsmap |] -> 
                 let erasedType = ProvidedTypeDefinition(asm, ns, typeName, Some(typeof<obj>))
 
                 let nsmap = (parse nsmap) @ defaultNs
                 let g = new Graph()
 
-
-
-                if (baseUri.StartsWith("http")) then
-                    g.LoadFromUri (Uri baseUri)
+                if (path.StartsWith("http")) then
+                    g.LoadFromUri (Uri path)
                 else
-                    g.LoadFromFile (baseUri)
+                    g.LoadFromFile (path)
 
                 for (p,u) in nsmap do
                    printf "ns : %A\r\n" (p,u)
@@ -99,7 +100,7 @@ type FileProvider(config : TypeProviderConfig) as x =
                 let connection = Store.connectMemory g
                 
                 let generateClass = Store.Node (connection.Query) nsmap
-                let root = generateClass (Schema.Uri baseUri)
+                let root = generateClass (Schema.Uri ontologyRoot)
                 erasedType.AddMember(Generator.generate (Schema.Entity.Class(root)) generateClass)
                 erasedType
         op.DefineStaticParameters(parameters, init)

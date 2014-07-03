@@ -73,9 +73,11 @@
     <Compile Include="Store.fs" />
     <Compile Include="Generator.fs" />
     <Compile Include="Provider.fs" />
+    <Compile Include="TypeProviderInstantiation.fs" />
     <None Include="packages.config" />
     <None Include="Script.fsx" />
     <None Include="app.config" />
+    <None Include="Test.fsx" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

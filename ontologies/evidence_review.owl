@@ -46,6 +46,16 @@
 
 
 
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasReference
+
+:hasReference rdf:type owl:ObjectProperty ;
+              
+              rdfs:range :Reference ;
+              
+              rdfs:domain :Study .
+
+
+
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasSearchStrategy
 
 :hasSearchStrategy rdf:type owl:ObjectProperty ;
@@ -82,16 +92,6 @@
                rdfs:domain :SearchStrategy ;
                
                rdfs:range xsd:string .
-
-
-
-###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasReference
-
-:hasReference rdf:type owl:DatatypeProperty ;
-              
-              rdfs:domain :Study ;
-              
-              rdfs:range xsd:string .
 
 
 
@@ -137,6 +137,12 @@
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Question
 
 :Question rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Reference
+
+:Reference rdf:type owl:Class .
 
 
 

@@ -12,6 +12,7 @@
 #load "ProvidedTypes\Code\Debug.fs"
 #load "Xsd.fs"
 #load "Rdf.fs"
+#load "Query.fs"
 #load "Schema.fs"
 #load "Store.fs"
 #load "Generator.fs"

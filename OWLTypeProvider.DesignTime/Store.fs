@@ -74,7 +74,6 @@ let oneTuple (rx : SparqlResultSet) =
 let twoTuple (rx : SparqlResultSet) = 
     [ for r in rx do
           yield (r.[0], r.[1]) ] 
-    |> Seq.distinctBy fst
 
 let threeTuple (rx : SparqlResultSet) = 
     [ for r in rx do
@@ -207,7 +206,8 @@ let Node (query) (ns : namespaceMappings) (uri : Schema.Uri) =
       DataProperties = [for (p,t) in dataProperties uri (query) do 
                         yield {
                             Uri= nodeUri p;
-                            XsdType = typeName ns (nodeUri t)}]
+                            XsdType = typeName ns (nodeUri t)
+                            TypeName = typeName ns (nodeUri p)}]
       Instances    = [for p in sampleIndividuals uri (query) do yield nodeUri p ]
       SubClasses   = [for (p,c) in subTypes uri (query) do yield (nodeUri p,string c) ]
       Ranges       = [for p in propertyRange uri (query) do yield nodeUri p]

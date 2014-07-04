@@ -1,2 +1,42 @@
 class File
 
+class File+owl:Thing
+    static member Uri: Owl.Uri [DESIGNTIME] with get
+    Uri [DESIGNTIME].NewUri("http://www.w3.org/2002/07/owl#Thing")
+
+
+class File+owl:Thing+DataProperties
+
+class File+owl:Thing+InRangeOf
+
+class File+owl:Thing+Individual : Query [DESIGNTIME]+Individual [DESIGNTIME]
+
+class File+owl:Thing+Individuals : File+owl:Thing+Individual list
+
+class File+owl:Thing+ObjectProperties
+
+class File+owl:Thing
+    static member Uri: Owl.Uri [DESIGNTIME] with get
+    Uri [DESIGNTIME].NewUri("http://www.w3.org/2002/07/owl#Thing")
+
+
+class File+owl:Thing+DataProperties
+
+class File+owl:Thing+DataProperties
+
+class File+owl:Thing+InRangeOf
+
+class File+owl:Thing+InRangeOf
+
+class File+owl:Thing+Individual : Query [DESIGNTIME]+Individual [DESIGNTIME]
+
+class File+owl:Thing+Individual : Query [DESIGNTIME]+Individual [DESIGNTIME]
+
+class File+owl:Thing+Individuals : File+owl:Thing+Individual list
+
+class File+owl:Thing+Individuals : File+owl:Thing+Individual list
+
+class File+owl:Thing+ObjectProperties
+
+class File+owl:Thing+ObjectProperties
+

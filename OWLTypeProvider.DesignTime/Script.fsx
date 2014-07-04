@@ -6,6 +6,7 @@
 #load "Rdf.fs"
 #load "Schema.fs"
 #load "Store.fs"
+#load "Query.fs"
 
 open Owl
 open System.IO
@@ -28,8 +29,6 @@ let importFromFolder folder =
 importFromFolder (__SOURCE_DIRECTORY__ ++ "../ontologies/nice" )
 
 #load "Generator.fs"
-
-
 
 let map = 
     [ ("nice", Schema.Uri "http://nice.org/ontology/")

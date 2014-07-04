@@ -41,7 +41,7 @@ type TypeProviderInstantiation =
         let output = 
             x.GenerateType resolutionFolder runtimeAssembly
             |> match x with
-               | _ -> Debug.prettyPrint signatureOnly ignoreOutput 10 100
+               | _ -> Debug.prettyPrint false false 10 100
             |> replace "FSharp.Data.Runtime." "FDR."
             |> if String.IsNullOrEmpty resolutionFolder then id
                else replace resolutionFolder "<RESOLUTION_FOLDER>"

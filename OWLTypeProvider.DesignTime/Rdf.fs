@@ -12,13 +12,13 @@ type Property =
     | ObjectProperty of Uri
     | DataProperty of Uri
 
-type Instance = 
-    | Instance of Uri
+type Individual = 
+    | Individual of Uri
 
 type Entity = 
     | Property of Property
     | Class of Class
-    | Instance of Instance
+    | Individual of Individual
 
 type Literal = 
     | Int of int
@@ -35,7 +35,7 @@ type Subject =
     
     static member from i = 
         match i with
-        | Instance.Instance(uri) -> Subject.Subject(uri)
+        | Individual.Individual(uri) -> Subject.Subject(uri)
     
     static member from p = 
         match p with
@@ -51,7 +51,7 @@ type Predicate =
     
     static member from i = 
         match i with
-        | Instance.Instance(uri) -> Predicate.Predicate(uri)
+        | Individual.Individual(uri) -> Predicate.Predicate(uri)
     
     static member from p = 
         match p with
@@ -69,7 +69,7 @@ type Object =
     
     static member from i = 
         match i with
-        | Instance.Instance(uri) -> Object.Uri(uri)
+        | Individual.Individual(uri) -> Object.Uri(uri)
     
     static member from p = 
         match p with

@@ -24,6 +24,7 @@ type Statement = String * String
 type DataProperty = {
     Uri : Uri
     XsdType : String
+    TypeName : String
 }
 
 type Node = 
@@ -41,5 +42,5 @@ type Node =
 type Entity = 
     | Class of Node
     | ObjectProperty of Node
-    | Instance of Node
+    | Individual of Node
     | DataProperty of Node

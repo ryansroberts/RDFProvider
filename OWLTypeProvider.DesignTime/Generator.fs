@@ -6,6 +6,7 @@ open System.Reflection
 open Owl
 open Schema
 open System.Text.RegularExpressions
+open Microsoft.FSharp.Core
 open Microsoft.FSharp.Quotations
 
 let typeName (uri : string) = 
@@ -17,53 +18,66 @@ let typeName (uri : string) =
 let xmlDoc text = "<summary>" + System.Security.SecurityElement.Escape text + "</summary>"
 
 let rec generate c (builder : Schema.Uri -> Schema.Node) = 
-    let instances node = 
-        let instances = ProvidedTypeDefinition("Individuals", Some typeof<Object>)
+    let individualType cls = 
+        let inline statementsForPredicate p' = cls.Statements |> List.filter (fun (p, _) -> p' = p)
+        let t = ProvidedTypeDefinition("Individual", Some typeof<Query.Individual>)
+        for p in cls.DataProperties do
+            t.AddMember 
+            <| ProvidedProperty
+                   (p.TypeName, mapXsdToType p.XsdType, 
+                    GetterCode = fun args -> <@@ Expr.Value(statementsForPredicate (string p.Uri)) @@>)
+        for (u, n) in cls.ObjectProperties do
+            t.AddMemberDelayed(fun () -> 
+                let objectType = builder u
+                let objectType = typedefof<list<_>>.MakeGenericType([| objectType.ProvidedType :> System.Type |])
+                ProvidedProperty(n, objectType, 
+                                 GetterCode = fun args -> 
+                                     ( <@@ Expr.NewObject(objectType.GetConstructor([||]),[])@@>)))
+        t
+    
+    let individuals node = 
+        let individualType = individualType node
+        let collectionType = typedefof<list<_>>.MakeGenericType([| individualType :> System.Type |])
+        node.ProvidedType.AddMember individualType
+        let instances = ProvidedTypeDefinition("Individuals", Some collectionType)
         instances.AddXmlDoc "A sample set of up to 100 individuals"
         node.ProvidedType.AddMember instances
         for uri in node.Instances do
             instances.AddMemberDelayed(fun () -> 
                 let subNode = builder uri
-                generate (Entity.Instance(subNode)) builder)
+                generate (Entity.Individual(subNode)) builder)
     
     let subtypes node nodeType = 
-        for (uri,comment) in node.SubClasses do
-            node.ProvidedType.AddXmlDocDelayed(fun ()-> xmlDoc comment)
+        for (uri, comment) in node.SubClasses do
+            node.ProvidedType.AddXmlDocDelayed(fun () -> xmlDoc comment)
             node.ProvidedType.AddMemberDelayed(fun () -> 
                 let subNode = builder uri
-                subNode.ProvidedType.AddXmlDoc (xmlDoc comment)
+                subNode.ProvidedType.AddXmlDoc(xmlDoc comment)
                 generate (nodeType (subNode)) builder)
-
     
     let uriProp node t = 
         node.ProvidedType.AddMember 
         <| ProvidedProperty
-               ("Uri", typeof<Owl.Uri>, 
-                GetterCode = (fun args -> <@@ Owl.Uri(%%(Expr.Value(string node.Uri))) @@>), 
+               ("Uri", typeof<Owl.Uri>, GetterCode = (fun args -> <@@ Owl.Uri(%%(Expr.Value(string node.Uri))) @@>), 
                 IsStatic = true)
-
     match c with
     | Entity.Class(node) -> 
         uriProp node Class
         subtypes node Entity.Class
-
         let properties = ProvidedTypeDefinition("ObjectProperties", Some typeof<obj>)
         node.ProvidedType.AddMember properties
-        for (uri,coment) in node.ObjectProperties do
-            properties.AddMemberDelayed(fun () -> 
-                generate (Entity.ObjectProperty(builder uri)) builder)
-
+        for (uri, coment) in node.ObjectProperties do
+            properties.AddMemberDelayed(fun () -> generate (Entity.ObjectProperty(builder uri)) builder)
         let properties = ProvidedTypeDefinition("DataProperties", Some typeof<obj>)
         node.ProvidedType.AddMember properties
         for p in node.DataProperties do
+            printf "Data prop %A\r\n" (p.Uri, p.XsdType)
             properties.AddMemberDelayed(fun () -> generate (Entity.DataProperty(builder p.Uri)) builder)
-
-        let inrangeof = ProvidedTypeDefinition("InRangeOf", Some typeof<obj>) 
+        let inrangeof = ProvidedTypeDefinition("InRangeOf", Some typeof<obj>)
         node.ProvidedType.AddMember inrangeof
         for p in node.InRangeOf do
             inrangeof.AddMemberDelayed(fun () -> generate (Entity.ObjectProperty(builder p)) builder)
-
-        instances node
+        individuals node
         node.ProvidedType
     | Entity.ObjectProperty(node) -> 
         uriProp node ObjectProperty
@@ -72,27 +86,19 @@ let rec generate c (builder : Schema.Uri -> Schema.Node) =
             ranges.AddMemberDelayed(fun () -> generate (Entity.Class(builder uri)) builder)
         node.ProvidedType.AddMember <| ranges
         subtypes node Entity.ObjectProperty
-        instances node
+        individuals node
         node.ProvidedType
-    | Entity.DataProperty(node) ->
-        uriProp node DataProperty 
+    | Entity.DataProperty(node) -> 
+        uriProp node DataProperty
         node.ProvidedType
-    | Entity.Instance(node) -> 
+    | Entity.Individual(node) -> 
         let uriStr = Expr.Value(string node.Uri)
-        uriProp node Instance
-        let statements = node.Statements |> List.map (fun (p, o) -> ((Predicate.from (string p)), Object.from (Owl.Uri o)))
-        node.ProvidedType.AddMember <| ProvidedProperty("Statements", typeof<Statement list>, GetterCode = (fun args -> <@@ statements @@>), IsStatic = true)
-
+        uriProp node Individual
+        let statements = 
+            node.Statements |> List.map (fun (p, o) -> ((Predicate.from (string p)), Object.from (Owl.Uri o)))
+        let individualType = individualType
+        node.ProvidedType.AddMember 
+        <| ProvidedProperty
+               ("Statements", typeof<Statement list>, GetterCode = (fun args -> <@@ statements @@>), IsStatic = true)
         let statements = statements |> Map.ofList
-
-//        node.ProvidedType.AddMember dataProperties
-//        for p in node.DataProperties do
-//        dataProperties.AddMemberDelayed (fun () ->
-//            let dataType = mapXsdToType (typeName(string p.Uri))
-//            ProvidedProperty(typeName (string p.Uri),typedefof<list<_>>.MakeGenericType [|dataType|],
-//                GetterCode = (fun args -> <@@ [] @@>),IsStatic = true )
-//        ) 
-//
-
-
         node.ProvidedType

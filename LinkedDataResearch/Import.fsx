@@ -25,7 +25,6 @@ let processCsv () =
     let gx = Import.loadGuidelines 
     let triples = [for g in gx do
                    yield! Project.guideline g]
-     
 
     let g = new  VDS.RDF.Graph()
     g.NamespaceMap.AddNamespace("guidelines",Uri "http://nice.org.uk/guidelines/")

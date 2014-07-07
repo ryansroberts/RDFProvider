@@ -13,13 +13,13 @@ open VDS.RDF.Parsing.Handlers
 type namespaceMappings = (String * Schema.Uri) list
 
 let connectStarDog server store = 
-    (fun () -> new StardogConnector(server, store, StardogReasoningMode.RL, "admin", "admin") :> IQueryableStorage)
+    (fun () -> new StardogConnector(server, store, StardogReasoningMode.SL, "admin", "admin") :> IQueryableStorage)
 
 let emptyStardog url = 
     use server = new StardogV2Server(url, "admin", "admin")
     (fun store -> 
     if ((server.ListStores() |> Seq.exists ((=) store))) then do server.DeleteStore store
-    server.CreateStore(StardogDiskTemplate(store, IcvEnabled = false, IcvReasoningMode = StardogReasoningMode.RL)) 
+    server.CreateStore(StardogDiskTemplate(store, IcvEnabled = false)) 
     |> ignore
     (server, connectStarDog url store))
 
@@ -84,27 +84,25 @@ let subTypes root conn =
     cachedinference (sprintf """
         prefix owl:  <http://www.w3.org/2002/07/owl#>
         prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-        select distinct ?t ?comment
+        select distinct ?t 
         where {
             {?t rdfs:subClassOf <%s> .} UNION {?t rdfs:subPropertyOf <%s> . }
-            OPTIONAL { ?t rdfs:label ?label } 
-            OPTIONAL { ?t rdfs:comment ?comment } 
            	FILTER ( ?t != <%s> && ?t != owl:Thing && ?t != owl:Nothing && ?t != owl:bottomObjectProperty && ?t != owl:topObjectProperty ) 
         }
-    """ (string root) (string root) (string root)) conn |> twoTuple 
+    """ (string root) (string root) (string root)) conn |> oneTuple 
 
 let objectProperties root conn = 
     cachedinference (sprintf """
         prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         prefix owl:  <http://www.w3.org/2002/07/owl#>
-        select distinct ?p ?comment
+        select distinct ?p
         where {
           ?p a owl:ObjectProperty .
           ?p rdfs:domain <%s>
           OPTIONAL { ?t rdfs:comment ?comment } 
           FILTER ( ?p != owl:Thing && ?p != owl:Nothing && ?p != owl:bottomObjectProperty && ?p != owl:topObjectProperty ) 
         }
-    """ (string root)) conn |> twoTuple
+    """ (string root)) conn |> oneTuple
 
 let inRangeOf root conn = 
     cachedinference (sprintf """
@@ -202,14 +200,14 @@ open ProviderImplementation.ProvidedTypes
 
 let Node (query) (ns : namespaceMappings) (uri : Schema.Uri) = 
     { Uri = uri
-      ObjectProperties = [for (p,c) in objectProperties uri (query) do yield (nodeUri p,string c)]
+      ObjectProperties = [for p in objectProperties uri (query) do yield (nodeUri p,"Doc")]
       DataProperties = [for (p,t) in dataProperties uri (query) do 
                         yield {
                             Uri= nodeUri p;
                             XsdType = typeName ns (nodeUri t)
                             TypeName = typeName ns (nodeUri p)}]
       Instances    = [for p in sampleIndividuals uri (query) do yield nodeUri p ]
-      SubClasses   = [for (p,c) in subTypes uri (query) do yield (nodeUri p,string c) ]
+      SubClasses   = [for p in subTypes uri (query) do yield (nodeUri p,"Doc") ]
       Ranges       = [for p in propertyRange uri (query) do yield nodeUri p]
       InRangeOf    = [for p in inRangeOf uri (query) do yield nodeUri p]
       Statements   = [for (s,o) in statements uri (query) do yield (typeName ns (nodeUri s),string o)]

@@ -18,14 +18,14 @@
                     oa:http://www.w3.org/ns/oa#,
                     prov:http://www.w3.org/ns/prov#"""
 
-    [<Literal>]
-    let oaPath = __SOURCE_DIRECTORY__ + "\\wine.ttl"
               
     let assertTriples = LinkedData.assertTriples server store "admin" "admin" nsmap
 
     type nice = LinkedData.Stardog<server, store, ontologyRoot, nsmap>
-
+    
     type thing = nice.``owl:Thing``
+
+   
     type guideline = thing.``ng:Guideline``
     type isAbout = thing.ObjectProperties.``ng:isAbout``
     type topic = thing.``ng:Topic``

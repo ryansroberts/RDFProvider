@@ -8,6 +8,7 @@ open Schema
 open System.Text.RegularExpressions
 open Microsoft.FSharp.Core
 open Microsoft.FSharp.Quotations
+open Query
 
 let typeName (uri : string) = 
     let uri = System.Uri uri
@@ -20,33 +21,39 @@ let xmlDoc text = "<summary>" + System.Security.SecurityElement.Escape text + "<
 let rec generate c (builder : Schema.Uri -> Schema.Node) = 
     let individualType cls = 
         let inline statementsForPredicate p' = cls.Statements |> List.filter (fun (p, _) -> p' = p)
-        let t = ProvidedTypeDefinition("Individual", Some typeof<Query.Individual>)
+        let t = ProvidedTypeDefinition(cls.ProvidedType.Name + "(Individual)", Some typeof<Query.Individual>)
         for p in cls.DataProperties do
             t.AddMember 
             <| ProvidedProperty
                    (p.TypeName, mapXsdToType p.XsdType, 
-                    GetterCode = fun args -> <@@ Expr.Value(statementsForPredicate (string p.Uri)) @@>)
-        for (u, n) in cls.ObjectProperties do
-            t.AddMemberDelayed(fun () -> 
+                    GetterCode = fun args -> <@@ Expr.Value(statementsForPredicate (string p.Uri) |> List.head) @@>)
+        for (u, _) in cls.ObjectProperties do
+            t.AddMemberDelayed
+                (fun () -> 
                 let objectType = builder u
-                let objectType = typedefof<list<_>>.MakeGenericType([| objectType.ProvidedType :> System.Type |])
-                ProvidedProperty(n, objectType, 
-                                 GetterCode = fun args -> 
-                                     ( <@@ Expr.NewObject(objectType.GetConstructor([||]),[])@@>)))
+                cls.ProvidedType.AddMember objectType.ProvidedType
+                //let objectType = typedefof<IQueryable<_>>.MakeGenericType([| objectType.ProvidedType :> System.Type |])
+                let objectType = typeof<obj>
+                ProvidedProperty
+                    (string u, objectType, 
+                     GetterCode = fun args -> (<@@ Expr.NewObject(objectType.GetConstructor([||]), []) @@>)))
         t
     
     let individuals node = 
         let individualType = individualType node
         let collectionType = typedefof<list<_>>.MakeGenericType([| individualType :> System.Type |])
         node.ProvidedType.AddMember individualType
-        let instances = ProvidedTypeDefinition("Individuals", Some collectionType)
+        let instances = 
+            ProvidedProperty
+                ("Individuals", collectionType, IsStatic = true, 
+                 GetterCode = (fun args -> <@@ Expr.NewObject(collectionType.GetConstructor([||]), []) @@>))
         instances.AddXmlDoc "A sample set of up to 100 individuals"
         node.ProvidedType.AddMember instances
-        for uri in node.Instances do
-            instances.AddMemberDelayed(fun () -> 
-                let subNode = builder uri
-                generate (Entity.Individual(subNode)) builder)
     
+    //        for uri in node.Instances do
+    //            instances.AddMemberDelayed(fun () -> 
+    //                let subNode = builder uri
+    //                generate (Entity.Individual(subNode)) builder)
     let subtypes node nodeType = 
         for (uri, comment) in node.SubClasses do
             node.ProvidedType.AddXmlDocDelayed(fun () -> xmlDoc comment)
@@ -93,7 +100,7 @@ let rec generate c (builder : Schema.Uri -> Schema.Node) =
         node.ProvidedType
     | Entity.Individual(node) -> 
         let uriStr = Expr.Value(string node.Uri)
-        uriProp node Individual
+        uriProp node Entity.Individual
         let statements = 
             node.Statements |> List.map (fun (p, o) -> ((Predicate.from (string p)), Object.from (Owl.Uri o)))
         let individualType = individualType

@@ -1,6 +1,9 @@
 class File
 
 class File+owl:Thing
+    static member Individuals: File+owl:Thing+owl:Thing(Individual) list with get
+    FSharpExpr.NewObject((Microsoft.FSharp.Collections.FSharpList`1[LinkedData.File\,"\\\\psf\\Home\\code\\OWLTypeProvider\\OWLTypeProvider.DesignTime\\wine.ttl"\,"http://www.w3.org/2002/07/owl#Thing"\,""+owl:Thing+owl:Thing(Individual)] :> Type).GetConstructor([| |]), _ list.get_Empty())
+
     static member Uri: Owl.Uri [DESIGNTIME] with get
     Uri [DESIGNTIME].NewUri("http://www.w3.org/2002/07/owl#Thing")
 
@@ -8,18 +11,21 @@ class File+owl:Thing
 class File+owl:Thing+DataProperties
 
 class File+owl:Thing+InRangeOf
-
-class File+owl:Thing+Individual : Query [DESIGNTIME]+Individual [DESIGNTIME]
-
-class File+owl:Thing+Individuals : File+owl:Thing+Individual list
 
 class File+owl:Thing+ObjectProperties
 
 class File+owl:Thing
+    static member Individuals: File+owl:Thing+owl:Thing(Individual) list with get
+    FSharpExpr.NewObject((Microsoft.FSharp.Collections.FSharpList`1[LinkedData.File\,"\\\\psf\\Home\\code\\OWLTypeProvider\\OWLTypeProvider.DesignTime\\wine.ttl"\,"http://www.w3.org/2002/07/owl#Thing"\,""+owl:Thing+owl:Thing(Individual)] :> Type).GetConstructor([| |]), _ list.get_Empty())
+
     static member Uri: Owl.Uri [DESIGNTIME] with get
     Uri [DESIGNTIME].NewUri("http://www.w3.org/2002/07/owl#Thing")
 
 
+class File+owl:Thing+owl:Thing(Individual) : Query [DESIGNTIME]+Individual [DESIGNTIME]
+
+class File+owl:Thing+owl:Thing(Individual) : Query [DESIGNTIME]+Individual [DESIGNTIME]
+
 class File+owl:Thing+DataProperties
 
 class File+owl:Thing+DataProperties
@@ -28,15 +34,9 @@ class File+owl:Thing+InRangeOf
 
 class File+owl:Thing+InRangeOf
 
-class File+owl:Thing+Individual : Query [DESIGNTIME]+Individual [DESIGNTIME]
-
-class File+owl:Thing+Individual : Query [DESIGNTIME]+Individual [DESIGNTIME]
-
-class File+owl:Thing+Individuals : File+owl:Thing+Individual list
-
-class File+owl:Thing+Individuals : File+owl:Thing+Individual list
-
 class File+owl:Thing+ObjectProperties
 
 class File+owl:Thing+ObjectProperties
+
+class File+owl:Thing+owl:Thing(Individual) : Query [DESIGNTIME]+Individual [DESIGNTIME]
 

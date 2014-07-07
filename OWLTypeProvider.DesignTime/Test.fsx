@@ -33,7 +33,7 @@ let dumpAll inst =
 
 let args = { 
   Path = __SOURCE_DIRECTORY__ ++ "wine.ttl"
-  BaseUri = "http://www.w3.org/2002/07/owl#Thing"
+  BaseUri = "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#wine"
   NSMap = ""
 }
 

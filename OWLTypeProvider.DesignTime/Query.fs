@@ -98,6 +98,7 @@ open QueryImplementation
 //
 //        /// This member is called by LINQ's .Where, .Select, etc.
 //        member provider.CreateQuery<'T>(e:Expression) : IQueryable<'T> = 
+//            OwlQueryable<'T>(e) :> IQueryable<'T>
 //        member provider.Execute(e:Expression) : obj = failwith "Execute, untyped: nyi"
 //        member provider.Execute<'T>(e:Expression) : 'T = 
 //            match e with 
@@ -111,12 +112,10 @@ open QueryImplementation
 //                box count  :?> 'T
 //            | _ ->
 //                whenAllElseFails e 
-//
-//
-//type OwlQueryable<'T>(store:VDS.RDF.Storage.IQueryableStorage) =
+//and OwlQueryable<'T>(e:Expression) =
 //    interface IQueryable<'T>
 //    interface IQueryable with 
-//            member x.Provider = OwlQueryable.Provider
+//            member x.Provider = OwlQueryableStatics.Provider
 //            member x.Expression =  Expression.Constant(x,typeof<IQueryable<'T>>) :> Expression 
 //            member x.ElementType = typeof<'T>
 //    interface seq<'T> with 
@@ -127,9 +126,17 @@ open QueryImplementation
 //        interface IOrderedQueryable<'T> 
 //        interface IQueryable<'T> 
 //        interface IQueryable with 
-//             member x.Provider = FreebaseQueryableStatics.Provider
+//             member x.Provider = OwlQueryableStatics.Provider
 //             member x.Expression =  Expression.Constant(x,typeof<IOrderedQueryable<'T>>) :> Expression 
 //             member x.ElementType = typeof<'T>
 //        interface seq<'T> with member x.GetEnumerator() = (Seq.cast<'T> (queryDataAsEnumerable fbDataConn data)).GetEnumerator()
 //        interface System.Collections.IEnumerable with member x.GetEnumerator() = (x :> seq<'T>).GetEnumerator() :> System.Collections.IEnumerator
 //    
+//
+//and OwlQueryableStatics() =
+//        static member val Provider = 
+//                { new System.Linq.IQueryProvider with 
+//                member provider.CreateQuery(e:Expression) : IQueryable = failwithf "CreateQuery, e = %A" e
+//
+//                /// This member is called by LINQ's .Where, .Select, etc.
+//                member provider.CreateQuery<'T>(e:Expression) : IQueryable<'T> = 

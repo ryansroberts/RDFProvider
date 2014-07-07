@@ -470,8 +470,6 @@ module Debug =
                         " -> " + (toString true m.ReturnType)
                     if not signatureOnly then
                         m |> getMethodBody |> printExpr
-            | :? ProvidedTypeDefinition as t ->
-                pending.Enqueue t
 
             | _ -> ()
 
@@ -501,7 +499,6 @@ module Debug =
                     print " : "
                     print (toString true t.BaseType)
                 println()
-                
                 t.GetMembers() 
                 |> Seq.sortBy (fun m -> m.Name)
                 |> Seq.iter printMember

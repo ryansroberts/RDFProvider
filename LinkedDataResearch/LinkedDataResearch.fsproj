@@ -12,7 +12,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <Name>LinkedDataResearch</Name>
     <TargetFSharpCoreVersion>4.3.0.0</TargetFSharpCoreVersion>
-    <NuGetPackageImportStamp>6e230dcf</NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>451b8562</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,9 +22,9 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DocumentationFile>bin\Debug\LinkedDataResearch.XML</DocumentationFile>
-    <Prefer32Bit>true</Prefer32Bit>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -42,88 +42,74 @@
       <HintPath>..\packages\dotNetRDF.1.0.5.3315\lib\net40\dotNetRDF.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="dotNetRDF" />
     <Reference Include="Excel">
       <HintPath>..\packages\ExcelDataReader.2.1\lib\net20\Excel.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Excel" />
     <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <Private>True</Private>
     </Reference>
     <Reference Include="FSharp.Data">
       <HintPath>..\packages\FSharp.Data.2.0.8\lib\net40\FSharp.Data.dll</HintPath>
-      <Private>True</Private>
     </Reference>
-    <Reference Include="FSharp.Data" />
-    <Reference Include="FSharpx.TypeProviders.Excel">
-      <HintPath>..\packages\FSharpx.TypeProviders.Excel.1.8.41\lib\40\FSharpx.TypeProviders.Excel.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="FSharpx.TypeProviders.Excel" />
     <Reference Include="FunScript">
       <HintPath>..\packages\FunScript.1.1.49\lib\net40\FunScript.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="FunScript" />
     <Reference Include="FunScript.Interop">
       <HintPath>..\packages\FunScript.1.1.49\lib\net40\FunScript.Interop.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="FunScript.Interop" />
     <Reference Include="HtmlAgilityPack">
       <HintPath>..\packages\HtmlAgilityPack.1.4.6\lib\Net45\HtmlAgilityPack.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="HtmlAgilityPack" />
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib" />
-    <Reference Include="ManagedOpenSsl" />
+    <Reference Include="ManagedOpenSsl">
+      <HintPath>..\packages\Suave.0.9.0\lib\ManagedOpenSsl.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json" />
     <Reference Include="OWLTypeProvider.DesignTime">
-      <HintPath>..\..\OWLTypeProvider\OWLTypeProvider.DesignTime\bin\Debug\OWLTypeProvider.DesignTime.dll</HintPath>
+      <HintPath>..\OWLTypeProvider.DesignTime\bin\Debug\OWLTypeProvider.DesignTime.dll</HintPath>
     </Reference>
     <Reference Include="QuickGraph">
       <HintPath>..\packages\QuickGraph.3.6.61119.7\lib\net4\QuickGraph.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="QuickGraph" />
     <Reference Include="QuickGraph.Data">
       <HintPath>..\packages\QuickGraph.3.6.61119.7\lib\net4\QuickGraph.Data.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="QuickGraph.Data" />
     <Reference Include="QuickGraph.Graphviz">
       <HintPath>..\packages\QuickGraph.3.6.61119.7\lib\net4\QuickGraph.Graphviz.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="QuickGraph.Graphviz" />
     <Reference Include="QuickGraph.Serialization">
       <HintPath>..\packages\QuickGraph.3.6.61119.7\lib\net4\QuickGraph.Serialization.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="QuickGraph.Serialization" />
-    <Reference Include="suave" />
+    <Reference Include="suave">
+      <HintPath>..\packages\Suave.0.9.0\lib\suave.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="VDS.Common">
       <HintPath>..\packages\VDS.Common.1.3.0\lib\net40-client\VDS.Common.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="VDS.Common" />
     <Reference Include="xunit">
       <HintPath>..\packages\xunit.1.9.2\lib\net20\xunit.dll</HintPath>
       <Private>True</Private>
@@ -142,13 +128,6 @@
     <None Include="Script1.fsx" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\OWLTypeProvider.DesignTime\OWLTypeProvider.DesignTime.fsproj">
-      <Name>OWLTypeProvider.DesignTime</Name>
-      <Project>{f94094c5-aad1-4be5-a083-b4cc7a987153}</Project>
-      <Private>True</Private>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
   </PropertyGroup>
@@ -165,6 +144,13 @@
     </Otherwise>
   </Choose>
   <Import Project="$(FSharpTargetsPath)" Condition="Exists('$(FSharpTargetsPath)')" />
+  <Import Project="..\packages\Suave.0.9.0\build\suave.targets" Condition="Exists('..\packages\Suave.0.9.0\build\suave.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Suave.0.9.0\build\suave.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Suave.0.9.0\build\suave.targets'))" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

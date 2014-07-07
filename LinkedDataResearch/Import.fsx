@@ -21,8 +21,6 @@ open Microsoft.FSharp.Reflection
 open Model
 open FSharp.Data
 
-
-
 let processCsv () = 
     let gx = Import.loadGuidelines 
     let triples = [for g in gx do

@@ -1,4 +1,4 @@
-﻿#r "../packages/ExcelDataReader.2.1.2.3/lib/net45/Excel.dll"
+﻿#r "../packages/ExcelDataReader.2.1/lib/net20/Excel.dll"
 #r "../packages/SharpZipLib.0.86.0/lib/20/ICSharpCode.SharpZipLib.dll"
 #r "../packages/FSharp.Data.2.0.8/lib/net40/FSharp.Data.dll"
 #r "../packages/dotNetRDF.1.0.5.3315/lib/net40/dotNetRDF.dll"

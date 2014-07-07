@@ -3,25 +3,25 @@
 module Csv = 
     open FSharp.Data
   
-    type Guideline = CsvProvider< "input\Guideline&Evidence/Guideline.csv" >
+    type Guideline = CsvProvider< "input/Guideline&Evidence/Guideline.csv" >
     
-    type Question = CsvProvider< "input\Guideline&Evidence/Questions.csv" >
+    type Question = CsvProvider< "input/Guideline&Evidence/Questions.csv" >
     
-    type SearchStrategy = CsvProvider< "input\Guideline&Evidence/Searchstrategies.csv" >
+    type SearchStrategy = CsvProvider< "input/Guideline&Evidence/Searchstrategies.csv" >
     
-    type QtoSSmap = CsvProvider<"input\Guideline&Evidence/QuestionToSearchStrategyMap.csv" >
+    type QtoSSmap = CsvProvider<"input/Guideline&Evidence/QuestionToSearchStrategyMap.csv" >
     
-    type EvidenceStatements = CsvProvider< "input\Guideline&Evidence/EvidenceStatements.csv" >
+    type EvidenceStatements = CsvProvider< "input/Guideline&Evidence/EvidenceStatements.csv" >
     
-    type Study = CsvProvider< "input\Guideline&Evidence/Study.csv" >
+    type Study = CsvProvider< "input/Guideline&Evidence/Study.csv" >
     
-    type EStoStudyMap = CsvProvider<"input\Guideline&Evidence/EStostudymap.csv" >
+    type EStoStudyMap = CsvProvider<"input/Guideline&Evidence/EStostudymap.csv" >
 
-    type Set = CsvProvider< "input\Guideline&Evidence/Set(Topic).csv" >
+    type Set = CsvProvider< "input/Guideline&Evidence/Set(Topic).csv" >
 
-    type SettoQmap = CsvProvider< "input\Guideline&Evidence/SettoQuestionmap.csv" >
+    type SettoQmap = CsvProvider< "input/Guideline&Evidence/SettoQuestionmap.csv" >
 
-    type Recommendation = CsvProvider< "input\Guideline&Evidence/Recommendations.csv" >
+    type Recommendation = CsvProvider< "input/Guideline&Evidence/Recommendations.csv" >
 
     type QualityStandard = CsvProvider< "input/QualityStandard/QualityStandard.csv">
     type QualityStatment = CsvProvider< "input/QualityStandard/QualityStatements.csv">

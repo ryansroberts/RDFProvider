@@ -41,4 +41,3 @@ Generator.generate (Schema.Entity.Class(root)) (Store.Node (connection ()).Query
 op.AddMember root.ProvidedType
 printf "%s\r\n" (ProviderImplementation.Debug.prettyPrint false false 10 10 root.ProvidedType)
 
-

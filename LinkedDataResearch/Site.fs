@@ -3,12 +3,6 @@
 
 open NiceOntology
 
-let guidelines = 
-    query { 
-        for g in guideline.Individuals do
-
-        select g
-    }
 
 open Suave
 open Suave.Web
@@ -30,4 +24,4 @@ let turtle q : WebPart =
                                            content = Bytes q } }
         |> succeed
 
-let guidance : WebPart = GET >>= choose [ url "/guidelines" >>= turtle guidelines ]
+let guidance : WebPart = GET >>= choose [ url "/guidelines" >>= OK "HAI"]

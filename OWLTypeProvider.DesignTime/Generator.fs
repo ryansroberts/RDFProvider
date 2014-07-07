@@ -18,6 +18,8 @@ let typeName (uri : string) =
 
 let xmlDoc text = "<summary>" + System.Security.SecurityElement.Escape text + "</summary>"
 
+
+
 let rec generate c (builder : Schema.Uri -> Schema.Node) = 
     let individualType cls = 
         let inline statementsForPredicate p' = cls.Statements |> List.filter (fun (p, _) -> p' = p)

@@ -36,7 +36,7 @@
     type study = thing.``ner:Study``
     type reccomendation = thing.``ng:Recommendation``
     type reference = thing.``ner:Reference``
-    type annotation = thing.``oa:Annotation``
+    type hasReference = reference.InRangeOf.``ner:hasReference``
     type review = thing.``ner:Review``
     type qualityStandard = thing.``nqs:QualityStandard``
     type qualityStatement = thing.``nqs:QualityStatement``

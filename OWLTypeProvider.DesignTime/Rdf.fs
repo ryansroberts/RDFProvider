@@ -8,9 +8,17 @@ type Uri =
 type Class = 
     | Class of Uri
 
+type Literal = 
+    | Int of int
+    | String of string
+
+type DataProperty =
+| Literal of Literal
+| Uri of Uri
+
 type Property = 
     | ObjectProperty of Uri
-    | DataProperty of Uri
+    | DataProperty of DataProperty
 
 type Individual = 
     | Individual of Uri
@@ -20,9 +28,7 @@ type Entity =
     | Class of Class
     | Individual of Individual
 
-type Literal = 
-    | Int of int
-    | String of string
+
         
 type Subject = 
     | Subject of Uri
@@ -56,6 +62,7 @@ type Predicate =
     static member from p = 
         match p with
         | Property.ObjectProperty(uri) -> Predicate.Predicate(uri)
+        | Property.DataProperty(DataProperty.Uri(uri)) -> Predicate.Predicate(uri)
 
 type Object = 
     | Uri of Uri

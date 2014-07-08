@@ -26,6 +26,7 @@ let importFromFolder folder =
            (connection ()) 
            |> Store.bootStrapFromFile (f) (null :> Uri)
 
+importFromFolder (__SOURCE_DIRECTORY__ ++ "../ontologies/external" )
 importFromFolder (__SOURCE_DIRECTORY__ ++ "../ontologies/nice" )
 
 #load "Generator.fs"

@@ -14,7 +14,7 @@
         let innerscope = scope.Enter (Identifier (System.Guid.NewGuid().ToString()))
         yield! statementsFor (Subject (Owl.Uri (string innerscope)))
             [
-                yield (a,Object.from annotation.Uri)
+                yield (a,Object.from (Owl.Uri "http://www.w3.org/ns/oa#Annotation"))
                 yield (Predicate.from (Owl.Uri "http://www.w3.org/ns/oa#hasTarget"),Object.from (Owl.Uri (string scope)))
                 printf "Annotation %A\r\n" annotations            
 

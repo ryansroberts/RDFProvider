@@ -97,13 +97,14 @@
     <Compile Include="Model.fs" />
     <Compile Include="NLP.fs" />
     <Compile Include="NiceOntology.fs" />
-    <Compile Include="RDF.fs" />
+    <Compile Include="ToTriples.fs" />
     <Compile Include="Excel.fs" />
     <Compile Include="Program.fs" />
     <Compile Include="Site.fs" />
     <None Include="Import.fsx" />
     <None Include="Serve.fsx" />
     <None Include="packages.config" />
+    <None Include="tr.json" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

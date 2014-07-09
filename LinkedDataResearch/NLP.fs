@@ -1,63 +1,68 @@
 ﻿module NLP
-    open FSharp.Data
-    open VDS.RDF
-    open VDS.RDF.Parsing
-    open System.Xml
-    open System.IO
-    open System.Text
-    open System
-    open System.Security.Cryptography
-    open Model
 
-    let folder = (__SOURCE_DIRECTORY__ + "/iecache")
+open FSharp.Data
+open VDS.RDF
+open VDS.RDF.Parsing
+open System.Xml
+open System.IO
+open System.Text
+open System
+open System.Security.Cryptography
+open Model
 
-    let ensureCacheDir () = 
-        if(not(Directory.Exists folder)) then 
-            Directory.CreateDirectory folder |> ignore
+type trResponse = JsonProvider< "./tr.json" >
 
-    let cacheFile (scope:Scope) =   
-        let name = Path.GetInvalidFileNameChars()
-                    |> Array.fold (fun (a:string) c ->
-                        a.Replace(c,'_')
-                    ) (string scope) 
-        let fn = sprintf "%s/%s.xml" folder name
-        printf "%s\r\n" fn
-        fn
+let folder = ( "c:\\temp\\iecache")
 
-    let cacheGet (scope:Scope) (text:string) =
-        ensureCacheDir()
-        
-        let fn = cacheFile scope
+let ensureCacheDir() = 
+    if (not (Directory.Exists folder)) then Directory.CreateDirectory folder |> ignore
 
-        if(not(File.Exists fn)) then None
-        else Some(File.ReadAllText fn)
+let hash (input : string) = 
+    printf "Hash %s" input
+    let md5 = System.Security.Cryptography.MD5.Create()
+    let inputBytes = System.Text.Encoding.ASCII.GetBytes(input)
+    let hash = md5.ComputeHash(inputBytes)
+    let sb = new StringBuilder()
+    hash |> Array.fold (fun a x -> a + x.ToString("X2")) ""
 
-    let cacheSet scope text = 
-        ensureCacheDir()
+let cacheFile (content) = 
+    let fn = sprintf "%s\\%s.json" folder (hash content)
+    fn
 
-        File.WriteAllText(cacheFile scope,text)
+let cacheGet (scope : Scope) text = 
+    ensureCacheDir()
+    let fn = cacheFile text
+    try 
+        printf "check %s\r\n" fn
+        Some(trResponse.Load(File.ReadAllText fn))
+    with e -> 
+        printf "%s\r\n" e.Message
+        None
 
-        text
-     
-    let fetch text = 
-        printf "Downloading: %s\r\n" text 
-        Http.RequestString (
-            "http://access.alchemyapi.com/calls/text/TextGetRankedConcepts",
-            body= FormValues[("apikey","630ef77c0328ba4cf99c94c7474dd44f8e79f4f4")
-                             ("text",text)
-                             ("outputMode","rdf")
-                             ("showSourceText","enabled")])
+let cacheSet text = 
+    ensureCacheDir()
+    File.WriteAllText(cacheFile (text),text)
+    text
 
+let fetch text = 
+    printf "Downloading: %s\r\n" text
+    let s = 
+        Http.RequestStream("http://api.textrazor.com/", 
+                           body = FormValues [ ("apiKey", "1d89771d5553d95d41202a2b81a13e423d514e8bcce8c30450941103")
+                                               ("text", text)
+                                               ("extractors", "cleanedText,entities,topics,coarseTopics,relations")
+                                               ("showSourceText", "enabled") ])
+    if (s.StatusCode <> 200) then (trResponse.GetSample())
+    else 
+        try 
+            trResponse.Load s.ResponseStream
+        with _ -> trResponse.GetSample()
 
-    let graphOf (scope:Scope) s = 
-        let x = XmlDocument()
-        let g = new Graph()
-        let p  = RdfXmlParser()
+let graphOf (scope : Scope) s = 
+    match cacheGet scope s with
+    | Some r -> r
+    | None -> 
+        let res = fetch s
+        cacheSet s
+        res
 
-        match cacheGet scope s with
-            | Some r -> r
-            | None -> (fetch >> (cacheSet scope)) s
-        |> (fun s -> x.LoadXml(s);x)
-        |> (fun x -> p.Load(g,x))
-    
-        g

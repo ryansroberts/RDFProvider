@@ -36,7 +36,6 @@ open Suave.Session
 open Suave.Log
 open Response
 open Types.Codes
-open NiceOntology
 
 
 let turtle conn q px : WebPart = 

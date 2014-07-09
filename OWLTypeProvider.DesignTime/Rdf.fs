@@ -11,6 +11,7 @@ type Class =
 type Literal = 
     | Int of int
     | String of string
+    | DateTime of System.DateTimeOffset
 
 type DataProperty =
 | Literal of Literal
@@ -70,6 +71,7 @@ type Object =
     static member from uri = Object.Uri(uri)
     static member from i = Object.Literal(Literal.Int(i))
     static member from s = Object.Literal(Literal.String(s))
+    static member from dt = Object.Literal(Literal.DateTime(dt))
     static member from c = 
         match c with
         | Class.Class(uri) -> Object.Uri(uri)
@@ -81,6 +83,7 @@ type Object =
     static member from p = 
         match p with
         | Property.ObjectProperty(uri) -> Object.Uri(uri)
+
 
 type Statement = Predicate * Object
 

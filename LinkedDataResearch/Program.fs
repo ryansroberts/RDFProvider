@@ -93,7 +93,8 @@ module Import =
                  Guid = Guid r.``Set GUID``
                  SetTitle = Title r.Rationale
                  Questions = loadQuestions r.``Set GUID``
-                 Statements = loadStatements r.``Set GUID`` })
+                 Statements = loadStatements r.``Set GUID``
+                 Rationale = Rationale r.Rationale } )
         |> List.ofSeq
 
     let loadReccomendations id = 

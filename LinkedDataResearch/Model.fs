@@ -61,7 +61,8 @@ and Set =
       Guid : Guid
       SetTitle : Title
       Questions : Question list
-      Statements : Statement list }
+      Statements : Statement list
+      Rationale : Rationale }
 
 and Guideline = 
     { Id : Identifier

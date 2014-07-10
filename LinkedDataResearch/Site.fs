@@ -71,6 +71,8 @@ let parts conn =
     choose [ guidelines 
              statements ]
 
+let default_config = { default_config with home_folder = Some "/Public" }
+
 let server url db =  
     let connection = (Store.connectStarDog url db) 
 

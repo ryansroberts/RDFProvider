@@ -3,7 +3,9 @@
 #r "../packages/FSharp.Data.2.0.8/lib/net40/FSharp.Data.dll"
 #r "../packages/dotNetRDF.1.0.5.3315/lib/net40/dotNetRDF.dll"
 #r "../packages/VDS.Common.1.3.0/lib/net40-client/VDS.Common.dll"
+#r "../packages/HtmlAgilityPack.1.4.6/lib/Net40/HtmlAgilityPack.dll"
 #r "../OWLTypeProvider.DesignTime/bin/Debug/OWLTypeProvider.DesignTime.dll"
+#r "../packages/Suave.0.9.0/lib/ManagedOpenSsl.dll"
 #r "../packages/Suave.0.9.0/lib/suave.dll"
 
 #load "Model.fs"
@@ -16,6 +18,6 @@
 open Site
 
 do 
-    Site.server "http://localhost:5820" "Nice"
+    Site.server "http://localhost:8080" "Nice"
 
 

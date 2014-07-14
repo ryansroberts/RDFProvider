@@ -61,8 +61,8 @@ let parts conn =
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         SELECT ?entity
         WHERE {
-          ?entity a ?type.
-          ?type rdfs:subClassOf* @cls.
+          ?entity a owl:NamedIndividual .
+          ?entity a @cls.
         }
         """ [("cls",Owl.Entity.Class(Owl.Class(cls)))]
 

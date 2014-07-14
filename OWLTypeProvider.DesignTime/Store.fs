@@ -13,8 +13,10 @@ open VDS.RDF.Parsing.Handlers
 type namespaceMappings = (String * Schema.Uri) list
 
 let connectStarDog server store = 
-    (fun () -> new StardogConnector(server, store, StardogReasoningMode.SL, "admin", "admin") :> IQueryableStorage)
+    (fun () -> new StardogConnector(server, store, StardogReasoningMode.RL, "admin", "admin") :> IQueryableStorage)
 
+let stardogStorage server = new StardogV2Server(server, "admin", "admin") 
+    
 let emptyStardog url = 
     use server = new StardogV2Server(url, "admin", "admin")
     (fun store -> 
@@ -86,10 +88,9 @@ let subTypes root conn =
         prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         select distinct ?t 
         where {
-            {?t rdfs:subClassOf <%s> .} UNION {?t rdfs:subPropertyOf <%s> . }
-           	FILTER ( ?t != <%s> && ?t != owl:Thing && ?t != owl:Nothing && ?t != owl:bottomObjectProperty && ?t != owl:topObjectProperty ) 
+            {?t rdfs:subClassOf <%s> .} 
         }
-    """ (string root) (string root) (string root)) conn |> oneTuple 
+    """ (string root)) conn |> oneTuple 
 
 let objectProperties root conn = 
     cachedinference (sprintf """
@@ -98,9 +99,7 @@ let objectProperties root conn =
         select distinct ?p
         where {
           ?p a owl:ObjectProperty .
-          ?p rdfs:domain <%s>
-          OPTIONAL { ?t rdfs:comment ?comment } 
-          FILTER ( ?p != owl:Thing && ?p != owl:Nothing && ?p != owl:bottomObjectProperty && ?p != owl:topObjectProperty ) 
+          ?p rdfs:domain <%s> 
         }
     """ (string root)) conn |> oneTuple
 
@@ -112,7 +111,6 @@ let inRangeOf root conn =
         where {
           ?p a owl:ObjectProperty .
           ?p rdfs:range <%s>
-          FILTER ( ?p != owl:Thing && ?p != owl:Nothing && ?p != owl:bottomObjectProperty && ?p != owl:topObjectProperty ) 
         }
     """ (string root)) conn |> oneTuple 
 
@@ -122,8 +120,8 @@ let propertyRange root conn =
         prefix owl:  <http://www.w3.org/2002/07/owl#>
         select distinct ?r
         where {
-          <%s> rdfs:range ?r
-          FILTER ( ?p != owl:Thing && ?p != owl:Nothing) 
+          <%s> rdfs:range ?r .
+          ?r a rdf:Class
         }
     """ (string root)) conn |> oneTuple
 
@@ -146,8 +144,9 @@ let sampleIndividuals root conn =
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         SELECT ?entity
         WHERE {
-          ?entity a ?type.
-          ?type rdfs:subClassOf* <%s>.
+          ?entity a ?type .
+          ?entity a owl:NamedIndividual .
+          ?type rdfs:subClassOf <%s>.
         }
         LIMIT 10 
     """ (string root)) conn |> oneTuple
@@ -186,10 +185,8 @@ let toStorageTriple (g : Graph) (t : Owl.Triple) =
         | Owl.Object.Uri(Owl.QName(p,u)) -> g.CreateUriNode(p + ":" + u) :> INode
         | Owl.Object.Literal(Owl.String(s)) -> g.CreateLiteralNode(s) :> INode
         | Owl.Object.Literal(Owl.Int(i)) -> i.ToLiteral(g) :> INode
-
-    
+        | Owl.Object.Literal(Owl.DateTime(t)) -> t.ToLiteral(g) :> INode
     Triple(s, p, o)
-
 
 let assertTriples (conn : unit -> StardogConnector) (ns : namespaceMappings) (tx : Owl.Triple list) = 
     use conn = conn()
@@ -198,18 +195,25 @@ let assertTriples (conn : unit -> StardogConnector) (ns : namespaceMappings) (tx
 
 open ProviderImplementation.ProvidedTypes
 
+let d = new  System.Collections.Concurrent.ConcurrentDictionary<Schema.Uri,Schema.Node> ()
 let Node (query) (ns : namespaceMappings) (uri : Schema.Uri) = 
-    { Uri = uri
-      ObjectProperties = [for p in objectProperties uri (query) do yield (nodeUri p,"Doc")]
-      DataProperties = [for (p,t) in dataProperties uri (query) do 
-                        yield {
-                            Uri= nodeUri p;
-                            XsdType = typeName ns (nodeUri t)
-                            TypeName = typeName ns (nodeUri p)}]
-      Instances    = [for p in sampleIndividuals uri (query) do yield nodeUri p ]
-      SubClasses   = [for p in subTypes uri (query) do yield (nodeUri p,"Doc") ]
-      Ranges       = [for p in propertyRange uri (query) do yield nodeUri p]
-      InRangeOf    = [for p in inRangeOf uri (query) do yield nodeUri p]
-      Statements   = [for (s,o) in statements uri (query) do yield (typeName ns (nodeUri s),string o)]
-      ProvidedType = ProvidedTypeDefinition(typeName ns uri, Some typeof<obj>)
-    }
+    if(d.ContainsKey uri) then d.[uri]
+    else 
+        printf "Node Query %s" (string uri)
+        let node = {
+                    Uri = uri
+                    ObjectProperties = [for p in objectProperties uri (query) do yield (nodeUri p,"Doc")]
+                    DataProperties = [for (p,t) in dataProperties uri (query) do 
+                                    yield {
+                                        Uri= nodeUri p;
+                                        XsdType = typeName ns (nodeUri t)
+                                        TypeName = typeName ns (nodeUri p)}]
+                    Instances    = [for p in sampleIndividuals uri (query) do yield nodeUri p ]
+                    SubClasses   = [for p in subTypes uri (query) do yield (nodeUri p,"Doc") ]
+                    Ranges       = [for p in propertyRange uri (query) do yield nodeUri p]
+                    InRangeOf    = [for p in inRangeOf uri (query) do yield nodeUri p]
+                    Statements   = [for (s,o) in statements uri (query) do yield (typeName ns (nodeUri s),string o)]
+                    ProvidedType = (fun () -> ProvidedTypeDefinition(typeName ns uri, Some typeof<obj>))
+                }
+        d.TryAdd(uri,node) |> ignore
+        d.[uri]

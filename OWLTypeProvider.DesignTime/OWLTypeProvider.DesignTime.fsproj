@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="dotNetRDF">
-      <HintPath>..\packages\dotNetRDF.1.0.5.3315\lib\net40\dotNetRDF.dll</HintPath>
+      <HintPath>..\packages\dotNetRDF.1.0.6-prerelease01\lib\net40\dotNetRDF.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="HtmlAgilityPack">
@@ -79,8 +79,8 @@
     <None Include="Script.fsx" />
     <None Include="app.config" />
     <None Include="Test.fsx" />
-    </ItemGroup>
-
+    <None Include="Script1.fsx" />
+  </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
   </PropertyGroup>

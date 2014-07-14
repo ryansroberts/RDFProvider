@@ -48,6 +48,7 @@ let turtle conn q px : WebPart =
         let content = HttpContent.Bytes(mem.GetBuffer())
         { ctx with response = 
                        { ctx.response with status = HTTP_200
+                                           headers = [("Content-Type","text/turtle")]
                                            content = content } }
         |> succeed
 
@@ -69,11 +70,16 @@ let parts conn =
     let guidelines : WebPart = GET >>= choose [ url "/guidelines" >>= individualsOfClass guideline.Uri ]
     let statements : WebPart = GET >>= choose [ url "/statements" >>= individualsOfClass evidenceStatement.Uri ]
     choose [ guidelines 
-             statements ]
+             statements 
+             GET >>= dir
+             GET >>= browse
+             ]
 
 let server url db =  
     let connection = (Store.connectStarDog url db) 
 
     parts (connection().Query ) 
-        |> web_server default_config
-
+        |> web_server { default_config with 
+                                       home_folder = Some (__SOURCE_DIRECTORY__ + "\Public")
+                      }
+ 

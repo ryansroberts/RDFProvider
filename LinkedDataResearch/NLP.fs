@@ -12,13 +12,12 @@ open Model
 
 type trResponse = JsonProvider< "./tr.json" >
 
-let folder = ( "c:\\temp\\iecache")
+let folder = ( __SOURCE_DIRECTORY__  + "\\iecache")
 
 let ensureCacheDir() = 
     if (not (Directory.Exists folder)) then Directory.CreateDirectory folder |> ignore
 
 let hash (input : string) = 
-    printf "Hash %s" input
     let md5 = System.Security.Cryptography.MD5.Create()
     let inputBytes = System.Text.Encoding.ASCII.GetBytes(input)
     let hash = md5.ComputeHash(inputBytes)
@@ -33,19 +32,20 @@ let cacheGet (scope : Scope) text =
     ensureCacheDir()
     let fn = cacheFile text
     try 
-        printf "check %s\r\n" fn
-        Some(trResponse.Load(File.ReadAllText fn))
+        use fin = File.OpenText(fn)
+        let r = Some(trResponse.Load(fin))
+        printf "Hit\r\n"
+        r 
     with e -> 
-        printf "%s\r\n" e.Message
+        printf "Miss %s\r\n" e.Message
         None
 
-let cacheSet text = 
+let cacheSet text res = 
     ensureCacheDir()
-    File.WriteAllText(cacheFile (text),text)
-    text
+    File.WriteAllText(cacheFile (text),string res)
 
 let fetch text = 
-    printf "Downloading: %s\r\n" text
+    printf "Classifying: %s\r\n" text
     let s = 
         Http.RequestStream("http://api.textrazor.com/", 
                            body = FormValues [ ("apiKey", "1d89771d5553d95d41202a2b81a13e423d514e8bcce8c30450941103")
@@ -63,6 +63,6 @@ let graphOf (scope : Scope) s =
     | Some r -> r
     | None -> 
         let res = fetch s
-        cacheSet s
+        cacheSet s res
         res
 

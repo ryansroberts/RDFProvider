@@ -35,7 +35,8 @@ type Node =
       SubClasses : (Uri * String) list
       Ranges : Uri list
       InRangeOf : Uri list
-      ProvidedType : ProvidedTypeDefinition
+      ProvidedType : Unit -> ProvidedTypeDefinition
+
       Statements : Statement list
     }
 

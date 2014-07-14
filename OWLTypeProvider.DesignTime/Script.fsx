@@ -37,8 +37,10 @@ let map =
       ("prov", Schema.Uri "http://www.w3.org/ns/prov#")]
 
 let root = Store.Node (connection ()).Query map (Schema.Uri "http://www.w3.org/2002/07/owl#Thing")
+let rt = root.ProvidedType ()
+Generator.generate rt (Schema.Entity.Class(root)) (Store.Node (connection ()).Query map)
+op.AddMember rt
 
-Generator.generate (Schema.Entity.Class(root)) (Store.Node (connection ()).Query map)
-op.AddMember root.ProvidedType
-printf "%s\r\n" (ProviderImplementation.Debug.prettyPrint false false 10 10 root.ProvidedType)
+printf "generated code \r\n%s\r\n" (ProviderImplementation.Debug.prettyPrint false false 10 10 rt)
+
 

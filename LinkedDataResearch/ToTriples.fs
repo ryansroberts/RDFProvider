@@ -10,20 +10,32 @@
     let annotate (scope:Scope) s = [
         let ex = (NLP.graphOf scope s).Response.Entities |> Array.toList
         
-        let innerscope = scope.Enter (Identifier (System.Guid.NewGuid().ToString()))
-        let annSubject = Subject (Owl.Uri (string innerscope))
-        yield! statementsFor annSubject
-            [
-                yield (a,Object.from annotation.Uri)
-                yield (Predicate.from annotation.ObjectProperties.``oa:hasTarget``.Uri,Object.from (Owl.Uri (string scope)))
-                yield (Predicate.from annotation.DataProperties.``oa:annotatedAt``.Uri,Object.from (System.DateTimeOffset.Now))
-            ]
-        
         let rec body (ex:trResponse.Entity list)  i = [
             match ex,i with
             | [],_ -> ()
             | e::tail,i ->
-                    yield! body tail (i + 1)
+                    let innerscope = scope.Enter (Identifier (System.Guid.NewGuid().ToString()))
+
+                    let targetUri = Owl.Uri (string (innerscope.Enter (Identifier (sprintf "_range_%d" i))))
+                    yield! statementsFor (Subject targetUri)
+                        [
+                             yield (a,Object.from specificResource.Uri)
+                             yield (Predicate.from specificResource.ObjectProperties.``oa:hasSource``.Uri,Object.from (string scope)) 
+                        ]
+
+                    let selectorUri = Owl.Uri (string (innerscope.Enter (Identifier (sprintf "_selector_%d" i)))) 
+                    yield! statementsFor (Subject selectorUri)
+                        [
+                             yield (a,Object.from textPosition.Uri)
+                        ]
+
+                    let annSubject = Subject (Owl.Uri (string innerscope))
+                    yield! statementsFor annSubject
+                        [
+                            yield (a,Object.from annotation.Uri)
+                            yield (Predicate.from annotation.ObjectProperties.``oa:hasTarget``.Uri,Object.from (Owl.Uri (string scope)))
+                            yield (Predicate.from annotation.DataProperties.``oa:annotatedAt``.Uri,Object.from (System.DateTimeOffset.Now))
+                        ]
 
                     let tagUri = Owl.Uri (string (innerscope.Enter (Identifier (sprintf "_tag_%d" i))))
                     yield! statementsFor annSubject
@@ -46,7 +58,7 @@
                         [
                            yield (a,Object.from semanticTag.Uri)
                         ]
-    
+                    yield! body tail (i + 1)
             ]
         
         yield! body ex 0

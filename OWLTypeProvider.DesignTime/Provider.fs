@@ -55,7 +55,8 @@ type SparqlEndpointProvider(config : TypeProviderConfig) as x =
 
                 let generateClass = Store.Node (remoteQuery) nsmap
                 let root = generateClass (Schema.Uri baseUri)
-                erasedType.AddMember(Generator.generate (Schema.Entity.Class(root)) generateClass)
+                let rt = root.ProvidedType()
+                erasedType.AddMember(Generator.generate rt (Schema.Entity.Class(root)) generateClass)
                 erasedType
         op.DefineStaticParameters(parameters, init)
         op
@@ -101,7 +102,8 @@ type FileProvider(config : TypeProviderConfig) as x =
                 
                 let generateClass = Store.Node (connection.Query) nsmap
                 let root = generateClass (Schema.Uri ontologyRoot)
-                erasedType.AddMember(Generator.generate (Schema.Entity.Class(root)) generateClass)
+                let rt = root.ProvidedType()
+                erasedType.AddMember(Generator.generate rt (Schema.Entity.Class(root)) generateClass)
                 erasedType
         op.DefineStaticParameters(parameters, init)
         op
@@ -131,7 +133,8 @@ type StardogProvider(config : TypeProviderConfig) as x =
                 let nsmap = (parse nsmap) @ defaultNs
                 let generateClass = Store.Node (connection().Query) nsmap
                 let root = generateClass (Schema.Uri baseUri)
-                erasedType.AddMember(Generator.generate (Schema.Entity.Class(root)) generateClass)
+                let rt = root.ProvidedType()
+                erasedType.AddMember(Generator.generate rt (Schema.Entity.Class(root)) generateClass)
                 erasedType
         op.DefineStaticParameters(parameters, init)
         op

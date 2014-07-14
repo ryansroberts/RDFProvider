@@ -99,6 +99,7 @@ module XsdMap =
 [<AutoOpen>]
 module Predicates = 
     let a = Predicate.from "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+    let individual = Object.from "http://www.w3.org/2002/07/owl#NamedIndividual"
 
 [<AutoOpen>]
 module Manipulation = 

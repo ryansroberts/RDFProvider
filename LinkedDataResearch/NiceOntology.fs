@@ -18,19 +18,24 @@
                     cnt:http://www.w3.org/2011/content#,
                     oa:http://www.w3.org/ns/oa#,
                     prov:http://www.w3.org/ns/prov#"""
-
+    [<Literal>]
+    let owlLocation = __SOURCE_DIRECTORY__ + "/owl.ttl"
               
     let assertTriples = LinkedData.assertTriples server store "admin" "admin" nsmap
 
+
+
     type nice = LinkedData.Stardog<server, store, ontologyRoot, nsmap>
-    
+    //type owl = LinkedData.File<owlLocation,"http://www.w3.org/2000/01/rdf-schema#class","owl:http://www.w3.org/2002/07/owl#">
+
     type thing = nice.``owl:Thing``
+  
 
     type guideline = thing.``ng:Guideline``
-    type isAbout = thing.ObjectProperties.``ng:isAbout``
+    type isAbout = guideline.ObjectProperties.``ng:isAbout``
     type topic = thing.``ng:Topic``
     type hasRationale = topic.ObjectProperties.``ng:hasRationale``
-    type rationale = hasRationale.Ranges.``ng:Rationale``
+    type rationale = thing.``ng:Rationale`` 
     type question = thing.``ner:Question``
     type evidenceStatement = thing.``ng:EvidenceStatement``
     type study = thing.``ner:Study``
@@ -45,8 +50,12 @@
     type semanticTag = thing.``oa:Tag``.``oa:SemanticTag``
     type tag = thing.``oa:Tag``
     type textContent = thing.``cnt:ContentAsText``
-    type chars = thing.``cnt:Content``.ObjectProperties.``cnt:chars``
+    type chars = thing.``cnt:Content``.``cnt:ContentAsText``.ObjectProperties.``cnt:chars``
     type annotation = thing.``oa:Annotation``
+    type specificResource = thing.``oa:SpecificResource``
+    type textPosition = thing.``oa:TextPositionSelector``
+    
+
     
      
 

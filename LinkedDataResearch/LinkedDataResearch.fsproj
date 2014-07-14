@@ -22,7 +22,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DocumentationFile>bin\Debug\LinkedDataResearch.XML</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -39,7 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="dotNetRDF">
-      <HintPath>..\packages\dotNetRDF.1.0.5.3315\lib\net40\dotNetRDF.dll</HintPath>
+      <HintPath>..\packages\dotNetRDF.1.0.6-prerelease01\lib\net40\dotNetRDF.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Excel">
@@ -94,6 +94,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Compile Include="PSeq.fs" />
     <Compile Include="Model.fs" />
     <Compile Include="NLP.fs" />
     <Compile Include="NiceOntology.fs" />

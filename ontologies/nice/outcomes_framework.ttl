@@ -16,17 +16,47 @@
 #################################################################
 
 
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#hasPart
+
+:hasPart rdf:type owl:ObjectProperty ;
+         
+         rdfs:range :OutcomesDomain ;
+         
+         rdfs:domain :OutcomesFramework ;
+         
+         owl:inverseOf :isPartOf .
+
+
+
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#isPartOf
 
-:isPartOf rdf:type owl:ObjectProperty ,
-                   owl:TransitiveProperty ;
+:isPartOf rdf:type owl:ObjectProperty ;
           
           rdfs:domain :OutcomesDomain ;
           
-          rdfs:range :OutcomesDomain ,
-                     :OutcomesFramework ;
+          rdfs:range :OutcomesFramework .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#isSupportedby
+
+:isSupportedby rdf:type owl:ObjectProperty ;
+               
+               rdfs:domain :OutcomesDomain ;
+               
+               rdfs:range :OutcomesIndicator .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#supports
+
+:supports rdf:type owl:ObjectProperty ;
           
-          rdfs:domain :OutcomesIndicator .
+          rdfs:range :OutcomesDomain ;
+          
+          rdfs:domain :OutcomesIndicator ;
+          
+          owl:inverseOf :isSupportedby .
 
 
 
@@ -41,21 +71,7 @@
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#dateIssued
 
-:dateIssued rdf:type owl:DatatypeProperty ;
-            
-            rdfs:domain :OutcomesFramework ;
-            
-            rdfs:range xsd:dateTime .
-
-
-
-###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#title
-
-:title rdf:type owl:DatatypeProperty ;
-       
-       rdfs:domain :OutcomesFramework ;
-       
-       rdfs:range xsd:string .
+:dateIssued rdf:type owl:DatatypeProperty .
 
 
 
@@ -83,6 +99,24 @@
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesIndicator
 
 :OutcomesIndicator rdf:type owl:Class .
+
+
+
+
+
+#################################################################
+#
+#    General axioms
+#
+#################################################################
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :OutcomesDomain
+                :OutcomesFramework
+                :OutcomesIndicator
+              )
+] .
 
 
 

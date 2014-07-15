@@ -17,6 +17,18 @@
 #################################################################
 
 
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#hasPart
+
+:hasPart rdf:type owl:ObjectProperty ;
+         
+         rdfs:domain :QualityStandard ;
+         
+         rdfs:range :QualityStatement ;
+         
+         owl:inverseOf :isPartOf .
+
+
+
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#isPartOf
 
 :isPartOf rdf:type owl:ObjectProperty ;
@@ -38,7 +50,9 @@
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStandard
 
-:QualityStandard rdf:type owl:Class .
+:QualityStandard rdf:type owl:Class ;
+                 
+                 owl:disjointWith :QualityStatement .
 
 
 

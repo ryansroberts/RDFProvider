@@ -182,25 +182,36 @@
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#identifier
 
-:identifier rdf:type owl:DatatypeProperty .
+:identifier rdf:type owl:DatatypeProperty ;
 
+		rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation> ;
+		rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Guideline> . 
+		
+			
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#recommendationStrength
 
-:recommendationStrength rdf:type owl:DatatypeProperty .
+:recommendationStrength rdf:type owl:DatatypeProperty ;
+
+		rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation> .
+
 
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#subject
 
-:subject rdf:type owl:DatatypeProperty .
-
-
+:subject rdf:type owl:DatatypeProperty ;
+		
+		rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Topic> .
+		
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#title
 
-:title rdf:type owl:DatatypeProperty .
+:title rdf:type owl:DatatypeProperty  ;
+
+		rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation> ;
+		rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Guideline> . 
 
 
 

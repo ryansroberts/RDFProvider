@@ -41,6 +41,7 @@
                     yield! statementsFor annSubject
                         [
                            yield (Predicate.from annotation.ObjectProperties.``oa:hasBody``.Uri,Object.from tagUri)
+                           
                         ]
                     yield! statementsFor (Subject.from tagUri)
                         [
@@ -147,7 +148,7 @@
     ]
 
     let guideline (g:Model.Guideline) = [
-            let scope = Scope("guidelines:", [ g.Id ])
+            let scope = Scope("http://nice.org.uk/guideline/", [ g.Id ])
             yield! statementsFor (Subject (Owl.Uri (string scope)))
                 [ 
                   yield (a,Object.from guideline.Uri)

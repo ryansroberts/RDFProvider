@@ -59,16 +59,29 @@ let parts conn =
         turtle """
         PREFIX owl: <http://www.w3.org/2002/07/owl#>
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-        SELECT ?entity
+        describe ?entity
         WHERE {
-          ?entity a owl:NamedIndividual .
           ?entity a @cls.
         }
         """ [("cls",Owl.Entity.Class(Owl.Class(cls)))]
+    
+    let about cls uri =
+        turtle """
+        PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX ng:<http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#>
+        describe ?entity
+        WHERE {
+          ?entity ng:isAbout @uri .
+          ?entity a @cls.
+        }
+        """ [("cls",Owl.Entity.Class(Owl.Class(cls)))
+             ("uri",Owl.Entity.Individual(Owl.Individual(uri)))] 
+    
 
 
     let guidelines : WebPart = GET >>= choose [ url "/guidelines" >>= individualsOfClass guideline.Uri ]
-    let statements : WebPart = GET >>= choose [ url "/statements" >>= individualsOfClass evidenceStatement.Uri ]
+    let statements : WebPart = GET >>= choose [ url_scan "/statements/%s" (fun uri -> about evidenceStatement.Uri (Owl.Uri(uri)))]
     choose [ guidelines 
              statements 
              GET >>= dir
@@ -78,7 +91,7 @@ let parts conn =
 let default_config = { default_config with home_folder = Some "/Public" }
 
 let server url db =  
-    let connection = (Store.connectStarDog url db) 
+    let connection = (Store.connectStupidStardog url db) 
 
     parts (connection().Query ) 
         |> web_server { default_config with 

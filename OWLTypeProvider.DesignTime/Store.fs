@@ -15,6 +15,10 @@ type namespaceMappings = (String * Schema.Uri) list
 let connectStarDog server store = 
     (fun () -> new StardogConnector(server, store, StardogReasoningMode.RL, "admin", "admin") :> IQueryableStorage)
 
+
+let connectStupidStardog server store = 
+    (fun () -> new StardogConnector(server, store, StardogReasoningMode.None, "admin", "admin") :> IQueryableStorage)
+
 let stardogStorage server = new StardogV2Server(server, "admin", "admin") 
     
 let emptyStardog url = 
@@ -33,8 +37,6 @@ let connectMemory g =
         m :> IQueryableStorage
 
 let connectRemote uri = (new SparqlRemoteEndpoint(System.Uri uri))
-
-
 
 
 let bootStrapFromUri (loadFrom : Uri) (baseUri : Uri) (c : IStorageProvider) = 
@@ -60,6 +62,7 @@ let inline memo f =
             temp
 
 let inference a c =
+    printf "%s\r\n" (string a)
     use g = new Graph()
     let rdfhandler = GraphHandler(g)
     let resultset = new SparqlResultSet() 
@@ -88,7 +91,7 @@ let subTypes root conn =
         prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         select distinct ?t 
         where {
-            {?t rdfs:subClassOf <%s> .} 
+            ?t rdfs:subClassOf <%s> .
         }
     """ (string root)) conn |> oneTuple 
 
@@ -153,11 +156,14 @@ let sampleIndividuals root conn =
 
 let statements root conn = 
     cachedinference (sprintf """
+        PREFIX owl: <http://www.w3.org/2002/07/owl#>
         SELECT ?o ?s
         WHERE {
+          <%s> a owl:NamedIndividual .
           <%s> ?o ?s
         }
-    """ (string root)) conn |> twoTuple
+        LIMIT 10
+    """ (string root)(string root)) conn |> twoTuple
 
 let typeName (ns : namespaceMappings) (uri : Schema.Uri) = 
     match ns |> List.tryFind (fun (_, u) -> (uri.isComponent u)) with
@@ -208,7 +214,7 @@ let Node (query) (ns : namespaceMappings) (uri : Schema.Uri) =
                                         Uri= nodeUri p;
                                         XsdType = typeName ns (nodeUri t)
                                         TypeName = typeName ns (nodeUri p)}]
-                    Instances    = [for p in sampleIndividuals uri (query) do yield nodeUri p ]
+                    Instances    = []
                     SubClasses   = [for p in subTypes uri (query) do yield (nodeUri p,"Doc") ]
                     Ranges       = [for p in propertyRange uri (query) do yield nodeUri p]
                     InRangeOf    = [for p in inRangeOf uri (query) do yield nodeUri p]

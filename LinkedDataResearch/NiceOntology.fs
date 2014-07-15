@@ -55,6 +55,7 @@
     type specificResource = thing.``oa:SpecificResource``
     type textPosition = thing.``oa:TextPositionSelector``
     
+    
 
     
      

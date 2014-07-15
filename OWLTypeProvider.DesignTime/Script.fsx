@@ -29,6 +29,8 @@ let importFromFolder folder =
 importFromFolder (__SOURCE_DIRECTORY__ ++ "../ontologies/external" )
 importFromFolder (__SOURCE_DIRECTORY__ ++ "../ontologies/nice" )
 
+//let connection = Store.connectStarDog  "http://localhost:5820" "Nice"
+
 #load "Generator.fs"
 
 let map = 

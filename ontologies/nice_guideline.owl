@@ -8,9 +8,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline> .
 
-<http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline> rdf:type owl:Ontology ;
-                                                                        
-                                                                        owl:imports <http://www.w3.org/ns/prov-o#> .
+<http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline> rdf:type owl:Ontology .
 
 
 #################################################################
@@ -24,9 +22,23 @@
 
 :follows rdf:type owl:ObjectProperty ;
          
+         rdfs:range :Recommendation ;
+         
          rdfs:domain :Recommendation ;
          
-         rdfs:range :Recommendation .
+         owl:inverseOf :isFollowedBy .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#hasPart
+
+:hasPart rdf:type owl:ObjectProperty ;
+         
+         owl:inverseOf :isPartOf ;
+         
+         rdfs:domain <http://www.w3.org/ns/prov#Entity> ;
+         
+         rdfs:range <http://www.w3.org/ns/prov#Entity> .
 
 
 
@@ -44,11 +56,23 @@
 
 :isAbout rdf:type owl:ObjectProperty ;
          
-         rdfs:domain :Discussion ,
-                     :EvidenceStatement ,
+         rdfs:domain :EvidenceStatement ,
+                     :Guideline ,
                      :Recommendation ;
          
-         rdfs:range :Topic .
+         rdfs:range :Topic ;
+         
+         owl:inverseOf :isTopicOf .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isFollowedBy
+
+:isFollowedBy rdf:type owl:ObjectProperty ;
+              
+              rdfs:range :Recommendation ;
+              
+              rdfs:domain :Recommendation .
 
 
 
@@ -56,17 +80,48 @@
 
 :isPartOf rdf:type owl:ObjectProperty ;
           
-          rdfs:range :Guideline ;
+          rdfs:range <http://www.w3.org/ns/prov#Entity> ;
           
-          rdfs:domain :Topic .
+          rdfs:domain <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isRationaleOf
+
+:isRationaleOf rdf:type owl:ObjectProperty ;
+               
+               rdfs:domain :Rationale ;
+               
+               rdfs:range :Topic ;
+               
+               owl:inverseOf :hasRationale .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isSummarisedBy
+
+:isSummarisedBy rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isTopicOf
+
+:isTopicOf rdf:type owl:ObjectProperty ;
+           
+           rdfs:domain :Topic ;
+           
+           rdfs:range [ rdf:type owl:Class ;
+                        owl:unionOf ( :EvidenceStatement
+                                      :Guideline
+                                      :Recommendation
+                                    )
+                      ] .
 
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isUsedBy
 
-:isUsedBy rdf:type owl:ObjectProperty ;
-          
-          rdfs:domain :Recommendation .
+:isUsedBy rdf:type owl:ObjectProperty .
 
 
 
@@ -86,6 +141,24 @@
 
 
 
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#supports
+
+:supports rdf:type owl:ObjectProperty ;
+          
+          rdfs:domain :EvidenceStatement ;
+          
+          rdfs:range :Recommendation ;
+          
+          owl:inverseOf :supportedBy .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#uses
+
+:uses rdf:type owl:ObjectProperty .
+
+
+
 
 
 #################################################################
@@ -97,63 +170,37 @@
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#evidenceLevel
 
-:evidenceLevel rdf:type owl:DatatypeProperty ;
-               
-               rdfs:domain :EvidenceStatement ;
-               
-               rdfs:range xsd:string .
+:evidenceLevel rdf:type owl:DatatypeProperty .
 
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#evidenceType
 
-:evidenceType rdf:type owl:DatatypeProperty ;
-              
-              rdfs:domain :EvidenceStatement ;
-              
-              rdfs:range xsd:string .
+:evidenceType rdf:type owl:DatatypeProperty .
 
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#identifier
 
-:identifier rdf:type owl:DatatypeProperty ;
-            
-            rdfs:domain :Guideline ,
-                        :Recommendation ;
-            
-            rdfs:range xsd:anyURI .
+:identifier rdf:type owl:DatatypeProperty .
 
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#recommendationStrength
 
-:recommendationStrength rdf:type owl:DatatypeProperty ;
-                        
-                        rdfs:domain :Recommendation ;
-                        
-                        rdfs:range xsd:string .
+:recommendationStrength rdf:type owl:DatatypeProperty .
 
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#subject
 
-:subject rdf:type owl:DatatypeProperty ;
-         
-         rdfs:domain :Topic ;
-         
-         rdfs:range xsd:string .
+:subject rdf:type owl:DatatypeProperty .
 
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#title
 
-:title rdf:type owl:DatatypeProperty ;
-       
-       rdfs:domain :Guideline ,
-                   :Recommendation ;
-       
-       rdfs:range xsd:string .
+:title rdf:type owl:DatatypeProperty .
 
 
 
@@ -209,6 +256,37 @@
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Topic
 
 :Topic rdf:type owl:Class .
+
+
+
+###  http://www.w3.org/ns/prov#Activity
+
+<http://www.w3.org/ns/prov#Activity> rdf:type owl:Class .
+
+
+
+###  http://www.w3.org/ns/prov#Entity
+
+<http://www.w3.org/ns/prov#Entity> rdf:type owl:Class .
+
+
+
+
+
+#################################################################
+#
+#    General axioms
+#
+#################################################################
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :EvidenceStatement
+                :Guideline
+                :Rationale
+                :Recommendation
+              )
+] .
 
 
 

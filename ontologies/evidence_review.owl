@@ -32,7 +32,9 @@
                   
                   rdfs:domain :Review ;
                   
-                  rdfs:range :Study .
+                  rdfs:range :Study ;
+                  
+                  owl:inverseOf :isIncludedStudyOf .
 
 
 
@@ -42,7 +44,9 @@
              
              rdfs:range :Question ;
              
-             rdfs:domain :Review .
+             rdfs:domain :Review ;
+             
+             owl:inverseOf :isQuestionOf .
 
 
 
@@ -52,7 +56,9 @@
               
               rdfs:range :Reference ;
               
-              rdfs:domain :Study .
+              rdfs:domain :Study ;
+              
+              owl:inverseOf :isReferenceOf .
 
 
 
@@ -62,7 +68,61 @@
                    
                    rdfs:domain :Question ;
                    
-                   rdfs:range :SearchStrategy .
+                   rdfs:range :SearchStrategy ;
+                   
+                   owl:inverseOf :isSearchStrategyOf .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#isExcludedStudyOf
+
+:isExcludedStudyOf rdf:type owl:ObjectProperty ;
+                   
+                   rdfs:range :Review ;
+                   
+                   rdfs:domain :Study ;
+                   
+                   owl:inverseOf :hasExcludedStudy .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#isIncludedStudyOf
+
+:isIncludedStudyOf rdf:type owl:ObjectProperty ;
+                   
+                   rdfs:range :Review ;
+                   
+                   rdfs:domain :Study .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#isQuestionOf
+
+:isQuestionOf rdf:type owl:ObjectProperty ;
+              
+              rdfs:domain :Question ;
+              
+              rdfs:range :Review .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#isReferenceOf
+
+:isReferenceOf rdf:type owl:ObjectProperty ;
+               
+               rdfs:domain :Reference ;
+               
+               rdfs:range :Study .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#isSearchStrategyOf
+
+:isSearchStrategyOf rdf:type owl:ObjectProperty ;
+                    
+                    rdfs:range :Question ;
+                    
+                    rdfs:domain :SearchStrategy .
 
 
 
@@ -77,51 +137,31 @@
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasDateRange
 
-:hasDateRange rdf:type owl:DatatypeProperty ;
-              
-              rdfs:domain :SearchStrategy ;
-              
-              rdfs:range xsd:string .
+:hasDateRange rdf:type owl:DatatypeProperty .
 
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasPopulation
 
-:hasPopulation rdf:type owl:DatatypeProperty ;
-               
-               rdfs:domain :SearchStrategy ;
-               
-               rdfs:range xsd:string .
+:hasPopulation rdf:type owl:DatatypeProperty .
 
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasSource
 
-:hasSource rdf:type owl:DatatypeProperty ;
-           
-           rdfs:domain :SearchStrategy ;
-           
-           rdfs:range xsd:string .
+:hasSource rdf:type owl:DatatypeProperty .
 
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasStrategyType
 
-:hasStrategyType rdf:type owl:DatatypeProperty ;
-                 
-                 rdfs:domain :SearchStrategy ;
-                 
-                 rdfs:range xsd:string .
+:hasStrategyType rdf:type owl:DatatypeProperty .
 
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasStudyType
 
-:hasStudyType rdf:type owl:DatatypeProperty ;
-              
-              rdfs:domain :SearchStrategy ;
-              
-              rdfs:range xsd:string .
+:hasStudyType rdf:type owl:DatatypeProperty .
 
 
 
@@ -161,6 +201,26 @@
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Study
 
 :Study rdf:type owl:Class .
+
+
+
+
+
+#################################################################
+#
+#    General axioms
+#
+#################################################################
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Question
+                :Reference
+                :Review
+                :SearchStrategy
+                :Study
+              )
+] .
 
 
 

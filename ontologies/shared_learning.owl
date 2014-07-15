@@ -18,11 +18,25 @@
 #################################################################
 
 
+###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#develops
+
+:develops rdf:type owl:ObjectProperty ;
+          
+          rdfs:domain :Organisation ;
+          
+          rdfs:range :Setting ;
+          
+          owl:inverseOf :wasDevelopedBy .
+
+
+
 ###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#hasGeoSetting
 
 :hasGeoSetting rdf:type owl:ObjectProperty ;
                
                rdfs:domain :SharedLearning ;
+               
+               owl:inverseOf :isGeoSettingof ;
                
                rdfs:range <http://www.w3.org/ns/prov#Location> .
 
@@ -34,15 +48,15 @@
                             
                             rdfs:range :Setting ;
                             
-                            rdfs:domain :SharedLearning .
+                            rdfs:domain :SharedLearning ;
+                            
+                            owl:inverseOf :isHealthSocialCareSettingOf .
 
 
 
 ###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#implements
 
-:implements rdf:type owl:ObjectProperty ;
-            
-            rdfs:domain :SharedLearning .
+:implements rdf:type owl:ObjectProperty .
 
 
 
@@ -60,9 +74,9 @@
 
 :isHealthSocialCareSettingOf rdf:type owl:ObjectProperty ;
                              
-                             rdfs:range :SharedLearning ;
+                             rdfs:domain :Setting ;
                              
-                             rdfs:domain <http://www.w3.org/ns/prov#Location> .
+                             rdfs:range :SharedLearning .
 
 
 
@@ -87,31 +101,19 @@
 
 ###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#dateSubmitted
 
-:dateSubmitted rdf:type owl:DatatypeProperty ;
-               
-               rdfs:domain :SharedLearning ;
-               
-               rdfs:range xsd:dateTime .
+:dateSubmitted rdf:type owl:DatatypeProperty .
 
 
 
 ###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#hasDescription
 
-:hasDescription rdf:type owl:DatatypeProperty ;
-                
-                rdfs:domain :SharedLearning ;
-                
-                rdfs:range xsd:string .
+:hasDescription rdf:type owl:DatatypeProperty .
 
 
 
 ###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#hasTitle
 
-:hasTitle rdf:type owl:DatatypeProperty ;
-          
-          rdfs:domain :SharedLearning ;
-          
-          rdfs:range xsd:string .
+:hasTitle rdf:type owl:DatatypeProperty .
 
 
 

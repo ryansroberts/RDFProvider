@@ -1,0 +1,285 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Dipeptidyl peptidase-4",
+        "wikiLink": "http://en.wikipedia.org/Dipeptidyl_peptidase-4",
+        "score": 0.329537
+      },
+      {
+        "id": 1,
+        "label": "Dipeptidyl peptidase-4 inhibitor",
+        "wikiLink": "http://en.wikipedia.org/Dipeptidyl_peptidase-4_inhibitor",
+        "score": 0.110461
+      },
+      {
+        "id": 2,
+        "label": "Metformin",
+        "wikiLink": "http://en.wikipedia.org/Metformin",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Sulfonylurea",
+        "wikiLink": "http://en.wikipedia.org/Sulfonylurea",
+        "score": 0.625896
+      },
+      {
+        "id": 4,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.212163
+      },
+      {
+        "id": 5,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.212163
+      },
+      {
+        "id": 6,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.212163
+      },
+      {
+        "id": 7,
+        "label": "Hydrolases",
+        "wikiLink": "http://en.wikipedia.org/Category:Hydrolases",
+        "score": 0.0774395
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Dipeptidyl peptidase-4",
+        "confidenceScore": 1.9246,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dipeptidyl_peptidase-4",
+        "matchedText": "DPP-4",
+        "freebaseId": "/m/0f2wt4",
+        "relevanceScore": 0.329537,
+        "entityEnglishId": "Dipeptidyl peptidase-4",
+        "startingPos": 30,
+        "endingPos": 35
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Dipeptidyl peptidase-4 inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/medicine/drug_mechanism_of_action",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 2.41203,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dipeptidyl_peptidase-4_inhibitor",
+        "matchedText": "DPP-4 inhibitor",
+        "freebaseId": "/m/0dk7rr",
+        "relevanceScore": 0.110461,
+        "entityEnglishId": "Dipeptidyl peptidase-4 inhibitor",
+        "startingPos": 30,
+        "endingPos": 45
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 11.0272,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.500857,
+        "entityEnglishId": "Metformin",
+        "startingPos": 66,
+        "endingPos": 75
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Sulfonylurea",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 8.38718,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sulfonylurea",
+        "matchedText": "sulfonylurea",
+        "freebaseId": "/m/036kty",
+        "relevanceScore": 0.625896,
+        "entityEnglishId": "Sulfonylurea",
+        "startingPos": 97,
+        "endingPos": 109
+      },
+      {
+        "id": 4,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 10.4036,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.500857,
+        "entityEnglishId": "Metformin",
+        "startingPos": 119,
+        "endingPos": 128
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0
+        ],
+        "propertyPositions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 3.014,
+  "ok": true
+}

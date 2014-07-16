@@ -1,0 +1,367 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.246699
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.231444
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.224803
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.192004
+      },
+      {
+        "id": 5,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.191696
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Antibiotics",
+        "wikiLink": "http://en.wikipedia.org/Antibiotics",
+        "score": 0.287958
+      },
+      {
+        "id": 1,
+        "label": "Cellulitis",
+        "wikiLink": "http://en.wikipedia.org/Cellulitis",
+        "score": 0.49626
+      },
+      {
+        "id": 2,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.186125
+      },
+      {
+        "id": 3,
+        "label": "Infection",
+        "wikiLink": "http://en.wikipedia.org/Infection",
+        "score": 0.247284
+      },
+      {
+        "id": 4,
+        "label": "Osteomyelitis",
+        "wikiLink": "http://en.wikipedia.org/Osteomyelitis",
+        "score": 0.574275
+      },
+      {
+        "id": 5,
+        "label": "Infectious diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Infectious_diseases",
+        "score": 0.923275
+      },
+      {
+        "id": 6,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders",
+        "score": 0.888924
+      },
+      {
+        "id": 7,
+        "label": "Immunology",
+        "wikiLink": "http://en.wikipedia.org/Category:Immunology",
+        "score": 0.861845
+      },
+      {
+        "id": 8,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.858088
+      },
+      {
+        "id": 9,
+        "label": "Bacteriology",
+        "wikiLink": "http://en.wikipedia.org/Category:Bacteriology",
+        "score": 0.529358
+      },
+      {
+        "id": 10,
+        "label": "Bacterial diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Bacterial_diseases",
+        "score": 0.529358
+      },
+      {
+        "id": 11,
+        "label": "Microbiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Microbiology",
+        "score": 0.417385
+      },
+      {
+        "id": 12,
+        "label": "Empiricism",
+        "wikiLink": "http://en.wikipedia.org/Category:Empiricism",
+        "score": 0.0847296
+      },
+      {
+        "id": 13,
+        "label": "Bacteria",
+        "wikiLink": "http://en.wikipedia.org/Category:Bacteria",
+        "score": 0.0619187
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Evidence (law)",
+        "confidenceScore": 1.25794,
+        "wikiLink": "http://en.wikipedia.org/wiki/Evidence_(law)",
+        "matchedText": "evidence",
+        "freebaseId": "/m/06d34f",
+        "relevanceScore": 0.0224936,
+        "entityEnglishId": "Evidence (law)",
+        "startingPos": 20,
+        "endingPos": 28
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Antibiotics",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/risk_factor",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.22322,
+        "wikiLink": "http://en.wikipedia.org/wiki/Antibiotics",
+        "matchedText": "antibiotic",
+        "freebaseId": "/m/0tbr",
+        "relevanceScore": 0.287958,
+        "entityEnglishId": "Antibiotics",
+        "startingPos": 80,
+        "endingPos": 90
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.973085,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.186125,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 122,
+        "endingPos": 130
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.45375,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 122,
+        "endingPos": 135
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Infection",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.06586,
+        "wikiLink": "http://en.wikipedia.org/wiki/Infection",
+        "matchedText": "infections",
+        "freebaseId": "/m/098s1",
+        "relevanceScore": 0.247284,
+        "entityEnglishId": "Infection",
+        "startingPos": 136,
+        "endingPos": 146
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Cellulitis",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 12.4892,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cellulitis",
+        "matchedText": "cellulitis",
+        "freebaseId": "/m/036l45",
+        "relevanceScore": 0.49626,
+        "entityEnglishId": "Cellulitis",
+        "startingPos": 158,
+        "endingPos": 168
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Osteomyelitis",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/infectious_disease",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 13.977,
+        "wikiLink": "http://en.wikipedia.org/wiki/Osteomyelitis",
+        "matchedText": "osteomyelitis",
+        "freebaseId": "/m/02tm23",
+        "relevanceScore": 0.574275,
+        "entityEnglishId": "Osteomyelitis",
+        "startingPos": 173,
+        "endingPos": 186
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4,
+          5,
+          13
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          6,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          17,
+          18,
+          20
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          17,
+          18,
+          20
+        ],
+        "propertyPositions": [
+          16
+        ]
+      }
+    ]
+  },
+  "time": 3.022,
+  "ok": true
+}

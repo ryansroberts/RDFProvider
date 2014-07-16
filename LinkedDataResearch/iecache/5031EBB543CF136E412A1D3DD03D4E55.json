@@ -1,0 +1,433 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.711141
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.513395
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.494344
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.323586
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.250279
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.21201
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Fish oil",
+        "wikiLink": "http://en.wikipedia.org/Fish_oil",
+        "score": 0.45051
+      },
+      {
+        "id": 3,
+        "label": "Lipid",
+        "wikiLink": "http://en.wikipedia.org/Lipid",
+        "score": 0.141613
+      },
+      {
+        "id": 4,
+        "label": "Oil",
+        "wikiLink": "http://en.wikipedia.org/Oil",
+        "score": 0.242923
+      },
+      {
+        "id": 5,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.522618
+      },
+      {
+        "id": 6,
+        "label": "Liquids",
+        "wikiLink": "http://en.wikipedia.org/Category:Liquids",
+        "score": 0.363314
+      },
+      {
+        "id": 7,
+        "label": "Oils",
+        "wikiLink": "http://en.wikipedia.org/Category:Oils",
+        "score": 0.087958
+      },
+      {
+        "id": 8,
+        "label": "Food and drink",
+        "wikiLink": "http://en.wikipedia.org/Category:Food_and_drink",
+        "score": 0.0828451
+      },
+      {
+        "id": 9,
+        "label": "Fishing",
+        "wikiLink": "http://en.wikipedia.org/Category:Fishing",
+        "score": 0.0764745
+      },
+      {
+        "id": 10,
+        "label": "Animals",
+        "wikiLink": "http://en.wikipedia.org/Category:Animals",
+        "score": 0.0764745
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Species"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Fish",
+        "freebaseTypes": [
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject",
+          "/fictional_universe/character_species",
+          "/biology/organism_classification",
+          "/biology/animal"
+        ],
+        "confidenceScore": 1.00394,
+        "wikiLink": "http://en.wikipedia.org/wiki/Fish",
+        "matchedText": "fish",
+        "freebaseId": "/m/0ch_cf",
+        "relevanceScore": 0.0783159,
+        "entityEnglishId": "Fish",
+        "startingPos": 14,
+        "endingPos": 18
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Fish oil",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 2.0874,
+        "wikiLink": "http://en.wikipedia.org/wiki/Fish_oil",
+        "matchedText": "fish oils",
+        "freebaseId": "/m/03y0gb",
+        "relevanceScore": 0.45051,
+        "entityEnglishId": "Fish oil",
+        "startingPos": 14,
+        "endingPos": 23
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Oil",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/chemistry/chemical_classification",
+          "/food/food",
+          "/food/ingredient",
+          "/rail/steam_locomotive_fuel_type",
+          "/medicine/drug_dosage_form"
+        ],
+        "confidenceScore": 1.61118,
+        "wikiLink": "http://en.wikipedia.org/wiki/Oil",
+        "matchedText": "oils",
+        "freebaseId": "/m/0bp_wy",
+        "relevanceScore": 0.242923,
+        "entityEnglishId": "Oil",
+        "startingPos": 19,
+        "endingPos": 23
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Lipid",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/food/nutrient"
+        ],
+        "confidenceScore": 4.23023,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lipid",
+        "matchedText": "lipid",
+        "freebaseId": "/m/04k8n",
+        "relevanceScore": 0.141613,
+        "entityEnglishId": "Lipid",
+        "startingPos": 48,
+        "endingPos": 53
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 4.91751,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.522618,
+        "entityEnglishId": "Placebo",
+        "startingPos": 114,
+        "endingPos": 121
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.4931,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "Type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.749368,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 137,
+        "endingPos": 143
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          24,
+          25,
+          26
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 5.20148,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "Type 2 diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.296859,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 137,
+        "endingPos": 152
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.05258,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.21201,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 144,
+        "endingPos": 152
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1,
+              2,
+              4,
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              0,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          0,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          18
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24,
+          25,
+          26
+        ]
+      }
+    ]
+  },
+  "time": 3.026,
+  "ok": true
+}

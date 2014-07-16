@@ -1,0 +1,312 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.626935
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.5
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Positive and negative predictive values",
+        "wikiLink": "http://en.wikipedia.org/Positive_and_negative_predictive_values",
+        "score": 0.752644
+      },
+      {
+        "id": 1,
+        "label": "Statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistics",
+        "score": 0.101032
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          2,
+          3
+        ],
+        "entityId": "South Asia",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/location/region",
+          "/media_common/media_genre_equivalent_topic",
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/location/administrative_division",
+          "/location/location",
+          "/organization/organization_scope"
+        ],
+        "confidenceScore": 0.953393,
+        "wikiLink": "http://en.wikipedia.org/wiki/South_Asia",
+        "matchedText": "South Asian",
+        "freebaseId": "/m/06nn1",
+        "relevanceScore": 0.0160771,
+        "entityEnglishId": "South Asia",
+        "startingPos": 5,
+        "endingPos": 16
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Race and ethnicity in the United States Census",
+        "freebaseTypes": [
+          "/theater/theater_genre",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.31501,
+        "wikiLink": "http://en.wikipedia.org/wiki/Race_and_ethnicity_in_the_United_States_Census",
+        "matchedText": "Asian",
+        "freebaseId": "/m/01p03_",
+        "relevanceScore": 0,
+        "entityEnglishId": "Race and ethnicity in the United States Census",
+        "startingPos": 11,
+        "endingPos": 16
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Positive and negative predictive values",
+        "confidenceScore": 1.20457,
+        "wikiLink": "http://en.wikipedia.org/wiki/Positive_and_negative_predictive_values",
+        "matchedText": "PPV",
+        "freebaseId": "/m/05b484",
+        "relevanceScore": 0.752644,
+        "entityEnglishId": "Positive and negative predictive values",
+        "startingPos": 33,
+        "endingPos": 36
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.87816,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "albuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.0397357,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 41,
+        "endingPos": 52
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "NPV",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "NPV",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 100,
+        "endingPos": 103
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.87816,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "albuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.0397357,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 108,
+        "endingPos": 119
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          4
+        ],
+        "propertyPositions": [
+          2,
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          6,
+          7,
+          8,
+          10
+        ],
+        "propertyPositions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          6,
+          7,
+          8,
+          10
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          16,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          0,
+          6,
+          7,
+          8,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14,
+          16,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          21,
+          22,
+          23,
+          25
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          29
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          29
+        ],
+        "propertyPositions": [
+          33,
+          34,
+          35,
+          36,
+          38,
+          39,
+          40
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          21,
+          22,
+          23,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27,
+          28,
+          29,
+          31,
+          33,
+          34,
+          35,
+          36,
+          38,
+          39,
+          40
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

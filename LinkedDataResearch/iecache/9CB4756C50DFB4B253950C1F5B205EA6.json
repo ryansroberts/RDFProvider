@@ -1,0 +1,243 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Exenatide",
+        "wikiLink": "http://en.wikipedia.org/Exenatide",
+        "score": 0.47368
+      },
+      {
+        "id": 1,
+        "label": "Glucagon-like peptide-1",
+        "wikiLink": "http://en.wikipedia.org/Glucagon-like_peptide-1",
+        "score": 0.132185
+      },
+      {
+        "id": 2,
+        "label": "Metformin",
+        "wikiLink": "http://en.wikipedia.org/Metformin",
+        "score": 0.169218
+      },
+      {
+        "id": 3,
+        "label": "Sulfonylurea",
+        "wikiLink": "http://en.wikipedia.org/Sulfonylurea",
+        "score": 0.236365
+      },
+      {
+        "id": 4,
+        "label": "Thiazolidinedione",
+        "wikiLink": "http://en.wikipedia.org/Thiazolidinedione",
+        "score": 0.16034
+      },
+      {
+        "id": 5,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.92157
+      },
+      {
+        "id": 6,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.654904
+      },
+      {
+        "id": 7,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.654904
+      },
+      {
+        "id": 8,
+        "label": "Amides",
+        "wikiLink": "http://en.wikipedia.org/Category:Amides",
+        "score": 0.0610762
+      },
+      {
+        "id": 9,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.0577136
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Thiazolidinedione",
+        "freebaseTypes": [
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.76436,
+        "wikiLink": "http://en.wikipedia.org/wiki/Thiazolidinedione",
+        "matchedText": "thiazolidinedione",
+        "freebaseId": "/m/02rnrl",
+        "relevanceScore": 0.16034,
+        "entityEnglishId": "Thiazolidinedione",
+        "startingPos": 61,
+        "endingPos": 78
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Glucagon-like peptide-1",
+        "confidenceScore": 2.37978,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucagon-like_peptide-1",
+        "matchedText": "GLP-1",
+        "freebaseId": "/m/0dq3fd",
+        "relevanceScore": 0.132185,
+        "entityEnglishId": "Glucagon-like peptide-1",
+        "startingPos": 84,
+        "endingPos": 89
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Exenatide",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 4.27372,
+        "wikiLink": "http://en.wikipedia.org/wiki/Exenatide",
+        "matchedText": "exenatide",
+        "freebaseId": "/m/093_zf",
+        "relevanceScore": 0.47368,
+        "entityEnglishId": "Exenatide",
+        "startingPos": 99,
+        "endingPos": 108
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.65557,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.169218,
+        "entityEnglishId": "Metformin",
+        "startingPos": 113,
+        "endingPos": 122
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Sulfonylurea",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 5.44137,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sulfonylurea",
+        "matchedText": "sulfonylurea",
+        "freebaseId": "/m/036kty",
+        "relevanceScore": 0.236365,
+        "entityEnglishId": "Sulfonylurea",
+        "startingPos": 129,
+        "endingPos": 141
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          3,
+          19,
+          22,
+          23
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              20,
+              21
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              15,
+              17,
+              18
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      }
+    ]
+  },
+  "time": 3.014,
+  "ok": true
+}

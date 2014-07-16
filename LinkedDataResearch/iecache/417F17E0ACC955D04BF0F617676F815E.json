@@ -1,0 +1,534 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.99339
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.99339
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.99339
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.99339
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.533991
+      },
+      {
+        "id": 1,
+        "label": "Diabetic foot",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot",
+        "score": 0.176983
+      },
+      {
+        "id": 2,
+        "label": "Diabetic foot ulcer",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot_ulcer",
+        "score": 0.101536
+      },
+      {
+        "id": 3,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.0642246
+      },
+      {
+        "id": 4,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.0642246
+      },
+      {
+        "id": 5,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.0642246
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "EthnicGroup"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Boyko",
+        "freebaseTypes": [
+          "/people/ethnicity"
+        ],
+        "confidenceScore": 1.63846,
+        "wikiLink": "http://en.wikipedia.org/wiki/Boyko",
+        "matchedText": "Boyko",
+        "freebaseId": "/m/02k8k9",
+        "relevanceScore": 0,
+        "entityEnglishId": "Boyko",
+        "startingPos": 0,
+        "endingPos": 5
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Boyko EJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Boyko EJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Ahroni JH",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ahroni JH",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 19
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Stensel V",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Stensel V",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 30
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Forsberg RC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Forsberg RC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 32,
+        "endingPos": 43
+      },
+      {
+        "id": 5,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Davignon DR",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Davignon DR",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 45,
+        "endingPos": 56
+      },
+      {
+        "id": 6,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Smith DG",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Smith DG",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 58,
+        "endingPos": 66
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "Risk factor",
+        "confidenceScore": 0.985471,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk_factor",
+        "matchedText": "risk factors",
+        "freebaseId": "/m/03nznf",
+        "relevanceScore": 0.0572694,
+        "entityEnglishId": "Risk factor",
+        "startingPos": 97,
+        "endingPos": 109
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.20537,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.177997,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 114,
+        "endingPos": 122
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          27,
+          28
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.00784,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0.0884917,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 114,
+        "endingPos": 127
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          27,
+          28,
+          29
+        ],
+        "entityId": "Diabetic foot ulcer",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.69486,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot_ulcer",
+        "matchedText": "diabetic foot ulcer",
+        "freebaseId": "/m/064p1q4",
+        "relevanceScore": 0.101536,
+        "entityEnglishId": "Diabetic foot ulcer",
+        "startingPos": 114,
+        "endingPos": 133
+      },
+      {
+        "id": 11,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Seattle",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/location/place_with_neighborhoods",
+          "/location/metropolitan_area_anchor",
+          "/location/location",
+          "/location/statistical_region",
+          "/location/hud_county_place",
+          "/location/capital_of_administrative_division",
+          "/architecture/architectural_structure_owner",
+          "/location/administrative_division",
+          "/location/hud_foreclosure_area",
+          "/location/dated_location",
+          "/location/citytown",
+          "/organization/organization_scope",
+          "/periodicals/newspaper_circulation_area",
+          "/travel/travel_destination",
+          "/sports/sports_team_location",
+          "/symbols/name_source",
+          "/fictional_universe/fictional_setting",
+          "/tv/tv_location",
+          "/film/film_location",
+          "/government/governmental_jurisdiction"
+        ],
+        "confidenceScore": 1.4356,
+        "wikiLink": "http://en.wikipedia.org/wiki/Seattle",
+        "matchedText": "Seattle",
+        "freebaseId": "/m/0d9jr",
+        "relevanceScore": 0.0304558,
+        "entityEnglishId": "Seattle",
+        "startingPos": 139,
+        "endingPos": 146
+      },
+      {
+        "id": 12,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.20537,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.177997,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 147,
+        "endingPos": 155
+      },
+      {
+        "id": 13,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          33,
+          34
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.00784,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0.0884917,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 147,
+        "endingPos": 160
+      },
+      {
+        "id": 14,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.15832,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.177997,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 168,
+        "endingPos": 176
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          31,
+          32,
+          34,
+          35
+        ],
+        "propertyPositions": [
+          33
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          13
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          20,
+          22,
+          23,
+          26
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          20,
+          22,
+          23,
+          26
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          20,
+          22,
+          23,
+          26
+        ],
+        "propertyPositions": [
+          24,
+          25
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          28,
+          29
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          20,
+          22,
+          23,
+          26
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          29
+        ]
+      }
+    ]
+  },
+  "time": 3.026,
+  "ok": true
+}

@@ -1,0 +1,318 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Calculation",
+        "confidenceScore": 1.07406,
+        "wikiLink": "http://en.wikipedia.org/wiki/Calculation",
+        "matchedText": "calculation",
+        "freebaseId": "/m/01jpbw",
+        "relevanceScore": 0.0341248,
+        "entityEnglishId": "Calculation",
+        "startingPos": 21,
+        "endingPos": 32
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "Town"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Framingham, Massachusetts",
+        "freebaseTypes": [
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/location/citytown",
+          "/location/location"
+        ],
+        "confidenceScore": 2.13733,
+        "wikiLink": "http://en.wikipedia.org/wiki/Framingham,_Massachusetts",
+        "matchedText": "Framingham",
+        "freebaseId": "/m/01m2n1",
+        "relevanceScore": 0.0454527,
+        "entityEnglishId": "Framingham, Massachusetts",
+        "startingPos": 106,
+        "endingPos": 116
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "UKPDS",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "UKPDS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 154,
+        "endingPos": 159
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "Town"
+        ],
+        "matchingTokens": [
+          60
+        ],
+        "entityId": "Framingham, Massachusetts",
+        "freebaseTypes": [
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/location/citytown",
+          "/location/location"
+        ],
+        "confidenceScore": 2.13733,
+        "wikiLink": "http://en.wikipedia.org/wiki/Framingham,_Massachusetts",
+        "matchedText": "Framingham",
+        "freebaseId": "/m/01m2n1",
+        "relevanceScore": 0.0454527,
+        "entityEnglishId": "Framingham, Massachusetts",
+        "startingPos": 298,
+        "endingPos": 308
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          8,
+          9,
+          13,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              11,
+              12
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              14,
+              15,
+              17,
+              18,
+              19,
+              21,
+              22,
+              23
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              11,
+              12
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          4,
+          5,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              11,
+              12
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              2,
+              3,
+              6,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          26,
+          32,
+          38
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              28,
+              29,
+              30,
+              31
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              33,
+              34,
+              35,
+              36,
+              37,
+              39,
+              41,
+              42,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              54,
+              55,
+              57,
+              58,
+              59,
+              60
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          33,
+          35,
+          36
+        ],
+        "propertyPositions": [
+          34
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          42,
+          44
+        ],
+        "propertyPositions": [
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          54,
+          55,
+          57,
+          58,
+          59,
+          60
+        ]
+      }
+    ]
+  },
+  "time": 3.024,
+  "ok": true
+}

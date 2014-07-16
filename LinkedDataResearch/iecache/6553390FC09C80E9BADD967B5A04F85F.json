@@ -1,0 +1,289 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Number",
+        "wikiLink": "http://en.wikipedia.org/Number",
+        "score": 0.111116
+      },
+      {
+        "id": 1,
+        "label": "Pharmaceutical drug",
+        "wikiLink": "http://en.wikipedia.org/Pharmaceutical_drug",
+        "score": 0.184138
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.64976,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "medication",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.092069,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 20,
+        "endingPos": 30
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.46756,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "medications",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.092069,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 201,
+        "endingPos": 212
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "Number",
+        "confidenceScore": 1.28273,
+        "wikiLink": "http://en.wikipedia.org/wiki/Number",
+        "matchedText": "number",
+        "freebaseId": "/m/05fwb",
+        "relevanceScore": 0.111116,
+        "entityEnglishId": "Number",
+        "startingPos": 214,
+        "endingPos": 220
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          22,
+          26
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              21
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              23,
+              24,
+              25,
+              27,
+              28,
+              30,
+              31,
+              33,
+              34,
+              35,
+              36,
+              38,
+              39,
+              40,
+              41,
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          22,
+          26,
+          27,
+          28
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              21
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              23,
+              24,
+              25,
+              30,
+              31,
+              33,
+              34,
+              35,
+              36,
+              38,
+              39,
+              40,
+              41,
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          11,
+          13,
+          14,
+          16,
+          19
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              12
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              15,
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          13,
+          14,
+          16,
+          19
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              12
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              15,
+              17
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          50
+        ],
+        "propertyPositions": [
+          46,
+          47,
+          48,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          25
+        ],
+        "propertyPositions": [
+          23,
+          24
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          38,
+          39
+        ],
+        "propertyPositions": [
+          40,
+          41,
+          43
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          35,
+          36
+        ],
+        "propertyPositions": [
+          38,
+          39,
+          40,
+          41,
+          43
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          28
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          7,
+          9,
+          11
+        ],
+        "propertyPositions": [
+          8
+        ]
+      }
+    ]
+  },
+  "time": 3.027,
+  "ok": true
+}

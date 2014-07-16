@@ -1,0 +1,1456 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.989988
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.527348
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.513702
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.513702
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Exenatide",
+        "wikiLink": "http://en.wikipedia.org/Exenatide",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Frequency",
+        "wikiLink": "http://en.wikipedia.org/Frequency",
+        "score": 0.181456
+      },
+      {
+        "id": 2,
+        "label": "Kilogram",
+        "wikiLink": "http://en.wikipedia.org/Kilogram",
+        "score": 0.35492
+      },
+      {
+        "id": 3,
+        "label": "Metformin",
+        "wikiLink": "http://en.wikipedia.org/Metformin",
+        "score": 0.524702
+      },
+      {
+        "id": 4,
+        "label": "Nausea",
+        "wikiLink": "http://en.wikipedia.org/Nausea",
+        "score": 0.384426
+      },
+      {
+        "id": 5,
+        "label": "Thiazolidinedione",
+        "wikiLink": "http://en.wikipedia.org/Thiazolidinedione",
+        "score": 0.236102
+      },
+      {
+        "id": 6,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.363946
+      },
+      {
+        "id": 7,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.0837787
+      },
+      {
+        "id": 8,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.0837787
+      },
+      {
+        "id": 9,
+        "label": "Physical quantities",
+        "wikiLink": "http://en.wikipedia.org/Category:Physical_quantities",
+        "score": 0.0714896
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Nausea",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.74705,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nausea",
+        "matchedText": "nausea",
+        "freebaseId": "/m/0gxb2",
+        "relevanceScore": 0.0768851,
+        "entityEnglishId": "Nausea",
+        "startingPos": 5,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Frequency",
+        "freebaseTypes": [
+          "/measurement_unit/dimension",
+          "/measurement_unit/common_dimension"
+        ],
+        "confidenceScore": 1.77197,
+        "wikiLink": "http://en.wikipedia.org/wiki/Frequency",
+        "matchedText": "frequency",
+        "freebaseId": "/m/02x93",
+        "relevanceScore": 0.181456,
+        "entityEnglishId": "Frequency",
+        "startingPos": 30,
+        "endingPos": 39
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "DeFronzo",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "DeFronzo",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 61,
+        "endingPos": 69
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Exenatide",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.81373,
+        "wikiLink": "http://en.wikipedia.org/wiki/Exenatide",
+        "matchedText": "exenatide",
+        "freebaseId": "/m/093_zf",
+        "relevanceScore": 0.396805,
+        "entityEnglishId": "Exenatide",
+        "startingPos": 167,
+        "endingPos": 176
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Kilogram",
+        "freebaseTypes": [
+          "/type/unit",
+          "/food/culinary_measure",
+          "/measurement_unit/mass_unit"
+        ],
+        "confidenceScore": 1.50478,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kilogram",
+        "matchedText": "micrograms",
+        "freebaseId": "/m/047dr",
+        "relevanceScore": 0.17746,
+        "entityEnglishId": "Kilogram",
+        "startingPos": 180,
+        "endingPos": 190
+      },
+      {
+        "id": 5,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 4.89911,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.262351,
+        "entityEnglishId": "Metformin",
+        "startingPos": 208,
+        "endingPos": 217
+      },
+      {
+        "id": 6,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          47
+        ],
+        "entityId": "DeFronzo",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "DeFronzo",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 262,
+        "endingPos": 270
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          61
+        ],
+        "entityId": "Nausea",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.74705,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nausea",
+        "matchedText": "nausea",
+        "freebaseId": "/m/0gxb2",
+        "relevanceScore": 0.0768851,
+        "entityEnglishId": "Nausea",
+        "startingPos": 342,
+        "endingPos": 348
+      },
+      {
+        "id": 8,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          69
+        ],
+        "entityId": "Exenatide",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.81373,
+        "wikiLink": "http://en.wikipedia.org/wiki/Exenatide",
+        "matchedText": "exenatide",
+        "freebaseId": "/m/093_zf",
+        "relevanceScore": 0.396805,
+        "entityEnglishId": "Exenatide",
+        "startingPos": 387,
+        "endingPos": 396
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          71
+        ],
+        "entityId": "Kilogram",
+        "freebaseTypes": [
+          "/type/unit",
+          "/food/culinary_measure",
+          "/measurement_unit/mass_unit"
+        ],
+        "confidenceScore": 1.50478,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kilogram",
+        "matchedText": "micrograms",
+        "freebaseId": "/m/047dr",
+        "relevanceScore": 0.17746,
+        "entityEnglishId": "Kilogram",
+        "startingPos": 399,
+        "endingPos": 409
+      },
+      {
+        "id": 10,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          75
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.08488,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.262351,
+        "entityEnglishId": "Metformin",
+        "startingPos": 427,
+        "endingPos": 436
+      },
+      {
+        "id": 11,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          90
+        ],
+        "entityId": "DeFronzo",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "DeFronzo",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 509,
+        "endingPos": 517
+      },
+      {
+        "id": 12,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          96
+        ],
+        "entityId": "Heine",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Heine",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 531,
+        "endingPos": 536
+      },
+      {
+        "id": 13,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          105
+        ],
+        "entityId": "Nausea",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.74705,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nausea",
+        "matchedText": "nausea",
+        "freebaseId": "/m/0gxb2",
+        "relevanceScore": 0.0768851,
+        "entityEnglishId": "Nausea",
+        "startingPos": 585,
+        "endingPos": 591
+      },
+      {
+        "id": 14,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          119
+        ],
+        "entityId": "Heine",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Heine",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 648,
+        "endingPos": 653
+      },
+      {
+        "id": 15,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          125
+        ],
+        "entityId": "Kendall",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kendall",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 668,
+        "endingPos": 675
+      },
+      {
+        "id": 16,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          148
+        ],
+        "entityId": "Kendall",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kendall",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 793,
+        "endingPos": 800
+      },
+      {
+        "id": 17,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          154
+        ],
+        "entityId": "Zinman",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Zinman",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 815,
+        "endingPos": 821
+      },
+      {
+        "id": 18,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          161
+        ],
+        "entityId": "Nausea",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.74705,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nausea",
+        "matchedText": "nausea",
+        "freebaseId": "/m/0gxb2",
+        "relevanceScore": 0.0768851,
+        "entityEnglishId": "Nausea",
+        "startingPos": 854,
+        "endingPos": 860
+      },
+      {
+        "id": 19,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          179
+        ],
+        "entityId": "Exenatide",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.81373,
+        "wikiLink": "http://en.wikipedia.org/wiki/Exenatide",
+        "matchedText": "exenatide",
+        "freebaseId": "/m/093_zf",
+        "relevanceScore": 0.396805,
+        "entityEnglishId": "Exenatide",
+        "startingPos": 930,
+        "endingPos": 939
+      },
+      {
+        "id": 20,
+        "matchingTokens": [
+          181
+        ],
+        "entityId": "Thiazolidinedione",
+        "freebaseTypes": [
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.5382,
+        "wikiLink": "http://en.wikipedia.org/wiki/Thiazolidinedione",
+        "matchedText": "thiazolidinedione",
+        "freebaseId": "/m/02rnrl",
+        "relevanceScore": 0.236102,
+        "entityEnglishId": "Thiazolidinedione",
+        "startingPos": 945,
+        "endingPos": 962
+      },
+      {
+        "id": 21,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          197
+        ],
+        "entityId": "Nausea",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.74705,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nausea",
+        "matchedText": "Nausea",
+        "freebaseId": "/m/0gxb2",
+        "relevanceScore": 0.0768851,
+        "entityEnglishId": "Nausea",
+        "startingPos": 1025,
+        "endingPos": 1031
+      },
+      {
+        "id": 22,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          212
+        ],
+        "entityId": "Zinman",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Zinman",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 1101,
+        "endingPos": 1107
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          99
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              96,
+              97,
+              98
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              119,
+              120,
+              121,
+              122
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          99,
+          104,
+          106,
+          112,
+          113
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              96,
+              97,
+              98,
+              101,
+              102,
+              103
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              100,
+              105,
+              107,
+              108,
+              109,
+              110,
+              114,
+              115,
+              116,
+              117,
+              119,
+              120,
+              121,
+              122
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          104,
+          106,
+          112,
+          113
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              101,
+              102,
+              103
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              100,
+              105,
+              107,
+              108,
+              109,
+              110,
+              114,
+              115,
+              116,
+              117,
+              119,
+              120,
+              121,
+              122
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          128,
+          133,
+          139,
+          140
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              125,
+              126,
+              127
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              129,
+              130,
+              131,
+              132,
+              134,
+              135,
+              136,
+              137,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              148,
+              149,
+              150,
+              151
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          198,
+          199,
+          200,
+          202,
+          206,
+          207,
+          209
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              197
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              201,
+              203,
+              204,
+              205,
+              208,
+              210,
+              212,
+              213,
+              214,
+              215
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          157,
+          162,
+          166
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              154,
+              155,
+              156
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              158,
+              159,
+              160,
+              161,
+              163,
+              164,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              174,
+              175,
+              176,
+              177,
+              178,
+              179,
+              180,
+              181,
+              182,
+              184,
+              185,
+              186,
+              188,
+              189,
+              190,
+              191,
+              192,
+              193,
+              194
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          157,
+          162,
+          166,
+          169,
+          170,
+          174,
+          184,
+          188,
+          189,
+          190
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              154,
+              155,
+              156
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              158,
+              159,
+              160,
+              161,
+              163,
+              164,
+              167,
+              168,
+              171,
+              172,
+              175,
+              176,
+              177,
+              178,
+              179,
+              180,
+              181,
+              182,
+              185,
+              186,
+              191,
+              192,
+              193,
+              194
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          15,
+          27
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              12,
+              13,
+              14
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              47,
+              48,
+              49,
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          15,
+          27,
+          39,
+          40,
+          43
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              12,
+              13,
+              14
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              41,
+              42,
+              44,
+              45,
+              47,
+              48,
+              49,
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          15,
+          27,
+          28,
+          29,
+          30,
+          31,
+          34,
+          35,
+          36
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              12,
+              13,
+              14
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              32,
+              33,
+              37,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              47,
+              48,
+              49,
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          62,
+          63,
+          64,
+          65,
+          77
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              90,
+              91,
+              92,
+              93
+            ]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          62,
+          63,
+          64,
+          65,
+          77,
+          82,
+          83,
+          86
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              78,
+              79,
+              80,
+              81,
+              84,
+              85,
+              87,
+              88,
+              90,
+              91,
+              92,
+              93
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1
+        ],
+        "propertyPositions": [
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          107,
+          110
+        ],
+        "propertyPositions": [
+          108
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          129,
+          130
+        ],
+        "propertyPositions": [
+          131,
+          132
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          134,
+          137
+        ],
+        "propertyPositions": [
+          135
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          159,
+          160
+        ],
+        "propertyPositions": [
+          161
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          178,
+          179,
+          180
+        ],
+        "propertyPositions": [
+          181,
+          182
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          189,
+          190
+        ],
+        "propertyPositions": [
+          184
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          189,
+          190
+        ],
+        "propertyPositions": [
+          188
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          189,
+          190
+        ],
+        "propertyPositions": [
+          191,
+          192,
+          193,
+          194
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          16,
+          17,
+          18,
+          22
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          23,
+          26
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          16,
+          17,
+          18,
+          22
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          45
+        ],
+        "propertyPositions": [
+          47,
+          48,
+          49,
+          50
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          169,
+          170,
+          174
+        ],
+        "propertyPositions": [
+          184,
+          185,
+          186,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194
+        ]
+      },
+      {
+        "id": 16,
+        "wordPositions": [
+          169,
+          170,
+          174
+        ],
+        "propertyPositions": [
+          171,
+          172
+        ]
+      },
+      {
+        "id": 17,
+        "wordPositions": [
+          56,
+          57,
+          58
+        ],
+        "propertyPositions": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": 18,
+        "wordPositions": [
+          53,
+          54,
+          55
+        ],
+        "propertyPositions": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": 19,
+        "wordPositions": [
+          79,
+          80
+        ],
+        "propertyPositions": [
+          78
+        ]
+      },
+      {
+        "id": 20,
+        "wordPositions": [
+          79,
+          80
+        ],
+        "propertyPositions": [
+          81
+        ]
+      }
+    ]
+  },
+  "time": 3.05,
+  "ok": true
+}

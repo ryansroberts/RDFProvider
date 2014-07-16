@@ -1,0 +1,377 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.776665
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.776665
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Metformin",
+        "wikiLink": "http://en.wikipedia.org/Metformin",
+        "score": 0.42478
+      },
+      {
+        "id": 1,
+        "label": "Pioglitazone",
+        "wikiLink": "http://en.wikipedia.org/Pioglitazone",
+        "score": 0.559976
+      },
+      {
+        "id": 2,
+        "label": "Ratio",
+        "wikiLink": "http://en.wikipedia.org/Ratio",
+        "score": 0.114448
+      },
+      {
+        "id": 3,
+        "label": "Triglyceride",
+        "wikiLink": "http://en.wikipedia.org/Triglyceride",
+        "score": 0.143994
+      },
+      {
+        "id": 4,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.0920444
+      },
+      {
+        "id": 5,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.0687196
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 4.36076,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.21239,
+        "entityEnglishId": "Metformin",
+        "startingPos": 26,
+        "endingPos": 35
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Pioglitazone",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 4.54744,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pioglitazone",
+        "matchedText": "pioglitazone",
+        "freebaseId": "/m/02vycf",
+        "relevanceScore": 0.279988,
+        "entityEnglishId": "Pioglitazone",
+        "startingPos": 41,
+        "endingPos": 53
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Pioglitazone",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 4.54744,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pioglitazone",
+        "matchedText": "pioglitazone",
+        "freebaseId": "/m/02vycf",
+        "relevanceScore": 0.279988,
+        "entityEnglishId": "Pioglitazone",
+        "startingPos": 57,
+        "endingPos": 69
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Triglyceride",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 4.09422,
+        "wikiLink": "http://en.wikipedia.org/wiki/Triglyceride",
+        "matchedText": "triglycerides",
+        "freebaseId": "/m/0fmjs",
+        "relevanceScore": 0.143994,
+        "entityEnglishId": "Triglyceride",
+        "startingPos": 116,
+        "endingPos": 129
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "HDL-C",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "HDL-C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 134,
+        "endingPos": 139
+      },
+      {
+        "id": 5,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.14394,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.21239,
+        "entityEnglishId": "Metformin",
+        "startingPos": 149,
+        "endingPos": 158
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "TC/HDL-C",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "TC/HDL-C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 201,
+        "endingPos": 209
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Ratio",
+        "freebaseTypes": [
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 1.18687,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ratio",
+        "matchedText": "ratio",
+        "freebaseId": "/m/0m1mr",
+        "relevanceScore": 0.114448,
+        "entityEnglishId": "Ratio",
+        "startingPos": 210,
+        "endingPos": 215
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              7,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          6
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              7,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              33,
+              34,
+              35
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              41,
+              42
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          31
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          24
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          25,
+          26,
+          27,
+          28
+        ]
+      }
+    ]
+  },
+  "time": 3.016,
+  "ok": true
+}

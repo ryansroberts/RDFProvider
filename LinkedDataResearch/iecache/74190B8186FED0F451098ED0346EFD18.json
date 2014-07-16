@@ -1,0 +1,731 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Aspirin",
+        "wikiLink": "http://en.wikipedia.org/Aspirin",
+        "score": 0.383135
+      },
+      {
+        "id": 1,
+        "label": "Clopidogrel",
+        "wikiLink": "http://en.wikipedia.org/Clopidogrel",
+        "score": 0.553098
+      },
+      {
+        "id": 2,
+        "label": "Ischemia",
+        "wikiLink": "http://en.wikipedia.org/Ischemia",
+        "score": 0.155346
+      },
+      {
+        "id": 3,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.252228
+      },
+      {
+        "id": 4,
+        "label": "Stroke",
+        "wikiLink": "http://en.wikipedia.org/Stroke",
+        "score": 1
+      },
+      {
+        "id": 5,
+        "label": "Carboxylate esters",
+        "wikiLink": "http://en.wikipedia.org/Category:Carboxylate_esters",
+        "score": 0.152515
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Ischemia",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.86623,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ischemia",
+        "matchedText": "ischaemic",
+        "freebaseId": "/m/02gr6s",
+        "relevanceScore": 0.155346,
+        "entityEnglishId": "Ischemia",
+        "startingPos": 33,
+        "endingPos": 42
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          5,
+          6
+        ],
+        "entityId": "Stroke",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/risk_factor",
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.60763,
+        "wikiLink": "http://en.wikipedia.org/wiki/Stroke",
+        "matchedText": "ischaemic stroke",
+        "freebaseId": "/m/02y0js",
+        "relevanceScore": 0.377274,
+        "entityEnglishId": "Stroke",
+        "startingPos": 33,
+        "endingPos": 49
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Stroke",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/risk_factor",
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.43812,
+        "wikiLink": "http://en.wikipedia.org/wiki/Stroke",
+        "matchedText": "stroke",
+        "freebaseId": "/m/02y0js",
+        "relevanceScore": 0.377274,
+        "entityEnglishId": "Stroke",
+        "startingPos": 43,
+        "endingPos": 49
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Stroke",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/risk_factor",
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.43812,
+        "wikiLink": "http://en.wikipedia.org/wiki/Stroke",
+        "matchedText": "stroke",
+        "freebaseId": "/m/02y0js",
+        "relevanceScore": 0.377274,
+        "entityEnglishId": "Stroke",
+        "startingPos": 83,
+        "endingPos": 89
+      },
+      {
+        "id": 4,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Aspirin",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors",
+          "/medicine/risk_factor",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 7.07753,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aspirin",
+        "matchedText": "aspirin",
+        "freebaseId": "/m/0qkc",
+        "relevanceScore": 0.191568,
+        "entityEnglishId": "Aspirin",
+        "startingPos": 188,
+        "endingPos": 195
+      },
+      {
+        "id": 5,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Clopidogrel",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 6.53418,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clopidogrel",
+        "matchedText": "clopidogrel",
+        "freebaseId": "/m/02svfj",
+        "relevanceScore": 0.184366,
+        "entityEnglishId": "Clopidogrel",
+        "startingPos": 199,
+        "endingPos": 210
+      },
+      {
+        "id": 6,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Clopidogrel",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 6.53418,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clopidogrel",
+        "matchedText": "clopidogrel",
+        "freebaseId": "/m/02svfj",
+        "relevanceScore": 0.184366,
+        "entityEnglishId": "Clopidogrel",
+        "startingPos": 218,
+        "endingPos": 229
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 2.18759,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.126114,
+        "entityEnglishId": "Placebo",
+        "startingPos": 235,
+        "endingPos": 242
+      },
+      {
+        "id": 8,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          41
+        ],
+        "entityId": "Aspirin",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors",
+          "/medicine/risk_factor",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 7.07753,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aspirin",
+        "matchedText": "aspirin",
+        "freebaseId": "/m/0qkc",
+        "relevanceScore": 0.191568,
+        "entityEnglishId": "Aspirin",
+        "startingPos": 273,
+        "endingPos": 280
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          44
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 2.18759,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.126114,
+        "entityEnglishId": "Placebo",
+        "startingPos": 291,
+        "endingPos": 298
+      },
+      {
+        "id": 10,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          48
+        ],
+        "entityId": "Clopidogrel",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 6.53418,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clopidogrel",
+        "matchedText": "clopidogrel",
+        "freebaseId": "/m/02svfj",
+        "relevanceScore": 0.184366,
+        "entityEnglishId": "Clopidogrel",
+        "startingPos": 309,
+        "endingPos": 320
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11,
+              12,
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              46,
+              47,
+              48
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11,
+              12,
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              46,
+              47,
+              48
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          20,
+          36,
+          39,
+          40,
+          42
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11,
+              12,
+              14,
+              15,
+              16,
+              17,
+              18,
+              37
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              38,
+              41,
+              43,
+              44,
+              46,
+              47,
+              48
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          20,
+          46,
+          47
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11,
+              12,
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              48
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6,
+          7,
+          9
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6,
+          7,
+          9
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          0,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          21,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          25,
+          26,
+          27,
+          29
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          25,
+          26,
+          27,
+          29
+        ],
+        "propertyPositions": [
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          21,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          37
+        ],
+        "propertyPositions": [
+          36,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ]
+      }
+    ]
+  },
+  "time": 3.026,
+  "ok": true
+}

@@ -1,0 +1,161 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Evidence (law)",
+        "wikiLink": "http://en.wikipedia.org/Evidence_(law)",
+        "score": 0.246543
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Evidence (law)",
+        "confidenceScore": 1.27109,
+        "wikiLink": "http://en.wikipedia.org/wiki/Evidence_(law)",
+        "matchedText": "evidence",
+        "freebaseId": "/m/06d34f",
+        "relevanceScore": 0.246543,
+        "entityEnglishId": "Evidence (law)",
+        "startingPos": 63,
+        "endingPos": 71
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              0,
+              6,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              7
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2,
+          5,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          13
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          7
+        ]
+      }
+    ]
+  },
+  "time": 3.011,
+  "ok": true
+}

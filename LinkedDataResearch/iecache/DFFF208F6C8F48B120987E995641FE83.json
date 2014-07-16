@@ -1,0 +1,615 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.820485
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.807573
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.440607
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.440607
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.434645
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Body mass index",
+        "wikiLink": "http://en.wikipedia.org/Body_mass_index",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Index (economics)",
+        "wikiLink": "http://en.wikipedia.org/Index_(economics)",
+        "score": 0.147786
+      },
+      {
+        "id": 2,
+        "label": "Mass",
+        "wikiLink": "http://en.wikipedia.org/Mass",
+        "score": 0.169067
+      },
+      {
+        "id": 3,
+        "label": "Nutrition",
+        "wikiLink": "http://en.wikipedia.org/Category:Nutrition",
+        "score": 0.654929
+      },
+      {
+        "id": 4,
+        "label": "Food and drink",
+        "wikiLink": "http://en.wikipedia.org/Category:Food_and_drink",
+        "score": 0.388262
+      },
+      {
+        "id": 5,
+        "label": "Human size",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_size",
+        "score": 0.121595
+      },
+      {
+        "id": 6,
+        "label": "Determinants of health",
+        "wikiLink": "http://en.wikipedia.org/Category:Determinants_of_health",
+        "score": 0.121595
+      },
+      {
+        "id": 7,
+        "label": "Animal size",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_size",
+        "score": 0.121595
+      },
+      {
+        "id": 8,
+        "label": "Human anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_anatomy",
+        "score": 0.121595
+      },
+      {
+        "id": 9,
+        "label": "Anthropometry",
+        "wikiLink": "http://en.wikipedia.org/Category:Anthropometry",
+        "score": 0.121595
+      },
+      {
+        "id": 10,
+        "label": "Matter",
+        "wikiLink": "http://en.wikipedia.org/Category:Matter",
+        "score": 0.121595
+      },
+      {
+        "id": 11,
+        "label": "Human appearance",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_appearance",
+        "score": 0.121595
+      },
+      {
+        "id": 12,
+        "label": "Human weight",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_weight",
+        "score": 0.121595
+      },
+      {
+        "id": 13,
+        "label": "Body shape",
+        "wikiLink": "http://en.wikipedia.org/Category:Body_shape",
+        "score": 0.121595
+      },
+      {
+        "id": 14,
+        "label": "Physical quantities",
+        "wikiLink": "http://en.wikipedia.org/Category:Physical_quantities",
+        "score": 0.121595
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "RCT",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "RCT",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 9,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Body weight",
+        "confidenceScore": 1.88842,
+        "wikiLink": "http://en.wikipedia.org/wiki/Body_weight",
+        "matchedText": "body mass",
+        "freebaseId": "/m/02mw60",
+        "relevanceScore": 0.075119,
+        "entityEnglishId": "Body weight",
+        "startingPos": 64,
+        "endingPos": 73
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Mass",
+        "freebaseTypes": [
+          "/measurement_unit/common_dimension",
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 1.31924,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mass",
+        "matchedText": "mass",
+        "freebaseId": "/m/04t9l",
+        "relevanceScore": 0.169067,
+        "entityEnglishId": "Mass",
+        "startingPos": 69,
+        "endingPos": 73
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          11,
+          12,
+          13
+        ],
+        "entityId": "Body mass index",
+        "freebaseTypes": [
+          "/people/human_measurement",
+          "/book/book_subject",
+          "/law/invention",
+          "/type/unit"
+        ],
+        "confidenceScore": 10.1367,
+        "wikiLink": "http://en.wikipedia.org/wiki/Body_mass_index",
+        "matchedText": "body mass index",
+        "freebaseId": "/m/01j5v",
+        "relevanceScore": 0.608303,
+        "entityEnglishId": "Body mass index",
+        "startingPos": 64,
+        "endingPos": 79
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Index (economics)",
+        "confidenceScore": 1.46472,
+        "wikiLink": "http://en.wikipedia.org/wiki/Index_(economics)",
+        "matchedText": "index",
+        "freebaseId": "/m/05fy_7",
+        "relevanceScore": 0.147786,
+        "entityEnglishId": "Index (economics)",
+        "startingPos": 74,
+        "endingPos": 79
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Body mass index",
+        "freebaseTypes": [
+          "/people/human_measurement",
+          "/book/book_subject",
+          "/law/invention",
+          "/type/unit"
+        ],
+        "confidenceScore": 2.66887,
+        "wikiLink": "http://en.wikipedia.org/wiki/Body_mass_index",
+        "matchedText": "BMI",
+        "freebaseId": "/m/01j5v",
+        "relevanceScore": 0.373688,
+        "entityEnglishId": "Body mass index",
+        "startingPos": 81,
+        "endingPos": 84
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "entityId": "Body mass index",
+        "freebaseTypes": [
+          "/people/human_measurement",
+          "/book/book_subject",
+          "/law/invention",
+          "/type/unit"
+        ],
+        "confidenceScore": 2.9832,
+        "wikiLink": "http://en.wikipedia.org/wiki/Body_mass_index",
+        "matchedText": "body mass index (BMI)",
+        "freebaseId": "/m/01j5v",
+        "relevanceScore": 0.148646,
+        "entityEnglishId": "Body mass index",
+        "startingPos": 64,
+        "endingPos": 85
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Meal",
+        "freebaseTypes": [
+          "/food/type_of_dish"
+        ],
+        "confidenceScore": 0.912902,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meal",
+        "matchedText": "meal",
+        "freebaseId": "/m/0krfg",
+        "relevanceScore": 0,
+        "entityEnglishId": "Meal",
+        "startingPos": 141,
+        "endingPos": 145
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          29,
+          30
+        ],
+        "entityId": "Meal replacement",
+        "confidenceScore": 1.62874,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meal_replacement",
+        "matchedText": "meal replacement",
+        "freebaseId": "/m/0cnxct9",
+        "relevanceScore": 0.0750762,
+        "entityEnglishId": "Meal replacement",
+        "startingPos": 141,
+        "endingPos": 157
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              15,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          7,
+          8,
+          9,
+          19
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              5,
+              6
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              10,
+              11,
+              12,
+              13,
+              15,
+              17,
+              18,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          19
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              5,
+              6
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              10,
+              11,
+              12,
+              13,
+              15,
+              17,
+              18,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          44,
+          45
+        ],
+        "propertyPositions": [
+          43,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          54
+        ],
+        "propertyPositions": [
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          62,
+          63
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          2
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          6
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          15,
+          17,
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          38,
+          40,
+          41
+        ],
+        "propertyPositions": [
+          39
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          36,
+          37
+        ],
+        "propertyPositions": [
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          20,
+          21,
+          22,
+          27
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          20,
+          21,
+          22,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          29,
+          30,
+          31
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

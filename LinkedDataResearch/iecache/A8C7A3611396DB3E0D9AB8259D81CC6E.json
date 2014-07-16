@@ -1,0 +1,389 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Albuminuria",
+        "wikiLink": "http://en.wikipedia.org/Albuminuria",
+        "score": 0.265066
+      },
+      {
+        "id": 1,
+        "label": "Creatinine",
+        "wikiLink": "http://en.wikipedia.org/Creatinine",
+        "score": 0.502381
+      },
+      {
+        "id": 2,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.281662
+      },
+      {
+        "id": 4,
+        "label": "Renal physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Renal_physiology",
+        "score": 0.261092
+      },
+      {
+        "id": 5,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.261092
+      },
+      {
+        "id": 6,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.261092
+      },
+      {
+        "id": 7,
+        "label": "Physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Physiology",
+        "score": 0.261092
+      },
+      {
+        "id": 8,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.261092
+      },
+      {
+        "id": 9,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.261092
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.69864,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "eGFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 1,
+        "entityEnglishId": "Renal function",
+        "startingPos": 101,
+        "endingPos": 105
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          39
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.30522,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "albuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.132533,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 173,
+        "endingPos": 184
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          46
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.30522,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "albuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.132533,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 215,
+        "endingPos": 226
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          56
+        ],
+        "entityId": "Serum (blood)",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 1.31107,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_(blood)",
+        "matchedText": "serum",
+        "freebaseId": "/m/07s8fsr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Serum (blood)",
+        "startingPos": 269,
+        "endingPos": 274
+      },
+      {
+        "id": 4,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          56,
+          57
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 1.96394,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "serum creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.143987,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 269,
+        "endingPos": 285
+      },
+      {
+        "id": 5,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          57
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 5.63637,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.358394,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 275,
+        "endingPos": 285
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          70
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.69864,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "eGFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 1,
+        "entityEnglishId": "Renal function",
+        "startingPos": 334,
+        "endingPos": 338
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              10,
+              12,
+              14,
+              16,
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          20,
+          28
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              19
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              29,
+              30,
+              31,
+              32,
+              33,
+              35,
+              36
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          20,
+          28,
+          32
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              19
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              29,
+              30,
+              31,
+              33,
+              35,
+              36
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          12,
+          16
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          12,
+          14,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          56,
+          57
+        ],
+        "propertyPositions": [
+          55,
+          58,
+          59,
+          61,
+          62,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          66,
+          67
+        ],
+        "propertyPositions": [
+          68,
+          69,
+          70
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          78,
+          79
+        ],
+        "propertyPositions": [
+          80,
+          81
+        ]
+      }
+    ]
+  },
+  "time": 3.019,
+  "ok": true
+}

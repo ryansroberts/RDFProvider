@@ -1,0 +1,378 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.515609
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.515609
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.515609
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.515609
+      },
+      {
+        "id": 5,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.484391
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.110644
+      },
+      {
+        "id": 1,
+        "label": "Valsartan",
+        "wikiLink": "http://en.wikipedia.org/Valsartan",
+        "score": 0.397733
+      },
+      {
+        "id": 2,
+        "label": "Heterocyclic compounds (1 ring)",
+        "wikiLink": "http://en.wikipedia.org/Category:Heterocyclic_compounds_(1_ring)",
+        "score": 0.0333333
+      },
+      {
+        "id": 3,
+        "label": "Organonitrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organonitrogen_compounds",
+        "score": 0.0333333
+      },
+      {
+        "id": 4,
+        "label": "Antihypertensive agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Antihypertensive_agents",
+        "score": 0.0333333
+      },
+      {
+        "id": 5,
+        "label": "Nitrogen heterocycles",
+        "wikiLink": "http://en.wikipedia.org/Category:Nitrogen_heterocycles",
+        "score": 0.0333333
+      },
+      {
+        "id": 6,
+        "label": "Oxygen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxygen_compounds",
+        "score": 0.0333333
+      },
+      {
+        "id": 7,
+        "label": "Nitrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Nitrogen_compounds",
+        "score": 0.0333333
+      },
+      {
+        "id": 8,
+        "label": "Organic chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_chemistry",
+        "score": 0.0333333
+      },
+      {
+        "id": 9,
+        "label": "Functional groups",
+        "wikiLink": "http://en.wikipedia.org/Category:Functional_groups",
+        "score": 0.0333333
+      },
+      {
+        "id": 10,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Percentage",
+        "freebaseTypes": [
+          "/type/unit"
+        ],
+        "confidenceScore": 1.13884,
+        "wikiLink": "http://en.wikipedia.org/wiki/Percentage",
+        "matchedText": "percentage",
+        "freebaseId": "/m/0h6zk",
+        "relevanceScore": 0,
+        "entityEnglishId": "Percentage",
+        "startingPos": 47,
+        "endingPos": 57
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.17064,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.110644,
+        "entityEnglishId": "Patient",
+        "startingPos": 61,
+        "endingPos": 69
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Valsartan",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.65648,
+        "wikiLink": "http://en.wikipedia.org/wiki/Valsartan",
+        "matchedText": "valsartan",
+        "freebaseId": "/m/079bqt",
+        "relevanceScore": 0.397733,
+        "entityEnglishId": "Valsartan",
+        "startingPos": 123,
+        "endingPos": 132
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Amlodipine",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 3.38552,
+        "wikiLink": "http://en.wikipedia.org/wiki/Amlodipine",
+        "matchedText": "amlodipine",
+        "freebaseId": "/m/02_0mv",
+        "relevanceScore": 0.07955,
+        "entityEnglishId": "Amlodipine",
+        "startingPos": 151,
+        "endingPos": 161
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              20,
+              21,
+              23,
+              24,
+              25,
+              27,
+              28
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              20,
+              21,
+              23,
+              24,
+              25,
+              27,
+              28
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          36
+        ],
+        "propertyPositions": [
+          38,
+          39,
+          40
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          36
+        ],
+        "propertyPositions": [
+          42,
+          43
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          2
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          4,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          5,
+          6
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          18
+        ],
+        "propertyPositions": [
+          20,
+          21
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          25
+        ],
+        "propertyPositions": [
+          27,
+          28
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          4,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          23,
+          24,
+          25,
+          27,
+          28
+        ]
+      }
+    ]
+  },
+  "time": 3.016,
+  "ok": true
+}

@@ -1,0 +1,559 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.705025
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.690212
+      },
+      {
+        "id": 3,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.484557
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.481121
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.247898
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.228142
+      },
+      {
+        "id": 1,
+        "label": "Dietitian",
+        "wikiLink": "http://en.wikipedia.org/Dietitian",
+        "score": 0.22029
+      },
+      {
+        "id": 2,
+        "label": "Nursing",
+        "wikiLink": "http://en.wikipedia.org/Nursing",
+        "score": 0.146723
+      },
+      {
+        "id": 3,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.102572
+      },
+      {
+        "id": 4,
+        "label": "Quality of life",
+        "wikiLink": "http://en.wikipedia.org/Quality_of_life",
+        "score": 0.120019
+      },
+      {
+        "id": 5,
+        "label": "Randomized controlled trial",
+        "wikiLink": "http://en.wikipedia.org/Randomized_controlled_trial",
+        "score": 0.275041
+      },
+      {
+        "id": 6,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.632035
+      },
+      {
+        "id": 7,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.370934
+      },
+      {
+        "id": 8,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.349246
+      },
+      {
+        "id": 9,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.344928
+      },
+      {
+        "id": 10,
+        "label": "Occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Occupations_by_type",
+        "score": 0.344841
+      },
+      {
+        "id": 11,
+        "label": "Social programs",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_programs",
+        "score": 0.0958576
+      },
+      {
+        "id": 12,
+        "label": "Philosophy",
+        "wikiLink": "http://en.wikipedia.org/Category:Philosophy_by_field",
+        "score": 0.0957345
+      },
+      {
+        "id": 13,
+        "label": "Applied sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Applied_sciences",
+        "score": 0.0576117
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          3,
+          4,
+          5
+        ],
+        "entityId": "Quality of life",
+        "freebaseTypes": [
+          "/tv/tv_genre",
+          "/media_common/media_genre"
+        ],
+        "confidenceScore": 2.57414,
+        "wikiLink": "http://en.wikipedia.org/wiki/Quality_of_life",
+        "matchedText": "quality of life",
+        "freebaseId": "/m/0cvgr",
+        "relevanceScore": 0.120019,
+        "entityEnglishId": "Quality of life",
+        "startingPos": 22,
+        "endingPos": 37
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.25367,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "outpatient",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.102572,
+        "entityEnglishId": "Patient",
+        "startingPos": 98,
+        "endingPos": 108
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Nursing",
+        "freebaseTypes": [
+          "/people/professional_field",
+          "/book/book_subject",
+          "/education/field_of_study",
+          "/fictional_universe/character_occupation",
+          "/organization/organization_sector"
+        ],
+        "confidenceScore": 0.932454,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nursing",
+        "matchedText": "nurse",
+        "freebaseId": "/m/05fh2",
+        "relevanceScore": 0.146723,
+        "entityEnglishId": "Nursing",
+        "startingPos": 141,
+        "endingPos": 146
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Dietitian",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/people/profession"
+        ],
+        "confidenceScore": 2.82245,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dietitian",
+        "matchedText": "dietitian",
+        "freebaseId": "/m/028r4l",
+        "relevanceScore": 0.22029,
+        "entityEnglishId": "Dietitian",
+        "startingPos": 148,
+        "endingPos": 157
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.64095,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.228142,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 180,
+        "endingPos": 188
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          37,
+          38
+        ],
+        "entityId": "Randomized controlled trial",
+        "freebaseTypes": [
+          "/law/invention"
+        ],
+        "confidenceScore": 1.84407,
+        "wikiLink": "http://en.wikipedia.org/wiki/Randomized_controlled_trial",
+        "matchedText": "randomised trial",
+        "freebaseId": "/m/015p9x",
+        "relevanceScore": 0.275041,
+        "entityEnglishId": "Randomized controlled trial",
+        "startingPos": 216,
+        "endingPos": 232
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6,
+          7,
+          8,
+          34
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          34
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6,
+          7,
+          8,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              39,
+              40,
+              41,
+              42,
+              43
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          43
+        ],
+        "propertyPositions": [
+          42
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14,
+          16,
+          17,
+          18,
+          20,
+          21
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          28,
+          29
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          30,
+          31
+        ],
+        "propertyPositions": [
+          32,
+          33
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          28,
+          29
+        ],
+        "propertyPositions": [
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          14,
+          16,
+          17,
+          18,
+          20,
+          21
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          35,
+          38
+        ],
+        "propertyPositions": [
+          36
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          35,
+          38
+        ],
+        "propertyPositions": [
+          37
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

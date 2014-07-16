@@ -1,0 +1,294 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.915536
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.782535
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Glycated hemoglobin",
+        "wikiLink": "http://en.wikipedia.org/Glycated_hemoglobin",
+        "score": 0.578733
+      },
+      {
+        "id": 2,
+        "label": "Hemoglobin",
+        "wikiLink": "http://en.wikipedia.org/Hemoglobin",
+        "score": 0.353755
+      },
+      {
+        "id": 3,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.28031
+      },
+      {
+        "id": 4,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.263115
+      },
+      {
+        "id": 5,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.263115
+      },
+      {
+        "id": 6,
+        "label": "Respiratory pigments",
+        "wikiLink": "http://en.wikipedia.org/Category:Respiratory_pigments",
+        "score": 0.133918
+      },
+      {
+        "id": 7,
+        "label": "Hemoglobins",
+        "wikiLink": "http://en.wikipedia.org/Category:Hemoglobins",
+        "score": 0.133918
+      },
+      {
+        "id": 8,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.133918
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Glycosylation",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 2.93273,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycosylation",
+        "matchedText": "glycosylated",
+        "freebaseId": "/m/02dw_f",
+        "relevanceScore": 0.0588865,
+        "entityEnglishId": "Glycosylation",
+        "startingPos": 59,
+        "endingPos": 71
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 1.85895,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "glycosylated haemoglobin",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.578733,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 59,
+        "endingPos": 83
+      },
+      {
+        "id": 2,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Hemoglobin",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/biology/protein"
+        ],
+        "confidenceScore": 4.59237,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hemoglobin",
+        "matchedText": "haemoglobin",
+        "freebaseId": "/m/03hwm",
+        "relevanceScore": 0.353755,
+        "entityEnglishId": "Hemoglobin",
+        "startingPos": 72,
+        "endingPos": 83
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.73557,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "Type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.799299,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 100,
+        "endingPos": 106
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18,
+          19
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 5.68297,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "Type 2 diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.291817,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 100,
+        "endingPos": 115
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 0.95328,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.347448,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 107,
+        "endingPos": 115
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "propertyPositions": [
+          5,
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

@@ -1,0 +1,182 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Percutaneous coronary intervention",
+        "wikiLink": "http://en.wikipedia.org/Percutaneous_coronary_intervention",
+        "score": 0.489769
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "MIs",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "MIs",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 41,
+        "endingPos": 44
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Percutaneous coronary intervention",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.05611,
+        "wikiLink": "http://en.wikipedia.org/wiki/Percutaneous_coronary_intervention",
+        "matchedText": "PCI",
+        "freebaseId": "/m/09xlbt",
+        "relevanceScore": 0.489769,
+        "entityEnglishId": "Percutaneous coronary intervention",
+        "startingPos": 93,
+        "endingPos": 96
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "BMS",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "BMS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 102,
+        "endingPos": 105
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          9
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          5,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          0,
+          1,
+          2,
+          3,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          20,
+          21,
+          22
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          20,
+          21,
+          22
+        ],
+        "propertyPositions": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      }
+    ]
+  },
+  "time": 3.031,
+  "ok": true
+}

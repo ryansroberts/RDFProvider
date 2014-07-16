@@ -1,0 +1,317 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.78382
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.516056
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.497263
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.305512
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.274594
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Aspirin",
+        "wikiLink": "http://en.wikipedia.org/Aspirin",
+        "score": 0.314941
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.307426
+      },
+      {
+        "id": 2,
+        "label": "Disease",
+        "wikiLink": "http://en.wikipedia.org/Disease",
+        "score": 0.179072
+      },
+      {
+        "id": 3,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.1564
+      },
+      {
+        "id": 4,
+        "label": "Social issues",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_issues",
+        "score": 0.0663527
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Lative case",
+        "confidenceScore": 2.41157,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lative_case",
+        "matchedText": "lative",
+        "freebaseId": "/m/04qv93",
+        "relevanceScore": 0,
+        "entityEnglishId": "Lative case",
+        "startingPos": 3,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "ETDRS",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "ETDRS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 37,
+        "endingPos": 42
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place",
+          "NaturalPlace",
+          "MountainRange"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Ith",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 1.15551,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ith",
+        "matchedText": "ith",
+        "freebaseId": "/m/06wc7xw",
+        "relevanceScore": 0.0312036,
+        "entityEnglishId": "Ith",
+        "startingPos": 93,
+        "endingPos": 96
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 3.24855,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.307426,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 97,
+        "endingPos": 105
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.66282,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.179072,
+        "entityEnglishId": "Disease",
+        "startingPos": 132,
+        "endingPos": 139
+      },
+      {
+        "id": 5,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          40
+        ],
+        "entityId": "Aspirin",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors",
+          "/medicine/risk_factor",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 6.85335,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aspirin",
+        "matchedText": "aspirin",
+        "freebaseId": "/m/0qkc",
+        "relevanceScore": 0.314941,
+        "entityEnglishId": "Aspirin",
+        "startingPos": 213,
+        "endingPos": 220
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          41
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.8102,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.1564,
+        "entityEnglishId": "Therapy",
+        "startingPos": 221,
+        "endingPos": 228
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5,
+          6
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              8,
+              9,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              10
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4
+        ]
+      }
+    ]
+  },
+  "time": 3.03,
+  "ok": true
+}

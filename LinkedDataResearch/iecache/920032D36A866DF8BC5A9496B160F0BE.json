@@ -1,0 +1,457 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.627969
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.328
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.319788
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.30932
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.307628
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cohort study",
+        "wikiLink": "http://en.wikipedia.org/Cohort_study",
+        "score": 0.238818
+      },
+      {
+        "id": 1,
+        "label": "Combination therapy",
+        "wikiLink": "http://en.wikipedia.org/Combination_therapy",
+        "score": 0.203503
+      },
+      {
+        "id": 2,
+        "label": "Hypoglycemia",
+        "wikiLink": "http://en.wikipedia.org/Hypoglycemia",
+        "score": 0.385899
+      },
+      {
+        "id": 3,
+        "label": "Insulin",
+        "wikiLink": "http://en.wikipedia.org/Insulin",
+        "score": 0.113044
+      },
+      {
+        "id": 4,
+        "label": "Metformin",
+        "wikiLink": "http://en.wikipedia.org/Metformin",
+        "score": 0.770544
+      },
+      {
+        "id": 5,
+        "label": "Sulfonylurea",
+        "wikiLink": "http://en.wikipedia.org/Sulfonylurea",
+        "score": 0.779265
+      },
+      {
+        "id": 6,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.646913
+      },
+      {
+        "id": 7,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.632763
+      },
+      {
+        "id": 8,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.575725
+      },
+      {
+        "id": 9,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.381733
+      },
+      {
+        "id": 10,
+        "label": "Endocrinology",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrinology",
+        "score": 0.201206
+      },
+      {
+        "id": 11,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.133981
+      },
+      {
+        "id": 12,
+        "label": "Nutrition",
+        "wikiLink": "http://en.wikipedia.org/Category:Nutrition",
+        "score": 0.075133
+      },
+      {
+        "id": 13,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.0637887
+      },
+      {
+        "id": 14,
+        "label": "Nursing",
+        "wikiLink": "http://en.wikipedia.org/Category:Nursing",
+        "score": 0.0637887
+      },
+      {
+        "id": 15,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0608856
+      },
+      {
+        "id": 16,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.0608856
+      },
+      {
+        "id": 17,
+        "label": "Medical terminology",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_terminology",
+        "score": 0.0608856
+      },
+      {
+        "id": 18,
+        "label": "Knowledge",
+        "wikiLink": "http://en.wikipedia.org/Category:Knowledge",
+        "score": 0.0608856
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Cohort study",
+        "confidenceScore": 2.93471,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cohort_study",
+        "matchedText": "cohort study",
+        "freebaseId": "/m/023g11",
+        "relevanceScore": 0.238818,
+        "entityEnglishId": "Cohort study",
+        "startingPos": 5,
+        "endingPos": 17
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Hypoglycemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 6.63372,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypoglycemia",
+        "matchedText": "hypoglycaemia",
+        "freebaseId": "/m/03gwt",
+        "relevanceScore": 0.385899,
+        "entityEnglishId": "Hypoglycemia",
+        "startingPos": 48,
+        "endingPos": 61
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.34295,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Patient",
+        "startingPos": 65,
+        "endingPos": 73
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Diet (nutrition)",
+        "freebaseTypes": [
+          "/business/industry",
+          "/internet/website_category",
+          "/medicine/condition_prevention_factors",
+          "/book/book_subject",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 0.903657,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diet_(nutrition)",
+        "matchedText": "diet",
+        "freebaseId": "/m/02zkwn",
+        "relevanceScore": 0,
+        "entityEnglishId": "Diet (nutrition)",
+        "startingPos": 87,
+        "endingPos": 91
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Sulfonylurea",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 3.17578,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sulfonylurea",
+        "matchedText": "sulphonylurea",
+        "freebaseId": "/m/036kty",
+        "relevanceScore": 0.779265,
+        "entityEnglishId": "Sulfonylurea",
+        "startingPos": 99,
+        "endingPos": 112
+      },
+      {
+        "id": 5,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 9.46009,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.385272,
+        "entityEnglishId": "Metformin",
+        "startingPos": 114,
+        "endingPos": 123
+      },
+      {
+        "id": 6,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.6528,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.113044,
+        "entityEnglishId": "Insulin",
+        "startingPos": 127,
+        "endingPos": 134
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Combination therapy",
+        "confidenceScore": 1.89965,
+        "wikiLink": "http://en.wikipedia.org/wiki/Combination_therapy",
+        "matchedText": "monotherapy",
+        "freebaseId": "/m/058jwm",
+        "relevanceScore": 0.203503,
+        "entityEnglishId": "Combination therapy",
+        "startingPos": 135,
+        "endingPos": 146
+      },
+      {
+        "id": 8,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 7.92358,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.385272,
+        "entityEnglishId": "Metformin",
+        "startingPos": 163,
+        "endingPos": 172
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              9,
+              10,
+              11,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          32,
+          34,
+          35,
+          36
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              33
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              37,
+              38,
+              39
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          14,
+          16
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          23,
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          37,
+          39
+        ],
+        "propertyPositions": [
+          38
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

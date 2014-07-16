@@ -1,0 +1,905 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.663599
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.663599
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.342954
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.342954
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.342954
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "ACE inhibitor",
+        "wikiLink": "http://en.wikipedia.org/ACE_inhibitor",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Antihypertensive drug",
+        "wikiLink": "http://en.wikipedia.org/Antihypertensive_drug",
+        "score": 0.302454
+      },
+      {
+        "id": 2,
+        "label": "Cochrane Collaboration",
+        "wikiLink": "http://en.wikipedia.org/Cochrane_Collaboration",
+        "score": 0.921895
+      },
+      {
+        "id": 3,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.464995
+      },
+      {
+        "id": 4,
+        "label": "Diabetic nephropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_nephropathy",
+        "score": 0.22015
+      },
+      {
+        "id": 5,
+        "label": "Disease",
+        "wikiLink": "http://en.wikipedia.org/Disease",
+        "score": 0.160493
+      },
+      {
+        "id": 6,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.265604
+      },
+      {
+        "id": 7,
+        "label": "Nephropathy",
+        "wikiLink": "http://en.wikipedia.org/Nephropathy",
+        "score": 0.212692
+      },
+      {
+        "id": 8,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.383379
+      },
+      {
+        "id": 9,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.365716
+      },
+      {
+        "id": 10,
+        "label": "Antihypertensive agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Antihypertensive_agents",
+        "score": 0.0986652
+      },
+      {
+        "id": 11,
+        "label": "Evidence-based practices",
+        "wikiLink": "http://en.wikipedia.org/Category:Evidence-based_practices",
+        "score": 0.085226
+      },
+      {
+        "id": 12,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.085226
+      },
+      {
+        "id": 13,
+        "label": "Empiricism",
+        "wikiLink": "http://en.wikipedia.org/Category:Empiricism",
+        "score": 0.085226
+      },
+      {
+        "id": 14,
+        "label": "Social problems",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_problems",
+        "score": 0.085226
+      },
+      {
+        "id": 15,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.085226
+      },
+      {
+        "id": 16,
+        "label": "Mathematical and theoretical biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_and_theoretical_biology",
+        "score": 0.085226
+      },
+      {
+        "id": 17,
+        "label": "Fields of application of statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_application_of_statistics",
+        "score": 0.085226
+      },
+      {
+        "id": 18,
+        "label": "Biostatistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Biostatistics",
+        "score": 0.085226
+      },
+      {
+        "id": 19,
+        "label": "Vascular diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Vascular_diseases",
+        "score": 0.0745271
+      },
+      {
+        "id": 20,
+        "label": "Genitourinary system diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Genitourinary_system_diseases",
+        "score": 0.0690453
+      },
+      {
+        "id": 21,
+        "label": "Urological conditions",
+        "wikiLink": "http://en.wikipedia.org/Category:Urological_conditions",
+        "score": 0.0690453
+      },
+      {
+        "id": 22,
+        "label": "Kidney diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney_diseases",
+        "score": 0.0690453
+      },
+      {
+        "id": 23,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0690453
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Cochrane Collaboration",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/business/employer"
+        ],
+        "confidenceScore": 1.09385,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cochrane_Collaboration",
+        "matchedText": "Cochrane",
+        "freebaseId": "/m/01jh8y",
+        "relevanceScore": 0.2706,
+        "entityEnglishId": "Cochrane Collaboration",
+        "startingPos": 4,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Cochrane Collaboration",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/business/employer"
+        ],
+        "confidenceScore": 3.95001,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cochrane_Collaboration",
+        "matchedText": "Cochrane review",
+        "freebaseId": "/m/01jh8y",
+        "relevanceScore": 0.190348,
+        "entityEnglishId": "Cochrane Collaboration",
+        "startingPos": 4,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Antihypertensive drug",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.5681,
+        "wikiLink": "http://en.wikipedia.org/wiki/Antihypertensive_drug",
+        "matchedText": "antihypertensives",
+        "freebaseId": "/m/02yx18",
+        "relevanceScore": 0.302454,
+        "entityEnglishId": "Antihypertensive drug",
+        "startingPos": 23,
+        "endingPos": 40
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.16626,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.232498,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 56,
+        "endingPos": 64
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.75873,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.132802,
+        "entityEnglishId": "Kidney",
+        "startingPos": 65,
+        "endingPos": 71
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7,
+          8,
+          9
+        ],
+        "entityId": "Diabetic nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.52859,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_nephropathy",
+        "matchedText": "diabetic kidney disease",
+        "freebaseId": "/m/057z5c",
+        "relevanceScore": 0.110075,
+        "entityEnglishId": "Diabetic nephropathy",
+        "startingPos": 56,
+        "endingPos": 79
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.46722,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephropathy",
+        "matchedText": "kidney disease",
+        "freebaseId": "/m/02z63k",
+        "relevanceScore": 0.106346,
+        "entityEnglishId": "Nephropathy",
+        "startingPos": 65,
+        "endingPos": 79
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.61052,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.0802466,
+        "entityEnglishId": "Disease",
+        "startingPos": 72,
+        "endingPos": 79
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "ACE inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.44305,
+        "wikiLink": "http://en.wikipedia.org/wiki/ACE_inhibitor",
+        "matchedText": "ACEI",
+        "freebaseId": "/m/0110z",
+        "relevanceScore": 0.306317,
+        "entityEnglishId": "ACE inhibitor",
+        "startingPos": 104,
+        "endingPos": 108
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 3.04942,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.19169,
+        "entityEnglishId": "Placebo",
+        "startingPos": 112,
+        "endingPos": 119
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "ACE inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.44305,
+        "wikiLink": "http://en.wikipedia.org/wiki/ACE_inhibitor",
+        "matchedText": "ACEI",
+        "freebaseId": "/m/0110z",
+        "relevanceScore": 0.306317,
+        "entityEnglishId": "ACE inhibitor",
+        "startingPos": 152,
+        "endingPos": 156
+      },
+      {
+        "id": 11,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "CCBs",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "CCBs",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 160,
+        "endingPos": 164
+      },
+      {
+        "id": 12,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          47
+        ],
+        "entityId": "Cochrane Collaboration",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/business/employer"
+        ],
+        "confidenceScore": 1.09385,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cochrane_Collaboration",
+        "matchedText": "Cochrane",
+        "freebaseId": "/m/01jh8y",
+        "relevanceScore": 0.2706,
+        "entityEnglishId": "Cochrane Collaboration",
+        "startingPos": 228,
+        "endingPos": 236
+      },
+      {
+        "id": 13,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          47,
+          48
+        ],
+        "entityId": "Cochrane Collaboration",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/business/employer"
+        ],
+        "confidenceScore": 3.95001,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cochrane_Collaboration",
+        "matchedText": "Cochrane review",
+        "freebaseId": "/m/01jh8y",
+        "relevanceScore": 0.190348,
+        "entityEnglishId": "Cochrane Collaboration",
+        "startingPos": 228,
+        "endingPos": 243
+      },
+      {
+        "id": 14,
+        "matchingTokens": [
+          50
+        ],
+        "entityId": "ACE inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.44305,
+        "wikiLink": "http://en.wikipedia.org/wiki/ACE_inhibitor",
+        "matchedText": "ACEI",
+        "freebaseId": "/m/0110z",
+        "relevanceScore": 0.306317,
+        "entityEnglishId": "ACE inhibitor",
+        "startingPos": 247,
+        "endingPos": 251
+      },
+      {
+        "id": 15,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          52,
+          53
+        ],
+        "entityId": "A2RB for",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "A2RB for",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 256,
+        "endingPos": 264
+      },
+      {
+        "id": 16,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          59
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.16626,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.232498,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 295,
+        "endingPos": 303
+      },
+      {
+        "id": 17,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          60
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.82676,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.132802,
+        "entityEnglishId": "Kidney",
+        "startingPos": 304,
+        "endingPos": 310
+      },
+      {
+        "id": 18,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          59,
+          60,
+          61
+        ],
+        "entityId": "Diabetic nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.52859,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_nephropathy",
+        "matchedText": "diabetic kidney disease",
+        "freebaseId": "/m/057z5c",
+        "relevanceScore": 0.110075,
+        "entityEnglishId": "Diabetic nephropathy",
+        "startingPos": 295,
+        "endingPos": 318
+      },
+      {
+        "id": 19,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          60,
+          61
+        ],
+        "entityId": "Nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.46722,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephropathy",
+        "matchedText": "kidney disease",
+        "freebaseId": "/m/02z63k",
+        "relevanceScore": 0.106346,
+        "entityEnglishId": "Nephropathy",
+        "startingPos": 304,
+        "endingPos": 318
+      },
+      {
+        "id": 20,
+        "matchingTokens": [
+          61
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.84747,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.0802466,
+        "entityEnglishId": "Disease",
+        "startingPos": 311,
+        "endingPos": 318
+      },
+      {
+        "id": 21,
+        "matchingTokens": [
+          63
+        ],
+        "entityId": "ACE inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.44305,
+        "wikiLink": "http://en.wikipedia.org/wiki/ACE_inhibitor",
+        "matchedText": "ACEI",
+        "freebaseId": "/m/0110z",
+        "relevanceScore": 0.306317,
+        "entityEnglishId": "ACE inhibitor",
+        "startingPos": 323,
+        "endingPos": 327
+      },
+      {
+        "id": 22,
+        "matchingTokens": [
+          65
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 3.04942,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.19169,
+        "entityEnglishId": "Placebo",
+        "startingPos": 331,
+        "endingPos": 338
+      },
+      {
+        "id": 23,
+        "matchingTokens": [
+          77
+        ],
+        "entityId": "ACE inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.44305,
+        "wikiLink": "http://en.wikipedia.org/wiki/ACE_inhibitor",
+        "matchedText": "ACEI",
+        "freebaseId": "/m/0110z",
+        "relevanceScore": 0.306317,
+        "entityEnglishId": "ACE inhibitor",
+        "startingPos": 365,
+        "endingPos": 369
+      },
+      {
+        "id": 24,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          79
+        ],
+        "entityId": "A2RB",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "A2RB",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 373,
+        "endingPos": 377
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              11
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          60,
+          61
+        ],
+        "propertyPositions": [
+          59
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          56,
+          57,
+          58
+        ],
+        "propertyPositions": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          68
+        ],
+        "propertyPositions": [
+          70,
+          72
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          84
+        ],
+        "propertyPositions": [
+          88,
+          89,
+          90
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          82
+        ],
+        "propertyPositions": [
+          84,
+          86,
+          88,
+          89,
+          90
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          22,
+          24
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          22,
+          24
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          28,
+          29,
+          30,
+          32,
+          33
+        ]
+      }
+    ]
+  },
+  "time": 3.026,
+  "ok": true
+}

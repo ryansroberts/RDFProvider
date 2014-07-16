@@ -1,0 +1,901 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.519018
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.501727
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.501727
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Exenatide",
+        "wikiLink": "http://en.wikipedia.org/Exenatide",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Glycated hemoglobin",
+        "wikiLink": "http://en.wikipedia.org/Glycated_hemoglobin",
+        "score": 0.770528
+      },
+      {
+        "id": 2,
+        "label": "Insulin",
+        "wikiLink": "http://en.wikipedia.org/Insulin",
+        "score": 0.161272
+      },
+      {
+        "id": 3,
+        "label": "Kilogram",
+        "wikiLink": "http://en.wikipedia.org/Kilogram",
+        "score": 0.11169
+      },
+      {
+        "id": 4,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.471703
+      },
+      {
+        "id": 5,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.171578
+      },
+      {
+        "id": 6,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.171578
+      },
+      {
+        "id": 7,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.121323
+      },
+      {
+        "id": 8,
+        "label": "Manufacturing",
+        "wikiLink": "http://en.wikipedia.org/Category:Manufacturing_by_country",
+        "score": 0.112878
+      },
+      {
+        "id": 9,
+        "label": "Pharmaceutical companies",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_companies_by_country",
+        "score": 0.112878
+      },
+      {
+        "id": 10,
+        "label": "Eli Lilly and Company",
+        "wikiLink": "http://en.wikipedia.org/Category:Eli_Lilly_and_Company",
+        "score": 0.112878
+      },
+      {
+        "id": 11,
+        "label": "Human metabolites",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_metabolites",
+        "score": 0.0934505
+      },
+      {
+        "id": 12,
+        "label": "Clinical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_pathology",
+        "score": 0.0934505
+      },
+      {
+        "id": 13,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.0934505
+      },
+      {
+        "id": 14,
+        "label": "Chemical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_pathology",
+        "score": 0.0934505
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Davis",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Davis",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 5
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.35993,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "HbA1c",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.192632,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 60,
+        "endingPos": 65
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Exenatide",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 4.50821,
+        "wikiLink": "http://en.wikipedia.org/wiki/Exenatide",
+        "matchedText": "exenatide",
+        "freebaseId": "/m/093_zf",
+        "relevanceScore": 0.542261,
+        "entityEnglishId": "Exenatide",
+        "startingPos": 71,
+        "endingPos": 80
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Kilogram",
+        "freebaseTypes": [
+          "/type/unit",
+          "/food/culinary_measure",
+          "/measurement_unit/mass_unit"
+        ],
+        "confidenceScore": 1.37902,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kilogram",
+        "matchedText": "micrograms",
+        "freebaseId": "/m/047dr",
+        "relevanceScore": 0.11169,
+        "entityEnglishId": "Kilogram",
+        "startingPos": 84,
+        "endingPos": 94
+      },
+      {
+        "id": 4,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.37164,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.0806359,
+        "entityEnglishId": "Insulin",
+        "startingPos": 138,
+        "endingPos": 145
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.35993,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "HbA1c",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.192632,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 176,
+        "endingPos": 181
+      },
+      {
+        "id": 6,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Exenatide",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 4.50821,
+        "wikiLink": "http://en.wikipedia.org/wiki/Exenatide",
+        "matchedText": "exenatide",
+        "freebaseId": "/m/093_zf",
+        "relevanceScore": 0.542261,
+        "entityEnglishId": "Exenatide",
+        "startingPos": 189,
+        "endingPos": 198
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.35993,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "HbA1c",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.192632,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 220,
+        "endingPos": 225
+      },
+      {
+        "id": 8,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          50
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.37164,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.0806359,
+        "entityEnglishId": "Insulin",
+        "startingPos": 272,
+        "endingPos": 279
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          55
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.35993,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "HbA1c",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.192632,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 301,
+        "endingPos": 306
+      },
+      {
+        "id": 10,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          79
+        ],
+        "entityId": "Davis",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Davis",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 397,
+        "endingPos": 402
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              19,
+              21,
+              22,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              35,
+              36,
+              37,
+              38,
+              39,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              53,
+              54,
+              55,
+              56,
+              57,
+              60,
+              61,
+              62,
+              63,
+              64,
+              66,
+              67,
+              68,
+              70,
+              71,
+              72,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              19,
+              21,
+              22,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              35,
+              36,
+              37,
+              38,
+              39,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              53,
+              54,
+              55,
+              56,
+              57,
+              60,
+              61,
+              62,
+              63,
+              64,
+              66,
+              67,
+              68,
+              70,
+              71,
+              72,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          15
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10,
+              11,
+              12,
+              13,
+              14
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              16,
+              17,
+              19,
+              21,
+              22,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              35,
+              36,
+              37,
+              38,
+              39,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              53,
+              54,
+              55,
+              56,
+              57,
+              60,
+              61,
+              62,
+              63,
+              64,
+              66,
+              67,
+              68,
+              70,
+              71,
+              72,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          68,
+          75
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              66,
+              67
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              60,
+              61,
+              62,
+              63,
+              64,
+              70,
+              71,
+              72,
+              73,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          60,
+          61,
+          62,
+          68,
+          75
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              66,
+              67
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              63,
+              64,
+              70,
+              71,
+              72,
+              73,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          10,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          16,
+          21,
+          22
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16,
+          21,
+          22
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          24,
+          25,
+          28,
+          30
+        ],
+        "propertyPositions": [
+          26,
+          27
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          24,
+          25,
+          28,
+          30
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          24,
+          25,
+          28,
+          30
+        ],
+        "propertyPositions": [
+          31,
+          32,
+          33
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          16,
+          21,
+          22
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          35,
+          36,
+          37,
+          38,
+          39
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          49,
+          50,
+          51
+        ],
+        "propertyPositions": [
+          53,
+          54,
+          55,
+          56,
+          57
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          47,
+          48
+        ],
+        "propertyPositions": [
+          49,
+          50,
+          51,
+          53,
+          54,
+          55,
+          56,
+          57
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          43,
+          44,
+          45
+        ],
+        "propertyPositions": [
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          53,
+          54,
+          55,
+          56,
+          57
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          61,
+          62
+        ],
+        "propertyPositions": [
+          60
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          61,
+          62
+        ],
+        "propertyPositions": [
+          63,
+          64
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          70
+        ],
+        "propertyPositions": [
+          71,
+          72,
+          73
+        ]
+      }
+    ]
+  },
+  "time": 3.038,
+  "ok": true
+}

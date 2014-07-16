@@ -1,0 +1,464 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.663462
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.663462
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.337801
+      },
+      {
+        "id": 5,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.337801
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Systematic review",
+        "wikiLink": "http://en.wikipedia.org/Systematic_review",
+        "score": 0.196893
+      },
+      {
+        "id": 1,
+        "label": "Statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistics",
+        "score": 0.0589976
+      },
+      {
+        "id": 2,
+        "label": "Mathematical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_sciences",
+        "score": 0.0589976
+      },
+      {
+        "id": 3,
+        "label": "Probability and statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Probability_and_statistics",
+        "score": 0.0589976
+      },
+      {
+        "id": 4,
+        "label": "Mathematical and quantitative methods (economics)",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_and_quantitative_methods_(economics)",
+        "score": 0.0589976
+      },
+      {
+        "id": 5,
+        "label": "Empiricism",
+        "wikiLink": "http://en.wikipedia.org/Category:Empiricism",
+        "score": 0.0583143
+      },
+      {
+        "id": 6,
+        "label": "Critical thinking",
+        "wikiLink": "http://en.wikipedia.org/Category:Critical_thinking",
+        "score": 0.0583143
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Evidence (law)",
+        "confidenceScore": 0.996003,
+        "wikiLink": "http://en.wikipedia.org/wiki/Evidence_(law)",
+        "matchedText": "evidence",
+        "freebaseId": "/m/06d34f",
+        "relevanceScore": 0.0798277,
+        "entityEnglishId": "Evidence (law)",
+        "startingPos": 13,
+        "endingPos": 21
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Systematic review",
+        "confidenceScore": 3.04847,
+        "wikiLink": "http://en.wikipedia.org/wiki/Systematic_review",
+        "matchedText": "systematic review",
+        "freebaseId": "/m/08jd5_",
+        "relevanceScore": 0.196893,
+        "entityEnglishId": "Systematic review",
+        "startingPos": 32,
+        "endingPos": 49
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Question",
+        "freebaseTypes": [
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.39065,
+        "wikiLink": "http://en.wikipedia.org/wiki/Question",
+        "matchedText": "question",
+        "freebaseId": "/m/02h_12",
+        "relevanceScore": 0.0824374,
+        "entityEnglishId": "Question",
+        "startingPos": 68,
+        "endingPos": 76
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Frequency",
+        "freebaseTypes": [
+          "/measurement_unit/dimension",
+          "/measurement_unit/common_dimension"
+        ],
+        "confidenceScore": 1.00305,
+        "wikiLink": "http://en.wikipedia.org/wiki/Frequency",
+        "matchedText": "frequency",
+        "freebaseId": "/m/02x93",
+        "relevanceScore": 0.0989023,
+        "entityEnglishId": "Frequency",
+        "startingPos": 92,
+        "endingPos": 101
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "National",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "National",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 116,
+        "endingPos": 124
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1,
+          9,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          22
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              19,
+              20,
+              21
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5,
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3,
+          4
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          23,
+          25,
+          26
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          31,
+          37
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          31,
+          37
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          35,
+          36
+        ],
+        "propertyPositions": [
+          33
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          35,
+          36
+        ],
+        "propertyPositions": [
+          34
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          31,
+          37
+        ],
+        "propertyPositions": [
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          23,
+          25,
+          26
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      }
+    ]
+  },
+  "time": 3.019,
+  "ok": true
+}

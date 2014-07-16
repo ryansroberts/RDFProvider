@@ -1,0 +1,226 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.936401
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.920331
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.920331
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Efficacy",
+        "wikiLink": "http://en.wikipedia.org/Efficacy",
+        "score": 0.307677
+      },
+      {
+        "id": 1,
+        "label": "Pharmaceutical drug",
+        "wikiLink": "http://en.wikipedia.org/Pharmaceutical_drug",
+        "score": 0.157587
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Murray DP",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Murray DP",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Keenan P",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Keenan P",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Gayer E",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Gayer E",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 28
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Randomized experiment",
+        "confidenceScore": 1.76966,
+        "wikiLink": "http://en.wikipedia.org/wiki/Randomized_experiment",
+        "matchedText": "randomized trial",
+        "freebaseId": "/m/09gf01r",
+        "relevanceScore": 0,
+        "entityEnglishId": "Randomized experiment",
+        "startingPos": 39,
+        "endingPos": 55
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Efficacy",
+        "confidenceScore": 2.05761,
+        "wikiLink": "http://en.wikipedia.org/wiki/Efficacy",
+        "matchedText": "efficacy",
+        "freebaseId": "/m/03mrl3",
+        "relevanceScore": 0.307677,
+        "entityEnglishId": "Efficacy",
+        "startingPos": 63,
+        "endingPos": 71
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.42248,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "Medicine",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.157587,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 118,
+        "endingPos": 126
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15,
+          16,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          11,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          25
+        ],
+        "propertyPositions": [
+          24
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

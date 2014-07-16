@@ -1,0 +1,908 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.951204
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.94799
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.946867
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.669605
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.203671
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Blind experiment",
+        "wikiLink": "http://en.wikipedia.org/Blind_experiment",
+        "score": 0.1929
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.526085
+      },
+      {
+        "id": 2,
+        "label": "Efficacy",
+        "wikiLink": "http://en.wikipedia.org/Efficacy",
+        "score": 0.12046
+      },
+      {
+        "id": 3,
+        "label": "Placebo-controlled study",
+        "wikiLink": "http://en.wikipedia.org/Placebo-controlled_study",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Randomized controlled trial",
+        "wikiLink": "http://en.wikipedia.org/Randomized_controlled_trial",
+        "score": 0.678309
+      },
+      {
+        "id": 5,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.798435
+      },
+      {
+        "id": 6,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.798435
+      },
+      {
+        "id": 7,
+        "label": "Philosophy",
+        "wikiLink": "http://en.wikipedia.org/Category:Philosophy_by_field",
+        "score": 0.519141
+      },
+      {
+        "id": 8,
+        "label": "Methodology",
+        "wikiLink": "http://en.wikipedia.org/Category:Methodology",
+        "score": 0.519141
+      },
+      {
+        "id": 9,
+        "label": "Data collection",
+        "wikiLink": "http://en.wikipedia.org/Category:Data_collection",
+        "score": 0.519141
+      },
+      {
+        "id": 10,
+        "label": "Science experiments",
+        "wikiLink": "http://en.wikipedia.org/Category:Science_experiments",
+        "score": 0.519141
+      },
+      {
+        "id": 11,
+        "label": "Procurement",
+        "wikiLink": "http://en.wikipedia.org/Category:Procurement",
+        "score": 0.519141
+      },
+      {
+        "id": 12,
+        "label": "Tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Tests",
+        "score": 0.519141
+      },
+      {
+        "id": 13,
+        "label": "Statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistics",
+        "score": 0.519141
+      },
+      {
+        "id": 14,
+        "label": "Mathematical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_sciences",
+        "score": 0.519141
+      },
+      {
+        "id": 15,
+        "label": "Probability and statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Probability_and_statistics",
+        "score": 0.519141
+      },
+      {
+        "id": 16,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.519141
+      },
+      {
+        "id": 17,
+        "label": "Experiments",
+        "wikiLink": "http://en.wikipedia.org/Category:Experiments",
+        "score": 0.519141
+      },
+      {
+        "id": 18,
+        "label": "Data management",
+        "wikiLink": "http://en.wikipedia.org/Category:Data_management",
+        "score": 0.519141
+      },
+      {
+        "id": 19,
+        "label": "Mathematical and quantitative methods (economics)",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_and_quantitative_methods_(economics)",
+        "score": 0.519141
+      },
+      {
+        "id": 20,
+        "label": "Problem solving",
+        "wikiLink": "http://en.wikipedia.org/Category:Problem_solving",
+        "score": 0.519141
+      },
+      {
+        "id": 21,
+        "label": "Scientific method",
+        "wikiLink": "http://en.wikipedia.org/Category:Scientific_method",
+        "score": 0.519141
+      },
+      {
+        "id": 22,
+        "label": "Design of experiments",
+        "wikiLink": "http://en.wikipedia.org/Category:Design_of_experiments",
+        "score": 0.519141
+      },
+      {
+        "id": 23,
+        "label": "Medical treatments",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_treatments",
+        "score": 0.2287
+      },
+      {
+        "id": 24,
+        "label": "Medicinal chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicinal_chemistry",
+        "score": 0.224605
+      },
+      {
+        "id": 25,
+        "label": "Pharmaceutical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_sciences",
+        "score": 0.224605
+      },
+      {
+        "id": 26,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.224605
+      },
+      {
+        "id": 27,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Category:Therapy",
+        "score": 0.224605
+      },
+      {
+        "id": 28,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.224605
+      },
+      {
+        "id": 29,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.224605
+      },
+      {
+        "id": 30,
+        "label": "Evidence-based practices",
+        "wikiLink": "http://en.wikipedia.org/Category:Evidence-based_practices",
+        "score": 0.0738305
+      },
+      {
+        "id": 31,
+        "label": "Health fields",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_fields",
+        "score": 0.0738305
+      },
+      {
+        "id": 32,
+        "label": "Statistical data types",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistical_data_types",
+        "score": 0.0738305
+      },
+      {
+        "id": 33,
+        "label": "Empiricism",
+        "wikiLink": "http://en.wikipedia.org/Category:Empiricism",
+        "score": 0.0738305
+      },
+      {
+        "id": 34,
+        "label": "Statistical data sets",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistical_data_sets",
+        "score": 0.0738305
+      },
+      {
+        "id": 35,
+        "label": "Epidemiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Epidemiology",
+        "score": 0.0738305
+      },
+      {
+        "id": 36,
+        "label": "Mathematical and theoretical biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_and_theoretical_biology",
+        "score": 0.0738305
+      },
+      {
+        "id": 37,
+        "label": "Fields of application of statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_application_of_statistics",
+        "score": 0.0738305
+      },
+      {
+        "id": 38,
+        "label": "Public health",
+        "wikiLink": "http://en.wikipedia.org/Category:Public_health",
+        "score": 0.0738305
+      },
+      {
+        "id": 39,
+        "label": "Biostatistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Biostatistics",
+        "score": 0.0738305
+      },
+      {
+        "id": 40,
+        "label": "Data types",
+        "wikiLink": "http://en.wikipedia.org/Category:Data_types",
+        "score": 0.0738305
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "NaturalPlace",
+          "BodyOfWater",
+          "Stream",
+          "River"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Schie",
+        "freebaseTypes": [
+          "/geography/river",
+          "/location/location",
+          "/geography/body_of_water",
+          "/geography/geographical_feature"
+        ],
+        "confidenceScore": 1.8515,
+        "wikiLink": "http://en.wikipedia.org/wiki/Schie",
+        "matchedText": "Schie",
+        "freebaseId": "/m/06zs7_2",
+        "relevanceScore": 0.0304208,
+        "entityEnglishId": "Schie",
+        "startingPos": 4,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "entityId": "Van Schie C H M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Van Schie C H M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 15
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Whalley, Lancashire",
+        "freebaseTypes": [
+          "/location/uk_civil_parish",
+          "/location/location",
+          "/location/administrative_division",
+          "/location/citytown",
+          "/location/statistical_region",
+          "/location/dated_location"
+        ],
+        "confidenceScore": 0.951803,
+        "wikiLink": "http://en.wikipedia.org/wiki/Whalley,_Lancashire",
+        "matchedText": "Whalley",
+        "freebaseId": "/m/03cc5f",
+        "relevanceScore": 0.019873,
+        "entityEnglishId": "Whalley, Lancashire",
+        "startingPos": 17,
+        "endingPos": 24
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Whalley A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Whalley A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 17,
+        "endingPos": 26
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Vileikyte L",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Vileikyte L",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 28,
+        "endingPos": 39
+      },
+      {
+        "id": 5,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Wignall T",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wignall T",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 41,
+        "endingPos": 50
+      },
+      {
+        "id": 6,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Hollis S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hollis S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 52,
+        "endingPos": 60
+      },
+      {
+        "id": 7,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Boulton",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Boulton",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 62,
+        "endingPos": 69
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Efficacy",
+        "confidenceScore": 1.4487,
+        "wikiLink": "http://en.wikipedia.org/wiki/Efficacy",
+        "matchedText": "Efficacy",
+        "freebaseId": "/m/03mrl3",
+        "relevanceScore": 0.12046,
+        "entityEnglishId": "Efficacy",
+        "startingPos": 83,
+        "endingPos": 91
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Silicone",
+        "confidenceScore": 1.53621,
+        "wikiLink": "http://en.wikipedia.org/wiki/Silicone",
+        "matchedText": "silicone",
+        "freebaseId": "/m/0hfy0",
+        "relevanceScore": 0.0802419,
+        "entityEnglishId": "Silicone",
+        "startingPos": 111,
+        "endingPos": 119
+      },
+      {
+        "id": 10,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.55799,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.263042,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 127,
+        "endingPos": 135
+      },
+      {
+        "id": 11,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          32,
+          33
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.10802,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0.0888287,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 127,
+        "endingPos": 140
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          36,
+          37
+        ],
+        "entityId": "Risk factor",
+        "confidenceScore": 1.26975,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk_factor",
+        "matchedText": "risk factors",
+        "freebaseId": "/m/03nznf",
+        "relevanceScore": 0,
+        "entityEnglishId": "Risk factor",
+        "startingPos": 151,
+        "endingPos": 163
+      },
+      {
+        "id": 13,
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "Randomized controlled trial",
+        "freebaseTypes": [
+          "/law/invention"
+        ],
+        "confidenceScore": 1.14242,
+        "wikiLink": "http://en.wikipedia.org/wiki/Randomized_controlled_trial",
+        "matchedText": "randomized",
+        "freebaseId": "/m/015p9x",
+        "relevanceScore": 0.383379,
+        "entityEnglishId": "Randomized controlled trial",
+        "startingPos": 182,
+        "endingPos": 192
+      },
+      {
+        "id": 14,
+        "matchingTokens": [
+          43
+        ],
+        "entityId": "Blind experiment",
+        "freebaseTypes": [
+          "/medicine/medical_trial_design"
+        ],
+        "confidenceScore": 6.36415,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blind_experiment",
+        "matchedText": "double-blind",
+        "freebaseId": "/m/01ph3t",
+        "relevanceScore": 0.1929,
+        "entityEnglishId": "Blind experiment",
+        "startingPos": 193,
+        "endingPos": 205
+      },
+      {
+        "id": 15,
+        "matchingTokens": [
+          44
+        ],
+        "entityId": "Placebo-controlled study",
+        "confidenceScore": 3.43565,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo-controlled_study",
+        "matchedText": "placebo-controlled",
+        "freebaseId": "/m/05b5m22",
+        "relevanceScore": 0.558929,
+        "entityEnglishId": "Placebo-controlled study",
+        "startingPos": 206,
+        "endingPos": 224
+      },
+      {
+        "id": 16,
+        "matchingTokens": [
+          43,
+          44,
+          45
+        ],
+        "entityId": "Randomized controlled trial",
+        "freebaseTypes": [
+          "/law/invention"
+        ],
+        "confidenceScore": 2.4196,
+        "wikiLink": "http://en.wikipedia.org/wiki/Randomized_controlled_trial",
+        "matchedText": "double-blind placebo-controlled trial",
+        "freebaseId": "/m/015p9x",
+        "relevanceScore": 0.29493,
+        "entityEnglishId": "Randomized controlled trial",
+        "startingPos": 193,
+        "endingPos": 230
+      },
+      {
+        "id": 17,
+        "matchingTokens": [
+          44,
+          45
+        ],
+        "entityId": "Placebo-controlled study",
+        "confidenceScore": 2.88571,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo-controlled_study",
+        "matchedText": "placebo-controlled trial",
+        "freebaseId": "/m/05b5m22",
+        "relevanceScore": 0.450719,
+        "entityEnglishId": "Placebo-controlled study",
+        "startingPos": 206,
+        "endingPos": 230
+      },
+      {
+        "id": 18,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          47
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.35036,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.263042,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 232,
+        "endingPos": 240
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          41,
+          45
+        ],
+        "propertyPositions": [
+          42
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          41,
+          45
+        ],
+        "propertyPositions": [
+          43
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          41,
+          45
+        ],
+        "propertyPositions": [
+          44
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          12,
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          19,
+          20,
+          21
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          29
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          29
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          25,
+          26,
+          30,
+          34,
+          35,
+          38
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          31,
+          33
+        ],
+        "propertyPositions": [
+          32
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          25,
+          26,
+          30,
+          34,
+          35,
+          38
+        ],
+        "propertyPositions": [
+          31,
+          32,
+          33
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ]
+      }
+    ]
+  },
+  "time": 3.029,
+  "ok": true
+}

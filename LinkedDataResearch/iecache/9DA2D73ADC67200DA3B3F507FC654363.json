@@ -1,0 +1,276 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cell biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cell_biology",
+        "score": 0.0678736
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Albumin",
+        "confidenceScore": 3.00094,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albumin",
+        "matchedText": "albumin",
+        "freebaseId": "/m/0qy22r2",
+        "relevanceScore": 0.0926511,
+        "entityEnglishId": "Albumin",
+        "startingPos": 145,
+        "endingPos": 152
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Excretion",
+        "confidenceScore": 1.97735,
+        "wikiLink": "http://en.wikipedia.org/wiki/Excretion",
+        "matchedText": "excretion",
+        "freebaseId": "/m/01lvt1",
+        "relevanceScore": 0.0292734,
+        "entityEnglishId": "Excretion",
+        "startingPos": 153,
+        "endingPos": 162
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          2,
+          4,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          2,
+          4
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              11
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          13,
+          14,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          15,
+          16
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          20,
+          22,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          20,
+          22,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          20,
+          22,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          13,
+          14,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          26
+        ]
+      }
+    ]
+  },
+  "time": 3.011,
+  "ok": true
+}

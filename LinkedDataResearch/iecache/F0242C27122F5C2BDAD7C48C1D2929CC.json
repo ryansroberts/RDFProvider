@@ -1,0 +1,349 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.770254
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.591333
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.293456
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.285612
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.278076
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Evidence (law)",
+        "wikiLink": "http://en.wikipedia.org/Evidence_(law)",
+        "score": 0.148331
+      },
+      {
+        "id": 2,
+        "label": "Prediabetes",
+        "wikiLink": "http://en.wikipedia.org/Prediabetes",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.470606
+      },
+      {
+        "id": 4,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.456465
+      },
+      {
+        "id": 5,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.456465
+      },
+      {
+        "id": 6,
+        "label": "Metabolic disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Metabolic_disorders",
+        "score": 0.293546
+      },
+      {
+        "id": 7,
+        "label": "Obesity",
+        "wikiLink": "http://en.wikipedia.org/Category:Obesity",
+        "score": 0.256311
+      },
+      {
+        "id": 8,
+        "label": "Human weight",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_weight",
+        "score": 0.256311
+      },
+      {
+        "id": 9,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.243788
+      },
+      {
+        "id": 10,
+        "label": "Medical conditions related to obesity",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_conditions_related_to_obesity",
+        "score": 0.211906
+      },
+      {
+        "id": 11,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders",
+        "score": 0.0185078
+      },
+      {
+        "id": 12,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.0179769
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Evidence (law)",
+        "confidenceScore": 1.56221,
+        "wikiLink": "http://en.wikipedia.org/wiki/Evidence_(law)",
+        "matchedText": "evidence",
+        "freebaseId": "/m/06d34f",
+        "relevanceScore": 0.148331,
+        "entityEnglishId": "Evidence (law)",
+        "startingPos": 25,
+        "endingPos": 33
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Programme (booklet)",
+        "freebaseTypes": [
+          "/interests/collection_category",
+          "/business/product_category"
+        ],
+        "confidenceScore": 1.15031,
+        "wikiLink": "http://en.wikipedia.org/wiki/Programme_(booklet)",
+        "matchedText": "programme",
+        "freebaseId": "/m/07bb1y",
+        "relevanceScore": 0.0384309,
+        "entityEnglishId": "Programme (booklet)",
+        "startingPos": 106,
+        "endingPos": 115
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          30,
+          31
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.1343,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 1,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 195,
+        "endingPos": 201
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          30,
+          31,
+          32
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 5.83257,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2 diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.505963,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 195,
+        "endingPos": 210
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.17504,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.567239,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 202,
+        "endingPos": 210
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Prediabetes",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.85033,
+        "wikiLink": "http://en.wikipedia.org/wiki/Prediabetes",
+        "matchedText": "pre-diabetes",
+        "freebaseId": "/m/03bzg8_",
+        "relevanceScore": 1,
+        "entityEnglishId": "Prediabetes",
+        "startingPos": 226,
+        "endingPos": 238
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0
+        ],
+        "propertyPositions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          15
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          8,
+          15
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          8,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "time": 3.031,
+  "ok": true
+}

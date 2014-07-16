@@ -1,0 +1,543 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.914718
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.914718
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.855948
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.855948
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chronic kidney disease",
+        "wikiLink": "http://en.wikipedia.org/Chronic_kidney_disease",
+        "score": 0.38022
+      },
+      {
+        "id": 1,
+        "label": "Creatinine",
+        "wikiLink": "http://en.wikipedia.org/Creatinine",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Variance",
+        "wikiLink": "http://en.wikipedia.org/Variance",
+        "score": 0.154159
+      },
+      {
+        "id": 3,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.206242
+      },
+      {
+        "id": 4,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.140117
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Serum (blood)",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 1.50374,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_(blood)",
+        "matchedText": "serum",
+        "freebaseId": "/m/07s8fsr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Serum (blood)",
+        "startingPos": 11,
+        "endingPos": 16
+      },
+      {
+        "id": 1,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 1.88854,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "serum creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.288457,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 11,
+        "endingPos": 27
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 6.3546,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.515527,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 17,
+        "endingPos": 27
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.39603,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "CKD",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.38022,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 49,
+        "endingPos": 52
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Serum (blood)",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 1.50742,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_(blood)",
+        "matchedText": "serum",
+        "freebaseId": "/m/07s8fsr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Serum (blood)",
+        "startingPos": 118,
+        "endingPos": 123
+      },
+      {
+        "id": 5,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          22,
+          23
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 1.88854,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "serum creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.288457,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 118,
+        "endingPos": 134
+      },
+      {
+        "id": 6,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 6.3546,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.515527,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 124,
+        "endingPos": 134
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Variance",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.2068,
+        "wikiLink": "http://en.wikipedia.org/wiki/Variance",
+        "matchedText": "variance",
+        "freebaseId": "/m/07ycq",
+        "relevanceScore": 0.0770795,
+        "entityEnglishId": "Variance",
+        "startingPos": 157,
+        "endingPos": 165
+      },
+      {
+        "id": 8,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 6.3546,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.515527,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 221,
+        "endingPos": 231
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          39
+        ],
+        "entityId": "Measurement",
+        "confidenceScore": 1.4462,
+        "wikiLink": "http://en.wikipedia.org/wiki/Measurement",
+        "matchedText": "measurements",
+        "freebaseId": "/m/04t14",
+        "relevanceScore": 0.0417281,
+        "entityEnglishId": "Measurement",
+        "startingPos": 232,
+        "endingPos": 244
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          46
+        ],
+        "entityId": "Variance",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.53741,
+        "wikiLink": "http://en.wikipedia.org/wiki/Variance",
+        "matchedText": "variance",
+        "freebaseId": "/m/07ycq",
+        "relevanceScore": 0.0770795,
+        "entityEnglishId": "Variance",
+        "startingPos": 267,
+        "endingPos": 275
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          10
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          10
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          17,
+          20,
+          21
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          17,
+          20,
+          21
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          17,
+          20,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          23
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          17,
+          20,
+          21
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          28,
+          30
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          26,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          32,
+          36,
+          37
+        ],
+        "propertyPositions": [
+          33
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          32,
+          36,
+          37
+        ],
+        "propertyPositions": [
+          34
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          32,
+          36,
+          37
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          32,
+          36,
+          37
+        ],
+        "propertyPositions": [
+          38,
+          39
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          32,
+          36,
+          37
+        ],
+        "propertyPositions": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          50,
+          51
+        ]
+      },
+      {
+        "id": 16,
+        "wordPositions": [
+          42,
+          43
+        ],
+        "propertyPositions": [
+          50,
+          51
+        ]
+      },
+      {
+        "id": 17,
+        "wordPositions": [
+          44,
+          46
+        ],
+        "propertyPositions": [
+          45
+        ]
+      },
+      {
+        "id": 18,
+        "wordPositions": [
+          42,
+          43
+        ],
+        "propertyPositions": [
+          44,
+          45,
+          46,
+          47,
+          48
+        ]
+      }
+    ]
+  },
+  "time": 3.022,
+  "ok": true
+}

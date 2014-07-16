@@ -1,0 +1,244 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "Town"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Framingham, Massachusetts",
+        "freebaseTypes": [
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/location/citytown",
+          "/location/location"
+        ],
+        "confidenceScore": 2.11445,
+        "wikiLink": "http://en.wikipedia.org/wiki/Framingham,_Massachusetts",
+        "matchedText": "Framingham",
+        "freebaseId": "/m/01m2n1",
+        "relevanceScore": 0.00957461,
+        "entityEnglishId": "Framingham, Massachusetts",
+        "startingPos": 73,
+        "endingPos": 83
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "CHD",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "CHD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 126,
+        "endingPos": 129
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "CHD",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "CHD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 221,
+        "endingPos": 224
+      },
+      {
+        "id": 3,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          45
+        ],
+        "entityId": "UKPDS",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "UKPDS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 251,
+        "endingPos": 256
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          17,
+          24
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              25,
+              26,
+              27,
+              28,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          18,
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          41,
+          42,
+          43
+        ],
+        "propertyPositions": [
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          38,
+          39,
+          40
+        ],
+        "propertyPositions": [
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          4,
+          6
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6
+        ]
+      }
+    ]
+  },
+  "time": 3.025,
+  "ok": true
+}

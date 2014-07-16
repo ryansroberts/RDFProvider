@@ -1,0 +1,191 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.854316
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Bisphosphonate",
+        "wikiLink": "http://en.wikipedia.org/Bisphosphonate",
+        "score": 0.516142
+      },
+      {
+        "id": 1,
+        "label": "Osteoporosis",
+        "wikiLink": "http://en.wikipedia.org/Osteoporosis",
+        "score": 0.455742
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Bisphosphonate",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 5.59791,
+        "wikiLink": "http://en.wikipedia.org/wiki/Bisphosphonate",
+        "matchedText": "bisphosphonates",
+        "freebaseId": "/m/02xbz3",
+        "relevanceScore": 0.516142,
+        "entityEnglishId": "Bisphosphonate",
+        "startingPos": 35,
+        "endingPos": 50
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Osteoporosis",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 8.7661,
+        "wikiLink": "http://en.wikipedia.org/wiki/Osteoporosis",
+        "matchedText": "osteoporosis",
+        "freebaseId": "/m/05mdx",
+        "relevanceScore": 0.455742,
+        "entityEnglishId": "Osteoporosis",
+        "startingPos": 67,
+        "endingPos": 79
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Knock-down kit",
+        "confidenceScore": 2.08134,
+        "wikiLink": "http://en.wikipedia.org/wiki/Knock-down_kit",
+        "matchedText": "CKD",
+        "freebaseId": "/m/04p2lp",
+        "relevanceScore": 0,
+        "entityEnglishId": "Knock-down kit",
+        "startingPos": 95,
+        "endingPos": 98
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          6,
+          8,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              5,
+              7,
+              10,
+              11,
+              12,
+              13,
+              14
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0
+        ],
+        "propertyPositions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3,
+          6,
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "time": 3.011,
+  "ok": true
+}

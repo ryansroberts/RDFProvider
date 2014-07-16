@@ -1,0 +1,427 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.448356
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.377583
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.272747
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.256518
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.215304
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cardiovascular disease",
+        "wikiLink": "http://en.wikipedia.org/Cardiovascular_disease",
+        "score": 0.719725
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.327368
+      },
+      {
+        "id": 2,
+        "label": "Physical exercise",
+        "wikiLink": "http://en.wikipedia.org/Physical_exercise",
+        "score": 0.435915
+      },
+      {
+        "id": 3,
+        "label": "Risk",
+        "wikiLink": "http://en.wikipedia.org/Risk",
+        "score": 0.23285
+      },
+      {
+        "id": 4,
+        "label": "Prevention",
+        "wikiLink": "http://en.wikipedia.org/Category:Prevention",
+        "score": 0.171543
+      },
+      {
+        "id": 5,
+        "label": "Health fields",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_fields",
+        "score": 0.143005
+      },
+      {
+        "id": 6,
+        "label": "Security",
+        "wikiLink": "http://en.wikipedia.org/Category:Security",
+        "score": 0.104907
+      },
+      {
+        "id": 7,
+        "label": "Fields of application of statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_application_of_statistics",
+        "score": 0.104729
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Lehmann R",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lehmann R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Kaplan V",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kaplan V",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Bingisser R",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bingisser R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 32
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Physical exercise",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/organization/organization_sector",
+          "/medicine/condition_prevention_factors",
+          "/education/field_of_study",
+          "/interests/interest",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/interests/hobbyist",
+          "/interests/hobby",
+          "/book/periodical_subject",
+          "/people/person"
+        ],
+        "confidenceScore": 1.54705,
+        "wikiLink": "http://en.wikipedia.org/wiki/Physical_exercise",
+        "matchedText": "physical activity",
+        "freebaseId": "/m/019w6h",
+        "relevanceScore": 0.435915,
+        "entityEnglishId": "Physical exercise",
+        "startingPos": 51,
+        "endingPos": 68
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 0.906617,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "cardiovascular",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.451288,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 72,
+        "endingPos": 86
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.15034,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "cardiovascular risk",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.268438,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 72,
+        "endingPos": 91
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Risk",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 0.948667,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk",
+        "matchedText": "risk",
+        "freebaseId": "/m/06d5f",
+        "relevanceScore": 0.23285,
+        "entityEnglishId": "Risk",
+        "startingPos": 87,
+        "endingPos": 91
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Risk factor",
+        "confidenceScore": 2.19885,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk_factor",
+        "matchedText": "risk factors",
+        "freebaseId": "/m/03nznf",
+        "relevanceScore": 0,
+        "entityEnglishId": "Risk factor",
+        "startingPos": 87,
+        "endingPos": 99
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "IDDM",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "IDDM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 103,
+        "endingPos": 107
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 3.63964,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.327368,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 109,
+        "endingPos": 117
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          11,
+          12,
+          15,
+          19
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          11,
+          12,
+          15,
+          19
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          11,
+          12,
+          15,
+          19
+        ],
+        "propertyPositions": [
+          20
+        ]
+      }
+    ]
+  },
+  "time": 3.026,
+  "ok": true
+}

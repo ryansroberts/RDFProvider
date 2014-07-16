@@ -1,0 +1,342 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.928833
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.928833
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.928833
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.467784
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "MXR",
+        "wikiLink": "http://en.wikipedia.org/MXR",
+        "score": 0.112923
+      },
+      {
+        "id": 1,
+        "label": "Metformin",
+        "wikiLink": "http://en.wikipedia.org/Metformin",
+        "score": 0.331202
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Frequency",
+        "freebaseTypes": [
+          "/measurement_unit/dimension",
+          "/measurement_unit/common_dimension"
+        ],
+        "confidenceScore": 1.43219,
+        "wikiLink": "http://en.wikipedia.org/wiki/Frequency",
+        "matchedText": "frequency",
+        "freebaseId": "/m/02x93",
+        "relevanceScore": 0.0796882,
+        "entityEnglishId": "Frequency",
+        "startingPos": 61,
+        "endingPos": 70
+      },
+      {
+        "id": 1,
+        "type": [
+          "MeanOfTransportation",
+          "SpaceStation"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Mir",
+        "freebaseTypes": [
+          "/spaceflight/spacecraft",
+          "/spaceflight/satellite",
+          "/book/book_subject",
+          "/projects/project_focus"
+        ],
+        "confidenceScore": 1.23436,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mir",
+        "matchedText": "MIR",
+        "freebaseId": "/m/0kzv7",
+        "relevanceScore": 0.0810606,
+        "entityEnglishId": "Mir",
+        "startingPos": 133,
+        "endingPos": 136
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "MXR",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/business/business_operation",
+          "/business/employer"
+        ],
+        "confidenceScore": 1.92959,
+        "wikiLink": "http://en.wikipedia.org/wiki/MXR",
+        "matchedText": "MXR",
+        "freebaseId": "/m/0fb7tf",
+        "relevanceScore": 0.0564614,
+        "entityEnglishId": "MXR",
+        "startingPos": 140,
+        "endingPos": 143
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 6.1176,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.331202,
+        "entityEnglishId": "Metformin",
+        "startingPos": 173,
+        "endingPos": 182
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          48
+        ],
+        "entityId": "MXR",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/business/business_operation",
+          "/business/employer"
+        ],
+        "confidenceScore": 1.92959,
+        "wikiLink": "http://en.wikipedia.org/wiki/MXR",
+        "matchedText": "MXR",
+        "freebaseId": "/m/0fb7tf",
+        "relevanceScore": 0.0564614,
+        "entityEnglishId": "MXR",
+        "startingPos": 257,
+        "endingPos": 260
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              13,
+              14,
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              10,
+              11,
+              13,
+              14,
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          18,
+          20,
+          21,
+          22,
+          24
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              17,
+              19
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              23,
+              25
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          43,
+          45,
+          46,
+          47,
+          49
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              44
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              48,
+              50,
+              51
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          54
+        ],
+        "propertyPositions": [
+          53
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          27,
+          28,
+          29
+        ],
+        "propertyPositions": [
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          5,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          5,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          35,
+          37
+        ],
+        "propertyPositions": [
+          36
+        ]
+      }
+    ]
+  },
+  "time": 3.022,
+  "ok": true
+}

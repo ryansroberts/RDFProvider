@@ -1,0 +1,346 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.956607
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.517976
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.508156
+      },
+      {
+        "id": 4,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.474477
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.465862
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Exenatide",
+        "wikiLink": "http://en.wikipedia.org/Exenatide",
+        "score": 0.604804
+      },
+      {
+        "id": 1,
+        "label": "Glycated hemoglobin",
+        "wikiLink": "http://en.wikipedia.org/Glycated_hemoglobin",
+        "score": 0.303101
+      },
+      {
+        "id": 2,
+        "label": "Randomization",
+        "wikiLink": "http://en.wikipedia.org/Randomization",
+        "score": 0.175632
+      },
+      {
+        "id": 3,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.143457
+      },
+      {
+        "id": 4,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.124707
+      },
+      {
+        "id": 5,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.124707
+      },
+      {
+        "id": 6,
+        "label": "Tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Tests",
+        "score": 0.0677815
+      },
+      {
+        "id": 7,
+        "label": "Statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistics",
+        "score": 0.0677815
+      },
+      {
+        "id": 8,
+        "label": "Mathematical and quantitative methods (economics)",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_and_quantitative_methods_(economics)",
+        "score": 0.0677815
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Randomization",
+        "confidenceScore": 1.04219,
+        "wikiLink": "http://en.wikipedia.org/wiki/Randomization",
+        "matchedText": "randomised",
+        "freebaseId": "/m/0hcvk",
+        "relevanceScore": 0.175632,
+        "entityEnglishId": "Randomization",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Statistical significance",
+        "confidenceScore": 1.09603,
+        "wikiLink": "http://en.wikipedia.org/wiki/Statistical_significance",
+        "matchedText": "statistically significant",
+        "freebaseId": "/m/0159l8",
+        "relevanceScore": 0,
+        "entityEnglishId": "Statistical significance",
+        "startingPos": 44,
+        "endingPos": 69
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.27687,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "HbA1c",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.303101,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 107,
+        "endingPos": 112
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Exenatide",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 4.20476,
+        "wikiLink": "http://en.wikipedia.org/wiki/Exenatide",
+        "matchedText": "exenatide",
+        "freebaseId": "/m/093_zf",
+        "relevanceScore": 0.604804,
+        "entityEnglishId": "Exenatide",
+        "startingPos": 139,
+        "endingPos": 148
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.50256,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.143457,
+        "entityEnglishId": "Therapy",
+        "startingPos": 157,
+        "endingPos": 164
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          14
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          11,
+          12,
+          14
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              10,
+              13,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          5,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          15,
+          16,
+          17,
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          15,
+          16,
+          17,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 3.015,
+  "ok": true
+}

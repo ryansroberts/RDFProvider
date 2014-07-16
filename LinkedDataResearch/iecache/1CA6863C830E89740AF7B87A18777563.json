@@ -1,0 +1,198 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Exenatide",
+        "wikiLink": "http://en.wikipedia.org/Exenatide",
+        "score": 0.371469
+      },
+      {
+        "id": 1,
+        "label": "Glucagon-like peptide-1",
+        "wikiLink": "http://en.wikipedia.org/Glucagon-like_peptide-1",
+        "score": 0.114215
+      },
+      {
+        "id": 2,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.262117
+      },
+      {
+        "id": 3,
+        "label": "Sulfonylurea",
+        "wikiLink": "http://en.wikipedia.org/Sulfonylurea",
+        "score": 0.161021
+      },
+      {
+        "id": 4,
+        "label": "Thiazolidinedione",
+        "wikiLink": "http://en.wikipedia.org/Thiazolidinedione",
+        "score": 0.331243
+      },
+      {
+        "id": 5,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.611704
+      },
+      {
+        "id": 6,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.345037
+      },
+      {
+        "id": 7,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.345037
+      },
+      {
+        "id": 8,
+        "label": "Amides",
+        "wikiLink": "http://en.wikipedia.org/Category:Amides",
+        "score": 0.0573047
+      },
+      {
+        "id": 9,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.0543992
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Glucagon-like peptide-1",
+        "confidenceScore": 2.22994,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucagon-like_peptide-1",
+        "matchedText": "GLP-1",
+        "freebaseId": "/m/0dq3fd",
+        "relevanceScore": 0.114215,
+        "entityEnglishId": "Glucagon-like peptide-1",
+        "startingPos": 42,
+        "endingPos": 47
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Exenatide",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.95754,
+        "wikiLink": "http://en.wikipedia.org/wiki/Exenatide",
+        "matchedText": "exenatide",
+        "freebaseId": "/m/093_zf",
+        "relevanceScore": 0.371469,
+        "entityEnglishId": "Exenatide",
+        "startingPos": 57,
+        "endingPos": 66
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Thiazolidinedione",
+        "freebaseTypes": [
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.66775,
+        "wikiLink": "http://en.wikipedia.org/wiki/Thiazolidinedione",
+        "matchedText": "thiazolidinedione",
+        "freebaseId": "/m/02rnrl",
+        "relevanceScore": 0.331243,
+        "entityEnglishId": "Thiazolidinedione",
+        "startingPos": 73,
+        "endingPos": 90
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Sulfonylurea",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 5.82945,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sulfonylurea",
+        "matchedText": "sulfonylurea",
+        "freebaseId": "/m/036kty",
+        "relevanceScore": 0.161021,
+        "entityEnglishId": "Sulfonylurea",
+        "startingPos": 97,
+        "endingPos": 109
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 3.00268,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.262117,
+        "entityEnglishId": "Placebo",
+        "startingPos": 124,
+        "endingPos": 131
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21
+        ]
+      }
+    ]
+  },
+  "time": 3.018,
+  "ok": true
+}

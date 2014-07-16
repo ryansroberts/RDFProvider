@@ -1,0 +1,249 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.916075
+      },
+      {
+        "id": 2,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.913314
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.474511
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.437273
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Legal burden of proof",
+        "wikiLink": "http://en.wikipedia.org/Legal_burden_of_proof",
+        "score": 0.10413
+      },
+      {
+        "id": 1,
+        "label": "Sources of knowledge",
+        "wikiLink": "http://en.wikipedia.org/Category:Sources_of_knowledge",
+        "score": 0.0569758
+      },
+      {
+        "id": 2,
+        "label": "Epistemology of science",
+        "wikiLink": "http://en.wikipedia.org/Category:Epistemology_of_science",
+        "score": 0.0569758
+      },
+      {
+        "id": 3,
+        "label": "Empiricism",
+        "wikiLink": "http://en.wikipedia.org/Category:Empiricism",
+        "score": 0.0569758
+      },
+      {
+        "id": 4,
+        "label": "Evidence",
+        "wikiLink": "http://en.wikipedia.org/Category:Evidence",
+        "score": 0.0569758
+      },
+      {
+        "id": 5,
+        "label": "Justification",
+        "wikiLink": "http://en.wikipedia.org/Category:Justification",
+        "score": 0.0569758
+      },
+      {
+        "id": 6,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law_by_issue",
+        "score": 0.0569758
+      },
+      {
+        "id": 7,
+        "label": "Evidence law",
+        "wikiLink": "http://en.wikipedia.org/Category:Evidence_law",
+        "score": 0.0569758
+      },
+      {
+        "id": 8,
+        "label": "Critical thinking",
+        "wikiLink": "http://en.wikipedia.org/Category:Critical_thinking",
+        "score": 0.0569758
+      },
+      {
+        "id": 9,
+        "label": "Common law",
+        "wikiLink": "http://en.wikipedia.org/Category:Common_law",
+        "score": 0.0569758
+      },
+      {
+        "id": 10,
+        "label": "Legal procedure",
+        "wikiLink": "http://en.wikipedia.org/Category:Legal_procedure",
+        "score": 0.0569758
+      },
+      {
+        "id": 11,
+        "label": "Government",
+        "wikiLink": "http://en.wikipedia.org/Category:Government_by_country",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          2,
+          3
+        ],
+        "entityId": "Legal burden of proof",
+        "confidenceScore": 1.04775,
+        "wikiLink": "http://en.wikipedia.org/wiki/Legal_burden_of_proof",
+        "matchedText": "insufficient evidence",
+        "freebaseId": "/m/0gpcy",
+        "relevanceScore": 0.10413,
+        "entityEnglishId": "Legal burden of proof",
+        "startingPos": 9,
+        "endingPos": 30
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Evidence (law)",
+        "confidenceScore": 0.971649,
+        "wikiLink": "http://en.wikipedia.org/wiki/Evidence_(law)",
+        "matchedText": "evidence",
+        "freebaseId": "/m/06d34f",
+        "relevanceScore": 0.0871201,
+        "entityEnglishId": "Evidence (law)",
+        "startingPos": 22,
+        "endingPos": 30
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Nice",
+        "freebaseTypes": [
+          "/periodicals/newspaper_circulation_area",
+          "/location/capital_of_administrative_division",
+          "/location/citytown",
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/travel/travel_destination",
+          "/location/location",
+          "/location/administrative_division"
+        ],
+        "confidenceScore": 0.94219,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nice",
+        "matchedText": "NICE",
+        "freebaseId": "/m/0cp6w",
+        "relevanceScore": 0.0574316,
+        "entityEnglishId": "Nice",
+        "startingPos": 162,
+        "endingPos": 166
+      },
+      {
+        "id": 3,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          31,
+          32
+        ],
+        "entityId": "Technology Appraisal",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Technology Appraisal",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 168,
+        "endingPos": 188
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "time": 3.019,
+  "ok": true
+}

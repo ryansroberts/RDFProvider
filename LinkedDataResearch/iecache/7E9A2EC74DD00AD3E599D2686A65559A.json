@@ -1,0 +1,955 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.628937
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.408201
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.311291
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.288482
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.274733
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Neuralgia",
+        "wikiLink": "http://en.wikipedia.org/Neuralgia",
+        "score": 0.288531
+      },
+      {
+        "id": 1,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Pain",
+        "score": 0.260481
+      },
+      {
+        "id": 2,
+        "label": "Peripheral neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Peripheral_neuropathy",
+        "score": 0.107789
+      },
+      {
+        "id": 3,
+        "label": "Placebo-controlled study",
+        "wikiLink": "http://en.wikipedia.org/Placebo-controlled_study",
+        "score": 0.486576
+      },
+      {
+        "id": 4,
+        "label": "Postherpetic neuralgia",
+        "wikiLink": "http://en.wikipedia.org/Postherpetic_neuralgia",
+        "score": 0.254796
+      },
+      {
+        "id": 5,
+        "label": "Medicinal chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicinal_chemistry",
+        "score": 0.692395
+      },
+      {
+        "id": 6,
+        "label": "Pharmaceutical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_sciences",
+        "score": 0.692395
+      },
+      {
+        "id": 7,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Category:Therapy",
+        "score": 0.692395
+      },
+      {
+        "id": 8,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.692395
+      },
+      {
+        "id": 9,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.690893
+      },
+      {
+        "id": 10,
+        "label": "Medical treatments",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_treatments",
+        "score": 0.690893
+      },
+      {
+        "id": 11,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.690893
+      },
+      {
+        "id": 12,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.690893
+      },
+      {
+        "id": 13,
+        "label": "Symptoms and signs",
+        "wikiLink": "http://en.wikipedia.org/Category:Symptoms_and_signs",
+        "score": 0.435405
+      },
+      {
+        "id": 14,
+        "label": "Feeling",
+        "wikiLink": "http://en.wikipedia.org/Category:Feeling",
+        "score": 0.435405
+      },
+      {
+        "id": 15,
+        "label": "Psychological concepts",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychological_concepts",
+        "score": 0.435405
+      },
+      {
+        "id": 16,
+        "label": "Symptoms and signs: General",
+        "wikiLink": "http://en.wikipedia.org/Category:Symptoms_and_signs:_General",
+        "score": 0.435405
+      },
+      {
+        "id": 17,
+        "label": "Experimental psychology",
+        "wikiLink": "http://en.wikipedia.org/Category:Experimental_psychology",
+        "score": 0.435405
+      },
+      {
+        "id": 18,
+        "label": "Sources of knowledge",
+        "wikiLink": "http://en.wikipedia.org/Category:Sources_of_knowledge",
+        "score": 0.435405
+      },
+      {
+        "id": 19,
+        "label": "Subjective experience",
+        "wikiLink": "http://en.wikipedia.org/Category:Subjective_experience",
+        "score": 0.435405
+      },
+      {
+        "id": 20,
+        "label": "Emotion",
+        "wikiLink": "http://en.wikipedia.org/Category:Emotion",
+        "score": 0.435405
+      },
+      {
+        "id": 21,
+        "label": "Perception",
+        "wikiLink": "http://en.wikipedia.org/Category:Perception",
+        "score": 0.435405
+      },
+      {
+        "id": 22,
+        "label": "Qualia",
+        "wikiLink": "http://en.wikipedia.org/Category:Qualia",
+        "score": 0.435405
+      },
+      {
+        "id": 23,
+        "label": "Neuropsychological assessment",
+        "wikiLink": "http://en.wikipedia.org/Category:Neuropsychological_assessment",
+        "score": 0.435405
+      },
+      {
+        "id": 24,
+        "label": "Cognitive science",
+        "wikiLink": "http://en.wikipedia.org/Category:Cognitive_science",
+        "score": 0.435405
+      },
+      {
+        "id": 25,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.424227
+      },
+      {
+        "id": 26,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders_by_system",
+        "score": 0.387553
+      },
+      {
+        "id": 27,
+        "label": "Neurology",
+        "wikiLink": "http://en.wikipedia.org/Category:Neurology",
+        "score": 0.387553
+      },
+      {
+        "id": 28,
+        "label": "Neurological disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Neurological_disorders",
+        "score": 0.387553
+      },
+      {
+        "id": 29,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.309036
+      },
+      {
+        "id": 30,
+        "label": "Philosophy",
+        "wikiLink": "http://en.wikipedia.org/Category:Philosophy_by_field",
+        "score": 0.150026
+      },
+      {
+        "id": 31,
+        "label": "Methodology",
+        "wikiLink": "http://en.wikipedia.org/Category:Methodology",
+        "score": 0.150026
+      },
+      {
+        "id": 32,
+        "label": "Data collection",
+        "wikiLink": "http://en.wikipedia.org/Category:Data_collection",
+        "score": 0.150026
+      },
+      {
+        "id": 33,
+        "label": "Science experiments",
+        "wikiLink": "http://en.wikipedia.org/Category:Science_experiments",
+        "score": 0.150026
+      },
+      {
+        "id": 34,
+        "label": "Procurement",
+        "wikiLink": "http://en.wikipedia.org/Category:Procurement",
+        "score": 0.150026
+      },
+      {
+        "id": 35,
+        "label": "Tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Tests",
+        "score": 0.150026
+      },
+      {
+        "id": 36,
+        "label": "Statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistics",
+        "score": 0.150026
+      },
+      {
+        "id": 37,
+        "label": "Mathematical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_sciences",
+        "score": 0.150026
+      },
+      {
+        "id": 38,
+        "label": "Probability and statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Probability_and_statistics",
+        "score": 0.150026
+      },
+      {
+        "id": 39,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.150026
+      },
+      {
+        "id": 40,
+        "label": "Experiments",
+        "wikiLink": "http://en.wikipedia.org/Category:Experiments",
+        "score": 0.150026
+      },
+      {
+        "id": 41,
+        "label": "Data management",
+        "wikiLink": "http://en.wikipedia.org/Category:Data_management",
+        "score": 0.150026
+      },
+      {
+        "id": 42,
+        "label": "Mathematical and quantitative methods (economics)",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_and_quantitative_methods_(economics)",
+        "score": 0.150026
+      },
+      {
+        "id": 43,
+        "label": "Problem solving",
+        "wikiLink": "http://en.wikipedia.org/Category:Problem_solving",
+        "score": 0.150026
+      },
+      {
+        "id": 44,
+        "label": "Scientific method",
+        "wikiLink": "http://en.wikipedia.org/Category:Scientific_method",
+        "score": 0.150026
+      },
+      {
+        "id": 45,
+        "label": "Design of experiments",
+        "wikiLink": "http://en.wikipedia.org/Category:Design_of_experiments",
+        "score": 0.150026
+      },
+      {
+        "id": 46,
+        "label": "Medical ethics",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_ethics",
+        "score": 0.104837
+      },
+      {
+        "id": 47,
+        "label": "Neuroscience",
+        "wikiLink": "http://en.wikipedia.org/Category:Neuroscience",
+        "score": 0.103881
+      },
+      {
+        "id": 48,
+        "label": "Nervous system",
+        "wikiLink": "http://en.wikipedia.org/Category:Nervous_system",
+        "score": 0.103881
+      },
+      {
+        "id": 49,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.103881
+      },
+      {
+        "id": 50,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.0423696
+      },
+      {
+        "id": 51,
+        "label": "Chemical compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_compounds_by_element",
+        "score": 0.0348349
+      },
+      {
+        "id": 52,
+        "label": "Sodium compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Sodium_compounds",
+        "score": 0.0348349
+      },
+      {
+        "id": 53,
+        "label": "Sodium",
+        "wikiLink": "http://en.wikipedia.org/Category:Sodium",
+        "score": 0.0348349
+      },
+      {
+        "id": 54,
+        "label": "Alkali metals",
+        "wikiLink": "http://en.wikipedia.org/Category:Alkali_metals",
+        "score": 0.0348349
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Kochar DK",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kochar DK",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Garg P",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Garg P",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 17
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Bumb RA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bumb RA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 19,
+        "endingPos": 26
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Valproate semisodium",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/drug",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.73513,
+        "wikiLink": "http://en.wikipedia.org/wiki/Valproate_semisodium",
+        "matchedText": "Divalproex",
+        "freebaseId": "/m/0hqy6zn",
+        "relevanceScore": 0.0812777,
+        "entityEnglishId": "Valproate semisodium",
+        "startingPos": 41,
+        "endingPos": 51
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Valproate semisodium",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/drug",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.88455,
+        "wikiLink": "http://en.wikipedia.org/wiki/Valproate_semisodium",
+        "matchedText": "Divalproex sodium",
+        "freebaseId": "/m/0hqy6zn",
+        "relevanceScore": 0,
+        "entityEnglishId": "Valproate semisodium",
+        "startingPos": 41,
+        "endingPos": 58
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Sodium",
+        "freebaseTypes": [
+          "/food/nutrient",
+          "/book/book_subject",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound",
+          "/medicine/drug",
+          "/chemistry/chemical_element"
+        ],
+        "confidenceScore": 1.21132,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sodium",
+        "matchedText": "sodium",
+        "freebaseId": "/m/025sf0_",
+        "relevanceScore": 0.0295693,
+        "entityEnglishId": "Sodium",
+        "startingPos": 52,
+        "endingPos": 58
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Postherpetic neuralgia",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.4423,
+        "wikiLink": "http://en.wikipedia.org/wiki/Postherpetic_neuralgia",
+        "matchedText": "post-herpetic neuralgia",
+        "freebaseId": "/m/0401ll",
+        "relevanceScore": 0.254796,
+        "entityEnglishId": "Postherpetic neuralgia",
+        "startingPos": 80,
+        "endingPos": 103
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Neuralgia",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 4.5597,
+        "wikiLink": "http://en.wikipedia.org/wiki/Neuralgia",
+        "matchedText": "neuralgia",
+        "freebaseId": "/m/05kzxm",
+        "relevanceScore": 0.288531,
+        "entityEnglishId": "Neuralgia",
+        "startingPos": 94,
+        "endingPos": 103
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Blind experiment",
+        "freebaseTypes": [
+          "/medicine/medical_trial_design"
+        ],
+        "confidenceScore": 4.99461,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blind_experiment",
+        "matchedText": "double-blind",
+        "freebaseId": "/m/01ph3t",
+        "relevanceScore": 0.0745975,
+        "entityEnglishId": "Blind experiment",
+        "startingPos": 118,
+        "endingPos": 130
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Placebo-controlled study",
+        "confidenceScore": 2.48118,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo-controlled_study",
+        "matchedText": "placebo-controlled",
+        "freebaseId": "/m/05b5m22",
+        "relevanceScore": 0.243288,
+        "entityEnglishId": "Placebo-controlled study",
+        "startingPos": 131,
+        "endingPos": 149
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Placebo-controlled study",
+        "confidenceScore": 2.67874,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo-controlled_study",
+        "matchedText": "placebo-controlled study",
+        "freebaseId": "/m/05b5m22",
+        "relevanceScore": 0.243288,
+        "entityEnglishId": "Placebo-controlled study",
+        "startingPos": 131,
+        "endingPos": 155
+      },
+      {
+        "id": 11,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          34,
+          35,
+          36
+        ],
+        "entityId": "Association of Physicians",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Association of Physicians",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 186,
+        "endingPos": 211
+      },
+      {
+        "id": 12,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          41
+        ],
+        "entityId": "Peripheral neuropathy",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.29606,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peripheral_neuropathy",
+        "matchedText": "Neuropathic",
+        "freebaseId": "/m/02w1fx",
+        "relevanceScore": 0.107789,
+        "entityEnglishId": "Peripheral neuropathy",
+        "startingPos": 223,
+        "endingPos": 234
+      },
+      {
+        "id": 13,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          41,
+          42
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.54562,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "Neuropathic pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.0906834,
+        "entityEnglishId": "Pain",
+        "startingPos": 223,
+        "endingPos": 239
+      },
+      {
+        "id": 14,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.52457,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.169798,
+        "entityEnglishId": "Pain",
+        "startingPos": 235,
+        "endingPos": 239
+      },
+      {
+        "id": 15,
+        "matchingTokens": [
+          44
+        ],
+        "entityId": "Pharmacology",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/book/periodical_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 0.956107,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmacology",
+        "matchedText": "pharmacological",
+        "freebaseId": "/m/062p_",
+        "relevanceScore": 0.0586087,
+        "entityEnglishId": "Pharmacology",
+        "startingPos": 242,
+        "endingPos": 257
+      },
+      {
+        "id": 16,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          47
+        ],
+        "entityId": "Nice",
+        "freebaseTypes": [
+          "/periodicals/newspaper_circulation_area",
+          "/location/capital_of_administrative_division",
+          "/location/citytown",
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/travel/travel_destination",
+          "/location/location",
+          "/location/administrative_division"
+        ],
+        "confidenceScore": 0.941328,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nice",
+        "matchedText": "NICE",
+        "freebaseId": "/m/0cp6w",
+        "relevanceScore": 0.0375454,
+        "entityEnglishId": "Nice",
+        "startingPos": 270,
+        "endingPos": 274
+      },
+      {
+        "id": 17,
+        "matchingTokens": [
+          48,
+          49
+        ],
+        "entityId": "Medical guideline",
+        "confidenceScore": 2.14436,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medical_guideline",
+        "matchedText": "clinical guideline",
+        "freebaseId": "/m/04qpqc",
+        "relevanceScore": 0.095003,
+        "entityEnglishId": "Medical guideline",
+        "startingPos": 275,
+        "endingPos": 293
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          42
+        ],
+        "propertyPositions": [
+          41
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          45
+        ],
+        "propertyPositions": [
+          44
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          49
+        ],
+        "propertyPositions": [
+          47
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          49
+        ],
+        "propertyPositions": [
+          48
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          49,
+          55,
+          57
+        ],
+        "propertyPositions": [
+          58
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          31,
+          32
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          33,
+          34,
+          35
+        ],
+        "propertyPositions": [
+          36,
+          37
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          31,
+          32
+        ],
+        "propertyPositions": [
+          33,
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          16,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          22,
+          26
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          22,
+          26
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          22,
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 16,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24,
+          25,
+          26
+        ]
+      }
+    ]
+  },
+  "time": 3.034,
+  "ok": true
+}

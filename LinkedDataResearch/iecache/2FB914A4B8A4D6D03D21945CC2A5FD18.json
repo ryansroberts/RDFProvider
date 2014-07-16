@@ -1,0 +1,335 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.470266
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.470266
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.470266
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Albuminuria",
+        "wikiLink": "http://en.wikipedia.org/Albuminuria",
+        "score": 0.178439
+      },
+      {
+        "id": 1,
+        "label": "Antihypertensive drug",
+        "wikiLink": "http://en.wikipedia.org/Antihypertensive_drug",
+        "score": 0.859926
+      },
+      {
+        "id": 2,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.417467
+      },
+      {
+        "id": 3,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0849852
+      },
+      {
+        "id": 4,
+        "label": "Physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Physiology",
+        "score": 0.0778225
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Antihypertensive drug",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 5.69547,
+        "wikiLink": "http://en.wikipedia.org/wiki/Antihypertensive_drug",
+        "matchedText": "antihypertensive",
+        "freebaseId": "/m/02yx18",
+        "relevanceScore": 0.461817,
+        "entityEnglishId": "Antihypertensive drug",
+        "startingPos": 74,
+        "endingPos": 90
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Antihypertensive drug",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 3.00358,
+        "wikiLink": "http://en.wikipedia.org/wiki/Antihypertensive_drug",
+        "matchedText": "antihypertensive agent",
+        "freebaseId": "/m/02yx18",
+        "relevanceScore": 0.398109,
+        "entityEnglishId": "Antihypertensive drug",
+        "startingPos": 74,
+        "endingPos": 96
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Renin–angiotensin system",
+        "confidenceScore": 4.38806,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renin–angiotensin_system",
+        "matchedText": "renin-angiotensin system",
+        "freebaseId": "/m/01nsf9",
+        "relevanceScore": 0.0699607,
+        "entityEnglishId": "Renin–angiotensin system",
+        "startingPos": 111,
+        "endingPos": 135
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.87214,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.417467,
+        "entityEnglishId": "Renal function",
+        "startingPos": 185,
+        "endingPos": 188
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "normo",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "normo",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 212,
+        "endingPos": 217
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          43
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.86864,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "macroalbuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.178439,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 230,
+        "endingPos": 246
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          4,
+          5,
+          6
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          20,
+          21,
+          26
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          29,
+          30
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          20,
+          21,
+          26
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          13,
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

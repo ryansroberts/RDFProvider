@@ -1,0 +1,465 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.342649
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.342649
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.315602
+      },
+      {
+        "id": 4,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.315602
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.315602
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Breast cancer",
+        "wikiLink": "http://en.wikipedia.org/Breast_cancer",
+        "score": 0.135896
+      },
+      {
+        "id": 1,
+        "label": "Cancer",
+        "wikiLink": "http://en.wikipedia.org/Cancer",
+        "score": 0.226786
+      },
+      {
+        "id": 2,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Pain",
+        "score": 0.422457
+      },
+      {
+        "id": 3,
+        "label": "Peripheral neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Peripheral_neuropathy",
+        "score": 0.190465
+      },
+      {
+        "id": 4,
+        "label": "Venlafaxine",
+        "wikiLink": "http://en.wikipedia.org/Venlafaxine",
+        "score": 0.145013
+      },
+      {
+        "id": 5,
+        "label": "Oncology",
+        "wikiLink": "http://en.wikipedia.org/Category:Oncology",
+        "score": 0.0771463
+      },
+      {
+        "id": 6,
+        "label": "Types of neoplasia",
+        "wikiLink": "http://en.wikipedia.org/Category:Types_of_neoplasia",
+        "score": 0.0706882
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Tasmuth T",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Tasmuth T",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Hartel B",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hartel B",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Kaslo",
+        "freebaseTypes": [
+          "/location/location",
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/location/citytown"
+        ],
+        "confidenceScore": 1.10037,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kaslo",
+        "matchedText": "Kalso",
+        "freebaseId": "/m/09mrrh",
+        "relevanceScore": 0,
+        "entityEnglishId": "Kaslo",
+        "startingPos": 21,
+        "endingPos": 26
+      },
+      {
+        "id": 3,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Kalso E",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kalso E",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 28
+      },
+      {
+        "id": 4,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Venlafaxine",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 4.97219,
+        "wikiLink": "http://en.wikipedia.org/wiki/Venlafaxine",
+        "matchedText": "Venlafaxine",
+        "freebaseId": "/m/02k_rw",
+        "relevanceScore": 0.145013,
+        "entityEnglishId": "Venlafaxine",
+        "startingPos": 36,
+        "endingPos": 47
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Peripheral neuropathy",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.79046,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peripheral_neuropathy",
+        "matchedText": "neuropathic",
+        "freebaseId": "/m/02w1fx",
+        "relevanceScore": 0.190465,
+        "entityEnglishId": "Peripheral neuropathy",
+        "startingPos": 51,
+        "endingPos": 62
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.31342,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "neuropathic pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.0618479,
+        "entityEnglishId": "Pain",
+        "startingPos": 51,
+        "endingPos": 67
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.4028,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.180305,
+        "entityEnglishId": "Pain",
+        "startingPos": 63,
+        "endingPos": 67
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Breast cancer",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/risk_factor",
+          "/people/cause_of_death",
+          "/film/film_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.06754,
+        "wikiLink": "http://en.wikipedia.org/wiki/Breast_cancer",
+        "matchedText": "breast cancer",
+        "freebaseId": "/m/0j8hd",
+        "relevanceScore": 0.135896,
+        "entityEnglishId": "Breast cancer",
+        "startingPos": 91,
+        "endingPos": 104
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Cancer",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/people/cause_of_death",
+          "/education/field_of_study",
+          "/medicine/disease_cause",
+          "/book/book_subject",
+          "/book/periodical_subject",
+          "/tv/tv_subject",
+          "/organization/organization_sector",
+          "/medicine/icd_9_cm_classification",
+          "/media_common/quotation_subject",
+          "/film/film_subject",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.31828,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cancer",
+        "matchedText": "cancer",
+        "freebaseId": "/m/0qcr0",
+        "relevanceScore": 0.226786,
+        "entityEnglishId": "Cancer",
+        "startingPos": 98,
+        "endingPos": 104
+      },
+      {
+        "id": 10,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          21,
+          22
+        ],
+        "entityId": "European Journal",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "European Journal",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 106,
+        "endingPos": 122
+      },
+      {
+        "id": 11,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 0.989361,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "Pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.180305,
+        "entityEnglishId": "Pain",
+        "startingPos": 126,
+        "endingPos": 130
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6,
+          7,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          15
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7,
+          9,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          0,
+          1,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

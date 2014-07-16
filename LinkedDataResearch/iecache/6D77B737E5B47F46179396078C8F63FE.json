@@ -1,0 +1,261 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.987562
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.526605
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.460937
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.446309
+      },
+      {
+        "id": 5,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.436968
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Blood",
+        "wikiLink": "http://en.wikipedia.org/Blood",
+        "score": 0.10181
+      },
+      {
+        "id": 1,
+        "label": "Blood sugar",
+        "wikiLink": "http://en.wikipedia.org/Blood_sugar",
+        "score": 0.198258
+      },
+      {
+        "id": 2,
+        "label": "Glucose",
+        "wikiLink": "http://en.wikipedia.org/Glucose",
+        "score": 0.101586
+      },
+      {
+        "id": 3,
+        "label": "Monitoring (medicine)",
+        "wikiLink": "http://en.wikipedia.org/Monitoring_(medicine)",
+        "score": 0.539419
+      },
+      {
+        "id": 4,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.667715
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.511774
+      },
+      {
+        "id": 6,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.427256
+      },
+      {
+        "id": 7,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.343721
+      },
+      {
+        "id": 8,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.272869
+      },
+      {
+        "id": 9,
+        "label": "Human metabolites",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_metabolites",
+        "score": 0.260947
+      },
+      {
+        "id": 10,
+        "label": "Clinical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_pathology",
+        "score": 0.260947
+      },
+      {
+        "id": 11,
+        "label": "Chemical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_pathology",
+        "score": 0.260947
+      },
+      {
+        "id": 12,
+        "label": "Hematology",
+        "wikiLink": "http://en.wikipedia.org/Category:Hematology",
+        "score": 0.25396
+      },
+      {
+        "id": 13,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.245601
+      },
+      {
+        "id": 14,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.220487
+      },
+      {
+        "id": 15,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.14853
+      },
+      {
+        "id": 16,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0890454
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Frequency",
+        "freebaseTypes": [
+          "/measurement_unit/dimension",
+          "/measurement_unit/common_dimension"
+        ],
+        "confidenceScore": 1.57412,
+        "wikiLink": "http://en.wikipedia.org/wiki/Frequency",
+        "matchedText": "frequency",
+        "freebaseId": "/m/02x93",
+        "relevanceScore": 0,
+        "entityEnglishId": "Frequency",
+        "startingPos": 20,
+        "endingPos": 29
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Monitoring (medicine)",
+        "confidenceScore": 0.967192,
+        "wikiLink": "http://en.wikipedia.org/wiki/Monitoring_(medicine)",
+        "matchedText": "monitoring",
+        "freebaseId": "/m/0h3wlpw",
+        "relevanceScore": 0.539419,
+        "entityEnglishId": "Monitoring (medicine)",
+        "startingPos": 44,
+        "endingPos": 54
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Blood",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/food/ingredient",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.04016,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood",
+        "matchedText": "blood",
+        "freebaseId": "/m/019jw",
+        "relevanceScore": 0.10181,
+        "entityEnglishId": "Blood",
+        "startingPos": 55,
+        "endingPos": 60
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Blood sugar",
+        "confidenceScore": 2.40955,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_sugar",
+        "matchedText": "blood glucose",
+        "freebaseId": "/m/01qd35",
+        "relevanceScore": 0.198258,
+        "entityEnglishId": "Blood sugar",
+        "startingPos": 55,
+        "endingPos": 68
+      },
+      {
+        "id": 4,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Glucose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 2.95371,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucose",
+        "matchedText": "glucose",
+        "freebaseId": "/m/02kb_m_",
+        "relevanceScore": 0.101586,
+        "entityEnglishId": "Glucose",
+        "startingPos": 61,
+        "endingPos": 68
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          3
+        ]
+      }
+    ]
+  },
+  "time": 3.018,
+  "ok": true
+}

@@ -1,0 +1,768 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.871591
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.864428
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.443776
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.443776
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "British African-Caribbean people",
+        "wikiLink": "http://en.wikipedia.org/British_African-Caribbean_people",
+        "score": 0.128446
+      },
+      {
+        "id": 1,
+        "label": "Creatinine",
+        "wikiLink": "http://en.wikipedia.org/Creatinine",
+        "score": 0.985176
+      },
+      {
+        "id": 2,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.201308
+      },
+      {
+        "id": 3,
+        "label": "Prevalence",
+        "wikiLink": "http://en.wikipedia.org/Prevalence",
+        "score": 0.105968
+      },
+      {
+        "id": 4,
+        "label": "Renal failure",
+        "wikiLink": "http://en.wikipedia.org/Renal_failure",
+        "score": 0.3323
+      },
+      {
+        "id": 5,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 1
+      },
+      {
+        "id": 6,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.879551
+      },
+      {
+        "id": 7,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.874837
+      },
+      {
+        "id": 8,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.874837
+      },
+      {
+        "id": 9,
+        "label": "Renal physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Renal_physiology",
+        "score": 0.25053
+      },
+      {
+        "id": 10,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.25053
+      },
+      {
+        "id": 11,
+        "label": "Physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Physiology",
+        "score": 0.25053
+      },
+      {
+        "id": 12,
+        "label": "Information science",
+        "wikiLink": "http://en.wikipedia.org/Category:Information_science",
+        "score": 0.0689032
+      },
+      {
+        "id": 13,
+        "label": "Statistical data sets",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistical_data_sets",
+        "score": 0.0667483
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Data",
+        "freebaseTypes": [
+          "/internet/website_category"
+        ],
+        "confidenceScore": 1.46128,
+        "wikiLink": "http://en.wikipedia.org/wiki/Data",
+        "matchedText": "data",
+        "freebaseId": "/m/026sq",
+        "relevanceScore": 0.0344507,
+        "entityEnglishId": "Data",
+        "startingPos": 28,
+        "endingPos": 32
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Ethnic origin",
+        "confidenceScore": 1.12927,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ethnic_origin",
+        "matchedText": "ethnic origin",
+        "freebaseId": "/m/0b6lscm",
+        "relevanceScore": 0.0406408,
+        "entityEnglishId": "Ethnic origin",
+        "startingPos": 36,
+        "endingPos": 49
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.2275,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "eGFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 1,
+        "entityEnglishId": "Renal function",
+        "startingPos": 116,
+        "endingPos": 120
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Prevalence",
+        "confidenceScore": 1.14298,
+        "wikiLink": "http://en.wikipedia.org/wiki/Prevalence",
+        "matchedText": "prevalence",
+        "freebaseId": "/m/0y25r",
+        "relevanceScore": 0.105968,
+        "entityEnglishId": "Prevalence",
+        "startingPos": 137,
+        "endingPos": 147
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "normocreatinaemic",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "normocreatinaemic",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 151,
+        "endingPos": 168
+      },
+      {
+        "id": 5,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.83408,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.201308,
+        "entityEnglishId": "Kidney",
+        "startingPos": 190,
+        "endingPos": 195
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          34,
+          35
+        ],
+        "entityId": "Renal failure",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 4.54869,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_failure",
+        "matchedText": "renal insufficiency",
+        "freebaseId": "/m/01psyx",
+        "relevanceScore": 0.3323,
+        "entityEnglishId": "Renal failure",
+        "startingPos": 190,
+        "endingPos": 209
+      },
+      {
+        "id": 7,
+        "type": [
+          "EthnicGroup"
+        ],
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "British African-Caribbean people",
+        "freebaseTypes": [
+          "/people/ethnicity"
+        ],
+        "confidenceScore": 1.54462,
+        "wikiLink": "http://en.wikipedia.org/wiki/British_African-Caribbean_people",
+        "matchedText": "African-Caribbean",
+        "freebaseId": "/m/0dtkkb",
+        "relevanceScore": 0.0642229,
+        "entityEnglishId": "British African-Caribbean people",
+        "startingPos": 239,
+        "endingPos": 256
+      },
+      {
+        "id": 8,
+        "type": [
+          "EthnicGroup"
+        ],
+        "matchingTokens": [
+          42,
+          43
+        ],
+        "entityId": "British African-Caribbean people",
+        "freebaseTypes": [
+          "/people/ethnicity"
+        ],
+        "confidenceScore": 1.24096,
+        "wikiLink": "http://en.wikipedia.org/wiki/British_African-Caribbean_people",
+        "matchedText": "African-Caribbean group",
+        "freebaseId": "/m/0dtkkb",
+        "relevanceScore": 0.0642229,
+        "entityEnglishId": "British African-Caribbean people",
+        "startingPos": 239,
+        "endingPos": 262
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          47
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.8275,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "eGFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 1,
+        "entityEnglishId": "Renal function",
+        "startingPos": 272,
+        "endingPos": 276
+      },
+      {
+        "id": 10,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          52
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 6.3958,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.492588,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 300,
+        "endingPos": 310
+      },
+      {
+        "id": 11,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          65
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 6.3958,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.492588,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 363,
+        "endingPos": 373
+      },
+      {
+        "id": 12,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          67
+        ],
+        "entityId": "ACR",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "ACR",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 375,
+        "endingPos": 378
+      },
+      {
+        "id": 13,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          99
+        ],
+        "entityId": "Indo-Asians",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Indo-Asians",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 513,
+        "endingPos": 524
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          3,
+          6
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              7,
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          3,
+          4,
+          5,
+          6
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          11,
+          12,
+          16
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10,
+              14,
+              15
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              14,
+              15
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          48,
+          62
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              46,
+              47
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              57,
+              58,
+              59,
+              60
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          26,
+          28,
+          29
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          26,
+          28,
+          29
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          65,
+          70
+        ],
+        "propertyPositions": [
+          64
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          65,
+          70
+        ],
+        "propertyPositions": [
+          67
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          72
+        ],
+        "propertyPositions": [
+          71
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          72
+        ],
+        "propertyPositions": [
+          74
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          65,
+          70
+        ],
+        "propertyPositions": [
+          71,
+          72,
+          74,
+          77,
+          79,
+          80,
+          81,
+          82
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          47
+        ],
+        "propertyPositions": [
+          46
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          50,
+          52
+        ],
+        "propertyPositions": [
+          51
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          54,
+          60
+        ],
+        "propertyPositions": [
+          59
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          35,
+          37
+        ],
+        "propertyPositions": [
+          33
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          35,
+          37
+        ],
+        "propertyPositions": [
+          34
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          41,
+          43
+        ],
+        "propertyPositions": [
+          42
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          38,
+          39,
+          40,
+          44
+        ],
+        "propertyPositions": [
+          41,
+          42,
+          43
+        ]
+      },
+      {
+        "id": 16,
+        "wordPositions": [
+          35,
+          37
+        ],
+        "propertyPositions": [
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ]
+      }
+    ]
+  },
+  "time": 3.024,
+  "ok": true
+}

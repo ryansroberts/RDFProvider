@@ -1,0 +1,451 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.707813
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.452815
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.232755
+      },
+      {
+        "id": 4,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.21463
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.214401
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Coma",
+        "wikiLink": "http://en.wikipedia.org/Coma",
+        "score": 0.559316
+      },
+      {
+        "id": 1,
+        "label": "Consciousness",
+        "wikiLink": "http://en.wikipedia.org/Consciousness",
+        "score": 0.245046
+      },
+      {
+        "id": 2,
+        "label": "Hypoglycemia",
+        "wikiLink": "http://en.wikipedia.org/Hypoglycemia",
+        "score": 0.695909
+      },
+      {
+        "id": 3,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.598238
+      },
+      {
+        "id": 4,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.360808
+      },
+      {
+        "id": 5,
+        "label": "Psychological concepts",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychological_concepts",
+        "score": 0.199197
+      },
+      {
+        "id": 6,
+        "label": "Emergency medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Emergency_medicine",
+        "score": 0.18232
+      },
+      {
+        "id": 7,
+        "label": "Mental processes",
+        "wikiLink": "http://en.wikipedia.org/Category:Mental_processes",
+        "score": 0.167872
+      },
+      {
+        "id": 8,
+        "label": "Medical diagnosis",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_diagnosis",
+        "score": 0.150328
+      },
+      {
+        "id": 9,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.103163
+      },
+      {
+        "id": 10,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.103163
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 2.04286,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.299119,
+        "entityEnglishId": "Patient",
+        "startingPos": 21,
+        "endingPos": 29
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 2.04286,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.299119,
+        "entityEnglishId": "Patient",
+        "startingPos": 94,
+        "endingPos": 102
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Glucose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.48939,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucose",
+        "matchedText": "dextrose",
+        "freebaseId": "/m/02kb_m_",
+        "relevanceScore": 0.0473377,
+        "entityEnglishId": "Glucose",
+        "startingPos": 176,
+        "endingPos": 184
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Consciousness",
+        "freebaseTypes": [
+          "/film/film_subject",
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.7081,
+        "wikiLink": "http://en.wikipedia.org/wiki/Consciousness",
+        "matchedText": "consciousness",
+        "freebaseId": "/m/01q73",
+        "relevanceScore": 0.245046,
+        "entityEnglishId": "Consciousness",
+        "startingPos": 214,
+        "endingPos": 227
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          47
+        ],
+        "entityId": "Hypoglycemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.93902,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypoglycemia",
+        "matchedText": "hypoglycaemic",
+        "freebaseId": "/m/03gwt",
+        "relevanceScore": 0.695909,
+        "entityEnglishId": "Hypoglycemia",
+        "startingPos": 285,
+        "endingPos": 298
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          48
+        ],
+        "entityId": "Coma",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom",
+          "/book/book_subject",
+          "/people/cause_of_death",
+          "/fictional_universe/medical_condition_in_fiction"
+        ],
+        "confidenceScore": 3.7905,
+        "wikiLink": "http://en.wikipedia.org/wiki/Coma",
+        "matchedText": "coma",
+        "freebaseId": "/m/01qw1",
+        "relevanceScore": 0.559316,
+        "entityEnglishId": "Coma",
+        "startingPos": 299,
+        "endingPos": 303
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23,
+          31
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              21
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          41,
+          43,
+          45,
+          46
+        ],
+        "propertyPositions": [
+          42
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          41,
+          43,
+          45,
+          46
+        ],
+        "propertyPositions": [
+          44
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          48
+        ],
+        "propertyPositions": [
+          47
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          41,
+          43,
+          45,
+          46
+        ],
+        "propertyPositions": [
+          47,
+          48
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          41,
+          43,
+          45,
+          46
+        ],
+        "propertyPositions": [
+          40,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          12
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          17,
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          21
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          25,
+          26
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          25,
+          26
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

@@ -1,0 +1,787 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.688932
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.667619
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.62169
+      },
+      {
+        "id": 4,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.38631
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.363009
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Coronary artery bypass surgery",
+        "wikiLink": "http://en.wikipedia.org/Coronary_artery_bypass_surgery",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Cost-effectiveness analysis",
+        "wikiLink": "http://en.wikipedia.org/Cost-effectiveness_analysis",
+        "score": 0.231611
+      },
+      {
+        "id": 2,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.300342
+      },
+      {
+        "id": 3,
+        "label": "Percutaneous coronary intervention",
+        "wikiLink": "http://en.wikipedia.org/Percutaneous_coronary_intervention",
+        "score": 0.81734
+      },
+      {
+        "id": 4,
+        "label": "Stent",
+        "wikiLink": "http://en.wikipedia.org/Stent",
+        "score": 0.215521
+      },
+      {
+        "id": 5,
+        "label": "Cardiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiology",
+        "score": 0.396007
+      },
+      {
+        "id": 6,
+        "label": "Cardiovascular procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiovascular_procedures",
+        "score": 0.341476
+      },
+      {
+        "id": 7,
+        "label": "Medical procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_procedures",
+        "score": 0.341476
+      },
+      {
+        "id": 8,
+        "label": "Cardiac procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiac_procedures",
+        "score": 0.341476
+      },
+      {
+        "id": 9,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.320561
+      },
+      {
+        "id": 10,
+        "label": "Surgery",
+        "wikiLink": "http://en.wikipedia.org/Category:Surgery",
+        "score": 0.199845
+      },
+      {
+        "id": 11,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.13657
+      },
+      {
+        "id": 12,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.120041
+      },
+      {
+        "id": 13,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.113449
+      },
+      {
+        "id": 14,
+        "label": "Applied sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Applied_sciences",
+        "score": 0.065075
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Coronary artery bypass surgery",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 3.44723,
+        "wikiLink": "http://en.wikipedia.org/wiki/Coronary_artery_bypass_surgery",
+        "matchedText": "CABG",
+        "freebaseId": "/m/01br3b",
+        "relevanceScore": 0.510645,
+        "entityEnglishId": "Coronary artery bypass surgery",
+        "startingPos": 72,
+        "endingPos": 76
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Percutaneous coronary intervention",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.72605,
+        "wikiLink": "http://en.wikipedia.org/wiki/Percutaneous_coronary_intervention",
+        "matchedText": "PCI",
+        "freebaseId": "/m/09xlbt",
+        "relevanceScore": 0.81734,
+        "entityEnglishId": "Percutaneous coronary intervention",
+        "startingPos": 82,
+        "endingPos": 85
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          16,
+          17,
+          18
+        ],
+        "entityId": "BMS of the",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "BMS of the",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 92,
+        "endingPos": 102
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.6625,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patient",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.150171,
+        "entityEnglishId": "Patient",
+        "startingPos": 127,
+        "endingPos": 134
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "Coronary artery bypass surgery",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 4.81778,
+        "wikiLink": "http://en.wikipedia.org/wiki/Coronary_artery_bypass_surgery",
+        "matchedText": "CABG",
+        "freebaseId": "/m/01br3b",
+        "relevanceScore": 0.510645,
+        "entityEnglishId": "Coronary artery bypass surgery",
+        "startingPos": 219,
+        "endingPos": 223
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          53,
+          54
+        ],
+        "entityId": "Cost-effectiveness analysis",
+        "confidenceScore": 0.970472,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cost-effectiveness_analysis",
+        "matchedText": "cost effectiveness",
+        "freebaseId": "/m/01n8zs",
+        "relevanceScore": 0.231611,
+        "entityEnglishId": "Cost-effectiveness analysis",
+        "startingPos": 280,
+        "endingPos": 298
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          57
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.87245,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.150171,
+        "entityEnglishId": "Patient",
+        "startingPos": 304,
+        "endingPos": 312
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          63
+        ],
+        "entityId": "Stent",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.72065,
+        "wikiLink": "http://en.wikipedia.org/wiki/Stent",
+        "matchedText": "stents",
+        "freebaseId": "/m/025lvk",
+        "relevanceScore": 0.215521,
+        "entityEnglishId": "Stent",
+        "startingPos": 342,
+        "endingPos": 348
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          65
+        ],
+        "entityId": "Coronary artery bypass surgery",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 4.81778,
+        "wikiLink": "http://en.wikipedia.org/wiki/Coronary_artery_bypass_surgery",
+        "matchedText": "CABG",
+        "freebaseId": "/m/01br3b",
+        "relevanceScore": 0.510645,
+        "entityEnglishId": "Coronary artery bypass surgery",
+        "startingPos": 353,
+        "endingPos": 357
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5,
+          7
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          7,
+          15
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          26,
+          29,
+          30,
+          31
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              27,
+              28
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              32,
+              33
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          75,
+          77,
+          78
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              79,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          75,
+          77,
+          78,
+          81
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              79,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          81,
+          85,
+          86,
+          87
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              83,
+              84
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              82,
+              88,
+              89
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          85,
+          86,
+          87
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              83,
+              84
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              82,
+              88,
+              89
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          85,
+          86,
+          87,
+          88,
+          89
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              83,
+              84
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              82
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          35,
+          36
+        ],
+        "propertyPositions": [
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          43,
+          45
+        ],
+        "propertyPositions": [
+          44
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          54
+        ],
+        "propertyPositions": [
+          50,
+          51,
+          52,
+          53
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          48,
+          49
+        ],
+        "propertyPositions": [
+          50,
+          51,
+          52,
+          53,
+          54
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          58
+        ],
+        "propertyPositions": [
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          60,
+          61
+        ],
+        "propertyPositions": [
+          62,
+          63,
+          64,
+          65
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          18,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          67,
+          68,
+          69,
+          70
+        ],
+        "propertyPositions": [
+          71,
+          72,
+          73
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          84
+        ],
+        "propertyPositions": [
+          83
+        ]
+      }
+    ]
+  },
+  "time": 3.034,
+  "ok": true
+}

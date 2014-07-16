@@ -1,0 +1,642 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.97019
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.5209
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.5209
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.44929
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Glycated hemoglobin",
+        "wikiLink": "http://en.wikipedia.org/Glycated_hemoglobin",
+        "score": 0.45735
+      },
+      {
+        "id": 1,
+        "label": "P-value",
+        "wikiLink": "http://en.wikipedia.org/P-value",
+        "score": 0.277006
+      },
+      {
+        "id": 2,
+        "label": "Statistical significance",
+        "wikiLink": "http://en.wikipedia.org/Statistical_significance",
+        "score": 0.119315
+      },
+      {
+        "id": 3,
+        "label": "Veganism",
+        "wikiLink": "http://en.wikipedia.org/Veganism",
+        "score": 0.2
+      },
+      {
+        "id": 4,
+        "label": "Scientific theories",
+        "wikiLink": "http://en.wikipedia.org/Category:Scientific_theories",
+        "score": 0.0935286
+      },
+      {
+        "id": 5,
+        "label": "Tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Tests",
+        "score": 0.0935286
+      },
+      {
+        "id": 6,
+        "label": "Hypothesis testing",
+        "wikiLink": "http://en.wikipedia.org/Category:Hypothesis_testing",
+        "score": 0.0935286
+      },
+      {
+        "id": 7,
+        "label": "Statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistics",
+        "score": 0.0935286
+      },
+      {
+        "id": 8,
+        "label": "Econometrics",
+        "wikiLink": "http://en.wikipedia.org/Category:Econometrics",
+        "score": 0.0935286
+      },
+      {
+        "id": 9,
+        "label": "Statistical inference",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistical_inference",
+        "score": 0.0935286
+      },
+      {
+        "id": 10,
+        "label": "Statistical theory",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistical_theory",
+        "score": 0.0935286
+      },
+      {
+        "id": 11,
+        "label": "Mathematical and quantitative methods (economics)",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_and_quantitative_methods_(economics)",
+        "score": 0.0935286
+      },
+      {
+        "id": 12,
+        "label": "Fields of application of statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_application_of_statistics",
+        "score": 0.0935286
+      },
+      {
+        "id": 13,
+        "label": "Economics",
+        "wikiLink": "http://en.wikipedia.org/Category:Economics",
+        "score": 0.0510262
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "RCT",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "RCT",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 39,
+        "endingPos": 42
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.69739,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "HbA1c",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.228675,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 65,
+        "endingPos": 70
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Statistical significance",
+        "confidenceScore": 0.947257,
+        "wikiLink": "http://en.wikipedia.org/wiki/Statistical_significance",
+        "matchedText": "statistically significant",
+        "freebaseId": "/m/0159l8",
+        "relevanceScore": 0.119315,
+        "entityEnglishId": "Statistical significance",
+        "startingPos": 98,
+        "endingPos": 123
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "Veganism",
+        "freebaseTypes": [
+          "/food/diet",
+          "/food/dietary_restriction",
+          "/religion/religious_practice",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.60993,
+        "wikiLink": "http://en.wikipedia.org/wiki/Veganism",
+        "matchedText": "vegan",
+        "freebaseId": "/m/07_hy",
+        "relevanceScore": 0.1,
+        "entityEnglishId": "Veganism",
+        "startingPos": 193,
+        "endingPos": 198
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          49
+        ],
+        "entityId": "ADA",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "ADA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 233,
+        "endingPos": 236
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          81
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.69739,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "HbA1c",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.228675,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 401,
+        "endingPos": 406
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          87
+        ],
+        "entityId": "Veganism",
+        "freebaseTypes": [
+          "/food/diet",
+          "/food/dietary_restriction",
+          "/religion/religious_practice",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.60993,
+        "wikiLink": "http://en.wikipedia.org/wiki/Veganism",
+        "matchedText": "vegan",
+        "freebaseId": "/m/07_hy",
+        "relevanceScore": 0.1,
+        "entityEnglishId": "Veganism",
+        "startingPos": 434,
+        "endingPos": 439
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          99
+        ],
+        "entityId": "ADA",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "ADA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 471,
+        "endingPos": 474
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          108,
+          109
+        ],
+        "entityId": "P-value",
+        "confidenceScore": 1.0047,
+        "wikiLink": "http://en.wikipedia.org/wiki/P-value",
+        "matchedText": "p=0.01",
+        "freebaseId": "/m/02pgmn",
+        "relevanceScore": 0.277006,
+        "entityEnglishId": "P-value",
+        "startingPos": 495,
+        "endingPos": 501
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4,
+              9,
+              15,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              3,
+              4,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          38,
+          39,
+          40,
+          47,
+          48,
+          49,
+          50,
+          52,
+          53
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              54,
+              55,
+              56
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              41,
+              42,
+              44,
+              45
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          67,
+          68
+        ],
+        "propertyPositions": [
+          66,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          105
+        ],
+        "propertyPositions": [
+          108,
+          109
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          98,
+          99,
+          100
+        ],
+        "propertyPositions": [
+          102,
+          103,
+          104,
+          105,
+          108,
+          109
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          80,
+          81,
+          82
+        ],
+        "propertyPositions": [
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          90,
+          91,
+          92,
+          93
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          86,
+          88
+        ],
+        "propertyPositions": [
+          87
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          86,
+          88
+        ],
+        "propertyPositions": [
+          90,
+          91,
+          92,
+          93
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          76
+        ],
+        "propertyPositions": [
+          77,
+          78
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          30
+        ],
+        "propertyPositions": [
+          32,
+          33
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          26,
+          27,
+          28,
+          35
+        ],
+        "propertyPositions": [
+          29,
+          30,
+          32,
+          33
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          26,
+          27,
+          28,
+          35
+        ],
+        "propertyPositions": [
+          36
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          39,
+          47,
+          52,
+          53
+        ],
+        "propertyPositions": [
+          38
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          54,
+          56
+        ],
+        "propertyPositions": [
+          55
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          39,
+          47,
+          52,
+          53
+        ],
+        "propertyPositions": [
+          48,
+          49,
+          50
+        ]
+      }
+    ]
+  },
+  "time": 3.021,
+  "ok": true
+}

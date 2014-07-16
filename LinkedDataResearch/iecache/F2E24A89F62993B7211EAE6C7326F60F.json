@@ -1,0 +1,523 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.519922
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.235135
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.235135
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.235135
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.230528
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.226164
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.669852
+      },
+      {
+        "id": 2,
+        "label": "Family medicine",
+        "wikiLink": "http://en.wikipedia.org/Family_medicine",
+        "score": 0.156406
+      },
+      {
+        "id": 3,
+        "label": "Fasting",
+        "wikiLink": "http://en.wikipedia.org/Fasting",
+        "score": 0.113358
+      },
+      {
+        "id": 4,
+        "label": "Impaired fasting glucose",
+        "wikiLink": "http://en.wikipedia.org/Impaired_fasting_glucose",
+        "score": 0.349876
+      },
+      {
+        "id": 5,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.154532
+      },
+      {
+        "id": 6,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.154532
+      },
+      {
+        "id": 7,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0752827
+      },
+      {
+        "id": 8,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0697016
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Greaves CJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Greaves CJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Stead JW",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Stead JW",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Hattersley",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 1.99978,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hattersley",
+        "matchedText": "Hattersley",
+        "freebaseId": "/m/02ksn1",
+        "relevanceScore": 0.0840497,
+        "entityEnglishId": "Hattersley",
+        "startingPos": 24,
+        "endingPos": 34
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Ewings P.",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ewings P.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 40,
+        "endingPos": 49
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Brown P.",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Brown P.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 51,
+        "endingPos": 59
+      },
+      {
+        "id": 5,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Evans PH.",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Evans PH.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 61,
+        "endingPos": 70
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          29,
+          30
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.11027,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.507074,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 124,
+        "endingPos": 130
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          29,
+          30,
+          31
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.85193,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2 diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.162778,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 124,
+        "endingPos": 139
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.70635,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.226164,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 131,
+        "endingPos": 139
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Fasting",
+        "freebaseTypes": [
+          "/religion/religious_practice",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.43564,
+        "wikiLink": "http://en.wikipedia.org/wiki/Fasting",
+        "matchedText": "fasting",
+        "freebaseId": "/m/019q1j",
+        "relevanceScore": 0.113358,
+        "entityEnglishId": "Fasting",
+        "startingPos": 153,
+        "endingPos": 160
+      },
+      {
+        "id": 10,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          33,
+          34,
+          35
+        ],
+        "entityId": "Impaired fasting glucose",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.75072,
+        "wikiLink": "http://en.wikipedia.org/wiki/Impaired_fasting_glucose",
+        "matchedText": "impaired fasting glycaemia",
+        "freebaseId": "/m/0djj5q",
+        "relevanceScore": 0.349876,
+        "entityEnglishId": "Impaired fasting glucose",
+        "startingPos": 144,
+        "endingPos": 170
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          37,
+          38
+        ],
+        "entityId": "Primary care",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/business/industry",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.40618,
+        "wikiLink": "http://en.wikipedia.org/wiki/Primary_care",
+        "matchedText": "primary care",
+        "freebaseId": "/m/02mbrd",
+        "relevanceScore": 0.0867752,
+        "entityEnglishId": "Primary care",
+        "startingPos": 174,
+        "endingPos": 186
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          40,
+          41
+        ],
+        "entityId": "Family medicine",
+        "freebaseTypes": [
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 1.12296,
+        "wikiLink": "http://en.wikipedia.org/wiki/Family_medicine",
+        "matchedText": "Family Practice",
+        "freebaseId": "/m/03x_dvn",
+        "relevanceScore": 0.156406,
+        "entityEnglishId": "Family medicine",
+        "startingPos": 188,
+        "endingPos": 203
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          15,
+          16
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          20,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          20,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          29,
+          30,
+          31
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          34,
+          35,
+          36
+        ],
+        "propertyPositions": [
+          33
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          38
+        ],
+        "propertyPositions": [
+          37
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          34,
+          35,
+          36
+        ],
+        "propertyPositions": [
+          37,
+          38
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

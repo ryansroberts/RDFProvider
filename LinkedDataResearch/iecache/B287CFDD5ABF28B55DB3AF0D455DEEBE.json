@@ -1,0 +1,589 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.542043
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.515074
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.484409
+      },
+      {
+        "id": 4,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.484409
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Nice",
+        "wikiLink": "http://en.wikipedia.org/Nice",
+        "score": 0.382034
+      },
+      {
+        "id": 1,
+        "label": "Paclitaxel",
+        "wikiLink": "http://en.wikipedia.org/Paclitaxel",
+        "score": 0.467236
+      },
+      {
+        "id": 2,
+        "label": "Real estate appraisal",
+        "wikiLink": "http://en.wikipedia.org/Real_estate_appraisal",
+        "score": 0.722025
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Technology",
+        "score": 0.20274
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Real estate appraisal",
+        "freebaseTypes": [
+          "/people/profession"
+        ],
+        "confidenceScore": 0.9051,
+        "wikiLink": "http://en.wikipedia.org/wiki/Real_estate_appraisal",
+        "matchedText": "appraisal",
+        "freebaseId": "/m/03kbk6",
+        "relevanceScore": 0.240675,
+        "entityEnglishId": "Real estate appraisal",
+        "startingPos": 5,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Nice",
+        "freebaseTypes": [
+          "/periodicals/newspaper_circulation_area",
+          "/location/capital_of_administrative_division",
+          "/location/citytown",
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/travel/travel_destination",
+          "/location/location",
+          "/location/administrative_division"
+        ],
+        "confidenceScore": 1.00286,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nice",
+        "matchedText": "NICE",
+        "freebaseId": "/m/0cp6w",
+        "relevanceScore": 0.191017,
+        "entityEnglishId": "Nice",
+        "startingPos": 43,
+        "endingPos": 47
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Nice",
+        "freebaseTypes": [
+          "/periodicals/newspaper_circulation_area",
+          "/location/capital_of_administrative_division",
+          "/location/citytown",
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/travel/travel_destination",
+          "/location/location",
+          "/location/administrative_division"
+        ],
+        "confidenceScore": 1.00286,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nice",
+        "matchedText": "NICE",
+        "freebaseId": "/m/0cp6w",
+        "relevanceScore": 0.191017,
+        "entityEnglishId": "Nice",
+        "startingPos": 58,
+        "endingPos": 62
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Technology",
+        "freebaseTypes": [
+          "/book/periodical_subject",
+          "/exhibitions/exhibition_subject",
+          "/film/film_subject",
+          "/media_common/media_genre",
+          "/tv/tv_subject",
+          "/book/book_subject",
+          "/conferences/conference_subject",
+          "/media_common/literary_genre",
+          "/organization/organization_sector",
+          "/education/field_of_study",
+          "/business/industry",
+          "/media_common/netflix_genre",
+          "/media_common/quotation_subject",
+          "/award/award_discipline",
+          "/internet/website_category",
+          "/broadcast/genre",
+          "/people/professional_field"
+        ],
+        "confidenceScore": 1.27502,
+        "wikiLink": "http://en.wikipedia.org/wiki/Technology",
+        "matchedText": "Technology",
+        "freebaseId": "/m/07c1v",
+        "relevanceScore": 0.20274,
+        "entityEnglishId": "Technology",
+        "startingPos": 63,
+        "endingPos": 73
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Real estate appraisal",
+        "freebaseTypes": [
+          "/people/profession"
+        ],
+        "confidenceScore": 0.9051,
+        "wikiLink": "http://en.wikipedia.org/wiki/Real_estate_appraisal",
+        "matchedText": "Appraisal",
+        "freebaseId": "/m/03kbk6",
+        "relevanceScore": 0.240675,
+        "entityEnglishId": "Real estate appraisal",
+        "startingPos": 74,
+        "endingPos": 83
+      },
+      {
+        "id": 5,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "entityId": "Technology Appraisal Guidance No.",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Technology Appraisal Guidance No.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 63,
+        "endingPos": 96
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "BMS",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "BMS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 124,
+        "endingPos": 127
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Real estate appraisal",
+        "freebaseTypes": [
+          "/people/profession"
+        ],
+        "confidenceScore": 0.9051,
+        "wikiLink": "http://en.wikipedia.org/wiki/Real_estate_appraisal",
+        "matchedText": "appraisal",
+        "freebaseId": "/m/03kbk6",
+        "relevanceScore": 0.240675,
+        "entityEnglishId": "Real estate appraisal",
+        "startingPos": 139,
+        "endingPos": 148
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "DES",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "DES",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 152,
+        "endingPos": 155
+      },
+      {
+        "id": 9,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "BMS",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "BMS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 157,
+        "endingPos": 160
+      },
+      {
+        "id": 10,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          57
+        ],
+        "entityId": "Paclitaxel",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 1.11459,
+        "wikiLink": "http://en.wikipedia.org/wiki/Paclitaxel",
+        "matchedText": "restenosis",
+        "freebaseId": "/m/095yw",
+        "relevanceScore": 0.467236,
+        "entityEnglishId": "Paclitaxel",
+        "startingPos": 291,
+        "endingPos": 301
+      },
+      {
+        "id": 11,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          67
+        ],
+        "entityId": "DES",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "DES",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 336,
+        "endingPos": 339
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          51,
+          52,
+          53,
+          58,
+          60
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              46,
+              47,
+              48,
+              49,
+              50
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              54,
+              55,
+              56,
+              57,
+              61,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          33,
+          34,
+          35,
+          36,
+          37,
+          40
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              32
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              38,
+              39,
+              41,
+              42,
+              43,
+              44
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          33,
+          34,
+          35,
+          36,
+          37,
+          40,
+          41,
+          42
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              32
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              38,
+              39,
+              43,
+              44
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          22,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          26,
+          28,
+          29
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          26,
+          28,
+          29
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          9
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          4,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          46,
+          47,
+          48
+        ],
+        "propertyPositions": [
+          49,
+          50
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          64,
+          65,
+          66,
+          68
+        ],
+        "propertyPositions": [
+          67
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          64,
+          65,
+          66,
+          68
+        ],
+        "propertyPositions": [
+          69,
+          70,
+          71,
+          72,
+          73
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          44
+        ],
+        "propertyPositions": [
+          43
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          41,
+          42
+        ],
+        "propertyPositions": [
+          43,
+          44
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

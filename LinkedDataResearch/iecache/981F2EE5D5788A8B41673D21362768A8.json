@@ -1,0 +1,324 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.461084
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.461084
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.461084
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cholesterol",
+        "wikiLink": "http://en.wikipedia.org/Cholesterol",
+        "score": 0.997386
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Serum (blood)",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 2.52748,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_(blood)",
+        "matchedText": "serum",
+        "freebaseId": "/m/07s8fsr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Serum (blood)",
+        "startingPos": 28,
+        "endingPos": 33
+      },
+      {
+        "id": 1,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Cholesterol",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.95411,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cholesterol",
+        "matchedText": "serum cholesterol",
+        "freebaseId": "/m/01w_3",
+        "relevanceScore": 0.186041,
+        "entityEnglishId": "Cholesterol",
+        "startingPos": 28,
+        "endingPos": 45
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Cholesterol",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 5.8602,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cholesterol",
+        "matchedText": "cholesterol",
+        "freebaseId": "/m/01w_3",
+        "relevanceScore": 0.303908,
+        "entityEnglishId": "Cholesterol",
+        "startingPos": 34,
+        "endingPos": 45
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Cholesterol",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.62021,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cholesterol",
+        "matchedText": "cholesterol",
+        "freebaseId": "/m/01w_3",
+        "relevanceScore": 0.303908,
+        "entityEnglishId": "Cholesterol",
+        "startingPos": 94,
+        "endingPos": 105
+      },
+      {
+        "id": 4,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Cholesterol",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.50817,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cholesterol",
+        "matchedText": "cholesterol level",
+        "freebaseId": "/m/01w_3",
+        "relevanceScore": 0.203528,
+        "entityEnglishId": "Cholesterol",
+        "startingPos": 94,
+        "endingPos": 111
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          16
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              13,
+              14,
+              15,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9,
+          11,
+          12,
+          16
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9,
+          11,
+          12,
+          16
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          9,
+          11,
+          12,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      }
+    ]
+  },
+  "time": 3.015,
+  "ok": true
+}

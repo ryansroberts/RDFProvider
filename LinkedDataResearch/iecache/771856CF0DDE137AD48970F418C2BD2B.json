@@ -1,0 +1,366 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.508982
+      },
+      {
+        "id": 2,
+        "label": "Weather",
+        "wikiLink": "http://en.wikipedia.org/Category:Weather",
+        "score": 0.508982
+      },
+      {
+        "id": 3,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.508982
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.491018
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.491018
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.122727
+      },
+      {
+        "id": 1,
+        "label": "Otago Region",
+        "wikiLink": "http://en.wikipedia.org/Otago_Region",
+        "score": 0.162533
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Coppell, Texas",
+        "freebaseTypes": [
+          "/location/location",
+          "/location/citytown",
+          "/location/statistical_region",
+          "/location/dated_location"
+        ],
+        "confidenceScore": 1.24284,
+        "wikiLink": "http://en.wikipedia.org/wiki/Coppell,_Texas",
+        "matchedText": "Coppell",
+        "freebaseId": "/m/013m9j",
+        "relevanceScore": 0,
+        "entityEnglishId": "Coppell, Texas",
+        "startingPos": 0,
+        "endingPos": 7
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Coppell K",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Coppell K",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Manning P",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Manning P",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 20
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Otago Region",
+        "freebaseTypes": [
+          "/location/statistical_region",
+          "/location/location",
+          "/location/dated_location",
+          "/location/administrative_division",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.98168,
+        "wikiLink": "http://en.wikipedia.org/wiki/Otago_Region",
+        "matchedText": "Otago",
+        "freebaseId": "/m/0phcx",
+        "relevanceScore": 0.162533,
+        "entityEnglishId": "Otago Region",
+        "startingPos": 22,
+        "endingPos": 27
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.63733,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0613633,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 28,
+        "endingPos": 36
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.63733,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0613633,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 67,
+        "endingPos": 75
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "New Zealand",
+        "freebaseTypes": [
+          "/sports/sport_country",
+          "/location/administrative_division",
+          "/meteorology/cyclone_affected_area",
+          "/tv/tv_location",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/olympics/olympic_participating_country",
+          "/sports/sports_team_location",
+          "/location/statistical_region",
+          "/fictional_universe/fictional_setting",
+          "/location/location",
+          "/military/military_combatant",
+          "/biology/breed_origin",
+          "/book/book_subject",
+          "/organization/organization_founder",
+          "/periodicals/newspaper_circulation_area",
+          "/organization/organization_member",
+          "/film/film_location",
+          "/royalty/kingdom",
+          "/organization/organization_scope",
+          "/government/governmental_jurisdiction",
+          "/location/dated_location",
+          "/location/country",
+          "/symbols/coat_of_arms_bearer",
+          "/organization/organization_sector",
+          "/food/beer_country_region"
+        ],
+        "confidenceScore": 3.06477,
+        "wikiLink": "http://en.wikipedia.org/wiki/New_Zealand",
+        "matchedText": "New Zealand",
+        "freebaseId": "/m/0ctw_b",
+        "relevanceScore": 0.0720805,
+        "entityEnglishId": "New Zealand",
+        "startingPos": 148,
+        "endingPos": 159
+      },
+      {
+        "id": 7,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          26,
+          27,
+          28,
+          29
+        ],
+        "entityId": "New Zealand Medical Journal",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "New Zealand Medical Journal",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 148,
+        "endingPos": 175
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          28,
+          29
+        ],
+        "entityId": "Public health journal",
+        "confidenceScore": 2.66612,
+        "wikiLink": "http://en.wikipedia.org/wiki/Public_health_journal",
+        "matchedText": "Medical Journal",
+        "freebaseId": "/m/02n8hz",
+        "relevanceScore": 0.0453881,
+        "entityEnglishId": "Public health journal",
+        "startingPos": 160,
+        "endingPos": 175
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          19,
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 3.02,
+  "ok": true
+}

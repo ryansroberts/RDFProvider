@@ -1,0 +1,468 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.505052
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Atorvastatin",
+        "wikiLink": "http://en.wikipedia.org/Atorvastatin",
+        "score": 0.990125
+      },
+      {
+        "id": 1,
+        "label": "Myopathy",
+        "wikiLink": "http://en.wikipedia.org/Myopathy",
+        "score": 0.417166
+      },
+      {
+        "id": 2,
+        "label": "Rosuvastatin",
+        "wikiLink": "http://en.wikipedia.org/Rosuvastatin",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Hypolipidemic agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Hypolipidemic_agents",
+        "score": 0.199279
+      },
+      {
+        "id": 4,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.199279
+      },
+      {
+        "id": 5,
+        "label": "Functional groups",
+        "wikiLink": "http://en.wikipedia.org/Category:Functional_groups",
+        "score": 0.189484
+      },
+      {
+        "id": 6,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.186213
+      },
+      {
+        "id": 7,
+        "label": "Statins",
+        "wikiLink": "http://en.wikipedia.org/Category:Statins",
+        "score": 0.184771
+      },
+      {
+        "id": 8,
+        "label": "Heterocyclic compounds (1 ring)",
+        "wikiLink": "http://en.wikipedia.org/Category:Heterocyclic_compounds_(1_ring)",
+        "score": 0.178613
+      },
+      {
+        "id": 9,
+        "label": "Oxygen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxygen_compounds",
+        "score": 0.176567
+      },
+      {
+        "id": 10,
+        "label": "Simple aromatic rings",
+        "wikiLink": "http://en.wikipedia.org/Category:Simple_aromatic_rings",
+        "score": 0.172735
+      },
+      {
+        "id": 11,
+        "label": "Halides",
+        "wikiLink": "http://en.wikipedia.org/Category:Halides",
+        "score": 0.170415
+      },
+      {
+        "id": 12,
+        "label": "Organohalides",
+        "wikiLink": "http://en.wikipedia.org/Category:Organohalides",
+        "score": 0.170415
+      },
+      {
+        "id": 13,
+        "label": "Halogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Halogen_compounds",
+        "score": 0.160243
+      },
+      {
+        "id": 14,
+        "label": "Fluorine",
+        "wikiLink": "http://en.wikipedia.org/Category:Fluorine",
+        "score": 0.160243
+      },
+      {
+        "id": 15,
+        "label": "Fluorine compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Fluorine_compounds",
+        "score": 0.160243
+      },
+      {
+        "id": 16,
+        "label": "Organofluorides",
+        "wikiLink": "http://en.wikipedia.org/Category:Organofluorides",
+        "score": 0.160243
+      },
+      {
+        "id": 17,
+        "label": "Alcohols",
+        "wikiLink": "http://en.wikipedia.org/Category:Alcohols",
+        "score": 0.145856
+      },
+      {
+        "id": 18,
+        "label": "Polyols",
+        "wikiLink": "http://en.wikipedia.org/Category:Polyols",
+        "score": 0.14075
+      },
+      {
+        "id": 19,
+        "label": "Diols",
+        "wikiLink": "http://en.wikipedia.org/Category:Diols",
+        "score": 0.14075
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Rosuvastatin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 5.32771,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rosuvastatin",
+        "matchedText": "rosuvastatin",
+        "freebaseId": "/m/02z705",
+        "relevanceScore": 0.825787,
+        "entityEnglishId": "Rosuvastatin",
+        "startingPos": 35,
+        "endingPos": 47
+      },
+      {
+        "id": 1,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Atorvastatin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 6.4444,
+        "wikiLink": "http://en.wikipedia.org/wiki/Atorvastatin",
+        "matchedText": "atorvastatin",
+        "freebaseId": "/m/02y_rs",
+        "relevanceScore": 0.495063,
+        "entityEnglishId": "Atorvastatin",
+        "startingPos": 57,
+        "endingPos": 69
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "AEs",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "AEs",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 155,
+        "endingPos": 158
+      },
+      {
+        "id": 3,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          41
+        ],
+        "entityId": "AEs",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "AEs",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 253,
+        "endingPos": 256
+      },
+      {
+        "id": 4,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          46
+        ],
+        "entityId": "Rosuvastatin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 5.32771,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rosuvastatin",
+        "matchedText": "rosuvastatin",
+        "freebaseId": "/m/02z705",
+        "relevanceScore": 0.825787,
+        "entityEnglishId": "Rosuvastatin",
+        "startingPos": 271,
+        "endingPos": 283
+      },
+      {
+        "id": 5,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          52
+        ],
+        "entityId": "Atorvastatin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 5.38595,
+        "wikiLink": "http://en.wikipedia.org/wiki/Atorvastatin",
+        "matchedText": "atorvastatin",
+        "freebaseId": "/m/02y_rs",
+        "relevanceScore": 0.495063,
+        "entityEnglishId": "Atorvastatin",
+        "startingPos": 307,
+        "endingPos": 319
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          60
+        ],
+        "entityId": "Myopathy",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.52203,
+        "wikiLink": "http://en.wikipedia.org/wiki/Myopathy",
+        "matchedText": "myopathy",
+        "freebaseId": "/m/058k0k",
+        "relevanceScore": 0.417166,
+        "entityEnglishId": "Myopathy",
+        "startingPos": 350,
+        "endingPos": 358
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          17,
+          18,
+          19,
+          21
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              15,
+              16
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              14,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          57,
+          58,
+          59
+        ],
+        "propertyPositions": [
+          60
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          45,
+          46,
+          47,
+          50
+        ],
+        "propertyPositions": [
+          51,
+          52,
+          53
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          41
+        ],
+        "propertyPositions": [
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

@@ -1,0 +1,484 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.641432
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.32751
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.32751
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.32751
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.315634
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.196239
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Margolis DJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Margolis DJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Kantor J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kantor J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Santanna J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Santanna J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 23,
+        "endingPos": 33
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Strom BL",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Strom BL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 35,
+        "endingPos": 43
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Region",
+          "AdministrativeRegion"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Berlin",
+        "freebaseTypes": [
+          "/protected_sites/listed_site",
+          "/periodicals/newspaper_circulation_area",
+          "/travel/travel_destination",
+          "/book/book_subject",
+          "/location/citytown",
+          "/fictional_universe/fictional_setting",
+          "/olympics/olympic_bidding_city",
+          "/location/statistical_region",
+          "/location/place_with_neighborhoods",
+          "/film/film_location",
+          "/sports/sports_team_location",
+          "/location/dated_location",
+          "/olympics/olympic_host_city",
+          "/organization/organization_scope",
+          "/location/de_state",
+          "/location/location",
+          "/government/governmental_jurisdiction",
+          "/location/administrative_division",
+          "/location/de_city"
+        ],
+        "confidenceScore": 1.42386,
+        "wikiLink": "http://en.wikipedia.org/wiki/Berlin",
+        "matchedText": "Berlin",
+        "freebaseId": "/m/0156q",
+        "relevanceScore": 0.0106907,
+        "entityEnglishId": "Berlin",
+        "startingPos": 45,
+        "endingPos": 51
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Berlin JA",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Berlin JA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 45,
+        "endingPos": 54
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Risk factor",
+        "confidenceScore": 1.07801,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk_factor",
+        "matchedText": "Risk factors",
+        "freebaseId": "/m/03nznf",
+        "relevanceScore": 0.0375858,
+        "entityEnglishId": "Risk factor",
+        "startingPos": 63,
+        "endingPos": 75
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Peripheral neuropathy",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.82231,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peripheral_neuropathy",
+        "matchedText": "neuropathic",
+        "freebaseId": "/m/02w1fx",
+        "relevanceScore": 0.0942331,
+        "entityEnglishId": "Peripheral neuropathy",
+        "startingPos": 99,
+        "endingPos": 110
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.18026,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.196239,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 111,
+        "endingPos": 119
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.32628,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0.0853143,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 111,
+        "endingPos": 124
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          33,
+          34
+        ],
+        "entityId": "JAMA Dermatology",
+        "freebaseTypes": [
+          "/book/journal",
+          "/business/employer",
+          "/book/periodical"
+        ],
+        "confidenceScore": 1.02665,
+        "wikiLink": "http://en.wikipedia.org/wiki/JAMA_Dermatology",
+        "matchedText": "Arch Dermatol",
+        "freebaseId": "/m/09c60c",
+        "relevanceScore": 0,
+        "entityEnglishId": "JAMA Dermatology",
+        "startingPos": 152,
+        "endingPos": 165
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          29,
+          31
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6,
+          7,
+          13
+        ],
+        "propertyPositions": [
+          9,
+          10
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6,
+          7,
+          13
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          26,
+          27
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          26,
+          27
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          18,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          6,
+          7,
+          13
+        ],
+        "propertyPositions": [
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      }
+    ]
+  },
+  "time": 3.032,
+  "ok": true
+}

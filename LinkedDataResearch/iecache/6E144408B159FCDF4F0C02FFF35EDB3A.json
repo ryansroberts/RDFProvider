@@ -1,0 +1,425 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.951604
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.951604
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.502514
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.487206
+      },
+      {
+        "id": 5,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.464398
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Atorvastatin",
+        "wikiLink": "http://en.wikipedia.org/Atorvastatin",
+        "score": 0.25916
+      },
+      {
+        "id": 1,
+        "label": "Clinical trial",
+        "wikiLink": "http://en.wikipedia.org/Clinical_trial",
+        "score": 0.160788
+      },
+      {
+        "id": 2,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.109699
+      },
+      {
+        "id": 3,
+        "label": "Low-density lipoprotein",
+        "wikiLink": "http://en.wikipedia.org/Low-density_lipoprotein",
+        "score": 0.204463
+      },
+      {
+        "id": 4,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.126417
+      },
+      {
+        "id": 5,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.132554
+      },
+      {
+        "id": 6,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.081314
+      },
+      {
+        "id": 7,
+        "label": "Philosophy",
+        "wikiLink": "http://en.wikipedia.org/Category:Philosophy_by_field",
+        "score": 0.0531805
+      },
+      {
+        "id": 8,
+        "label": "Methodology",
+        "wikiLink": "http://en.wikipedia.org/Category:Methodology",
+        "score": 0.0531805
+      },
+      {
+        "id": 9,
+        "label": "Statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistics",
+        "score": 0.0531805
+      },
+      {
+        "id": 10,
+        "label": "Probability and statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Probability_and_statistics",
+        "score": 0.0531805
+      },
+      {
+        "id": 11,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.0531805
+      },
+      {
+        "id": 12,
+        "label": "Mathematical and quantitative methods (economics)",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_and_quantitative_methods_(economics)",
+        "score": 0.0531805
+      },
+      {
+        "id": 13,
+        "label": "Problem solving",
+        "wikiLink": "http://en.wikipedia.org/Category:Problem_solving",
+        "score": 0.0531805
+      },
+      {
+        "id": 14,
+        "label": "Scientific method",
+        "wikiLink": "http://en.wikipedia.org/Category:Scientific_method",
+        "score": 0.0531805
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "ASCOT-LLA",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "ASCOT-LLA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.94603,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.109699,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 49,
+        "endingPos": 57
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Atorvastatin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 7.10604,
+        "wikiLink": "http://en.wikipedia.org/wiki/Atorvastatin",
+        "matchedText": "atorvastatin",
+        "freebaseId": "/m/02y_rs",
+        "relevanceScore": 0.25916,
+        "entityEnglishId": "Atorvastatin",
+        "startingPos": 78,
+        "endingPos": 90
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Low-density lipoprotein",
+        "confidenceScore": 4.61035,
+        "wikiLink": "http://en.wikipedia.org/wiki/Low-density_lipoprotein",
+        "matchedText": "LDL",
+        "freebaseId": "/m/0dl9m",
+        "relevanceScore": 0.204463,
+        "entityEnglishId": "Low-density lipoprotein",
+        "startingPos": 105,
+        "endingPos": 108
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 2.09388,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.126417,
+        "entityEnglishId": "Placebo",
+        "startingPos": 164,
+        "endingPos": 171
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          29,
+          30
+        ],
+        "entityId": "Clinical trial",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/law/invention"
+        ],
+        "confidenceScore": 1.29794,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_trial",
+        "matchedText": "placebo group",
+        "freebaseId": "/m/01k22z",
+        "relevanceScore": 0.160788,
+        "entityEnglishId": "Clinical trial",
+        "startingPos": 164,
+        "endingPos": 177
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          58,
+          59
+        ],
+        "entityId": "Statistics",
+        "freebaseTypes": [
+          "/computer/software_genre",
+          "/education/field_of_study",
+          "/award/award_discipline",
+          "/book/periodical_subject",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.50365,
+        "wikiLink": "http://en.wikipedia.org/wiki/Statistics",
+        "matchedText": "statistical analysis",
+        "freebaseId": "/m/06mnr",
+        "relevanceScore": 0.0403833,
+        "entityEnglishId": "Statistics",
+        "startingPos": 308,
+        "endingPos": 328
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5,
+          7,
+          31
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          57,
+          59
+        ],
+        "propertyPositions": [
+          58
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          15,
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15,
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          6,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          40,
+          41,
+          42
+        ],
+        "propertyPositions": [
+          43,
+          44
+        ]
+      }
+    ]
+  },
+  "time": 3.02,
+  "ok": true
+}

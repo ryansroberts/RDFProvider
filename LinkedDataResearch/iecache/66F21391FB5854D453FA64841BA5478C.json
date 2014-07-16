@@ -1,0 +1,328 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.936953
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.551081
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.475392
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.475392
+      },
+      {
+        "id": 5,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.475392
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.143053
+      },
+      {
+        "id": 1,
+        "label": "General practitioner",
+        "wikiLink": "http://en.wikipedia.org/General_practitioner",
+        "score": 0.284355
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Harris MF",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Harris MF",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Priddin D",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Priddin D",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 20
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Ruscoe W",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ruscoe W",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 22,
+        "endingPos": 30
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "General practitioner",
+        "freebaseTypes": [
+          "/people/profession",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 2.09541,
+        "wikiLink": "http://en.wikipedia.org/wiki/General_practitioner",
+        "matchedText": "general practitioners",
+        "freebaseId": "/m/01c35v",
+        "relevanceScore": 0.284355,
+        "entityEnglishId": "General practitioner",
+        "startingPos": 67,
+        "endingPos": 88
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.9427,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.143053,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 123,
+        "endingPos": 131
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "Public health journal",
+        "confidenceScore": 2.88817,
+        "wikiLink": "http://en.wikipedia.org/wiki/Public_health_journal",
+        "matchedText": "Medical Journal",
+        "freebaseId": "/m/02n8hz",
+        "relevanceScore": 0.0970037,
+        "entityEnglishId": "Public health journal",
+        "startingPos": 143,
+        "endingPos": 158
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          26,
+          27,
+          28,
+          29
+        ],
+        "entityId": "Medical Journal of Australia",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Medical Journal of Australia",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 143,
+        "endingPos": 171
+      },
+      {
+        "id": 7,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Australia",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/fictional_universe/fictional_setting",
+          "/royalty/kingdom",
+          "/symbols/coat_of_arms_bearer",
+          "/biology/breed_origin",
+          "/organization/organization_scope",
+          "/olympics/olympic_participating_country",
+          "/government/governmental_jurisdiction",
+          "/organization/organization_member",
+          "/sports/sport_country",
+          "/military/military_combatant",
+          "/location/location",
+          "/location/country",
+          "/travel/travel_destination",
+          "/tv/tv_location",
+          "/law/court_jurisdiction_area",
+          "/periodicals/newspaper_circulation_area",
+          "/sports/sports_team_location",
+          "/location/statistical_region",
+          "/book/book_subject",
+          "/film/film_location",
+          "/location/dated_location",
+          "/symbols/flag_referent",
+          "/cvg/computer_game_region",
+          "/government/government",
+          "/music/music_video_subject",
+          "/organization/organization_founder",
+          "/film/film_subject"
+        ],
+        "confidenceScore": 2.51244,
+        "wikiLink": "http://en.wikipedia.org/wiki/Australia",
+        "matchedText": "Australia",
+        "freebaseId": "/m/0chghy",
+        "relevanceScore": 0.0489889,
+        "entityEnglishId": "Australia",
+        "startingPos": 162,
+        "endingPos": 171
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          26,
+          27,
+          28
+        ],
+        "propertyPositions": [
+          29,
+          30
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      }
+    ]
+  },
+  "time": 3.021,
+  "ok": true
+}

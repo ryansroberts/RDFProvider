@@ -1,0 +1,383 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.776892
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.713871
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.640304
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.40028
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.388097
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Communication",
+        "wikiLink": "http://en.wikipedia.org/Communication",
+        "score": 0.274406
+      },
+      {
+        "id": 1,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Health_care",
+        "score": 0.583826
+      },
+      {
+        "id": 2,
+        "label": "Information",
+        "wikiLink": "http://en.wikipedia.org/Information",
+        "score": 0.202168
+      },
+      {
+        "id": 3,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.306979
+      },
+      {
+        "id": 4,
+        "label": "Quality (philosophy)",
+        "wikiLink": "http://en.wikipedia.org/Quality_(philosophy)",
+        "score": 0.286797
+      },
+      {
+        "id": 5,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.527067
+      },
+      {
+        "id": 6,
+        "label": "Knowledge",
+        "wikiLink": "http://en.wikipedia.org/Category:Knowledge",
+        "score": 0.504646
+      },
+      {
+        "id": 7,
+        "label": "Concepts",
+        "wikiLink": "http://en.wikipedia.org/Category:Concepts_by_field",
+        "score": 0.425917
+      },
+      {
+        "id": 8,
+        "label": "Healthcare management",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_management",
+        "score": 0.193215
+      },
+      {
+        "id": 9,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.144315
+      },
+      {
+        "id": 10,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.0880906
+      },
+      {
+        "id": 11,
+        "label": "Healthcare quality",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_quality",
+        "score": 0.0457851
+      },
+      {
+        "id": 12,
+        "label": "Social problems",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_problems",
+        "score": 0.0391765
+      },
+      {
+        "id": 13,
+        "label": "Health economics",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_economics",
+        "score": 0.0359312
+      },
+      {
+        "id": 14,
+        "label": "Quality",
+        "wikiLink": "http://en.wikipedia.org/Category:Quality",
+        "score": 0.0131218
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Information",
+        "freebaseTypes": [
+          "/internet/website_category",
+          "/media_common/quotation_subject",
+          "/education/field_of_study",
+          "/organization/contact_category"
+        ],
+        "confidenceScore": 1.25876,
+        "wikiLink": "http://en.wikipedia.org/wiki/Information",
+        "matchedText": "information",
+        "freebaseId": "/m/03y39",
+        "relevanceScore": 0.202168,
+        "entityEnglishId": "Information",
+        "startingPos": 23,
+        "endingPos": 34
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Health care",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/organization/organization_sector",
+          "/food/tea_type",
+          "/people/professional_field",
+          "/education/field_of_study",
+          "/government/government_service",
+          "/business/industry",
+          "/exhibitions/exhibition_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.49677,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_care",
+        "matchedText": "secondary care",
+        "freebaseId": "/m/01mw2x",
+        "relevanceScore": 0.583826,
+        "entityEnglishId": "Health care",
+        "startingPos": 64,
+        "endingPos": 78
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.92855,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.306979,
+        "entityEnglishId": "Patient",
+        "startingPos": 90,
+        "endingPos": 98
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Communication",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/business/industry",
+          "/media_common/quotation_subject",
+          "/internet/website_category",
+          "/organization/organization_sector",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.26517,
+        "wikiLink": "http://en.wikipedia.org/wiki/Communication",
+        "matchedText": "communication",
+        "freebaseId": "/m/01lhf",
+        "relevanceScore": 0.274406,
+        "entityEnglishId": "Communication",
+        "startingPos": 109,
+        "endingPos": 122
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Quality (philosophy)",
+        "confidenceScore": 1.17634,
+        "wikiLink": "http://en.wikipedia.org/wiki/Quality_(philosophy)",
+        "matchedText": "quality",
+        "freebaseId": "/m/02vq979",
+        "relevanceScore": 0.286797,
+        "entityEnglishId": "Quality (philosophy)",
+        "startingPos": 127,
+        "endingPos": 134
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          15
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11,
+              12,
+              13
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              16,
+              17,
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          15,
+          16,
+          17
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11,
+              12,
+              13
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4,
+          5,
+          12
+        ],
+        "propertyPositions": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3,
+          4,
+          5,
+          12
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9,
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          3,
+          4,
+          5,
+          12
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20
+        ]
+      }
+    ]
+  },
+  "time": 3.025,
+  "ok": true
+}

@@ -1,0 +1,122 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.936742
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Heart failure",
+        "wikiLink": "http://en.wikipedia.org/Heart_failure",
+        "score": 0.117073
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Heart failure",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/pipeline/delete_task",
+          "/medicine/disease_cause",
+          "/pipeline/task",
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.49283,
+        "wikiLink": "http://en.wikipedia.org/wiki/Heart_failure",
+        "matchedText": "heart failure",
+        "freebaseId": "/m/01l2m3",
+        "relevanceScore": 0.117073,
+        "entityEnglishId": "Heart failure",
+        "startingPos": 123,
+        "endingPos": 136
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          2,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "time": 3.014,
+  "ok": true
+}

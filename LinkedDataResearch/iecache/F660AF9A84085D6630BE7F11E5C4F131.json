@@ -1,0 +1,522 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.490704
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.490704
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.24441
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.24441
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.24441
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Atorvastatin",
+        "wikiLink": "http://en.wikipedia.org/Atorvastatin",
+        "score": 0.123472
+      },
+      {
+        "id": 1,
+        "label": "Endothelial dysfunction",
+        "wikiLink": "http://en.wikipedia.org/Endothelial_dysfunction",
+        "score": 0.238092
+      },
+      {
+        "id": 2,
+        "label": "Endothelium",
+        "wikiLink": "http://en.wikipedia.org/Endothelium",
+        "score": 0.253907
+      },
+      {
+        "id": 3,
+        "label": "Surrogate endpoint",
+        "wikiLink": "http://en.wikipedia.org/Surrogate_endpoint",
+        "score": 0.160989
+      },
+      {
+        "id": 4,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.147634
+      },
+      {
+        "id": 5,
+        "label": "Vasodilation",
+        "wikiLink": "http://en.wikipedia.org/Vasodilation",
+        "score": 0.346284
+      },
+      {
+        "id": 6,
+        "label": "Cardiovascular system",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiovascular_system",
+        "score": 0.360526
+      },
+      {
+        "id": 7,
+        "label": "Angiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Angiology",
+        "score": 0.0749429
+      },
+      {
+        "id": 8,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0749429
+      },
+      {
+        "id": 9,
+        "label": "Circulatory system",
+        "wikiLink": "http://en.wikipedia.org/Category:Circulatory_system",
+        "score": 0.0748523
+      },
+      {
+        "id": 10,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0625869
+      },
+      {
+        "id": 11,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0433328
+      },
+      {
+        "id": 12,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.0433328
+      },
+      {
+        "id": 13,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0433328
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "DALI",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "DALI",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 27,
+        "endingPos": 31
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.22943,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.147634,
+        "entityEnglishId": "Therapy",
+        "startingPos": 82,
+        "endingPos": 89
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Atorvastatin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 5.38734,
+        "wikiLink": "http://en.wikipedia.org/wiki/Atorvastatin",
+        "matchedText": "atorvastatin",
+        "freebaseId": "/m/02y_rs",
+        "relevanceScore": 0.123472,
+        "entityEnglishId": "Atorvastatin",
+        "startingPos": 95,
+        "endingPos": 107
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Endothelium",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.84113,
+        "wikiLink": "http://en.wikipedia.org/wiki/Endothelium",
+        "matchedText": "endothelial",
+        "freebaseId": "/m/02mb_n",
+        "relevanceScore": 0.253907,
+        "entityEnglishId": "Endothelium",
+        "startingPos": 135,
+        "endingPos": 146
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "Endothelial dysfunction",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.25705,
+        "wikiLink": "http://en.wikipedia.org/wiki/Endothelial_dysfunction",
+        "matchedText": "endothelial dysfunction",
+        "freebaseId": "/m/03pn_c",
+        "relevanceScore": 0.238092,
+        "entityEnglishId": "Endothelial dysfunction",
+        "startingPos": 135,
+        "endingPos": 158
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Measure (mathematics)",
+        "confidenceScore": 1.02325,
+        "wikiLink": "http://en.wikipedia.org/wiki/Measure_(mathematics)",
+        "matchedText": "measure",
+        "freebaseId": "/m/04_sb",
+        "relevanceScore": 0.0730044,
+        "entityEnglishId": "Measure (mathematics)",
+        "startingPos": 163,
+        "endingPos": 170
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          31,
+          32
+        ],
+        "entityId": "Surrogate endpoint",
+        "confidenceScore": 1.29885,
+        "wikiLink": "http://en.wikipedia.org/wiki/Surrogate_endpoint",
+        "matchedText": "surrogate marker",
+        "freebaseId": "/m/04f04h",
+        "relevanceScore": 0.160989,
+        "entityEnglishId": "Surrogate endpoint",
+        "startingPos": 178,
+        "endingPos": 194
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Vasodilation",
+        "confidenceScore": 3.38031,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vasodilation",
+        "matchedText": "vasodilatation",
+        "freebaseId": "/m/0fkcf",
+        "relevanceScore": 0.346284,
+        "entityEnglishId": "Vasodilation",
+        "startingPos": 212,
+        "endingPos": 226
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              18,
+              19,
+              21,
+              22,
+              23,
+              24,
+              25,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          21,
+          22,
+          23,
+          27,
+          29
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              18,
+              19
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              24,
+              25,
+              28,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          21,
+          22,
+          23,
+          27,
+          29
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              18,
+              19
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              24,
+              25,
+              28,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          25
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          30,
+          32,
+          33
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          34,
+          36
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          30,
+          32,
+          33
+        ],
+        "propertyPositions": [
+          34,
+          35,
+          36
+        ]
+      }
+    ]
+  },
+  "time": 3.025,
+  "ok": true
+}

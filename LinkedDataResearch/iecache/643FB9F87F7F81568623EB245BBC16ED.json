@@ -1,0 +1,455 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.980538
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.48932
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.479622
+      },
+      {
+        "id": 4,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.479622
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.26288
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "British Bangladeshi",
+        "wikiLink": "http://en.wikipedia.org/British_Bangladeshi",
+        "score": 0.70877
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.128751
+      },
+      {
+        "id": 2,
+        "label": "London Borough of Tower Hamlets",
+        "wikiLink": "http://en.wikipedia.org/London_Borough_of_Tower_Hamlets",
+        "score": 0.188988
+      },
+      {
+        "id": 3,
+        "label": "Nuffield College, Oxford",
+        "wikiLink": "http://en.wikipedia.org/Nuffield_College,_Oxford",
+        "score": 0.251124
+      },
+      {
+        "id": 4,
+        "label": "United Kingdom",
+        "wikiLink": "http://en.wikipedia.org/United_Kingdom",
+        "score": 0.100574
+      },
+      {
+        "id": 5,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0333333
+      },
+      {
+        "id": 6,
+        "label": "Social sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_sciences",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Agent",
+          "Organisation",
+          "EducationalInstitution",
+          "College"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Nuffield College, Oxford",
+        "freebaseTypes": [
+          "/education/educational_institution",
+          "/education/university",
+          "/business/employer",
+          "/organization/organization",
+          "/organization/endowed_organization"
+        ],
+        "confidenceScore": 1.01007,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nuffield_College,_Oxford",
+        "matchedText": "Nuffield",
+        "freebaseId": "/m/0ym32",
+        "relevanceScore": 0.251124,
+        "entityEnglishId": "Nuffield College, Oxford",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Nuffield Trust",
+        "freebaseTypes": [
+          "/business/employer",
+          "/book/author",
+          "/organization/organization"
+        ],
+        "confidenceScore": 3.05244,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nuffield_Trust",
+        "matchedText": "Nuffield Trust",
+        "freebaseId": "/m/047d8p4",
+        "relevanceScore": 0,
+        "entityEnglishId": "Nuffield Trust",
+        "startingPos": 0,
+        "endingPos": 14
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Feasibility study",
+        "confidenceScore": 1.47796,
+        "wikiLink": "http://en.wikipedia.org/wiki/Feasibility_study",
+        "matchedText": "feasibility study",
+        "freebaseId": "/m/05gcp6",
+        "relevanceScore": 0,
+        "entityEnglishId": "Feasibility study",
+        "startingPos": 36,
+        "endingPos": 53
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Oral tradition",
+        "confidenceScore": 2.34552,
+        "wikiLink": "http://en.wikipedia.org/wiki/Oral_tradition",
+        "matchedText": "oral tradition",
+        "freebaseId": "/m/0l0m4",
+        "relevanceScore": 0.0199956,
+        "entityEnglishId": "Oral tradition",
+        "startingPos": 97,
+        "endingPos": 111
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.64538,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.128751,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 115,
+        "endingPos": 123
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.79285,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "British",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.100574,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 138,
+        "endingPos": 145
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          23,
+          24
+        ],
+        "entityId": "British Bangladeshi",
+        "freebaseTypes": [
+          "/people/ethnicity"
+        ],
+        "confidenceScore": 2.51344,
+        "wikiLink": "http://en.wikipedia.org/wiki/British_Bangladeshi",
+        "matchedText": "British Bangladeshis",
+        "freebaseId": "/m/043nmrn",
+        "relevanceScore": 0.322958,
+        "entityEnglishId": "British Bangladeshi",
+        "startingPos": 138,
+        "endingPos": 158
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "British Bangladeshi",
+        "freebaseTypes": [
+          "/people/ethnicity"
+        ],
+        "confidenceScore": 1.39521,
+        "wikiLink": "http://en.wikipedia.org/wiki/British_Bangladeshi",
+        "matchedText": "Bangladeshis",
+        "freebaseId": "/m/043nmrn",
+        "relevanceScore": 0.385812,
+        "entityEnglishId": "British Bangladeshi",
+        "startingPos": 146,
+        "endingPos": 158
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place",
+          "PopulatedPlace"
+        ],
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "London Borough of Tower Hamlets",
+        "freebaseTypes": [
+          "/location/statistical_region",
+          "/location/uk_london_borough",
+          "/government/governmental_jurisdiction",
+          "/periodicals/newspaper_circulation_area",
+          "/location/administrative_division",
+          "/location/dated_location",
+          "/location/uk_statistical_location",
+          "/location/location"
+        ],
+        "confidenceScore": 2.49415,
+        "wikiLink": "http://en.wikipedia.org/wiki/London_Borough_of_Tower_Hamlets",
+        "matchedText": "Tower Hamlets",
+        "freebaseId": "/m/0nlg4",
+        "relevanceScore": 0.188988,
+        "entityEnglishId": "London Borough of Tower Hamlets",
+        "startingPos": 162,
+        "endingPos": 175
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Hamlet (place)",
+        "confidenceScore": 1.17351,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hamlet_(place)",
+        "matchedText": "Hamlets",
+        "freebaseId": "/m/023bx_",
+        "relevanceScore": 0.064672,
+        "entityEnglishId": "Hamlet (place)",
+        "startingPos": 168,
+        "endingPos": 175
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          15,
+          22
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          16,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          15,
+          22
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          15,
+          22
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      }
+    ]
+  },
+  "time": 3.022,
+  "ok": true
+}

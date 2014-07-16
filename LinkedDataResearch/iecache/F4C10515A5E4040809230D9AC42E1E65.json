@@ -1,0 +1,1522 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.550398
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.550398
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.506055
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.506055
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Acid",
+        "wikiLink": "http://en.wikipedia.org/Acid",
+        "score": 0.504481
+      },
+      {
+        "id": 1,
+        "label": "Glycated hemoglobin",
+        "wikiLink": "http://en.wikipedia.org/Glycated_hemoglobin",
+        "score": 0.436243
+      },
+      {
+        "id": 2,
+        "label": "Niacin",
+        "wikiLink": "http://en.wikipedia.org/Niacin",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Placebo-controlled study",
+        "wikiLink": "http://en.wikipedia.org/Placebo-controlled_study",
+        "score": 0.172106
+      },
+      {
+        "id": 5,
+        "label": "Time release technology",
+        "wikiLink": "http://en.wikipedia.org/Time_release_technology",
+        "score": 0.333967
+      },
+      {
+        "id": 6,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.628909
+      },
+      {
+        "id": 7,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.0784323
+      },
+      {
+        "id": 8,
+        "label": "Medicinal chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicinal_chemistry",
+        "score": 0.0683648
+      },
+      {
+        "id": 9,
+        "label": "Pharmaceutical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_sciences",
+        "score": 0.0683648
+      },
+      {
+        "id": 10,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0683648
+      },
+      {
+        "id": 11,
+        "label": "Medical treatments",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_treatments",
+        "score": 0.0683648
+      },
+      {
+        "id": 12,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.0683648
+      },
+      {
+        "id": 13,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Category:Therapy",
+        "score": 0.0683648
+      },
+      {
+        "id": 14,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0683648
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Niacin",
+        "freebaseTypes": [
+          "/food/nutrient",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 4.67214,
+        "wikiLink": "http://en.wikipedia.org/wiki/Niacin",
+        "matchedText": "Nicotinic acid",
+        "freebaseId": "/m/09gvd",
+        "relevanceScore": 0.535764,
+        "entityEnglishId": "Niacin",
+        "startingPos": 0,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Acid",
+        "freebaseTypes": [
+          "/chemistry/chemical_classification"
+        ],
+        "confidenceScore": 1.88219,
+        "wikiLink": "http://en.wikipedia.org/wiki/Acid",
+        "matchedText": "acid",
+        "freebaseId": "/m/0hqs",
+        "relevanceScore": 0.12612,
+        "entityEnglishId": "Acid",
+        "startingPos": 10,
+        "endingPos": 14
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 3.03434,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.267875,
+        "entityEnglishId": "Placebo",
+        "startingPos": 59,
+        "endingPos": 66
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.79849,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "HbA1c",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.218121,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 94,
+        "endingPos": 99
+      },
+      {
+        "id": 4,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Niacin",
+        "freebaseTypes": [
+          "/food/nutrient",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 4.67214,
+        "wikiLink": "http://en.wikipedia.org/wiki/Niacin",
+        "matchedText": "nicotinic acid",
+        "freebaseId": "/m/09gvd",
+        "relevanceScore": 0.535764,
+        "entityEnglishId": "Niacin",
+        "startingPos": 121,
+        "endingPos": 135
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Acid",
+        "freebaseTypes": [
+          "/chemistry/chemical_classification"
+        ],
+        "confidenceScore": 1.88219,
+        "wikiLink": "http://en.wikipedia.org/wiki/Acid",
+        "matchedText": "acid",
+        "freebaseId": "/m/0hqs",
+        "relevanceScore": 0.12612,
+        "entityEnglishId": "Acid",
+        "startingPos": 131,
+        "endingPos": 135
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 3.03434,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.267875,
+        "entityEnglishId": "Placebo",
+        "startingPos": 172,
+        "endingPos": 179
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Titration",
+        "confidenceScore": 3.69921,
+        "wikiLink": "http://en.wikipedia.org/wiki/Titration",
+        "matchedText": "titration",
+        "freebaseId": "/m/07ph7",
+        "relevanceScore": 0.0866956,
+        "entityEnglishId": "Titration",
+        "startingPos": 208,
+        "endingPos": 217
+      },
+      {
+        "id": 8,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          35,
+          36
+        ],
+        "entityId": "Niacin",
+        "freebaseTypes": [
+          "/food/nutrient",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 4.67214,
+        "wikiLink": "http://en.wikipedia.org/wiki/Niacin",
+        "matchedText": "nicotinic acid",
+        "freebaseId": "/m/09gvd",
+        "relevanceScore": 0.535764,
+        "entityEnglishId": "Niacin",
+        "startingPos": 221,
+        "endingPos": 235
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Acid",
+        "freebaseTypes": [
+          "/chemistry/chemical_classification"
+        ],
+        "confidenceScore": 1.88219,
+        "wikiLink": "http://en.wikipedia.org/wiki/Acid",
+        "matchedText": "acid",
+        "freebaseId": "/m/0hqs",
+        "relevanceScore": 0.12612,
+        "entityEnglishId": "Acid",
+        "startingPos": 231,
+        "endingPos": 235
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.79849,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "HbA1c",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.218121,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 239,
+        "endingPos": 244
+      },
+      {
+        "id": 11,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          48,
+          49
+        ],
+        "entityId": "Niacin",
+        "freebaseTypes": [
+          "/food/nutrient",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 4.67214,
+        "wikiLink": "http://en.wikipedia.org/wiki/Niacin",
+        "matchedText": "nicotinic acid",
+        "freebaseId": "/m/09gvd",
+        "relevanceScore": 0.535764,
+        "entityEnglishId": "Niacin",
+        "startingPos": 288,
+        "endingPos": 302
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          49
+        ],
+        "entityId": "Acid",
+        "freebaseTypes": [
+          "/chemistry/chemical_classification"
+        ],
+        "confidenceScore": 1.88219,
+        "wikiLink": "http://en.wikipedia.org/wiki/Acid",
+        "matchedText": "acid",
+        "freebaseId": "/m/0hqs",
+        "relevanceScore": 0.12612,
+        "entityEnglishId": "Acid",
+        "startingPos": 298,
+        "endingPos": 302
+      },
+      {
+        "id": 13,
+        "matchingTokens": [
+          55
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 3.03434,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.267875,
+        "entityEnglishId": "Placebo",
+        "startingPos": 324,
+        "endingPos": 331
+      },
+      {
+        "id": 14,
+        "matchingTokens": [
+          55,
+          56
+        ],
+        "entityId": "Placebo-controlled study",
+        "confidenceScore": 0.901714,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo-controlled_study",
+        "matchedText": "placebo group",
+        "freebaseId": "/m/05b5m22",
+        "relevanceScore": 0.172106,
+        "entityEnglishId": "Placebo-controlled study",
+        "startingPos": 324,
+        "endingPos": 337
+      },
+      {
+        "id": 15,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          64
+        ],
+        "entityId": "HbA1cwith",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "HbA1cwith",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 380,
+        "endingPos": 389
+      },
+      {
+        "id": 16,
+        "matchingTokens": [
+          72
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 3.03434,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.267875,
+        "entityEnglishId": "Placebo",
+        "startingPos": 425,
+        "endingPos": 432
+      },
+      {
+        "id": 17,
+        "matchingTokens": [
+          77
+        ],
+        "entityId": "Time release technology",
+        "confidenceScore": 1.46827,
+        "wikiLink": "http://en.wikipedia.org/wiki/Time_release_technology",
+        "matchedText": "extended-release",
+        "freebaseId": "/m/0277b_c",
+        "relevanceScore": 0.333967,
+        "entityEnglishId": "Time release technology",
+        "startingPos": 464,
+        "endingPos": 480
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          12,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              10,
+              11
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12,
+          20,
+          30
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10,
+              11,
+              28,
+              29
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          60,
+          70
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              57,
+              58,
+              59
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          43,
+          44
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              42
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          30
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              28,
+              29
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          30,
+          37,
+          39
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              28,
+              29,
+              38
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              40,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          37,
+          39
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              38
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              40
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          12,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10,
+              11
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          64,
+          65,
+          66
+        ],
+        "propertyPositions": [
+          67,
+          68
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          61,
+          62,
+          63
+        ],
+        "propertyPositions": [
+          64,
+          65,
+          66,
+          67,
+          68
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          72,
+          73
+        ],
+        "propertyPositions": [
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          47,
+          49,
+          50
+        ],
+        "propertyPositions": [
+          48
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          52,
+          53
+        ],
+        "propertyPositions": [
+          54,
+          55,
+          56
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          45,
+          46
+        ],
+        "propertyPositions": [
+          47,
+          48,
+          49,
+          50,
+          52,
+          53,
+          54,
+          55,
+          56
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          31,
+          33,
+          34,
+          43,
+          44
+        ],
+        "propertyPositions": [
+          32
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          36
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          31,
+          33,
+          34,
+          43,
+          44
+        ],
+        "propertyPositions": [
+          35,
+          36
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          28,
+          29
+        ],
+        "propertyPositions": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          28,
+          29
+        ],
+        "propertyPositions": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          28,
+          29
+        ],
+        "propertyPositions": [
+          37,
+          38,
+          39,
+          40
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          22,
+          24,
+          25
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 16,
+        "wordPositions": [
+          22,
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 17,
+        "wordPositions": [
+          3,
+          5,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 18,
+        "wordPositions": [
+          3,
+          5,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8
+        ]
+      }
+    ]
+  },
+  "time": 3.036,
+  "ok": true
+}

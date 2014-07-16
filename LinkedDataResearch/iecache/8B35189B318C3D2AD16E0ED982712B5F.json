@@ -1,0 +1,279 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.517297
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.517297
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.482703
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.482703
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Point-of-care testing",
+        "wikiLink": "http://en.wikipedia.org/Point-of-care_testing",
+        "score": 0.580059
+      },
+      {
+        "id": 1,
+        "label": "Prediabetes",
+        "wikiLink": "http://en.wikipedia.org/Prediabetes",
+        "score": 0.411819
+      },
+      {
+        "id": 2,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.0967462
+      },
+      {
+        "id": 3,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0967462
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "entityId": "Rush E. Crook N.",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Rush E. Crook N.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 16
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          5,
+          6,
+          7
+        ],
+        "entityId": "Simmons D. Point-of-care",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Simmons D. Point-of-care",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 18,
+        "endingPos": 42
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Point-of-care testing",
+        "confidenceScore": 1.00131,
+        "wikiLink": "http://en.wikipedia.org/wiki/Point-of-care_testing",
+        "matchedText": "Point-of-care",
+        "freebaseId": "/m/027fyjp",
+        "relevanceScore": 0.387472,
+        "entityEnglishId": "Point-of-care testing",
+        "startingPos": 29,
+        "endingPos": 42
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Point-of-care testing",
+        "confidenceScore": 2.42044,
+        "wikiLink": "http://en.wikipedia.org/wiki/Point-of-care_testing",
+        "matchedText": "Point-of-care testing",
+        "freebaseId": "/m/027fyjp",
+        "relevanceScore": 0.192587,
+        "entityEnglishId": "Point-of-care testing",
+        "startingPos": 29,
+        "endingPos": 50
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.6012,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0231181,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 79,
+        "endingPos": 87
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Prediabetes",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.74745,
+        "wikiLink": "http://en.wikipedia.org/wiki/Prediabetes",
+        "matchedText": "pre-diabetes",
+        "freebaseId": "/m/03bzg8_",
+        "relevanceScore": 0.411819,
+        "entityEnglishId": "Prediabetes",
+        "startingPos": 92,
+        "endingPos": 104
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Diabet Med",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Diabet Med",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 106,
+        "endingPos": 116
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          19,
+          20
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

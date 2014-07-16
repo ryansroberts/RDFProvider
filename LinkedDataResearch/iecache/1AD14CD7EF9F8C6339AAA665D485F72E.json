@@ -1,0 +1,370 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.251754
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.238988
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.238988
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.238988
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Lamotrigine",
+        "wikiLink": "http://en.wikipedia.org/Lamotrigine",
+        "score": 0.166122
+      },
+      {
+        "id": 1,
+        "label": "Neurology",
+        "wikiLink": "http://en.wikipedia.org/Neurology",
+        "score": 0.140069
+      },
+      {
+        "id": 2,
+        "label": "Peripheral neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Peripheral_neuropathy",
+        "score": 0.183937
+      },
+      {
+        "id": 3,
+        "label": "Placebo-controlled study",
+        "wikiLink": "http://en.wikipedia.org/Placebo-controlled_study",
+        "score": 0.115568
+      },
+      {
+        "id": 4,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0378575
+      },
+      {
+        "id": 5,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0378575
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Simpson DM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Simpson DM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Olney, Buckinghamshire",
+        "freebaseTypes": [
+          "/location/statistical_region",
+          "/location/location",
+          "/location/dated_location",
+          "/location/administrative_division",
+          "/location/citytown",
+          "/location/uk_civil_parish"
+        ],
+        "confidenceScore": 1.02212,
+        "wikiLink": "http://en.wikipedia.org/wiki/Olney,_Buckinghamshire",
+        "matchedText": "Olney",
+        "freebaseId": "/m/021lrl",
+        "relevanceScore": 0,
+        "entityEnglishId": "Olney, Buckinghamshire",
+        "startingPos": 12,
+        "endingPos": 17
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Olney R",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Olney R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 12,
+        "endingPos": 19
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "McArthur JC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "McArthur JC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 32
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Placebo-controlled study",
+        "confidenceScore": 1.22475,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo-controlled_study",
+        "matchedText": "placebo-controlled",
+        "freebaseId": "/m/05b5m22",
+        "relevanceScore": 0.115568,
+        "entityEnglishId": "Placebo-controlled study",
+        "startingPos": 49,
+        "endingPos": 67
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Placebo-controlled study",
+        "confidenceScore": 1.69471,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo-controlled_study",
+        "matchedText": "placebo-controlled trial",
+        "freebaseId": "/m/05b5m22",
+        "relevanceScore": 0,
+        "entityEnglishId": "Placebo-controlled study",
+        "startingPos": 49,
+        "endingPos": 73
+      },
+      {
+        "id": 6,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Lamotrigine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/drug",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 5.03357,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lamotrigine",
+        "matchedText": "lamotrigine",
+        "freebaseId": "/m/01zww4",
+        "relevanceScore": 0.166122,
+        "entityEnglishId": "Lamotrigine",
+        "startingPos": 77,
+        "endingPos": 88
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Peripheral neuropathy",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.91178,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peripheral_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02w1fx",
+        "relevanceScore": 0.183937,
+        "entityEnglishId": "Peripheral neuropathy",
+        "startingPos": 116,
+        "endingPos": 126
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Neurology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/medicine/physician",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.74466,
+        "wikiLink": "http://en.wikipedia.org/wiki/Neurology",
+        "matchedText": "Neurology",
+        "freebaseId": "/m/05b1j",
+        "relevanceScore": 0.140069,
+        "entityEnglishId": "Neurology",
+        "startingPos": 128,
+        "endingPos": 137
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9,
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13,
+          15,
+          16,
+          18
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          13,
+          15,
+          16,
+          18
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          13,
+          15,
+          16,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

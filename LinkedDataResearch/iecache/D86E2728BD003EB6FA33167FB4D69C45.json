@@ -1,0 +1,367 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.676048
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.676048
+      },
+      {
+        "id": 3,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.354944
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.354944
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.354944
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cochrane Collaboration",
+        "wikiLink": "http://en.wikipedia.org/Cochrane_Collaboration",
+        "score": 0.2236
+      },
+      {
+        "id": 1,
+        "label": "Cochrane Library",
+        "wikiLink": "http://en.wikipedia.org/Cochrane_Library",
+        "score": 0.127877
+      },
+      {
+        "id": 2,
+        "label": "Cough",
+        "wikiLink": "http://en.wikipedia.org/Cough",
+        "score": 0.150537
+      },
+      {
+        "id": 3,
+        "label": "Healthcare management",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_management",
+        "score": 0.0713121
+      },
+      {
+        "id": 4,
+        "label": "Research",
+        "wikiLink": "http://en.wikipedia.org/Category:Research_by_field",
+        "score": 0.0713121
+      },
+      {
+        "id": 5,
+        "label": "Systematic review",
+        "wikiLink": "http://en.wikipedia.org/Category:Systematic_review",
+        "score": 0.0713121
+      },
+      {
+        "id": 6,
+        "label": "Evidence-based practices",
+        "wikiLink": "http://en.wikipedia.org/Category:Evidence-based_practices",
+        "score": 0.0713121
+      },
+      {
+        "id": 7,
+        "label": "Information science",
+        "wikiLink": "http://en.wikipedia.org/Category:Information_science",
+        "score": 0.0713121
+      },
+      {
+        "id": 8,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0713121
+      },
+      {
+        "id": 9,
+        "label": "Health informatics",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_informatics",
+        "score": 0.0713121
+      },
+      {
+        "id": 10,
+        "label": "Empiricism",
+        "wikiLink": "http://en.wikipedia.org/Category:Empiricism",
+        "score": 0.0713121
+      },
+      {
+        "id": 11,
+        "label": "Scientific method",
+        "wikiLink": "http://en.wikipedia.org/Category:Scientific_method",
+        "score": 0.0713121
+      },
+      {
+        "id": 12,
+        "label": "Research methods",
+        "wikiLink": "http://en.wikipedia.org/Category:Research_methods",
+        "score": 0.0713121
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Cochrane Collaboration",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/business/employer"
+        ],
+        "confidenceScore": 1.01182,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cochrane_Collaboration",
+        "matchedText": "Cochrane",
+        "freebaseId": "/m/01jh8y",
+        "relevanceScore": 0.2236,
+        "entityEnglishId": "Cochrane Collaboration",
+        "startingPos": 5,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Cochrane Library",
+        "confidenceScore": 1.23991,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cochrane_Library",
+        "matchedText": "Cochrane reviews",
+        "freebaseId": "/m/01jydn",
+        "relevanceScore": 0.127877,
+        "entityEnglishId": "Cochrane Library",
+        "startingPos": 5,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Cough",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.887,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cough",
+        "matchedText": "cough",
+        "freebaseId": "/m/01b_21",
+        "relevanceScore": 0.150537,
+        "entityEnglishId": "Cough",
+        "startingPos": 54,
+        "endingPos": 59
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              10,
+              11,
+              12,
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8,
+              10,
+              11,
+              12,
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3,
+          9,
+          12,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              10,
+              11
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          26,
+          27,
+          28
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          19,
+          21,
+          23,
+          24,
+          26,
+          27,
+          28
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          36
+        ],
+        "propertyPositions": [
+          40,
+          41,
+          43,
+          44,
+          45,
+          47
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          34
+        ],
+        "propertyPositions": [
+          36,
+          38,
+          40,
+          41,
+          43,
+          44,
+          45,
+          47
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

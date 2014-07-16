@@ -1,0 +1,271 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Dipeptidyl peptidase-4",
+        "wikiLink": "http://en.wikipedia.org/Dipeptidyl_peptidase-4",
+        "score": 0.329537
+      },
+      {
+        "id": 1,
+        "label": "Dipeptidyl peptidase-4 inhibitor",
+        "wikiLink": "http://en.wikipedia.org/Dipeptidyl_peptidase-4_inhibitor",
+        "score": 0.110461
+      },
+      {
+        "id": 2,
+        "label": "Sulfonylurea",
+        "wikiLink": "http://en.wikipedia.org/Sulfonylurea",
+        "score": 0.625896
+      },
+      {
+        "id": 3,
+        "label": "Thiazolidinedione",
+        "wikiLink": "http://en.wikipedia.org/Thiazolidinedione",
+        "score": 0.601854
+      },
+      {
+        "id": 4,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.0940746
+      },
+      {
+        "id": 5,
+        "label": "Amides",
+        "wikiLink": "http://en.wikipedia.org/Category:Amides",
+        "score": 0.0940746
+      },
+      {
+        "id": 6,
+        "label": "Hydrolases",
+        "wikiLink": "http://en.wikipedia.org/Category:Hydrolases",
+        "score": 0.0774395
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Dipeptidyl peptidase-4",
+        "confidenceScore": 1.88668,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dipeptidyl_peptidase-4",
+        "matchedText": "DPP-4",
+        "freebaseId": "/m/0f2wt4",
+        "relevanceScore": 0.329537,
+        "entityEnglishId": "Dipeptidyl peptidase-4",
+        "startingPos": 30,
+        "endingPos": 35
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Dipeptidyl peptidase-4 inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/medicine/drug_mechanism_of_action",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 2.41203,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dipeptidyl_peptidase-4_inhibitor",
+        "matchedText": "DPP-4 inhibitor",
+        "freebaseId": "/m/0dk7rr",
+        "relevanceScore": 0.110461,
+        "entityEnglishId": "Dipeptidyl peptidase-4 inhibitor",
+        "startingPos": 30,
+        "endingPos": 45
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Thiazolidinedione",
+        "freebaseTypes": [
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.68872,
+        "wikiLink": "http://en.wikipedia.org/wiki/Thiazolidinedione",
+        "matchedText": "thiazolidinedione",
+        "freebaseId": "/m/02rnrl",
+        "relevanceScore": 0.300927,
+        "entityEnglishId": "Thiazolidinedione",
+        "startingPos": 68,
+        "endingPos": 85
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Sulfonylurea",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 8.4502,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sulfonylurea",
+        "matchedText": "sulfonylurea",
+        "freebaseId": "/m/036kty",
+        "relevanceScore": 0.625896,
+        "entityEnglishId": "Sulfonylurea",
+        "startingPos": 107,
+        "endingPos": 119
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Thiazolidinedione",
+        "freebaseTypes": [
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.68872,
+        "wikiLink": "http://en.wikipedia.org/wiki/Thiazolidinedione",
+        "matchedText": "thiazolidinedione",
+        "freebaseId": "/m/02rnrl",
+        "relevanceScore": 0.300927,
+        "entityEnglishId": "Thiazolidinedione",
+        "startingPos": 142,
+        "endingPos": 159
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          5,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              6,
+              7,
+              8,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0
+        ],
+        "propertyPositions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          23
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    ]
+  },
+  "time": 3.016,
+  "ok": true
+}

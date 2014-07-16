@@ -1,0 +1,131 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.957556
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.957556
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.957556
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.957556
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Amylase",
+        "wikiLink": "http://en.wikipedia.org/Amylase",
+        "score": 0.321099
+      },
+      {
+        "id": 1,
+        "label": "Pancreatitis",
+        "wikiLink": "http://en.wikipedia.org/Pancreatitis",
+        "score": 0.194
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Pancreatitis",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/symptom",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.7692,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pancreatitis",
+        "matchedText": "pancreatitis",
+        "freebaseId": "/m/0h1wz",
+        "relevanceScore": 0.194,
+        "entityEnglishId": "Pancreatitis",
+        "startingPos": 40,
+        "endingPos": 52
+      },
+      {
+        "id": 1,
+        "type": [
+          "Biomolecule",
+          "Enzyme"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Amylase",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 7.80736,
+        "wikiLink": "http://en.wikipedia.org/wiki/Amylase",
+        "matchedText": "amylase",
+        "freebaseId": "/m/0h1zf",
+        "relevanceScore": 0.321099,
+        "entityEnglishId": "Amylase",
+        "startingPos": 75,
+        "endingPos": 82
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "time": 3.014,
+  "ok": true
+}

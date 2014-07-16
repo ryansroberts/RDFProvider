@@ -1,0 +1,528 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.871594
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.871594
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.871594
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.448107
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.448013
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "American Geriatrics Society",
+        "wikiLink": "http://en.wikipedia.org/American_Geriatrics_Society",
+        "score": 0.176781
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.126421
+      },
+      {
+        "id": 2,
+        "label": "Dimethyl sulfoxide",
+        "wikiLink": "http://en.wikipedia.org/Dimethyl_sulfoxide",
+        "score": 0.105687
+      },
+      {
+        "id": 3,
+        "label": "Peptic ulcer",
+        "wikiLink": "http://en.wikipedia.org/Peptic_ulcer",
+        "score": 0.184311
+      },
+      {
+        "id": 4,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0764737
+      },
+      {
+        "id": 5,
+        "label": "Geriatrics",
+        "wikiLink": "http://en.wikipedia.org/Category:Geriatrics",
+        "score": 0.076415
+      },
+      {
+        "id": 6,
+        "label": "Ageing",
+        "wikiLink": "http://en.wikipedia.org/Category:Ageing",
+        "score": 0.076415
+      },
+      {
+        "id": 7,
+        "label": "Utopian movements",
+        "wikiLink": "http://en.wikipedia.org/Category:Utopian_movements",
+        "score": 0.0487146
+      },
+      {
+        "id": 8,
+        "label": "Organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Organizations_by_subject_and_country",
+        "score": 0.0406177
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Lishner M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lishner M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Lang R",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lang R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 17
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Kedar I",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kedar I",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 19,
+        "endingPos": 26
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Region",
+          "AdministrativeRegion"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Ravid",
+        "freebaseTypes": [
+          "/location/location",
+          "/location/citytown",
+          "/location/dated_location",
+          "/location/statistical_region"
+        ],
+        "confidenceScore": 1.57992,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ravid",
+        "matchedText": "Ravid",
+        "freebaseId": "/m/04fzm82",
+        "relevanceScore": 0,
+        "entityEnglishId": "Ravid",
+        "startingPos": 28,
+        "endingPos": 33
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Ravid M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ravid M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 28,
+        "endingPos": 35
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.07997,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.126421,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 56,
+        "endingPos": 64
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Peptic ulcer",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/symptom",
+          "/medicine/risk_factor",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.35115,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peptic_ulcer",
+        "matchedText": "ulcers",
+        "freebaseId": "/m/0h3h4",
+        "relevanceScore": 0.184311,
+        "entityEnglishId": "Peptic ulcer",
+        "startingPos": 77,
+        "endingPos": 83
+      },
+      {
+        "id": 7,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Dimethyl sulfoxide",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.27563,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dimethyl_sulfoxide",
+        "matchedText": "dimethylsulfoxide",
+        "freebaseId": "/m/02r06y",
+        "relevanceScore": 0.105687,
+        "entityEnglishId": "Dimethyl sulfoxide",
+        "startingPos": 111,
+        "endingPos": 128
+      },
+      {
+        "id": 8,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Journal",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Journal",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 130,
+        "endingPos": 137
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Geriatrics",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/medicine/medical_specialty",
+          "/award/award_winning_work"
+        ],
+        "confidenceScore": 3.87819,
+        "wikiLink": "http://en.wikipedia.org/wiki/Geriatrics",
+        "matchedText": "Geriatrics",
+        "freebaseId": "/m/028dfg",
+        "relevanceScore": 0.0835891,
+        "entityEnglishId": "Geriatrics",
+        "startingPos": 154,
+        "endingPos": 164
+      },
+      {
+        "id": 10,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "entityId": "Journal of the American Geriatrics Society",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.55621,
+        "wikiLink": "http://en.wikipedia.org/wiki/Journal_of_the_American_Geriatrics_Society",
+        "matchedText": "Journal of the American Geriatrics Society",
+        "freebaseId": "/m/05zvxjw",
+        "relevanceScore": 0,
+        "entityEnglishId": "Journal of the American Geriatrics Society",
+        "startingPos": 130,
+        "endingPos": 172
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          30,
+          31,
+          32
+        ],
+        "entityId": "American Geriatrics Society",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/organization/non_profit_organization",
+          "/business/employer"
+        ],
+        "confidenceScore": 3.4762,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Geriatrics_Society",
+        "matchedText": "American Geriatrics Society",
+        "freebaseId": "/m/02qby7m",
+        "relevanceScore": 0.176781,
+        "entityEnglishId": "American Geriatrics Society",
+        "startingPos": 145,
+        "endingPos": 172
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          29,
+          31
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          29,
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          18
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          18
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          9,
+          10,
+          14,
+          15,
+          23
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          25
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          9,
+          10,
+          14,
+          15,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          12,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          9,
+          10,
+          12,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          23,
+          24,
+          25
+        ]
+      }
+    ]
+  },
+  "time": 3.028,
+  "ok": true
+}

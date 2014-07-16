@@ -1,0 +1,904 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.364417
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.349758
+      },
+      {
+        "id": 3,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.349758
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.322216
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.291387
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Restenosis",
+        "wikiLink": "http://en.wikipedia.org/Restenosis",
+        "score": 0.474528
+      },
+      {
+        "id": 1,
+        "label": "Sirolimus",
+        "wikiLink": "http://en.wikipedia.org/Sirolimus",
+        "score": 0.651095
+      },
+      {
+        "id": 2,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.173701
+      },
+      {
+        "id": 3,
+        "label": "Surgery",
+        "wikiLink": "http://en.wikipedia.org/Category:Surgery",
+        "score": 0.13508
+      },
+      {
+        "id": 4,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.120283
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "PCIs",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "PCIs",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 18,
+        "endingPos": 22
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Sirolimus",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/drug_ingredient",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.03269,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sirolimus",
+        "matchedText": "sirolimus",
+        "freebaseId": "/m/02m01g",
+        "relevanceScore": 0.325547,
+        "entityEnglishId": "Sirolimus",
+        "startingPos": 31,
+        "endingPos": 40
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "DES",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "DES",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 41,
+        "endingPos": 44
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Cypher",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Cypher",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 46,
+        "endingPos": 52
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Stent",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.07916,
+        "wikiLink": "http://en.wikipedia.org/wiki/Stent",
+        "matchedText": "stents",
+        "freebaseId": "/m/025lvk",
+        "relevanceScore": 0.0375251,
+        "entityEnglishId": "Stent",
+        "startingPos": 71,
+        "endingPos": 77
+      },
+      {
+        "id": 5,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          45
+        ],
+        "entityId": "DES",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "DES",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 212,
+        "endingPos": 215
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          50
+        ],
+        "entityId": "BMS",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "BMS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 233,
+        "endingPos": 236
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          72
+        ],
+        "entityId": "DES",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "DES",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 300,
+        "endingPos": 303
+      },
+      {
+        "id": 8,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          77
+        ],
+        "entityId": "BMS",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "BMS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 321,
+        "endingPos": 324
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          97
+        ],
+        "entityId": "Restenosis",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 5.57048,
+        "wikiLink": "http://en.wikipedia.org/wiki/Restenosis",
+        "matchedText": "restenosis",
+        "freebaseId": "/m/032gd7",
+        "relevanceScore": 0.474528,
+        "entityEnglishId": "Restenosis",
+        "startingPos": 391,
+        "endingPos": 401
+      },
+      {
+        "id": 10,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          103
+        ],
+        "entityId": "Cypher",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Cypher",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 421,
+        "endingPos": 427
+      },
+      {
+        "id": 11,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          104
+        ],
+        "entityId": "Sirolimus",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/drug_ingredient",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.23269,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sirolimus",
+        "matchedText": "sirolimus",
+        "freebaseId": "/m/02m01g",
+        "relevanceScore": 0.325547,
+        "entityEnglishId": "Sirolimus",
+        "startingPos": 428,
+        "endingPos": 437
+      },
+      {
+        "id": 12,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          105
+        ],
+        "entityId": "DES",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "DES",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 438,
+        "endingPos": 441
+      },
+      {
+        "id": 13,
+        "matchingTokens": [
+          110,
+          111
+        ],
+        "entityId": "CE marking",
+        "confidenceScore": 1.55875,
+        "wikiLink": "http://en.wikipedia.org/wiki/CE_marking",
+        "matchedText": "CE mark",
+        "freebaseId": "/m/04plvj",
+        "relevanceScore": 0.0113915,
+        "entityEnglishId": "CE marking",
+        "startingPos": 455,
+        "endingPos": 462
+      },
+      {
+        "id": 14,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          124
+        ],
+        "entityId": "BMS",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "BMS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 541,
+        "endingPos": 544
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          95,
+          96
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              90,
+              91,
+              92,
+              93,
+              94
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              97
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          108
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              107
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              109,
+              110,
+              111
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          113
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              107,
+              108,
+              109,
+              110,
+              111
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              129,
+              130,
+              132,
+              133,
+              135,
+              136,
+              137,
+              140,
+              141,
+              143,
+              144,
+              146,
+              147,
+              149,
+              150,
+              151,
+              154,
+              155,
+              156,
+              158,
+              159,
+              161,
+              162,
+              164,
+              165,
+              166
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              107,
+              108,
+              109,
+              110,
+              111
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              129,
+              130,
+              132,
+              133,
+              135,
+              136,
+              137,
+              140,
+              141,
+              143,
+              144,
+              146,
+              147,
+              149,
+              150,
+              151,
+              154,
+              155,
+              156,
+              158,
+              159,
+              161,
+              162,
+              164,
+              165,
+              166
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6,
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          13
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          52,
+          53,
+          55,
+          56,
+          58,
+          59,
+          60,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          79,
+          80,
+          82,
+          83,
+          85,
+          86,
+          87
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          39,
+          40
+        ],
+        "propertyPositions": [
+          36,
+          37,
+          38,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          52,
+          53,
+          55,
+          56,
+          58,
+          59,
+          60,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          79,
+          80,
+          82,
+          83,
+          85,
+          86,
+          87
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          36,
+          43,
+          44
+        ],
+        "propertyPositions": [
+          37,
+          38
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          75,
+          76
+        ],
+        "propertyPositions": [
+          77
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          70,
+          71
+        ],
+        "propertyPositions": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          79,
+          80
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          56
+        ],
+        "propertyPositions": [
+          65,
+          66
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          48,
+          49
+        ],
+        "propertyPositions": [
+          50
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          36,
+          43,
+          44
+        ],
+        "propertyPositions": [
+          45,
+          47,
+          48,
+          49,
+          50,
+          52,
+          53,
+          55,
+          56,
+          58,
+          59,
+          60,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          79,
+          80,
+          82,
+          83,
+          85,
+          86,
+          87
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          107
+        ],
+        "propertyPositions": [
+          109,
+          110,
+          111
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          99,
+          100,
+          101
+        ],
+        "propertyPositions": [
+          102,
+          103
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          114,
+          118,
+          119
+        ],
+        "propertyPositions": [
+          115,
+          116,
+          117
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          147
+        ],
+        "propertyPositions": [
+          150,
+          151
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          122,
+          123,
+          125
+        ],
+        "propertyPositions": [
+          124
+        ]
+      },
+      {
+        "id": 16,
+        "wordPositions": [
+          122,
+          123,
+          125
+        ],
+        "propertyPositions": [
+          126,
+          127
+        ]
+      }
+    ]
+  },
+  "time": 3.04,
+  "ok": true
+}

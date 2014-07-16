@@ -1,0 +1,746 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.381515
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.376611
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.356413
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.190884
+      },
+      {
+        "id": 5,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.180798
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chromatography",
+        "wikiLink": "http://en.wikipedia.org/Chromatography",
+        "score": 0.771149
+      },
+      {
+        "id": 1,
+        "label": "High-performance liquid chromatography",
+        "wikiLink": "http://en.wikipedia.org/High-performance_liquid_chromatography",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Laboratory",
+        "wikiLink": "http://en.wikipedia.org/Laboratory",
+        "score": 0.13711
+      },
+      {
+        "id": 3,
+        "label": "Systematic review",
+        "wikiLink": "http://en.wikipedia.org/Systematic_review",
+        "score": 0.152309
+      },
+      {
+        "id": 4,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.530489
+      },
+      {
+        "id": 5,
+        "label": "Laboratories",
+        "wikiLink": "http://en.wikipedia.org/Category:Laboratories",
+        "score": 0.528091
+      },
+      {
+        "id": 6,
+        "label": "Laboratory techniques",
+        "wikiLink": "http://en.wikipedia.org/Category:Laboratory_techniques",
+        "score": 0.262396
+      },
+      {
+        "id": 7,
+        "label": "Unit operations",
+        "wikiLink": "http://en.wikipedia.org/Category:Unit_operations",
+        "score": 0.250343
+      },
+      {
+        "id": 8,
+        "label": "Separation processes",
+        "wikiLink": "http://en.wikipedia.org/Category:Separation_processes",
+        "score": 0.250343
+      },
+      {
+        "id": 9,
+        "label": "Chemical engineering",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_engineering",
+        "score": 0.250343
+      },
+      {
+        "id": 10,
+        "label": "Analytical chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Analytical_chemistry",
+        "score": 0.250343
+      },
+      {
+        "id": 11,
+        "label": "Scientific techniques",
+        "wikiLink": "http://en.wikipedia.org/Category:Scientific_techniques",
+        "score": 0.250343
+      },
+      {
+        "id": 12,
+        "label": "Techniques",
+        "wikiLink": "http://en.wikipedia.org/Category:Techniques",
+        "score": 0.200738
+      },
+      {
+        "id": 13,
+        "label": "Scientific method",
+        "wikiLink": "http://en.wikipedia.org/Category:Scientific_method",
+        "score": 0.200738
+      },
+      {
+        "id": 14,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.164852
+      },
+      {
+        "id": 15,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0859563
+      },
+      {
+        "id": 16,
+        "label": "Measurement",
+        "wikiLink": "http://en.wikipedia.org/Category:Measurement",
+        "score": 0.0804594
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Systematic review",
+        "confidenceScore": 3.13438,
+        "wikiLink": "http://en.wikipedia.org/wiki/Systematic_review",
+        "matchedText": "systematic review",
+        "freebaseId": "/m/08jd5_",
+        "relevanceScore": 0.152309,
+        "entityEnglishId": "Systematic review",
+        "startingPos": 2,
+        "endingPos": 19
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Laboratory",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/architecture/building_function"
+        ],
+        "confidenceScore": 1.73718,
+        "wikiLink": "http://en.wikipedia.org/wiki/Laboratory",
+        "matchedText": "laboratory",
+        "freebaseId": "/m/017clw",
+        "relevanceScore": 0.13711,
+        "entityEnglishId": "Laboratory",
+        "startingPos": 116,
+        "endingPos": 126
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          51
+        ],
+        "entityId": "HbA",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "HbA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 337,
+        "endingPos": 340
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place",
+          "NaturalPlace",
+          "MountainRange"
+        ],
+        "matchingTokens": [
+          56
+        ],
+        "entityId": "Ith",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 1.14615,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ith",
+        "matchedText": "ith",
+        "freebaseId": "/m/06wc7xw",
+        "relevanceScore": 0,
+        "entityEnglishId": "Ith",
+        "startingPos": 357,
+        "endingPos": 360
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          59
+        ],
+        "entityId": "Liquid",
+        "freebaseTypes": [
+          "/medicine/drug_dosage_form",
+          "/chemistry/phase_of_matter"
+        ],
+        "confidenceScore": 1.46297,
+        "wikiLink": "http://en.wikipedia.org/wiki/Liquid",
+        "matchedText": "liquid",
+        "freebaseId": "/m/04k94",
+        "relevanceScore": 0.0683738,
+        "entityEnglishId": "Liquid",
+        "startingPos": 378,
+        "endingPos": 384
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          57,
+          58,
+          59,
+          60
+        ],
+        "entityId": "High-performance liquid chromatography",
+        "confidenceScore": 7.57627,
+        "wikiLink": "http://en.wikipedia.org/wiki/High-performance_liquid_chromatography",
+        "matchedText": "high performance liquid chromatography",
+        "freebaseId": "/m/016l46",
+        "relevanceScore": 0.479325,
+        "entityEnglishId": "High-performance liquid chromatography",
+        "startingPos": 361,
+        "endingPos": 399
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          59,
+          60
+        ],
+        "entityId": "Chromatography",
+        "freebaseTypes": [
+          "/award/award_winning_work"
+        ],
+        "confidenceScore": 4.41408,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chromatography",
+        "matchedText": "liquid chromatography",
+        "freebaseId": "/m/01wcg",
+        "relevanceScore": 0.335074,
+        "entityEnglishId": "Chromatography",
+        "startingPos": 378,
+        "endingPos": 399
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          60
+        ],
+        "entityId": "Chromatography",
+        "freebaseTypes": [
+          "/award/award_winning_work"
+        ],
+        "confidenceScore": 5.74817,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chromatography",
+        "matchedText": "chromatography",
+        "freebaseId": "/m/01wcg",
+        "relevanceScore": 0.436076,
+        "entityEnglishId": "Chromatography",
+        "startingPos": 385,
+        "endingPos": 399
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          62
+        ],
+        "entityId": "High-performance liquid chromatography",
+        "confidenceScore": 7.81493,
+        "wikiLink": "http://en.wikipedia.org/wiki/High-performance_liquid_chromatography",
+        "matchedText": "HPLC",
+        "freebaseId": "/m/016l46",
+        "relevanceScore": 0.514971,
+        "entityEnglishId": "High-performance liquid chromatography",
+        "startingPos": 401,
+        "endingPos": 405
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "entityId": "High-performance liquid chromatography",
+        "confidenceScore": 1.06538,
+        "wikiLink": "http://en.wikipedia.org/wiki/High-performance_liquid_chromatography",
+        "matchedText": "high performance liquid chromatography (HPLC)",
+        "freebaseId": "/m/016l46",
+        "relevanceScore": 0.177133,
+        "entityEnglishId": "High-performance liquid chromatography",
+        "startingPos": 361,
+        "endingPos": 406
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          14,
+          15,
+          16
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              17,
+              18,
+              19
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          23
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              21,
+              22
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          23,
+          24,
+          25,
+          26
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              21,
+              22
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          38
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              36,
+              37
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              39,
+              40,
+              41,
+              42,
+              44,
+              45,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              62
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          38,
+          47,
+          48,
+          54,
+          55
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              36,
+              37,
+              40,
+              41,
+              42,
+              44,
+              45
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              39,
+              49,
+              50,
+              51,
+              52,
+              56,
+              57,
+              58,
+              59,
+              60,
+              62
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          47,
+          48,
+          54,
+          55
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              40,
+              41,
+              42,
+              44,
+              45
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              39,
+              49,
+              50,
+              51,
+              52,
+              56,
+              57,
+              58,
+              59,
+              60,
+              62
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          13
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          25,
+          26
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          34
+        ],
+        "propertyPositions": [
+          33
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          25,
+          26
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          40,
+          42
+        ],
+        "propertyPositions": [
+          41
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          40,
+          42
+        ],
+        "propertyPositions": [
+          44,
+          45
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          51,
+          52
+        ],
+        "propertyPositions": [
+          49,
+          50
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          58,
+          59,
+          60
+        ],
+        "propertyPositions": [
+          56
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          58,
+          59,
+          60
+        ],
+        "propertyPositions": [
+          57
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          58,
+          59,
+          60
+        ],
+        "propertyPositions": [
+          62
+        ]
+      }
+    ]
+  },
+  "time": 3.031,
+  "ok": true
+}

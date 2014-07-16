@@ -1,0 +1,334 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.660191
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.658251
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.428619
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.369287
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.322738
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Coronary artery bypass surgery",
+        "wikiLink": "http://en.wikipedia.org/Coronary_artery_bypass_surgery",
+        "score": 0.456182
+      },
+      {
+        "id": 1,
+        "label": "Extrapolation",
+        "wikiLink": "http://en.wikipedia.org/Extrapolation",
+        "score": 0.459647
+      },
+      {
+        "id": 2,
+        "label": "Survival analysis",
+        "wikiLink": "http://en.wikipedia.org/Survival_analysis",
+        "score": 0.390358
+      },
+      {
+        "id": 3,
+        "label": "Cardiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiology",
+        "score": 0.0307666
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Data",
+        "freebaseTypes": [
+          "/internet/website_category"
+        ],
+        "confidenceScore": 1.33518,
+        "wikiLink": "http://en.wikipedia.org/wiki/Data",
+        "matchedText": "data",
+        "freebaseId": "/m/026sq",
+        "relevanceScore": 0.0603958,
+        "entityEnglishId": "Data",
+        "startingPos": 106,
+        "endingPos": 110
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Extrapolation",
+        "confidenceScore": 3.15453,
+        "wikiLink": "http://en.wikipedia.org/wiki/Extrapolation",
+        "matchedText": "extrapolation",
+        "freebaseId": "/m/02nqrh",
+        "relevanceScore": 0.459647,
+        "entityEnglishId": "Extrapolation",
+        "startingPos": 125,
+        "endingPos": 138
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          32,
+          33
+        ],
+        "entityId": "Survival analysis",
+        "confidenceScore": 1.8519,
+        "wikiLink": "http://en.wikipedia.org/wiki/Survival_analysis",
+        "matchedText": "survival curve",
+        "freebaseId": "/m/026630",
+        "relevanceScore": 0.390358,
+        "entityEnglishId": "Survival analysis",
+        "startingPos": 195,
+        "endingPos": 209
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.60055,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Patient",
+        "startingPos": 213,
+        "endingPos": 221
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "Coronary artery bypass surgery",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 4.09337,
+        "wikiLink": "http://en.wikipedia.org/wiki/Coronary_artery_bypass_surgery",
+        "matchedText": "CABG",
+        "freebaseId": "/m/01br3b",
+        "relevanceScore": 0.456182,
+        "entityEnglishId": "Coronary artery bypass surgery",
+        "startingPos": 260,
+        "endingPos": 264
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          7,
+          10,
+          11
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6,
+              8,
+              9,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          35,
+          37,
+          38
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              36
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              39,
+              40,
+              41,
+              42
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          37,
+          38
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              36
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              39,
+              40,
+              41,
+              42
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          12,
+          16
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12,
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          18,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          26,
+          28,
+          29,
+          30
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          31,
+          32,
+          33,
+          34
+        ],
+        "propertyPositions": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

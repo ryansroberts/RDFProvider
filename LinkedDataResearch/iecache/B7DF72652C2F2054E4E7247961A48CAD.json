@@ -1,0 +1,338 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.791061
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.658152
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.552121
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.378084
+      },
+      {
+        "id": 5,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.360734
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Community",
+        "wikiLink": "http://en.wikipedia.org/Community",
+        "score": 0.173946
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.110618
+      },
+      {
+        "id": 2,
+        "label": "Ethnic group",
+        "wikiLink": "http://en.wikipedia.org/Ethnic_group",
+        "score": 0.117564
+      },
+      {
+        "id": 3,
+        "label": "Minority group",
+        "wikiLink": "http://en.wikipedia.org/Minority_group",
+        "score": 0.486802
+      },
+      {
+        "id": 4,
+        "label": "Identity politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Identity_politics",
+        "score": 0.0901039
+      },
+      {
+        "id": 5,
+        "label": "Corporate groups",
+        "wikiLink": "http://en.wikipedia.org/Category:Corporate_groups",
+        "score": 0.0576151
+      },
+      {
+        "id": 6,
+        "label": "Sociology",
+        "wikiLink": "http://en.wikipedia.org/Category:Sociology",
+        "score": 0.0576151
+      },
+      {
+        "id": 7,
+        "label": "Cultural spheres of influence",
+        "wikiLink": "http://en.wikipedia.org/Category:Cultural_spheres_of_influence",
+        "score": 0.0576151
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Minority group",
+        "confidenceScore": 1.5648,
+        "wikiLink": "http://en.wikipedia.org/wiki/Minority_group",
+        "matchedText": "minority",
+        "freebaseId": "/m/028j0m",
+        "relevanceScore": 0.374613,
+        "entityEnglishId": "Minority group",
+        "startingPos": 69,
+        "endingPos": 77
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Minority group",
+        "confidenceScore": 1.76473,
+        "wikiLink": "http://en.wikipedia.org/wiki/Minority_group",
+        "matchedText": "minority ethnic",
+        "freebaseId": "/m/028j0m",
+        "relevanceScore": 0.112188,
+        "entityEnglishId": "Minority group",
+        "startingPos": 69,
+        "endingPos": 84
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Ethnic group",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.17181,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ethnic_group",
+        "matchedText": "ethnic communities",
+        "freebaseId": "/m/0q9wb",
+        "relevanceScore": 0.117564,
+        "entityEnglishId": "Ethnic group",
+        "startingPos": 78,
+        "endingPos": 96
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Community",
+        "freebaseTypes": [
+          "/radio/radio_subject",
+          "/organization/organization_type",
+          "/media_common/quotation_subject",
+          "/internet/website_category",
+          "/conferences/conference_subject",
+          "/event/speech_topic",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.05357,
+        "wikiLink": "http://en.wikipedia.org/wiki/Community",
+        "matchedText": "communities",
+        "freebaseId": "/m/01qls",
+        "relevanceScore": 0.173946,
+        "entityEnglishId": "Community",
+        "startingPos": 85,
+        "endingPos": 96
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.63014,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.110618,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 102,
+        "endingPos": 110
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          6,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "time": 3.019,
+  "ok": true
+}

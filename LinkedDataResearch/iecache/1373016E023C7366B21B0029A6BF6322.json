@@ -1,0 +1,162 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "International Association for the Study of Pain",
+        "wikiLink": "http://en.wikipedia.org/International_Association_for_the_Study_of_Pain",
+        "score": 0.441897
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "International Association",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "International Association",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 25
+      },
+      {
+        "id": 1,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "entityId": "International Association for the Study of Pain",
+        "freebaseTypes": [
+          "/business/employer",
+          "/organization/organization",
+          "/organization/non_profit_organization",
+          "/business/business_operation"
+        ],
+        "confidenceScore": 3.16461,
+        "wikiLink": "http://en.wikipedia.org/wiki/International_Association_for_the_Study_of_Pain",
+        "matchedText": "International Association for the Study of Pain",
+        "freebaseId": "/m/0bcj3j",
+        "relevanceScore": 0,
+        "entityEnglishId": "International Association for the Study of Pain",
+        "startingPos": 0,
+        "endingPos": 47
+      },
+      {
+        "id": 2,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "International Association for the Study of Pain",
+        "freebaseTypes": [
+          "/business/employer",
+          "/organization/organization",
+          "/organization/non_profit_organization",
+          "/business/business_operation"
+        ],
+        "confidenceScore": 1.66517,
+        "wikiLink": "http://en.wikipedia.org/wiki/International_Association_for_the_Study_of_Pain",
+        "matchedText": "IASP",
+        "freebaseId": "/m/0bcj3j",
+        "relevanceScore": 0.441897,
+        "entityEnglishId": "International Association for the Study of Pain",
+        "startingPos": 55,
+        "endingPos": 59
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6
+        ],
+        "propertyPositions": [
+          8,
+          10,
+          11,
+          13
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6,
+          8,
+          10,
+          11,
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          11,
+          13
+        ]
+      }
+    ]
+  },
+  "time": 3.016,
+  "ok": true
+}

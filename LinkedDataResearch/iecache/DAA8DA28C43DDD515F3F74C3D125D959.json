@@ -1,0 +1,833 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.767284
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.732322
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.586905
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.442974
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.298816
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Assay",
+        "wikiLink": "http://en.wikipedia.org/Assay",
+        "score": 0.193267
+      },
+      {
+        "id": 1,
+        "label": "Blood sugar",
+        "wikiLink": "http://en.wikipedia.org/Blood_sugar",
+        "score": 0.169519
+      },
+      {
+        "id": 2,
+        "label": "Diabetes control and complications trial",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_control_and_complications_trial",
+        "score": 0.580609
+      },
+      {
+        "id": 3,
+        "label": "Evidence (law)",
+        "wikiLink": "http://en.wikipedia.org/Evidence_(law)",
+        "score": 0.120913
+      },
+      {
+        "id": 4,
+        "label": "Gamma-Hydroxybutyric acid",
+        "wikiLink": "http://en.wikipedia.org/Gamma-Hydroxybutyric_acid",
+        "score": 0.135083
+      },
+      {
+        "id": 5,
+        "label": "Glucose",
+        "wikiLink": "http://en.wikipedia.org/Glucose",
+        "score": 0.11342
+      },
+      {
+        "id": 6,
+        "label": "Randomized controlled trial",
+        "wikiLink": "http://en.wikipedia.org/Randomized_controlled_trial",
+        "score": 0.397565
+      },
+      {
+        "id": 7,
+        "label": "Systematic review",
+        "wikiLink": "http://en.wikipedia.org/Systematic_review",
+        "score": 0.272246
+      },
+      {
+        "id": 8,
+        "label": "Empiricism",
+        "wikiLink": "http://en.wikipedia.org/Category:Empiricism",
+        "score": 0.703229
+      },
+      {
+        "id": 9,
+        "label": "Statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistics",
+        "score": 0.679746
+      },
+      {
+        "id": 10,
+        "label": "Scientific method",
+        "wikiLink": "http://en.wikipedia.org/Category:Scientific_method",
+        "score": 0.590245
+      },
+      {
+        "id": 11,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.443786
+      },
+      {
+        "id": 12,
+        "label": "Evidence-based practices",
+        "wikiLink": "http://en.wikipedia.org/Category:Evidence-based_practices",
+        "score": 0.413079
+      },
+      {
+        "id": 13,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.383489
+      },
+      {
+        "id": 14,
+        "label": "Mathematical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_sciences",
+        "score": 0.380424
+      },
+      {
+        "id": 15,
+        "label": "Probability and statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Probability_and_statistics",
+        "score": 0.380424
+      },
+      {
+        "id": 16,
+        "label": "Mathematical and quantitative methods (economics)",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_and_quantitative_methods_(economics)",
+        "score": 0.380424
+      },
+      {
+        "id": 17,
+        "label": "Tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Tests",
+        "score": 0.33453
+      },
+      {
+        "id": 18,
+        "label": "Data collection",
+        "wikiLink": "http://en.wikipedia.org/Category:Data_collection",
+        "score": 0.319773
+      },
+      {
+        "id": 19,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.264192
+      },
+      {
+        "id": 20,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.198857
+      },
+      {
+        "id": 21,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.182195
+      },
+      {
+        "id": 22,
+        "label": "Human metabolites",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_metabolites",
+        "score": 0.174223
+      },
+      {
+        "id": 23,
+        "label": "Clinical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_pathology",
+        "score": 0.174223
+      },
+      {
+        "id": 24,
+        "label": "Chemical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_pathology",
+        "score": 0.174223
+      },
+      {
+        "id": 25,
+        "label": "Hematology",
+        "wikiLink": "http://en.wikipedia.org/Category:Hematology",
+        "score": 0.173744
+      },
+      {
+        "id": 26,
+        "label": "Blood",
+        "wikiLink": "http://en.wikipedia.org/Category:Blood",
+        "score": 0.173744
+      },
+      {
+        "id": 27,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.140936
+      },
+      {
+        "id": 28,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.135121
+      },
+      {
+        "id": 29,
+        "label": "Social problems",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_problems",
+        "score": 0.129687
+      },
+      {
+        "id": 30,
+        "label": "Clinical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_research",
+        "score": 0.124307
+      },
+      {
+        "id": 31,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.120867
+      },
+      {
+        "id": 32,
+        "label": "Critical thinking",
+        "wikiLink": "http://en.wikipedia.org/Category:Critical_thinking",
+        "score": 0.120515
+      },
+      {
+        "id": 33,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.114291
+      },
+      {
+        "id": 34,
+        "label": "Research",
+        "wikiLink": "http://en.wikipedia.org/Category:Research_by_field",
+        "score": 0.113757
+      },
+      {
+        "id": 35,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.113757
+      },
+      {
+        "id": 36,
+        "label": "Analysis",
+        "wikiLink": "http://en.wikipedia.org/Category:Analysis",
+        "score": 0.100838
+      },
+      {
+        "id": 37,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.100373
+      },
+      {
+        "id": 38,
+        "label": "Euthenics",
+        "wikiLink": "http://en.wikipedia.org/Category:Euthenics",
+        "score": 0.0999282
+      },
+      {
+        "id": 39,
+        "label": "Statistical data types",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistical_data_types",
+        "score": 0.0827142
+      },
+      {
+        "id": 40,
+        "label": "Statistical data sets",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistical_data_sets",
+        "score": 0.0827142
+      },
+      {
+        "id": 41,
+        "label": "Epidemiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Epidemiology",
+        "score": 0.0827142
+      },
+      {
+        "id": 42,
+        "label": "Mathematical and theoretical biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_and_theoretical_biology",
+        "score": 0.0827142
+      },
+      {
+        "id": 43,
+        "label": "Fields of application of statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_application_of_statistics",
+        "score": 0.0827142
+      },
+      {
+        "id": 44,
+        "label": "Biostatistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Biostatistics",
+        "score": 0.0827142
+      },
+      {
+        "id": 45,
+        "label": "Data types",
+        "wikiLink": "http://en.wikipedia.org/Category:Data_types",
+        "score": 0.0827142
+      },
+      {
+        "id": 46,
+        "label": "Epistemology of science",
+        "wikiLink": "http://en.wikipedia.org/Category:Epistemology_of_science",
+        "score": 0.0598636
+      },
+      {
+        "id": 47,
+        "label": "Philosophy",
+        "wikiLink": "http://en.wikipedia.org/Category:Philosophy_by_field",
+        "score": 0.050059
+      },
+      {
+        "id": 48,
+        "label": "Mereology",
+        "wikiLink": "http://en.wikipedia.org/Category:Mereology",
+        "score": 0.050059
+      },
+      {
+        "id": 49,
+        "label": "Methodology",
+        "wikiLink": "http://en.wikipedia.org/Category:Methodology",
+        "score": 0.050059
+      },
+      {
+        "id": 50,
+        "label": "Science experiments",
+        "wikiLink": "http://en.wikipedia.org/Category:Science_experiments",
+        "score": 0.050059
+      },
+      {
+        "id": 51,
+        "label": "Procurement",
+        "wikiLink": "http://en.wikipedia.org/Category:Procurement",
+        "score": 0.050059
+      },
+      {
+        "id": 52,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.050059
+      },
+      {
+        "id": 53,
+        "label": "Experiments",
+        "wikiLink": "http://en.wikipedia.org/Category:Experiments",
+        "score": 0.050059
+      },
+      {
+        "id": 54,
+        "label": "Data management",
+        "wikiLink": "http://en.wikipedia.org/Category:Data_management",
+        "score": 0.050059
+      },
+      {
+        "id": 55,
+        "label": "Causality",
+        "wikiLink": "http://en.wikipedia.org/Category:Causality",
+        "score": 0.050059
+      },
+      {
+        "id": 56,
+        "label": "Ontology",
+        "wikiLink": "http://en.wikipedia.org/Category:Ontology",
+        "score": 0.050059
+      },
+      {
+        "id": 57,
+        "label": "Problem solving",
+        "wikiLink": "http://en.wikipedia.org/Category:Problem_solving",
+        "score": 0.050059
+      },
+      {
+        "id": 58,
+        "label": "Metaphysics of science",
+        "wikiLink": "http://en.wikipedia.org/Category:Metaphysics_of_science",
+        "score": 0.050059
+      },
+      {
+        "id": 59,
+        "label": "Time",
+        "wikiLink": "http://en.wikipedia.org/Category:Time",
+        "score": 0.050059
+      },
+      {
+        "id": 60,
+        "label": "Design of experiments",
+        "wikiLink": "http://en.wikipedia.org/Category:Design_of_experiments",
+        "score": 0.050059
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          2,
+          3
+        ],
+        "entityId": "Systematic review",
+        "confidenceScore": 5.91705,
+        "wikiLink": "http://en.wikipedia.org/wiki/Systematic_review",
+        "matchedText": "systematic review",
+        "freebaseId": "/m/08jd5_",
+        "relevanceScore": 0.272246,
+        "entityEnglishId": "Systematic review",
+        "startingPos": 9,
+        "endingPos": 26
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Randomization",
+        "confidenceScore": 1.18222,
+        "wikiLink": "http://en.wikipedia.org/wiki/Randomization",
+        "matchedText": "randomised",
+        "freebaseId": "/m/0hcvk",
+        "relevanceScore": 0.0249531,
+        "entityEnglishId": "Randomization",
+        "startingPos": 43,
+        "endingPos": 53
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          8,
+          9,
+          10
+        ],
+        "entityId": "Randomized controlled trial",
+        "freebaseTypes": [
+          "/law/invention"
+        ],
+        "confidenceScore": 3.84408,
+        "wikiLink": "http://en.wikipedia.org/wiki/Randomized_controlled_trial",
+        "matchedText": "randomised controlled trial",
+        "freebaseId": "/m/015p9x",
+        "relevanceScore": 0.169978,
+        "entityEnglishId": "Randomized controlled trial",
+        "startingPos": 43,
+        "endingPos": 70
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Randomized controlled trial",
+        "freebaseTypes": [
+          "/law/invention"
+        ],
+        "confidenceScore": 1.83893,
+        "wikiLink": "http://en.wikipedia.org/wiki/Randomized_controlled_trial",
+        "matchedText": "controlled trial",
+        "freebaseId": "/m/015p9x",
+        "relevanceScore": 0.227587,
+        "entityEnglishId": "Randomized controlled trial",
+        "startingPos": 54,
+        "endingPos": 70
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Evidence (law)",
+        "confidenceScore": 1.29065,
+        "wikiLink": "http://en.wikipedia.org/wiki/Evidence_(law)",
+        "matchedText": "evidence",
+        "freebaseId": "/m/06d34f",
+        "relevanceScore": 0.120913,
+        "entityEnglishId": "Evidence (law)",
+        "startingPos": 71,
+        "endingPos": 79
+      },
+      {
+        "id": 5,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Gamma-Hydroxybutyric acid",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/chemistry/chemical_compound",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 4.40014,
+        "wikiLink": "http://en.wikipedia.org/wiki/Gamma-Hydroxybutyric_acid",
+        "matchedText": "GHb",
+        "freebaseId": "/m/03d7_",
+        "relevanceScore": 0.135083,
+        "entityEnglishId": "Gamma-Hydroxybutyric acid",
+        "startingPos": 102,
+        "endingPos": 105
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Measurement",
+        "confidenceScore": 1.3625,
+        "wikiLink": "http://en.wikipedia.org/wiki/Measurement",
+        "matchedText": "measurements",
+        "freebaseId": "/m/04t14",
+        "relevanceScore": 0.0562142,
+        "entityEnglishId": "Measurement",
+        "startingPos": 106,
+        "endingPos": 118
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Diabetes control and complications trial",
+        "confidenceScore": 1.40208,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_control_and_complications_trial",
+        "matchedText": "DCCT",
+        "freebaseId": "/m/0f_m9x",
+        "relevanceScore": 0.580609,
+        "entityEnglishId": "Diabetes control and complications trial",
+        "startingPos": 157,
+        "endingPos": 161
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Assay",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.14345,
+        "wikiLink": "http://en.wikipedia.org/wiki/Assay",
+        "matchedText": "assays",
+        "freebaseId": "/m/02hddz",
+        "relevanceScore": 0.193267,
+        "entityEnglishId": "Assay",
+        "startingPos": 199,
+        "endingPos": 205
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Blood",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/food/ingredient",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.60018,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood",
+        "matchedText": "blood",
+        "freebaseId": "/m/019jw",
+        "relevanceScore": 0.0857733,
+        "entityEnglishId": "Blood",
+        "startingPos": 244,
+        "endingPos": 249
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          37,
+          38
+        ],
+        "entityId": "Blood sugar",
+        "confidenceScore": 3.06795,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_sugar",
+        "matchedText": "blood glucose",
+        "freebaseId": "/m/01qd35",
+        "relevanceScore": 0.169519,
+        "entityEnglishId": "Blood sugar",
+        "startingPos": 244,
+        "endingPos": 257
+      },
+      {
+        "id": 11,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "Glucose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.12414,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucose",
+        "matchedText": "glucose",
+        "freebaseId": "/m/02kb_m_",
+        "relevanceScore": 0.11342,
+        "entityEnglishId": "Glucose",
+        "startingPos": 250,
+        "endingPos": 257
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          45
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 3.59739,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "morbidity",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.0996315,
+        "entityEnglishId": "Disease",
+        "startingPos": 286,
+        "endingPos": 295
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          3,
+          5
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          27,
+          28,
+          29
+        ],
+        "propertyPositions": [
+          30,
+          31
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          37,
+          38,
+          39
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          37,
+          38,
+          39
+        ],
+        "propertyPositions": [
+          36
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          41,
+          42,
+          43,
+          44
+        ],
+        "propertyPositions": [
+          45
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "time": 3.029,
+  "ok": true
+}

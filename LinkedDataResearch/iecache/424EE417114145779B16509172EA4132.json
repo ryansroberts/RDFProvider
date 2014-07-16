@@ -1,0 +1,516 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.50668
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.495678
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.258015
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.255147
+      },
+      {
+        "id": 5,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.249686
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Glucose",
+        "wikiLink": "http://en.wikipedia.org/Glucose",
+        "score": 0.546009
+      },
+      {
+        "id": 1,
+        "label": "Honey",
+        "wikiLink": "http://en.wikipedia.org/Honey",
+        "score": 0.20232
+      },
+      {
+        "id": 2,
+        "label": "Hypoglycemia",
+        "wikiLink": "http://en.wikipedia.org/Hypoglycemia",
+        "score": 0.720795
+      },
+      {
+        "id": 3,
+        "label": "Milk",
+        "wikiLink": "http://en.wikipedia.org/Milk",
+        "score": 0.184133
+      },
+      {
+        "id": 4,
+        "label": "Flavors",
+        "wikiLink": "http://en.wikipedia.org/Category:Flavors",
+        "score": 0.074969
+      },
+      {
+        "id": 5,
+        "label": "Sweeteners",
+        "wikiLink": "http://en.wikipedia.org/Category:Sweeteners",
+        "score": 0.074969
+      },
+      {
+        "id": 6,
+        "label": "Gustation",
+        "wikiLink": "http://en.wikipedia.org/Category:Gustation",
+        "score": 0.0743902
+      },
+      {
+        "id": 7,
+        "label": "Food additives",
+        "wikiLink": "http://en.wikipedia.org/Category:Food_additives",
+        "score": 0.0743902
+      },
+      {
+        "id": 8,
+        "label": "Food science",
+        "wikiLink": "http://en.wikipedia.org/Category:Food_science",
+        "score": 0.0743902
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Canada",
+        "freebaseTypes": [
+          "/law/court_jurisdiction_area",
+          "/sports/sports_team_location",
+          "/royalty/kingdom",
+          "/periodicals/newspaper_circulation_area",
+          "/film/film_location",
+          "/exhibitions/exhibition_sponsor",
+          "/organization/organization_member",
+          "/military/military_combatant",
+          "/cvg/computer_game_region",
+          "/fictional_universe/fictional_setting",
+          "/location/dated_location",
+          "/olympics/olympic_participating_country",
+          "/organization/organization_founder",
+          "/tv/tv_location",
+          "/sports/sport_country",
+          "/business/employer",
+          "/book/book_subject",
+          "/food/beer_country_region",
+          "/location/statistical_region",
+          "/biology/breed_origin",
+          "/location/country",
+          "/symbols/flag_referent",
+          "/film/film_subject",
+          "/government/governmental_jurisdiction",
+          "/symbols/coat_of_arms_bearer",
+          "/location/administrative_division",
+          "/organization/organization_scope",
+          "/location/location"
+        ],
+        "confidenceScore": 2.06481,
+        "wikiLink": "http://en.wikipedia.org/wiki/Canada",
+        "matchedText": "Canadian",
+        "freebaseId": "/m/0d060g",
+        "relevanceScore": 0.0519675,
+        "entityEnglishId": "Canada",
+        "startingPos": 21,
+        "endingPos": 29
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Hypoglycemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 9.08469,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypoglycemia",
+        "matchedText": "hypoglycaemia",
+        "freebaseId": "/m/03gwt",
+        "relevanceScore": 0.720795,
+        "entityEnglishId": "Hypoglycemia",
+        "startingPos": 135,
+        "endingPos": 148
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Glucose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 2.80091,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucose",
+        "matchedText": "glucose",
+        "freebaseId": "/m/02kb_m_",
+        "relevanceScore": 0.117822,
+        "entityEnglishId": "Glucose",
+        "startingPos": 174,
+        "endingPos": 181
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Glucose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 5.92892,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucose",
+        "matchedText": "dextrose",
+        "freebaseId": "/m/02kb_m_",
+        "relevanceScore": 0.428187,
+        "entityEnglishId": "Glucose",
+        "startingPos": 183,
+        "endingPos": 191
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Milk",
+        "freebaseTypes": [
+          "/food/beverage_type",
+          "/food/ingredient",
+          "/location/symbol_of_administrative_division",
+          "/food/food",
+          "/book/book_subject",
+          "/business/endorsed_product"
+        ],
+        "confidenceScore": 1.52704,
+        "wikiLink": "http://en.wikipedia.org/wiki/Milk",
+        "matchedText": "milk",
+        "freebaseId": "/m/04zpv",
+        "relevanceScore": 0.184133,
+        "entityEnglishId": "Milk",
+        "startingPos": 205,
+        "endingPos": 209
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Honey",
+        "freebaseTypes": [
+          "/biology/breed_coloring",
+          "/book/book_subject",
+          "/medicine/drug_dosage_flavor",
+          "/food/food",
+          "/food/ingredient",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 2.51982,
+        "wikiLink": "http://en.wikipedia.org/wiki/Honey",
+        "matchedText": "honey",
+        "freebaseId": "/m/03qmh",
+        "relevanceScore": 0.20232,
+        "entityEnglishId": "Honey",
+        "startingPos": 213,
+        "endingPos": 218
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              22,
+              23,
+              24,
+              25,
+              26,
+              28,
+              30,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          9,
+          22
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              23,
+              24,
+              25,
+              26,
+              28,
+              30,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              22,
+              23,
+              24,
+              25,
+              26,
+              28,
+              30,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          5
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          23,
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          28,
+          30,
+          32,
+          33,
+          34,
+          35
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          37
+        ],
+        "propertyPositions": [
+          36,
+          38,
+          39
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          10,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          10,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 3.026,
+  "ok": true
+}

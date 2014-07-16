@@ -1,0 +1,364 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.403506
+      },
+      {
+        "id": 2,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.399833
+      },
+      {
+        "id": 3,
+        "label": "Sports",
+        "wikiLink": "http://en.wikipedia.org/Category:Sports",
+        "score": 0.399833
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.362561
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.182139
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cardiac muscle",
+        "wikiLink": "http://en.wikipedia.org/Cardiac_muscle",
+        "score": 0.160923
+      },
+      {
+        "id": 1,
+        "label": "Infarction",
+        "wikiLink": "http://en.wikipedia.org/Infarction",
+        "score": 0.275674
+      },
+      {
+        "id": 2,
+        "label": "Myocardial infarction",
+        "wikiLink": "http://en.wikipedia.org/Myocardial_infarction",
+        "score": 0.216853
+      },
+      {
+        "id": 3,
+        "label": "Rosiglitazone",
+        "wikiLink": "http://en.wikipedia.org/Rosiglitazone",
+        "score": 0.706605
+      },
+      {
+        "id": 4,
+        "label": "Cardiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiology",
+        "score": 0.157429
+      },
+      {
+        "id": 5,
+        "label": "Causes of death",
+        "wikiLink": "http://en.wikipedia.org/Category:Causes_of_death",
+        "score": 0.0935645
+      },
+      {
+        "id": 6,
+        "label": "Death",
+        "wikiLink": "http://en.wikipedia.org/Category:Death",
+        "score": 0.0935645
+      },
+      {
+        "id": 7,
+        "label": "Sports instruction",
+        "wikiLink": "http://en.wikipedia.org/Category:Sports_instruction",
+        "score": 0.0881606
+      },
+      {
+        "id": 8,
+        "label": "Human physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_physiology",
+        "score": 0.0881606
+      },
+      {
+        "id": 9,
+        "label": "Physical exercise",
+        "wikiLink": "http://en.wikipedia.org/Category:Physical_exercise",
+        "score": 0.0881606
+      },
+      {
+        "id": 10,
+        "label": "Exercise physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Exercise_physiology",
+        "score": 0.0881606
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Diamond GA",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Diamond GA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Bax L",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bax L",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 12,
+        "endingPos": 17
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Kaul S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kaul S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 19,
+        "endingPos": 25
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Rosiglitazone",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 8.41222,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rosiglitazone",
+        "matchedText": "rosiglitazone",
+        "freebaseId": "/m/02vn54",
+        "relevanceScore": 0.706605,
+        "entityEnglishId": "Rosiglitazone",
+        "startingPos": 54,
+        "endingPos": 67
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Cardiac muscle",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.2819,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiac_muscle",
+        "matchedText": "myocardial",
+        "freebaseId": "/m/026vdt",
+        "relevanceScore": 0.160923,
+        "entityEnglishId": "Cardiac muscle",
+        "startingPos": 84,
+        "endingPos": 94
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Myocardial infarction",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/disease_cause",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 7.07306,
+        "wikiLink": "http://en.wikipedia.org/wiki/Myocardial_infarction",
+        "matchedText": "myocardial infarction",
+        "freebaseId": "/m/0gk4g",
+        "relevanceScore": 0.216853,
+        "entityEnglishId": "Myocardial infarction",
+        "startingPos": 84,
+        "endingPos": 105
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Infarction",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.98211,
+        "wikiLink": "http://en.wikipedia.org/wiki/Infarction",
+        "matchedText": "infarction",
+        "freebaseId": "/m/02vnfx",
+        "relevanceScore": 0.275674,
+        "entityEnglishId": "Infarction",
+        "startingPos": 95,
+        "endingPos": 105
+      },
+      {
+        "id": 7,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Circulatory system",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.7665,
+        "wikiLink": "http://en.wikipedia.org/wiki/Circulatory_system",
+        "matchedText": "cardiovascular",
+        "freebaseId": "/m/0frx0",
+        "relevanceScore": 0.0388106,
+        "entityEnglishId": "Circulatory system",
+        "startingPos": 110,
+        "endingPos": 124
+      },
+      {
+        "id": 8,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          25,
+          26,
+          27,
+          28
+        ],
+        "entityId": "Annals of Internal Medicine",
+        "freebaseTypes": [
+          "/book/journal",
+          "/book/periodical"
+        ],
+        "confidenceScore": 2.28034,
+        "wikiLink": "http://en.wikipedia.org/wiki/Annals_of_Internal_Medicine",
+        "matchedText": "Annals of Internal Medicine",
+        "freebaseId": "/m/0glqp7",
+        "relevanceScore": 0,
+        "entityEnglishId": "Annals of Internal Medicine",
+        "startingPos": 132,
+        "endingPos": 159
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          27,
+          28
+        ],
+        "entityId": "Internal medicine",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 2.02925,
+        "wikiLink": "http://en.wikipedia.org/wiki/Internal_medicine",
+        "matchedText": "Internal Medicine",
+        "freebaseId": "/m/01d3n8",
+        "relevanceScore": 0,
+        "entityEnglishId": "Internal medicine",
+        "startingPos": 142,
+        "endingPos": 159
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          25,
+          26
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          29
+        ]
+      }
+    ]
+  },
+  "time": 3.02,
+  "ok": true
+}

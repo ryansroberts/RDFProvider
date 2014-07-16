@@ -1,0 +1,500 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.501617
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.501617
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.501617
+      },
+      {
+        "id": 4,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.498383
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.498383
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.210036
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Masson EA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Masson EA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Angle S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Angle S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 18
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Roseman P",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Roseman P",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 20,
+        "endingPos": 29
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Soper C",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Soper C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 31,
+        "endingPos": 38
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Wilson I",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wilson I",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 40,
+        "endingPos": 48
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Cotton",
+        "freebaseTypes": [
+          "/visual_art/visual_art_medium",
+          "/book/book_subject",
+          "/fashion/fiber",
+          "/book/periodical_subject"
+        ],
+        "confidenceScore": 1.0433,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cotton",
+        "matchedText": "Cotton",
+        "freebaseId": "/m/095zt",
+        "relevanceScore": 0.047852,
+        "entityEnglishId": "Cotton",
+        "startingPos": 50,
+        "endingPos": 56
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Cotton M",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Cotton M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 50,
+        "endingPos": 58
+      },
+      {
+        "id": 7,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Boulton AJM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Boulton AJM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 60,
+        "endingPos": 71
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.35575,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.105018,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 79,
+        "endingPos": 87
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23,
+          24
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.11202,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "Diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0.0959459,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 79,
+        "endingPos": 92
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.28476,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.0609795,
+        "entityEnglishId": "Patient",
+        "startingPos": 104,
+        "endingPos": 112
+      },
+      {
+        "id": 11,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.64966,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.105018,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 155,
+        "endingPos": 163
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          27,
+          29
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              3,
+              4,
+              6,
+              7,
+              9,
+              10,
+              12,
+              13,
+              15,
+              16,
+              18,
+              19,
+              21,
+              23,
+              24,
+              25,
+              28
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              30,
+              31,
+              32,
+              33
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          27,
+          29,
+          30,
+          31,
+          32
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              3,
+              4,
+              6,
+              7,
+              9,
+              10,
+              12,
+              13,
+              15,
+              16,
+              18,
+              19,
+              21,
+              23,
+              24,
+              25,
+              28
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              33
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          36
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          15,
+          16,
+          21,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          12,
+          13,
+          15,
+          16,
+          21,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          15,
+          16,
+          21,
+          23,
+          24,
+          25
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

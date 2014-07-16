@@ -1,0 +1,404 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.514686
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.514686
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.514686
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.514686
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Islets of Langerhans",
+        "wikiLink": "http://en.wikipedia.org/Islets_of_Langerhans",
+        "score": 0.364564
+      },
+      {
+        "id": 1,
+        "label": "Organ transplantation",
+        "wikiLink": "http://en.wikipedia.org/Organ_transplantation",
+        "score": 0.103431
+      },
+      {
+        "id": 2,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.050896
+      },
+      {
+        "id": 3,
+        "label": "Transplantation medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Transplantation_medicine",
+        "score": 0.050896
+      },
+      {
+        "id": 4,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.050896
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.050896
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Toso C",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Toso C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 6
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Shapiro JAM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Shapiro JAM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 8,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Bowker S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bowker S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 29
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          13,
+          14,
+          15
+        ],
+        "entityId": "Quality of life",
+        "freebaseTypes": [
+          "/tv/tv_genre",
+          "/media_common/media_genre"
+        ],
+        "confidenceScore": 1.67226,
+        "wikiLink": "http://en.wikipedia.org/wiki/Quality_of_life",
+        "matchedText": "Quality of life",
+        "freebaseId": "/m/0cvgr",
+        "relevanceScore": 0.0283886,
+        "entityEnglishId": "Quality of life",
+        "startingPos": 43,
+        "endingPos": 58
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Islet",
+        "freebaseTypes": [
+          "/geography/geographical_feature_category"
+        ],
+        "confidenceScore": 1.43865,
+        "wikiLink": "http://en.wikipedia.org/wiki/Islet",
+        "matchedText": "islet",
+        "freebaseId": "/m/01jyr1",
+        "relevanceScore": 0,
+        "entityEnglishId": "Islet",
+        "startingPos": 65,
+        "endingPos": 70
+      },
+      {
+        "id": 5,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Islets of Langerhans",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 2.07531,
+        "wikiLink": "http://en.wikipedia.org/wiki/Islets_of_Langerhans",
+        "matchedText": "islet cell",
+        "freebaseId": "/m/01cb0n",
+        "relevanceScore": 0.364564,
+        "entityEnglishId": "Islets of Langerhans",
+        "startingPos": 65,
+        "endingPos": 75
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          17,
+          18,
+          19
+        ],
+        "entityId": "Islet cell transplantation",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.63408,
+        "wikiLink": "http://en.wikipedia.org/wiki/Islet_cell_transplantation",
+        "matchedText": "islet cell transplantation",
+        "freebaseId": "/m/0gcgrr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Islet cell transplantation",
+        "startingPos": 65,
+        "endingPos": 91
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Organ transplantation",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject",
+          "/award/award_winning_work",
+          "/medicine/risk_factor",
+          "/radio/radio_subject"
+        ],
+        "confidenceScore": 1.56902,
+        "wikiLink": "http://en.wikipedia.org/wiki/Organ_transplantation",
+        "matchedText": "transplantation",
+        "freebaseId": "/m/016bb2",
+        "relevanceScore": 0.103431,
+        "entityEnglishId": "Organ transplantation",
+        "startingPos": 76,
+        "endingPos": 91
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Islet",
+        "freebaseTypes": [
+          "/geography/geographical_feature_category"
+        ],
+        "confidenceScore": 1.43865,
+        "wikiLink": "http://en.wikipedia.org/wiki/Islet",
+        "matchedText": "islet",
+        "freebaseId": "/m/01jyr1",
+        "relevanceScore": 0,
+        "entityEnglishId": "Islet",
+        "startingPos": 118,
+        "endingPos": 123
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Blood transfusion",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.83276,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_transfusion",
+        "matchedText": "transfusions",
+        "freebaseId": "/m/0m71p",
+        "relevanceScore": 0.0616709,
+        "entityEnglishId": "Blood transfusion",
+        "startingPos": 124,
+        "endingPos": 136
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          9,
+          13,
+          14,
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          9,
+          13,
+          14,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          30
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          23,
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ]
+  },
+  "time": 3.025,
+  "ok": true
+}

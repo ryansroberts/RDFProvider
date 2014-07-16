@@ -1,0 +1,424 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.212566
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.202743
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.200075
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.197461
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.183038
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Clinical trial",
+        "wikiLink": "http://en.wikipedia.org/Clinical_trial",
+        "score": 0.176926
+      },
+      {
+        "id": 1,
+        "label": "Debridement",
+        "wikiLink": "http://en.wikipedia.org/Debridement",
+        "score": 0.20049
+      },
+      {
+        "id": 2,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.220967
+      },
+      {
+        "id": 3,
+        "label": "Diabetic foot",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot",
+        "score": 0.177001
+      },
+      {
+        "id": 4,
+        "label": "Diabetic foot ulcer",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot_ulcer",
+        "score": 0.840068
+      },
+      {
+        "id": 5,
+        "label": "Ulcer (dermatology)",
+        "wikiLink": "http://en.wikipedia.org/Ulcer_(dermatology)",
+        "score": 0.556879
+      },
+      {
+        "id": 6,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.520065
+      },
+      {
+        "id": 7,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.479003
+      },
+      {
+        "id": 8,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.454851
+      },
+      {
+        "id": 9,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.246519
+      },
+      {
+        "id": 10,
+        "label": "Medical treatments",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_treatments",
+        "score": 0.166537
+      },
+      {
+        "id": 11,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.0966488
+      },
+      {
+        "id": 12,
+        "label": "Dermatology",
+        "wikiLink": "http://en.wikipedia.org/Category:Dermatology",
+        "score": 0.0807034
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Clinical trial",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/law/invention"
+        ],
+        "confidenceScore": 4.53709,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_trial",
+        "matchedText": "clinical trial",
+        "freebaseId": "/m/01k22z",
+        "relevanceScore": 0.176926,
+        "entityEnglishId": "Clinical trial",
+        "startingPos": 8,
+        "endingPos": 22
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Gel",
+        "freebaseTypes": [
+          "/medicine/drug_dosage_form"
+        ],
+        "confidenceScore": 3.40254,
+        "wikiLink": "http://en.wikipedia.org/wiki/Gel",
+        "matchedText": "hydrogel",
+        "freebaseId": "/m/0b9c0",
+        "relevanceScore": 0,
+        "entityEnglishId": "Gel",
+        "startingPos": 75,
+        "endingPos": 83
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Debridement",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.32321,
+        "wikiLink": "http://en.wikipedia.org/wiki/Debridement",
+        "matchedText": "debride",
+        "freebaseId": "/m/034z3l",
+        "relevanceScore": 0.20049,
+        "entityEnglishId": "Debridement",
+        "startingPos": 87,
+        "endingPos": 94
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.9708,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.220967,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 96,
+        "endingPos": 104
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.54519,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0.177001,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 96,
+        "endingPos": 109
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Diabetic foot ulcer",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.4086,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot_ulcer",
+        "matchedText": "foot ulcers",
+        "freebaseId": "/m/064p1q4",
+        "relevanceScore": 0.840068,
+        "entityEnglishId": "Diabetic foot ulcer",
+        "startingPos": 105,
+        "endingPos": 116
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Ulcer (dermatology)",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.5188,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ulcer_(dermatology)",
+        "matchedText": "ulcers",
+        "freebaseId": "/m/01klgg",
+        "relevanceScore": 0.556879,
+        "entityEnglishId": "Ulcer (dermatology)",
+        "startingPos": 110,
+        "endingPos": 116
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              6
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              6
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              13,
+              15
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10,
+          11,
+          12,
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          10,
+          11,
+          12,
+          14
+        ],
+        "propertyPositions": [
+          15
+        ]
+      }
+    ]
+  },
+  "time": 3.02,
+  "ok": true
+}

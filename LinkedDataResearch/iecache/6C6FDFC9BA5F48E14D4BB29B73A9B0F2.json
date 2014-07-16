@@ -1,0 +1,665 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.948811
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Exenatide",
+        "wikiLink": "http://en.wikipedia.org/Exenatide",
+        "score": 0.263015
+      },
+      {
+        "id": 1,
+        "label": "Kilogram",
+        "wikiLink": "http://en.wikipedia.org/Kilogram",
+        "score": 0.142423
+      },
+      {
+        "id": 2,
+        "label": "Metformin",
+        "wikiLink": "http://en.wikipedia.org/Metformin",
+        "score": 0.172808
+      },
+      {
+        "id": 3,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.120276
+      },
+      {
+        "id": 4,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.337772
+      },
+      {
+        "id": 5,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.337772
+      },
+      {
+        "id": 6,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.337772
+      },
+      {
+        "id": 7,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.0439796
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Kendall",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kendall",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 7
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Hypoglycemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.31995,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypoglycemia",
+        "matchedText": "hypoglycaemia",
+        "freebaseId": "/m/03gwt",
+        "relevanceScore": 0.0837599,
+        "entityEnglishId": "Hypoglycemia",
+        "startingPos": 53,
+        "endingPos": 66
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Exenatide",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.729,
+        "wikiLink": "http://en.wikipedia.org/wiki/Exenatide",
+        "matchedText": "exenatide",
+        "freebaseId": "/m/093_zf",
+        "relevanceScore": 0.0876716,
+        "entityEnglishId": "Exenatide",
+        "startingPos": 87,
+        "endingPos": 96
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.61338,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.172808,
+        "entityEnglishId": "Metformin",
+        "startingPos": 102,
+        "endingPos": 111
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Sulfonylurea",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 6.00671,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sulfonylurea",
+        "matchedText": "sulfonylurea",
+        "freebaseId": "/m/036kty",
+        "relevanceScore": 0.0430441,
+        "entityEnglishId": "Sulfonylurea",
+        "startingPos": 118,
+        "endingPos": 130
+      },
+      {
+        "id": 5,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Exenatide",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.729,
+        "wikiLink": "http://en.wikipedia.org/wiki/Exenatide",
+        "matchedText": "exenatide",
+        "freebaseId": "/m/093_zf",
+        "relevanceScore": 0.0876716,
+        "entityEnglishId": "Exenatide",
+        "startingPos": 143,
+        "endingPos": 152
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Kilogram",
+        "freebaseTypes": [
+          "/type/unit",
+          "/food/culinary_measure",
+          "/measurement_unit/mass_unit"
+        ],
+        "confidenceScore": 1.47755,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kilogram",
+        "matchedText": "micrograms",
+        "freebaseId": "/m/047dr",
+        "relevanceScore": 0.0712116,
+        "entityEnglishId": "Kilogram",
+        "startingPos": 155,
+        "endingPos": 165
+      },
+      {
+        "id": 7,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Exenatide",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.729,
+        "wikiLink": "http://en.wikipedia.org/wiki/Exenatide",
+        "matchedText": "exenatide",
+        "freebaseId": "/m/093_zf",
+        "relevanceScore": 0.0876716,
+        "entityEnglishId": "Exenatide",
+        "startingPos": 190,
+        "endingPos": 199
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Kilogram",
+        "freebaseTypes": [
+          "/type/unit",
+          "/food/culinary_measure",
+          "/measurement_unit/mass_unit"
+        ],
+        "confidenceScore": 1.47755,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kilogram",
+        "matchedText": "micrograms",
+        "freebaseId": "/m/047dr",
+        "relevanceScore": 0.0712116,
+        "entityEnglishId": "Kilogram",
+        "startingPos": 203,
+        "endingPos": 213
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          40
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 1.8804,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.0601378,
+        "entityEnglishId": "Placebo",
+        "startingPos": 241,
+        "endingPos": 248
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          56
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 1.8804,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.0601378,
+        "entityEnglishId": "Placebo",
+        "startingPos": 328,
+        "endingPos": 335
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              38,
+              39,
+              40,
+              42,
+              43,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          63
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              58,
+              59,
+              60,
+              61,
+              62
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              38,
+              39,
+              40,
+              42,
+              43,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          6,
+          7,
+          9
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          6,
+          7,
+          9
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          30,
+          31
+        ],
+        "propertyPositions": [
+          32
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          40
+        ],
+        "propertyPositions": [
+          42,
+          43
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          46,
+          47
+        ],
+        "propertyPositions": [
+          45
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          46,
+          47
+        ],
+        "propertyPositions": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          34
+        ],
+        "propertyPositions": [
+          35,
+          36,
+          38,
+          39,
+          40,
+          42,
+          43,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          30,
+          31
+        ],
+        "propertyPositions": [
+          33,
+          34,
+          35,
+          36,
+          38,
+          39,
+          40,
+          42,
+          43,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          23,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          4,
+          6,
+          7,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          38,
+          39,
+          40,
+          42,
+          43,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

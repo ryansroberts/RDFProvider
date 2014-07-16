@@ -1,0 +1,341 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.493747
+      },
+      {
+        "id": 2,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.406059
+      },
+      {
+        "id": 3,
+        "label": "Sports",
+        "wikiLink": "http://en.wikipedia.org/Category:Sports",
+        "score": 0.406059
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.401041
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.390665
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Circulatory system",
+        "wikiLink": "http://en.wikipedia.org/Circulatory_system",
+        "score": 0.124563
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.177859
+      },
+      {
+        "id": 2,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.425851
+      },
+      {
+        "id": 3,
+        "label": "Evaluation",
+        "wikiLink": "http://en.wikipedia.org/Evaluation",
+        "score": 0.123335
+      },
+      {
+        "id": 4,
+        "label": "Ramipril",
+        "wikiLink": "http://en.wikipedia.org/Ramipril",
+        "score": 0.149066
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Ramipril",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 4.2216,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ramipril",
+        "matchedText": "ramipril",
+        "freebaseId": "/m/04nl9p",
+        "relevanceScore": 0.149066,
+        "entityEnglishId": "Ramipril",
+        "startingPos": 11,
+        "endingPos": 19
+      },
+      {
+        "id": 1,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Circulatory system",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.25645,
+        "wikiLink": "http://en.wikipedia.org/wiki/Circulatory_system",
+        "matchedText": "cardiovascular",
+        "freebaseId": "/m/0frx0",
+        "relevanceScore": 0.124563,
+        "entityEnglishId": "Circulatory system",
+        "startingPos": 23,
+        "endingPos": 37
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.09802,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.425851,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 80,
+        "endingPos": 88
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 5.14579,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes mellitus",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.177859,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 80,
+        "endingPos": 97
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "HOPE",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "HOPE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 114,
+        "endingPos": 118
+      },
+      {
+        "id": 5,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "MICRO-HOPE",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "MICRO-HOPE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 129,
+        "endingPos": 139
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Evaluation",
+        "freebaseTypes": [
+          "/organization/organization_sector"
+        ],
+        "confidenceScore": 1.41574,
+        "wikiLink": "http://en.wikipedia.org/wiki/Evaluation",
+        "matchedText": "Evaluation",
+        "freebaseId": "/m/0gw5h",
+        "relevanceScore": 0.123335,
+        "entityEnglishId": "Evaluation",
+        "startingPos": 176,
+        "endingPos": 186
+      },
+      {
+        "id": 7,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Lancet",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lancet",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 208,
+        "endingPos": 214
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1,
+          3
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          0,
+          1,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "time": 3.016,
+  "ok": true
+}

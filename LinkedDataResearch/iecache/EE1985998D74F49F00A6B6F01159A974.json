@@ -1,0 +1,451 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.719235
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.478901
+      },
+      {
+        "id": 3,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.245592
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.242033
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.242033
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Electronic health record",
+        "wikiLink": "http://en.wikipedia.org/Electronic_health_record",
+        "score": 0.258071
+      },
+      {
+        "id": 1,
+        "label": "Endocrinology",
+        "wikiLink": "http://en.wikipedia.org/Endocrinology",
+        "score": 0.368768
+      },
+      {
+        "id": 2,
+        "label": "Medical record",
+        "wikiLink": "http://en.wikipedia.org/Medical_record",
+        "score": 0.218834
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0814962
+      },
+      {
+        "id": 4,
+        "label": "Healthcare management",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_management",
+        "score": 0.0749261
+      },
+      {
+        "id": 5,
+        "label": "Health economics",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_economics",
+        "score": 0.0749261
+      },
+      {
+        "id": 6,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0749261
+      },
+      {
+        "id": 7,
+        "label": "Information technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Information_technology",
+        "score": 0.0749261
+      },
+      {
+        "id": 8,
+        "label": "Information science",
+        "wikiLink": "http://en.wikipedia.org/Category:Information_science",
+        "score": 0.0749261
+      },
+      {
+        "id": 9,
+        "label": "Applied sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Applied_sciences",
+        "score": 0.0749261
+      },
+      {
+        "id": 10,
+        "label": "Health informatics",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_informatics",
+        "score": 0.0749261
+      },
+      {
+        "id": 11,
+        "label": "Cognitive science",
+        "wikiLink": "http://en.wikipedia.org/Category:Cognitive_science",
+        "score": 0.0749261
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Gorman C",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Gorman C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Looker J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Looker J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 18
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Fisk T",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Fisk T",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 20,
+        "endingPos": 26
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.32652,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0820415,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 55,
+        "endingPos": 63
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          15,
+          16,
+          17
+        ],
+        "entityId": "Electronic health record",
+        "freebaseTypes": [
+          "/business/industry"
+        ],
+        "confidenceScore": 3.66911,
+        "wikiLink": "http://en.wikipedia.org/wiki/Electronic_health_record",
+        "matchedText": "electronic medical record",
+        "freebaseId": "/m/048t_2",
+        "relevanceScore": 0.258071,
+        "entityEnglishId": "Electronic health record",
+        "startingPos": 64,
+        "endingPos": 89
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Medical record",
+        "confidenceScore": 1.30016,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medical_record",
+        "matchedText": "medical record",
+        "freebaseId": "/m/046kv7",
+        "relevanceScore": 0.218834,
+        "entityEnglishId": "Medical record",
+        "startingPos": 75,
+        "endingPos": 89
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          31,
+          32
+        ],
+        "entityId": "European Journal",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "European Journal",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 150,
+        "endingPos": 166
+      },
+      {
+        "id": 7,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          32,
+          33,
+          34
+        ],
+        "entityId": "Journal of Endocrinology",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.13477,
+        "wikiLink": "http://en.wikipedia.org/wiki/Journal_of_Endocrinology",
+        "matchedText": "Journal of Endocrinology",
+        "freebaseId": "/m/02vwsk3",
+        "relevanceScore": 0.0339262,
+        "entityEnglishId": "Journal of Endocrinology",
+        "startingPos": 159,
+        "endingPos": 183
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Endocrinology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 5.31305,
+        "wikiLink": "http://en.wikipedia.org/wiki/Endocrinology",
+        "matchedText": "Endocrinology",
+        "freebaseId": "/m/02jvq",
+        "relevanceScore": 0.368768,
+        "entityEnglishId": "Endocrinology",
+        "startingPos": 170,
+        "endingPos": 183
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          32,
+          33
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          32,
+          33
+        ],
+        "propertyPositions": [
+          34,
+          35
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          11,
+          17
+        ],
+        "propertyPositions": [
+          12,
+          13
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          11,
+          17
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          11,
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          11,
+          17,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21,
+          22
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          11,
+          17,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26,
+          27
+        ]
+      }
+    ]
+  },
+  "time": 3.022,
+  "ok": true
+}

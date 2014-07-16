@@ -1,0 +1,209 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.881083
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.492545
+      },
+      {
+        "id": 3,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.440773
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Blood glucose monitoring",
+        "wikiLink": "http://en.wikipedia.org/Blood_glucose_monitoring",
+        "score": 0.275099
+      },
+      {
+        "id": 1,
+        "label": "Diabetes in dogs",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_in_dogs",
+        "score": 0.357944
+      },
+      {
+        "id": 2,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.253313
+      },
+      {
+        "id": 3,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.146606
+      },
+      {
+        "id": 4,
+        "label": "Human metabolites",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_metabolites",
+        "score": 0.118318
+      },
+      {
+        "id": 5,
+        "label": "Clinical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_pathology",
+        "score": 0.118318
+      },
+      {
+        "id": 6,
+        "label": "Chemical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_pathology",
+        "score": 0.118318
+      },
+      {
+        "id": 7,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.118318
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "entityId": "Ter Veer A. Continuous",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ter Veer A. Continuous",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 32
+      },
+      {
+        "id": 1,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Glucose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 2.55701,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucose",
+        "matchedText": "glucose",
+        "freebaseId": "/m/02kb_m_",
+        "relevanceScore": 0.077719,
+        "entityEnglishId": "Glucose",
+        "startingPos": 33,
+        "endingPos": 40
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          6,
+          7,
+          8
+        ],
+        "entityId": "Blood glucose monitoring",
+        "freebaseTypes": [
+          "/medicine/diagnostic_test"
+        ],
+        "confidenceScore": 1.3525,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_glucose_monitoring",
+        "matchedText": "Continuous glucose monitoring",
+        "freebaseId": "/m/0fmpq",
+        "relevanceScore": 0.275099,
+        "entityEnglishId": "Blood glucose monitoring",
+        "startingPos": 22,
+        "endingPos": 51
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Diabetes in dogs",
+        "confidenceScore": 0.944887,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_in_dogs",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0bh89gw",
+        "relevanceScore": 0.357944,
+        "entityEnglishId": "Diabetes in dogs",
+        "startingPos": 98,
+        "endingPos": 106
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          10,
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "time": 3.019,
+  "ok": true
+}

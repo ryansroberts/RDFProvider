@@ -1,0 +1,646 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.739715
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.714178
+      },
+      {
+        "id": 3,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.40248
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.395884
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.373098
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "ACE inhibitor",
+        "wikiLink": "http://en.wikipedia.org/ACE_inhibitor",
+        "score": 0.677111
+      },
+      {
+        "id": 1,
+        "label": "Albuminuria",
+        "wikiLink": "http://en.wikipedia.org/Albuminuria",
+        "score": 0.216858
+      },
+      {
+        "id": 2,
+        "label": "Chronic kidney disease",
+        "wikiLink": "http://en.wikipedia.org/Chronic_kidney_disease",
+        "score": 0.833649
+      },
+      {
+        "id": 3,
+        "label": "Cochrane Collaboration",
+        "wikiLink": "http://en.wikipedia.org/Cochrane_Collaboration",
+        "score": 0.544948
+      },
+      {
+        "id": 4,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.383626
+      },
+      {
+        "id": 5,
+        "label": "Diabetic nephropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_nephropathy",
+        "score": 0.284357
+      },
+      {
+        "id": 6,
+        "label": "Disease",
+        "wikiLink": "http://en.wikipedia.org/Disease",
+        "score": 0.156036
+      },
+      {
+        "id": 7,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.173486
+      },
+      {
+        "id": 8,
+        "label": "Nephropathy",
+        "wikiLink": "http://en.wikipedia.org/Nephropathy",
+        "score": 0.151487
+      },
+      {
+        "id": 9,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.291898
+      },
+      {
+        "id": 10,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.510188
+      },
+      {
+        "id": 11,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.48543
+      },
+      {
+        "id": 12,
+        "label": "Genitourinary system diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Genitourinary_system_diseases",
+        "score": 0.442233
+      },
+      {
+        "id": 13,
+        "label": "Urological conditions",
+        "wikiLink": "http://en.wikipedia.org/Category:Urological_conditions",
+        "score": 0.442233
+      },
+      {
+        "id": 14,
+        "label": "Kidney diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney_diseases",
+        "score": 0.442233
+      },
+      {
+        "id": 15,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.17473
+      },
+      {
+        "id": 16,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.146399
+      },
+      {
+        "id": 17,
+        "label": "Evidence-based practices",
+        "wikiLink": "http://en.wikipedia.org/Category:Evidence-based_practices",
+        "score": 0.116904
+      },
+      {
+        "id": 18,
+        "label": "Empiricism",
+        "wikiLink": "http://en.wikipedia.org/Category:Empiricism",
+        "score": 0.116904
+      },
+      {
+        "id": 19,
+        "label": "Mathematical and theoretical biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_and_theoretical_biology",
+        "score": 0.116904
+      },
+      {
+        "id": 20,
+        "label": "Fields of application of statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_application_of_statistics",
+        "score": 0.116904
+      },
+      {
+        "id": 21,
+        "label": "Biostatistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Biostatistics",
+        "score": 0.116904
+      },
+      {
+        "id": 22,
+        "label": "Social problems",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_problems",
+        "score": 0.116799
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Cochrane Collaboration",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/business/employer"
+        ],
+        "confidenceScore": 1.32563,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cochrane_Collaboration",
+        "matchedText": "Cochrane",
+        "freebaseId": "/m/01jh8y",
+        "relevanceScore": 0.321034,
+        "entityEnglishId": "Cochrane Collaboration",
+        "startingPos": 4,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Cochrane Collaboration",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/business/employer"
+        ],
+        "confidenceScore": 4.67621,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cochrane_Collaboration",
+        "matchedText": "Cochrane review",
+        "freebaseId": "/m/01jh8y",
+        "relevanceScore": 0.223914,
+        "entityEnglishId": "Cochrane Collaboration",
+        "startingPos": 4,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "ACE inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.94326,
+        "wikiLink": "http://en.wikipedia.org/wiki/ACE_inhibitor",
+        "matchedText": "ACEI",
+        "freebaseId": "/m/0110z",
+        "relevanceScore": 0.677111,
+        "entityEnglishId": "ACE inhibitor",
+        "startingPos": 21,
+        "endingPos": 25
+      },
+      {
+        "id": 3,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "A2RB",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "A2RB",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 30,
+        "endingPos": 34
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.79394,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.383626,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 81,
+        "endingPos": 89
+      },
+      {
+        "id": 5,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.17757,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.173486,
+        "entityEnglishId": "Kidney",
+        "startingPos": 90,
+        "endingPos": 96
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13,
+          14,
+          15
+        ],
+        "entityId": "Diabetic nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.90179,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_nephropathy",
+        "matchedText": "diabetic kidney disease",
+        "freebaseId": "/m/057z5c",
+        "relevanceScore": 0.284357,
+        "entityEnglishId": "Diabetic nephropathy",
+        "startingPos": 81,
+        "endingPos": 104
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.68227,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephropathy",
+        "matchedText": "kidney disease",
+        "freebaseId": "/m/02z63k",
+        "relevanceScore": 0.151487,
+        "entityEnglishId": "Nephropathy",
+        "startingPos": 90,
+        "endingPos": 104
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.88364,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.156036,
+        "entityEnglishId": "Disease",
+        "startingPos": 97,
+        "endingPos": 104
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 3.44018,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.291898,
+        "entityEnglishId": "Placebo",
+        "startingPos": 135,
+        "endingPos": 142
+      },
+      {
+        "id": 10,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.28017,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "macroalbuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.216858,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 182,
+        "endingPos": 198
+      },
+      {
+        "id": 11,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          45
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.72663,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "ESRD",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.833649,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 282,
+        "endingPos": 286
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          22,
+          25,
+          40
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              17,
+              18,
+              19,
+              20,
+              21
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              23,
+              24,
+              26,
+              28,
+              29,
+              31,
+              32,
+              33,
+              34,
+              35,
+              37,
+              38,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          22,
+          25,
+          28,
+          31,
+          34,
+          40
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              17,
+              18,
+              19,
+              20,
+              21
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              23,
+              24,
+              26,
+              29,
+              32,
+              33,
+              35,
+              37,
+              38,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          42,
+          43,
+          44
+        ],
+        "propertyPositions": [
+          45,
+          46
+        ]
+      }
+    ]
+  },
+  "time": 3.028,
+  "ok": true
+}

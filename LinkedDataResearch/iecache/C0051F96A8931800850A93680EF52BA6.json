@@ -1,0 +1,218 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.923449
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Valsartan",
+        "wikiLink": "http://en.wikipedia.org/Valsartan",
+        "score": 0.404218
+      },
+      {
+        "id": 1,
+        "label": "Heterocyclic compounds (1 ring)",
+        "wikiLink": "http://en.wikipedia.org/Category:Heterocyclic_compounds_(1_ring)",
+        "score": 0.041557
+      },
+      {
+        "id": 2,
+        "label": "Organonitrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organonitrogen_compounds",
+        "score": 0.041557
+      },
+      {
+        "id": 3,
+        "label": "Antihypertensive agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Antihypertensive_agents",
+        "score": 0.041557
+      },
+      {
+        "id": 4,
+        "label": "Nitrogen heterocycles",
+        "wikiLink": "http://en.wikipedia.org/Category:Nitrogen_heterocycles",
+        "score": 0.041557
+      },
+      {
+        "id": 5,
+        "label": "Oxygen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxygen_compounds",
+        "score": 0.041557
+      },
+      {
+        "id": 6,
+        "label": "Nitrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Nitrogen_compounds",
+        "score": 0.041557
+      },
+      {
+        "id": 7,
+        "label": "Organic chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_chemistry",
+        "score": 0.041557
+      },
+      {
+        "id": 8,
+        "label": "Functional groups",
+        "wikiLink": "http://en.wikipedia.org/Category:Functional_groups",
+        "score": 0.041557
+      },
+      {
+        "id": 9,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.041557
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Valsartan",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.65241,
+        "wikiLink": "http://en.wikipedia.org/wiki/Valsartan",
+        "matchedText": "Valsartan",
+        "freebaseId": "/m/079bqt",
+        "relevanceScore": 0.404218,
+        "entityEnglishId": "Valsartan",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Amlodipine",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 3.44829,
+        "wikiLink": "http://en.wikipedia.org/wiki/Amlodipine",
+        "matchedText": "amlodipine",
+        "freebaseId": "/m/02_0mv",
+        "relevanceScore": 0.0813997,
+        "entityEnglishId": "Amlodipine",
+        "startingPos": 74,
+        "endingPos": 84
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Smith",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Smith",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 86,
+        "endingPos": 91
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              9,
+              10,
+              11,
+              12,
+              13,
+              15
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "time": 3.013,
+  "ok": true
+}

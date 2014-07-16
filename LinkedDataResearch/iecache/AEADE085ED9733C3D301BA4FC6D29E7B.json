@@ -1,0 +1,357 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.371884
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.358776
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.346732
+      },
+      {
+        "id": 4,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.18998
+      },
+      {
+        "id": 5,
+        "label": "Sports",
+        "wikiLink": "http://en.wikipedia.org/Category:Sports",
+        "score": 0.18548
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cardiovascular disease",
+        "wikiLink": "http://en.wikipedia.org/Cardiovascular_disease",
+        "score": 0.161679
+      },
+      {
+        "id": 1,
+        "label": "Circulatory system",
+        "wikiLink": "http://en.wikipedia.org/Circulatory_system",
+        "score": 0.197408
+      },
+      {
+        "id": 2,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.144738
+      },
+      {
+        "id": 3,
+        "label": "Prediction",
+        "wikiLink": "http://en.wikipedia.org/Prediction",
+        "score": 0.113485
+      },
+      {
+        "id": 4,
+        "label": "Primary care",
+        "wikiLink": "http://en.wikipedia.org/Primary_care",
+        "score": 0.246601
+      },
+      {
+        "id": 5,
+        "label": "Risk",
+        "wikiLink": "http://en.wikipedia.org/Risk",
+        "score": 0.266099
+      },
+      {
+        "id": 6,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0989194
+      },
+      {
+        "id": 7,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0943925
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Jones AF",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Jones AF",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Walker J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Walker J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 18
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Jewkes C",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Jewkes C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 20,
+        "endingPos": 28
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Circulatory system",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.42398,
+        "wikiLink": "http://en.wikipedia.org/wiki/Circulatory_system",
+        "matchedText": "cardiovascular",
+        "freebaseId": "/m/0frx0",
+        "relevanceScore": 0.197408,
+        "entityEnglishId": "Circulatory system",
+        "startingPos": 61,
+        "endingPos": 75
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.45456,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "cardiovascular risk",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.161679,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 61,
+        "endingPos": 80
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Risk",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 0.971405,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk",
+        "matchedText": "risk",
+        "freebaseId": "/m/06d5f",
+        "relevanceScore": 0.266099,
+        "entityEnglishId": "Risk",
+        "startingPos": 76,
+        "endingPos": 80
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Prediction",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/media_genre",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.20101,
+        "wikiLink": "http://en.wikipedia.org/wiki/Prediction",
+        "matchedText": "prediction",
+        "freebaseId": "/m/01klyk",
+        "relevanceScore": 0.113485,
+        "entityEnglishId": "Prediction",
+        "startingPos": 81,
+        "endingPos": 91
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Primary care",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/business/industry",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.56374,
+        "wikiLink": "http://en.wikipedia.org/wiki/Primary_care",
+        "matchedText": "primary care",
+        "freebaseId": "/m/02mbrd",
+        "relevanceScore": 0.246601,
+        "entityEnglishId": "Primary care",
+        "startingPos": 103,
+        "endingPos": 115
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.60123,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.144738,
+        "entityEnglishId": "Patient",
+        "startingPos": 116,
+        "endingPos": 124
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12,
+          13,
+          18
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15,
+          16,
+          17
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12,
+          13,
+          18
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          12,
+          13,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 3.025,
+  "ok": true
+}

@@ -1,0 +1,834 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.746672
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.522776
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.504834
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.490841
+      },
+      {
+        "id": 5,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.261155
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Assay",
+        "wikiLink": "http://en.wikipedia.org/Assay",
+        "score": 0.227747
+      },
+      {
+        "id": 1,
+        "label": "Glucose",
+        "wikiLink": "http://en.wikipedia.org/Glucose",
+        "score": 0.171713
+      },
+      {
+        "id": 2,
+        "label": "Postprandial",
+        "wikiLink": "http://en.wikipedia.org/Postprandial",
+        "score": 0.165977
+      },
+      {
+        "id": 3,
+        "label": "Postprandial glucose test",
+        "wikiLink": "http://en.wikipedia.org/Postprandial_glucose_test",
+        "score": 0.116372
+      },
+      {
+        "id": 4,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.34511
+      },
+      {
+        "id": 5,
+        "label": "Physical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Physical_sciences",
+        "score": 0.332259
+      },
+      {
+        "id": 6,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.144218
+      },
+      {
+        "id": 7,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.125809
+      },
+      {
+        "id": 8,
+        "label": "Medical diagnosis",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_diagnosis",
+        "score": 0.0818987
+      },
+      {
+        "id": 9,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.0670772
+      },
+      {
+        "id": 10,
+        "label": "Analysis",
+        "wikiLink": "http://en.wikipedia.org/Category:Analysis",
+        "score": 0.0636439
+      },
+      {
+        "id": 11,
+        "label": "Euthenics",
+        "wikiLink": "http://en.wikipedia.org/Category:Euthenics",
+        "score": 0.0634365
+      },
+      {
+        "id": 12,
+        "label": "Analytical chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Analytical_chemistry",
+        "score": 0.0634365
+      },
+      {
+        "id": 13,
+        "label": "Tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Tests",
+        "score": 0.0616364
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "HbA",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "HbA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 80,
+        "endingPos": 83
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Postprandial",
+        "confidenceScore": 1.58298,
+        "wikiLink": "http://en.wikipedia.org/wiki/Postprandial",
+        "matchedText": "post-prandial",
+        "freebaseId": "/m/02r7jxz",
+        "relevanceScore": 0.165977,
+        "entityEnglishId": "Postprandial",
+        "startingPos": 116,
+        "endingPos": 129
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Postprandial glucose test",
+        "confidenceScore": 1.62677,
+        "wikiLink": "http://en.wikipedia.org/wiki/Postprandial_glucose_test",
+        "matchedText": "post-prandial glucose",
+        "freebaseId": "/m/041446c",
+        "relevanceScore": 0.116372,
+        "entityEnglishId": "Postprandial glucose test",
+        "startingPos": 116,
+        "endingPos": 137
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Glucose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.63027,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucose",
+        "matchedText": "glucose",
+        "freebaseId": "/m/02kb_m_",
+        "relevanceScore": 0.0858564,
+        "entityEnglishId": "Glucose",
+        "startingPos": 130,
+        "endingPos": 137
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Assay",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.7708,
+        "wikiLink": "http://en.wikipedia.org/wiki/Assay",
+        "matchedText": "assays",
+        "freebaseId": "/m/02hddz",
+        "relevanceScore": 0.227747,
+        "entityEnglishId": "Assay",
+        "startingPos": 212,
+        "endingPos": 218
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          95
+        ],
+        "entityId": "Electronvolt",
+        "freebaseTypes": [
+          "/type/unit",
+          "/measurement_unit/energy_unit"
+        ],
+        "confidenceScore": 1.45466,
+        "wikiLink": "http://en.wikipedia.org/wiki/Electronvolt",
+        "matchedText": "ev",
+        "freebaseId": "/m/02m68",
+        "relevanceScore": 0.0681476,
+        "entityEnglishId": "Electronvolt",
+        "startingPos": 564,
+        "endingPos": 566
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          101
+        ],
+        "entityId": "HbA",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "HbA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 602,
+        "endingPos": 605
+      },
+      {
+        "id": 7,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          106
+        ],
+        "entityId": "Glucose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.63027,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucose",
+        "matchedText": "glucose",
+        "freebaseId": "/m/02kb_m_",
+        "relevanceScore": 0.0858564,
+        "entityEnglishId": "Glucose",
+        "startingPos": 623,
+        "endingPos": 630
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          107
+        ],
+        "entityId": "Concentration",
+        "confidenceScore": 1.36343,
+        "wikiLink": "http://en.wikipedia.org/wiki/Concentration",
+        "matchedText": "concentrations",
+        "freebaseId": "/m/023qq",
+        "relevanceScore": 0,
+        "entityEnglishId": "Concentration",
+        "startingPos": 631,
+        "endingPos": 645
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          74,
+          75
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              73
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          91
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              89,
+              90
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          109,
+          110
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              108
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              111,
+              112,
+              113
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          38,
+          39,
+          40,
+          56
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              37
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              41,
+              42,
+              43,
+              44,
+              45,
+              47,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              65,
+              66,
+              68,
+              69,
+              70,
+              71
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          38,
+          39,
+          40,
+          44,
+          56
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              37,
+              42,
+              43
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              41,
+              45,
+              47,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              65,
+              66,
+              68,
+              69,
+              70,
+              71
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          44
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              42,
+              43
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              41,
+              45,
+              47,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          38,
+          39,
+          40,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              37
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              41,
+              42,
+              43,
+              44,
+              45,
+              47,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              63,
+              65,
+              66,
+              68,
+              69,
+              70,
+              71
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          80,
+          81,
+          82,
+          83
+        ],
+        "propertyPositions": [
+          79
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          80,
+          81,
+          82,
+          83
+        ],
+        "propertyPositions": [
+          84,
+          85,
+          86,
+          87
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          76,
+          77,
+          78
+        ],
+        "propertyPositions": [
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          1,
+          4
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          1,
+          4
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          33,
+          35
+        ],
+        "propertyPositions": [
+          34
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          19
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          92,
+          95,
+          96,
+          97
+        ],
+        "propertyPositions": [
+          93,
+          94
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          104,
+          106,
+          107,
+          109,
+          110
+        ],
+        "propertyPositions": [
+          105
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          111,
+          113
+        ],
+        "propertyPositions": [
+          112
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          98,
+          99,
+          100
+        ],
+        "propertyPositions": [
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          92,
+          95,
+          96,
+          97
+        ],
+        "propertyPositions": [
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          47
+        ],
+        "propertyPositions": [
+          45
+        ]
+      },
+      {
+        "id": 16,
+        "wordPositions": [
+          50,
+          51,
+          52
+        ],
+        "propertyPositions": [
+          49
+        ]
+      },
+      {
+        "id": 17,
+        "wordPositions": [
+          66
+        ],
+        "propertyPositions": [
+          65
+        ]
+      },
+      {
+        "id": 18,
+        "wordPositions": [
+          69,
+          71
+        ],
+        "propertyPositions": [
+          70
+        ]
+      }
+    ]
+  },
+  "time": 3.038,
+  "ok": true
+}

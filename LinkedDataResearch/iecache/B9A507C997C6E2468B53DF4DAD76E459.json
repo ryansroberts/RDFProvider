@@ -1,0 +1,725 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Creatinine",
+        "wikiLink": "http://en.wikipedia.org/Creatinine",
+        "score": 0.908408
+      },
+      {
+        "id": 1,
+        "label": "Cystatin C",
+        "wikiLink": "http://en.wikipedia.org/Cystatin_C",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Equation",
+        "wikiLink": "http://en.wikipedia.org/Equation",
+        "score": 0.13261
+      },
+      {
+        "id": 3,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.68844
+      },
+      {
+        "id": 5,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.638899
+      },
+      {
+        "id": 6,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.638899
+      },
+      {
+        "id": 7,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.638899
+      },
+      {
+        "id": 8,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.63114
+      },
+      {
+        "id": 9,
+        "label": "Renal physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Renal_physiology",
+        "score": 0.28349
+      },
+      {
+        "id": 10,
+        "label": "Physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Physiology",
+        "score": 0.28349
+      },
+      {
+        "id": 11,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.114317
+      },
+      {
+        "id": 12,
+        "label": "Cell biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cell_biology",
+        "score": 0.114317
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "CKD-EPI",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "CKD-EPI",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 37,
+        "endingPos": 44
+      },
+      {
+        "id": 1,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.88086,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.454204,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 45,
+        "endingPos": 55
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Equation",
+        "confidenceScore": 0.972408,
+        "wikiLink": "http://en.wikipedia.org/wiki/Equation",
+        "matchedText": "equation",
+        "freebaseId": "/m/02jnw",
+        "relevanceScore": 0.0331524,
+        "entityEnglishId": "Equation",
+        "startingPos": 56,
+        "endingPos": 64
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.04808,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "MDRD",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 1,
+        "entityEnglishId": "Renal function",
+        "startingPos": 75,
+        "endingPos": 79
+      },
+      {
+        "id": 4,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Cystatin",
+        "confidenceScore": 2.12648,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cystatin",
+        "matchedText": "Cystatin",
+        "freebaseId": "/m/0fhtpr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Cystatin",
+        "startingPos": 179,
+        "endingPos": 187
+      },
+      {
+        "id": 5,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          33,
+          34
+        ],
+        "entityId": "Cystatin C",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 5.27387,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cystatin_C",
+        "matchedText": "Cystatin C",
+        "freebaseId": "/m/02qzgpw",
+        "relevanceScore": 0.835532,
+        "entityEnglishId": "Cystatin C",
+        "startingPos": 179,
+        "endingPos": 189
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          44
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 6.6201,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 1,
+        "entityEnglishId": "Renal function",
+        "startingPos": 241,
+        "endingPos": 244
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          67
+        ],
+        "entityId": "Equation",
+        "confidenceScore": 1.19132,
+        "wikiLink": "http://en.wikipedia.org/wiki/Equation",
+        "matchedText": "equations",
+        "freebaseId": "/m/02jnw",
+        "relevanceScore": 0.0331524,
+        "entityEnglishId": "Equation",
+        "startingPos": 367,
+        "endingPos": 376
+      },
+      {
+        "id": 8,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          85
+        ],
+        "entityId": "Cystatin",
+        "confidenceScore": 2.12648,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cystatin",
+        "matchedText": "cystatin",
+        "freebaseId": "/m/0fhtpr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Cystatin",
+        "startingPos": 470,
+        "endingPos": 478
+      },
+      {
+        "id": 9,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          85,
+          86
+        ],
+        "entityId": "Cystatin C",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 5.27387,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cystatin_C",
+        "matchedText": "cystatin C",
+        "freebaseId": "/m/02qzgpw",
+        "relevanceScore": 0.835532,
+        "entityEnglishId": "Cystatin C",
+        "startingPos": 470,
+        "endingPos": 480
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          89
+        ],
+        "entityId": "Equation",
+        "confidenceScore": 1.48457,
+        "wikiLink": "http://en.wikipedia.org/wiki/Equation",
+        "matchedText": "equations",
+        "freebaseId": "/m/02jnw",
+        "relevanceScore": 0.0331524,
+        "entityEnglishId": "Equation",
+        "startingPos": 493,
+        "endingPos": 502
+      },
+      {
+        "id": 11,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          92
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.88086,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.454204,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 515,
+        "endingPos": 525
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          94
+        ],
+        "entityId": "Equation",
+        "confidenceScore": 1.48457,
+        "wikiLink": "http://en.wikipedia.org/wiki/Equation",
+        "matchedText": "equations",
+        "freebaseId": "/m/02jnw",
+        "relevanceScore": 0.0331524,
+        "entityEnglishId": "Equation",
+        "startingPos": 532,
+        "endingPos": 541
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              11,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          72
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              69,
+              70,
+              71
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              73,
+              74,
+              75,
+              76,
+              77,
+              78
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          38
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              33,
+              34,
+              35,
+              36,
+              37
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          51,
+          58,
+          59
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              52,
+              53,
+              54,
+              55,
+              56,
+              57
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          81
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              80
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          81,
+          90,
+          91
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              80
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              92,
+              93,
+              94,
+              95
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          75,
+          77,
+          78
+        ],
+        "propertyPositions": [
+          76
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          73,
+          74
+        ],
+        "propertyPositions": [
+          75,
+          76,
+          77,
+          78
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          37
+        ],
+        "propertyPositions": [
+          36
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          39,
+          41,
+          42
+        ],
+        "propertyPositions": [
+          40
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          39,
+          41,
+          42
+        ],
+        "propertyPositions": [
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          61,
+          62
+        ],
+        "propertyPositions": [
+          60
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          63,
+          64,
+          65
+        ],
+        "propertyPositions": [
+          66,
+          67
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          61,
+          62
+        ],
+        "propertyPositions": [
+          63,
+          64,
+          65,
+          66,
+          67
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          83,
+          84
+        ],
+        "propertyPositions": [
+          82
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          89
+        ],
+        "propertyPositions": [
+          88
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          83,
+          84
+        ],
+        "propertyPositions": [
+          85,
+          86,
+          87,
+          88,
+          89
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          94,
+          95
+        ],
+        "propertyPositions": [
+          93
+        ]
+      }
+    ]
+  },
+  "time": 3.019,
+  "ok": true
+}

@@ -1,0 +1,621 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.483296
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.294488
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.25964
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.241272
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.21709
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Adverse effect",
+        "wikiLink": "http://en.wikipedia.org/Adverse_effect",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Drug withdrawal",
+        "wikiLink": "http://en.wikipedia.org/Drug_withdrawal",
+        "score": 0.350705
+      },
+      {
+        "id": 2,
+        "label": "Homogeneity and heterogeneity",
+        "wikiLink": "http://en.wikipedia.org/Homogeneity_and_heterogeneity",
+        "score": 0.119072
+      },
+      {
+        "id": 3,
+        "label": "Meta-analysis",
+        "wikiLink": "http://en.wikipedia.org/Meta-analysis",
+        "score": 0.531669
+      },
+      {
+        "id": 4,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.583951
+      },
+      {
+        "id": 5,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.334254
+      },
+      {
+        "id": 6,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Category:Therapy",
+        "score": 0.328764
+      },
+      {
+        "id": 7,
+        "label": "Medicinal chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicinal_chemistry",
+        "score": 0.303523
+      },
+      {
+        "id": 8,
+        "label": "Pharmaceutical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_sciences",
+        "score": 0.303523
+      },
+      {
+        "id": 9,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.295376
+      },
+      {
+        "id": 10,
+        "label": "Analysis",
+        "wikiLink": "http://en.wikipedia.org/Category:Analysis",
+        "score": 0.202948
+      },
+      {
+        "id": 11,
+        "label": "Medical treatments",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_treatments",
+        "score": 0.105146
+      },
+      {
+        "id": 12,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0682636
+      },
+      {
+        "id": 13,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0504933
+      },
+      {
+        "id": 14,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.0307475
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Meta-analysis",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 8.04626,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meta-analysis",
+        "matchedText": "meta-analysis",
+        "freebaseId": "/m/0gvjk",
+        "relevanceScore": 0.531669,
+        "entityEnglishId": "Meta-analysis",
+        "startingPos": 10,
+        "endingPos": 23
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Drug withdrawal",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.09538,
+        "wikiLink": "http://en.wikipedia.org/wiki/Drug_withdrawal",
+        "matchedText": "withdrawal",
+        "freebaseId": "/m/026750",
+        "relevanceScore": 0.350705,
+        "entityEnglishId": "Drug withdrawal",
+        "startingPos": 48,
+        "endingPos": 58
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Adverse effect",
+        "confidenceScore": 3.20618,
+        "wikiLink": "http://en.wikipedia.org/wiki/Adverse_effect",
+        "matchedText": "adverse effects",
+        "freebaseId": "/m/054ffx",
+        "relevanceScore": 0.444973,
+        "entityEnglishId": "Adverse effect",
+        "startingPos": 67,
+        "endingPos": 82
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Drug",
+        "freebaseTypes": [
+          "/medicine/drug_formulation_category",
+          "/film/film_subject",
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.77743,
+        "wikiLink": "http://en.wikipedia.org/wiki/Drug",
+        "matchedText": "drugs",
+        "freebaseId": "/m/02kjb_",
+        "relevanceScore": 0.0521274,
+        "entityEnglishId": "Drug",
+        "startingPos": 117,
+        "endingPos": 122
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "Adverse effect",
+        "confidenceScore": 3.20618,
+        "wikiLink": "http://en.wikipedia.org/wiki/Adverse_effect",
+        "matchedText": "adverse effects",
+        "freebaseId": "/m/054ffx",
+        "relevanceScore": 0.444973,
+        "entityEnglishId": "Adverse effect",
+        "startingPos": 152,
+        "endingPos": 167
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 5.20847,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.583951,
+        "entityEnglishId": "Placebo",
+        "startingPos": 173,
+        "endingPos": 180
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          49,
+          50
+        ],
+        "entityId": "Adverse effect",
+        "confidenceScore": 3.20618,
+        "wikiLink": "http://en.wikipedia.org/wiki/Adverse_effect",
+        "matchedText": "adverse effects",
+        "freebaseId": "/m/054ffx",
+        "relevanceScore": 0.444973,
+        "entityEnglishId": "Adverse effect",
+        "startingPos": 285,
+        "endingPos": 300
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          70
+        ],
+        "entityId": "Homogeneity and heterogeneity",
+        "confidenceScore": 1.3523,
+        "wikiLink": "http://en.wikipedia.org/wiki/Homogeneity_and_heterogeneity",
+        "matchedText": "heterogeneity",
+        "freebaseId": "/m/08xjcs",
+        "relevanceScore": 0.119072,
+        "entityEnglishId": "Homogeneity and heterogeneity",
+        "startingPos": 404,
+        "endingPos": 417
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          77
+        ],
+        "entityId": "base-case",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "base-case",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 452,
+        "endingPos": 461
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          57,
+          60,
+          61,
+          62
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              59
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              58,
+              63,
+              64,
+              65,
+              66,
+              67
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          57,
+          58,
+          60,
+          61,
+          62
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              59
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              63,
+              64,
+              65,
+              66,
+              67
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          83,
+          84
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              81,
+              82
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              85,
+              86
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          16
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              17,
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              18,
+              19
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              18,
+              19
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              17
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          86
+        ],
+        "propertyPositions": [
+          85
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          50
+        ],
+        "propertyPositions": [
+          49
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          45,
+          46
+        ],
+        "propertyPositions": [
+          47,
+          48,
+          49,
+          50
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          36,
+          37
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          36,
+          37
+        ],
+        "propertyPositions": [
+          38,
+          39
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          36,
+          37
+        ],
+        "propertyPositions": [
+          40,
+          41,
+          42,
+          43
+        ]
+      }
+    ]
+  },
+  "time": 3.038,
+  "ok": true
+}

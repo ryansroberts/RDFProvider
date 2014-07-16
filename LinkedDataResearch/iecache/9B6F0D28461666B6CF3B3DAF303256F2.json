@@ -1,0 +1,465 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.54975
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.510509
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Metre",
+        "wikiLink": "http://en.wikipedia.org/Metre",
+        "score": 0.631125
+      },
+      {
+        "id": 1,
+        "label": "Nerve",
+        "wikiLink": "http://en.wikipedia.org/Nerve",
+        "score": 0.308893
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Paisley",
+        "freebaseTypes": [
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/location/dated_location",
+          "/location/citytown",
+          "/book/book_subject",
+          "/location/statistical_region",
+          "/location/capital_of_administrative_division",
+          "/government/governmental_jurisdiction",
+          "/location/location"
+        ],
+        "confidenceScore": 1.75822,
+        "wikiLink": "http://en.wikipedia.org/wiki/Paisley",
+        "matchedText": "Paisley",
+        "freebaseId": "/m/01vc3y",
+        "relevanceScore": 0.0123786,
+        "entityEnglishId": "Paisley",
+        "startingPos": 0,
+        "endingPos": 7
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5,
+          6
+        ],
+        "entityId": "Abbott C A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Abbott C A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 23
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place",
+          "NaturalPlace",
+          "BodyOfWater",
+          "Stream",
+          "River"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Schie",
+        "freebaseTypes": [
+          "/geography/river",
+          "/location/location",
+          "/geography/body_of_water",
+          "/geography/geographical_feature"
+        ],
+        "confidenceScore": 1.84238,
+        "wikiLink": "http://en.wikipedia.org/wiki/Schie",
+        "matchedText": "Schie",
+        "freebaseId": "/m/06zs7_2",
+        "relevanceScore": 0,
+        "entityEnglishId": "Schie",
+        "startingPos": 29,
+        "endingPos": 34
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Metre",
+        "freebaseTypes": [
+          "/measurement_unit/distance_unit",
+          "/type/unit"
+        ],
+        "confidenceScore": 1.22298,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metre",
+        "matchedText": "M",
+        "freebaseId": "/m/04sf9",
+        "relevanceScore": 0.315562,
+        "entityEnglishId": "Metre",
+        "startingPos": 39,
+        "endingPos": 40
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Boulton",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Boulton",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 42,
+        "endingPos": 49
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Metre",
+        "freebaseTypes": [
+          "/measurement_unit/distance_unit",
+          "/type/unit"
+        ],
+        "confidenceScore": 1.22298,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metre",
+        "matchedText": "M",
+        "freebaseId": "/m/04sf9",
+        "relevanceScore": 0.315562,
+        "entityEnglishId": "Metre",
+        "startingPos": 54,
+        "endingPos": 55
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          34,
+          35
+        ],
+        "entityId": "Nerve",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.42086,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nerve",
+        "matchedText": "peripheral nerve",
+        "freebaseId": "/m/05crz",
+        "relevanceScore": 0.0911005,
+        "entityEnglishId": "Nerve",
+        "startingPos": 164,
+        "endingPos": 180
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Nerve",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.23573,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nerve",
+        "matchedText": "nerve",
+        "freebaseId": "/m/05crz",
+        "relevanceScore": 0.217793,
+        "entityEnglishId": "Nerve",
+        "startingPos": 175,
+        "endingPos": 180
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.931182,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.089998,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 191,
+        "endingPos": 199
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          39
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.316,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "Medicine",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.0356772,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 200,
+        "endingPos": 208
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          39
+        ],
+        "propertyPositions": [
+          38
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          30,
+          31,
+          32
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          30,
+          31,
+          32
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          35,
+          36
+        ],
+        "propertyPositions": [
+          34
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          25,
+          26,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          22,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          15,
+          16,
+          17
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17,
+          20,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          0
+        ],
+        "propertyPositions": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17,
+          20,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ]
+      }
+    ]
+  },
+  "time": 3.031,
+  "ok": true
+}

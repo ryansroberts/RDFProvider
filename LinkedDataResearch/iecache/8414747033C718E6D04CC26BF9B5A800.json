@@ -1,0 +1,174 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.758443
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.752098
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.642588
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.597014
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.593466
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Evidence (law)",
+        "wikiLink": "http://en.wikipedia.org/Evidence_(law)",
+        "score": 0.186913
+      },
+      {
+        "id": 1,
+        "label": "Lifestyle (sociology)",
+        "wikiLink": "http://en.wikipedia.org/Lifestyle_(sociology)",
+        "score": 0.169944
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Evidence (law)",
+        "confidenceScore": 1.05243,
+        "wikiLink": "http://en.wikipedia.org/wiki/Evidence_(law)",
+        "matchedText": "evidence",
+        "freebaseId": "/m/06d34f",
+        "relevanceScore": 0.186913,
+        "entityEnglishId": "Evidence (law)",
+        "startingPos": 12,
+        "endingPos": 20
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Lifestyle (sociology)",
+        "freebaseTypes": [
+          "/media_common/media_genre",
+          "/book/magazine_genre",
+          "/media_common/literary_genre",
+          "/broadcast/genre",
+          "/internet/website_category",
+          "/book/book_subject",
+          "/tv/tv_genre"
+        ],
+        "confidenceScore": 1.0061,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lifestyle_(sociology)",
+        "matchedText": "lifestyle",
+        "freebaseId": "/m/019_rr",
+        "relevanceScore": 0.169944,
+        "entityEnglishId": "Lifestyle (sociology)",
+        "startingPos": 123,
+        "endingPos": 132
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0
+        ],
+        "propertyPositions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          2,
+          3,
+          4
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          18
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 3.02,
+  "ok": true
+}

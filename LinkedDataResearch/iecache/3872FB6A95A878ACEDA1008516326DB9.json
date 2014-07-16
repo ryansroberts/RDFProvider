@@ -1,0 +1,610 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.723395
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.499572
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.499572
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.239675
+      },
+      {
+        "id": 5,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.223823
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Adverse effect",
+        "wikiLink": "http://en.wikipedia.org/Adverse_effect",
+        "score": 0.865751
+      },
+      {
+        "id": 1,
+        "label": "Hospital",
+        "wikiLink": "http://en.wikipedia.org/Hospital",
+        "score": 0.242246
+      },
+      {
+        "id": 2,
+        "label": "Immunosuppression",
+        "wikiLink": "http://en.wikipedia.org/Immunosuppression",
+        "score": 0.226992
+      },
+      {
+        "id": 3,
+        "label": "Infusion",
+        "wikiLink": "http://en.wikipedia.org/Infusion",
+        "score": 0.11714
+      },
+      {
+        "id": 4,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.149381
+      },
+      {
+        "id": 5,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.383969
+      },
+      {
+        "id": 6,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0964917
+      },
+      {
+        "id": 7,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.0951988
+      },
+      {
+        "id": 8,
+        "label": "Medical terminology",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_terminology",
+        "score": 0.0951988
+      },
+      {
+        "id": 9,
+        "label": "Knowledge",
+        "wikiLink": "http://en.wikipedia.org/Category:Knowledge",
+        "score": 0.0951988
+      },
+      {
+        "id": 10,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0730312
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.71122,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.149381,
+        "entityEnglishId": "Patient",
+        "startingPos": 29,
+        "endingPos": 37
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          10,
+          11
+        ],
+        "entityId": "Adverse effect",
+        "confidenceScore": 2.41627,
+        "wikiLink": "http://en.wikipedia.org/wiki/Adverse_effect",
+        "matchedText": "adverse events",
+        "freebaseId": "/m/054ffx",
+        "relevanceScore": 0.432875,
+        "entityEnglishId": "Adverse effect",
+        "startingPos": 50,
+        "endingPos": 64
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Hospital",
+        "freebaseTypes": [
+          "/architecture/structure",
+          "/fictional_universe/type_of_fictional_setting",
+          "/media_common/quotation_subject",
+          "/location/location",
+          "/architecture/building",
+          "/organization/contact_category",
+          "/book/book_subject",
+          "/medicine/hospital",
+          "/architecture/building_function"
+        ],
+        "confidenceScore": 1.17177,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hospital",
+        "matchedText": "hospitalisation",
+        "freebaseId": "/m/0hpnr",
+        "relevanceScore": 0.242246,
+        "entityEnglishId": "Hospital",
+        "startingPos": 138,
+        "endingPos": 153
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          48,
+          49
+        ],
+        "entityId": "Adverse effect",
+        "confidenceScore": 2.41627,
+        "wikiLink": "http://en.wikipedia.org/wiki/Adverse_effect",
+        "matchedText": "adverse events",
+        "freebaseId": "/m/054ffx",
+        "relevanceScore": 0.432875,
+        "entityEnglishId": "Adverse effect",
+        "startingPos": 263,
+        "endingPos": 277
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          54
+        ],
+        "entityId": "Infusion",
+        "confidenceScore": 1.61325,
+        "wikiLink": "http://en.wikipedia.org/wiki/Infusion",
+        "matchedText": "infusion",
+        "freebaseId": "/m/09rmq4",
+        "relevanceScore": 0.11714,
+        "entityEnglishId": "Infusion",
+        "startingPos": 298,
+        "endingPos": 306
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          59
+        ],
+        "entityId": "Immunosuppression",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 6.58394,
+        "wikiLink": "http://en.wikipedia.org/wiki/Immunosuppression",
+        "matchedText": "immunosuppression",
+        "freebaseId": "/m/016mlj",
+        "relevanceScore": 0.226992,
+        "entityEnglishId": "Immunosuppression",
+        "startingPos": 328,
+        "endingPos": 345
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          12,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              8,
+              9,
+              10,
+              11
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              15,
+              17,
+              19,
+              20,
+              21,
+              23,
+              25,
+              26
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          12,
+          13,
+          25
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              8,
+              9,
+              10,
+              11,
+              19,
+              20,
+              21,
+              23
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              15,
+              17,
+              26
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          25
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              19,
+              20,
+              21,
+              23
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              26
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          12,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              8,
+              9,
+              10,
+              11
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6,
+              15,
+              17,
+              19,
+              20,
+              21,
+              23,
+              25,
+              26
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          43
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              41,
+              42
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              61,
+              62,
+              63
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          50,
+          51,
+          52,
+          58
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              45,
+              46,
+              47,
+              48,
+              49
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              44,
+              53,
+              54,
+              55,
+              56,
+              57,
+              59,
+              61,
+              62,
+              63
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          58
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              45,
+              46,
+              47,
+              48,
+              49
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              44,
+              57,
+              59,
+              61,
+              62,
+              63
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          50,
+          51,
+          52,
+          58,
+          61,
+          62,
+          63
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              45,
+              46,
+              47,
+              48,
+              49
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              44,
+              53,
+              54,
+              55,
+              56,
+              57,
+              59
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          43,
+          50,
+          51,
+          52,
+          58
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              41,
+              42,
+              45,
+              46,
+              47,
+              48,
+              49
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              44,
+              53,
+              54,
+              55,
+              56,
+              57,
+              59,
+              61,
+              62,
+              63
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          11
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "propertyPositions": [
+          5,
+          6
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          39
+        ],
+        "propertyPositions": [
+          38
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          47,
+          49
+        ],
+        "propertyPositions": [
+          48
+        ]
+      }
+    ]
+  },
+  "time": 3.019,
+  "ok": true
+}

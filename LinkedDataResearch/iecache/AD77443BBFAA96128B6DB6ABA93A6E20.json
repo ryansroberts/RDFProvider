@@ -1,0 +1,761 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.480875
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.252867
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.2502
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.249311
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.24363
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Glycated hemoglobin",
+        "wikiLink": "http://en.wikipedia.org/Glycated_hemoglobin",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Hemoglobin",
+        "wikiLink": "http://en.wikipedia.org/Hemoglobin",
+        "score": 0.435129
+      },
+      {
+        "id": 3,
+        "label": "Meta-analysis",
+        "wikiLink": "http://en.wikipedia.org/Meta-analysis",
+        "score": 0.341904
+      },
+      {
+        "id": 4,
+        "label": "Analysis",
+        "wikiLink": "http://en.wikipedia.org/Category:Analysis",
+        "score": 0.111207
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.108785
+      },
+      {
+        "id": 6,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.104043
+      },
+      {
+        "id": 7,
+        "label": "Respiratory pigments",
+        "wikiLink": "http://en.wikipedia.org/Category:Respiratory_pigments",
+        "score": 0.100399
+      },
+      {
+        "id": 8,
+        "label": "Hemoglobins",
+        "wikiLink": "http://en.wikipedia.org/Category:Hemoglobins",
+        "score": 0.100399
+      },
+      {
+        "id": 9,
+        "label": "Medical associations",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_associations_by_country",
+        "score": 0.0575798
+      },
+      {
+        "id": 10,
+        "label": "American Medical Association",
+        "wikiLink": "http://en.wikipedia.org/Category:American_Medical_Association",
+        "score": 0.0575798
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Peters AL",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Peters AL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Davidson MB",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Davidson MB",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 22
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Schriger DL",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Schriger DL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 24,
+        "endingPos": 35
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Deputy Lieutenant",
+        "confidenceScore": 1.25839,
+        "wikiLink": "http://en.wikipedia.org/wiki/Deputy_Lieutenant",
+        "matchedText": "DL",
+        "freebaseId": "/m/0337n7",
+        "relevanceScore": 0,
+        "entityEnglishId": "Deputy Lieutenant",
+        "startingPos": 33,
+        "endingPos": 35
+      },
+      {
+        "id": 4,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Company"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Hasselblad",
+        "freebaseTypes": [
+          "/business/business_operation",
+          "/business/consumer_company",
+          "/business/employer",
+          "/organization/organization"
+        ],
+        "confidenceScore": 3.29354,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hasselblad",
+        "matchedText": "Hasselblad",
+        "freebaseId": "/m/0142p3",
+        "relevanceScore": 0.0479389,
+        "entityEnglishId": "Hasselblad",
+        "startingPos": 37,
+        "endingPos": 47
+      },
+      {
+        "id": 5,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Hasselblad V.",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hasselblad V.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 37,
+        "endingPos": 50
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Diagnosis",
+        "confidenceScore": 1.08785,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diagnosis",
+        "matchedText": "diagnosis",
+        "freebaseId": "",
+        "relevanceScore": 0,
+        "entityEnglishId": "Diagnosis",
+        "startingPos": 79,
+        "endingPos": 88
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.01873,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.41158,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 92,
+        "endingPos": 100
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 5.48258,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes mellitus",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.213317,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 92,
+        "endingPos": 109
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Glycosylation",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.32709,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycosylation",
+        "matchedText": "glycosylated",
+        "freebaseId": "/m/02dw_f",
+        "relevanceScore": 0.0463555,
+        "entityEnglishId": "Glycosylation",
+        "startingPos": 129,
+        "endingPos": 141
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.60908,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "glycosylated hemoglobin",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.550184,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 129,
+        "endingPos": 152
+      },
+      {
+        "id": 11,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Hemoglobin",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/biology/protein"
+        ],
+        "confidenceScore": 4.76427,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hemoglobin",
+        "matchedText": "hemoglobin",
+        "freebaseId": "/m/03hwm",
+        "relevanceScore": 0.217565,
+        "entityEnglishId": "Hemoglobin",
+        "startingPos": 142,
+        "endingPos": 152
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Meta-analysis",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 5.76076,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meta-analysis",
+        "matchedText": "Meta-analysis",
+        "freebaseId": "/m/0gvjk",
+        "relevanceScore": 0.341904,
+        "entityEnglishId": "Meta-analysis",
+        "startingPos": 161,
+        "endingPos": 174
+      },
+      {
+        "id": 13,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          28,
+          29,
+          30
+        ],
+        "entityId": "Meta-analysis Research Group",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Meta-analysis Research Group",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 161,
+        "endingPos": 189
+      },
+      {
+        "id": 14,
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Diagnosis",
+        "confidenceScore": 1.08785,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diagnosis",
+        "matchedText": "Diagnosis",
+        "freebaseId": "",
+        "relevanceScore": 0,
+        "entityEnglishId": "Diagnosis",
+        "startingPos": 197,
+        "endingPos": 206
+      },
+      {
+        "id": 15,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.01873,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.41158,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 210,
+        "endingPos": 218
+      },
+      {
+        "id": 16,
+        "matchingTokens": [
+          37,
+          38
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 5.43809,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "Glycated Hemoglobin",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.550184,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 225,
+        "endingPos": 244
+      },
+      {
+        "id": 17,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "Hemoglobin",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/biology/protein"
+        ],
+        "confidenceScore": 4.76427,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hemoglobin",
+        "matchedText": "Hemoglobin",
+        "freebaseId": "/m/03hwm",
+        "relevanceScore": 0.217565,
+        "entityEnglishId": "Hemoglobin",
+        "startingPos": 234,
+        "endingPos": 244
+      },
+      {
+        "id": 18,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "entityId": "Diagnosis of Diabetes Using Glycated Hemoglobin Levels",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Diagnosis of Diabetes Using Glycated Hemoglobin Levels",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 197,
+        "endingPos": 251
+      },
+      {
+        "id": 19,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          41,
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "entityId": "JAMA (journal)",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/publication",
+          "/book/journal"
+        ],
+        "confidenceScore": 2.57597,
+        "wikiLink": "http://en.wikipedia.org/wiki/JAMA_(journal)",
+        "matchedText": "Journal of the American Medical Association",
+        "freebaseId": "/m/02n872",
+        "relevanceScore": 0.0472349,
+        "entityEnglishId": "JAMA (journal)",
+        "startingPos": 253,
+        "endingPos": 296
+      },
+      {
+        "id": 20,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          43,
+          44,
+          45,
+          46
+        ],
+        "entityId": "American Medical Association",
+        "freebaseTypes": [
+          "/business/employer",
+          "/book/periodical_publisher",
+          "/organization/organization",
+          "/internet/website_owner",
+          "/award/award_presenting_organization",
+          "/book/author"
+        ],
+        "confidenceScore": 1.55714,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Medical_Association",
+        "matchedText": "the American Medical Association",
+        "freebaseId": "/m/01pq0r",
+        "relevanceScore": 0.0467655,
+        "entityEnglishId": "American Medical Association",
+        "startingPos": 264,
+        "endingPos": 296
+      },
+      {
+        "id": 21,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          44,
+          45,
+          46
+        ],
+        "entityId": "American Medical Association",
+        "freebaseTypes": [
+          "/business/employer",
+          "/book/periodical_publisher",
+          "/organization/organization",
+          "/internet/website_owner",
+          "/award/award_presenting_organization",
+          "/book/author"
+        ],
+        "confidenceScore": 4.65925,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Medical_Association",
+        "matchedText": "American Medical Association",
+        "freebaseId": "/m/01pq0r",
+        "relevanceScore": 0.0467655,
+        "entityEnglishId": "American Medical Association",
+        "startingPos": 268,
+        "endingPos": 296
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          32,
+          33,
+          34,
+          36
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          28,
+          29,
+          30,
+          31
+        ],
+        "propertyPositions": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          41,
+          42
+        ],
+        "propertyPositions": [
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          11,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          15,
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          11,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          25,
+          26
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ]
+      }
+    ]
+  },
+  "time": 3.03,
+  "ok": true
+}

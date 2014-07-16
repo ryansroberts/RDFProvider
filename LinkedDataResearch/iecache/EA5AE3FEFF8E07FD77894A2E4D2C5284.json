@@ -1,0 +1,280 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.511126
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.511126
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.485162
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.485162
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chronic pain",
+        "wikiLink": "http://en.wikipedia.org/Chronic_pain",
+        "score": 0.285466
+      },
+      {
+        "id": 1,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Pain",
+        "score": 0.169691
+      },
+      {
+        "id": 2,
+        "label": "Feeling",
+        "wikiLink": "http://en.wikipedia.org/Category:Feeling",
+        "score": 0.0753099
+      },
+      {
+        "id": 3,
+        "label": "Symptoms and signs: General",
+        "wikiLink": "http://en.wikipedia.org/Category:Symptoms_and_signs:_General",
+        "score": 0.0753099
+      },
+      {
+        "id": 4,
+        "label": "Nociception",
+        "wikiLink": "http://en.wikipedia.org/Category:Nociception",
+        "score": 0.0753099
+      },
+      {
+        "id": 5,
+        "label": "Perception",
+        "wikiLink": "http://en.wikipedia.org/Category:Perception",
+        "score": 0.0753099
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Dworkin RH",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Dworkin RH",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Turk DC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Turk DC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 12,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Farrar JT",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Farrar JT",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 30
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Chronic pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/risk_factor",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/contraindication",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.23166,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_pain",
+        "matchedText": "chronic pain",
+        "freebaseId": "/m/012clh",
+        "relevanceScore": 0.285466,
+        "entityEnglishId": "Chronic pain",
+        "startingPos": 71,
+        "endingPos": 83
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.56216,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.169691,
+        "entityEnglishId": "Pain",
+        "startingPos": 79,
+        "endingPos": 83
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Clinical trial",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/law/invention"
+        ],
+        "confidenceScore": 1.40007,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_trial",
+        "matchedText": "clinical trials",
+        "freebaseId": "/m/01k22z",
+        "relevanceScore": 0.0798477,
+        "entityEnglishId": "Clinical trial",
+        "startingPos": 84,
+        "endingPos": 99
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          19,
+          21
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          19,
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21,
+          23,
+          24
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          12,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24
+        ]
+      }
+    ]
+  },
+  "time": 3.026,
+  "ok": true
+}

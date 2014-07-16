@@ -1,0 +1,885 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.668052
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.353402
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.352995
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.352995
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.340586
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Combination therapy",
+        "wikiLink": "http://en.wikipedia.org/Combination_therapy",
+        "score": 0.165717
+      },
+      {
+        "id": 1,
+        "label": "Statistical significance",
+        "wikiLink": "http://en.wikipedia.org/Statistical_significance",
+        "score": 0.294836
+      },
+      {
+        "id": 2,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.358076
+      },
+      {
+        "id": 3,
+        "label": "Vitamin",
+        "wikiLink": "http://en.wikipedia.org/Vitamin",
+        "score": 0.234631
+      },
+      {
+        "id": 4,
+        "label": "Vitamin D",
+        "wikiLink": "http://en.wikipedia.org/Vitamin_D",
+        "score": 1
+      },
+      {
+        "id": 5,
+        "label": "Essential nutrients",
+        "wikiLink": "http://en.wikipedia.org/Category:Essential_nutrients",
+        "score": 0.0823629
+      },
+      {
+        "id": 6,
+        "label": "Vitamins",
+        "wikiLink": "http://en.wikipedia.org/Category:Vitamins",
+        "score": 0.0823629
+      },
+      {
+        "id": 7,
+        "label": "Dietary supplements",
+        "wikiLink": "http://en.wikipedia.org/Category:Dietary_supplements",
+        "score": 0.0823629
+      },
+      {
+        "id": 8,
+        "label": "Medical treatments",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_treatments",
+        "score": 0.0557239
+      },
+      {
+        "id": 9,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0430308
+      },
+      {
+        "id": 10,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.0359974
+      },
+      {
+        "id": 11,
+        "label": "Medicinal chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicinal_chemistry",
+        "score": 0.0333333
+      },
+      {
+        "id": 12,
+        "label": "Pharmaceutical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_sciences",
+        "score": 0.0333333
+      },
+      {
+        "id": 13,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.0333333
+      },
+      {
+        "id": 14,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0333333
+      },
+      {
+        "id": 15,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Combination therapy",
+        "confidenceScore": 1.71624,
+        "wikiLink": "http://en.wikipedia.org/wiki/Combination_therapy",
+        "matchedText": "Combination therapy",
+        "freebaseId": "/m/058jwm",
+        "relevanceScore": 0.0828586,
+        "entityEnglishId": "Combination therapy",
+        "startingPos": 0,
+        "endingPos": 19
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.06473,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.179038,
+        "entityEnglishId": "Therapy",
+        "startingPos": 12,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Risedronic acid",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound",
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors"
+        ],
+        "confidenceScore": 2.72897,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risedronic_acid",
+        "matchedText": "risedronate",
+        "freebaseId": "/m/0hqvfl5",
+        "relevanceScore": 0,
+        "entityEnglishId": "Risedronic acid",
+        "startingPos": 23,
+        "endingPos": 34
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Vitamin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/book/book_subject",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 1.75199,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vitamin",
+        "matchedText": "vitamin",
+        "freebaseId": "/m/07zry",
+        "relevanceScore": 0.0586576,
+        "entityEnglishId": "Vitamin",
+        "startingPos": 52,
+        "endingPos": 59
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Vitamin D",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 6.88421,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vitamin_D",
+        "matchedText": "vitamin D",
+        "freebaseId": "/m/0f4jp",
+        "relevanceScore": 0.227113,
+        "entityEnglishId": "Vitamin D",
+        "startingPos": 52,
+        "endingPos": 61
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Vitamin D",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.58898,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vitamin_D",
+        "matchedText": "D",
+        "freebaseId": "/m/0f4jp",
+        "relevanceScore": 0.227113,
+        "entityEnglishId": "Vitamin D",
+        "startingPos": 60,
+        "endingPos": 61
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Vitamin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/book/book_subject",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 1.75199,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vitamin",
+        "matchedText": "vitamin",
+        "freebaseId": "/m/07zry",
+        "relevanceScore": 0.0586576,
+        "entityEnglishId": "Vitamin",
+        "startingPos": 157,
+        "endingPos": 164
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "Vitamin D",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 6.88421,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vitamin_D",
+        "matchedText": "vitamin D",
+        "freebaseId": "/m/0f4jp",
+        "relevanceScore": 0.227113,
+        "entityEnglishId": "Vitamin D",
+        "startingPos": 157,
+        "endingPos": 166
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Vitamin D",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.58898,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vitamin_D",
+        "matchedText": "D",
+        "freebaseId": "/m/0f4jp",
+        "relevanceScore": 0.227113,
+        "entityEnglishId": "Vitamin D",
+        "startingPos": 165,
+        "endingPos": 166
+      },
+      {
+        "id": 9,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          40
+        ],
+        "entityId": "Risedronic acid",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound",
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors"
+        ],
+        "confidenceScore": 2.52897,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risedronic_acid",
+        "matchedText": "risedronate",
+        "freebaseId": "/m/0hqvfl5",
+        "relevanceScore": 0,
+        "entityEnglishId": "Risedronic acid",
+        "startingPos": 217,
+        "endingPos": 228
+      },
+      {
+        "id": 10,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          50
+        ],
+        "entityId": "Risedronic acid",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound",
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors"
+        ],
+        "confidenceScore": 2.72897,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risedronic_acid",
+        "matchedText": "risedronate",
+        "freebaseId": "/m/0hqvfl5",
+        "relevanceScore": 0,
+        "entityEnglishId": "Risedronic acid",
+        "startingPos": 278,
+        "endingPos": 289
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          52
+        ],
+        "entityId": "Vitamin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/book/book_subject",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 2.03298,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vitamin",
+        "matchedText": "vitamin",
+        "freebaseId": "/m/07zry",
+        "relevanceScore": 0.0586576,
+        "entityEnglishId": "Vitamin",
+        "startingPos": 294,
+        "endingPos": 301
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          52,
+          53
+        ],
+        "entityId": "Vitamin D",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 7.27882,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vitamin_D",
+        "matchedText": "vitamin D",
+        "freebaseId": "/m/0f4jp",
+        "relevanceScore": 0.227113,
+        "entityEnglishId": "Vitamin D",
+        "startingPos": 294,
+        "endingPos": 303
+      },
+      {
+        "id": 13,
+        "matchingTokens": [
+          53
+        ],
+        "entityId": "Vitamin D",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.98358,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vitamin_D",
+        "matchedText": "D",
+        "freebaseId": "/m/0f4jp",
+        "relevanceScore": 0.227113,
+        "entityEnglishId": "Vitamin D",
+        "startingPos": 302,
+        "endingPos": 303
+      },
+      {
+        "id": 14,
+        "matchingTokens": [
+          54,
+          55
+        ],
+        "entityId": "Combination therapy",
+        "confidenceScore": 1.71624,
+        "wikiLink": "http://en.wikipedia.org/wiki/Combination_therapy",
+        "matchedText": "combination therapy",
+        "freebaseId": "/m/058jwm",
+        "relevanceScore": 0.0828586,
+        "entityEnglishId": "Combination therapy",
+        "startingPos": 304,
+        "endingPos": 323
+      },
+      {
+        "id": 15,
+        "matchingTokens": [
+          55
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.21505,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.179038,
+        "entityEnglishId": "Therapy",
+        "startingPos": 316,
+        "endingPos": 323
+      },
+      {
+        "id": 16,
+        "matchingTokens": [
+          59
+        ],
+        "entityId": "Vitamin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/book/book_subject",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 2.03298,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vitamin",
+        "matchedText": "vitamin",
+        "freebaseId": "/m/07zry",
+        "relevanceScore": 0.0586576,
+        "entityEnglishId": "Vitamin",
+        "startingPos": 338,
+        "endingPos": 345
+      },
+      {
+        "id": 17,
+        "matchingTokens": [
+          59,
+          60
+        ],
+        "entityId": "Vitamin D",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 7.27882,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vitamin_D",
+        "matchedText": "vitamin D",
+        "freebaseId": "/m/0f4jp",
+        "relevanceScore": 0.227113,
+        "entityEnglishId": "Vitamin D",
+        "startingPos": 338,
+        "endingPos": 347
+      },
+      {
+        "id": 18,
+        "matchingTokens": [
+          60
+        ],
+        "entityId": "Vitamin D",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.98358,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vitamin_D",
+        "matchedText": "D",
+        "freebaseId": "/m/0f4jp",
+        "relevanceScore": 0.227113,
+        "entityEnglishId": "Vitamin D",
+        "startingPos": 346,
+        "endingPos": 347
+      },
+      {
+        "id": 19,
+        "matchingTokens": [
+          64,
+          65
+        ],
+        "entityId": "Statistical significance",
+        "confidenceScore": 1.38647,
+        "wikiLink": "http://en.wikipedia.org/wiki/Statistical_significance",
+        "matchedText": "statistically significant",
+        "freebaseId": "/m/0159l8",
+        "relevanceScore": 0.294836,
+        "entityEnglishId": "Statistical significance",
+        "startingPos": 365,
+        "endingPos": 390
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          11,
+          12,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          12,
+          13,
+          20,
+          22,
+          23,
+          24
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              8,
+              9,
+              10,
+              21
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              25,
+              26,
+              27,
+              28,
+              29
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          20,
+          22,
+          23,
+          24
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              21
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              25,
+              26,
+              27,
+              28,
+              29
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              18,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          5,
+          6,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          14,
+          16,
+          17
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14,
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          33,
+          35,
+          36,
+          38
+        ],
+        "propertyPositions": [
+          34
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          33,
+          35,
+          36,
+          38
+        ],
+        "propertyPositions": [
+          37
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          39,
+          41
+        ],
+        "propertyPositions": [
+          40
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          33,
+          35,
+          36,
+          38
+        ],
+        "propertyPositions": [
+          39,
+          40,
+          41
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          46,
+          47,
+          48
+        ],
+        "propertyPositions": [
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          43,
+          44,
+          45
+        ],
+        "propertyPositions": [
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          43,
+          44,
+          45
+        ],
+        "propertyPositions": [
+          63,
+          64,
+          65,
+          66,
+          67,
+          69,
+          70
+        ]
+      }
+    ]
+  },
+  "time": 3.027,
+  "ok": true
+}

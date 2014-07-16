@@ -1,0 +1,547 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.488161
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.229068
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.229068
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.213658
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.213658
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Blood gas tension",
+        "wikiLink": "http://en.wikipedia.org/Blood_gas_tension",
+        "score": 0.579897
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.17845
+      },
+      {
+        "id": 2,
+        "label": "Diabetic foot ulcer",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot_ulcer",
+        "score": 0.612828
+      },
+      {
+        "id": 3,
+        "label": "Stress (biology)",
+        "wikiLink": "http://en.wikipedia.org/Stress_(biology)",
+        "score": 0.207131
+      },
+      {
+        "id": 4,
+        "label": "Ulcer (dermatology)",
+        "wikiLink": "http://en.wikipedia.org/Ulcer_(dermatology)",
+        "score": 0.350959
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.376683
+      },
+      {
+        "id": 6,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.155758
+      },
+      {
+        "id": 7,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.155758
+      },
+      {
+        "id": 8,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.155758
+      },
+      {
+        "id": 9,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.107385
+      },
+      {
+        "id": 10,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Category:Therapy",
+        "score": 0.0765033
+      },
+      {
+        "id": 11,
+        "label": "Chemical elements",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_elements",
+        "score": 0.0611328
+      },
+      {
+        "id": 12,
+        "label": "Atoms",
+        "wikiLink": "http://en.wikipedia.org/Category:Atoms",
+        "score": 0.0611328
+      },
+      {
+        "id": 13,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.0491534
+      },
+      {
+        "id": 14,
+        "label": "Organs",
+        "wikiLink": "http://en.wikipedia.org/Category:Organs",
+        "score": 0.0435822
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Growth factor",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/award/award_winning_work"
+        ],
+        "confidenceScore": 1.71911,
+        "wikiLink": "http://en.wikipedia.org/wiki/Growth_factor",
+        "matchedText": "growth factors",
+        "freebaseId": "/m/03dxn",
+        "relevanceScore": 0,
+        "entityEnglishId": "Growth factor",
+        "startingPos": 31,
+        "endingPos": 45
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "RGDpm",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "RGDpm",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 70,
+        "endingPos": 75
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.14599,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.17845,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 144,
+        "endingPos": 152
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.21984,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0.0954747,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 144,
+        "endingPos": 157
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "Diabetic foot ulcer",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.25609,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot_ulcer",
+        "matchedText": "foot ulcers",
+        "freebaseId": "/m/064p1q4",
+        "relevanceScore": 0.612828,
+        "entityEnglishId": "Diabetic foot ulcer",
+        "startingPos": 153,
+        "endingPos": 164
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Ulcer (dermatology)",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 0.944063,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ulcer_(dermatology)",
+        "matchedText": "ulcers",
+        "freebaseId": "/m/01klgg",
+        "relevanceScore": 0.350959,
+        "entityEnglishId": "Ulcer (dermatology)",
+        "startingPos": 158,
+        "endingPos": 164
+      },
+      {
+        "id": 6,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Wagner",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wagner",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 170,
+        "endingPos": 176
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Oxygen",
+        "freebaseTypes": [
+          "/chemistry/chemical_element"
+        ],
+        "confidenceScore": 2.18943,
+        "wikiLink": "http://en.wikipedia.org/wiki/Oxygen",
+        "matchedText": "oxygen",
+        "freebaseId": "/m/025s6bf",
+        "relevanceScore": 0.070443,
+        "entityEnglishId": "Oxygen",
+        "startingPos": 214,
+        "endingPos": 220
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          37,
+          38
+        ],
+        "entityId": "Blood gas tension",
+        "confidenceScore": 2.31169,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_gas_tension",
+        "matchedText": "oxygen tension",
+        "freebaseId": "/m/0h7p6nc",
+        "relevanceScore": 0.579897,
+        "entityEnglishId": "Blood gas tension",
+        "startingPos": 214,
+        "endingPos": 228
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "Stress (biology)",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/book/book_subject",
+          "/media_common/quotation_subject",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 0.933397,
+        "wikiLink": "http://en.wikipedia.org/wiki/Stress_(biology)",
+        "matchedText": "tension",
+        "freebaseId": "/m/012lyw",
+        "relevanceScore": 0.207131,
+        "entityEnglishId": "Stress (biology)",
+        "startingPos": 221,
+        "endingPos": 228
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "Millimeter of mercury",
+        "confidenceScore": 1.9202,
+        "wikiLink": "http://en.wikipedia.org/wiki/Millimeter_of_mercury",
+        "matchedText": "mmHg",
+        "freebaseId": "/m/0r3vbng",
+        "relevanceScore": 0.0290862,
+        "entityEnglishId": "Millimeter of mercury",
+        "startingPos": 240,
+        "endingPos": 244
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              12,
+              13,
+              14,
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          21,
+          22,
+          28
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              17,
+              18,
+              19,
+              20
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              23,
+              24,
+              25,
+              26,
+              27,
+              29,
+              30,
+              31
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          21,
+          22,
+          28,
+          29,
+          30
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              17,
+              18,
+              19,
+              20
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              23,
+              24,
+              25,
+              26,
+              27,
+              31
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          6
+        ],
+        "propertyPositions": [
+          8,
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          6
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          37,
+          38,
+          39
+        ],
+        "propertyPositions": [
+          36
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          26,
+          27
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27
+        ]
+      }
+    ]
+  },
+  "time": 3.028,
+  "ok": true
+}

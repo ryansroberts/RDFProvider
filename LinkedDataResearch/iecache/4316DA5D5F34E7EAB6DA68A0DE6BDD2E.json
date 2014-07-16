@@ -1,0 +1,556 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.469003
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.246348
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.246348
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.21149
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Blind experiment",
+        "wikiLink": "http://en.wikipedia.org/Blind_experiment",
+        "score": 0.126962
+      },
+      {
+        "id": 1,
+        "label": "Capsaicin",
+        "wikiLink": "http://en.wikipedia.org/Capsaicin",
+        "score": 0.243628
+      },
+      {
+        "id": 2,
+        "label": "Immunodeficiency",
+        "wikiLink": "http://en.wikipedia.org/Immunodeficiency",
+        "score": 0.192634
+      },
+      {
+        "id": 3,
+        "label": "Journal of Acquired Immune Deficiency Syndromes",
+        "wikiLink": "http://en.wikipedia.org/Journal_of_Acquired_Immune_Deficiency_Syndromes",
+        "score": 0.537219
+      },
+      {
+        "id": 4,
+        "label": "Polyneuropathy",
+        "wikiLink": "http://en.wikipedia.org/Polyneuropathy",
+        "score": 0.41852
+      },
+      {
+        "id": 5,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.349897
+      },
+      {
+        "id": 6,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders_by_system",
+        "score": 0.165535
+      },
+      {
+        "id": 7,
+        "label": "Pharmacy",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacy",
+        "score": 0.0392777
+      },
+      {
+        "id": 8,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs",
+        "score": 0.0392777
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Clifford DB",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Clifford DB",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Simpson DM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Simpson DM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 23
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Brown S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Brown S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 25,
+        "endingPos": 32
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Blind experiment",
+        "freebaseTypes": [
+          "/medicine/medical_trial_design"
+        ],
+        "confidenceScore": 3.68076,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blind_experiment",
+        "matchedText": "double-blind",
+        "freebaseId": "/m/01ph3t",
+        "relevanceScore": 0.126962,
+        "entityEnglishId": "Blind experiment",
+        "startingPos": 61,
+        "endingPos": 73
+      },
+      {
+        "id": 4,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Capsaicin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors"
+        ],
+        "confidenceScore": 6.02869,
+        "wikiLink": "http://en.wikipedia.org/wiki/Capsaicin",
+        "matchedText": "capsaicin",
+        "freebaseId": "/m/0fs8j",
+        "relevanceScore": 0.243628,
+        "entityEnglishId": "Capsaicin",
+        "startingPos": 107,
+        "endingPos": 116
+      },
+      {
+        "id": 5,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Dermis",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.09525,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dermis",
+        "matchedText": "dermal",
+        "freebaseId": "/m/037bxg",
+        "relevanceScore": 0,
+        "entityEnglishId": "Dermis",
+        "startingPos": 120,
+        "endingPos": 126
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "Dermal patch",
+        "confidenceScore": 2.06088,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dermal_patch",
+        "matchedText": "dermal patch",
+        "freebaseId": "/m/0bwk9y1",
+        "relevanceScore": 0,
+        "entityEnglishId": "Dermal patch",
+        "startingPos": 120,
+        "endingPos": 132
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Polyneuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.25724,
+        "wikiLink": "http://en.wikipedia.org/wiki/Polyneuropathy",
+        "matchedText": "polyneuropathy",
+        "freebaseId": "/m/03cx49",
+        "relevanceScore": 0.41852,
+        "entityEnglishId": "Polyneuropathy",
+        "startingPos": 193,
+        "endingPos": 207
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          42,
+          43
+        ],
+        "entityId": "Immunodeficiency",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/contraindication",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.11115,
+        "wikiLink": "http://en.wikipedia.org/wiki/Immunodeficiency",
+        "matchedText": "Immune Deficiency",
+        "freebaseId": "/m/02yg4w",
+        "relevanceScore": 0.192634,
+        "entityEnglishId": "Immunodeficiency",
+        "startingPos": 229,
+        "endingPos": 246
+      },
+      {
+        "id": 9,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ],
+        "entityId": "Journal of Acquired Immune Deficiency Syndromes",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.3856,
+        "wikiLink": "http://en.wikipedia.org/wiki/Journal_of_Acquired_Immune_Deficiency_Syndromes",
+        "matchedText": "Journal of Acquired Immune Deficiency Syndromes",
+        "freebaseId": "/m/03cmbz7",
+        "relevanceScore": 0,
+        "entityEnglishId": "Journal of Acquired Immune Deficiency Syndromes",
+        "startingPos": 209,
+        "endingPos": 256
+      },
+      {
+        "id": 10,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          46
+        ],
+        "entityId": "Journal of Acquired Immune Deficiency Syndromes",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.39673,
+        "wikiLink": "http://en.wikipedia.org/wiki/Journal_of_Acquired_Immune_Deficiency_Syndromes",
+        "matchedText": "JAIDS",
+        "freebaseId": "/m/03cmbz7",
+        "relevanceScore": 0.537219,
+        "entityEnglishId": "Journal of Acquired Immune Deficiency Syndromes",
+        "startingPos": 258,
+        "endingPos": 263
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          13,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          13,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          37
+        ],
+        "propertyPositions": [
+          33
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          37
+        ],
+        "propertyPositions": [
+          34
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          37
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          37
+        ],
+        "propertyPositions": [
+          36
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          30,
+          31,
+          32
+        ],
+        "propertyPositions": [
+          33,
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          24,
+          29
+        ],
+        "propertyPositions": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          23,
+          24,
+          27,
+          29
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          13,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          42,
+          43,
+          44
+        ],
+        "propertyPositions": [
+          41
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          39,
+          40
+        ],
+        "propertyPositions": [
+          41,
+          42,
+          43,
+          44,
+          46,
+          47,
+          49
+        ]
+      }
+    ]
+  },
+  "time": 3.037,
+  "ok": true
+}

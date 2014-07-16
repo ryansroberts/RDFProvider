@@ -1,0 +1,370 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.641906
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.564069
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.519625
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.502098
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.475168
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Hypoglycemia",
+        "wikiLink": "http://en.wikipedia.org/Hypoglycemia",
+        "score": 0.258052
+      },
+      {
+        "id": 1,
+        "label": "Lipid",
+        "wikiLink": "http://en.wikipedia.org/Lipid",
+        "score": 0.144046
+      },
+      {
+        "id": 2,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.35657
+      },
+      {
+        "id": 3,
+        "label": "Weight",
+        "wikiLink": "http://en.wikipedia.org/Weight",
+        "score": 0.242484
+      },
+      {
+        "id": 4,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.145467
+      },
+      {
+        "id": 5,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.141247
+      },
+      {
+        "id": 6,
+        "label": "Membrane biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Membrane_biology",
+        "score": 0.124872
+      },
+      {
+        "id": 7,
+        "label": "Biomolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Biomolecules_by_chemical_classification",
+        "score": 0.109896
+      },
+      {
+        "id": 8,
+        "label": "Nutrients",
+        "wikiLink": "http://en.wikipedia.org/Category:Nutrients",
+        "score": 0.109896
+      },
+      {
+        "id": 9,
+        "label": "Macromolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Macromolecules",
+        "score": 0.109896
+      },
+      {
+        "id": 10,
+        "label": "Mass",
+        "wikiLink": "http://en.wikipedia.org/Category:Mass",
+        "score": 0.10979
+      },
+      {
+        "id": 11,
+        "label": "Membrane-active molecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Membrane-active_molecules",
+        "score": 0.105888
+      },
+      {
+        "id": 12,
+        "label": "Lipids",
+        "wikiLink": "http://en.wikipedia.org/Category:Lipids",
+        "score": 0.105888
+      },
+      {
+        "id": 13,
+        "label": "Carbon compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Carbon_compounds",
+        "score": 0.0788743
+      },
+      {
+        "id": 14,
+        "label": "Hydrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Hydrogen_compounds",
+        "score": 0.0788743
+      },
+      {
+        "id": 15,
+        "label": "Organic chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_chemistry",
+        "score": 0.0788743
+      },
+      {
+        "id": 16,
+        "label": "Matter",
+        "wikiLink": "http://en.wikipedia.org/Category:Matter",
+        "score": 0.073949
+      },
+      {
+        "id": 17,
+        "label": "Physical quantities",
+        "wikiLink": "http://en.wikipedia.org/Category:Physical_quantities",
+        "score": 0.073949
+      },
+      {
+        "id": 18,
+        "label": "Molecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Molecules",
+        "score": 0.0727622
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Hypoglycemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.81391,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypoglycemia",
+        "matchedText": "hypoglycaemic",
+        "freebaseId": "/m/03gwt",
+        "relevanceScore": 0.258052,
+        "entityEnglishId": "Hypoglycemia",
+        "startingPos": 99,
+        "endingPos": 112
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 4.39458,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.35657,
+        "entityEnglishId": "Placebo",
+        "startingPos": 139,
+        "endingPos": 146
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          30,
+          31
+        ],
+        "entityId": "Body weight",
+        "confidenceScore": 1.65176,
+        "wikiLink": "http://en.wikipedia.org/wiki/Body_weight",
+        "matchedText": "body weight",
+        "freebaseId": "/m/02mw60",
+        "relevanceScore": 0.0560641,
+        "entityEnglishId": "Body weight",
+        "startingPos": 186,
+        "endingPos": 197
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Weight",
+        "confidenceScore": 0.922438,
+        "wikiLink": "http://en.wikipedia.org/wiki/Weight",
+        "matchedText": "weight",
+        "freebaseId": "/m/085x_",
+        "relevanceScore": 0.242484,
+        "entityEnglishId": "Weight",
+        "startingPos": 191,
+        "endingPos": 197
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Lipid",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/food/nutrient"
+        ],
+        "confidenceScore": 3.71614,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lipid",
+        "matchedText": "lipid",
+        "freebaseId": "/m/04k8n",
+        "relevanceScore": 0.144046,
+        "entityEnglishId": "Lipid",
+        "startingPos": 202,
+        "endingPos": 207
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          33,
+          34
+        ],
+        "entityId": "Lipid profile",
+        "freebaseTypes": [
+          "/medicine/diagnostic_test"
+        ],
+        "confidenceScore": 1.95407,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lipid_profile",
+        "matchedText": "lipid profile",
+        "freebaseId": "/m/0b6gmq8",
+        "relevanceScore": 0,
+        "entityEnglishId": "Lipid profile",
+        "startingPos": 202,
+        "endingPos": 215
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          24,
+          25,
+          26
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              22,
+              23
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              27,
+              28
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          3
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          8
+        ],
+        "propertyPositions": [
+          5,
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          10,
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      }
+    ]
+  },
+  "time": 3.02,
+  "ok": true
+}

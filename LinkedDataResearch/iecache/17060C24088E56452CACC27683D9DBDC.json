@@ -1,0 +1,616 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.986814
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.500575
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.500575
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.500575
+      },
+      {
+        "id": 5,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.499425
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Amlodipine",
+        "wikiLink": "http://en.wikipedia.org/Amlodipine",
+        "score": 0.39946
+      },
+      {
+        "id": 1,
+        "label": "Ratio",
+        "wikiLink": "http://en.wikipedia.org/Ratio",
+        "score": 0.116612
+      },
+      {
+        "id": 2,
+        "label": "Valsartan",
+        "wikiLink": "http://en.wikipedia.org/Valsartan",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Applied sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Applied_sciences",
+        "score": 0.0606578
+      },
+      {
+        "id": 4,
+        "label": "Heterocyclic compounds (1 ring)",
+        "wikiLink": "http://en.wikipedia.org/Category:Heterocyclic_compounds_(1_ring)",
+        "score": 0.0432596
+      },
+      {
+        "id": 5,
+        "label": "Nitrogen heterocycles",
+        "wikiLink": "http://en.wikipedia.org/Category:Nitrogen_heterocycles",
+        "score": 0.0432596
+      },
+      {
+        "id": 6,
+        "label": "Functional groups",
+        "wikiLink": "http://en.wikipedia.org/Category:Functional_groups",
+        "score": 0.0432596
+      },
+      {
+        "id": 7,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.0432596
+      },
+      {
+        "id": 8,
+        "label": "Organonitrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organonitrogen_compounds",
+        "score": 0.0402008
+      },
+      {
+        "id": 9,
+        "label": "Antihypertensive agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Antihypertensive_agents",
+        "score": 0.0402008
+      },
+      {
+        "id": 10,
+        "label": "Oxygen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxygen_compounds",
+        "score": 0.0402008
+      },
+      {
+        "id": 11,
+        "label": "Nitrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Nitrogen_compounds",
+        "score": 0.0402008
+      },
+      {
+        "id": 12,
+        "label": "Organic chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_chemistry",
+        "score": 0.0402008
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Valsartan",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.74752,
+        "wikiLink": "http://en.wikipedia.org/wiki/Valsartan",
+        "matchedText": "valsartan",
+        "freebaseId": "/m/079bqt",
+        "relevanceScore": 0.542158,
+        "entityEnglishId": "Valsartan",
+        "startingPos": 50,
+        "endingPos": 59
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Amlodipine",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 3.4016,
+        "wikiLink": "http://en.wikipedia.org/wiki/Amlodipine",
+        "matchedText": "amlodipine",
+        "freebaseId": "/m/02_0mv",
+        "relevanceScore": 0.133153,
+        "entityEnglishId": "Amlodipine",
+        "startingPos": 64,
+        "endingPos": 74
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "UAER",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "UAER",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 139,
+        "endingPos": 143
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 0.91853,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.0933548,
+        "entityEnglishId": "Patient",
+        "startingPos": 147,
+        "endingPos": 155
+      },
+      {
+        "id": 4,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Valsartan",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.26201,
+        "wikiLink": "http://en.wikipedia.org/wiki/Valsartan",
+        "matchedText": "valsartan",
+        "freebaseId": "/m/079bqt",
+        "relevanceScore": 0.542158,
+        "entityEnglishId": "Valsartan",
+        "startingPos": 166,
+        "endingPos": 175
+      },
+      {
+        "id": 5,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Amlodipine",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 3.4016,
+        "wikiLink": "http://en.wikipedia.org/wiki/Amlodipine",
+        "matchedText": "amlodipine",
+        "freebaseId": "/m/02_0mv",
+        "relevanceScore": 0.133153,
+        "entityEnglishId": "Amlodipine",
+        "startingPos": 212,
+        "endingPos": 222
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          43
+        ],
+        "entityId": "Ratio",
+        "freebaseTypes": [
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 1.0499,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ratio",
+        "matchedText": "ratio",
+        "freebaseId": "/m/0m1mr",
+        "relevanceScore": 0.116612,
+        "entityEnglishId": "Ratio",
+        "startingPos": 244,
+        "endingPos": 249
+      },
+      {
+        "id": 7,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          57
+        ],
+        "entityId": "Valsartan",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 2.67036,
+        "wikiLink": "http://en.wikipedia.org/wiki/Valsartan",
+        "matchedText": "valsartan",
+        "freebaseId": "/m/079bqt",
+        "relevanceScore": 0.542158,
+        "entityEnglishId": "Valsartan",
+        "startingPos": 294,
+        "endingPos": 303
+      },
+      {
+        "id": 8,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          79,
+          80,
+          81
+        ],
+        "entityId": "UAER for amlodipine",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "UAER for amlodipine",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 383,
+        "endingPos": 402
+      },
+      {
+        "id": 9,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          81
+        ],
+        "entityId": "Amlodipine",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 3.4016,
+        "wikiLink": "http://en.wikipedia.org/wiki/Amlodipine",
+        "matchedText": "amlodipine",
+        "freebaseId": "/m/02_0mv",
+        "relevanceScore": 0.133153,
+        "entityEnglishId": "Amlodipine",
+        "startingPos": 392,
+        "endingPos": 402
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              8,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14,
+          17,
+          18,
+          24
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              19,
+              20,
+              21,
+              22,
+              23
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              15,
+              16,
+              25,
+              26,
+              27,
+              28
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          99,
+          100,
+          101
+        ],
+        "propertyPositions": [
+          102,
+          103
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          97
+        ],
+        "propertyPositions": [
+          99,
+          100,
+          101,
+          102,
+          103
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          81,
+          82
+        ],
+        "propertyPositions": [
+          83,
+          84,
+          85,
+          86,
+          88,
+          89,
+          91,
+          92,
+          93,
+          95
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          78,
+          79,
+          80
+        ],
+        "propertyPositions": [
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          88,
+          89,
+          91,
+          92,
+          93,
+          95
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          19,
+          21,
+          22
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          19,
+          21,
+          22
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          43
+        ],
+        "propertyPositions": [
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          41,
+          42
+        ],
+        "propertyPositions": [
+          43,
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          62,
+          68
+        ],
+        "propertyPositions": [
+          69
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          55,
+          56
+        ],
+        "propertyPositions": [
+          57
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          52,
+          53
+        ],
+        "propertyPositions": [
+          54,
+          55,
+          56,
+          57
+        ]
+      }
+    ]
+  },
+  "time": 3.025,
+  "ok": true
+}

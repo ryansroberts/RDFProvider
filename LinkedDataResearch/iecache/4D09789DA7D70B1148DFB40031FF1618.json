@@ -1,0 +1,190 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.921164
+      },
+      {
+        "id": 2,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.921164
+      },
+      {
+        "id": 3,
+        "label": "Sports",
+        "wikiLink": "http://en.wikipedia.org/Category:Sports",
+        "score": 0.921164
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.921164
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Lactic acid",
+        "wikiLink": "http://en.wikipedia.org/Lactic_acid",
+        "score": 0.104207
+      },
+      {
+        "id": 1,
+        "label": "Animal physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_physiology",
+        "score": 0.0865245
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Blood plasma",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 1.92206,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_plasma",
+        "matchedText": "plasma",
+        "freebaseId": "/m/01f36w",
+        "relevanceScore": 0,
+        "entityEnglishId": "Blood plasma",
+        "startingPos": 64,
+        "endingPos": 70
+      },
+      {
+        "id": 1,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Lactic acid",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 1.59646,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lactic_acid",
+        "matchedText": "lactate",
+        "freebaseId": "/m/0176jz",
+        "relevanceScore": 0.104207,
+        "entityEnglishId": "Lactic acid",
+        "startingPos": 71,
+        "endingPos": 78
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          5,
+          6,
+          7
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          15
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              12,
+              13,
+              14
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          10,
+          11,
+          15
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          10,
+          11,
+          15
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "time": 3.009,
+  "ok": true
+}

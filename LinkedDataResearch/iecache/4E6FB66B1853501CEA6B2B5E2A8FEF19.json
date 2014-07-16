@@ -1,0 +1,834 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.67479
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.674675
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.563501
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.463319
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.433249
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Communications protocol",
+        "wikiLink": "http://en.wikipedia.org/Communications_protocol",
+        "score": 0.138348
+      },
+      {
+        "id": 1,
+        "label": "Cost",
+        "wikiLink": "http://en.wikipedia.org/Cost",
+        "score": 0.109309
+      },
+      {
+        "id": 2,
+        "label": "Cost-effectiveness analysis",
+        "wikiLink": "http://en.wikipedia.org/Cost-effectiveness_analysis",
+        "score": 0.739377
+      },
+      {
+        "id": 3,
+        "label": "Discounted cash flow",
+        "wikiLink": "http://en.wikipedia.org/Discounted_cash_flow",
+        "score": 0.131267
+      },
+      {
+        "id": 4,
+        "label": "Glucose",
+        "wikiLink": "http://en.wikipedia.org/Glucose",
+        "score": 0.375054
+      },
+      {
+        "id": 5,
+        "label": "ICER",
+        "wikiLink": "http://en.wikipedia.org/ICER",
+        "score": 0.158985
+      },
+      {
+        "id": 6,
+        "label": "Incremental cost-effectiveness ratio",
+        "wikiLink": "http://en.wikipedia.org/Incremental_cost-effectiveness_ratio",
+        "score": 0.924082
+      },
+      {
+        "id": 7,
+        "label": "Insulin",
+        "wikiLink": "http://en.wikipedia.org/Insulin",
+        "score": 0.340371
+      },
+      {
+        "id": 8,
+        "label": "Sulfonylurea",
+        "wikiLink": "http://en.wikipedia.org/Sulfonylurea",
+        "score": 0.757667
+      },
+      {
+        "id": 9,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 1
+      },
+      {
+        "id": 10,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.584585
+      },
+      {
+        "id": 11,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.576669
+      },
+      {
+        "id": 12,
+        "label": "Marketing",
+        "wikiLink": "http://en.wikipedia.org/Category:Marketing",
+        "score": 0.39756
+      },
+      {
+        "id": 13,
+        "label": "Production and organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Production_and_organizations",
+        "score": 0.394632
+      },
+      {
+        "id": 14,
+        "label": "Costs",
+        "wikiLink": "http://en.wikipedia.org/Category:Costs",
+        "score": 0.394632
+      },
+      {
+        "id": 15,
+        "label": "Production economics",
+        "wikiLink": "http://en.wikipedia.org/Category:Production_economics",
+        "score": 0.394632
+      },
+      {
+        "id": 16,
+        "label": "Market structure and pricing",
+        "wikiLink": "http://en.wikipedia.org/Category:Market_structure_and_pricing",
+        "score": 0.394632
+      },
+      {
+        "id": 17,
+        "label": "Pricing",
+        "wikiLink": "http://en.wikipedia.org/Category:Pricing",
+        "score": 0.394632
+      },
+      {
+        "id": 18,
+        "label": "Production and manufacturing",
+        "wikiLink": "http://en.wikipedia.org/Category:Production_and_manufacturing",
+        "score": 0.394632
+      },
+      {
+        "id": 19,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.31646
+      },
+      {
+        "id": 20,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.246252
+      },
+      {
+        "id": 21,
+        "label": "Health economics",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_economics",
+        "score": 0.245464
+      },
+      {
+        "id": 22,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.245464
+      },
+      {
+        "id": 23,
+        "label": "Human metabolites",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_metabolites",
+        "score": 0.217639
+      },
+      {
+        "id": 24,
+        "label": "Clinical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_pathology",
+        "score": 0.217639
+      },
+      {
+        "id": 25,
+        "label": "Chemical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_pathology",
+        "score": 0.217639
+      },
+      {
+        "id": 26,
+        "label": "Endocrinology",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrinology",
+        "score": 0.215026
+      },
+      {
+        "id": 27,
+        "label": "Healthcare quality",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_quality",
+        "score": 0.208529
+      },
+      {
+        "id": 28,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.196208
+      },
+      {
+        "id": 29,
+        "label": "Medical procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_procedures",
+        "score": 0.179115
+      },
+      {
+        "id": 30,
+        "label": "Endocrine procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_procedures",
+        "score": 0.171064
+      },
+      {
+        "id": 31,
+        "label": "Insulin therapies",
+        "wikiLink": "http://en.wikipedia.org/Category:Insulin_therapies",
+        "score": 0.171064
+      },
+      {
+        "id": 32,
+        "label": "Management",
+        "wikiLink": "http://en.wikipedia.org/Category:Management",
+        "score": 0.152463
+      },
+      {
+        "id": 33,
+        "label": "Healthcare management",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_management",
+        "score": 0.149535
+      },
+      {
+        "id": 34,
+        "label": "Evaluation",
+        "wikiLink": "http://en.wikipedia.org/Category:Evaluation",
+        "score": 0.149535
+      },
+      {
+        "id": 35,
+        "label": "Social issues",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_issues",
+        "score": 0.149535
+      },
+      {
+        "id": 36,
+        "label": "Value",
+        "wikiLink": "http://en.wikipedia.org/Category:Value",
+        "score": 0.149535
+      },
+      {
+        "id": 37,
+        "label": "Quality",
+        "wikiLink": "http://en.wikipedia.org/Category:Quality",
+        "score": 0.149535
+      },
+      {
+        "id": 38,
+        "label": "Social problems",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_problems",
+        "score": 0.149535
+      },
+      {
+        "id": 39,
+        "label": "Nutrition",
+        "wikiLink": "http://en.wikipedia.org/Category:Nutrition",
+        "score": 0.12129
+      },
+      {
+        "id": 40,
+        "label": "Financial accounting",
+        "wikiLink": "http://en.wikipedia.org/Category:Financial_accounting",
+        "score": 0.0668922
+      },
+      {
+        "id": 41,
+        "label": "Types of accounting",
+        "wikiLink": "http://en.wikipedia.org/Category:Types_of_accounting",
+        "score": 0.0668922
+      },
+      {
+        "id": 42,
+        "label": "Computer standards",
+        "wikiLink": "http://en.wikipedia.org/Category:Computer_standards",
+        "score": 0.0532227
+      },
+      {
+        "id": 43,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.0111008
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Glucose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.71168,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucose",
+        "matchedText": "glucose",
+        "freebaseId": "/m/02kb_m_",
+        "relevanceScore": 0.187527,
+        "entityEnglishId": "Glucose",
+        "startingPos": 13,
+        "endingPos": 20
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Diet (nutrition)",
+        "freebaseTypes": [
+          "/business/industry",
+          "/internet/website_category",
+          "/medicine/condition_prevention_factors",
+          "/book/book_subject",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.09906,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diet_(nutrition)",
+        "matchedText": "diet",
+        "freebaseId": "/m/02zkwn",
+        "relevanceScore": 0.0252965,
+        "entityEnglishId": "Diet (nutrition)",
+        "startingPos": 45,
+        "endingPos": 49
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Blood",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/food/ingredient",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.18948,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood",
+        "matchedText": "blood",
+        "freebaseId": "/m/019jw",
+        "relevanceScore": 0.0876382,
+        "entityEnglishId": "Blood",
+        "startingPos": 79,
+        "endingPos": 84
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Glucose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.71168,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucose",
+        "matchedText": "glucose",
+        "freebaseId": "/m/02kb_m_",
+        "relevanceScore": 0.187527,
+        "entityEnglishId": "Glucose",
+        "startingPos": 85,
+        "endingPos": 92
+      },
+      {
+        "id": 4,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 7.01357,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.340371,
+        "entityEnglishId": "Insulin",
+        "startingPos": 106,
+        "endingPos": 113
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Sulfonylurea",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 5.64083,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sulfonylurea",
+        "matchedText": "sulfonylureas",
+        "freebaseId": "/m/036kty",
+        "relevanceScore": 0.757667,
+        "entityEnglishId": "Sulfonylurea",
+        "startingPos": 117,
+        "endingPos": 130
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "UKPDS",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "UKPDS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 138,
+        "endingPos": 143
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Communications protocol",
+        "confidenceScore": 1.07372,
+        "wikiLink": "http://en.wikipedia.org/wiki/Communications_protocol",
+        "matchedText": "protocol",
+        "freebaseId": "/m/0lb94",
+        "relevanceScore": 0.138348,
+        "entityEnglishId": "Communications protocol",
+        "startingPos": 225,
+        "endingPos": 233
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          51
+        ],
+        "entityId": "Cost-effectiveness analysis",
+        "confidenceScore": 1.76286,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cost-effectiveness_analysis",
+        "matchedText": "cost-effectiveness",
+        "freebaseId": "/m/01n8zs",
+        "relevanceScore": 0.739377,
+        "entityEnglishId": "Cost-effectiveness analysis",
+        "startingPos": 312,
+        "endingPos": 330
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          50,
+          51,
+          52
+        ],
+        "entityId": "Incremental cost-effectiveness ratio",
+        "confidenceScore": 4.64147,
+        "wikiLink": "http://en.wikipedia.org/wiki/Incremental_cost-effectiveness_ratio",
+        "matchedText": "incremental cost-effectiveness ratio",
+        "freebaseId": "/m/02p1bd4",
+        "relevanceScore": 0.924082,
+        "entityEnglishId": "Incremental cost-effectiveness ratio",
+        "startingPos": 300,
+        "endingPos": 336
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          54
+        ],
+        "entityId": "ICER",
+        "freebaseTypes": [
+          "/computer/file_format"
+        ],
+        "confidenceScore": 1.4918,
+        "wikiLink": "http://en.wikipedia.org/wiki/ICER",
+        "matchedText": "ICER",
+        "freebaseId": "/m/01n8_3",
+        "relevanceScore": 0.158985,
+        "entityEnglishId": "ICER",
+        "startingPos": 338,
+        "endingPos": 342
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          68
+        ],
+        "entityId": "Period (geology)",
+        "confidenceScore": 1.18767,
+        "wikiLink": "http://en.wikipedia.org/wiki/Period_(geology)",
+        "matchedText": "period",
+        "freebaseId": "/m/08z6b_",
+        "relevanceScore": 0,
+        "entityEnglishId": "Period (geology)",
+        "startingPos": 397,
+        "endingPos": 403
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          71,
+          72
+        ],
+        "entityId": "Discounted cash flow",
+        "confidenceScore": 0.902774,
+        "wikiLink": "http://en.wikipedia.org/wiki/Discounted_cash_flow",
+        "matchedText": "discount rate",
+        "freebaseId": "/m/02h9f",
+        "relevanceScore": 0.131267,
+        "entityEnglishId": "Discounted cash flow",
+        "startingPos": 408,
+        "endingPos": 421
+      },
+      {
+        "id": 13,
+        "matchingTokens": [
+          75
+        ],
+        "entityId": "Cost",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.31679,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cost",
+        "matchedText": "cost",
+        "freebaseId": "/m/0168hv",
+        "relevanceScore": 0.109309,
+        "entityEnglishId": "Cost",
+        "startingPos": 428,
+        "endingPos": 432
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          64,
+          65
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              63
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              66,
+              67,
+              68,
+              70,
+              71,
+              72,
+              74,
+              75,
+              76,
+              78
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          64,
+          65,
+          66,
+          67,
+          68
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              63
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              70,
+              71,
+              72,
+              74,
+              75,
+              76,
+              78
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          48
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              44,
+              46,
+              47
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              49,
+              50,
+              51,
+              52,
+              54,
+              56,
+              57,
+              59,
+              60,
+              61
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          25
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          10,
+          11
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          17,
+          20
+        ],
+        "propertyPositions": [
+          21,
+          22
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          14,
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          42
+        ],
+        "propertyPositions": [
+          40
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          42
+        ],
+        "propertyPositions": [
+          41
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          71,
+          72
+        ],
+        "propertyPositions": [
+          74,
+          75,
+          76,
+          78
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          47
+        ],
+        "propertyPositions": [
+          46
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          49,
+          51,
+          52,
+          56
+        ],
+        "propertyPositions": [
+          50
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          49,
+          51,
+          52,
+          56
+        ],
+        "propertyPositions": [
+          54
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          49,
+          51,
+          52,
+          56
+        ],
+        "propertyPositions": [
+          57,
+          59,
+          60,
+          61
+        ]
+      }
+    ]
+  },
+  "time": 3.037,
+  "ok": true
+}

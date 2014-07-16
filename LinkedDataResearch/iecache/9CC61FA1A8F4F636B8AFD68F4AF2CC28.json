@@ -1,0 +1,469 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.333727
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.313925
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.313925
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.292037
+      },
+      {
+        "id": 5,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.292037
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Capsaicin",
+        "wikiLink": "http://en.wikipedia.org/Capsaicin",
+        "score": 0.18625
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.169853
+      },
+      {
+        "id": 2,
+        "label": "Diabetic neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_neuropathy",
+        "score": 0.564378
+      },
+      {
+        "id": 3,
+        "label": "Podiatry",
+        "wikiLink": "http://en.wikipedia.org/Podiatry",
+        "score": 0.225132
+      },
+      {
+        "id": 4,
+        "label": "Sheitel",
+        "wikiLink": "http://en.wikipedia.org/Sheitel",
+        "score": 0.111841
+      },
+      {
+        "id": 5,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.0714014
+      },
+      {
+        "id": 6,
+        "label": "Lower limb anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Lower_limb_anatomy",
+        "score": 0.0714014
+      },
+      {
+        "id": 7,
+        "label": "Foot",
+        "wikiLink": "http://en.wikipedia.org/Category:Foot",
+        "score": 0.0714014
+      },
+      {
+        "id": 8,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0714014
+      },
+      {
+        "id": 9,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0714014
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Scheffler NM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Scheffler NM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Sheitel",
+        "confidenceScore": 2.63201,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sheitel",
+        "matchedText": "Sheitel",
+        "freebaseId": "/m/0dmlzn",
+        "relevanceScore": 0.111841,
+        "entityEnglishId": "Sheitel",
+        "startingPos": 14,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Sheitel PL",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Sheitel PL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 24
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Lipton MN",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lipton MN",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 35
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.952921,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.169853,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 64,
+        "endingPos": 72
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 6.4673,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "diabetic neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.172143,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 64,
+        "endingPos": 83
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 1.78134,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.392235,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 73,
+        "endingPos": 83
+      },
+      {
+        "id": 7,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Capsaicin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors"
+        ],
+        "confidenceScore": 5.56687,
+        "wikiLink": "http://en.wikipedia.org/wiki/Capsaicin",
+        "matchedText": "capsaicin",
+        "freebaseId": "/m/0fs8j",
+        "relevanceScore": 0.18625,
+        "entityEnglishId": "Capsaicin",
+        "startingPos": 89,
+        "endingPos": 98
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Podiatry",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study",
+          "/business/industry"
+        ],
+        "confidenceScore": 2.551,
+        "wikiLink": "http://en.wikipedia.org/wiki/Podiatry",
+        "matchedText": "Podiatric",
+        "freebaseId": "/m/02tgxy",
+        "relevanceScore": 0.225132,
+        "entityEnglishId": "Podiatry",
+        "startingPos": 131,
+        "endingPos": 140
+      },
+      {
+        "id": 9,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "entityId": "Journal of the American Podiatric Medical Association",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Journal of the American Podiatric Medical Association",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 107,
+        "endingPos": 160
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "entityId": "American Podiatric Medical Association",
+        "freebaseTypes": [
+          "/business/employer",
+          "/organization/organization"
+        ],
+        "confidenceScore": 3.86665,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Podiatric_Medical_Association",
+        "matchedText": "American Podiatric Medical Association",
+        "freebaseId": "/m/0274v78",
+        "relevanceScore": 0,
+        "entityEnglishId": "American Podiatric Medical Association",
+        "startingPos": 122,
+        "endingPos": 160
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          11,
+          12,
+          16
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          11,
+          12,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ]
+      }
+    ]
+  },
+  "time": 3.031,
+  "ok": true
+}

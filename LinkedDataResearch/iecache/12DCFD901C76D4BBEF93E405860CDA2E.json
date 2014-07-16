@@ -1,0 +1,441 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Hypoglycemia",
+        "wikiLink": "http://en.wikipedia.org/Hypoglycemia",
+        "score": 0.131316
+      },
+      {
+        "id": 1,
+        "label": "Insulin detemir",
+        "wikiLink": "http://en.wikipedia.org/Insulin_detemir",
+        "score": 0.469103
+      },
+      {
+        "id": 2,
+        "label": "Endocrinology",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrinology",
+        "score": 0.58999
+      },
+      {
+        "id": 3,
+        "label": "Medical procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_procedures",
+        "score": 0.3
+      },
+      {
+        "id": 4,
+        "label": "Endocrine procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_procedures",
+        "score": 0.3
+      },
+      {
+        "id": 5,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.3
+      },
+      {
+        "id": 6,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.3
+      },
+      {
+        "id": 7,
+        "label": "Insulin therapies",
+        "wikiLink": "http://en.wikipedia.org/Category:Insulin_therapies",
+        "score": 0.3
+      },
+      {
+        "id": 8,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.3
+      },
+      {
+        "id": 9,
+        "label": "Manufacturing",
+        "wikiLink": "http://en.wikipedia.org/Category:Manufacturing_by_country",
+        "score": 0.0333333
+      },
+      {
+        "id": 10,
+        "label": "Pharmaceutical companies",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_companies_by_country",
+        "score": 0.0333333
+      },
+      {
+        "id": 11,
+        "label": "Hormones",
+        "wikiLink": "http://en.wikipedia.org/Category:Hormones_by_chemical_structure",
+        "score": 0.0333333
+      },
+      {
+        "id": 12,
+        "label": "Biomolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Biomolecules_by_chemical_classification",
+        "score": 0.0333333
+      },
+      {
+        "id": 13,
+        "label": "Chemical structures",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_structures",
+        "score": 0.0333333
+      },
+      {
+        "id": 14,
+        "label": "Peptides",
+        "wikiLink": "http://en.wikipedia.org/Category:Peptides",
+        "score": 0.0333333
+      },
+      {
+        "id": 15,
+        "label": "Peptide hormones",
+        "wikiLink": "http://en.wikipedia.org/Category:Peptide_hormones",
+        "score": 0.0333333
+      },
+      {
+        "id": 16,
+        "label": "Recombinant proteins",
+        "wikiLink": "http://en.wikipedia.org/Category:Recombinant_proteins",
+        "score": 0.0333333
+      },
+      {
+        "id": 17,
+        "label": "Eli Lilly and Company",
+        "wikiLink": "http://en.wikipedia.org/Category:Eli_Lilly_and_Company",
+        "score": 0.0333333
+      },
+      {
+        "id": 18,
+        "label": "Zoology",
+        "wikiLink": "http://en.wikipedia.org/Category:Zoology",
+        "score": 0.0333333
+      },
+      {
+        "id": 19,
+        "label": "Molecular biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Molecular_biology",
+        "score": 0.0333333
+      },
+      {
+        "id": 20,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Hypoglycemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 5.05288,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypoglycemia",
+        "matchedText": "hypoglycaemia",
+        "freebaseId": "/m/03gwt",
+        "relevanceScore": 0.131316,
+        "entityEnglishId": "Hypoglycemia",
+        "startingPos": 41,
+        "endingPos": 54
+      },
+      {
+        "id": 1,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.54658,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0,
+        "entityEnglishId": "Insulin",
+        "startingPos": 62,
+        "endingPos": 69
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Insulin detemir",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 2.2409,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin_detemir",
+        "matchedText": "insulin detemir",
+        "freebaseId": "/m/02r1wl7",
+        "relevanceScore": 0.0231795,
+        "entityEnglishId": "Insulin detemir",
+        "startingPos": 62,
+        "endingPos": 77
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Insulin detemir",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 2.69846,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin_detemir",
+        "matchedText": "detemir",
+        "freebaseId": "/m/02r1wl7",
+        "relevanceScore": 0.445923,
+        "entityEnglishId": "Insulin detemir",
+        "startingPos": 70,
+        "endingPos": 77
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "NPH",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "NPH",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 116,
+        "endingPos": 119
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          22,
+          23
+        ],
+        "entityId": "NPH insulin",
+        "confidenceScore": 2.38528,
+        "wikiLink": "http://en.wikipedia.org/wiki/NPH_insulin",
+        "matchedText": "NPH insulin",
+        "freebaseId": "/m/08km75",
+        "relevanceScore": 0,
+        "entityEnglishId": "NPH insulin",
+        "startingPos": 116,
+        "endingPos": 127
+      },
+      {
+        "id": 6,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.54658,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0,
+        "entityEnglishId": "Insulin",
+        "startingPos": 120,
+        "endingPos": 127
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          4
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              13,
+              14,
+              15,
+              16,
+              17,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              26,
+              27,
+              28,
+              29,
+              30,
+              32,
+              33,
+              35,
+              36,
+              37,
+              38,
+              39
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          6,
+          7,
+          19
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          5,
+          6,
+          7,
+          19
+        ],
+        "propertyPositions": [
+          21,
+          22,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29,
+          30,
+          32,
+          33,
+          35,
+          36,
+          37,
+          38,
+          39
+        ]
+      }
+    ]
+  },
+  "time": 3.018,
+  "ok": true
+}

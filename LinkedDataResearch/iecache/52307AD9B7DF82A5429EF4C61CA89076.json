@@ -1,0 +1,467 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.632078
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.505618
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.495655
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.467742
+      },
+      {
+        "id": 5,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.29631
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Anti-diabetic medication",
+        "wikiLink": "http://en.wikipedia.org/Anti-diabetic_medication",
+        "score": 0.353478
+      },
+      {
+        "id": 1,
+        "label": "Cost",
+        "wikiLink": "http://en.wikipedia.org/Cost",
+        "score": 0.208905
+      },
+      {
+        "id": 2,
+        "label": "Intervention (counseling)",
+        "wikiLink": "http://en.wikipedia.org/Intervention_(counseling)",
+        "score": 0.466079
+      },
+      {
+        "id": 3,
+        "label": "Metformin",
+        "wikiLink": "http://en.wikipedia.org/Metformin",
+        "score": 0.886593
+      },
+      {
+        "id": 4,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.303852
+      },
+      {
+        "id": 5,
+        "label": "Utility",
+        "wikiLink": "http://en.wikipedia.org/Utility",
+        "score": 0.205588
+      },
+      {
+        "id": 6,
+        "label": "Medical treatments",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_treatments",
+        "score": 0.486687
+      },
+      {
+        "id": 7,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.433574
+      },
+      {
+        "id": 8,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.179077
+      },
+      {
+        "id": 9,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.113579
+      },
+      {
+        "id": 10,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.105278
+      },
+      {
+        "id": 11,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.105278
+      },
+      {
+        "id": 12,
+        "label": "Marketing",
+        "wikiLink": "http://en.wikipedia.org/Category:Marketing",
+        "score": 0.0763889
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 6.30072,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.443296,
+        "entityEnglishId": "Metformin",
+        "startingPos": 59,
+        "endingPos": 68
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Anti-diabetic medication",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.5489,
+        "wikiLink": "http://en.wikipedia.org/wiki/Anti-diabetic_medication",
+        "matchedText": "anti-diabetic",
+        "freebaseId": "/m/01lml6",
+        "relevanceScore": 0.353478,
+        "entityEnglishId": "Anti-diabetic medication",
+        "startingPos": 178,
+        "endingPos": 191
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.7954,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.303852,
+        "entityEnglishId": "Therapy",
+        "startingPos": 192,
+        "endingPos": 199
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Cost",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.15388,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cost",
+        "matchedText": "cost",
+        "freebaseId": "/m/0168hv",
+        "relevanceScore": 0.104452,
+        "entityEnglishId": "Cost",
+        "startingPos": 200,
+        "endingPos": 204
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          43
+        ],
+        "entityId": "Cost",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.15388,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cost",
+        "matchedText": "cost",
+        "freebaseId": "/m/0168hv",
+        "relevanceScore": 0.104452,
+        "entityEnglishId": "Cost",
+        "startingPos": 245,
+        "endingPos": 249
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          51
+        ],
+        "entityId": "Utility",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 0.968248,
+        "wikiLink": "http://en.wikipedia.org/wiki/Utility",
+        "matchedText": "utility",
+        "freebaseId": "/m/0cc73",
+        "relevanceScore": 0.205588,
+        "entityEnglishId": "Utility",
+        "startingPos": 275,
+        "endingPos": 282
+      },
+      {
+        "id": 6,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          70
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 6.3196,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "Metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.443296,
+        "entityEnglishId": "Metformin",
+        "startingPos": 380,
+        "endingPos": 389
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          78
+        ],
+        "entityId": "Intervention (counseling)",
+        "confidenceScore": 0.912298,
+        "wikiLink": "http://en.wikipedia.org/wiki/Intervention_(counseling)",
+        "matchedText": "intervention",
+        "freebaseId": "/m/05m3vz",
+        "relevanceScore": 0.466079,
+        "entityEnglishId": "Intervention (counseling)",
+        "startingPos": 435,
+        "endingPos": 447
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          4,
+          5
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              13,
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11,
+          12,
+          13,
+          14
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          71,
+          72,
+          73
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              70
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              74,
+              75,
+              76,
+              77,
+              78
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          19,
+          21,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          74,
+          76,
+          78
+        ],
+        "propertyPositions": [
+          77
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          64
+        ],
+        "propertyPositions": [
+          63
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          51,
+          52
+        ],
+        "propertyPositions": [
+          53,
+          54,
+          55,
+          56,
+          57
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          30,
+          31
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          37,
+          38
+        ],
+        "propertyPositions": [
+          36
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          43,
+          44
+        ],
+        "propertyPositions": [
+          45
+        ]
+      }
+    ]
+  },
+  "time": 3.036,
+  "ok": true
+}

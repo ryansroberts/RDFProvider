@@ -1,0 +1,265 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.653323
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.523228
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.474566
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.468423
+      },
+      {
+        "id": 5,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.44211
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Epidemiology",
+        "wikiLink": "http://en.wikipedia.org/Epidemiology",
+        "score": 0.422538
+      },
+      {
+        "id": 1,
+        "label": "Peptic ulcer",
+        "wikiLink": "http://en.wikipedia.org/Peptic_ulcer",
+        "score": 0.313231
+      },
+      {
+        "id": 2,
+        "label": "Risk",
+        "wikiLink": "http://en.wikipedia.org/Risk",
+        "score": 0.218408
+      },
+      {
+        "id": 3,
+        "label": "Risk factor",
+        "wikiLink": "http://en.wikipedia.org/Risk_factor",
+        "score": 0.153204
+      },
+      {
+        "id": 4,
+        "label": "Fields of application of statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_application_of_statistics",
+        "score": 0.505514
+      },
+      {
+        "id": 5,
+        "label": "Health fields",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_fields",
+        "score": 0.501081
+      },
+      {
+        "id": 6,
+        "label": "Public health",
+        "wikiLink": "http://en.wikipedia.org/Category:Public_health",
+        "score": 0.253862
+      },
+      {
+        "id": 7,
+        "label": "Evidence-based practices",
+        "wikiLink": "http://en.wikipedia.org/Category:Evidence-based_practices",
+        "score": 0.232377
+      },
+      {
+        "id": 8,
+        "label": "Biostatistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Biostatistics",
+        "score": 0.231005
+      },
+      {
+        "id": 9,
+        "label": "Statistical data types",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistical_data_types",
+        "score": 0.221085
+      },
+      {
+        "id": 10,
+        "label": "Mathematical and theoretical biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_and_theoretical_biology",
+        "score": 0.209115
+      },
+      {
+        "id": 11,
+        "label": "Empiricism",
+        "wikiLink": "http://en.wikipedia.org/Category:Empiricism",
+        "score": 0.206793
+      },
+      {
+        "id": 12,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.201003
+      },
+      {
+        "id": 13,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.198345
+      },
+      {
+        "id": 14,
+        "label": "Statistical data sets",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistical_data_sets",
+        "score": 0.1955
+      },
+      {
+        "id": 15,
+        "label": "Data types",
+        "wikiLink": "http://en.wikipedia.org/Category:Data_types",
+        "score": 0.1955
+      },
+      {
+        "id": 16,
+        "label": "Statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistics",
+        "score": 0.150323
+      },
+      {
+        "id": 17,
+        "label": "Security",
+        "wikiLink": "http://en.wikipedia.org/Category:Security",
+        "score": 0.103868
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Epidemiology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.31449,
+        "wikiLink": "http://en.wikipedia.org/wiki/Epidemiology",
+        "matchedText": "Epidemiological",
+        "freebaseId": "/m/0hnfc",
+        "relevanceScore": 0.422538,
+        "entityEnglishId": "Epidemiology",
+        "startingPos": 0,
+        "endingPos": 15
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Risk",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.02207,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk",
+        "matchedText": "risk",
+        "freebaseId": "/m/06d5f",
+        "relevanceScore": 0.218408,
+        "entityEnglishId": "Risk",
+        "startingPos": 29,
+        "endingPos": 33
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Risk factor",
+        "confidenceScore": 1.63813,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk_factor",
+        "matchedText": "risk factors",
+        "freebaseId": "/m/03nznf",
+        "relevanceScore": 0.153204,
+        "entityEnglishId": "Risk factor",
+        "startingPos": 29,
+        "endingPos": 41
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Peptic ulcer",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/symptom",
+          "/medicine/risk_factor",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 0.957701,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peptic_ulcer",
+        "matchedText": "ulceration",
+        "freebaseId": "/m/0h3h4",
+        "relevanceScore": 0.313231,
+        "entityEnglishId": "Peptic ulcer",
+        "startingPos": 46,
+        "endingPos": 56
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6
+        ]
+      }
+    ]
+  },
+  "time": 3.018,
+  "ok": true
+}

@@ -1,0 +1,702 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.710874
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.488636
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.480606
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.280496
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.236081
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.446331
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.848738
+      },
+      {
+        "id": 2,
+        "label": "Dialysis",
+        "wikiLink": "http://en.wikipedia.org/Dialysis",
+        "score": 0.115925
+      },
+      {
+        "id": 3,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Nephrology",
+        "score": 0.330246
+      },
+      {
+        "id": 4,
+        "label": "Organ transplantation",
+        "wikiLink": "http://en.wikipedia.org/Organ_transplantation",
+        "score": 0.266518
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0929105
+      },
+      {
+        "id": 6,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.0853484
+      },
+      {
+        "id": 7,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.0853484
+      },
+      {
+        "id": 8,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0853484
+      },
+      {
+        "id": 9,
+        "label": "Transplantation medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Transplantation_medicine",
+        "score": 0.052907
+      },
+      {
+        "id": 10,
+        "label": "Concepts",
+        "wikiLink": "http://en.wikipedia.org/Category:Concepts_by_field",
+        "score": 0.0458425
+      },
+      {
+        "id": 11,
+        "label": "Quantity",
+        "wikiLink": "http://en.wikipedia.org/Category:Quantity",
+        "score": 0.0458425
+      },
+      {
+        "id": 12,
+        "label": "Measurement",
+        "wikiLink": "http://en.wikipedia.org/Category:Measurement",
+        "score": 0.0458425
+      },
+      {
+        "id": 13,
+        "label": "Physical quantities",
+        "wikiLink": "http://en.wikipedia.org/Category:Physical_quantities",
+        "score": 0.0458425
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Parikh CR",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Parikh CR",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Fischer MJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Fischer MJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 25
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Estacio R",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Estacio R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 27,
+        "endingPos": 36
+      },
+      {
+        "id": 3,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Rapid",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Rapid",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 44,
+        "endingPos": 49
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Microalbuminuria",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.18531,
+        "wikiLink": "http://en.wikipedia.org/wiki/Microalbuminuria",
+        "matchedText": "microalbuminuria",
+        "freebaseId": "/m/07y7r4",
+        "relevanceScore": 0.0561644,
+        "entityEnglishId": "Microalbuminuria",
+        "startingPos": 50,
+        "endingPos": 66
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.07571,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.496908,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 80,
+        "endingPos": 86
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15,
+          16,
+          17
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.20722,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2 diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.240876,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 80,
+        "endingPos": 95
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.70678,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.303653,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 87,
+        "endingPos": 95
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15,
+          16,
+          17,
+          18
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.96115,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2 diabetes mellitus",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.110954,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 80,
+        "endingPos": 104
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 4.36785,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes mellitus",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.142678,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 87,
+        "endingPos": 104
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Micral",
+        "confidenceScore": 2.51792,
+        "wikiLink": "http://en.wikipedia.org/wiki/Micral",
+        "matchedText": "Micral",
+        "freebaseId": "/m/0g2s64",
+        "relevanceScore": 0.0237195,
+        "entityEnglishId": "Micral",
+        "startingPos": 131,
+        "endingPos": 137
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          27,
+          28
+        ],
+        "entityId": "Specific gravity",
+        "freebaseTypes": [
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 4.69041,
+        "wikiLink": "http://en.wikipedia.org/wiki/Specific_gravity",
+        "matchedText": "specific gravity",
+        "freebaseId": "/m/03bw_hf",
+        "relevanceScore": 0.0132829,
+        "entityEnglishId": "Specific gravity",
+        "startingPos": 154,
+        "endingPos": 170
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Gravitation",
+        "freebaseTypes": [
+          "/physics/fundamental_interaction",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 0.929489,
+        "wikiLink": "http://en.wikipedia.org/wiki/Gravitation",
+        "matchedText": "gravity",
+        "freebaseId": "/m/09lw1",
+        "relevanceScore": 0.0737199,
+        "entityEnglishId": "Gravitation",
+        "startingPos": 163,
+        "endingPos": 170
+      },
+      {
+        "id": 13,
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Erratum",
+        "confidenceScore": 1.61626,
+        "wikiLink": "http://en.wikipedia.org/wiki/Erratum",
+        "matchedText": "erratum",
+        "freebaseId": "/m/041tgv",
+        "relevanceScore": 0,
+        "entityEnglishId": "Erratum",
+        "startingPos": 172,
+        "endingPos": 179
+      },
+      {
+        "id": 14,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          33,
+          34,
+          35
+        ],
+        "entityId": "Nephrol Dial Transplant",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Nephrol Dial Transplant",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 191,
+        "endingPos": 214
+      },
+      {
+        "id": 15,
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Organ transplantation",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject",
+          "/award/award_winning_work",
+          "/medicine/risk_factor",
+          "/radio/radio_subject"
+        ],
+        "confidenceScore": 1.45668,
+        "wikiLink": "http://en.wikipedia.org/wiki/Organ_transplantation",
+        "matchedText": "Transplant",
+        "freebaseId": "/m/016bb2",
+        "relevanceScore": 0.133259,
+        "entityEnglishId": "Organ transplantation",
+        "startingPos": 204,
+        "endingPos": 214
+      },
+      {
+        "id": 16,
+        "matchingTokens": [
+          46
+        ],
+        "entityId": "Nephrology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 5.54839,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephrology",
+        "matchedText": "Nephrology",
+        "freebaseId": "/m/05jd4",
+        "relevanceScore": 0.330246,
+        "entityEnglishId": "Nephrology",
+        "startingPos": 233,
+        "endingPos": 243
+      },
+      {
+        "id": 17,
+        "matchingTokens": [
+          47
+        ],
+        "entityId": "Dialysis",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.43004,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dialysis",
+        "matchedText": "Dialysis",
+        "freebaseId": "/m/0fmf0",
+        "relevanceScore": 0.115925,
+        "entityEnglishId": "Dialysis",
+        "startingPos": 244,
+        "endingPos": 252
+      },
+      {
+        "id": 18,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          46,
+          47,
+          48
+        ],
+        "entityId": "Nephrology Dialysis Transplantation",
+        "confidenceScore": 2.19028,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephrology_Dialysis_Transplantation",
+        "matchedText": "Nephrology Dialysis Transplantation",
+        "freebaseId": "/m/0hncjv4",
+        "relevanceScore": 0,
+        "entityEnglishId": "Nephrology Dialysis Transplantation",
+        "startingPos": 233,
+        "endingPos": 268
+      },
+      {
+        "id": 19,
+        "matchingTokens": [
+          48
+        ],
+        "entityId": "Organ transplantation",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject",
+          "/award/award_winning_work",
+          "/medicine/risk_factor",
+          "/radio/radio_subject"
+        ],
+        "confidenceScore": 2.36741,
+        "wikiLink": "http://en.wikipedia.org/wiki/Organ_transplantation",
+        "matchedText": "Transplantation",
+        "freebaseId": "/m/016bb2",
+        "relevanceScore": 0.133259,
+        "entityEnglishId": "Organ transplantation",
+        "startingPos": 253,
+        "endingPos": 268
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          31,
+          32
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              30
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              33,
+              34,
+              35,
+              36,
+              38,
+              40,
+              43
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          17,
+          18,
+          21,
+          22
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          28
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          17,
+          18,
+          21,
+          22
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          38,
+          40,
+          43
+        ]
+      }
+    ]
+  },
+  "time": 3.028,
+  "ok": true
+}

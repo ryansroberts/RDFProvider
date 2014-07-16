@@ -1,0 +1,484 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.995644
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.687711
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.671518
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.671518
+      },
+      {
+        "id": 5,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.352093
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Injection (medicine)",
+        "wikiLink": "http://en.wikipedia.org/Injection_(medicine)",
+        "score": 0.11381
+      },
+      {
+        "id": 1,
+        "label": "Ketoacidosis",
+        "wikiLink": "http://en.wikipedia.org/Ketoacidosis",
+        "score": 0.24955
+      },
+      {
+        "id": 2,
+        "label": "Odds",
+        "wikiLink": "http://en.wikipedia.org/Odds",
+        "score": 0.144443
+      },
+      {
+        "id": 3,
+        "label": "Odds ratio",
+        "wikiLink": "http://en.wikipedia.org/Odds_ratio",
+        "score": 0.147327
+      },
+      {
+        "id": 4,
+        "label": "Pump",
+        "wikiLink": "http://en.wikipedia.org/Pump",
+        "score": 0.451068
+      },
+      {
+        "id": 5,
+        "label": "Statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistics",
+        "score": 0.0492575
+      },
+      {
+        "id": 6,
+        "label": "Probability and statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Probability_and_statistics",
+        "score": 0.0492575
+      },
+      {
+        "id": 7,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.0492575
+      },
+      {
+        "id": 8,
+        "label": "Statistical terminology",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistical_terminology",
+        "score": 0.0492575
+      },
+      {
+        "id": 9,
+        "label": "Mathematical and quantitative methods (economics)",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_and_quantitative_methods_(economics)",
+        "score": 0.0492575
+      },
+      {
+        "id": 10,
+        "label": "Ratios",
+        "wikiLink": "http://en.wikipedia.org/Category:Ratios",
+        "score": 0.0389058
+      },
+      {
+        "id": 11,
+        "label": "Arithmetic",
+        "wikiLink": "http://en.wikipedia.org/Category:Arithmetic",
+        "score": 0.0389058
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Ketoacidosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 4.81271,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ketoacidosis",
+        "matchedText": "ketoacidosis",
+        "freebaseId": "/m/02mwg6",
+        "relevanceScore": 0.24955,
+        "entityEnglishId": "Ketoacidosis",
+        "startingPos": 41,
+        "endingPos": 53
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place",
+          "NaturalPlace",
+          "MountainRange"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Ith",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 1.34615,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ith",
+        "matchedText": "ith",
+        "freebaseId": "/m/06wc7xw",
+        "relevanceScore": 0,
+        "entityEnglishId": "Ith",
+        "startingPos": 97,
+        "endingPos": 100
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Odds",
+        "confidenceScore": 1.03149,
+        "wikiLink": "http://en.wikipedia.org/wiki/Odds",
+        "matchedText": "odds",
+        "freebaseId": "/m/017465",
+        "relevanceScore": 0.144443,
+        "entityEnglishId": "Odds",
+        "startingPos": 124,
+        "endingPos": 128
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Odds ratio",
+        "confidenceScore": 3.45974,
+        "wikiLink": "http://en.wikipedia.org/wiki/Odds_ratio",
+        "matchedText": "odds ratio",
+        "freebaseId": "/m/024jx7",
+        "relevanceScore": 0.147327,
+        "entityEnglishId": "Odds ratio",
+        "startingPos": 124,
+        "endingPos": 134
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Ratio",
+        "freebaseTypes": [
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 1.36143,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ratio",
+        "matchedText": "ratio",
+        "freebaseId": "/m/0m1mr",
+        "relevanceScore": 0.0880784,
+        "entityEnglishId": "Ratio",
+        "startingPos": 129,
+        "endingPos": 134
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Pump",
+        "freebaseTypes": [
+          "/law/invention"
+        ],
+        "confidenceScore": 1.35726,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pump",
+        "matchedText": "pumps",
+        "freebaseId": "/m/05wn0",
+        "relevanceScore": 0.150356,
+        "entityEnglishId": "Pump",
+        "startingPos": 141,
+        "endingPos": 146
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Injection (medicine)",
+        "freebaseTypes": [
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 1.36773,
+        "wikiLink": "http://en.wikipedia.org/wiki/Injection_(medicine)",
+        "matchedText": "injection",
+        "freebaseId": "/m/03131m",
+        "relevanceScore": 0.11381,
+        "entityEnglishId": "Injection (medicine)",
+        "startingPos": 169,
+        "endingPos": 178
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Pump",
+        "freebaseTypes": [
+          "/law/invention"
+        ],
+        "confidenceScore": 2.1632,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pump",
+        "matchedText": "pump",
+        "freebaseId": "/m/05wn0",
+        "relevanceScore": 0.150356,
+        "entityEnglishId": "Pump",
+        "startingPos": 189,
+        "endingPos": 193
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "Pump",
+        "freebaseTypes": [
+          "/law/invention"
+        ],
+        "confidenceScore": 2.1632,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pump",
+        "matchedText": "pump",
+        "freebaseId": "/m/05wn0",
+        "relevanceScore": 0.150356,
+        "entityEnglishId": "Pump",
+        "startingPos": 225,
+        "endingPos": 229
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          37,
+          38,
+          39,
+          40
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              33,
+              34,
+              35,
+              36
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              41,
+              42,
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          10,
+          11,
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              8
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              20,
+              21,
+              22,
+              24,
+              26,
+              28,
+              29,
+              30
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          17
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              13,
+              14,
+              15,
+              16
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              18
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          42,
+          43
+        ],
+        "propertyPositions": [
+          41
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          8
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          30
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          30
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          24
+        ],
+        "propertyPositions": [
+          26,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          24,
+          26,
+          28,
+          29,
+          30
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

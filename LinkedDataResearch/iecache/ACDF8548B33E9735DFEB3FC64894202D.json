@@ -1,0 +1,713 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.482133
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.482133
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.482133
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Insulin",
+        "wikiLink": "http://en.wikipedia.org/Insulin",
+        "score": 0.250062
+      },
+      {
+        "id": 1,
+        "label": "Insulin detemir",
+        "wikiLink": "http://en.wikipedia.org/Insulin_detemir",
+        "score": 0.811422
+      },
+      {
+        "id": 2,
+        "label": "Insulin glargine",
+        "wikiLink": "http://en.wikipedia.org/Insulin_glargine",
+        "score": 0.445382
+      },
+      {
+        "id": 3,
+        "label": "Kilogram",
+        "wikiLink": "http://en.wikipedia.org/Kilogram",
+        "score": 0.469917
+      },
+      {
+        "id": 4,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.360309
+      },
+      {
+        "id": 5,
+        "label": "Medical procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_procedures",
+        "score": 0.354043
+      },
+      {
+        "id": 6,
+        "label": "Endocrine procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_procedures",
+        "score": 0.354043
+      },
+      {
+        "id": 7,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.354043
+      },
+      {
+        "id": 8,
+        "label": "Endocrinology",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrinology",
+        "score": 0.354043
+      },
+      {
+        "id": 9,
+        "label": "Insulin therapies",
+        "wikiLink": "http://en.wikipedia.org/Category:Insulin_therapies",
+        "score": 0.354043
+      },
+      {
+        "id": 10,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.354043
+      },
+      {
+        "id": 11,
+        "label": "Hormones",
+        "wikiLink": "http://en.wikipedia.org/Category:Hormones_by_chemical_structure",
+        "score": 0.059464
+      },
+      {
+        "id": 12,
+        "label": "Biomolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Biomolecules_by_chemical_classification",
+        "score": 0.059464
+      },
+      {
+        "id": 13,
+        "label": "Chemical structures",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_structures",
+        "score": 0.059464
+      },
+      {
+        "id": 14,
+        "label": "Peptides",
+        "wikiLink": "http://en.wikipedia.org/Category:Peptides",
+        "score": 0.059464
+      },
+      {
+        "id": 15,
+        "label": "Peptide hormones",
+        "wikiLink": "http://en.wikipedia.org/Category:Peptide_hormones",
+        "score": 0.059464
+      },
+      {
+        "id": 16,
+        "label": "Recombinant proteins",
+        "wikiLink": "http://en.wikipedia.org/Category:Recombinant_proteins",
+        "score": 0.059464
+      },
+      {
+        "id": 17,
+        "label": "Zoology",
+        "wikiLink": "http://en.wikipedia.org/Category:Zoology",
+        "score": 0.059464
+      },
+      {
+        "id": 18,
+        "label": "Molecular biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Molecular_biology",
+        "score": 0.059464
+      },
+      {
+        "id": 19,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.059464
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 3.9285,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.125031,
+        "entityEnglishId": "Insulin",
+        "startingPos": 27,
+        "endingPos": 34
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Insulin detemir",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 2.20047,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin_detemir",
+        "matchedText": "insulin detemir",
+        "freebaseId": "/m/02r1wl7",
+        "relevanceScore": 0.19083,
+        "entityEnglishId": "Insulin detemir",
+        "startingPos": 27,
+        "endingPos": 42
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Insulin detemir",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 2.80111,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin_detemir",
+        "matchedText": "detemir",
+        "freebaseId": "/m/02r1wl7",
+        "relevanceScore": 0.620592,
+        "entityEnglishId": "Insulin detemir",
+        "startingPos": 35,
+        "endingPos": 42
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Kilogram",
+        "freebaseTypes": [
+          "/type/unit",
+          "/food/culinary_measure",
+          "/measurement_unit/mass_unit"
+        ],
+        "confidenceScore": 1.95023,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kilogram",
+        "matchedText": "kg",
+        "freebaseId": "/m/047dr",
+        "relevanceScore": 0.0939834,
+        "entityEnglishId": "Kilogram",
+        "startingPos": 79,
+        "endingPos": 81
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Kilogram",
+        "freebaseTypes": [
+          "/type/unit",
+          "/food/culinary_measure",
+          "/measurement_unit/mass_unit"
+        ],
+        "confidenceScore": 1.95023,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kilogram",
+        "matchedText": "kg",
+        "freebaseId": "/m/047dr",
+        "relevanceScore": 0.0939834,
+        "entityEnglishId": "Kilogram",
+        "startingPos": 118,
+        "endingPos": 120
+      },
+      {
+        "id": 5,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 3.9285,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.125031,
+        "entityEnglishId": "Insulin",
+        "startingPos": 147,
+        "endingPos": 154
+      },
+      {
+        "id": 6,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "Insulin glargine",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 2.04189,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin_glargine",
+        "matchedText": "insulin glargine",
+        "freebaseId": "/m/05qxx3",
+        "relevanceScore": 0.0364974,
+        "entityEnglishId": "Insulin glargine",
+        "startingPos": 147,
+        "endingPos": 163
+      },
+      {
+        "id": 7,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Insulin glargine",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 2.40685,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin_glargine",
+        "matchedText": "glargine",
+        "freebaseId": "/m/05qxx3",
+        "relevanceScore": 0.408885,
+        "entityEnglishId": "Insulin glargine",
+        "startingPos": 155,
+        "endingPos": 163
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Kilogram",
+        "freebaseTypes": [
+          "/type/unit",
+          "/food/culinary_measure",
+          "/measurement_unit/mass_unit"
+        ],
+        "confidenceScore": 1.95023,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kilogram",
+        "matchedText": "kg",
+        "freebaseId": "/m/047dr",
+        "relevanceScore": 0.0939834,
+        "entityEnglishId": "Kilogram",
+        "startingPos": 169,
+        "endingPos": 171
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Kilogram",
+        "freebaseTypes": [
+          "/type/unit",
+          "/food/culinary_measure",
+          "/measurement_unit/mass_unit"
+        ],
+        "confidenceScore": 1.95023,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kilogram",
+        "matchedText": "kg",
+        "freebaseId": "/m/047dr",
+        "relevanceScore": 0.0939834,
+        "entityEnglishId": "Kilogram",
+        "startingPos": 208,
+        "endingPos": 210
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          46
+        ],
+        "entityId": "Kilogram",
+        "freebaseTypes": [
+          "/type/unit",
+          "/food/culinary_measure",
+          "/measurement_unit/mass_unit"
+        ],
+        "confidenceScore": 1.95023,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kilogram",
+        "matchedText": "kg",
+        "freebaseId": "/m/047dr",
+        "relevanceScore": 0.0939834,
+        "entityEnglishId": "Kilogram",
+        "startingPos": 247,
+        "endingPos": 249
+      },
+      {
+        "id": 11,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          57
+        ],
+        "entityId": "Rosenstock",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Rosenstock",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 278,
+        "endingPos": 288
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          40,
+          50,
+          59
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              48,
+              49
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              42,
+              43,
+              44,
+              45,
+              46,
+              52,
+              53,
+              54,
+              57,
+              58
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          40,
+          42,
+          43,
+          44,
+          50,
+          59
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              48,
+              49
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              45,
+              46,
+              52,
+              53,
+              54,
+              57,
+              58
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          16,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          33,
+          34,
+          35
+        ],
+        "propertyPositions": [
+          36,
+          37
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          30,
+          31,
+          32
+        ],
+        "propertyPositions": [
+          33,
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          26,
+          27
+        ],
+        "propertyPositions": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          42,
+          43,
+          44
+        ],
+        "propertyPositions": [
+          45,
+          46
+        ]
+      }
+    ]
+  },
+  "time": 3.03,
+  "ok": true
+}

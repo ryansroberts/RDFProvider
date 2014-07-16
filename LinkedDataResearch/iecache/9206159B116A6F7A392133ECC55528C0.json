@@ -1,0 +1,622 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.828913
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.828913
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Angina pectoris",
+        "wikiLink": "http://en.wikipedia.org/Angina_pectoris",
+        "score": 0.454222
+      },
+      {
+        "id": 1,
+        "label": "Aspirin",
+        "wikiLink": "http://en.wikipedia.org/Aspirin",
+        "score": 0.595827
+      },
+      {
+        "id": 2,
+        "label": "Clopidogrel",
+        "wikiLink": "http://en.wikipedia.org/Clopidogrel",
+        "score": 0.110574
+      },
+      {
+        "id": 3,
+        "label": "Ischemia",
+        "wikiLink": "http://en.wikipedia.org/Ischemia",
+        "score": 0.259323
+      },
+      {
+        "id": 4,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.218591
+      },
+      {
+        "id": 5,
+        "label": "Stroke",
+        "wikiLink": "http://en.wikipedia.org/Stroke",
+        "score": 0.578392
+      },
+      {
+        "id": 6,
+        "label": "Transient ischemic attack",
+        "wikiLink": "http://en.wikipedia.org/Transient_ischemic_attack",
+        "score": 0.387665
+      },
+      {
+        "id": 7,
+        "label": "Unstable angina",
+        "wikiLink": "http://en.wikipedia.org/Unstable_angina",
+        "score": 0.321891
+      },
+      {
+        "id": 8,
+        "label": "Cardiovascular diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiovascular_diseases",
+        "score": 0.175247
+      },
+      {
+        "id": 9,
+        "label": "Ischemic heart diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Ischemic_heart_diseases",
+        "score": 0.175247
+      },
+      {
+        "id": 10,
+        "label": "Heart diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Heart_diseases",
+        "score": 0.175247
+      },
+      {
+        "id": 11,
+        "label": "Cardiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiology",
+        "score": 0.175247
+      },
+      {
+        "id": 12,
+        "label": "Carboxylate esters",
+        "wikiLink": "http://en.wikipedia.org/Category:Carboxylate_esters",
+        "score": 0.174825
+      },
+      {
+        "id": 13,
+        "label": "Senescence",
+        "wikiLink": "http://en.wikipedia.org/Category:Senescence",
+        "score": 0.158986
+      },
+      {
+        "id": 14,
+        "label": "Aging-associated diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Aging-associated_diseases",
+        "score": 0.158986
+      },
+      {
+        "id": 15,
+        "label": "Medical emergencies",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_emergencies",
+        "score": 0.138466
+      },
+      {
+        "id": 16,
+        "label": "Emergency medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Emergency_medicine",
+        "score": 0.138466
+      },
+      {
+        "id": 17,
+        "label": "Episodic and paroxysmal disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Episodic_and_paroxysmal_disorders",
+        "score": 0.0936323
+      },
+      {
+        "id": 18,
+        "label": "Brain disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Brain_disorders",
+        "score": 0.0936323
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Clopidogrel",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 6.99648,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clopidogrel",
+        "matchedText": "clopidogrel",
+        "freebaseId": "/m/02svfj",
+        "relevanceScore": 0.110574,
+        "entityEnglishId": "Clopidogrel",
+        "startingPos": 77,
+        "endingPos": 88
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Aspirin",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors",
+          "/medicine/risk_factor",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 8.40622,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aspirin",
+        "matchedText": "aspirin",
+        "freebaseId": "/m/0qkc",
+        "relevanceScore": 0.297914,
+        "entityEnglishId": "Aspirin",
+        "startingPos": 94,
+        "endingPos": 101
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 2.33929,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.218591,
+        "entityEnglishId": "Placebo",
+        "startingPos": 119,
+        "endingPos": 126
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Aspirin",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors",
+          "/medicine/risk_factor",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 8.40622,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aspirin",
+        "matchedText": "aspirin",
+        "freebaseId": "/m/0qkc",
+        "relevanceScore": 0.297914,
+        "entityEnglishId": "Aspirin",
+        "startingPos": 132,
+        "endingPos": 139
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Stroke",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/risk_factor",
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.49557,
+        "wikiLink": "http://en.wikipedia.org/wiki/Stroke",
+        "matchedText": "stroke",
+        "freebaseId": "/m/02y0js",
+        "relevanceScore": 0.578392,
+        "entityEnglishId": "Stroke",
+        "startingPos": 192,
+        "endingPos": 198
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          42,
+          43
+        ],
+        "entityId": "Unstable angina",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.94155,
+        "wikiLink": "http://en.wikipedia.org/wiki/Unstable_angina",
+        "matchedText": "unstable angina",
+        "freebaseId": "/m/05fc57m",
+        "relevanceScore": 0.321891,
+        "entityEnglishId": "Unstable angina",
+        "startingPos": 248,
+        "endingPos": 263
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          43
+        ],
+        "entityId": "Angina pectoris",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/risk_factor",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 7.05037,
+        "wikiLink": "http://en.wikipedia.org/wiki/Angina_pectoris",
+        "matchedText": "angina",
+        "freebaseId": "/m/0hg45",
+        "relevanceScore": 0.454222,
+        "entityEnglishId": "Angina pectoris",
+        "startingPos": 257,
+        "endingPos": 263
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          46
+        ],
+        "entityId": "Ischemia",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.335,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ischemia",
+        "matchedText": "ischemic",
+        "freebaseId": "/m/02gr6s",
+        "relevanceScore": 0.259323,
+        "entityEnglishId": "Ischemia",
+        "startingPos": 275,
+        "endingPos": 283
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          45,
+          46,
+          47
+        ],
+        "entityId": "Transient ischemic attack",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 5.2967,
+        "wikiLink": "http://en.wikipedia.org/wiki/Transient_ischemic_attack",
+        "matchedText": "transient ischemic attack",
+        "freebaseId": "/m/07s82",
+        "relevanceScore": 0.387665,
+        "entityEnglishId": "Transient ischemic attack",
+        "startingPos": 265,
+        "endingPos": 290
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              7,
+              8,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              31,
+              33,
+              34,
+              35,
+              36,
+              37,
+              39,
+              40,
+              41,
+              42,
+              43,
+              45,
+              46,
+              47,
+              48,
+              49,
+              51,
+              52,
+              53
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          10,
+          11,
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              31,
+              33,
+              34,
+              35,
+              36,
+              37,
+              39,
+              40,
+              41,
+              42,
+              43,
+              45,
+              46,
+              47,
+              48,
+              49,
+              51,
+              52,
+              53
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          2
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          7,
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          7,
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          24,
+          27,
+          28
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          24,
+          27,
+          28
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          34,
+          35
+        ],
+        "propertyPositions": [
+          36,
+          37
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          43
+        ],
+        "propertyPositions": [
+          42
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          40,
+          41
+        ],
+        "propertyPositions": [
+          42,
+          43
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          47
+        ],
+        "propertyPositions": [
+          45
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          47
+        ],
+        "propertyPositions": [
+          46
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          29
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          24,
+          27,
+          28
+        ],
+        "propertyPositions": [
+          29,
+          31
+        ]
+      }
+    ]
+  },
+  "time": 3.033,
+  "ok": true
+}

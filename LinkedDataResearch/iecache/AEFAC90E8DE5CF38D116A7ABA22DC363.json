@@ -1,0 +1,372 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.959217
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.565119
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.491851
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.491851
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.491851
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.384334
+      },
+      {
+        "id": 1,
+        "label": "Social support",
+        "wikiLink": "http://en.wikipedia.org/Social_support",
+        "score": 0.232859
+      },
+      {
+        "id": 2,
+        "label": "Human sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_sciences",
+        "score": 0.0817556
+      },
+      {
+        "id": 3,
+        "label": "Psychology",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychology",
+        "score": 0.0817556
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.0817556
+      },
+      {
+        "id": 5,
+        "label": "Branches of psychology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_psychology",
+        "score": 0.0817556
+      },
+      {
+        "id": 6,
+        "label": "Society",
+        "wikiLink": "http://en.wikipedia.org/Category:Society",
+        "score": 0.0817556
+      },
+      {
+        "id": 7,
+        "label": "Behavioural sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Behavioural_sciences",
+        "score": 0.0817556
+      },
+      {
+        "id": 8,
+        "label": "Behavior",
+        "wikiLink": "http://en.wikipedia.org/Category:Behavior",
+        "score": 0.0817556
+      },
+      {
+        "id": 9,
+        "label": "Social sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_sciences",
+        "score": 0.0817556
+      },
+      {
+        "id": 10,
+        "label": "Social psychology",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_psychology",
+        "score": 0.0817556
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Maxwell AE",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Maxwell AE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Hunt",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hunt",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 12,
+        "endingPos": 16
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Bush MA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bush MA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 28
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Social support",
+        "confidenceScore": 1.36677,
+        "wikiLink": "http://en.wikipedia.org/wiki/Social_support",
+        "matchedText": "social support",
+        "freebaseId": "/m/05cd4q",
+        "relevanceScore": 0.232859,
+        "entityEnglishId": "Social support",
+        "startingPos": 43,
+        "endingPos": 57
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.99256,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.192167,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 82,
+        "endingPos": 90
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Psychosocial",
+        "confidenceScore": 1.42298,
+        "wikiLink": "http://en.wikipedia.org/wiki/Psychosocial",
+        "matchedText": "psychosocial",
+        "freebaseId": "/m/025swg8",
+        "relevanceScore": 0,
+        "entityEnglishId": "Psychosocial",
+        "startingPos": 126,
+        "endingPos": 138
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.99256,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.192167,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 149,
+        "endingPos": 157
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          10,
+          16,
+          23
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          9,
+          10,
+          16,
+          23
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          25
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          28
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          9,
+          10,
+          16,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26,
+          27,
+          28
+        ]
+      }
+    ]
+  },
+  "time": 3.02,
+  "ok": true
+}

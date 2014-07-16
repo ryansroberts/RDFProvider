@@ -1,0 +1,228 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.872764
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.550638
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.472169
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.460507
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.410517
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Albuminuria",
+        "wikiLink": "http://en.wikipedia.org/Albuminuria",
+        "score": 0.211935
+      },
+      {
+        "id": 1,
+        "label": "Reagent",
+        "wikiLink": "http://en.wikipedia.org/Reagent",
+        "score": 0.341187
+      },
+      {
+        "id": 2,
+        "label": "Sensitivity and specificity",
+        "wikiLink": "http://en.wikipedia.org/Sensitivity_and_specificity",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.212115
+      },
+      {
+        "id": 4,
+        "label": "Physical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Physical_sciences",
+        "score": 0.184362
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Sensitivity and specificity",
+        "confidenceScore": 1.7341,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sensitivity_and_specificity",
+        "matchedText": "sensitivity",
+        "freebaseId": "/m/047vmjj",
+        "relevanceScore": 0.457928,
+        "entityEnglishId": "Sensitivity and specificity",
+        "startingPos": 13,
+        "endingPos": 24
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Reagent",
+        "confidenceScore": 1.72733,
+        "wikiLink": "http://en.wikipedia.org/wiki/Reagent",
+        "matchedText": "reagent",
+        "freebaseId": "/m/0197z2",
+        "relevanceScore": 0.170594,
+        "entityEnglishId": "Reagent",
+        "startingPos": 28,
+        "endingPos": 35
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.89803,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "albuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.105968,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 57,
+        "endingPos": 68
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Sensitivity and specificity",
+        "confidenceScore": 2.63772,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sensitivity_and_specificity",
+        "matchedText": "specificity",
+        "freebaseId": "/m/047vmjj",
+        "relevanceScore": 0.74325,
+        "entityEnglishId": "Sensitivity and specificity",
+        "startingPos": 82,
+        "endingPos": 93
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Reagent",
+        "confidenceScore": 1.65165,
+        "wikiLink": "http://en.wikipedia.org/wiki/Reagent",
+        "matchedText": "reagent",
+        "freebaseId": "/m/0197z2",
+        "relevanceScore": 0.170594,
+        "entityEnglishId": "Reagent",
+        "startingPos": 97,
+        "endingPos": 104
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.89803,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "albuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.105968,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 129,
+        "endingPos": 140
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3,
+          4
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3,
+          4
+        ],
+        "propertyPositions": [
+          0,
+          10,
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 3.016,
+  "ok": true
+}

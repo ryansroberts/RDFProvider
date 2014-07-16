@@ -1,0 +1,293 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.485407
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.242459
+      },
+      {
+        "id": 3,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.242459
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.23872
+      },
+      {
+        "id": 5,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.236952
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Capsaicin",
+        "wikiLink": "http://en.wikipedia.org/Capsaicin",
+        "score": 0.203927
+      },
+      {
+        "id": 1,
+        "label": "Neurology",
+        "wikiLink": "http://en.wikipedia.org/Neurology",
+        "score": 0.155177
+      },
+      {
+        "id": 2,
+        "label": "Peripheral neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Peripheral_neuropathy",
+        "score": 0.24245
+      },
+      {
+        "id": 3,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0429931
+      },
+      {
+        "id": 4,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0429931
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0409462
+      },
+      {
+        "id": 6,
+        "label": "Causality",
+        "wikiLink": "http://en.wikipedia.org/Category:Causality",
+        "score": 0.0405818
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Simpson DM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Simpson DM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Randomized controlled trial",
+        "freebaseTypes": [
+          "/law/invention"
+        ],
+        "confidenceScore": 1.36423,
+        "wikiLink": "http://en.wikipedia.org/wiki/Randomized_controlled_trial",
+        "matchedText": "Controlled trial",
+        "freebaseId": "/m/015p9x",
+        "relevanceScore": 0.038985,
+        "entityEnglishId": "Randomized controlled trial",
+        "startingPos": 25,
+        "endingPos": 41
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Capsaicin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors"
+        ],
+        "confidenceScore": 5.04379,
+        "wikiLink": "http://en.wikipedia.org/wiki/Capsaicin",
+        "matchedText": "capsaicin",
+        "freebaseId": "/m/0fs8j",
+        "relevanceScore": 0.203927,
+        "entityEnglishId": "Capsaicin",
+        "startingPos": 64,
+        "endingPos": 73
+      },
+      {
+        "id": 3,
+        "type": [
+          "Species"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "HIV",
+        "freebaseTypes": [
+          "/biology/organism_classification",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 3.37762,
+        "wikiLink": "http://en.wikipedia.org/wiki/HIV",
+        "matchedText": "HIV",
+        "freebaseId": "/m/05dbslt",
+        "relevanceScore": 0.0733264,
+        "entityEnglishId": "HIV",
+        "startingPos": 91,
+        "endingPos": 94
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Peripheral neuropathy",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.1025,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peripheral_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02w1fx",
+        "relevanceScore": 0.24245,
+        "entityEnglishId": "Peripheral neuropathy",
+        "startingPos": 95,
+        "endingPos": 105
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Neurology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/medicine/physician",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.77623,
+        "wikiLink": "http://en.wikipedia.org/wiki/Neurology",
+        "matchedText": "Neurology",
+        "freebaseId": "/m/05b1j",
+        "relevanceScore": 0.155177,
+        "entityEnglishId": "Neurology",
+        "startingPos": 107,
+        "endingPos": 116
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          3,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          3,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "time": 3.022,
+  "ok": true
+}

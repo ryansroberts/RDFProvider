@@ -1,0 +1,380 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.309038
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.287674
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.287674
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Anti-diabetic medication",
+        "wikiLink": "http://en.wikipedia.org/Anti-diabetic_medication",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Combination therapy",
+        "wikiLink": "http://en.wikipedia.org/Combination_therapy",
+        "score": 0.287312
+      },
+      {
+        "id": 2,
+        "label": "Drug",
+        "wikiLink": "http://en.wikipedia.org/Drug",
+        "score": 0.138646
+      },
+      {
+        "id": 3,
+        "label": "Metformin",
+        "wikiLink": "http://en.wikipedia.org/Metformin",
+        "score": 0.751151
+      },
+      {
+        "id": 4,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.292422
+      },
+      {
+        "id": 5,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs",
+        "score": 0.549787
+      },
+      {
+        "id": 6,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.501716
+      },
+      {
+        "id": 7,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.246094
+      },
+      {
+        "id": 8,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.246094
+      },
+      {
+        "id": 9,
+        "label": "Medicinal chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicinal_chemistry",
+        "score": 0.0680453
+      },
+      {
+        "id": 10,
+        "label": "Pharmaceutical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_sciences",
+        "score": 0.0680453
+      },
+      {
+        "id": 11,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Category:Therapy",
+        "score": 0.0680453
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 12.7944,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.751151,
+        "entityEnglishId": "Metformin",
+        "startingPos": 3,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Combination therapy",
+        "confidenceScore": 2.42222,
+        "wikiLink": "http://en.wikipedia.org/wiki/Combination_therapy",
+        "matchedText": "monotherapy",
+        "freebaseId": "/m/058jwm",
+        "relevanceScore": 0.287312,
+        "entityEnglishId": "Combination therapy",
+        "startingPos": 16,
+        "endingPos": 27
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Anti-diabetic medication",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.9143,
+        "wikiLink": "http://en.wikipedia.org/wiki/Anti-diabetic_medication",
+        "matchedText": "oral antidiabetic",
+        "freebaseId": "/m/01lml6",
+        "relevanceScore": 0.332162,
+        "entityEnglishId": "Anti-diabetic medication",
+        "startingPos": 51,
+        "endingPos": 68
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Anti-diabetic medication",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 4.17031,
+        "wikiLink": "http://en.wikipedia.org/wiki/Anti-diabetic_medication",
+        "matchedText": "antidiabetic",
+        "freebaseId": "/m/01lml6",
+        "relevanceScore": 0.452626,
+        "entityEnglishId": "Anti-diabetic medication",
+        "startingPos": 56,
+        "endingPos": 68
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Anti-diabetic medication",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.33349,
+        "wikiLink": "http://en.wikipedia.org/wiki/Anti-diabetic_medication",
+        "matchedText": "antidiabetic drugs",
+        "freebaseId": "/m/01lml6",
+        "relevanceScore": 0.324651,
+        "entityEnglishId": "Anti-diabetic medication",
+        "startingPos": 56,
+        "endingPos": 74
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Drug",
+        "freebaseTypes": [
+          "/medicine/drug_formulation_category",
+          "/film/film_subject",
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.83838,
+        "wikiLink": "http://en.wikipedia.org/wiki/Drug",
+        "matchedText": "drugs",
+        "freebaseId": "/m/02kjb_",
+        "relevanceScore": 0.0693231,
+        "entityEnglishId": "Drug",
+        "startingPos": 69,
+        "endingPos": 74
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Anti-diabetic medication",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.9143,
+        "wikiLink": "http://en.wikipedia.org/wiki/Anti-diabetic_medication",
+        "matchedText": "oral antidiabetic",
+        "freebaseId": "/m/01lml6",
+        "relevanceScore": 0.332162,
+        "entityEnglishId": "Anti-diabetic medication",
+        "startingPos": 121,
+        "endingPos": 138
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Anti-diabetic medication",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 4.17031,
+        "wikiLink": "http://en.wikipedia.org/wiki/Anti-diabetic_medication",
+        "matchedText": "antidiabetic",
+        "freebaseId": "/m/01lml6",
+        "relevanceScore": 0.452626,
+        "entityEnglishId": "Anti-diabetic medication",
+        "startingPos": 126,
+        "endingPos": 138
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Anti-diabetic medication",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.33349,
+        "wikiLink": "http://en.wikipedia.org/wiki/Anti-diabetic_medication",
+        "matchedText": "antidiabetic drugs",
+        "freebaseId": "/m/01lml6",
+        "relevanceScore": 0.324651,
+        "entityEnglishId": "Anti-diabetic medication",
+        "startingPos": 126,
+        "endingPos": 144
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Drug",
+        "freebaseTypes": [
+          "/medicine/drug_formulation_category",
+          "/film/film_subject",
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.83838,
+        "wikiLink": "http://en.wikipedia.org/wiki/Drug",
+        "matchedText": "drugs",
+        "freebaseId": "/m/02kjb_",
+        "relevanceScore": 0.0693231,
+        "entityEnglishId": "Drug",
+        "startingPos": 139,
+        "endingPos": 144
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 4.44279,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.292422,
+        "entityEnglishId": "Placebo",
+        "startingPos": 157,
+        "endingPos": 164
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  "time": 3.021,
+  "ok": true
+}

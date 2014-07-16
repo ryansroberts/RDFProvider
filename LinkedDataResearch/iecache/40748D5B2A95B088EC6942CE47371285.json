@@ -1,0 +1,50 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Knock-down kit",
+        "confidenceScore": 2.08134,
+        "wikiLink": "http://en.wikipedia.org/wiki/Knock-down_kit",
+        "matchedText": "CKD",
+        "freebaseId": "/m/04p2lp",
+        "relevanceScore": 0,
+        "entityEnglishId": "Knock-down kit",
+        "startingPos": 36,
+        "endingPos": 39
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "time": 3.009,
+  "ok": true
+}

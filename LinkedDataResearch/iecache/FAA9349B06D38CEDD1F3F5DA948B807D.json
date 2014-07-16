@@ -1,0 +1,358 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.96979
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.473743
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.473743
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.473743
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Fructosamine",
+        "wikiLink": "http://en.wikipedia.org/Fructosamine",
+        "score": 0.414818
+      },
+      {
+        "id": 1,
+        "label": "Laboratory",
+        "wikiLink": "http://en.wikipedia.org/Laboratory",
+        "score": 0.167594
+      },
+      {
+        "id": 2,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.0458885
+      },
+      {
+        "id": 3,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0458885
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Fructosamine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 2.62903,
+        "wikiLink": "http://en.wikipedia.org/wiki/Fructosamine",
+        "matchedText": "fructosamine",
+        "freebaseId": "/m/0bw3pr",
+        "relevanceScore": 0.414818,
+        "entityEnglishId": "Fructosamine",
+        "startingPos": 62,
+        "endingPos": 74
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Laboratory",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/architecture/building_function"
+        ],
+        "confidenceScore": 1.39343,
+        "wikiLink": "http://en.wikipedia.org/wiki/Laboratory",
+        "matchedText": "laboratory",
+        "freebaseId": "/m/017clw",
+        "relevanceScore": 0.0837972,
+        "entityEnglishId": "Laboratory",
+        "startingPos": 116,
+        "endingPos": 126
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Laboratory",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/architecture/building_function"
+        ],
+        "confidenceScore": 1.23546,
+        "wikiLink": "http://en.wikipedia.org/wiki/Laboratory",
+        "matchedText": "laboratory",
+        "freebaseId": "/m/017clw",
+        "relevanceScore": 0.0837972,
+        "entityEnglishId": "Laboratory",
+        "startingPos": 201,
+        "endingPos": 211
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.12711,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Patient",
+        "startingPos": 243,
+        "endingPos": 251
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              7,
+              8,
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12,
+          13,
+          14
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              11
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          43
+        ],
+        "propertyPositions": [
+          39
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          43
+        ],
+        "propertyPositions": [
+          41
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          43
+        ],
+        "propertyPositions": [
+          42
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          3
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          7,
+          9
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          15,
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 3.018,
+  "ok": true
+}

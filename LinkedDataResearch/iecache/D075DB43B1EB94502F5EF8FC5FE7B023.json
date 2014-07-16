@@ -1,0 +1,372 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.967289
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.963697
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.963697
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.499912
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.499912
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Acarbose",
+        "wikiLink": "http://en.wikipedia.org/Acarbose",
+        "score": 0.852827
+      },
+      {
+        "id": 1,
+        "label": "Adverse effect",
+        "wikiLink": "http://en.wikipedia.org/Adverse_effect",
+        "score": 0.208564
+      },
+      {
+        "id": 2,
+        "label": "Flatulence",
+        "wikiLink": "http://en.wikipedia.org/Flatulence",
+        "score": 0.277251
+      },
+      {
+        "id": 3,
+        "label": "Frequency",
+        "wikiLink": "http://en.wikipedia.org/Frequency",
+        "score": 0.137022
+      },
+      {
+        "id": 4,
+        "label": "High frequency",
+        "wikiLink": "http://en.wikipedia.org/High_frequency",
+        "score": 0.216167
+      },
+      {
+        "id": 5,
+        "label": "Telecommunications engineering",
+        "wikiLink": "http://en.wikipedia.org/Category:Telecommunications_engineering",
+        "score": 0.0647871
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          2,
+          3
+        ],
+        "entityId": "Adverse effect",
+        "confidenceScore": 1.8007,
+        "wikiLink": "http://en.wikipedia.org/wiki/Adverse_effect",
+        "matchedText": "adverse effects",
+        "freebaseId": "/m/054ffx",
+        "relevanceScore": 0.208564,
+        "entityEnglishId": "Adverse effect",
+        "startingPos": 11,
+        "endingPos": 26
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Acarbose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.51181,
+        "wikiLink": "http://en.wikipedia.org/wiki/Acarbose",
+        "matchedText": "acarbose",
+        "freebaseId": "/m/048rkb",
+        "relevanceScore": 0.426413,
+        "entityEnglishId": "Acarbose",
+        "startingPos": 46,
+        "endingPos": 54
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "High frequency",
+        "confidenceScore": 1.52472,
+        "wikiLink": "http://en.wikipedia.org/wiki/High_frequency",
+        "matchedText": "high frequency",
+        "freebaseId": "/m/018dw1",
+        "relevanceScore": 0.216167,
+        "entityEnglishId": "High frequency",
+        "startingPos": 149,
+        "endingPos": 163
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Frequency",
+        "freebaseTypes": [
+          "/measurement_unit/dimension",
+          "/measurement_unit/common_dimension"
+        ],
+        "confidenceScore": 1.27505,
+        "wikiLink": "http://en.wikipedia.org/wiki/Frequency",
+        "matchedText": "frequency",
+        "freebaseId": "/m/02x93",
+        "relevanceScore": 0.137022,
+        "entityEnglishId": "Frequency",
+        "startingPos": 154,
+        "endingPos": 163
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Flatulence",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/tv/tv_subject"
+        ],
+        "confidenceScore": 4.64899,
+        "wikiLink": "http://en.wikipedia.org/wiki/Flatulence",
+        "matchedText": "Flatulence",
+        "freebaseId": "/m/02_pz",
+        "relevanceScore": 0.277251,
+        "entityEnglishId": "Flatulence",
+        "startingPos": 220,
+        "endingPos": 230
+      },
+      {
+        "id": 5,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          41
+        ],
+        "entityId": "Acarbose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.51181,
+        "wikiLink": "http://en.wikipedia.org/wiki/Acarbose",
+        "matchedText": "acarbose",
+        "freebaseId": "/m/048rkb",
+        "relevanceScore": 0.426413,
+        "entityEnglishId": "Acarbose",
+        "startingPos": 251,
+        "endingPos": 259
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          37,
+          38,
+          39
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              36
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              40,
+              41,
+              42,
+              43
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          50,
+          51
+        ],
+        "propertyPositions": [
+          52,
+          53
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          2,
+          3
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          34
+        ],
+        "propertyPositions": [
+          33
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          24,
+          26,
+          27
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          24,
+          26,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          29
+        ]
+      }
+    ]
+  },
+  "time": 3.021,
+  "ok": true
+}

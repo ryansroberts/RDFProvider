@@ -1,0 +1,398 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.272642
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.270442
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.267606
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.266673
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Amlodipine",
+        "wikiLink": "http://en.wikipedia.org/Amlodipine",
+        "score": 0.423408
+      },
+      {
+        "id": 1,
+        "label": "Blood pressure",
+        "wikiLink": "http://en.wikipedia.org/Blood_pressure",
+        "score": 0.217569
+      },
+      {
+        "id": 2,
+        "label": "Cardiovascular system",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiovascular_system",
+        "score": 0.151765
+      },
+      {
+        "id": 3,
+        "label": "Antihypertensive agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Antihypertensive_agents",
+        "score": 0.129491
+      },
+      {
+        "id": 4,
+        "label": "Oxygen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxygen_compounds",
+        "score": 0.122221
+      },
+      {
+        "id": 5,
+        "label": "Functional groups",
+        "wikiLink": "http://en.wikipedia.org/Category:Functional_groups",
+        "score": 0.122221
+      },
+      {
+        "id": 6,
+        "label": "Heterocyclic compounds according to element",
+        "wikiLink": "http://en.wikipedia.org/Category:Heterocyclic_compounds_according_to_element",
+        "score": 0.108691
+      },
+      {
+        "id": 7,
+        "label": "Organonitrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organonitrogen_compounds",
+        "score": 0.108691
+      },
+      {
+        "id": 8,
+        "label": "Nitrogen heterocycles",
+        "wikiLink": "http://en.wikipedia.org/Category:Nitrogen_heterocycles",
+        "score": 0.108691
+      },
+      {
+        "id": 9,
+        "label": "Heterocyclic compounds (1 ring)",
+        "wikiLink": "http://en.wikipedia.org/Category:Heterocyclic_compounds_(1_ring)",
+        "score": 0.108482
+      },
+      {
+        "id": 10,
+        "label": "Cardiovascular physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiovascular_physiology",
+        "score": 0.0847025
+      },
+      {
+        "id": 11,
+        "label": "Pressure",
+        "wikiLink": "http://en.wikipedia.org/Category:Pressure",
+        "score": 0.0691503
+      },
+      {
+        "id": 12,
+        "label": "Blood",
+        "wikiLink": "http://en.wikipedia.org/Category:Blood",
+        "score": 0.0691503
+      },
+      {
+        "id": 13,
+        "label": "Body fluids",
+        "wikiLink": "http://en.wikipedia.org/Category:Body_fluids",
+        "score": 0.0525534
+      },
+      {
+        "id": 14,
+        "label": "Tissues",
+        "wikiLink": "http://en.wikipedia.org/Category:Tissues",
+        "score": 0.0525534
+      },
+      {
+        "id": 15,
+        "label": "Physical quantities",
+        "wikiLink": "http://en.wikipedia.org/Category:Physical_quantities",
+        "score": 0.0525534
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          8,
+          9,
+          10
+        ],
+        "entityId": "Mean arterial pressure",
+        "confidenceScore": 3.29218,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mean_arterial_pressure",
+        "matchedText": "mean arterial pressure",
+        "freebaseId": "/m/03hqny",
+        "relevanceScore": 0.0390169,
+        "entityEnglishId": "Mean arterial pressure",
+        "startingPos": 51,
+        "endingPos": 73
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Blood pressure",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 2.51555,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_pressure",
+        "matchedText": "arterial pressure",
+        "freebaseId": "/m/0fmq1",
+        "relevanceScore": 0.217569,
+        "entityEnglishId": "Blood pressure",
+        "startingPos": 56,
+        "endingPos": 73
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.21331,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Patient",
+        "startingPos": 77,
+        "endingPos": 85
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Irbesartan",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 1.8825,
+        "wikiLink": "http://en.wikipedia.org/wiki/Irbesartan",
+        "matchedText": "irbesartan",
+        "freebaseId": "/m/038t69",
+        "relevanceScore": 0.0730072,
+        "entityEnglishId": "Irbesartan",
+        "startingPos": 99,
+        "endingPos": 109
+      },
+      {
+        "id": 4,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Amlodipine",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 4.13628,
+        "wikiLink": "http://en.wikipedia.org/wiki/Amlodipine",
+        "matchedText": "amlodipine",
+        "freebaseId": "/m/02_0mv",
+        "relevanceScore": 0.423408,
+        "entityEnglishId": "Amlodipine",
+        "startingPos": 114,
+        "endingPos": 124
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3,
+          4
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          11
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8,
+              9,
+              10,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6,
+          7,
+          11
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          6,
+          7,
+          11
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          6,
+          7,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

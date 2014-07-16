@@ -1,0 +1,296 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.370517
+      },
+      {
+        "id": 2,
+        "label": "Violence",
+        "wikiLink": "http://en.wikipedia.org/Category:Violence",
+        "score": 0.315112
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.272314
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "American Podiatric Medical Association",
+        "wikiLink": "http://en.wikipedia.org/American_Podiatric_Medical_Association",
+        "score": 0.104065
+      },
+      {
+        "id": 1,
+        "label": "Amputation",
+        "wikiLink": "http://en.wikipedia.org/Amputation",
+        "score": 0.321704
+      },
+      {
+        "id": 2,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.171116
+      },
+      {
+        "id": 3,
+        "label": "Podiatry",
+        "wikiLink": "http://en.wikipedia.org/Podiatry",
+        "score": 0.401297
+      },
+      {
+        "id": 4,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.438076
+      },
+      {
+        "id": 5,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.129499
+      },
+      {
+        "id": 6,
+        "label": "Lower limb anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Lower_limb_anatomy",
+        "score": 0.129499
+      },
+      {
+        "id": 7,
+        "label": "Foot",
+        "wikiLink": "http://en.wikipedia.org/Category:Foot",
+        "score": 0.129499
+      },
+      {
+        "id": 8,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.129499
+      },
+      {
+        "id": 9,
+        "label": "Surgery",
+        "wikiLink": "http://en.wikipedia.org/Category:Surgery",
+        "score": 0.127073
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Frykberg RG",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Frykberg RG",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Amputation",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 3.79815,
+        "wikiLink": "http://en.wikipedia.org/wiki/Amputation",
+        "matchedText": "amputation",
+        "freebaseId": "/m/012r6",
+        "relevanceScore": 0.321704,
+        "entityEnglishId": "Amputation",
+        "startingPos": 50,
+        "endingPos": 60
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.24381,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.171116,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 75,
+        "endingPos": 83
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Podiatry",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study",
+          "/business/industry"
+        ],
+        "confidenceScore": 2.90703,
+        "wikiLink": "http://en.wikipedia.org/wiki/Podiatry",
+        "matchedText": "Podiatric",
+        "freebaseId": "/m/02tgxy",
+        "relevanceScore": 0.401297,
+        "entityEnglishId": "Podiatry",
+        "startingPos": 109,
+        "endingPos": 118
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "entityId": "Journal of the American Podiatric Medical Association",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Journal of the American Podiatric Medical Association",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 85,
+        "endingPos": 138
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "entityId": "American Podiatric Medical Association",
+        "freebaseTypes": [
+          "/business/employer",
+          "/organization/organization"
+        ],
+        "confidenceScore": 3.97585,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Podiatric_Medical_Association",
+        "matchedText": "American Podiatric Medical Association",
+        "freebaseId": "/m/0274v78",
+        "relevanceScore": 0.104065,
+        "entityEnglishId": "American Podiatric Medical Association",
+        "startingPos": 100,
+        "endingPos": 138
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 3.015,
+  "ok": true
+}

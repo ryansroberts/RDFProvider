@@ -1,0 +1,433 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.939627
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.939627
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.939627
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.939627
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Doxazosin",
+        "wikiLink": "http://en.wikipedia.org/Doxazosin",
+        "score": 0.259774
+      },
+      {
+        "id": 1,
+        "label": "Irbesartan",
+        "wikiLink": "http://en.wikipedia.org/Irbesartan",
+        "score": 0.131764
+      },
+      {
+        "id": 2,
+        "label": "Heterocyclic compounds according to element",
+        "wikiLink": "http://en.wikipedia.org/Category:Heterocyclic_compounds_according_to_element",
+        "score": 0.0333333
+      },
+      {
+        "id": 3,
+        "label": "Heterocyclic compounds (1 ring)",
+        "wikiLink": "http://en.wikipedia.org/Category:Heterocyclic_compounds_(1_ring)",
+        "score": 0.0333333
+      },
+      {
+        "id": 4,
+        "label": "Organonitrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organonitrogen_compounds",
+        "score": 0.0333333
+      },
+      {
+        "id": 5,
+        "label": "Antihypertensive agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Antihypertensive_agents",
+        "score": 0.0333333
+      },
+      {
+        "id": 6,
+        "label": "Nitrogen heterocycles",
+        "wikiLink": "http://en.wikipedia.org/Category:Nitrogen_heterocycles",
+        "score": 0.0333333
+      },
+      {
+        "id": 7,
+        "label": "Oxygen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxygen_compounds",
+        "score": 0.0333333
+      },
+      {
+        "id": 8,
+        "label": "Aromatic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Aromatic_compounds",
+        "score": 0.0333333
+      },
+      {
+        "id": 9,
+        "label": "Amides",
+        "wikiLink": "http://en.wikipedia.org/Category:Amides",
+        "score": 0.0333333
+      },
+      {
+        "id": 10,
+        "label": "Functional groups",
+        "wikiLink": "http://en.wikipedia.org/Category:Functional_groups",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.46612,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Patient",
+        "startingPos": 27,
+        "endingPos": 35
+      },
+      {
+        "id": 1,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Doxazosin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 3.64813,
+        "wikiLink": "http://en.wikipedia.org/wiki/Doxazosin",
+        "matchedText": "doxazosin",
+        "freebaseId": "/m/06p135",
+        "relevanceScore": 0.259774,
+        "entityEnglishId": "Doxazosin",
+        "startingPos": 49,
+        "endingPos": 58
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "HDL-C",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "HDL-C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 94,
+        "endingPos": 99
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Irbesartan",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 1.80013,
+        "wikiLink": "http://en.wikipedia.org/wiki/Irbesartan",
+        "matchedText": "irbesartan",
+        "freebaseId": "/m/038t69",
+        "relevanceScore": 0.131764,
+        "entityEnglishId": "Irbesartan",
+        "startingPos": 134,
+        "endingPos": 144
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              23,
+              24
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9,
+          15
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              10,
+              11,
+              12,
+              13,
+              14,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              23,
+              24
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              14,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              23,
+              24
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              14,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              23,
+              24
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          9,
+          15,
+          16,
+          17
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              10,
+              11,
+              12,
+              13,
+              14,
+              18,
+              19,
+              20,
+              21,
+              23,
+              24
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          2
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          10,
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          23,
+          24
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

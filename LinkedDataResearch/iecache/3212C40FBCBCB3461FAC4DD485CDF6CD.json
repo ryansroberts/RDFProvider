@@ -1,0 +1,597 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.666592
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.329415
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.329358
+      },
+      {
+        "id": 4,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.329358
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.329358
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Rounding",
+        "wikiLink": "http://en.wikipedia.org/Rounding",
+        "score": 0.151086
+      },
+      {
+        "id": 1,
+        "label": "Cognitive science",
+        "wikiLink": "http://en.wikipedia.org/Category:Cognitive_science",
+        "score": 0.0606202
+      },
+      {
+        "id": 2,
+        "label": "Information",
+        "wikiLink": "http://en.wikipedia.org/Category:Information",
+        "score": 0.0506862
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Systematic review",
+        "confidenceScore": 2.98751,
+        "wikiLink": "http://en.wikipedia.org/wiki/Systematic_review",
+        "matchedText": "systematic review",
+        "freebaseId": "/m/08jd5_",
+        "relevanceScore": 0.0485683,
+        "entityEnglishId": "Systematic review",
+        "startingPos": 21,
+        "endingPos": 38
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Rounding",
+        "confidenceScore": 1.78012,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rounding",
+        "matchedText": "rounding",
+        "freebaseId": "/m/016skl",
+        "relevanceScore": 0.151086,
+        "entityEnglishId": "Rounding",
+        "startingPos": 165,
+        "endingPos": 173
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          66
+        ],
+        "entityId": "Logbook",
+        "confidenceScore": 2.22282,
+        "wikiLink": "http://en.wikipedia.org/wiki/Logbook",
+        "matchedText": "logbook",
+        "freebaseId": "/m/05gfw6",
+        "relevanceScore": 0.0484695,
+        "entityEnglishId": "Logbook",
+        "startingPos": 385,
+        "endingPos": 392
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          15
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          49,
+          50,
+          51
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              47,
+              48
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              47,
+              48
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          52,
+          53,
+          54,
+          55,
+          57,
+          59
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              58
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              56,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          57,
+          59
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              58
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              56,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          59
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              58
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              58
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3,
+          5,
+          7,
+          8,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          34
+        ],
+        "propertyPositions": [
+          33
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          31,
+          32
+        ],
+        "propertyPositions": [
+          33,
+          34
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          3,
+          5,
+          7,
+          8,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          36,
+          37
+        ],
+        "propertyPositions": [
+          38,
+          39
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          16,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          52,
+          54,
+          55
+        ],
+        "propertyPositions": [
+          53
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          61,
+          62,
+          63,
+          64,
+          65
+        ],
+        "propertyPositions": [
+          60
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          66,
+          67,
+          68
+        ],
+        "propertyPositions": [
+          69,
+          70
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          61,
+          62,
+          63,
+          64,
+          65
+        ],
+        "propertyPositions": [
+          66,
+          67,
+          68,
+          69,
+          70
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          52,
+          54,
+          55
+        ],
+        "propertyPositions": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70
+        ]
+      }
+    ]
+  },
+  "time": 3.02,
+  "ok": true
+}

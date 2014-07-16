@@ -1,0 +1,651 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.726
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.446809
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.282074
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.276602
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.260408
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Flatulence",
+        "wikiLink": "http://en.wikipedia.org/Flatulence",
+        "score": 0.304519
+      },
+      {
+        "id": 1,
+        "label": "Headache",
+        "wikiLink": "http://en.wikipedia.org/Headache",
+        "score": 0.264468
+      },
+      {
+        "id": 2,
+        "label": "Mir",
+        "wikiLink": "http://en.wikipedia.org/Mir",
+        "score": 0.142662
+      },
+      {
+        "id": 3,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Pain",
+        "score": 0.194895
+      },
+      {
+        "id": 4,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.978133
+      },
+      {
+        "id": 5,
+        "label": "Placebo-controlled study",
+        "wikiLink": "http://en.wikipedia.org/Placebo-controlled_study",
+        "score": 0.626058
+      },
+      {
+        "id": 6,
+        "label": "Time release technology",
+        "wikiLink": "http://en.wikipedia.org/Time_release_technology",
+        "score": 0.150309
+      },
+      {
+        "id": 7,
+        "label": "Symptoms and signs",
+        "wikiLink": "http://en.wikipedia.org/Category:Symptoms_and_signs",
+        "score": 0.436547
+      },
+      {
+        "id": 8,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.367768
+      },
+      {
+        "id": 9,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.367768
+      },
+      {
+        "id": 10,
+        "label": "Tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Tests",
+        "score": 0.146306
+      },
+      {
+        "id": 11,
+        "label": "Medical ethics",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_ethics",
+        "score": 0.140597
+      },
+      {
+        "id": 12,
+        "label": "Digestive diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Digestive_diseases",
+        "score": 0.131581
+      },
+      {
+        "id": 13,
+        "label": "Symptoms and signs: Digestive system and abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Symptoms_and_signs:_Digestive_system_and_abdomen",
+        "score": 0.131581
+      },
+      {
+        "id": 14,
+        "label": "Feeling",
+        "wikiLink": "http://en.wikipedia.org/Category:Feeling",
+        "score": 0.130478
+      },
+      {
+        "id": 15,
+        "label": "Symptoms and signs: General",
+        "wikiLink": "http://en.wikipedia.org/Category:Symptoms_and_signs:_General",
+        "score": 0.130478
+      },
+      {
+        "id": 16,
+        "label": "Perception",
+        "wikiLink": "http://en.wikipedia.org/Category:Perception",
+        "score": 0.130478
+      },
+      {
+        "id": 17,
+        "label": "Medicinal chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicinal_chemistry",
+        "score": 0.101101
+      },
+      {
+        "id": 18,
+        "label": "Pharmaceutical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_sciences",
+        "score": 0.101101
+      },
+      {
+        "id": 19,
+        "label": "Medical treatments",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_treatments",
+        "score": 0.101101
+      },
+      {
+        "id": 20,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.101101
+      },
+      {
+        "id": 21,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Category:Therapy",
+        "score": 0.101101
+      },
+      {
+        "id": 22,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.101101
+      },
+      {
+        "id": 23,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.101101
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "MeanOfTransportation",
+          "SpaceStation"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Mir",
+        "freebaseTypes": [
+          "/spaceflight/spacecraft",
+          "/spaceflight/satellite",
+          "/book/book_subject",
+          "/projects/project_focus"
+        ],
+        "confidenceScore": 1.26382,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mir",
+        "matchedText": "MIR",
+        "freebaseId": "/m/0kzv7",
+        "relevanceScore": 0.142662,
+        "entityEnglishId": "Mir",
+        "startingPos": 37,
+        "endingPos": 40
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "MXR",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/business/business_operation",
+          "/business/employer"
+        ],
+        "confidenceScore": 1.91265,
+        "wikiLink": "http://en.wikipedia.org/wiki/MXR",
+        "matchedText": "MXR",
+        "freebaseId": "/m/0fb7tf",
+        "relevanceScore": 0,
+        "entityEnglishId": "MXR",
+        "startingPos": 45,
+        "endingPos": 48
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Diarrhea",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/medicine/disease_cause",
+          "/book/book_subject",
+          "/medicine/symptom",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 6.07818,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diarrhea",
+        "matchedText": "diarrhoea",
+        "freebaseId": "/m/0f3kl",
+        "relevanceScore": 0.0998123,
+        "entityEnglishId": "Diarrhea",
+        "startingPos": 55,
+        "endingPos": 64
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Flatulence",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/tv/tv_subject"
+        ],
+        "confidenceScore": 5.55567,
+        "wikiLink": "http://en.wikipedia.org/wiki/Flatulence",
+        "matchedText": "flatulence",
+        "freebaseId": "/m/02_pz",
+        "relevanceScore": 0.304519,
+        "entityEnglishId": "Flatulence",
+        "startingPos": 66,
+        "endingPos": 76
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.36815,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.194895,
+        "entityEnglishId": "Pain",
+        "startingPos": 91,
+        "endingPos": 95
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Time release technology",
+        "confidenceScore": 1.09971,
+        "wikiLink": "http://en.wikipedia.org/wiki/Time_release_technology",
+        "matchedText": "extended-release",
+        "freebaseId": "/m/0277b_c",
+        "relevanceScore": 0.150309,
+        "entityEnglishId": "Time release technology",
+        "startingPos": 120,
+        "endingPos": 136
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.32271,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.0253004,
+        "entityEnglishId": "Patient",
+        "startingPos": 184,
+        "endingPos": 192
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Headache",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.21963,
+        "wikiLink": "http://en.wikipedia.org/wiki/Headache",
+        "matchedText": "headache",
+        "freebaseId": "/m/0j5fv",
+        "relevanceScore": 0.264468,
+        "entityEnglishId": "Headache",
+        "startingPos": 223,
+        "endingPos": 231
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "dyspepsia/heartburn",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "dyspepsia/heartburn",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 236,
+        "endingPos": 255
+      },
+      {
+        "id": 9,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "group",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "group",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 277,
+        "endingPos": 282
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          51
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 1.54796,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo-controlled",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.648331,
+        "entityEnglishId": "Placebo",
+        "startingPos": 322,
+        "endingPos": 340
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          51,
+          52
+        ],
+        "entityId": "Placebo-controlled study",
+        "confidenceScore": 3.77969,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo-controlled_study",
+        "matchedText": "placebo-controlled studies",
+        "freebaseId": "/m/05b5m22",
+        "relevanceScore": 0.626058,
+        "entityEnglishId": "Placebo-controlled study",
+        "startingPos": 322,
+        "endingPos": 348
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          56
+        ],
+        "entityId": "MXR",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/business/business_operation",
+          "/business/employer"
+        ],
+        "confidenceScore": 1.91265,
+        "wikiLink": "http://en.wikipedia.org/wiki/MXR",
+        "matchedText": "MXR",
+        "freebaseId": "/m/0fb7tf",
+        "relevanceScore": 0,
+        "entityEnglishId": "MXR",
+        "startingPos": 362,
+        "endingPos": 365
+      },
+      {
+        "id": 13,
+        "matchingTokens": [
+          66
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 3.91409,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.329801,
+        "entityEnglishId": "Placebo",
+        "startingPos": 411,
+        "endingPos": 418
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          33,
+          39
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              31
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              34,
+              36,
+              37,
+              38,
+              40
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          18,
+          19,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              17
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          52
+        ],
+        "propertyPositions": [
+          51
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          50,
+          54,
+          55
+        ],
+        "propertyPositions": [
+          51,
+          52
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          50,
+          54,
+          55
+        ],
+        "propertyPositions": [
+          56,
+          57
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          11
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          61,
+          62,
+          63
+        ],
+        "propertyPositions": [
+          59
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          61,
+          62,
+          63
+        ],
+        "propertyPositions": [
+          60
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          61,
+          62,
+          63
+        ],
+        "propertyPositions": [
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          28,
+          29
+        ],
+        "propertyPositions": [
+          25,
+          26
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          28,
+          29
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          21,
+          23
+        ],
+        "propertyPositions": [
+          22
+        ]
+      }
+    ]
+  },
+  "time": 3.026,
+  "ok": true
+}

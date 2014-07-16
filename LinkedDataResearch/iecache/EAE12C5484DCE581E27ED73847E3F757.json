@@ -1,0 +1,928 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.951018
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.861504
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.716695
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.344839
+      },
+      {
+        "id": 5,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.235187
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Blood",
+        "wikiLink": "http://en.wikipedia.org/Blood",
+        "score": 0.160181
+      },
+      {
+        "id": 1,
+        "label": "Blood pressure",
+        "wikiLink": "http://en.wikipedia.org/Blood_pressure",
+        "score": 0.110478
+      },
+      {
+        "id": 2,
+        "label": "Body mass index",
+        "wikiLink": "http://en.wikipedia.org/Body_mass_index",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Body weight",
+        "wikiLink": "http://en.wikipedia.org/Body_weight",
+        "score": 0.241499
+      },
+      {
+        "id": 4,
+        "label": "Dieting",
+        "wikiLink": "http://en.wikipedia.org/Dieting",
+        "score": 0.497088
+      },
+      {
+        "id": 5,
+        "label": "Dose (biochemistry)",
+        "wikiLink": "http://en.wikipedia.org/Dose_(biochemistry)",
+        "score": 0.129716
+      },
+      {
+        "id": 6,
+        "label": "Insulin",
+        "wikiLink": "http://en.wikipedia.org/Insulin",
+        "score": 0.270122
+      },
+      {
+        "id": 7,
+        "label": "Mass",
+        "wikiLink": "http://en.wikipedia.org/Mass",
+        "score": 0.160026
+      },
+      {
+        "id": 8,
+        "label": "Pressure",
+        "wikiLink": "http://en.wikipedia.org/Pressure",
+        "score": 0.113375
+      },
+      {
+        "id": 9,
+        "label": "Vitamin",
+        "wikiLink": "http://en.wikipedia.org/Vitamin",
+        "score": 0.200451
+      },
+      {
+        "id": 10,
+        "label": "Vitamin E",
+        "wikiLink": "http://en.wikipedia.org/Vitamin_E",
+        "score": 0.43712
+      },
+      {
+        "id": 11,
+        "label": "Nutrition",
+        "wikiLink": "http://en.wikipedia.org/Category:Nutrition",
+        "score": 1
+      },
+      {
+        "id": 12,
+        "label": "Food and drink",
+        "wikiLink": "http://en.wikipedia.org/Category:Food_and_drink",
+        "score": 0.691427
+      },
+      {
+        "id": 13,
+        "label": "Human weight",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_weight",
+        "score": 0.464238
+      },
+      {
+        "id": 14,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.428367
+      },
+      {
+        "id": 15,
+        "label": "Human size",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_size",
+        "score": 0.40888
+      },
+      {
+        "id": 16,
+        "label": "Body shape",
+        "wikiLink": "http://en.wikipedia.org/Category:Body_shape",
+        "score": 0.40888
+      },
+      {
+        "id": 17,
+        "label": "Determinants of health",
+        "wikiLink": "http://en.wikipedia.org/Category:Determinants_of_health",
+        "score": 0.389755
+      },
+      {
+        "id": 18,
+        "label": "Physical quantities",
+        "wikiLink": "http://en.wikipedia.org/Category:Physical_quantities",
+        "score": 0.350284
+      },
+      {
+        "id": 19,
+        "label": "Biomolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Biomolecules_by_chemical_classification",
+        "score": 0.175471
+      },
+      {
+        "id": 20,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.165024
+      },
+      {
+        "id": 21,
+        "label": "Gastronomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Gastronomy",
+        "score": 0.147866
+      },
+      {
+        "id": 22,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.139073
+      },
+      {
+        "id": 23,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.136366
+      },
+      {
+        "id": 24,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.134101
+      },
+      {
+        "id": 25,
+        "label": "Tissues",
+        "wikiLink": "http://en.wikipedia.org/Category:Tissues",
+        "score": 0.126861
+      },
+      {
+        "id": 26,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.115179
+      },
+      {
+        "id": 27,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.108244
+      },
+      {
+        "id": 28,
+        "label": "Body fluids",
+        "wikiLink": "http://en.wikipedia.org/Category:Body_fluids",
+        "score": 0.10699
+      },
+      {
+        "id": 29,
+        "label": "Animal physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_physiology",
+        "score": 0.0820366
+      },
+      {
+        "id": 30,
+        "label": "Human appearance",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_appearance",
+        "score": 0.0779944
+      },
+      {
+        "id": 31,
+        "label": "Dietary supplements",
+        "wikiLink": "http://en.wikipedia.org/Category:Dietary_supplements",
+        "score": 0.0768924
+      },
+      {
+        "id": 32,
+        "label": "Essential nutrients",
+        "wikiLink": "http://en.wikipedia.org/Category:Essential_nutrients",
+        "score": 0.0764689
+      },
+      {
+        "id": 33,
+        "label": "Vitamins",
+        "wikiLink": "http://en.wikipedia.org/Category:Vitamins",
+        "score": 0.0764689
+      },
+      {
+        "id": 34,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.0687685
+      },
+      {
+        "id": 35,
+        "label": "Concepts",
+        "wikiLink": "http://en.wikipedia.org/Category:Concepts_by_field",
+        "score": 0.0670612
+      },
+      {
+        "id": 36,
+        "label": "Thermodynamic properties",
+        "wikiLink": "http://en.wikipedia.org/Category:Thermodynamic_properties",
+        "score": 0.0670612
+      },
+      {
+        "id": 37,
+        "label": "State functions",
+        "wikiLink": "http://en.wikipedia.org/Category:State_functions",
+        "score": 0.0670612
+      },
+      {
+        "id": 38,
+        "label": "Motion",
+        "wikiLink": "http://en.wikipedia.org/Category:Motion",
+        "score": 0.0670612
+      },
+      {
+        "id": 39,
+        "label": "Chemical properties",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_properties",
+        "score": 0.0670612
+      },
+      {
+        "id": 40,
+        "label": "Endocrinology",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrinology",
+        "score": 0.0664264
+      },
+      {
+        "id": 41,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.0637998
+      },
+      {
+        "id": 42,
+        "label": "Human anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_anatomy",
+        "score": 0.0630089
+      },
+      {
+        "id": 43,
+        "label": "Anthropometry",
+        "wikiLink": "http://en.wikipedia.org/Category:Anthropometry",
+        "score": 0.0519312
+      },
+      {
+        "id": 44,
+        "label": "Animal size",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_size",
+        "score": 0.0431377
+      },
+      {
+        "id": 45,
+        "label": "Matter",
+        "wikiLink": "http://en.wikipedia.org/Category:Matter",
+        "score": 0.0431377
+      },
+      {
+        "id": 46,
+        "label": "Medical procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_procedures",
+        "score": 0.0359053
+      },
+      {
+        "id": 47,
+        "label": "Endocrine procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_procedures",
+        "score": 0.0359053
+      },
+      {
+        "id": 48,
+        "label": "Insulin therapies",
+        "wikiLink": "http://en.wikipedia.org/Category:Insulin_therapies",
+        "score": 0.0359053
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Vitamin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/book/book_subject",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 2.60175,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vitamin",
+        "matchedText": "vitamin",
+        "freebaseId": "/m/07zry",
+        "relevanceScore": 0.200451,
+        "entityEnglishId": "Vitamin",
+        "startingPos": 16,
+        "endingPos": 23
+      },
+      {
+        "id": 1,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Vitamin E",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors"
+        ],
+        "confidenceScore": 6.63126,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vitamin_E",
+        "matchedText": "vitamin E",
+        "freebaseId": "/m/03bwyyc",
+        "relevanceScore": 0.21856,
+        "entityEnglishId": "Vitamin E",
+        "startingPos": 16,
+        "endingPos": 25
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Vitamin E",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors"
+        ],
+        "confidenceScore": 1.8004,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vitamin_E",
+        "matchedText": "E",
+        "freebaseId": "/m/03bwyyc",
+        "relevanceScore": 0.21856,
+        "entityEnglishId": "Vitamin E",
+        "startingPos": 24,
+        "endingPos": 25
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Dieting",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/symptom",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.34036,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dieting",
+        "matchedText": "diet",
+        "freebaseId": "/m/02b_m",
+        "relevanceScore": 0.497088,
+        "entityEnglishId": "Dieting",
+        "startingPos": 40,
+        "endingPos": 44
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "HbA",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "HbA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 114,
+        "endingPos": 117
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "Body weight",
+        "confidenceScore": 2.02228,
+        "wikiLink": "http://en.wikipedia.org/wiki/Body_weight",
+        "matchedText": "body mass",
+        "freebaseId": "/m/02mw60",
+        "relevanceScore": 0.241499,
+        "entityEnglishId": "Body weight",
+        "startingPos": 123,
+        "endingPos": 132
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Mass",
+        "freebaseTypes": [
+          "/measurement_unit/common_dimension",
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 1.63811,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mass",
+        "matchedText": "mass",
+        "freebaseId": "/m/04t9l",
+        "relevanceScore": 0.160026,
+        "entityEnglishId": "Mass",
+        "startingPos": 128,
+        "endingPos": 132
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          26,
+          27,
+          28
+        ],
+        "entityId": "Body mass index",
+        "freebaseTypes": [
+          "/people/human_measurement",
+          "/book/book_subject",
+          "/law/invention",
+          "/type/unit"
+        ],
+        "confidenceScore": 12.6178,
+        "wikiLink": "http://en.wikipedia.org/wiki/Body_mass_index",
+        "matchedText": "body mass index",
+        "freebaseId": "/m/01j5v",
+        "relevanceScore": 0.663313,
+        "entityEnglishId": "Body mass index",
+        "startingPos": 123,
+        "endingPos": 138
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Index (economics)",
+        "confidenceScore": 1.42575,
+        "wikiLink": "http://en.wikipedia.org/wiki/Index_(economics)",
+        "matchedText": "index",
+        "freebaseId": "/m/05fy_7",
+        "relevanceScore": 0.0991731,
+        "entityEnglishId": "Index (economics)",
+        "startingPos": 133,
+        "endingPos": 138
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Body mass index",
+        "freebaseTypes": [
+          "/people/human_measurement",
+          "/book/book_subject",
+          "/law/invention",
+          "/type/unit"
+        ],
+        "confidenceScore": 3.52782,
+        "wikiLink": "http://en.wikipedia.org/wiki/Body_mass_index",
+        "matchedText": "BMI",
+        "freebaseId": "/m/01j5v",
+        "relevanceScore": 0.362802,
+        "entityEnglishId": "Body mass index",
+        "startingPos": 140,
+        "endingPos": 143
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "entityId": "Body mass index",
+        "freebaseTypes": [
+          "/people/human_measurement",
+          "/book/book_subject",
+          "/law/invention",
+          "/type/unit"
+        ],
+        "confidenceScore": 3.79327,
+        "wikiLink": "http://en.wikipedia.org/wiki/Body_mass_index",
+        "matchedText": "body mass index (BMI)",
+        "freebaseId": "/m/01j5v",
+        "relevanceScore": 0.0745515,
+        "entityEnglishId": "Body mass index",
+        "startingPos": 123,
+        "endingPos": 144
+      },
+      {
+        "id": 11,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 6.44913,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.270122,
+        "entityEnglishId": "Insulin",
+        "startingPos": 146,
+        "endingPos": 153
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Dose (biochemistry)",
+        "confidenceScore": 1.90595,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dose_(biochemistry)",
+        "matchedText": "dose",
+        "freebaseId": "/m/02qdgt_",
+        "relevanceScore": 0.129716,
+        "entityEnglishId": "Dose (biochemistry)",
+        "startingPos": 154,
+        "endingPos": 158
+      },
+      {
+        "id": 13,
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Blood",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/food/ingredient",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.1796,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood",
+        "matchedText": "blood",
+        "freebaseId": "/m/019jw",
+        "relevanceScore": 0.160181,
+        "entityEnglishId": "Blood",
+        "startingPos": 162,
+        "endingPos": 167
+      },
+      {
+        "id": 14,
+        "matchingTokens": [
+          36,
+          37
+        ],
+        "entityId": "Blood pressure",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 4.20395,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_pressure",
+        "matchedText": "blood pressure",
+        "freebaseId": "/m/0fmq1",
+        "relevanceScore": 0.110478,
+        "entityEnglishId": "Blood pressure",
+        "startingPos": 162,
+        "endingPos": 176
+      },
+      {
+        "id": 15,
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Pressure",
+        "freebaseTypes": [
+          "/measurement_unit/common_dimension",
+          "/medicine/disease_cause",
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 1.40939,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pressure",
+        "matchedText": "pressure",
+        "freebaseId": "/m/05wnx",
+        "relevanceScore": 0.113375,
+        "entityEnglishId": "Pressure",
+        "startingPos": 168,
+        "endingPos": 176
+      },
+      {
+        "id": 16,
+        "matchingTokens": [
+          41
+        ],
+        "entityId": "Period (geology)",
+        "confidenceScore": 1.13731,
+        "wikiLink": "http://en.wikipedia.org/wiki/Period_(geology)",
+        "matchedText": "period",
+        "freebaseId": "/m/08z6b_",
+        "relevanceScore": 0,
+        "entityEnglishId": "Period (geology)",
+        "startingPos": 193,
+        "endingPos": 199
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          9,
+          10,
+          11
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              23,
+              24,
+              26,
+              27,
+              28,
+              30,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          16,
+          38
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              14,
+              15,
+              17,
+              18,
+              19,
+              20,
+              21,
+              23,
+              24,
+              26,
+              27,
+              28,
+              30,
+              33,
+              34,
+              35,
+              36,
+              37,
+              39,
+              40,
+              41,
+              42
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6,
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          23,
+          24
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          26,
+          27,
+          28,
+          30
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          33,
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21,
+          23,
+          24,
+          26,
+          27,
+          28,
+          30,
+          33,
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          39,
+          41
+        ],
+        "propertyPositions": [
+          40
+        ]
+      }
+    ]
+  },
+  "time": 3.033,
+  "ok": true
+}

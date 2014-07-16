@@ -1,0 +1,694 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.491045
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.489815
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.487675
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.289015
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.241485
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Insulin",
+        "wikiLink": "http://en.wikipedia.org/Insulin",
+        "score": 0.724452
+      },
+      {
+        "id": 1,
+        "label": "Organ transplantation",
+        "wikiLink": "http://en.wikipedia.org/Organ_transplantation",
+        "score": 0.28574
+      },
+      {
+        "id": 2,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.251811
+      },
+      {
+        "id": 3,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.236007
+      },
+      {
+        "id": 4,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.133512
+      },
+      {
+        "id": 5,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.0396635
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.43227,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.0839371,
+        "entityEnglishId": "Patient",
+        "startingPos": 29,
+        "endingPos": 37
+      },
+      {
+        "id": 1,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.10763,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.241484,
+        "entityEnglishId": "Insulin",
+        "startingPos": 55,
+        "endingPos": 62
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Organ transplantation",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject",
+          "/award/award_winning_work",
+          "/medicine/risk_factor",
+          "/radio/radio_subject"
+        ],
+        "confidenceScore": 2.02791,
+        "wikiLink": "http://en.wikipedia.org/wiki/Organ_transplantation",
+        "matchedText": "transplantation",
+        "freebaseId": "/m/016bb2",
+        "relevanceScore": 0.28574,
+        "entityEnglishId": "Organ transplantation",
+        "startingPos": 104,
+        "endingPos": 119
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.21511,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.0839371,
+        "entityEnglishId": "Patient",
+        "startingPos": 161,
+        "endingPos": 169
+      },
+      {
+        "id": 4,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 3.56629,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.241484,
+        "entityEnglishId": "Insulin",
+        "startingPos": 201,
+        "endingPos": 208
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          63
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.15518,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.0839371,
+        "entityEnglishId": "Patient",
+        "startingPos": 328,
+        "endingPos": 336
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          85,
+          86
+        ],
+        "entityId": "Median follow-up",
+        "confidenceScore": 2.52222,
+        "wikiLink": "http://en.wikipedia.org/wiki/Median_follow-up",
+        "matchedText": "median follow-up",
+        "freebaseId": "/m/0yt02hr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Median follow-up",
+        "startingPos": 450,
+        "endingPos": 466
+      },
+      {
+        "id": 7,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          98
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 3.61612,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.241484,
+        "entityEnglishId": "Insulin",
+        "startingPos": 507,
+        "endingPos": 514
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          54,
+          64
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              58,
+              60,
+              62,
+              63
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              55,
+              56,
+              65,
+              66,
+              67
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          28,
+          36,
+          37,
+          38
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              30,
+              31,
+              32,
+              34,
+              35
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              29,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          28,
+          32,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              30
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              29,
+              31,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          28,
+          29,
+          36,
+          37,
+          38
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              30,
+              31,
+              32,
+              34,
+              35
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          28,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          43,
+          45
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              30,
+              31,
+              32,
+              34,
+              35
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              29,
+              42,
+              44,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          69,
+          81,
+          83
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              77,
+              79
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              82,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          91,
+          98
+        ],
+        "propertyPositions": [
+          99,
+          100,
+          101,
+          102,
+          103
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          66,
+          67
+        ],
+        "propertyPositions": [
+          65
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9
+        ],
+        "propertyPositions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          22
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          22
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "propertyPositions": [
+          5,
+          6
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          0,
+          11
+        ],
+        "propertyPositions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          30
+        ],
+        "propertyPositions": [
+          31,
+          32
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          34,
+          35
+        ],
+        "propertyPositions": [
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          39,
+          40,
+          41,
+          43,
+          45
+        ],
+        "propertyPositions": [
+          42
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          39,
+          40,
+          41,
+          43,
+          45
+        ],
+        "propertyPositions": [
+          44
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          39,
+          40,
+          41,
+          43,
+          45
+        ],
+        "propertyPositions": [
+          46,
+          47,
+          48
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          70,
+          71,
+          72,
+          73
+        ],
+        "propertyPositions": [
+          74,
+          75
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          84,
+          86,
+          87
+        ],
+        "propertyPositions": [
+          85
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          84,
+          86,
+          87
+        ],
+        "propertyPositions": [
+          88,
+          89
+        ]
+      }
+    ]
+  },
+  "time": 3.028,
+  "ok": true
+}

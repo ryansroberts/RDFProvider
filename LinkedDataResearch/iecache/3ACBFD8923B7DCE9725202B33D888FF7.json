@@ -1,0 +1,620 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.713639
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.705225
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.654629
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.486402
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.41926
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chronic pain",
+        "wikiLink": "http://en.wikipedia.org/Chronic_pain",
+        "score": 0.221279
+      },
+      {
+        "id": 1,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Pain",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Public health",
+        "wikiLink": "http://en.wikipedia.org/Public_health",
+        "score": 0.16628
+      },
+      {
+        "id": 3,
+        "label": "Feeling",
+        "wikiLink": "http://en.wikipedia.org/Category:Feeling",
+        "score": 0.203418
+      },
+      {
+        "id": 4,
+        "label": "Symptoms and signs: General",
+        "wikiLink": "http://en.wikipedia.org/Category:Symptoms_and_signs:_General",
+        "score": 0.203418
+      },
+      {
+        "id": 5,
+        "label": "Perception",
+        "wikiLink": "http://en.wikipedia.org/Category:Perception",
+        "score": 0.203418
+      },
+      {
+        "id": 6,
+        "label": "Nociception",
+        "wikiLink": "http://en.wikipedia.org/Category:Nociception",
+        "score": 0.142399
+      },
+      {
+        "id": 7,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.093919
+      },
+      {
+        "id": 8,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.093919
+      },
+      {
+        "id": 9,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0875646
+      },
+      {
+        "id": 10,
+        "label": "Health fields",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_fields",
+        "score": 0.0822341
+      },
+      {
+        "id": 11,
+        "label": "Social programs",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_programs",
+        "score": 0.0822341
+      },
+      {
+        "id": 12,
+        "label": "Applied sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Applied_sciences",
+        "score": 0.0822341
+      },
+      {
+        "id": 13,
+        "label": "Service industries",
+        "wikiLink": "http://en.wikipedia.org/Category:Service_industries",
+        "score": 0.0822341
+      },
+      {
+        "id": 14,
+        "label": "Universities",
+        "wikiLink": "http://en.wikipedia.org/Category:Universities_by_country",
+        "score": 0.0537184
+      },
+      {
+        "id": 15,
+        "label": "Visitor attractions",
+        "wikiLink": "http://en.wikipedia.org/Category:Visitor_attractions_by_country",
+        "score": 0.0521459
+      },
+      {
+        "id": 16,
+        "label": "Tourism",
+        "wikiLink": "http://en.wikipedia.org/Category:Tourism_by_country",
+        "score": 0.0521459
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Smith BH",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Smith BH",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Torrance, California",
+        "freebaseTypes": [
+          "/periodicals/newspaper_circulation_area",
+          "/government/governmental_jurisdiction",
+          "/location/statistical_region",
+          "/location/location",
+          "/location/citytown",
+          "/location/dated_location",
+          "/location/hud_foreclosure_area",
+          "/location/hud_county_place"
+        ],
+        "confidenceScore": 1.03931,
+        "wikiLink": "http://en.wikipedia.org/wiki/Torrance,_California",
+        "matchedText": "Torrance",
+        "freebaseId": "/m/0r111",
+        "relevanceScore": 0.0228131,
+        "entityEnglishId": "Torrance, California",
+        "startingPos": 10,
+        "endingPos": 18
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Torrance N",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Torrance N",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 20
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.04956,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "Neuropathic",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.473496,
+        "entityEnglishId": "Pain",
+        "startingPos": 28,
+        "endingPos": 39
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.52097,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "Neuropathic pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.175122,
+        "entityEnglishId": "Pain",
+        "startingPos": 28,
+        "endingPos": 44
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.82358,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.295537,
+        "entityEnglishId": "Pain",
+        "startingPos": 40,
+        "endingPos": 44
+      },
+      {
+        "id": 6,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Croft PR",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Croft PR",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 50,
+        "endingPos": 58
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Chronic pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/risk_factor",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/contraindication",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.5423,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_pain",
+        "matchedText": "Chronic pain",
+        "freebaseId": "/m/012clh",
+        "relevanceScore": 0.221279,
+        "entityEnglishId": "Chronic pain",
+        "startingPos": 68,
+        "endingPos": 80
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.80641,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.295537,
+        "entityEnglishId": "Pain",
+        "startingPos": 76,
+        "endingPos": 80
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Epidemiology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.04461,
+        "wikiLink": "http://en.wikipedia.org/wiki/Epidemiology",
+        "matchedText": "epidemiology",
+        "freebaseId": "/m/0hnfc",
+        "relevanceScore": 0.0768791,
+        "entityEnglishId": "Epidemiology",
+        "startingPos": 81,
+        "endingPos": 93
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Etiology",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.58489,
+        "wikiLink": "http://en.wikipedia.org/wiki/Etiology",
+        "matchedText": "aetiology",
+        "freebaseId": "/m/02qxt",
+        "relevanceScore": 0.0957969,
+        "entityEnglishId": "Etiology",
+        "startingPos": 100,
+        "endingPos": 109
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Public health",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/book/book_subject",
+          "/medicine/medical_specialty",
+          "/government/governmental_jurisdiction",
+          "/award/award_discipline",
+          "/organization/non_profit_designation",
+          "/film/film_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 1.10009,
+        "wikiLink": "http://en.wikipedia.org/wiki/Public_health",
+        "matchedText": "public health",
+        "freebaseId": "/m/02cm61",
+        "relevanceScore": 0.16628,
+        "entityEnglishId": "Public health",
+        "startingPos": 113,
+        "endingPos": 126
+      },
+      {
+        "id": 12,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Oxford",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Oxford",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 128,
+        "endingPos": 134
+      },
+      {
+        "id": 13,
+        "type": [
+          "Agent",
+          "Organisation",
+          "EducationalInstitution",
+          "University"
+        ],
+        "matchingTokens": [
+          30,
+          31
+        ],
+        "entityId": "University of Oxford",
+        "freebaseTypes": [
+          "/organization/endowed_organization",
+          "/architecture/architectural_structure_owner",
+          "/education/educational_institution_campus",
+          "/education/academic_institution",
+          "/book/book_subject",
+          "/business/employer",
+          "/education/educational_institution",
+          "/location/location",
+          "/organization/organization",
+          "/fictional_universe/school_in_fiction",
+          "/projects/project_focus",
+          "/award/ranked_item",
+          "/education/university",
+          "/architecture/structure"
+        ],
+        "confidenceScore": 2.38752,
+        "wikiLink": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "matchedText": "Oxford University",
+        "freebaseId": "/m/07tgn",
+        "relevanceScore": 0.0341875,
+        "entityEnglishId": "University of Oxford",
+        "startingPos": 136,
+        "endingPos": 153
+      },
+      {
+        "id": 14,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Company",
+          "Publisher"
+        ],
+        "matchingTokens": [
+          30,
+          31,
+          32
+        ],
+        "entityId": "Oxford University Press",
+        "freebaseTypes": [
+          "/book/periodical_publisher",
+          "/projects/project_participant",
+          "/organization/organization",
+          "/book/publishing_company",
+          "/business/employer",
+          "/projects/project_focus",
+          "/business/business_operation",
+          "/book/author"
+        ],
+        "confidenceScore": 5.14516,
+        "wikiLink": "http://en.wikipedia.org/wiki/Oxford_University_Press",
+        "matchedText": "Oxford University Press",
+        "freebaseId": "/m/0czzl",
+        "relevanceScore": 0.050101,
+        "entityEnglishId": "Oxford University Press",
+        "startingPos": 136,
+        "endingPos": 159
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4,
+          9
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          28,
+          30,
+          31,
+          32
+        ],
+        "propertyPositions": [
+          34,
+          35
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          19,
+          20,
+          22,
+          24
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          19,
+          20,
+          22,
+          24
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          19,
+          20,
+          22,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26
+        ]
+      }
+    ]
+  },
+  "time": 3.02,
+  "ok": true
+}

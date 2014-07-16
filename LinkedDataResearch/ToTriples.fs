@@ -95,7 +95,7 @@
                 yield (a,Object.from textContent.Uri)
                 yield (Predicate.from chars.Uri,Object.from (string st.Statement))
                 yield (Predicate.from isAbout.Uri,t)
-                yield (Predicate.from evidenceStatement.DataProperties.``ng:evidenceType``.Uri,Object.from (string st.EvidenceCaegory))
+                yield (Predicate.from evidenceStatement.DataProperties.``ng:evidenceType``.Uri,Object.from (string st.EvidenceCategory))
             ]
         for s in st.Studies do
             let studyScope = Scope("nice:studies", [ s.Id ]) 

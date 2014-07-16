@@ -88,7 +88,7 @@ and Statement =
     { Id : Identifier
       Statement : Body
       Studies : Study list 
-      EvidenceCaegory : string}
+      EvidenceCategory : string}
 
 and Question = 
     { Id : Identifier

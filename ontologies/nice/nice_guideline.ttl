@@ -189,7 +189,8 @@
 
 :identifier rdf:type owl:DatatypeProperty ;
             
-            rdfs:domain :Recommendation ;
+            rdfs:domain :Guideline,
+						:Recommendation ;
             
             rdfs:range xsd:string .
 
@@ -231,11 +232,8 @@
        
        rdfs:range xsd:string ;
        
-       rdfs:domain [ rdf:type owl:Class ;
-                     owl:unionOf ( :Guideline
-                                   :Recommendation
-                                 )
-                   ] .
+       rdfs:domain :Guideline,
+				   :Recommendation.
 
 
 #################################################################

@@ -71,7 +71,21 @@
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#dateIssued
 
-:dateIssued rdf:type owl:DatatypeProperty .
+:dateIssued rdf:type owl:DatatypeProperty ;
+            
+            rdfs:domain :OutcomesFramework ;
+            
+            rdfs:range rdfs:Literal .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#title
+
+:title rdf:type owl:DatatypeProperty ;
+       
+       rdfs:domain :OutcomesFramework ;
+       
+       rdfs:range xsd:string .
 
 
 

@@ -101,19 +101,31 @@
 
 ###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#dateSubmitted
 
-:dateSubmitted rdf:type owl:DatatypeProperty .
+:dateSubmitted rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :SharedLearning ;
+               
+               rdfs:range rdfs:Literal .
 
 
 
 ###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#hasDescription
 
-:hasDescription rdf:type owl:DatatypeProperty .
+:hasDescription rdf:type owl:DatatypeProperty ;
+                
+                rdfs:domain :SharedLearning ;
+                
+                rdfs:range xsd:string .
 
 
 
 ###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#hasTitle
 
-:hasTitle rdf:type owl:DatatypeProperty .
+:hasTitle rdf:type owl:DatatypeProperty ;
+          
+          rdfs:domain :SharedLearning ;
+          
+          rdfs:range xsd:string .
 
 
 
@@ -141,6 +153,12 @@
 ###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#SharedLearning
 
 :SharedLearning rdf:type owl:Class .
+
+
+
+###  http://www.w3.org/ns/prov#Location
+
+<http://www.w3.org/ns/prov#Location> rdf:type owl:Class .
 
 
 

@@ -69,7 +69,9 @@ module Import =
           for s in sx.Filter(fun s -> s.``Set GUID`` = id).Rows do
               yield { Id = Identifier(s.``Evidence statement GUID``)
                       Statement = Body s.``Evidence statement``
-                      Studies = loadStudy s.``Evidence statement GUID`` } ]
+                      Studies = loadStudy s.``Evidence statement GUID`` 
+                      EvidenceCategory = s.``Evidence Category Code``
+                       } ]
     
     let loadSearchStrategies id = 
         [
@@ -106,7 +108,8 @@ module Import =
                 Guideline = Identifier r.``Set GUID``
                 Set = Identifier r.``Set GUID``
                 Title = Title r.``Recommendation title``
-            
+                Follows = []
+                Grade = r.``Recommendation Grade Code``
             }
         )
         |> List.ofSeq

@@ -81,7 +81,6 @@
         yield! statementsFor (Subject (Owl.Uri (string scope)))
             [
                 yield (a,Object.from study.Uri) 
-
                 yield (Predicate.from isAbout.Uri,t)
                 yield (Predicate.from study.ObjectProperties.``ner:hasReference``.Uri,Object.from referenceUri)
             ]
@@ -96,6 +95,7 @@
                 yield (a,Object.from textContent.Uri)
                 yield (Predicate.from chars.Uri,Object.from (string st.Statement))
                 yield (Predicate.from isAbout.Uri,t)
+                yield (Predicate.from evidenceStatement.DataProperties.``ng:evidenceType``.Uri,Object.from (string st.EvidenceCaegory))
             ]
         for s in st.Studies do
             let studyScope = Scope("nice:studies", [ s.Id ]) 
@@ -139,11 +139,12 @@
         
         yield! statementsFor (Subject (Owl.Uri (string scope)))
             [ 
-                yield (a,Object.from reccomendation.Uri)
-                yield (Predicate.from reccomendation.DataProperties.``ng:identifier``.Uri,Object.from (string r.Id))
-                yield (Predicate.from reccomendation.DataProperties.``ng:recommendationStrength``.Uri,Object.from (string r.Guideline))
-                yield (Predicate.from reccomendation.DataProperties.``ng:title``.Uri,Object.from (string r.Title))
-                yield (Predicate.from reccomendation.ObjectProperties.``ng:isAbout``.Uri,Object.from (string (scope.Enter(r.Set))))
+                yield (a,Object.from recommendation.Uri)
+                yield (Predicate.from recommendation.DataProperties.``ng:identifier``.Uri,Object.from (string r.Id))
+                yield (Predicate.from recommendation.DataProperties.``ng:recommendationStrength``.Uri,Object.from (string r.Guideline))
+                yield (Predicate.from recommendation.DataProperties.``ng:title``.Uri,Object.from (string r.Title))
+                yield (Predicate.from recommendation.ObjectProperties.``ng:isAbout``.Uri,Object.from (string (scope.Enter(r.Set))))
+                yield (Predicate.from recommendation.DataProperties.``ng:recommendationStrength``.Uri,Object.from r.Grade)
             ]
     ]
 

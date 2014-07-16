@@ -60,12 +60,9 @@
          
          owl:inverseOf :isTopicOf ;
          
-         rdfs:domain [ rdf:type owl:Class ;
-                       owl:unionOf ( :EvidenceStatement
-                                     :Guideline
-                                     :Recommendation
-                                   )
-                     ] .
+         rdfs:domain :EvidenceStatement ,
+                     :Guideline ,
+                     :Recommendation.
 
 
 
@@ -113,12 +110,9 @@
            
            rdfs:domain :Topic ;
            
-           rdfs:range [ rdf:type owl:Class ;
-                        owl:unionOf ( :EvidenceStatement
-                                      :Guideline
-                                      :Recommendation
-                                    )
-                      ] .
+           rdfs:range :EvidenceStatement ,
+                     :Guideline ,
+                     :Recommendation .
 
 
 
@@ -302,7 +296,6 @@
 #    General axioms
 #
 #################################################################
-
 
 
 

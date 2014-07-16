@@ -76,7 +76,9 @@ and Reccomendation =
       Body : Body
       Guideline : Identifier
       Title : Title
-      Set : Identifier }
+      Set : Identifier
+      Follows : Identifier list
+      Grade: string }
 
 and Study = 
     { Id : Identifier
@@ -85,7 +87,8 @@ and Study =
 and Statement = 
     { Id : Identifier
       Statement : Body
-      Studies : Study list }
+      Studies : Study list 
+      EvidenceCaegory : string}
 
 and Question = 
     { Id : Identifier

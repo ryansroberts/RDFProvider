@@ -32,14 +32,14 @@
   
 
     type guideline = thing.``ng:Guideline``
-    type isAbout = guideline.ObjectProperties.``ng:isAbout``
     type topic = thing.``ng:Topic``
+    type isAbout = guideline.ObjectProperties.``ng:isAbout``
     type hasRationale = topic.ObjectProperties.``ng:hasRationale``
     type rationale = thing.``ng:Rationale`` 
     type question = thing.``ner:Question``
     type evidenceStatement = thing.``ng:EvidenceStatement``
     type study = thing.``ner:Study``
-    type reccomendation = thing.``ng:Recommendation``
+    type recommendation = thing.``ng:Recommendation``
     type reference = thing.``ner:Reference``
     type hasReference = reference.InRangeOf.``ner:hasReference``
     type review = thing.``ner:Review``

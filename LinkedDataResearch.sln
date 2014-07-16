@@ -5,6 +5,31 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LinkedDataResearch", "LinkedDataResearch\LinkedDataResearch.fsproj", "{76D77D5A-CA74-4391-8BD9-91B290DA6FDD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F86AA893-3439-472C-B309-FD42806545B8}"
+	ProjectSection(SolutionItems) = preProject
+		LinkedDataResearch\input\Guideline&Evidence\EStoStudyMap.csv = LinkedDataResearch\input\Guideline&Evidence\EStoStudyMap.csv
+		LinkedDataResearch\input\Guideline&Evidence\EvidenceCategory.csv = LinkedDataResearch\input\Guideline&Evidence\EvidenceCategory.csv
+		LinkedDataResearch\input\Guideline&Evidence\EvidenceStatements.csv = LinkedDataResearch\input\Guideline&Evidence\EvidenceStatements.csv
+		LinkedDataResearch\input\Guideline&Evidence\Guideline.csv = LinkedDataResearch\input\Guideline&Evidence\Guideline.csv
+		LinkedDataResearch\input\Guideline&Evidence\Questions.csv = LinkedDataResearch\input\Guideline&Evidence\Questions.csv
+		LinkedDataResearch\input\Guideline&Evidence\QuestionToSearchStrategyMap.csv = LinkedDataResearch\input\Guideline&Evidence\QuestionToSearchStrategyMap.csv
+		LinkedDataResearch\input\Guideline&Evidence\RecEvidenceGrade.csv = LinkedDataResearch\input\Guideline&Evidence\RecEvidenceGrade.csv
+		LinkedDataResearch\input\Guideline&Evidence\Recommendations.csv = LinkedDataResearch\input\Guideline&Evidence\Recommendations.csv
+		LinkedDataResearch\input\Guideline&Evidence\SearchStrategies.csv = LinkedDataResearch\input\Guideline&Evidence\SearchStrategies.csv
+		LinkedDataResearch\input\Guideline&Evidence\Set(Topic).csv = LinkedDataResearch\input\Guideline&Evidence\Set(Topic).csv
+		LinkedDataResearch\input\Guideline&Evidence\SetToQuestionMap.csv = LinkedDataResearch\input\Guideline&Evidence\SetToQuestionMap.csv
+		LinkedDataResearch\input\Guideline&Evidence\Study.csv = LinkedDataResearch\input\Guideline&Evidence\Study.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ontology", "Ontology", "{D62BC2AD-7E79-4C60-95DF-DAE54AAC995C}"
+	ProjectSection(SolutionItems) = preProject
+		ontologies\nice\evidence_review.ttl = ontologies\nice\evidence_review.ttl
+		ontologies\nice\nice_guideline.ttl = ontologies\nice\nice_guideline.ttl
+		ontologies\nice\nice_quality_standard.ttl = ontologies\nice\nice_quality_standard.ttl
+		ontologies\nice\outcomes_framework.ttl = ontologies\nice\outcomes_framework.ttl
+		ontologies\nice\shared_learning.ttl = ontologies\nice\shared_learning.ttl
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +43,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D62BC2AD-7E79-4C60-95DF-DAE54AAC995C} = {F86AA893-3439-472C-B309-FD42806545B8}
 	EndGlobalSection
 EndGlobal

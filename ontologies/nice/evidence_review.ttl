@@ -137,19 +137,31 @@
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasDateRange
 
-:hasDateRange rdf:type owl:DatatypeProperty .
+:hasDateRange rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :SearchStrategy ;
+              
+              rdfs:range xsd:string .
 
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasPopulation
 
-:hasPopulation rdf:type owl:DatatypeProperty .
+:hasPopulation rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :SearchStrategy ;
+               
+               rdfs:range xsd:string .
 
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasSource
 
-:hasSource rdf:type owl:DatatypeProperty .
+:hasSource rdf:type owl:DatatypeProperty ;
+           
+           rdfs:domain :SearchStrategy ;
+           
+           rdfs:range xsd:string .
 
 
 
@@ -161,7 +173,11 @@
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasStudyType
 
-:hasStudyType rdf:type owl:DatatypeProperty .
+:hasStudyType rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :SearchStrategy ;
+              
+              rdfs:range xsd:string .
 
 
 

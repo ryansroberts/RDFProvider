@@ -56,13 +56,16 @@
 
 :isAbout rdf:type owl:ObjectProperty ;
          
-         rdfs:domain :EvidenceStatement ,
-                     :Guideline ,
-                     :Recommendation ;
-         
          rdfs:range :Topic ;
          
-         owl:inverseOf :isTopicOf .
+         owl:inverseOf :isTopicOf ;
+         
+         rdfs:domain [ rdf:type owl:Class ;
+                       owl:unionOf ( :EvidenceStatement
+                                     :Guideline
+                                     :Recommendation
+                                   )
+                     ] .
 
 
 
@@ -170,48 +173,75 @@
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#evidenceLevel
 
-:evidenceLevel rdf:type owl:DatatypeProperty .
+:evidenceLevel rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :EvidenceStatement ;
+               
+               rdfs:range xsd:string .
 
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#evidenceType
 
-:evidenceType rdf:type owl:DatatypeProperty .
+:evidenceType rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :EvidenceStatement ;
+              
+              rdfs:range xsd:string .
 
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#identifier
 
 :identifier rdf:type owl:DatatypeProperty ;
+            
+            rdfs:domain :Recommendation ;
+            
+            rdfs:range xsd:string .
 
-		rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation> ;
-		rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Guideline> . 
-		
-			
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#issued
+
+:issued rdf:type owl:DatatypeProperty ;
+        
+        rdfs:domain :Guideline ;
+        
+        rdfs:range rdfs:Literal .
+
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#recommendationStrength
 
 :recommendationStrength rdf:type owl:DatatypeProperty ;
-
-		rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation> .
-
+                        
+                        rdfs:domain :Recommendation ;
+                        
+                        rdfs:range xsd:string .
 
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#subject
 
 :subject rdf:type owl:DatatypeProperty ;
-		
-		rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Topic> .
-		
+         
+         rdfs:domain :Topic ;
+         
+         rdfs:range xsd:string .
+
+
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#title
 
-:title rdf:type owl:DatatypeProperty  ;
-
-		rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation> ;
-		rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Guideline> . 
+:title rdf:type owl:DatatypeProperty ;
+       
+       rdfs:range xsd:string ;
+       
+       rdfs:domain [ rdf:type owl:Class ;
+                     owl:unionOf ( :Guideline
+                                   :Recommendation
+                                 )
+                   ] .
 
 
 

@@ -60,9 +60,9 @@ let inline memo f =
             let temp = f a b
             dict.Add((string a), temp)
             temp
+     
 
 let inference a c =
-    printf "%s\r\n" (string a)
     use g = new Graph()
     let rdfhandler = GraphHandler(g)
     let resultset = new SparqlResultSet() 

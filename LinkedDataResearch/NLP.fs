@@ -33,11 +33,8 @@ let cacheGet (scope : Scope) text =
     let fn = cacheFile text
     try 
         use fin = File.OpenText(fn)
-        let r = Some(trResponse.Load(fin))
-        printf "Hit\r\n"
-        r 
+        Some(trResponse.Load(fin))
     with e -> 
-        printf "Miss %s\r\n" e.Message
         None
 
 let cacheSet text res = 

@@ -12,7 +12,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <Name>LinkedDataResearch</Name>
     <TargetFSharpCoreVersion>4.3.0.0</TargetFSharpCoreVersion>
-    <NuGetPackageImportStamp>451b8562</NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>dd0580b5</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +22,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DocumentationFile>bin\Debug\LinkedDataResearch.XML</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -61,10 +61,6 @@
       <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="ManagedOpenSsl">
-      <HintPath>..\packages\Suave.0.9.0\lib\ManagedOpenSsl.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -74,7 +70,7 @@
       <HintPath>..\OWLTypeProvider.DesignTime\bin\Debug\OWLTypeProvider.DesignTime.dll</HintPath>
     </Reference>
     <Reference Include="suave">
-      <HintPath>..\packages\Suave.0.9.0\lib\suave.dll</HintPath>
+      <HintPath>..\packages\Suave.0.10.0\lib\suave.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -123,13 +119,6 @@
     </Otherwise>
   </Choose>
   <Import Project="$(FSharpTargetsPath)" Condition="Exists('$(FSharpTargetsPath)')" />
-  <Import Project="..\packages\Suave.0.9.0\build\suave.targets" Condition="Exists('..\packages\Suave.0.9.0\build\suave.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Suave.0.9.0\build\suave.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Suave.0.9.0\build\suave.targets'))" />
-  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

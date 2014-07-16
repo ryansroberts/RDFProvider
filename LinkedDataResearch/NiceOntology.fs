@@ -45,7 +45,7 @@
     type review = thing.``ner:Review``
     type qualityStandard = thing.``nqs:QualityStandard``
     type qualityStatement = thing.``nqs:QualityStatement``
-
+   
     //Annotations 
     type semanticTag = thing.``oa:Tag``.``oa:SemanticTag``
     type tag = thing.``oa:Tag``
@@ -55,7 +55,7 @@
     type specificResource = thing.``oa:SpecificResource``
     type textPosition = thing.``oa:TextPositionSelector``
     
-    
+
 
     
      

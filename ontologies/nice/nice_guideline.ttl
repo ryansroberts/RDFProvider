@@ -244,9 +244,6 @@
                    ] .
 
 
-
-
-
 #################################################################
 #
 #    Classes
@@ -300,34 +297,12 @@
 
 
 
-###  http://www.w3.org/ns/prov#Activity
-
-<http://www.w3.org/ns/prov#Activity> rdf:type owl:Class .
-
-
-
-###  http://www.w3.org/ns/prov#Entity
-
-<http://www.w3.org/ns/prov#Entity> rdf:type owl:Class .
-
-
-
-
-
 #################################################################
 #
 #    General axioms
 #
 #################################################################
 
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :EvidenceStatement
-                :Guideline
-                :Rationale
-                :Recommendation
-              )
-] .
 
 
 

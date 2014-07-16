@@ -3,27 +3,20 @@
 open NiceOntology
 open VDS.RDF.Query
 open VDS.RDF.Writing
+open VDS.RDF
 
-let sparql q px = 
-    let sf = SparqlParameterizedString(q)
-    for p in px do
-        match p with
-        | (k, Owl.Entity.Property(p)) -> 
-            match p with
-            | Owl.ObjectProperty(Owl.Uri(u)) -> sf.SetUri(k, System.Uri u)
-        | (k, Owl.Entity.Class(Owl.Class(Owl.Uri(u)))) -> sf.SetUri(k, System.Uri u)
-        | (k, Owl.Entity.Individual(Owl.Individual(Owl.Uri(u)))) -> sf.SetUri(k, System.Uri u)
-    sf.ToString()
-
-let exec conn q = Store.inference q conn
-
-let format (tw : System.IO.TextWriter) (rx : SparqlResultSet) = 
-    let w = CompressingTurtleWriter(3, VDS.RDF.Parsing.TurtleSyntax.W3C)
-    w.PrettyPrintMode <- true
-    use g = new VDS.RDF.Graph()
-    use g = new VDS.RDF.Graph(rx.ToTripleCollection(g))
-    w.Save(g, tw)
+let format (tw : System.IO.TextWriter) (rx : obj) = 
+    match rx with
+    | :? SparqlResultSet as rx ->
+        let w = new SparqlRdfWriter()
+        w.Save(rx,tw)
+    | :? IGraph as g ->
+        let w = CompressingTurtleWriter(3, VDS.RDF.Parsing.TurtleSyntax.W3C) 
+        w.Save(g,tw)
     ()
+
+
+    
 
 open Suave
 open Suave.Web
@@ -34,67 +27,68 @@ open Suave.Http.Successful
 open Suave.Types
 open Suave.Session
 open Suave.Log
+open Suave.Utils
 open Response
 open Types.Codes
+open VDS.RDF.Storage
 
 
-let turtle conn q px : WebPart = 
-    fun ctx -> 
-        use mem = new System.IO.MemoryStream()
-        use writer = new System.IO.StreamWriter(mem)
-        sparql q px
-        |> exec conn
-        |> format writer
+let execSparql q (conn:IQueryableStorage) ctx = 
+    use mem = new System.IO.MemoryStream()
+    use writer = new System.IO.StreamWriter(mem)
+    printf "%s\r\n" q 
+    try
+        q 
+        |> conn.Query
+        |> format writer 
         let content = HttpContent.Bytes(mem.GetBuffer())
         { ctx with response = 
                        { ctx.response with status = HTTP_200
                                            headers = [("Content-Type","text/turtle")]
                                            content = content } }
-        |> succeed
+            |> succeed
+    with 
+    | e ->  { ctx with response = 
+                       { ctx.response with status = HTTP_400
+                                           headers = [("Content-Type","text/plain")]
+                                           content = HttpContent.Bytes(System.Text.Encoding.UTF8.GetBytes(string e)) } }
+            |> succeed
+
 
 let parts conn = 
-    let turtle = turtle (conn)
-
-    let individualsOfClass cls = 
-        turtle """
-        PREFIX owl: <http://www.w3.org/2002/07/owl#>
-        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-        describe ?entity
-        WHERE {
-          ?entity a @cls.
-        }
-        """ [("cls",Owl.Entity.Class(Owl.Class(cls)))]
-    
-    let about cls uri =
-        turtle """
-        PREFIX owl: <http://www.w3.org/2002/07/owl#>
-        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-        PREFIX ng:<http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#>
-        describe ?entity
-        WHERE {
-          ?entity ng:isAbout @uri .
-          ?entity a @cls.
-        }
-        """ [("cls",Owl.Entity.Class(Owl.Class(cls)))
-             ("uri",Owl.Entity.Individual(Owl.Individual(uri)))] 
-    
+    System.Net.ServicePointManager.DefaultConnectionLimit <- System.Int32.MaxValue
 
 
-    let guidelines : WebPart = GET >>= choose [ url "/guidelines" >>= individualsOfClass guideline.Uri ]
-    let statements : WebPart = GET >>= choose [ url_scan "/statements/%s" (fun uri -> about evidenceStatement.Uri (Owl.Uri(uri)))]
-    choose [ guidelines 
-             statements 
-             GET >>= dir
+    let queryString part (ctx:HttpContext) =
+        let d = Parsing.parse_data ctx.request.raw_query 
+        let d' = new System.Collections.Generic.Dictionary<string,string list> ()
+
+        for (k,v) in d do
+            match v,d'.ContainsKey k with 
+            | Some(value) , true -> d'.[k] <- value::d'.[k] 
+            | Some(value) , false -> d'.[k] <- [value]
+            | _ -> ()
+
+        part d' ctx
+
+
+    let sparqlQuery : WebPart = url "/sparql/query" 
+                                >>= GET 
+                                >>= queryString (fun qs ctx -> execSparql qs.["query"].Head conn ctx) 
+
+    choose [ log (Loggers.sane_defaults_for Debug) log_format >>= never
+             sparqlQuery
              GET >>= browse
+             RequestErrors.NOT_FOUND "Found no handlers"
              ]
-
-let default_config = { default_config with home_folder = Some "/Public" }
 
 let server url db =  
     let connection = (Store.connectStupidStardog url db) 
 
-    parts (connection().Query ) 
+    parts (connection()) 
         |> web_server { default_config with 
                                        home_folder = Some (__SOURCE_DIRECTORY__ + "\Public")
+                                       error_handler    = default_error_handler
+                                       logger           = Loggers.sane_defaults_for Debug
+                                       listen_timeout   = System.TimeSpan.FromMilliseconds 2000.
                       }
- 

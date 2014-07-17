@@ -1,18 +1,83 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+var N3   = require('n3'),
+    parser = N3.Parser(),
+    SparkleSparkleGo = require('./sparkle-sparkle-go.js');
 
-var n3   = require("n3"),
-    http = require("http");
+var sparql = new SparkleSparkleGo('/sparql/query{?query*}');
 
+sparql
+  .query('describe <http://nice.org.uk/guideline//CG15>')
+  .execute(function (err, data){
 
-var sparql = function(q,cb) {
+    if (!err){
+
+      parser.parse(data, function (err, triple, prefixes) {
+
+        if (triple){
+          document.querySelector('#output').innerHTML += triple.subject + ' ' + triple.predicate + ' ' + triple.object;
+        }
+
+      });
+
+    }
 
     
+
+  });
+},{"./sparkle-sparkle-go.js":2,"n3":28}],2:[function(require,module,exports){
+var uriTemplate = require('uritemplate');
+var http = require('http');
+
+function SparkleSparkleGo ( uri ){
+
+  this.rootUri = uriTemplate.parse(uri);
+  return this;
+
+}
+
+SparkleSparkleGo.prototype = {
+
+  query : function setQuery(query){
+
+    var uri = this.rootUri.expand({ query : {
+        query : query
+      }
+    });
+
+    return {
+
+      execute : function executeQuery(callback){
+
+        http.get({ path : uri}, function (res){
+
+          var buffer = '';
+
+          res.on('data', function (data){
+
+            buffer += data;
+
+          });
+
+          res.on('end', function (){
+
+            callback(false, buffer);
+
+          });
+
+        });
+
+      }
+
+    };
+
+  }
+
 };
 
+module.exports = SparkleSparkleGo;
 
 
-
-},{"http":6,"n3":27}],2:[function(require,module,exports){
+},{"http":7,"uritemplate":36}],3:[function(require,module,exports){
 /*!
  * The buffer module from node.js, for the browser.
  *
@@ -1123,7 +1188,7 @@ function assert (test, message) {
   if (!test) throw new Error(message || 'Failed assertion')
 }
 
-},{"base64-js":3,"ieee754":4}],3:[function(require,module,exports){
+},{"base64-js":4,"ieee754":5}],4:[function(require,module,exports){
 var lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
 
 ;(function (exports) {
@@ -1245,7 +1310,7 @@ var lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
 	exports.fromByteArray = uint8ToBase64
 }(typeof exports === 'undefined' ? (this.base64js = {}) : exports))
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 exports.read = function(buffer, offset, isLE, mLen, nBytes) {
   var e, m,
       eLen = nBytes * 8 - mLen - 1,
@@ -1331,7 +1396,7 @@ exports.write = function(buffer, value, offset, isLE, mLen, nBytes) {
   buffer[offset + i - d] |= s * 128;
 };
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -1636,7 +1701,7 @@ function isUndefined(arg) {
   return arg === void 0;
 }
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 var http = module.exports;
 var EventEmitter = require('events').EventEmitter;
 var Request = require('./lib/request');
@@ -1775,7 +1840,7 @@ http.STATUS_CODES = {
     510 : 'Not Extended',               // RFC 2774
     511 : 'Network Authentication Required' // RFC 6585
 };
-},{"./lib/request":7,"events":5,"url":24}],7:[function(require,module,exports){
+},{"./lib/request":8,"events":6,"url":25}],8:[function(require,module,exports){
 var Stream = require('stream');
 var Response = require('./response');
 var Base64 = require('Base64');
@@ -1966,7 +2031,7 @@ var indexOf = function (xs, x) {
     return -1;
 };
 
-},{"./response":8,"Base64":9,"inherits":10,"stream":17}],8:[function(require,module,exports){
+},{"./response":9,"Base64":10,"inherits":11,"stream":18}],9:[function(require,module,exports){
 var Stream = require('stream');
 var util = require('util');
 
@@ -2088,7 +2153,7 @@ var isArray = Array.isArray || function (xs) {
     return Object.prototype.toString.call(xs) === '[object Array]';
 };
 
-},{"stream":17,"util":26}],9:[function(require,module,exports){
+},{"stream":18,"util":27}],10:[function(require,module,exports){
 ;(function () {
 
   var object = typeof exports != 'undefined' ? exports : this; // #8: web workers
@@ -2150,7 +2215,7 @@ var isArray = Array.isArray || function (xs) {
 
 }());
 
-},{}],10:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 if (typeof Object.create === 'function') {
   // implementation from standard node.js 'util' module
   module.exports = function inherits(ctor, superCtor) {
@@ -2175,7 +2240,7 @@ if (typeof Object.create === 'function') {
   }
 }
 
-},{}],11:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -2240,7 +2305,7 @@ process.chdir = function (dir) {
     throw new Error('process.chdir is not supported');
 };
 
-},{}],12:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 (function (global){
 /*! http://mths.be/punycode v1.2.4 by @mathias */
 ;(function(root) {
@@ -2751,7 +2816,7 @@ process.chdir = function (dir) {
 }(this));
 
 }).call(this,typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],13:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -2837,7 +2902,7 @@ var isArray = Array.isArray || function (xs) {
   return Object.prototype.toString.call(xs) === '[object Array]';
 };
 
-},{}],14:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -2924,13 +2989,13 @@ var objectKeys = Object.keys || function (obj) {
   return res;
 };
 
-},{}],15:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 'use strict';
 
 exports.decode = exports.parse = require('./decode');
 exports.encode = exports.stringify = require('./encode');
 
-},{"./decode":13,"./encode":14}],16:[function(require,module,exports){
+},{"./decode":14,"./encode":15}],17:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -3004,7 +3069,7 @@ function onend() {
   });
 }
 
-},{"./readable.js":20,"./writable.js":22,"inherits":10,"process/browser.js":18}],17:[function(require,module,exports){
+},{"./readable.js":21,"./writable.js":23,"inherits":11,"process/browser.js":19}],18:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -3133,7 +3198,7 @@ Stream.prototype.pipe = function(dest, options) {
   return dest;
 };
 
-},{"./duplex.js":16,"./passthrough.js":19,"./readable.js":20,"./transform.js":21,"./writable.js":22,"events":5,"inherits":10}],18:[function(require,module,exports){
+},{"./duplex.js":17,"./passthrough.js":20,"./readable.js":21,"./transform.js":22,"./writable.js":23,"events":6,"inherits":11}],19:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -3188,7 +3253,7 @@ process.chdir = function (dir) {
     throw new Error('process.chdir is not supported');
 };
 
-},{}],19:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -3231,7 +3296,7 @@ PassThrough.prototype._transform = function(chunk, encoding, cb) {
   cb(null, chunk);
 };
 
-},{"./transform.js":21,"inherits":10}],20:[function(require,module,exports){
+},{"./transform.js":22,"inherits":11}],21:[function(require,module,exports){
 (function (process){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -4167,8 +4232,8 @@ function indexOf (xs, x) {
   return -1;
 }
 
-}).call(this,require("JkpR2F"))
-},{"./index.js":17,"JkpR2F":11,"buffer":2,"events":5,"inherits":10,"process/browser.js":18,"string_decoder":23}],21:[function(require,module,exports){
+}).call(this,require("+NscNm"))
+},{"+NscNm":12,"./index.js":18,"buffer":3,"events":6,"inherits":11,"process/browser.js":19,"string_decoder":24}],22:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -4374,7 +4439,7 @@ function done(stream, er) {
   return stream.push(null);
 }
 
-},{"./duplex.js":16,"inherits":10}],22:[function(require,module,exports){
+},{"./duplex.js":17,"inherits":11}],23:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -4762,7 +4827,7 @@ function endWritable(stream, state, cb) {
   state.ended = true;
 }
 
-},{"./index.js":17,"buffer":2,"inherits":10,"process/browser.js":18}],23:[function(require,module,exports){
+},{"./index.js":18,"buffer":3,"inherits":11,"process/browser.js":19}],24:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -4955,7 +5020,7 @@ function base64DetectIncompleteChar(buffer) {
   return incomplete;
 }
 
-},{"buffer":2}],24:[function(require,module,exports){
+},{"buffer":3}],25:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -5664,14 +5729,14 @@ function isNullOrUndefined(arg) {
   return  arg == null;
 }
 
-},{"punycode":12,"querystring":15}],25:[function(require,module,exports){
+},{"punycode":13,"querystring":16}],26:[function(require,module,exports){
 module.exports = function isBuffer(arg) {
   return arg && typeof arg === 'object'
     && typeof arg.copy === 'function'
     && typeof arg.fill === 'function'
     && typeof arg.readUInt8 === 'function';
 }
-},{}],26:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 (function (process,global){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -6260,8 +6325,8 @@ function hasOwnProperty(obj, prop) {
   return Object.prototype.hasOwnProperty.call(obj, prop);
 }
 
-}).call(this,require("JkpR2F"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./support/isBuffer":25,"JkpR2F":11,"inherits":10}],27:[function(require,module,exports){
+}).call(this,require("+NscNm"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{"+NscNm":12,"./support/isBuffer":26,"inherits":11}],28:[function(require,module,exports){
 // Replace local require by a lazy loader
 var globalRequire = require;
 require = function () {};
@@ -6289,7 +6354,7 @@ Object.keys(exports).forEach(function (submodule) {
   });
 });
 
-},{"./lib/N3Lexer":28,"./lib/N3Parser":29,"./lib/N3Store":30,"./lib/N3StreamParser":31,"./lib/N3StreamWriter":32,"./lib/N3Util":33,"./lib/N3Writer":34}],28:[function(require,module,exports){
+},{"./lib/N3Lexer":29,"./lib/N3Parser":30,"./lib/N3Store":31,"./lib/N3StreamParser":32,"./lib/N3StreamWriter":33,"./lib/N3Util":34,"./lib/N3Writer":35}],29:[function(require,module,exports){
 // **N3Lexer** tokenizes N3 documents.
 // ## Regular expressions
 var patterns = {
@@ -6648,7 +6713,7 @@ N3Lexer.prototype = {
 // Export the `N3Lexer` class as a whole.
 module.exports = N3Lexer;
 
-},{}],29:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 // **N3Parser** parses N3 documents.
 var N3Lexer = require('./N3Lexer.js');
 
@@ -7161,7 +7226,7 @@ N3Parser.prototype = {
 // Export the `N3Parser` class as a whole.
 module.exports = N3Parser;
 
-},{"./N3Lexer.js":28}],30:[function(require,module,exports){
+},{"./N3Lexer.js":29}],31:[function(require,module,exports){
 // **N3Store** objects store N3 triples with an associated context in memory.
 
 var prefixMatcher = /^([^:\/#"']*):[^\/]/;
@@ -7416,7 +7481,7 @@ N3Store.prototype = {
 // Export the `N3Store` class as a whole.
 module.exports = N3Store;
 
-},{}],31:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 // **N3StreamParser** parses an N3 stream into a triple stream
 var Transform = require('stream').Transform,
     util = require('util'),
@@ -7452,7 +7517,7 @@ util.inherits(N3StreamParser, Transform);
 // Export the `N3StreamParser` class as a whole.
 module.exports = N3StreamParser;
 
-},{"./N3Parser.js":29,"stream":17,"util":26}],32:[function(require,module,exports){
+},{"./N3Parser.js":30,"stream":18,"util":27}],33:[function(require,module,exports){
 // **N3StreamWriter** serializes a triple stream into an N3 stream
 var Transform = require('stream').Transform,
     util = require('util'),
@@ -7484,7 +7549,7 @@ util.inherits(N3StreamWriter, Transform);
 // Export the `N3StreamWriter` class as a whole.
 module.exports = N3StreamWriter;
 
-},{"./N3Writer.js":34,"stream":17,"util":26}],33:[function(require,module,exports){
+},{"./N3Writer.js":35,"stream":18,"util":27}],34:[function(require,module,exports){
 // **N3Util** provides N3 utility functions
 
 var XsdString = 'http://www.w3.org/2001/XMLSchema#string';
@@ -7569,7 +7634,7 @@ function ApplyToThis(f) {
 // Expose N3Util, attaching all functions to it
 module.exports = AddN3Util(AddN3Util);
 
-},{}],34:[function(require,module,exports){
+},{}],35:[function(require,module,exports){
 // **N3Writer** writes N3 documents.
 
 // Matches a literal as represented in memory by the N3 library
@@ -7772,4 +7837,893 @@ N3Writer.prototype = {
 // Export the `N3Writer` class as a whole.
 module.exports = N3Writer;
 
+},{}],36:[function(require,module,exports){
+(function (global){
+/*global unescape, module, define, window, global*/
+
+/*
+ UriTemplate Copyright (c) 2012-2013 Franz Antesberger. All Rights Reserved.
+ Available via the MIT license.
+*/
+
+(function (exportCallback) {
+    "use strict";
+
+var UriTemplateError = (function () {
+
+    function UriTemplateError (options) {
+        this.options = options;
+    }
+
+    UriTemplateError.prototype.toString = function () {
+        if (JSON && JSON.stringify) {
+            return JSON.stringify(this.options);
+        }
+        else {
+            return this.options;
+        }
+    };
+
+    return UriTemplateError;
+}());
+
+var objectHelper = (function () {
+    function isArray (value) {
+        return Object.prototype.toString.apply(value) === '[object Array]';
+    }
+
+    function isString (value) {
+        return Object.prototype.toString.apply(value) === '[object String]';
+    }
+    
+    function isNumber (value) {
+        return Object.prototype.toString.apply(value) === '[object Number]';
+    }
+    
+    function isBoolean (value) {
+        return Object.prototype.toString.apply(value) === '[object Boolean]';
+    }
+    
+    function join (arr, separator) {
+        var
+            result = '',
+            first = true,
+            index;
+        for (index = 0; index < arr.length; index += 1) {
+            if (first) {
+                first = false;
+            }
+            else {
+                result += separator;
+            }
+            result += arr[index];
+        }
+        return result;
+    }
+
+    function map (arr, mapper) {
+        var
+            result = [],
+            index = 0;
+        for (; index < arr.length; index += 1) {
+            result.push(mapper(arr[index]));
+        }
+        return result;
+    }
+
+    function filter (arr, predicate) {
+        var
+            result = [],
+            index = 0;
+        for (; index < arr.length; index += 1) {
+            if (predicate(arr[index])) {
+                result.push(arr[index]);
+            }
+        }
+        return result;
+    }
+
+    function deepFreezeUsingObjectFreeze (object) {
+        if (typeof object !== "object" || object === null) {
+            return object;
+        }
+        Object.freeze(object);
+        var property, propertyName;
+        for (propertyName in object) {
+            if (object.hasOwnProperty(propertyName)) {
+                property = object[propertyName];
+                // be aware, arrays are 'object', too
+                if (typeof property === "object") {
+                    deepFreeze(property);
+                }
+            }
+        }
+        return object;
+    }
+
+    function deepFreeze (object) {
+        if (typeof Object.freeze === 'function') {
+            return deepFreezeUsingObjectFreeze(object);
+        }
+        return object;
+    }
+
+
+    return {
+        isArray: isArray,
+        isString: isString,
+        isNumber: isNumber,
+        isBoolean: isBoolean,
+        join: join,
+        map: map,
+        filter: filter,
+        deepFreeze: deepFreeze
+    };
+}());
+
+var charHelper = (function () {
+
+    function isAlpha (chr) {
+        return (chr >= 'a' && chr <= 'z') || ((chr >= 'A' && chr <= 'Z'));
+    }
+
+    function isDigit (chr) {
+        return chr >= '0' && chr <= '9';
+    }
+
+    function isHexDigit (chr) {
+        return isDigit(chr) || (chr >= 'a' && chr <= 'f') || (chr >= 'A' && chr <= 'F');
+    }
+
+    return {
+        isAlpha: isAlpha,
+        isDigit: isDigit,
+        isHexDigit: isHexDigit
+    };
+}());
+
+var pctEncoder = (function () {
+    var utf8 = {
+        encode: function (chr) {
+            // see http://ecmanaut.blogspot.de/2006/07/encoding-decoding-utf8-in-javascript.html
+            return unescape(encodeURIComponent(chr));
+        },
+        numBytes: function (firstCharCode) {
+            if (firstCharCode <= 0x7F) {
+                return 1;
+            }
+            else if (0xC2 <= firstCharCode && firstCharCode <= 0xDF) {
+                return 2;
+            }
+            else if (0xE0 <= firstCharCode && firstCharCode <= 0xEF) {
+                return 3;
+            }
+            else if (0xF0 <= firstCharCode && firstCharCode <= 0xF4) {
+                return 4;
+            }
+            // no valid first octet
+            return 0;
+        },
+        isValidFollowingCharCode: function (charCode) {
+            return 0x80 <= charCode && charCode <= 0xBF;
+        }
+    };
+
+    /**
+     * encodes a character, if needed or not.
+     * @param chr
+     * @return pct-encoded character
+     */
+    function encodeCharacter (chr) {
+        var
+            result = '',
+            octets = utf8.encode(chr),
+            octet,
+            index;
+        for (index = 0; index < octets.length; index += 1) {
+            octet = octets.charCodeAt(index);
+            result += '%' + (octet < 0x10 ? '0' : '') + octet.toString(16).toUpperCase();
+        }
+        return result;
+    }
+
+    /**
+     * Returns, whether the given text at start is in the form 'percent hex-digit hex-digit', like '%3F'
+     * @param text
+     * @param start
+     * @return {boolean|*|*}
+     */
+    function isPercentDigitDigit (text, start) {
+        return text.charAt(start) === '%' && charHelper.isHexDigit(text.charAt(start + 1)) && charHelper.isHexDigit(text.charAt(start + 2));
+    }
+
+    /**
+     * Parses a hex number from start with length 2.
+     * @param text a string
+     * @param start the start index of the 2-digit hex number
+     * @return {Number}
+     */
+    function parseHex2 (text, start) {
+        return parseInt(text.substr(start, 2), 16);
+    }
+
+    /**
+     * Returns whether or not the given char sequence is a correctly pct-encoded sequence.
+     * @param chr
+     * @return {boolean}
+     */
+    function isPctEncoded (chr) {
+        if (!isPercentDigitDigit(chr, 0)) {
+            return false;
+        }
+        var firstCharCode = parseHex2(chr, 1);
+        var numBytes = utf8.numBytes(firstCharCode);
+        if (numBytes === 0) {
+            return false;
+        }
+        for (var byteNumber = 1; byteNumber < numBytes; byteNumber += 1) {
+            if (!isPercentDigitDigit(chr, 3*byteNumber) || !utf8.isValidFollowingCharCode(parseHex2(chr, 3*byteNumber + 1))) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    /**
+     * Reads as much as needed from the text, e.g. '%20' or '%C3%B6'. It does not decode!
+     * @param text
+     * @param startIndex
+     * @return the character or pct-string of the text at startIndex
+     */
+    function pctCharAt(text, startIndex) {
+        var chr = text.charAt(startIndex);
+        if (!isPercentDigitDigit(text, startIndex)) {
+            return chr;
+        }
+        var utf8CharCode = parseHex2(text, startIndex + 1);
+        var numBytes = utf8.numBytes(utf8CharCode);
+        if (numBytes === 0) {
+            return chr;
+        }
+        for (var byteNumber = 1; byteNumber < numBytes; byteNumber += 1) {
+            if (!isPercentDigitDigit(text, startIndex + 3 * byteNumber) || !utf8.isValidFollowingCharCode(parseHex2(text, startIndex + 3 * byteNumber + 1))) {
+                return chr;
+            }
+        }
+        return text.substr(startIndex, 3 * numBytes);
+    }
+
+    return {
+        encodeCharacter: encodeCharacter,
+        isPctEncoded: isPctEncoded,
+        pctCharAt: pctCharAt
+    };
+}());
+
+var rfcCharHelper = (function () {
+
+    /**
+     * Returns if an character is an varchar character according 2.3 of rfc 6570
+     * @param chr
+     * @return (Boolean)
+     */
+    function isVarchar (chr) {
+        return charHelper.isAlpha(chr) || charHelper.isDigit(chr) || chr === '_' || pctEncoder.isPctEncoded(chr);
+    }
+
+    /**
+     * Returns if chr is an unreserved character according 1.5 of rfc 6570
+     * @param chr
+     * @return {Boolean}
+     */
+    function isUnreserved (chr) {
+        return charHelper.isAlpha(chr) || charHelper.isDigit(chr) || chr === '-' || chr === '.' || chr === '_' || chr === '~';
+    }
+
+    /**
+     * Returns if chr is an reserved character according 1.5 of rfc 6570
+     * or the percent character mentioned in 3.2.1.
+     * @param chr
+     * @return {Boolean}
+     */
+    function isReserved (chr) {
+        return chr === ':' || chr === '/' || chr === '?' || chr === '#' || chr === '[' || chr === ']' || chr === '@' || chr === '!' || chr === '$' || chr === '&' || chr === '(' ||
+            chr === ')' || chr === '*' || chr === '+' || chr === ',' || chr === ';' || chr === '=' || chr === "'";
+    }
+
+    return {
+        isVarchar: isVarchar,
+        isUnreserved: isUnreserved,
+        isReserved: isReserved
+    };
+
+}());
+
+/**
+ * encoding of rfc 6570
+ */
+var encodingHelper = (function () {
+
+    function encode (text, passReserved) {
+        var
+            result = '',
+            index,
+            chr = '';
+        if (typeof text === "number" || typeof text === "boolean") {
+            text = text.toString();
+        }
+        for (index = 0; index < text.length; index += chr.length) {
+            chr = text.charAt(index);
+            result += rfcCharHelper.isUnreserved(chr) || (passReserved && rfcCharHelper.isReserved(chr)) ? chr : pctEncoder.encodeCharacter(chr);
+        }
+        return result;
+    }
+
+    function encodePassReserved (text) {
+        return encode(text, true);
+    }
+
+    function encodeLiteralCharacter (literal, index) {
+        var chr = pctEncoder.pctCharAt(literal, index);
+        if (chr.length > 1) {
+            return chr;
+        }
+        else {
+            return rfcCharHelper.isReserved(chr) || rfcCharHelper.isUnreserved(chr) ? chr : pctEncoder.encodeCharacter(chr);
+        }
+    }
+
+    function encodeLiteral (literal) {
+        var
+            result = '',
+            index,
+            chr = '';
+        for (index = 0; index < literal.length; index += chr.length) {
+            chr = pctEncoder.pctCharAt(literal, index);
+            if (chr.length > 1) {
+                result += chr;
+            }
+            else {
+                result += rfcCharHelper.isReserved(chr) || rfcCharHelper.isUnreserved(chr) ? chr : pctEncoder.encodeCharacter(chr);
+            }
+        }
+        return result;
+    }
+
+    return {
+        encode: encode,
+        encodePassReserved: encodePassReserved,
+        encodeLiteral: encodeLiteral,
+        encodeLiteralCharacter: encodeLiteralCharacter
+    };
+
+}());
+
+
+// the operators defined by rfc 6570
+var operators = (function () {
+
+    var
+        bySymbol = {};
+
+    function create (symbol) {
+        bySymbol[symbol] = {
+            symbol: symbol,
+            separator: (symbol === '?') ? '&' : (symbol === '' || symbol === '+' || symbol === '#') ? ',' : symbol,
+            named: symbol === ';' || symbol === '&' || symbol === '?',
+            ifEmpty: (symbol === '&' || symbol === '?') ? '=' : '',
+            first: (symbol === '+' ) ? '' : symbol,
+            encode: (symbol === '+' || symbol === '#') ? encodingHelper.encodePassReserved : encodingHelper.encode,
+            toString: function () {
+                return this.symbol;
+            }
+        };
+    }
+
+    create('');
+    create('+');
+    create('#');
+    create('.');
+    create('/');
+    create(';');
+    create('?');
+    create('&');
+    return {
+        valueOf: function (chr) {
+            if (bySymbol[chr]) {
+                return bySymbol[chr];
+            }
+            if ("=,!@|".indexOf(chr) >= 0) {
+                return null;
+            }
+            return bySymbol[''];
+        }
+    };
+}());
+
+
+/**
+ * Detects, whether a given element is defined in the sense of rfc 6570
+ * Section 2.3 of the RFC makes clear defintions:
+ * * undefined and null are not defined.
+ * * the empty string is defined
+ * * an array ("list") is defined, if it is not empty (even if all elements are not defined)
+ * * an object ("map") is defined, if it contains at least one property with defined value
+ * @param object
+ * @return {Boolean}
+ */
+function isDefined (object) {
+    var
+        propertyName;
+    if (object === null || object === undefined) {
+        return false;
+    }
+    if (objectHelper.isArray(object)) {
+        // Section 2.3: A variable defined as a list value is considered undefined if the list contains zero members
+        return object.length > 0;
+    }
+    if (typeof object === "string" || typeof object === "number" || typeof object === "boolean") {
+        // falsy values like empty strings, false or 0 are "defined"
+        return true;
+    }
+    // else Object
+    for (propertyName in object) {
+        if (object.hasOwnProperty(propertyName) && isDefined(object[propertyName])) {
+            return true;
+        }
+    }
+    return false;
+}
+
+var LiteralExpression = (function () {
+    function LiteralExpression (literal) {
+        this.literal = encodingHelper.encodeLiteral(literal);
+    }
+
+    LiteralExpression.prototype.expand = function () {
+        return this.literal;
+    };
+
+    LiteralExpression.prototype.toString = LiteralExpression.prototype.expand;
+
+    return LiteralExpression;
+}());
+
+var parse = (function () {
+
+    function parseExpression (expressionText) {
+        var
+            operator,
+            varspecs = [],
+            varspec = null,
+            varnameStart = null,
+            maxLengthStart = null,
+            index,
+            chr = '';
+
+        function closeVarname () {
+            var varname = expressionText.substring(varnameStart, index);
+            if (varname.length === 0) {
+                throw new UriTemplateError({expressionText: expressionText, message: "a varname must be specified", position: index});
+            }
+            varspec = {varname: varname, exploded: false, maxLength: null};
+            varnameStart = null;
+        }
+
+        function closeMaxLength () {
+            if (maxLengthStart === index) {
+                throw new UriTemplateError({expressionText: expressionText, message: "after a ':' you have to specify the length", position: index});
+            }
+            varspec.maxLength = parseInt(expressionText.substring(maxLengthStart, index), 10);
+            maxLengthStart = null;
+        }
+
+        operator = (function (operatorText) {
+            var op = operators.valueOf(operatorText);
+            if (op === null) {
+                throw new UriTemplateError({expressionText: expressionText, message: "illegal use of reserved operator", position: index, operator: operatorText});
+            }
+            return op;
+        }(expressionText.charAt(0)));
+        index = operator.symbol.length;
+
+        varnameStart = index;
+
+        for (; index < expressionText.length; index += chr.length) {
+            chr = pctEncoder.pctCharAt(expressionText, index);
+
+            if (varnameStart !== null) {
+                // the spec says: varname =  varchar *( ["."] varchar )
+                // so a dot is allowed except for the first char
+                if (chr === '.') {
+                    if (varnameStart === index) {
+                        throw new UriTemplateError({expressionText: expressionText, message: "a varname MUST NOT start with a dot", position: index});
+                    }
+                    continue;
+                }
+                if (rfcCharHelper.isVarchar(chr)) {
+                    continue;
+                }
+                closeVarname();
+            }
+            if (maxLengthStart !== null) {
+                if (index === maxLengthStart && chr === '0') {
+                    throw new UriTemplateError({expressionText: expressionText, message: "A :prefix must not start with digit 0", position: index});
+                }
+                if (charHelper.isDigit(chr)) {
+                    if (index - maxLengthStart >= 4) {
+                        throw new UriTemplateError({expressionText: expressionText, message: "A :prefix must have max 4 digits", position: index});
+                    }
+                    continue;
+                }
+                closeMaxLength();
+            }
+            if (chr === ':') {
+                if (varspec.maxLength !== null) {
+                    throw new UriTemplateError({expressionText: expressionText, message: "only one :maxLength is allowed per varspec", position: index});
+                }
+                if (varspec.exploded) {
+                    throw new UriTemplateError({expressionText: expressionText, message: "an exploeded varspec MUST NOT be varspeced", position: index});
+                }
+                maxLengthStart = index + 1;
+                continue;
+            }
+            if (chr === '*') {
+                if (varspec === null) {
+                    throw new UriTemplateError({expressionText: expressionText, message: "exploded without varspec", position: index});
+                }
+                if (varspec.exploded) {
+                    throw new UriTemplateError({expressionText: expressionText, message: "exploded twice", position: index});
+                }
+                if (varspec.maxLength) {
+                    throw new UriTemplateError({expressionText: expressionText, message: "an explode (*) MUST NOT follow to a prefix", position: index});
+                }
+                varspec.exploded = true;
+                continue;
+            }
+            // the only legal character now is the comma
+            if (chr === ',') {
+                varspecs.push(varspec);
+                varspec = null;
+                varnameStart = index + 1;
+                continue;
+            }
+            throw new UriTemplateError({expressionText: expressionText, message: "illegal character", character: chr, position: index});
+        } // for chr
+        if (varnameStart !== null) {
+            closeVarname();
+        }
+        if (maxLengthStart !== null) {
+            closeMaxLength();
+        }
+        varspecs.push(varspec);
+        return new VariableExpression(expressionText, operator, varspecs);
+    }
+
+    function parse (uriTemplateText) {
+        // assert filled string
+        var
+            index,
+            chr,
+            expressions = [],
+            braceOpenIndex = null,
+            literalStart = 0;
+        for (index = 0; index < uriTemplateText.length; index += 1) {
+            chr = uriTemplateText.charAt(index);
+            if (literalStart !== null) {
+                if (chr === '}') {
+                    throw new UriTemplateError({templateText: uriTemplateText, message: "unopened brace closed", position: index});
+                }
+                if (chr === '{') {
+                    if (literalStart < index) {
+                        expressions.push(new LiteralExpression(uriTemplateText.substring(literalStart, index)));
+                    }
+                    literalStart = null;
+                    braceOpenIndex = index;
+                }
+                continue;
+            }
+
+            if (braceOpenIndex !== null) {
+                // here just { is forbidden
+                if (chr === '{') {
+                    throw new UriTemplateError({templateText: uriTemplateText, message: "brace already opened", position: index});
+                }
+                if (chr === '}') {
+                    if (braceOpenIndex + 1 === index) {
+                        throw new UriTemplateError({templateText: uriTemplateText, message: "empty braces", position: braceOpenIndex});
+                    }
+                    try {
+                        expressions.push(parseExpression(uriTemplateText.substring(braceOpenIndex + 1, index)));
+                    }
+                    catch (error) {
+                        if (error.prototype === UriTemplateError.prototype) {
+                            throw new UriTemplateError({templateText: uriTemplateText, message: error.options.message, position: braceOpenIndex + error.options.position, details: error.options});
+                        }
+                        throw error;
+                    }
+                    braceOpenIndex = null;
+                    literalStart = index + 1;
+                }
+                continue;
+            }
+            throw new Error('reached unreachable code');
+        }
+        if (braceOpenIndex !== null) {
+            throw new UriTemplateError({templateText: uriTemplateText, message: "unclosed brace", position: braceOpenIndex});
+        }
+        if (literalStart < uriTemplateText.length) {
+            expressions.push(new LiteralExpression(uriTemplateText.substr(literalStart)));
+        }
+        return new UriTemplate(uriTemplateText, expressions);
+    }
+
+    return parse;
+}());
+
+var VariableExpression = (function () {
+    // helper function if JSON is not available
+    function prettyPrint (value) {
+        return (JSON && JSON.stringify) ? JSON.stringify(value) : value;
+    }
+
+    function isEmpty (value) {
+        if (!isDefined(value)) {
+            return true;
+        }
+        if (objectHelper.isString(value)) {
+            return value === '';
+        }
+        if (objectHelper.isNumber(value) || objectHelper.isBoolean(value)) {
+            return false;
+        }
+        if (objectHelper.isArray(value)) {
+            return value.length === 0;
+        }
+        for (var propertyName in value) {
+            if (value.hasOwnProperty(propertyName)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    function propertyArray (object) {
+        var
+            result = [],
+            propertyName;
+        for (propertyName in object) {
+            if (object.hasOwnProperty(propertyName)) {
+                result.push({name: propertyName, value: object[propertyName]});
+            }
+        }
+        return result;
+    }
+
+    function VariableExpression (templateText, operator, varspecs) {
+        this.templateText = templateText;
+        this.operator = operator;
+        this.varspecs = varspecs;
+    }
+
+    VariableExpression.prototype.toString = function () {
+        return this.templateText;
+    };
+
+    function expandSimpleValue(varspec, operator, value) {
+        var result = '';
+        value = value.toString();
+        if (operator.named) {
+            result += encodingHelper.encodeLiteral(varspec.varname);
+            if (value === '') {
+                result += operator.ifEmpty;
+                return result;
+            }
+            result += '=';
+        }
+        if (varspec.maxLength !== null) {
+            value = value.substr(0, varspec.maxLength);
+        }
+        result += operator.encode(value);
+        return result;
+    }
+
+    function valueDefined (nameValue) {
+        return isDefined(nameValue.value);
+    }
+
+    function expandNotExploded(varspec, operator, value) {
+        var
+            arr = [],
+            result = '';
+        if (operator.named) {
+            result += encodingHelper.encodeLiteral(varspec.varname);
+            if (isEmpty(value)) {
+                result += operator.ifEmpty;
+                return result;
+            }
+            result += '=';
+        }
+        if (objectHelper.isArray(value)) {
+            arr = value;
+            arr = objectHelper.filter(arr, isDefined);
+            arr = objectHelper.map(arr, operator.encode);
+            result += objectHelper.join(arr, ',');
+        }
+        else {
+            arr = propertyArray(value);
+            arr = objectHelper.filter(arr, valueDefined);
+            arr = objectHelper.map(arr, function (nameValue) {
+                return operator.encode(nameValue.name) + ',' + operator.encode(nameValue.value);
+            });
+            result += objectHelper.join(arr, ',');
+        }
+        return result;
+    }
+
+    function expandExplodedNamed (varspec, operator, value) {
+        var
+            isArray = objectHelper.isArray(value),
+            arr = [];
+        if (isArray) {
+            arr = value;
+            arr = objectHelper.filter(arr, isDefined);
+            arr = objectHelper.map(arr, function (listElement) {
+                var tmp = encodingHelper.encodeLiteral(varspec.varname);
+                if (isEmpty(listElement)) {
+                    tmp += operator.ifEmpty;
+                }
+                else {
+                    tmp += '=' + operator.encode(listElement);
+                }
+                return tmp;
+            });
+        }
+        else {
+            arr = propertyArray(value);
+            arr = objectHelper.filter(arr, valueDefined);
+            arr = objectHelper.map(arr, function (nameValue) {
+                var tmp = encodingHelper.encodeLiteral(nameValue.name);
+                if (isEmpty(nameValue.value)) {
+                    tmp += operator.ifEmpty;
+                }
+                else {
+                    tmp += '=' + operator.encode(nameValue.value);
+                }
+                return tmp;
+            });
+        }
+        return objectHelper.join(arr, operator.separator);
+    }
+
+    function expandExplodedUnnamed (operator, value) {
+        var
+            arr = [],
+            result = '';
+        if (objectHelper.isArray(value)) {
+            arr = value;
+            arr = objectHelper.filter(arr, isDefined);
+            arr = objectHelper.map(arr, operator.encode);
+            result += objectHelper.join(arr, operator.separator);
+        }
+        else {
+            arr = propertyArray(value);
+            arr = objectHelper.filter(arr, function (nameValue) {
+                return isDefined(nameValue.value);
+            });
+            arr = objectHelper.map(arr, function (nameValue) {
+                return operator.encode(nameValue.name) + '=' + operator.encode(nameValue.value);
+            });
+            result += objectHelper.join(arr, operator.separator);
+        }
+        return result;
+    }
+
+
+    VariableExpression.prototype.expand = function (variables) {
+        var
+            expanded = [],
+            index,
+            varspec,
+            value,
+            valueIsArr,
+            oneExploded = false,
+            operator = this.operator;
+
+        // expand each varspec and join with operator's separator
+        for (index = 0; index < this.varspecs.length; index += 1) {
+            varspec = this.varspecs[index];
+            value = variables[varspec.varname];
+            // if (!isDefined(value)) {
+            // if (variables.hasOwnProperty(varspec.name)) {
+            if (value === null || value === undefined) {
+                continue;
+            }
+            if (varspec.exploded) {
+                oneExploded = true;
+            }
+            valueIsArr = objectHelper.isArray(value);
+            if (typeof value === "string" || typeof value === "number" || typeof value === "boolean") {
+                expanded.push(expandSimpleValue(varspec, operator, value));
+            }
+            else if (varspec.maxLength && isDefined(value)) {
+                // 2.4.1 of the spec says: "Prefix modifiers are not applicable to variables that have composite values."
+                throw new Error('Prefix modifiers are not applicable to variables that have composite values. You tried to expand ' + this + " with " + prettyPrint(value));
+            }
+            else if (!varspec.exploded) {
+                if (operator.named || !isEmpty(value)) {
+                    expanded.push(expandNotExploded(varspec, operator, value));
+                }
+            }
+            else if (isDefined(value)) {
+                if (operator.named) {
+                    expanded.push(expandExplodedNamed(varspec, operator, value));
+                }
+                else {
+                    expanded.push(expandExplodedUnnamed(operator, value));
+                }
+            }
+        }
+
+        if (expanded.length === 0) {
+            return "";
+        }
+        else {
+            return operator.first + objectHelper.join(expanded, operator.separator);
+        }
+    };
+
+    return VariableExpression;
+}());
+
+var UriTemplate = (function () {
+    function UriTemplate (templateText, expressions) {
+        this.templateText = templateText;
+        this.expressions = expressions;
+        objectHelper.deepFreeze(this);
+    }
+
+    UriTemplate.prototype.toString = function () {
+        return this.templateText;
+    };
+
+    UriTemplate.prototype.expand = function (variables) {
+        // this.expressions.map(function (expression) {return expression.expand(variables);}).join('');
+        var
+            index,
+            result = '';
+        for (index = 0; index < this.expressions.length; index += 1) {
+            result += this.expressions[index].expand(variables);
+        }
+        return result;
+    };
+
+    UriTemplate.parse = parse;
+    UriTemplate.UriTemplateError = UriTemplateError;
+    return UriTemplate;
+}());
+
+    exportCallback(UriTemplate);
+
+}(function (UriTemplate) {
+        "use strict";
+        // export UriTemplate, when module is present, or pass it to window or global
+        if (typeof module !== "undefined") {
+            module.exports = UriTemplate;
+        }
+        else if (typeof define === "function") {
+            define([],function() {
+                return UriTemplate;
+            });
+        }
+        else if (typeof window !== "undefined") {
+            window.UriTemplate = UriTemplate;
+        }
+        else {
+            global.UriTemplate = UriTemplate;
+        }
+    }
+));
+
+}).call(this,typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{}]},{},[1])

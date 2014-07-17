@@ -12,11 +12,15 @@
 #load "NiceOntology.fs"
 #load "ToTriples.fs"
 #load "Site.fs"
+#load "OntologyUris.fs"
 
 open Site
 
+
 do 
-    Site.server "http://localhost:5820" "Nice"
+    OntologyUris.write (__SOURCE_DIRECTORY__ + "..\Client\uris.js")
+    let server = async {Site.server "http://localhost:5820" "Nice"}
+    server |> Async.RunSynchronously
 
 
 

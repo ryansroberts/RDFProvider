@@ -1,6 +1,7 @@
-window.alert('hello!');
 
-var a = 1;
+var n3   = require("n3"),
+    http = require("http");
 
 
-
+var sparql = function(q,cb) {
+};

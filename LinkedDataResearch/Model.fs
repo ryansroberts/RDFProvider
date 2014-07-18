@@ -69,7 +69,8 @@ and Guideline =
       Title : Title
       Reccomendation : Reccomendation list
       Sets : Set list
-      Studies : Study list }
+      Studies : Study list
+      Issued : System.DateTime }
 
 and Reccomendation = 
     { Id : Identifier
@@ -99,7 +100,37 @@ and SearchStrategy =
     { Id : Identifier
       StrategyType : string }
 
+and QualityStandard =
+    {
+      Id :Identifier
+      Title :Title
+      Subject : string
+      Statements: QualityStatement list
+    }
+
 and QualityStatement = 
     {
       Id :Identifier
+      Title : Title
+      Statement : string
+      Reccomendation : Identifier list
     }
+
+and AuditInfoSource = {
+    Id: Identifier
+    SourceName : string
+    InformationType : string
+    Notes : string
+}
+
+and Audit = {
+    Id : Identifier
+    Reccomendation : Identifier
+    AuditCriteria : string
+    NumberFulfil : System.Nullable<int>
+    TotalNumber : System.Nullable<int>
+    PercentAchived : decimal
+    Notes : Body
+    AuditInfoSource : AuditInfoSource
+    AuditDate : System.DateTime option
+}

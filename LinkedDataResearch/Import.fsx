@@ -25,10 +25,8 @@ open VDS.RDF
 open Microsoft.FSharp.Collections
 
 let processCsv () = 
-    let gx = Import.loadGuidelines 
-    let triples = [for g in gx do
-                   yield! Project.guideline g]
-
+    let triples = [for g in Import.loadGuidelines do  yield! Project.guideline g
+                   for s in Import.loadQualityStandards do yield! Project.qualityStandard s] 
 
     let g = new  VDS.RDF.Graph()
     g.NamespaceMap.AddNamespace("guidelines",Uri "http://nice.org.uk/guidelines/")

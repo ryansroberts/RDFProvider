@@ -101,10 +101,17 @@ let objectProperties root conn =
         prefix owl:  <http://www.w3.org/2002/07/owl#>
         select distinct ?p
         where {
-          ?p a owl:ObjectProperty .
-          ?p rdfs:domain <%s> 
+             {?p a owl:ObjectProperty .
+             ?p rdfs:domain ?u .
+             ?u owl:unionOf ?list .
+             ?list rdf:rest* ?subList .
+             ?subList rdf:first <%s> . }
+             UNION {
+	         ?p a owl:ObjectProperty .
+             ?p rdfs:domain <%s> .
+             }
         }
-    """ (string root)) conn |> oneTuple
+    """ (string root) (string root)) conn |> oneTuple
 
 let inRangeOf root conn = 
     cachedinference (sprintf """
@@ -132,14 +139,21 @@ let dataProperties root conn =
     cachedinference (sprintf """
         PREFIX owl: <http://www.w3.org/2002/07/owl#>
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
-        SELECT ?p ?t
-        WHERE {
-             ?p rdfs:domain <%s> ; a owl:DatatypeProperty .
-             ?p rdfs:range ?t
-
+        select ?p ?t
+        where {
+             {?p a owl:DatatypeProperty .
+             ?p rdfs:domain ?u .
+             ?p rdfs:range ?t .
+             ?u owl:unionOf ?list .
+             ?list rdf:rest* ?subList .
+             ?subList rdf:first <%s> .}
+             UNION {
+	         ?p a owl:DatatypeProperty .
+             ?p rdfs:range ?t .
+             ?p rdfs:domain <%s> .
+             }
         }
-    """ (string root)) conn |> twoTuple 
+    """ (string root) (string root)) conn |> twoTuple 
 
 let sampleIndividuals root conn = 
     cachedinference (sprintf """

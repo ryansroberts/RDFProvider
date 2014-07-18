@@ -4,7 +4,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10> .
+@base <http://www.semanticweb.org/amitchell/ontologies/2014/6/utitled-ontology-10> .
 
 <http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10> rdf:type owl:Ontology ;
                                                                               
@@ -552,6 +552,28 @@
                                                                                 rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Topic> ;
                                                                                 
                                                                                 rdfs:range xsd:string .
+
+
+###   http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#titled
+
+<http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#title> rdf:type owl:DatatypeProperty ;
+                                                                              
+																				     rdfs:range xsd:string ;
+                                                                              
+																					 rdfs:domain [ rdf:type owl:Class ;
+																								owl:unionOf ( <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStandard>
+																											  <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStatement>
+																												)
+																								  ] .
+
+																								  ###   http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#titled
+
+<http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#subject> rdf:type owl:DatatypeProperty ;
+                                                                              
+																				     rdfs:range xsd:string ;
+                                                                              
+																					 rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStandard> .
+
 
 
 

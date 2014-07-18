@@ -1,4 +1,5 @@
 var N3   = require('n3'),
+    uris = require('./uris.js'),
     parser = N3.Parser(),
     SparkleSparkleGo = require('./sparkle-sparkle-go.js');
 

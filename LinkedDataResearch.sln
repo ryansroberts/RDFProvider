@@ -6,6 +6,15 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LinkedDataResearch", "LinkedDataResearch\LinkedDataResearch.fsproj", "{76D77D5A-CA74-4391-8BD9-91B290DA6FDD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F86AA893-3439-472C-B309-FD42806545B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ontology", "Ontology", "{D62BC2AD-7E79-4C60-95DF-DAE54AAC995C}"
+	ProjectSection(SolutionItems) = preProject
+		ontologies\nice\nice_all.ttl = ontologies\nice\nice_all.ttl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{CCAA90FF-482E-4D76-BA8F-470C61145170}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Guidelines", "Guidelines", "{D84BBDDF-FDCA-4092-933F-9CF2F68129B5}"
 	ProjectSection(SolutionItems) = preProject
 		LinkedDataResearch\input\Guideline&Evidence\EStoStudyMap.csv = LinkedDataResearch\input\Guideline&Evidence\EStoStudyMap.csv
 		LinkedDataResearch\input\Guideline&Evidence\EvidenceCategory.csv = LinkedDataResearch\input\Guideline&Evidence\EvidenceCategory.csv
@@ -21,13 +30,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		LinkedDataResearch\input\Guideline&Evidence\Study.csv = LinkedDataResearch\input\Guideline&Evidence\Study.csv
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ontology", "Ontology", "{D62BC2AD-7E79-4C60-95DF-DAE54AAC995C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QualityStandards", "QualityStandards", "{902A0084-F723-48D4-997C-81B6B0B0B816}"
 	ProjectSection(SolutionItems) = preProject
-		ontologies\nice\evidence_review.ttl = ontologies\nice\evidence_review.ttl
-		ontologies\nice\nice_guideline.ttl = ontologies\nice\nice_guideline.ttl
-		ontologies\nice\nice_quality_standard.ttl = ontologies\nice\nice_quality_standard.ttl
-		ontologies\nice\outcomes_framework.ttl = ontologies\nice\outcomes_framework.ttl
-		ontologies\nice\shared_learning.ttl = ontologies\nice\shared_learning.ttl
+		LinkedDataResearch\input\QualityStandard\QSToRecMap.csv = LinkedDataResearch\input\QualityStandard\QSToRecMap.csv
+		LinkedDataResearch\input\QualityStandard\QualityStandard.csv = LinkedDataResearch\input\QualityStandard\QualityStandard.csv
+		LinkedDataResearch\input\QualityStandard\QualityStatements.csv = LinkedDataResearch\input\QualityStandard\QualityStatements.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Outcomes", "Outcomes", "{D93E24AD-989C-4F16-BFA5-8DDB588AEB62}"
+	ProjectSection(SolutionItems) = preProject
+		LinkedDataResearch\input\OutcomesFramework\DomainToIndicatorMap.csv = LinkedDataResearch\input\OutcomesFramework\DomainToIndicatorMap.csv
+		LinkedDataResearch\input\OutcomesFramework\OutcomeDomain.csv = LinkedDataResearch\input\OutcomesFramework\OutcomeDomain.csv
+		LinkedDataResearch\input\OutcomesFramework\OutcomeIndicator.csv = LinkedDataResearch\input\OutcomesFramework\OutcomeIndicator.csv
+		LinkedDataResearch\input\OutcomesFramework\OutcomesFramework.csv = LinkedDataResearch\input\OutcomesFramework\OutcomesFramework.csv
+		LinkedDataResearch\input\OutcomesFramework\QSToIndicatorMap.csv = LinkedDataResearch\input\OutcomesFramework\QSToIndicatorMap.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedLearning", "SharedLearning", "{E580CB4E-71CB-4BAE-A242-FDF0DB36BA6C}"
+	ProjectSection(SolutionItems) = preProject
+		LinkedDataResearch\input\SharedLearning\Organisation.csv = LinkedDataResearch\input\SharedLearning\Organisation.csv
+		LinkedDataResearch\input\SharedLearning\SharedLearning.csv = LinkedDataResearch\input\SharedLearning\SharedLearning.csv
+		LinkedDataResearch\input\SharedLearning\SLearning.csv = LinkedDataResearch\input\SharedLearning\SLearning.csv
+		LinkedDataResearch\input\SharedLearning\SLToGeo.csv = LinkedDataResearch\input\SharedLearning\SLToGeo.csv
+		LinkedDataResearch\input\SharedLearning\SLToOrgMap.csv = LinkedDataResearch\input\SharedLearning\SLToOrgMap.csv
+		LinkedDataResearch\input\SharedLearning\SLToQSMap.csv = LinkedDataResearch\input\SharedLearning\SLToQSMap.csv
+		LinkedDataResearch\input\SharedLearning\SLToRecMap.csv = LinkedDataResearch\input\SharedLearning\SLToRecMap.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Audit", "Audit", "{677535FF-A1DC-47B2-98F3-5616C42F50F8}"
+	ProjectSection(SolutionItems) = preProject
+		LinkedDataResearch\input\Audit\Audit.csv = LinkedDataResearch\input\Audit\Audit.csv
+		LinkedDataResearch\input\Audit\AuditInfoSource.csv = LinkedDataResearch\input\Audit\AuditInfoSource.csv
 	EndProjectSection
 EndProject
 Global
@@ -46,5 +79,11 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D62BC2AD-7E79-4C60-95DF-DAE54AAC995C} = {F86AA893-3439-472C-B309-FD42806545B8}
+		{CCAA90FF-482E-4D76-BA8F-470C61145170} = {F86AA893-3439-472C-B309-FD42806545B8}
+		{D84BBDDF-FDCA-4092-933F-9CF2F68129B5} = {CCAA90FF-482E-4D76-BA8F-470C61145170}
+		{902A0084-F723-48D4-997C-81B6B0B0B816} = {CCAA90FF-482E-4D76-BA8F-470C61145170}
+		{D93E24AD-989C-4F16-BFA5-8DDB588AEB62} = {CCAA90FF-482E-4D76-BA8F-470C61145170}
+		{E580CB4E-71CB-4BAE-A242-FDF0DB36BA6C} = {CCAA90FF-482E-4D76-BA8F-470C61145170}
+		{677535FF-A1DC-47B2-98F3-5616C42F50F8} = {CCAA90FF-482E-4D76-BA8F-470C61145170}
 	EndGlobalSection
 EndGlobal

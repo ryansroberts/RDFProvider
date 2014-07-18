@@ -33,7 +33,7 @@
 
     type guideline = thing.``ng:Guideline``
     type topic = thing.``ng:Topic``
-    type isAbout = guideline.ObjectProperties.``ng:isAbout``
+    type isAbout = thing.ObjectProperties.``ng:isAbout`` 
     type hasRationale = topic.ObjectProperties.``ng:hasRationale``
     type rationale = thing.``ng:Rationale`` 
     type question = thing.``ner:Question``
@@ -45,7 +45,7 @@
     type review = thing.``ner:Review``
     type qualityStandard = thing.``nqs:QualityStandard``
     type qualityStatement = thing.``nqs:QualityStatement``
-   
+
     //Annotations 
     type semanticTag = thing.``oa:Tag``.``oa:SemanticTag``
     type tag = thing.``oa:Tag``

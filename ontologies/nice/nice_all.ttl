@@ -243,7 +243,8 @@
                                                                                 owl:inverseOf <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isTopicOf> ;
                                                                                 
                                                                                 rdfs:domain [ rdf:type owl:Class ;
-                                                                                              owl:unionOf ( <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#EvidenceStatement>
+                                                                                              owl:unionOf ( <http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Question>
+                                                                                                            <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#EvidenceStatement>
                                                                                                             <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Guideline>
                                                                                                             <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation>
                                                                                                           )
@@ -285,7 +286,11 @@
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isSummarisedBy
 
-<http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isSummarisedBy> rdf:type owl:ObjectProperty .
+<http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isSummarisedBy> rdf:type owl:ObjectProperty ;
+                                                                                       
+                                                                                       rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Study> ;
+                                                                                       
+                                                                                       rdfs:range <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#EvidenceStatement> .
 
 
 
@@ -296,7 +301,8 @@
                                                                                   rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Topic> ;
                                                                                   
                                                                                   rdfs:range [ rdf:type owl:Class ;
-                                                                                               owl:unionOf ( <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#EvidenceStatement>
+                                                                                               owl:unionOf ( <http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Question>
+                                                                                                             <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#EvidenceStatement>
                                                                                                              <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Guideline>
                                                                                                              <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation>
                                                                                                            )
@@ -312,7 +318,11 @@
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#summarises
 
-<http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#summarises> rdf:type owl:ObjectProperty .
+<http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#summarises> rdf:type owl:ObjectProperty ;
+                                                                                   
+                                                                                   rdfs:range <http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Study> ;
+                                                                                   
+                                                                                   rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#EvidenceStatement> .
 
 
 
@@ -320,9 +330,17 @@
 
 <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#supportedBy> rdf:type owl:ObjectProperty ;
                                                                                     
-                                                                                    rdfs:range <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#EvidenceStatement> ;
+                                                                                    rdfs:range [ rdf:type owl:Class ;
+                                                                                                 owl:unionOf ( <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#EvidenceStatement>
+                                                                                                               <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStandard>
+                                                                                                             )
+                                                                                               ] ;
                                                                                     
-                                                                                    rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation> .
+                                                                                    rdfs:domain [ rdf:type owl:Class ;
+                                                                                                  owl:unionOf ( <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation>
+                                                                                                                <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesIndicator>
+                                                                                                              )
+                                                                                                ] .
 
 
 
@@ -330,11 +348,19 @@
 
 <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#supports> rdf:type owl:ObjectProperty ;
                                                                                  
-                                                                                 rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#EvidenceStatement> ;
+                                                                                 owl:inverseOf <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#supportedBy> ;
                                                                                  
-                                                                                 rdfs:range <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation> ;
+                                                                                 rdfs:range [ rdf:type owl:Class ;
+                                                                                              owl:unionOf ( <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation>
+                                                                                                            <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesIndicator>
+                                                                                                          )
+                                                                                            ] ;
                                                                                  
-                                                                                 owl:inverseOf <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#supportedBy> .
+                                                                                 rdfs:domain [ rdf:type owl:Class ;
+                                                                                               owl:unionOf ( <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#EvidenceStatement>
+                                                                                                             <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStandard>
+                                                                                                           )
+                                                                                             ] .
 
 
 
@@ -407,6 +433,28 @@
                                                                                      rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesIndicator> ;
                                                                                      
                                                                                      owl:inverseOf <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#isSupportedby> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#isUnderpinnedBy
+
+:isUnderpinnedBy rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:range <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation> ;
+                 
+                 rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStatement> ;
+                 
+                 owl:inverseOf :underpins .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#underpins
+
+:underpins rdf:type owl:ObjectProperty ;
+           
+           rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation> ;
+           
+           rdfs:range <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStatement> .
 
 
 
@@ -740,17 +788,17 @@
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesDomain>
-                <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesFramework>
-                <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesIndicator>
-              )
-] .
-[ rdf:type owl:AllDisjointClasses ;
   owl:members ( <http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Question>
                 <http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Reference>
                 <http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Review>
                 <http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#SearchStrategy>
                 <http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Study>
+              )
+] .
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesDomain>
+                <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesFramework>
+                <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesIndicator>
               )
 ] .
 

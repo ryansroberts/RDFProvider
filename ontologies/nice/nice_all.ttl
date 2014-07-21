@@ -354,6 +354,30 @@
 
 
 
+###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#hasMeasure
+
+:hasMeasure rdf:type owl:ObjectProperty ;
+            
+            rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStatement> ;
+            
+            rdfs:range :QualityMeasure ;
+            
+            owl:inverseOf :isMeasureOf .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#isMeasureOf
+
+:isMeasureOf rdf:type owl:ObjectProperty ;
+             
+             rdfs:range :QualityMeasure ;
+             
+             rdfs:domain :QualityMeasure ;
+             
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#isUnderpinnedBy
 
 :isUnderpinnedBy rdf:type owl:ObjectProperty ;
@@ -579,6 +603,26 @@
 
 
 
+###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#hasDenominator
+
+:hasDenominator rdf:type owl:DatatypeProperty ;
+                
+                rdfs:domain :QualityMeasure ;
+                
+                rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#hasNumerator
+
+:hasNumerator rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :QualityMeasure ;
+              
+              rdfs:range xsd:string .
+
+
+
 
 
 #################################################################
@@ -734,6 +778,14 @@
 
 
 
+###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#QualityMeasure
+
+:QualityMeasure rdf:type owl:Class ;
+                
+                rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
 ###  http://www.w3.org/ns/prov#Location
 
 <http://www.w3.org/ns/prov#Location> rdf:type owl:Class .
@@ -765,6 +817,7 @@
                 <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesDomain>
                 <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesFramework>
                 <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesIndicator>
+                :QualityMeasure
                 <http://www.w3.org/ns/prov#Bundle>
                 <http://www.w3.org/ns/prov#Collection>
                 <http://www.w3.org/ns/prov#Plan>

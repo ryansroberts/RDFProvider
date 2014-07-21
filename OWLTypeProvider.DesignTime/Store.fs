@@ -161,9 +161,8 @@ let sampleIndividuals root conn =
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         SELECT ?entity
         WHERE {
-          ?entity a ?type .
+          ?entity a <%s> .
           ?entity a owl:NamedIndividual .
-          ?type rdfs:subClassOf <%s>.
         }
         LIMIT 10 
     """ (string root)) conn |> oneTuple

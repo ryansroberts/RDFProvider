@@ -152,8 +152,7 @@
                 yield (a,Object.from recommendation.Uri)
                 yield (a,individual)
                 yield (Predicate.from recommendation.DataProperties.``ng:identifier``.Uri,Object.from (string r.Id))
-                yield (Predicate.from recommendation.DataProperties.``ng:recommendationStrength``.Uri,Object.from (string r.Guideline))
-                yield (Predicate.from recommendation.DataProperties.``ng:recommendationStrength``.Uri,Object.from (string r.Title))
+                yield (Predicate.from recommendation.DataProperties.``ng:title``.Uri,Object.from (string r.Title))
                 yield (Predicate.from isAbout.Uri,Object.from (string (scope.Enter(r.Set))))
                 yield (Predicate.from recommendation.DataProperties.``ng:recommendationStrength``.Uri,Object.from r.Grade)
             ]

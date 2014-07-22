@@ -139,7 +139,7 @@ let dataProperties root conn =
     cachedinference (sprintf """
         PREFIX owl: <http://www.w3.org/2002/07/owl#>
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-        select ?p ?t
+        select distinct ?p ?t
         where {
              {?p a owl:DatatypeProperty .
              ?p rdfs:domain ?u .

@@ -1,0 +1,266 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Dysautonomia",
+        "wikiLink": "http://en.wikipedia.org/Dysautonomia",
+        "score": 0.136453
+      },
+      {
+        "id": 1,
+        "label": "Peripheral neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Peripheral_neuropathy",
+        "score": 0.497339
+      },
+      {
+        "id": 2,
+        "label": "Peripheral nervous system",
+        "wikiLink": "http://en.wikipedia.org/Category:Peripheral_nervous_system",
+        "score": 0.500465
+      },
+      {
+        "id": 3,
+        "label": "Neuroanatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Neuroanatomy",
+        "score": 0.500465
+      },
+      {
+        "id": 4,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders_by_system",
+        "score": 0.198981
+      },
+      {
+        "id": 5,
+        "label": "Neurology",
+        "wikiLink": "http://en.wikipedia.org/Category:Neurology",
+        "score": 0.198981
+      },
+      {
+        "id": 6,
+        "label": "Neurological disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Neurological_disorders",
+        "score": 0.198981
+      },
+      {
+        "id": 7,
+        "label": "Peripheral nervous system disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Peripheral_nervous_system_disorders",
+        "score": 0.186942
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Autonomic nervous system",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject",
+          "/medicine/nerve"
+        ],
+        "confidenceScore": 1.36223,
+        "wikiLink": "http://en.wikipedia.org/wiki/Autonomic_nervous_system",
+        "matchedText": "autonomic",
+        "freebaseId": "/m/01657q",
+        "relevanceScore": 0.0385443,
+        "entityEnglishId": "Autonomic nervous system",
+        "startingPos": 87,
+        "endingPos": 96
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Dysautonomia",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.69905,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dysautonomia",
+        "matchedText": "autonomic neuropathy",
+        "freebaseId": "/m/02510j",
+        "relevanceScore": 0.136453,
+        "entityEnglishId": "Dysautonomia",
+        "startingPos": 87,
+        "endingPos": 107
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Peripheral neuropathy",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.55211,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peripheral_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02w1fx",
+        "relevanceScore": 0.497339,
+        "entityEnglishId": "Peripheral neuropathy",
+        "startingPos": 97,
+        "endingPos": 107
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Urinary bladder",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.42099,
+        "wikiLink": "http://en.wikipedia.org/wiki/Urinary_bladder",
+        "matchedText": "the bladder",
+        "freebaseId": "/m/07xtz",
+        "relevanceScore": 0.0480929,
+        "entityEnglishId": "Urinary bladder",
+        "startingPos": 118,
+        "endingPos": 129
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Urinary bladder",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.66933,
+        "wikiLink": "http://en.wikipedia.org/wiki/Urinary_bladder",
+        "matchedText": "bladder",
+        "freebaseId": "/m/07xtz",
+        "relevanceScore": 0.0480929,
+        "entityEnglishId": "Urinary bladder",
+        "startingPos": 122,
+        "endingPos": 129
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "time": 3.015,
+  "ok": true
+}

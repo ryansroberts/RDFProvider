@@ -1,0 +1,328 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.595525
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.593528
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.527233
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.47071
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.460023
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.0741656
+      },
+      {
+        "id": 1,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0330298
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.025668
+      },
+      {
+        "id": 3,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.00711481
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.41773,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patient",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.090427,
+        "entityEnglishId": "Patient",
+        "startingPos": 11,
+        "endingPos": 18
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Resource",
+        "confidenceScore": 1.0165,
+        "wikiLink": "http://en.wikipedia.org/wiki/Resource",
+        "matchedText": "resources",
+        "freebaseId": "/m/02q9lq2",
+        "relevanceScore": 0.0782814,
+        "entityEnglishId": "Resource",
+        "startingPos": 62,
+        "endingPos": 71
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Skill",
+        "freebaseTypes": [
+          "/internet/website_category",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.52855,
+        "wikiLink": "http://en.wikipedia.org/wiki/Skill",
+        "matchedText": "skills",
+        "freebaseId": "/m/01zsxh",
+        "relevanceScore": 0.0581575,
+        "entityEnglishId": "Skill",
+        "startingPos": 183,
+        "endingPos": 189
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              10,
+              11,
+              12,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          5,
+          9,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              7,
+              8,
+              11,
+              12,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          5,
+          17,
+          18,
+          19,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4,
+              16
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              15,
+              21,
+              22,
+              23,
+              24,
+              25
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              16
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              15,
+              21,
+              22,
+              23,
+              24,
+              25
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6,
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

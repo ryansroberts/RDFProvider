@@ -1,0 +1,431 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.47392
+      },
+      {
+        "id": 2,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.47392
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.473713
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.473279
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.473279
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Calcium channel",
+        "wikiLink": "http://en.wikipedia.org/Calcium_channel",
+        "score": 0.12581
+      },
+      {
+        "id": 1,
+        "label": "Calcium channel blocker",
+        "wikiLink": "http://en.wikipedia.org/Calcium_channel_blocker",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Pregnancy",
+        "wikiLink": "http://en.wikipedia.org/Pregnancy",
+        "score": 0.195285
+      },
+      {
+        "id": 3,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.248111
+      },
+      {
+        "id": 4,
+        "label": "Ion channels",
+        "wikiLink": "http://en.wikipedia.org/Category:Ion_channels",
+        "score": 0.473767
+      },
+      {
+        "id": 5,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.272511
+      },
+      {
+        "id": 6,
+        "label": "Antiarrhythmic agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Antiarrhythmic_agents",
+        "score": 0.196451
+      },
+      {
+        "id": 7,
+        "label": "Ion channel blockers",
+        "wikiLink": "http://en.wikipedia.org/Category:Ion_channel_blockers",
+        "score": 0.132662
+      },
+      {
+        "id": 8,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.108918
+      },
+      {
+        "id": 9,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics_by_issue",
+        "score": 0.0837047
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Calcium",
+        "freebaseTypes": [
+          "/chemistry/chemical_element",
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/food/nutrient",
+          "/medicine/drug",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 1.62072,
+        "wikiLink": "http://en.wikipedia.org/wiki/Calcium",
+        "matchedText": "calcium",
+        "freebaseId": "/m/025tkqy",
+        "relevanceScore": 0.0696276,
+        "entityEnglishId": "Calcium",
+        "startingPos": 2,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Calcium channel",
+        "confidenceScore": 2.93552,
+        "wikiLink": "http://en.wikipedia.org/wiki/Calcium_channel",
+        "matchedText": "calcium channel",
+        "freebaseId": "/m/02vk82k",
+        "relevanceScore": 0.12581,
+        "entityEnglishId": "Calcium channel",
+        "startingPos": 2,
+        "endingPos": 17
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "Calcium channel blocker",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/law/invention",
+          "/medicine/risk_factor",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 7.07925,
+        "wikiLink": "http://en.wikipedia.org/wiki/Calcium_channel_blocker",
+        "matchedText": "calcium channel blocker",
+        "freebaseId": "/m/01lgk8",
+        "relevanceScore": 0.353121,
+        "entityEnglishId": "Calcium channel blocker",
+        "startingPos": 2,
+        "endingPos": 25
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Calcium channel blocker",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/law/invention",
+          "/medicine/risk_factor",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 0.921565,
+        "wikiLink": "http://en.wikipedia.org/wiki/Calcium_channel_blocker",
+        "matchedText": "blocker",
+        "freebaseId": "/m/01lgk8",
+        "relevanceScore": 0.898341,
+        "entityEnglishId": "Calcium channel blocker",
+        "startingPos": 18,
+        "endingPos": 25
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Blood",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/food/ingredient",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.25197,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood",
+        "matchedText": "blood",
+        "freebaseId": "/m/019jw",
+        "relevanceScore": 0.0100898,
+        "entityEnglishId": "Blood",
+        "startingPos": 51,
+        "endingPos": 56
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.43689,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.248111,
+        "entityEnglishId": "Therapy",
+        "startingPos": 75,
+        "endingPos": 82
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Pregnancy",
+        "freebaseTypes": [
+          "/radio/radio_subject",
+          "/medicine/contraindication",
+          "/tv/tv_subject",
+          "/book/book_subject",
+          "/film/film_subject",
+          "/medicine/disease_cause",
+          "/visual_art/art_subject",
+          "/medicine/risk_factor",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 0.908696,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pregnancy",
+        "matchedText": "pregnant",
+        "freebaseId": "/m/05vqh7",
+        "relevanceScore": 0.195285,
+        "entityEnglishId": "Pregnancy",
+        "startingPos": 187,
+        "endingPos": 195
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          17,
+          23,
+          24
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              22
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              18,
+              19,
+              20,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          27,
+          28,
+          29,
+          31
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              30
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              32
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          31
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              30
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              32
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          6,
+          8,
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          4,
+          6,
+          8,
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          18,
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      }
+    ]
+  },
+  "time": 3.027,
+  "ok": true
+}

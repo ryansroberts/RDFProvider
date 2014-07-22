@@ -1,0 +1,225 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Fructosamine",
+        "wikiLink": "http://en.wikipedia.org/Fructosamine",
+        "score": 0.327737
+      },
+      {
+        "id": 1,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.0411142
+      },
+      {
+        "id": 2,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.0411142
+      },
+      {
+        "id": 3,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.0411142
+      },
+      {
+        "id": 4,
+        "label": "Human metabolites",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_metabolites",
+        "score": 0.0333333
+      },
+      {
+        "id": 5,
+        "label": "Clinical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_pathology",
+        "score": 0.0333333
+      },
+      {
+        "id": 6,
+        "label": "Diabetes-related tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes-related_tests",
+        "score": 0.0333333
+      },
+      {
+        "id": 7,
+        "label": "Blood tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Blood_tests",
+        "score": 0.0333333
+      },
+      {
+        "id": 8,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.0333333
+      },
+      {
+        "id": 9,
+        "label": "Chemical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_pathology",
+        "score": 0.0333333
+      },
+      {
+        "id": 10,
+        "label": "Hematology",
+        "wikiLink": "http://en.wikipedia.org/Category:Hematology",
+        "score": 0.0333333
+      },
+      {
+        "id": 11,
+        "label": "Blood",
+        "wikiLink": "http://en.wikipedia.org/Category:Blood",
+        "score": 0.0333333
+      },
+      {
+        "id": 12,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.0333333
+      },
+      {
+        "id": 13,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Fructosamine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 2.9278,
+        "wikiLink": "http://en.wikipedia.org/wiki/Fructosamine",
+        "matchedText": "Fructosamine",
+        "freebaseId": "/m/0bw3pr",
+        "relevanceScore": 0.327737,
+        "entityEnglishId": "Fructosamine",
+        "startingPos": 0,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.16981,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "HbA1c",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.0377037,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 60,
+        "endingPos": 65
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              10,
+              11
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  "time": 3.012,
+  "ok": true
+}

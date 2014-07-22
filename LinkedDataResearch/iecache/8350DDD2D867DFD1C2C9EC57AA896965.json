@@ -1,0 +1,166 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.885707
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Eye",
+        "wikiLink": "http://en.wikipedia.org/Eye",
+        "score": 0.417033
+      },
+      {
+        "id": 1,
+        "label": "Visual acuity",
+        "wikiLink": "http://en.wikipedia.org/Visual_acuity",
+        "score": 0.608447
+      },
+      {
+        "id": 2,
+        "label": "Facial features",
+        "wikiLink": "http://en.wikipedia.org/Category:Facial_features",
+        "score": 0.154076
+      },
+      {
+        "id": 3,
+        "label": "Sensory organs",
+        "wikiLink": "http://en.wikipedia.org/Category:Sensory_organs",
+        "score": 0.154076
+      },
+      {
+        "id": 4,
+        "label": "Visual system",
+        "wikiLink": "http://en.wikipedia.org/Category:Visual_system",
+        "score": 0.154076
+      },
+      {
+        "id": 5,
+        "label": "Human head and neck",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_head_and_neck",
+        "score": 0.154076
+      },
+      {
+        "id": 6,
+        "label": "Vision",
+        "wikiLink": "http://en.wikipedia.org/Category:Vision",
+        "score": 0.154076
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Visual acuity",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.50135,
+        "wikiLink": "http://en.wikipedia.org/wiki/Visual_acuity",
+        "matchedText": "visual acuity",
+        "freebaseId": "/m/02_g1v",
+        "relevanceScore": 0.138685,
+        "entityEnglishId": "Visual acuity",
+        "startingPos": 8,
+        "endingPos": 21
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Visual acuity",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.03582,
+        "wikiLink": "http://en.wikipedia.org/wiki/Visual_acuity",
+        "matchedText": "acuity",
+        "freebaseId": "/m/02_g1v",
+        "relevanceScore": 0.469762,
+        "entityEnglishId": "Visual acuity",
+        "startingPos": 15,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Eye",
+        "freebaseTypes": [
+          "/media_common/quotation_subject",
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.80982,
+        "wikiLink": "http://en.wikipedia.org/wiki/Eye",
+        "matchedText": "eye",
+        "freebaseId": "/m/014sv8",
+        "relevanceScore": 0.417033,
+        "entityEnglishId": "Eye",
+        "startingPos": 51,
+        "endingPos": 54
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          5,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  "time": 3.016,
+  "ok": true
+}

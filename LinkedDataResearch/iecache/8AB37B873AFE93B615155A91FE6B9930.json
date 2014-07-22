@@ -1,0 +1,350 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.868219
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.828568
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.792118
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.769031
+      },
+      {
+        "id": 5,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.726897
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Goal",
+        "wikiLink": "http://en.wikipedia.org/Goal",
+        "score": 0.16484
+      },
+      {
+        "id": 1,
+        "label": "Lifestyle (sociology)",
+        "wikiLink": "http://en.wikipedia.org/Lifestyle_(sociology)",
+        "score": 0.528579
+      },
+      {
+        "id": 2,
+        "label": "Risk",
+        "wikiLink": "http://en.wikipedia.org/Risk",
+        "score": 0.105451
+      },
+      {
+        "id": 3,
+        "label": "Euthenics",
+        "wikiLink": "http://en.wikipedia.org/Category:Euthenics",
+        "score": 0.101288
+      },
+      {
+        "id": 4,
+        "label": "Security",
+        "wikiLink": "http://en.wikipedia.org/Category:Security",
+        "score": 0.0913661
+      },
+      {
+        "id": 5,
+        "label": "Health fields",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_fields",
+        "score": 0.0762039
+      },
+      {
+        "id": 6,
+        "label": "Fields of application of statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_application_of_statistics",
+        "score": 0.0753489
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Lifestyle (sociology)",
+        "freebaseTypes": [
+          "/media_common/media_genre",
+          "/book/magazine_genre",
+          "/media_common/literary_genre",
+          "/broadcast/genre",
+          "/internet/website_category",
+          "/book/book_subject",
+          "/tv/tv_genre"
+        ],
+        "confidenceScore": 1.16159,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lifestyle_(sociology)",
+        "matchedText": "lifestyle",
+        "freebaseId": "/m/019_rr",
+        "relevanceScore": 0.264289,
+        "entityEnglishId": "Lifestyle (sociology)",
+        "startingPos": 33,
+        "endingPos": 42
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Goal",
+        "freebaseTypes": [
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.02962,
+        "wikiLink": "http://en.wikipedia.org/wiki/Goal",
+        "matchedText": "goals",
+        "freebaseId": "/m/03g_1kv",
+        "relevanceScore": 0.16484,
+        "entityEnglishId": "Goal",
+        "startingPos": 151,
+        "endingPos": 156
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Risk",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 0.906231,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk",
+        "matchedText": "risk",
+        "freebaseId": "/m/06d5f",
+        "relevanceScore": 0.105451,
+        "entityEnglishId": "Risk",
+        "startingPos": 184,
+        "endingPos": 188
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          35,
+          36
+        ],
+        "entityId": "Risk factor",
+        "confidenceScore": 1.21107,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk_factor",
+        "matchedText": "risk factors",
+        "freebaseId": "/m/03nznf",
+        "relevanceScore": 0,
+        "entityEnglishId": "Risk factor",
+        "startingPos": 184,
+        "endingPos": 196
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          53
+        ],
+        "entityId": "Lifestyle (sociology)",
+        "freebaseTypes": [
+          "/media_common/media_genre",
+          "/book/magazine_genre",
+          "/media_common/literary_genre",
+          "/broadcast/genre",
+          "/internet/website_category",
+          "/book/book_subject",
+          "/tv/tv_genre"
+        ],
+        "confidenceScore": 1.16159,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lifestyle_(sociology)",
+        "matchedText": "lifestyle",
+        "freebaseId": "/m/019_rr",
+        "relevanceScore": 0.264289,
+        "entityEnglishId": "Lifestyle (sociology)",
+        "startingPos": 272,
+        "endingPos": 281
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          40,
+          41,
+          42
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              38,
+              39
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              43,
+              44,
+              45,
+              46,
+              47,
+              49,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              38,
+              39
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              47,
+              49,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          40,
+          41,
+          42,
+          52,
+          55,
+          56,
+          57,
+          58
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              38,
+              39,
+              53,
+              54
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              43,
+              44,
+              45,
+              46,
+              47,
+              49
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          13
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          27,
+          28,
+          30
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26
+        ]
+      }
+    ]
+  },
+  "time": 3.02,
+  "ok": true
+}

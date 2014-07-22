@@ -1,0 +1,182 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.499504
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.499504
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.499504
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cardiovascular disease",
+        "wikiLink": "http://en.wikipedia.org/Cardiovascular_disease",
+        "score": 0.132361
+      },
+      {
+        "id": 1,
+        "label": "Risk",
+        "wikiLink": "http://en.wikipedia.org/Risk",
+        "score": 0.376352
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          2,
+          3
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.14969,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "cardiovascular risk",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.132361,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 15,
+        "endingPos": 34
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Risk",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 0.933433,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk",
+        "matchedText": "risk",
+        "freebaseId": "/m/06d5f",
+        "relevanceScore": 0.188176,
+        "entityEnglishId": "Risk",
+        "startingPos": 30,
+        "endingPos": 34
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "UKPDS",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "UKPDS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 54,
+        "endingPos": 59
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Risk",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 0.933433,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk",
+        "matchedText": "risk",
+        "freebaseId": "/m/06d5f",
+        "relevanceScore": 0.188176,
+        "entityEnglishId": "Risk",
+        "startingPos": 60,
+        "endingPos": 64
+      },
+      {
+        "id": 4,
+        "type": [
+          "Date"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "1.9.2",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "1.9.2",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 77,
+        "endingPos": 82
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

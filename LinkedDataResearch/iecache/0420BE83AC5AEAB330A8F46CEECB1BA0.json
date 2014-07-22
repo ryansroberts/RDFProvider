@@ -1,0 +1,426 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.260997
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.257105
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.209887
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes in dogs",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_in_dogs",
+        "score": 0.346022
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 1",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_1",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Injection (medicine)",
+        "wikiLink": "http://en.wikipedia.org/Injection_(medicine)",
+        "score": 0.245109
+      },
+      {
+        "id": 3,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.759327
+      },
+      {
+        "id": 4,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.730758
+      },
+      {
+        "id": 5,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.707309
+      },
+      {
+        "id": 6,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.156644
+      },
+      {
+        "id": 7,
+        "label": "Veterinary medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Veterinary_medicine",
+        "score": 0.140953
+      },
+      {
+        "id": 8,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.128834
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          2,
+          3
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.22338,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "Type 1",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.836204,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 12,
+        "endingPos": 18
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          2,
+          3,
+          4
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 5.20722,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "Type 1 diabetes",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.252939,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 12,
+        "endingPos": 27
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Diabetes in dogs",
+        "confidenceScore": 0.917655,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_in_dogs",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0bh89gw",
+        "relevanceScore": 0.346022,
+        "entityEnglishId": "Diabetes in dogs",
+        "startingPos": 19,
+        "endingPos": 27
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Injection (medicine)",
+        "freebaseTypes": [
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 1.05949,
+        "wikiLink": "http://en.wikipedia.org/wiki/Injection_(medicine)",
+        "matchedText": "injections",
+        "freebaseId": "/m/03131m",
+        "relevanceScore": 0.122555,
+        "entityEnglishId": "Injection (medicine)",
+        "startingPos": 85,
+        "endingPos": 95
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Injection (medicine)",
+        "freebaseTypes": [
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 1.31606,
+        "wikiLink": "http://en.wikipedia.org/wiki/Injection_(medicine)",
+        "matchedText": "injection",
+        "freebaseId": "/m/03131m",
+        "relevanceScore": 0.122555,
+        "entityEnglishId": "Injection (medicine)",
+        "startingPos": 151,
+        "endingPos": 160
+      },
+      {
+        "id": 5,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "Skin",
+        "freebaseTypes": [
+          "/film/film_subject",
+          "/book/book_subject",
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 2.23149,
+        "wikiLink": "http://en.wikipedia.org/wiki/Skin",
+        "matchedText": "skin",
+        "freebaseId": "/m/06z04",
+        "relevanceScore": 0.0942268,
+        "entityEnglishId": "Skin",
+        "startingPos": 203,
+        "endingPos": 207
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5,
+          6,
+          7,
+          24
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          13,
+          24
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              10,
+              11,
+              12,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          27,
+          29,
+          30
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          36,
+          38,
+          39
+        ],
+        "propertyPositions": [
+          37
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          36,
+          38,
+          39
+        ],
+        "propertyPositions": [
+          40,
+          41
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          33,
+          34,
+          35
+        ],
+        "propertyPositions": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          18,
+          20,
+          21
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          18,
+          20,
+          21
+        ],
+        "propertyPositions": [
+          22
+        ]
+      }
+    ]
+  },
+  "time": 3.019,
+  "ok": true
+}

@@ -1,0 +1,404 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.940355
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.939801
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.47653
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.43764
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Injection (medicine)",
+        "wikiLink": "http://en.wikipedia.org/Injection_(medicine)",
+        "score": 0.107651
+      },
+      {
+        "id": 1,
+        "label": "Insulin",
+        "wikiLink": "http://en.wikipedia.org/Insulin",
+        "score": 0.169985
+      },
+      {
+        "id": 2,
+        "label": "Self-monitoring",
+        "wikiLink": "http://en.wikipedia.org/Self-monitoring",
+        "score": 0.150871
+      },
+      {
+        "id": 3,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.0770876
+      },
+      {
+        "id": 4,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.0582602
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Self-monitoring",
+        "confidenceScore": 1.71645,
+        "wikiLink": "http://en.wikipedia.org/wiki/Self-monitoring",
+        "matchedText": "self-monitoring",
+        "freebaseId": "/m/025sv8d",
+        "relevanceScore": 0.150871,
+        "entityEnglishId": "Self-monitoring",
+        "startingPos": 177,
+        "endingPos": 192
+      },
+      {
+        "id": 1,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 3.89098,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.169985,
+        "entityEnglishId": "Insulin",
+        "startingPos": 197,
+        "endingPos": 204
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Injection (medicine)",
+        "freebaseTypes": [
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 1.48837,
+        "wikiLink": "http://en.wikipedia.org/wiki/Injection_(medicine)",
+        "matchedText": "injection",
+        "freebaseId": "/m/03131m",
+        "relevanceScore": 0.107651,
+        "entityEnglishId": "Injection (medicine)",
+        "startingPos": 205,
+        "endingPos": 214
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              10,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              10,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          36,
+          37
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              35
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              38,
+              39,
+              40,
+              41,
+              43,
+              44,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          36,
+          37,
+          43,
+          46
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              35
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              38,
+              39,
+              40,
+              41,
+              44,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5,
+          6
+        ],
+        "propertyPositions": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          32
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          35
+        ],
+        "propertyPositions": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          43,
+          44,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          35
+        ],
+        "propertyPositions": [
+          36
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          39,
+          41
+        ],
+        "propertyPositions": [
+          40
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          35
+        ],
+        "propertyPositions": [
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          50
+        ],
+        "propertyPositions": [
+          49
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          47,
+          48
+        ],
+        "propertyPositions": [
+          49,
+          50,
+          51,
+          52
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          35
+        ],
+        "propertyPositions": [
+          43,
+          44,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52
+        ]
+      }
+    ]
+  },
+  "time": 3.029,
+  "ok": true
+}

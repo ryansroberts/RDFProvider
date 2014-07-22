@@ -1,0 +1,167 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.993645
+      },
+      {
+        "id": 2,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.993645
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.993645
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Glycated hemoglobin",
+        "wikiLink": "http://en.wikipedia.org/Glycated_hemoglobin",
+        "score": 0.640204
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 6.20725,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "HbA1c",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.640204,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 8,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "DCCT Trial",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "DCCT Trial",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 98,
+        "endingPos": 108
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Guideline",
+        "confidenceScore": 1.30456,
+        "wikiLink": "http://en.wikipedia.org/wiki/Guideline",
+        "matchedText": "guideline",
+        "freebaseId": "/m/04xyb9",
+        "relevanceScore": 0,
+        "entityEnglishId": "Guideline",
+        "startingPos": 176,
+        "endingPos": 185
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          25,
+          26
+        ],
+        "propertyPositions": [
+          27,
+          28
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

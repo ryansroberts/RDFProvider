@@ -1,0 +1,440 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.30469
+      },
+      {
+        "id": 2,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.28712
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Angina pectoris",
+        "wikiLink": "http://en.wikipedia.org/Angina_pectoris",
+        "score": 0.581652
+      },
+      {
+        "id": 1,
+        "label": "Percutaneous coronary intervention",
+        "wikiLink": "http://en.wikipedia.org/Percutaneous_coronary_intervention",
+        "score": 0.539013
+      },
+      {
+        "id": 2,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.397732
+      },
+      {
+        "id": 3,
+        "label": "Medical treatments",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_treatments",
+        "score": 0.591109
+      },
+      {
+        "id": 4,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.454116
+      },
+      {
+        "id": 5,
+        "label": "Medicinal chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicinal_chemistry",
+        "score": 0.448475
+      },
+      {
+        "id": 6,
+        "label": "Pharmaceutical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_sciences",
+        "score": 0.448475
+      },
+      {
+        "id": 7,
+        "label": "Cardiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiology",
+        "score": 0.293167
+      },
+      {
+        "id": 8,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.164534
+      },
+      {
+        "id": 9,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.150926
+      },
+      {
+        "id": 10,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.148013
+      },
+      {
+        "id": 11,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.146077
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Percutaneous coronary intervention",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.14859,
+        "wikiLink": "http://en.wikipedia.org/wiki/Percutaneous_coronary_intervention",
+        "matchedText": "PCI",
+        "freebaseId": "/m/09xlbt",
+        "relevanceScore": 0.539013,
+        "entityEnglishId": "Percutaneous coronary intervention",
+        "startingPos": 75,
+        "endingPos": 78
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Angina pectoris",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/risk_factor",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.55479,
+        "wikiLink": "http://en.wikipedia.org/wiki/Angina_pectoris",
+        "matchedText": "stable angina",
+        "freebaseId": "/m/0hg45",
+        "relevanceScore": 0.248759,
+        "entityEnglishId": "Angina pectoris",
+        "startingPos": 126,
+        "endingPos": 139
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Angina pectoris",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/risk_factor",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 6.47629,
+        "wikiLink": "http://en.wikipedia.org/wiki/Angina_pectoris",
+        "matchedText": "angina",
+        "freebaseId": "/m/0hg45",
+        "relevanceScore": 0.332893,
+        "entityEnglishId": "Angina pectoris",
+        "startingPos": 133,
+        "endingPos": 139
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Drug",
+        "freebaseTypes": [
+          "/medicine/drug_formulation_category",
+          "/film/film_subject",
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.49383,
+        "wikiLink": "http://en.wikipedia.org/wiki/Drug",
+        "matchedText": "drug",
+        "freebaseId": "/m/02kjb_",
+        "relevanceScore": 0.037335,
+        "entityEnglishId": "Drug",
+        "startingPos": 183,
+        "endingPos": 187
+      },
+      {
+        "id": 4,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature"
+        ],
+        "matchingTokens": [
+          29,
+          30
+        ],
+        "entityId": "Pharmacotherapy",
+        "freebaseTypes": [
+          "/law/invention",
+          "/education/field_of_study",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.00334,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmacotherapy",
+        "matchedText": "drug therapy",
+        "freebaseId": "/m/0c59df",
+        "relevanceScore": 0.0690359,
+        "entityEnglishId": "Pharmacotherapy",
+        "startingPos": 183,
+        "endingPos": 195
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.34016,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.397732,
+        "entityEnglishId": "Therapy",
+        "startingPos": 188,
+        "endingPos": 195
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          11
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              12,
+              13,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              23
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              28,
+              29,
+              30
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13,
+          15,
+          16,
+          24,
+          25,
+          26,
+          27
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              23
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              17,
+              18,
+              19,
+              20,
+              21,
+              28,
+              29,
+              30
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          29,
+          30
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          13,
+          16,
+          24,
+          25,
+          26,
+          27
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          5,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          5,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          5,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10
+        ]
+      }
+    ]
+  },
+  "time": 3.024,
+  "ok": true
+}

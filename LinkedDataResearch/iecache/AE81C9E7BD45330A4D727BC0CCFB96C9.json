@@ -1,0 +1,455 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.623604
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.600191
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.425124
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.19848
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.19848
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Disease",
+        "wikiLink": "http://en.wikipedia.org/Disease",
+        "score": 0.262789
+      },
+      {
+        "id": 1,
+        "label": "Fibrate",
+        "wikiLink": "http://en.wikipedia.org/Fibrate",
+        "score": 0.253025
+      },
+      {
+        "id": 2,
+        "label": "Fish oil",
+        "wikiLink": "http://en.wikipedia.org/Fish_oil",
+        "score": 0.725226
+      },
+      {
+        "id": 3,
+        "label": "Hypertriglyceridemia",
+        "wikiLink": "http://en.wikipedia.org/Hypertriglyceridemia",
+        "score": 0.300929
+      },
+      {
+        "id": 4,
+        "label": "Omega-3 fatty acid",
+        "wikiLink": "http://en.wikipedia.org/Omega-3_fatty_acid",
+        "score": 0.269721
+      },
+      {
+        "id": 5,
+        "label": "Liquids",
+        "wikiLink": "http://en.wikipedia.org/Category:Liquids",
+        "score": 0.415903
+      },
+      {
+        "id": 6,
+        "label": "Biologically based therapies",
+        "wikiLink": "http://en.wikipedia.org/Category:Biologically_based_therapies",
+        "score": 0.169967
+      },
+      {
+        "id": 7,
+        "label": "Alternative medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Alternative_medicine",
+        "score": 0.169967
+      },
+      {
+        "id": 8,
+        "label": "Fishing",
+        "wikiLink": "http://en.wikipedia.org/Category:Fishing",
+        "score": 0.147558
+      },
+      {
+        "id": 9,
+        "label": "Animals",
+        "wikiLink": "http://en.wikipedia.org/Category:Animals",
+        "score": 0.147558
+      },
+      {
+        "id": 10,
+        "label": "Food and drink",
+        "wikiLink": "http://en.wikipedia.org/Category:Food_and_drink",
+        "score": 0.147558
+      },
+      {
+        "id": 11,
+        "label": "Oils",
+        "wikiLink": "http://en.wikipedia.org/Category:Oils",
+        "score": 0.140818
+      },
+      {
+        "id": 12,
+        "label": "Functional groups",
+        "wikiLink": "http://en.wikipedia.org/Category:Functional_groups",
+        "score": 0.0909025
+      },
+      {
+        "id": 13,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.0909025
+      },
+      {
+        "id": 14,
+        "label": "Medical treatments",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_treatments",
+        "score": 0.0852082
+      },
+      {
+        "id": 15,
+        "label": "Social issues",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_issues",
+        "score": 0.0807052
+      },
+      {
+        "id": 16,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders",
+        "score": 0.0718891
+      },
+      {
+        "id": 17,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.0689967
+      },
+      {
+        "id": 18,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0689967
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Omega-3 fatty acid",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/medicine/condition_prevention_factors",
+          "/chemistry/chemical_classification",
+          "/chemistry/chemical_compound",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.45,
+        "wikiLink": "http://en.wikipedia.org/wiki/Omega-3_fatty_acid",
+        "matchedText": "omega-3",
+        "freebaseId": "/m/05nkr",
+        "relevanceScore": 0.269721,
+        "entityEnglishId": "Omega-3 fatty acid",
+        "startingPos": 50,
+        "endingPos": 57
+      },
+      {
+        "id": 1,
+        "type": [
+          "Species"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Fish",
+        "freebaseTypes": [
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject",
+          "/fictional_universe/character_species",
+          "/biology/organism_classification",
+          "/biology/animal"
+        ],
+        "confidenceScore": 0.992801,
+        "wikiLink": "http://en.wikipedia.org/wiki/Fish",
+        "matchedText": "fish",
+        "freebaseId": "/m/0ch_cf",
+        "relevanceScore": 0.0195871,
+        "entityEnglishId": "Fish",
+        "startingPos": 58,
+        "endingPos": 62
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Fish oil",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 4.11981,
+        "wikiLink": "http://en.wikipedia.org/wiki/Fish_oil",
+        "matchedText": "fish oils",
+        "freebaseId": "/m/03y0gb",
+        "relevanceScore": 0.725226,
+        "entityEnglishId": "Fish oil",
+        "startingPos": 58,
+        "endingPos": 67
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Oil",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/chemistry/chemical_classification",
+          "/food/food",
+          "/food/ingredient",
+          "/rail/steam_locomotive_fuel_type",
+          "/medicine/drug_dosage_form"
+        ],
+        "confidenceScore": 1.26475,
+        "wikiLink": "http://en.wikipedia.org/wiki/Oil",
+        "matchedText": "oils",
+        "freebaseId": "/m/0bp_wy",
+        "relevanceScore": 0,
+        "entityEnglishId": "Oil",
+        "startingPos": 63,
+        "endingPos": 67
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 0.974787,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "refractory",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.262789,
+        "entityEnglishId": "Disease",
+        "startingPos": 72,
+        "endingPos": 82
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Hypertriglyceridemia",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.47431,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypertriglyceridemia",
+        "matchedText": "hypertriglyceridaemia",
+        "freebaseId": "/m/02_sbz",
+        "relevanceScore": 0.300929,
+        "entityEnglishId": "Hypertriglyceridemia",
+        "startingPos": 83,
+        "endingPos": 104
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Fibrate",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.10406,
+        "wikiLink": "http://en.wikipedia.org/wiki/Fibrate",
+        "matchedText": "fibrate",
+        "freebaseId": "/m/026zxv",
+        "relevanceScore": 0.253025,
+        "entityEnglishId": "Fibrate",
+        "startingPos": 131,
+        "endingPos": 138
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.62163,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.0962053,
+        "entityEnglishId": "Therapy",
+        "startingPos": 139,
+        "endingPos": 146
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          14,
+          20,
+          21
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              15,
+              16,
+              17,
+              18,
+              19
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          13
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

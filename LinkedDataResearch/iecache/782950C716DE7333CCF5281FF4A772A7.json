@@ -1,0 +1,303 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.958199
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.944382
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.386555
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Capsaicin",
+        "wikiLink": "http://en.wikipedia.org/Capsaicin",
+        "score": 0.267604
+      },
+      {
+        "id": 1,
+        "label": "Neuropathic pain",
+        "wikiLink": "http://en.wikipedia.org/Neuropathic_pain",
+        "score": 0.990415
+      },
+      {
+        "id": 2,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Pain",
+        "score": 0.32233
+      },
+      {
+        "id": 3,
+        "label": "Perception",
+        "wikiLink": "http://en.wikipedia.org/Category:Perception",
+        "score": 0.317688
+      },
+      {
+        "id": 4,
+        "label": "Feeling",
+        "wikiLink": "http://en.wikipedia.org/Category:Feeling",
+        "score": 0.297957
+      },
+      {
+        "id": 5,
+        "label": "Symptoms and signs: General",
+        "wikiLink": "http://en.wikipedia.org/Category:Symptoms_and_signs:_General",
+        "score": 0.297957
+      },
+      {
+        "id": 6,
+        "label": "Psychological concepts",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychological_concepts",
+        "score": 0.243656
+      },
+      {
+        "id": 7,
+        "label": "Experimental psychology",
+        "wikiLink": "http://en.wikipedia.org/Category:Experimental_psychology",
+        "score": 0.243656
+      },
+      {
+        "id": 8,
+        "label": "Sources of knowledge",
+        "wikiLink": "http://en.wikipedia.org/Category:Sources_of_knowledge",
+        "score": 0.243656
+      },
+      {
+        "id": 9,
+        "label": "Subjective experience",
+        "wikiLink": "http://en.wikipedia.org/Category:Subjective_experience",
+        "score": 0.243656
+      },
+      {
+        "id": 10,
+        "label": "Neuropsychological assessment",
+        "wikiLink": "http://en.wikipedia.org/Category:Neuropsychological_assessment",
+        "score": 0.243656
+      },
+      {
+        "id": 11,
+        "label": "Cognitive science",
+        "wikiLink": "http://en.wikipedia.org/Category:Cognitive_science",
+        "score": 0.243656
+      },
+      {
+        "id": 12,
+        "label": "Symptoms and signs",
+        "wikiLink": "http://en.wikipedia.org/Category:Symptoms_and_signs",
+        "score": 0.223925
+      },
+      {
+        "id": 13,
+        "label": "Emotion",
+        "wikiLink": "http://en.wikipedia.org/Category:Emotion",
+        "score": 0.223925
+      },
+      {
+        "id": 14,
+        "label": "Qualia",
+        "wikiLink": "http://en.wikipedia.org/Category:Qualia",
+        "score": 0.223925
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Capsaicin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors"
+        ],
+        "confidenceScore": 6.05871,
+        "wikiLink": "http://en.wikipedia.org/wiki/Capsaicin",
+        "matchedText": "capsaicin",
+        "freebaseId": "/m/0fs8j",
+        "relevanceScore": 0.267604,
+        "entityEnglishId": "Capsaicin",
+        "startingPos": 9,
+        "endingPos": 18
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Neuropathic pain",
+        "confidenceScore": 1.32269,
+        "wikiLink": "http://en.wikipedia.org/wiki/Neuropathic_pain",
+        "matchedText": "neuropathic",
+        "freebaseId": "/m/09gnhp2",
+        "relevanceScore": 0.618268,
+        "entityEnglishId": "Neuropathic pain",
+        "startingPos": 53,
+        "endingPos": 64
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Neuropathic pain",
+        "confidenceScore": 6.83146,
+        "wikiLink": "http://en.wikipedia.org/wiki/Neuropathic_pain",
+        "matchedText": "neuropathic pain",
+        "freebaseId": "/m/09gnhp2",
+        "relevanceScore": 0.372147,
+        "entityEnglishId": "Neuropathic pain",
+        "startingPos": 53,
+        "endingPos": 69
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.71239,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.32233,
+        "entityEnglishId": "Pain",
+        "startingPos": 65,
+        "endingPos": 69
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          13,
+          14,
+          16
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              12
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              17,
+              18,
+              19,
+              20,
+              22,
+              23
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          18,
+          19,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              17
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              22,
+              23
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          9
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          22
+        ]
+      }
+    ]
+  },
+  "time": 3.021,
+  "ok": true
+}

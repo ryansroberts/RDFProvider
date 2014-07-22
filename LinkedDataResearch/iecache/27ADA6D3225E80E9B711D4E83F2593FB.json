@@ -1,0 +1,477 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.651236
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.348764
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.348764
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chemotherapy",
+        "wikiLink": "http://en.wikipedia.org/Chemotherapy",
+        "score": 0.156666
+      },
+      {
+        "id": 1,
+        "label": "Evaluation",
+        "wikiLink": "http://en.wikipedia.org/Evaluation",
+        "score": 0.209294
+      },
+      {
+        "id": 2,
+        "label": "Inulin",
+        "wikiLink": "http://en.wikipedia.org/Inulin",
+        "score": 0.46484
+      },
+      {
+        "id": 3,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.170526
+      },
+      {
+        "id": 4,
+        "label": "Measurement",
+        "wikiLink": "http://en.wikipedia.org/Measurement",
+        "score": 0.293243
+      },
+      {
+        "id": 5,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 1
+      },
+      {
+        "id": 6,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.202675
+      },
+      {
+        "id": 7,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.202675
+      },
+      {
+        "id": 8,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.202675
+      },
+      {
+        "id": 9,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.0836302
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Measurement",
+        "confidenceScore": 1.14234,
+        "wikiLink": "http://en.wikipedia.org/wiki/Measurement",
+        "matchedText": "measure",
+        "freebaseId": "/m/04t14",
+        "relevanceScore": 0.146622,
+        "entityEnglishId": "Measurement",
+        "startingPos": 24,
+        "endingPos": 31
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.41983,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.587679,
+        "entityEnglishId": "Renal function",
+        "startingPos": 35,
+        "endingPos": 38
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Chemotherapy",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/disease_cause",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 3.8346,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chemotherapy",
+        "matchedText": "chemotherapy",
+        "freebaseId": "/m/0217g",
+        "relevanceScore": 0.156666,
+        "entityEnglishId": "Chemotherapy",
+        "startingPos": 87,
+        "endingPos": 99
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Evaluation",
+        "freebaseTypes": [
+          "/organization/organization_sector"
+        ],
+        "confidenceScore": 1.39329,
+        "wikiLink": "http://en.wikipedia.org/wiki/Evaluation",
+        "matchedText": "evaluation",
+        "freebaseId": "/m/0gw5h",
+        "relevanceScore": 0.209294,
+        "entityEnglishId": "Evaluation",
+        "startingPos": 111,
+        "endingPos": 121
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.07,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.170526,
+        "entityEnglishId": "Kidney",
+        "startingPos": 125,
+        "endingPos": 130
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          22,
+          23
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 8.29211,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "renal function",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.909489,
+        "entityEnglishId": "Renal function",
+        "startingPos": 125,
+        "endingPos": 139
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Measurement",
+        "confidenceScore": 1.14234,
+        "wikiLink": "http://en.wikipedia.org/wiki/Measurement",
+        "matchedText": "measure",
+        "freebaseId": "/m/04t14",
+        "relevanceScore": 0.146622,
+        "entityEnglishId": "Measurement",
+        "startingPos": 199,
+        "endingPos": 206
+      },
+      {
+        "id": 7,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Inulin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 7.56098,
+        "wikiLink": "http://en.wikipedia.org/wiki/Inulin",
+        "matchedText": "inulin",
+        "freebaseId": "/m/02f3vr",
+        "relevanceScore": 0.46484,
+        "entityEnglishId": "Inulin",
+        "startingPos": 208,
+        "endingPos": 214
+      },
+      {
+        "id": 8,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          41
+        ],
+        "entityId": "Iohexol",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 2.01084,
+        "wikiLink": "http://en.wikipedia.org/wiki/Iohexol",
+        "matchedText": "iohexol",
+        "freebaseId": "/m/025_w6r",
+        "relevanceScore": 0,
+        "entityEnglishId": "Iohexol",
+        "startingPos": 247,
+        "endingPos": 254
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          7,
+          8,
+          9,
+          10,
+          13,
+          17
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              11,
+              14,
+              15,
+              16,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              35,
+              37,
+              39,
+              40,
+              41
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          7,
+          8,
+          9,
+          10,
+          13,
+          14,
+          15,
+          17
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              11,
+              16,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              35,
+              37,
+              39,
+              40,
+              41
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          2,
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          30,
+          31,
+          33
+        ],
+        "propertyPositions": [
+          32
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          26,
+          27
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          19,
+          20,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      }
+    ]
+  },
+  "time": 3.027,
+  "ok": true
+}

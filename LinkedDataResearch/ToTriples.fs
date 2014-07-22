@@ -29,6 +29,8 @@
                         [
 
                              yield (a,Object.from textPosition.Uri)
+                             yield (Predicate.from startPos.Uri,Object.from e.StartingPos)
+                             yield (Predicate.from endPos.Uri,Object.from e.EndingPos)
                              yield (a,individual)
                         ]
 
@@ -40,7 +42,6 @@
                             yield (Predicate.from annotation.ObjectProperties.``oa:hasTarget``.Uri,Object.from (Owl.Uri (string scope)))
                             yield (Predicate.from annotation.DataProperties.``oa:annotatedAt``.Uri,Object.from (System.DateTimeOffset.Now))
                         ]
-
                     let tagUri = Owl.Uri (string (innerscope.Enter (Identifier (sprintf "_tag_%d" i))))
                     yield! statementsFor annSubject
                         [
@@ -49,12 +50,10 @@
                         ]
                     yield! statementsFor (Subject.from tagUri)
                         [
-
                            yield (a,Object.from tag.Uri)
                            yield (a,individual)
                            yield (a,Object.from textContent.Uri)
                            yield (Predicate.from chars.Uri,Object.from (string e.EntityId)) 
-
                         ]
                     let freebaseUri = (Owl.Uri ("http://freebase.org" + e.FreebaseId))
                     yield! statementsFor annSubject
@@ -89,7 +88,7 @@
                 yield (a,Object.from study.Uri) 
                 yield (a,individual)
                 yield (Predicate.from isAbout.Uri,t)
-                yield (Predicate.from study.ObjectProperties.``ner:hasReference``.Uri,Object.from referenceUri)
+                yield (Predicate.from study.ObjectProperties.``nice:hasReference``.Uri,Object.from referenceUri)
             ]
         ]
 
@@ -133,7 +132,7 @@
                 yield (a,Object.from textContent.Uri)
                 yield (a,individual)
                 yield (Predicate.from chars.Uri,Object.from (string t.Rationale))
-                yield (Predicate.from  topic.DataProperties.``ng:subject``.Uri,aboutTopic)
+                yield (Predicate.from  topic.DataProperties.``nice:subject``.Uri,aboutTopic)
             ]
 
         for q in t.Questions do
@@ -148,13 +147,17 @@
         let scope = scope.Enter r.Id 
         
         yield! statementsFor (Subject (Owl.Uri (string scope)))
-            [ 
+            [
+                
                 yield (a,Object.from recommendation.Uri)
+                yield (a,Object.from textContent.Uri)
                 yield (a,individual)
-                yield (Predicate.from recommendation.DataProperties.``ng:identifier``.Uri,Object.from (string r.Id))
-                yield (Predicate.from recommendation.DataProperties.``ng:title``.Uri,Object.from (string r.Title))
+                yield (Predicate.from chars.Uri,Object.from (string r.Body))
+                yield (Predicate.from recommendation.DataProperties.``nice:identifier``.Uri,Object.from (string r.Id))
+                yield (Predicate.from recommendation.DataProperties.``nice:title``.Uri,Object.from (string r.Title))
+
                 yield (Predicate.from isAbout.Uri,Object.from (string (scope.Enter(r.Set))))
-                yield (Predicate.from recommendation.DataProperties.``ng:recommendationStrength``.Uri,Object.from r.Grade)
+                yield (Predicate.from recommendation.DataProperties.``nice:recommendationStrength``.Uri,Object.from r.Grade)
             ]
     ]
 
@@ -164,8 +167,8 @@
                 [ 
                   yield (a,Object.from guideline.Uri)
                   yield (a,individual)
-                  yield (Predicate.from guideline.DataProperties.``ng:title``.Uri,Object.from (string g.Title))
-                  yield (Predicate.from guideline.DataProperties.``ng:issued``.Uri,Object.from (new System.DateTimeOffset(g.Issued)))
+                  yield (Predicate.from guideline.DataProperties.``nice:title``.Uri,Object.from (string g.Title))
+                  yield (Predicate.from guideline.DataProperties.``nice:issued``.Uri,Object.from (new System.DateTimeOffset(g.Issued)))
                 ]
       
             for s in g.Sets do
@@ -181,12 +184,14 @@
         yield! statementsFor (Subject (Owl.Uri (string scope)))
             [
                 yield (a,Object.from qualityStatement.Uri)
-                yield (a,individual) 
-                yield (Predicate.from qualityStatement.DataProperties.``nqs:title``.Uri,Object.from (string statement.Title))
+                yield (a,individual)
+                yield (a,Object.from textContent.Uri)
+                yield (Predicate.from qualityStatement.DataProperties.``nice:title``.Uri,Object.from (string statement.Title))
                 yield (Predicate.from chars.Uri,Object.from (string statement.Statement))
                 for r in statement.Reccomendation do
                     let rScope = (Scope("http://nice.org.uk/reccomendation", [r]))
-                    yield (Predicate.from qualityStatement.ObjectProperties.``nqs:isPartOf``.Uri,Object.from (string rScope))
+                    yield (Predicate.from qualityStatement.ObjectProperties.``nice:isUnderpinnedBy``.Uri,Object.from (string rScope))
+                   
             ] 
 
     ]
@@ -197,8 +202,8 @@
             [ 
                 yield (a,Object.from qualityStandard.Uri)
                 yield (a,individual)
-                yield (Predicate.from qualityStandard.DataProperties.``nqs:title``.Uri,Object.from (string s.Title))
-                yield (Predicate.from qualityStandard.DataProperties.``nqs:subject``.Uri,Object.from (string s.Subject))
+                yield (Predicate.from qualityStandard.DataProperties.``nice:title``.Uri,Object.from (string s.Title))
+                yield (Predicate.from qualityStandard.DataProperties.``nice:subject``.Uri,Object.from (string s.Subject))
             ]
 
         for s in s.Statements do

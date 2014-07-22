@@ -1,0 +1,316 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.26347
+      },
+      {
+        "id": 2,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.262164
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Absorption (pharmacokinetics)",
+        "wikiLink": "http://en.wikipedia.org/Absorption_(pharmacokinetics)",
+        "score": 0.511921
+      },
+      {
+        "id": 1,
+        "label": "Human gastrointestinal tract",
+        "wikiLink": "http://en.wikipedia.org/Human_gastrointestinal_tract",
+        "score": 0.171333
+      },
+      {
+        "id": 2,
+        "label": "Metformin",
+        "wikiLink": "http://en.wikipedia.org/Metformin",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.685555
+      },
+      {
+        "id": 4,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.858922
+      },
+      {
+        "id": 5,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs",
+        "score": 0.62978
+      },
+      {
+        "id": 6,
+        "label": "Pharmacy",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacy",
+        "score": 0.175099
+      },
+      {
+        "id": 7,
+        "label": "Medicinal chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicinal_chemistry",
+        "score": 0.101348
+      },
+      {
+        "id": 8,
+        "label": "Pharmaceutical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_sciences",
+        "score": 0.101348
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 10.2783,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.66128,
+        "entityEnglishId": "Metformin",
+        "startingPos": 8,
+        "endingPos": 17
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.70421,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.342778,
+        "entityEnglishId": "Therapy",
+        "startingPos": 18,
+        "endingPos": 25
+      },
+      {
+        "id": 2,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Human gastrointestinal tract",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 3.11188,
+        "wikiLink": "http://en.wikipedia.org/wiki/Human_gastrointestinal_tract",
+        "matchedText": "gastrointestinal",
+        "freebaseId": "/m/0j49l",
+        "relevanceScore": 0.171333,
+        "entityEnglishId": "Human gastrointestinal tract",
+        "startingPos": 67,
+        "endingPos": 83
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Absorption (pharmacokinetics)",
+        "confidenceScore": 1.09389,
+        "wikiLink": "http://en.wikipedia.org/wiki/Absorption_(pharmacokinetics)",
+        "matchedText": "absorption",
+        "freebaseId": "/m/0fw539",
+        "relevanceScore": 0.511921,
+        "entityEnglishId": "Absorption (pharmacokinetics)",
+        "startingPos": 127,
+        "endingPos": 137
+      },
+      {
+        "id": 4,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 10.398,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.66128,
+        "entityEnglishId": "Metformin",
+        "startingPos": 138,
+        "endingPos": 147
+      },
+      {
+        "id": 5,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 10.398,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.66128,
+        "entityEnglishId": "Metformin",
+        "startingPos": 216,
+        "endingPos": 225
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.49039,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.342778,
+        "entityEnglishId": "Therapy",
+        "startingPos": 226,
+        "endingPos": 233
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23,
+          25
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              24
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              26,
+              27,
+              28,
+              29
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          20,
+          21,
+          22
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          16,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          26,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          29
+        ]
+      }
+    ]
+  },
+  "time": 3.021,
+  "ok": true
+}

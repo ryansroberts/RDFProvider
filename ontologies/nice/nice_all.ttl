@@ -423,9 +423,13 @@
 
 <http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#hasDescription> rdf:type owl:DatatypeProperty ;
                                                                                        
-                                                                                       rdfs:domain <http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#SharedLearning> ;
+                                                                                       rdfs:range xsd:string ;
                                                                                        
-                                                                                       rdfs:range xsd:string .
+                                                                                       rdfs:domain [ rdf:type owl:Class ;
+                                                                                                     owl:unionOf ( <http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#SharedLearning>
+                                                                                                                   :QualityMeasure
+                                                                                                                 )
+                                                                                                   ] .
 
 
 
@@ -554,6 +558,9 @@
                                                                               rdfs:domain [ rdf:type owl:Class ;
                                                                                             owl:unionOf ( <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Guideline>
                                                                                                           <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation>
+                                                                                                          <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStandard>
+                                                                                                          <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStatement>
+                                                                                                          <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesFramework>
                                                                                                         )
                                                                                           ] .
 
@@ -569,20 +576,6 @@
 
 
 
-###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#title
-
-<http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#title> rdf:type owl:DatatypeProperty ;
-                                                                                     
-                                                                                     rdfs:range xsd:string ;
-                                                                                     
-                                                                                     rdfs:domain [ rdf:type owl:Class ;
-                                                                                                   owl:unionOf ( <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStandard>
-                                                                                                                 <http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStatement>
-                                                                                                               )
-                                                                                                 ] .
-
-
-
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#dateIssued
 
 <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#dateIssued> rdf:type owl:DatatypeProperty ;
@@ -590,16 +583,6 @@
                                                                                        rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesFramework> ;
                                                                                        
                                                                                        rdfs:range rdfs:Literal .
-
-
-
-###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#title
-
-<http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#title> rdf:type owl:DatatypeProperty ;
-                                                                                  
-                                                                                  rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesFramework> ;
-                                                                                  
-                                                                                  rdfs:range xsd:string .
 
 
 

@@ -1,0 +1,472 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.87039
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.525484
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.30453
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.243261
+      },
+      {
+        "id": 5,
+        "label": "Weather",
+        "wikiLink": "http://en.wikipedia.org/Category:Weather",
+        "score": 0.242085
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Blood",
+        "wikiLink": "http://en.wikipedia.org/Blood",
+        "score": 0.263704
+      },
+      {
+        "id": 1,
+        "label": "Blood pressure",
+        "wikiLink": "http://en.wikipedia.org/Blood_pressure",
+        "score": 0.240449
+      },
+      {
+        "id": 2,
+        "label": "Cerebrovascular disease",
+        "wikiLink": "http://en.wikipedia.org/Cerebrovascular_disease",
+        "score": 0.272916
+      },
+      {
+        "id": 3,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.281382
+      },
+      {
+        "id": 4,
+        "label": "Lifestyle medicine",
+        "wikiLink": "http://en.wikipedia.org/Lifestyle_medicine",
+        "score": 0.195299
+      },
+      {
+        "id": 5,
+        "label": "Millimeter of mercury",
+        "wikiLink": "http://en.wikipedia.org/Millimeter_of_mercury",
+        "score": 0.605983
+      },
+      {
+        "id": 6,
+        "label": "Pressure",
+        "wikiLink": "http://en.wikipedia.org/Pressure",
+        "score": 0.189784
+      },
+      {
+        "id": 7,
+        "label": "Body fluids",
+        "wikiLink": "http://en.wikipedia.org/Category:Body_fluids",
+        "score": 0.177523
+      },
+      {
+        "id": 8,
+        "label": "Tissues",
+        "wikiLink": "http://en.wikipedia.org/Category:Tissues",
+        "score": 0.177523
+      },
+      {
+        "id": 9,
+        "label": "Physical quantities",
+        "wikiLink": "http://en.wikipedia.org/Category:Physical_quantities",
+        "score": 0.14841
+      },
+      {
+        "id": 10,
+        "label": "Animal anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_anatomy",
+        "score": 0.0995252
+      },
+      {
+        "id": 11,
+        "label": "Applied sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Applied_sciences",
+        "score": 0.0633297
+      },
+      {
+        "id": 12,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0546006
+      },
+      {
+        "id": 13,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0528087
+      },
+      {
+        "id": 14,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.00175897
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.68638,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "medications",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.0835452,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 4,
+        "endingPos": 15
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Lifestyle medicine",
+        "confidenceScore": 1.27309,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lifestyle_medicine",
+        "matchedText": "lifestyle advice",
+        "freebaseId": "/m/043qvf0",
+        "relevanceScore": 0.195299,
+        "entityEnglishId": "Lifestyle medicine",
+        "startingPos": 19,
+        "endingPos": 35
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Blood",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/food/ingredient",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.02365,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood",
+        "matchedText": "blood",
+        "freebaseId": "/m/019jw",
+        "relevanceScore": 0.263704,
+        "entityEnglishId": "Blood",
+        "startingPos": 52,
+        "endingPos": 57
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Blood pressure",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 4.67686,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_pressure",
+        "matchedText": "blood pressure",
+        "freebaseId": "/m/0fmq1",
+        "relevanceScore": 0.240449,
+        "entityEnglishId": "Blood pressure",
+        "startingPos": 52,
+        "endingPos": 66
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Pressure",
+        "freebaseTypes": [
+          "/measurement_unit/common_dimension",
+          "/medicine/disease_cause",
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 1.37411,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pressure",
+        "matchedText": "pressure",
+        "freebaseId": "/m/05wnx",
+        "relevanceScore": 0.189784,
+        "entityEnglishId": "Pressure",
+        "startingPos": 58,
+        "endingPos": 66
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Millimeter of mercury",
+        "confidenceScore": 3.66745,
+        "wikiLink": "http://en.wikipedia.org/wiki/Millimeter_of_mercury",
+        "matchedText": "mmHg",
+        "freebaseId": "/m/0r3vbng",
+        "relevanceScore": 0.302991,
+        "entityEnglishId": "Millimeter of mercury",
+        "startingPos": 83,
+        "endingPos": 87
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Millimeter of mercury",
+        "confidenceScore": 3.66745,
+        "wikiLink": "http://en.wikipedia.org/wiki/Millimeter_of_mercury",
+        "matchedText": "mmHg",
+        "freebaseId": "/m/0r3vbng",
+        "relevanceScore": 0.302991,
+        "entityEnglishId": "Millimeter of mercury",
+        "startingPos": 102,
+        "endingPos": 106
+      },
+      {
+        "id": 7,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.20172,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.281382,
+        "entityEnglishId": "Kidney",
+        "startingPos": 119,
+        "endingPos": 125
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Cerebrovascular disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.00632,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cerebrovascular_disease",
+        "matchedText": "cerebrovascular",
+        "freebaseId": "/m/01l2lr",
+        "relevanceScore": 0.272916,
+        "entityEnglishId": "Cerebrovascular disease",
+        "startingPos": 134,
+        "endingPos": 149
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8,
+              9,
+              11,
+              12,
+              13,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              23,
+              24,
+              25,
+              26
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          5,
+          6,
+          7,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8,
+              9,
+              11,
+              12,
+              13,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              23,
+              24,
+              25,
+              26
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          2,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          15
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              11,
+              12,
+              13,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              23,
+              24,
+              25,
+              26
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          9,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          18
+        ]
+      }
+    ]
+  },
+  "time": 3.025,
+  "ok": true
+}

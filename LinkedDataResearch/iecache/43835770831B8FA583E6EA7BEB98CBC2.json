@@ -1,0 +1,97 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Ophthalmology",
+        "wikiLink": "http://en.wikipedia.org/Ophthalmology",
+        "score": 0.124433
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Ophthalmology",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/book/book_subject",
+          "/people/profession",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 3.04802,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ophthalmology",
+        "matchedText": "ophthalmologist",
+        "freebaseId": "/m/0fkdq",
+        "relevanceScore": 0.124433,
+        "entityEnglishId": "Ophthalmology",
+        "startingPos": 27,
+        "endingPos": 42
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "time": 3.013,
+  "ok": true
+}

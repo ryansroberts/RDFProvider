@@ -1,0 +1,355 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.445768
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.418698
+      },
+      {
+        "id": 3,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.395011
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.270103
+      },
+      {
+        "id": 5,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.259932
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "National Health Service",
+        "wikiLink": "http://en.wikipedia.org/National_Health_Service",
+        "score": 0.249974
+      },
+      {
+        "id": 1,
+        "label": "Pharmacy",
+        "wikiLink": "http://en.wikipedia.org/Pharmacy",
+        "score": 0.377497
+      },
+      {
+        "id": 2,
+        "label": "Risk",
+        "wikiLink": "http://en.wikipedia.org/Risk",
+        "score": 0.276084
+      },
+      {
+        "id": 3,
+        "label": "Risk assessment",
+        "wikiLink": "http://en.wikipedia.org/Risk_assessment",
+        "score": 0.223427
+      },
+      {
+        "id": 4,
+        "label": "Risk management",
+        "wikiLink": "http://en.wikipedia.org/Category:Risk_management",
+        "score": 0.179714
+      },
+      {
+        "id": 5,
+        "label": "Security",
+        "wikiLink": "http://en.wikipedia.org/Category:Security",
+        "score": 0.160425
+      },
+      {
+        "id": 6,
+        "label": "Health fields",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_fields",
+        "score": 0.150309
+      },
+      {
+        "id": 7,
+        "label": "Occupational safety and health",
+        "wikiLink": "http://en.wikipedia.org/Category:Occupational_safety_and_health",
+        "score": 0.124762
+      },
+      {
+        "id": 8,
+        "label": "Working conditions",
+        "wikiLink": "http://en.wikipedia.org/Category:Working_conditions",
+        "score": 0.114568
+      },
+      {
+        "id": 9,
+        "label": "Labour relations",
+        "wikiLink": "http://en.wikipedia.org/Category:Labour_relations",
+        "score": 0.114568
+      },
+      {
+        "id": 10,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_by_country",
+        "score": 0.0796651
+      },
+      {
+        "id": 11,
+        "label": "Welfare",
+        "wikiLink": "http://en.wikipedia.org/Category:Welfare_by_continent",
+        "score": 0.0756825
+      },
+      {
+        "id": 12,
+        "label": "Publicly funded health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Publicly_funded_health_care",
+        "score": 0.0756825
+      },
+      {
+        "id": 13,
+        "label": "Medical and health organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_and_health_organizations_by_country",
+        "score": 0.0692073
+      },
+      {
+        "id": 14,
+        "label": "Organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Organizations_by_subject_and_country",
+        "score": 0.0692073
+      },
+      {
+        "id": 15,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0606548
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Risk",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.15326,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk",
+        "matchedText": "risk",
+        "freebaseId": "/m/06d5f",
+        "relevanceScore": 0.276084,
+        "entityEnglishId": "Risk",
+        "startingPos": 6,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Risk assessment",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.34555,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk_assessment",
+        "matchedText": "risk assessment",
+        "freebaseId": "/m/01g0zx",
+        "relevanceScore": 0.223427,
+        "entityEnglishId": "Risk assessment",
+        "startingPos": 6,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "National Health Service",
+        "confidenceScore": 2.62366,
+        "wikiLink": "http://en.wikipedia.org/wiki/National_Health_Service",
+        "matchedText": "NHS",
+        "freebaseId": "/m/047gmkt",
+        "relevanceScore": 0.249974,
+        "entityEnglishId": "National Health Service",
+        "startingPos": 62,
+        "endingPos": 65
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Pharmacy",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 1.12774,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmacy",
+        "matchedText": "pharmacies",
+        "freebaseId": "/m/01rfps",
+        "relevanceScore": 0.377497,
+        "entityEnglishId": "Pharmacy",
+        "startingPos": 124,
+        "endingPos": 134
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          3,
+          4,
+          5,
+          8,
+          14,
+          17
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              7,
+              9,
+              10,
+              11,
+              12,
+              15,
+              18,
+              19
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              21,
+              22,
+              23
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              14,
+              15,
+              17,
+              18,
+              19,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          28,
+          29,
+          30,
+          31
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              26,
+              27
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              32,
+              33,
+              34,
+              35
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          32,
+          33
+        ],
+        "propertyPositions": [
+          35
+        ]
+      }
+    ]
+  },
+  "time": 3.024,
+  "ok": true
+}

@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ontology", "Ontology", "{D62BC2AD-7E79-4C60-95DF-DAE54AAC995C}"
 	ProjectSection(SolutionItems) = preProject
 		ontologies\nice\nice_all.ttl = ontologies\nice\nice_all.ttl
+		ontologies\external\oa.ttl = ontologies\external\oa.ttl
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{CCAA90FF-482E-4D76-BA8F-470C61145170}"
@@ -63,6 +64,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Audit", "Audit", "{677535FF
 		LinkedDataResearch\input\Audit\AuditInfoSource.csv = LinkedDataResearch\input\Audit\AuditInfoSource.csv
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Review", "Review", "{266EC8B2-042D-4D6A-8692-F9482D4D3AC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,5 +88,6 @@ Global
 		{D93E24AD-989C-4F16-BFA5-8DDB588AEB62} = {CCAA90FF-482E-4D76-BA8F-470C61145170}
 		{E580CB4E-71CB-4BAE-A242-FDF0DB36BA6C} = {CCAA90FF-482E-4D76-BA8F-470C61145170}
 		{677535FF-A1DC-47B2-98F3-5616C42F50F8} = {CCAA90FF-482E-4D76-BA8F-470C61145170}
+		{266EC8B2-042D-4D6A-8692-F9482D4D3AC4} = {CCAA90FF-482E-4D76-BA8F-470C61145170}
 	EndGlobalSection
 EndGlobal

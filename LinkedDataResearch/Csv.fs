@@ -28,10 +28,24 @@ module Csv =
     type QualityStatment = CsvProvider< "input/QualityStandard/QualityStatements.csv" >
     
     type QualityStatementToReccomendation = CsvProvider< "input/QualityStandard/QSToRecMap.csv" >
-
+    
     type Audit = CsvProvider< "input/Audit/Audit.csv" >
-
+    
     type AuditInfoSource = CsvProvider< "input/Audit/AuditInfoSource.csv" >
+    
+    type Organisation = CsvProvider< "input/SharedLearning/Organisation.csv" >
+    
+    type SharedLearning = CsvProvider< "input/SharedLearning/SharedLearning.csv" >
+    
+    type SLearning = CsvProvider< "input/SharedLearning/SLearning.csv" >
+    
+    type SLToGeo = CsvProvider< "input/SharedLearning/SLToGeo.csv" >
+    
+    type SLToOrgMap = CsvProvider< "input/SharedLearning/SLToOrgMap.csv" >
+    
+    type SLToQsMap = CsvProvider< "input/SharedLearning/SLToQsMap.csv" >
+    
+    type SLToRecMap = CsvProvider< "input/SharedLearning/SLToRecMap.csv" >
 
 module Import = 
     open Excel
@@ -63,6 +77,14 @@ module Import =
         Csv.QualityStatementToReccomendation.Load(csvfile "QualityStandard/QSToRecMap")
     let audit = Csv.Audit.Load(csvfile "Audit/Audit")
     let auditInfoSource = Csv.AuditInfoSource.Load(csvfile "Audit/AuditInfoSource")
+    let organisation = Csv.AuditInfoSource.Load(csvfile "SharedLearning/Organisation")
+    let sharedLearning = Csv.AuditInfoSource.Load(csvfile "SharedLearning/SharedLearning")
+    let slearning = Csv.AuditInfoSource.Load(csvfile "SharedLearning/SLearning")
+    let sltogeo  = Csv.AuditInfoSource.Load(csvfile "SharedLearning/SLtoGeo")
+    let sltoOrgmap = Csv.AuditInfoSource.Load(csvfile "SharedLearning/SlToOrgMap")
+    let sltoqsmap = Csv.AuditInfoSource.Load(csvfile "SharedLearning/SLToQsMap")
+
+
     
     let loadStudy id = 
         [ let sm = esToStudyMap
@@ -119,29 +141,23 @@ module Import =
     
     let loadGuidelines = 
         [ for g in guidelines.Rows do
-            
               yield { Id = Identifier g.``Guideline GUID``
                       Title = Title g.``Guideline Title``
                       Reccomendation = loadReccomendations id
                       Sets = loadSets g.``Guideline GUID``
-                      Studies = [] 
-                      Issued = g.``Guideline Publication Date``
-                      } ]
-   
-    let loadQsRecommendations id = [
-        for r in qualityStatementsToReccomendation.Filter(fun s -> s.``Quality statement GUID`` = id).Rows do
-            yield Identifier r.``Recommendation GUID``
-    ]
+                      Studies = []
+                      Issued = g.``Guideline Publication Date`` } ]
     
-    let loadQualityStatements id = [
-        for q in qualityStatements.Rows do
-            yield {
-                Id = Identifier q.``Quality statement GUID``
-                Title = Title q.``Quality Statement Title``
-                Statement = q.``Quality Statement``
-                Reccomendation = loadQsRecommendations q.``Quality statement GUID``
-            }
-    ]
+    let loadQsRecommendations id = 
+        [ for r in qualityStatementsToReccomendation.Filter(fun s -> s.``Quality statement GUID`` = id).Rows do
+              yield Identifier r.``Recommendation GUID`` ]
+    
+    let loadQualityStatements id = 
+        [ for q in qualityStatements.Rows do
+              yield { Id = Identifier q.``Quality statement GUID``
+                      Title = Title q.``Quality Statement Title``
+                      Statement = q.``Quality Statement``
+                      Reccomendation = loadQsRecommendations q.``Quality statement GUID`` } ]
     
     let loadQualityStandards = 
         [ for qstd in qualityStandards.Rows do
@@ -149,26 +165,22 @@ module Import =
                       Title = Title qstd.``Quality Standard Title``
                       Subject = qstd.Subject
                       Statements = loadQualityStatements qstd.``Quality Standard ID`` } ]
-   
-    let loadInfoSource id =
+    
+    let loadInfoSource id = 
         let is = (auditInfoSource.Filter(fun a -> a.AuditInfoSourceID = id).Rows |> Seq.head)
-        {
-            Id = Identifier (string is.AuditInfoSourceID)
-            SourceName = is.SourceName
-            InformationType = is.InformationType
-            Notes = is.Notes
-        }
-
+        { Id = Identifier(string is.AuditInfoSourceID)
+          SourceName = is.SourceName
+          InformationType = is.InformationType
+          Notes = is.Notes }
+    
     let loadAudit = 
-        [ for a in audit.Rows do 
-            yield {
-                Id = Identifier (string a.``Audit ID``)
-                Reccomendation = Identifier a.``Recommendation GUID``
-                AuditCriteria = a.AuditCriteria
-                NumberFulfil = a.NumberFulfill
-                TotalNumber = a.TotalNumber
-                PercentAchived = a.PercentAchiev
-                Notes = Body a.Notes
-                AuditInfoSource = loadInfoSource a.AuditInfoSourceID
-                AuditDate = a.AuditDate
-            }]
+        [ for a in audit.Rows do
+              yield { Id = Identifier(string a.``Audit ID``)
+                      Reccomendation = Identifier a.``Recommendation GUID``
+                      AuditCriteria = a.AuditCriteria
+                      NumberFulfil = a.NumberFulfill
+                      TotalNumber = a.TotalNumber
+                      PercentAchived = a.PercentAchiev
+                      Notes = Body a.Notes
+                      AuditInfoSource = loadInfoSource a.AuditInfoSourceID
+                      AuditDate = a.AuditDate } ]

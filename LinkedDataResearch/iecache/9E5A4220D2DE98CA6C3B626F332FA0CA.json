@@ -1,0 +1,283 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.917461
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.478819
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.478819
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Dieting",
+        "wikiLink": "http://en.wikipedia.org/Dieting",
+        "score": 0.569191
+      },
+      {
+        "id": 1,
+        "label": "Management",
+        "wikiLink": "http://en.wikipedia.org/Management",
+        "score": 0.109214
+      },
+      {
+        "id": 2,
+        "label": "Weight management",
+        "wikiLink": "http://en.wikipedia.org/Weight_management",
+        "score": 0.141197
+      },
+      {
+        "id": 3,
+        "label": "Human size",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_size",
+        "score": 0.107937
+      },
+      {
+        "id": 4,
+        "label": "Mass",
+        "wikiLink": "http://en.wikipedia.org/Category:Mass",
+        "score": 0.107937
+      },
+      {
+        "id": 5,
+        "label": "Nutrition",
+        "wikiLink": "http://en.wikipedia.org/Category:Nutrition",
+        "score": 0.107937
+      },
+      {
+        "id": 6,
+        "label": "Human weight",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_weight",
+        "score": 0.107937
+      },
+      {
+        "id": 7,
+        "label": "Body shape",
+        "wikiLink": "http://en.wikipedia.org/Category:Body_shape",
+        "score": 0.107937
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Weight management",
+        "confidenceScore": 1.54071,
+        "wikiLink": "http://en.wikipedia.org/wiki/Weight_management",
+        "matchedText": "weight management",
+        "freebaseId": "/m/0fqptdt",
+        "relevanceScore": 0.141197,
+        "entityEnglishId": "Weight management",
+        "startingPos": 25,
+        "endingPos": 42
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Management",
+        "freebaseTypes": [
+          "/media_common/quotation_subject",
+          "/broadcast/genre",
+          "/book/periodical_subject",
+          "/book/book_subject",
+          "/education/field_of_study",
+          "/education/school_category"
+        ],
+        "confidenceScore": 1.70247,
+        "wikiLink": "http://en.wikipedia.org/wiki/Management",
+        "matchedText": "management",
+        "freebaseId": "/m/04_tv",
+        "relevanceScore": 0.109214,
+        "entityEnglishId": "Management",
+        "startingPos": 32,
+        "endingPos": 42
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Dieting",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/symptom",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.26132,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dieting",
+        "matchedText": "diet",
+        "freebaseId": "/m/02b_m",
+        "relevanceScore": 0.569191,
+        "entityEnglishId": "Dieting",
+        "startingPos": 109,
+        "endingPos": 113
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          11
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          13,
+          14,
+          19,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10,
+              12
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              15,
+              16,
+              17,
+              18,
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13,
+          14,
+          19,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              12
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              15,
+              16,
+              17,
+              18,
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          13,
+          14,
+          16,
+          17,
+          19,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              12,
+              15
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              18,
+              21
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "propertyPositions": [
+          7
+        ]
+      }
+    ]
+  },
+  "time": 3.014,
+  "ok": true
+}

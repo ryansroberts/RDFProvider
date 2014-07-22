@@ -1,0 +1,234 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.862817
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.833504
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Self-monitoring",
+        "confidenceScore": 1.69339,
+        "wikiLink": "http://en.wikipedia.org/wiki/Self-monitoring",
+        "matchedText": "self-monitoring",
+        "freebaseId": "/m/025sv8d",
+        "relevanceScore": 0.0739948,
+        "entityEnglishId": "Self-monitoring",
+        "startingPos": 12,
+        "endingPos": 27
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.62011,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0691013,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 114,
+        "endingPos": 122
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          7,
+          13,
+          14
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              15,
+              16,
+              17,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          10,
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

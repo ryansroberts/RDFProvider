@@ -1,0 +1,389 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.589284
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.394051
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.23376
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.23376
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.199672
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetic foot ulcer",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot_ulcer",
+        "score": 0.582734
+      },
+      {
+        "id": 1,
+        "label": "Healing",
+        "wikiLink": "http://en.wikipedia.org/Healing",
+        "score": 0.55447
+      },
+      {
+        "id": 2,
+        "label": "Necrosis",
+        "wikiLink": "http://en.wikipedia.org/Necrosis",
+        "score": 0.179496
+      },
+      {
+        "id": 3,
+        "label": "Ulcer (dermatology)",
+        "wikiLink": "http://en.wikipedia.org/Ulcer_(dermatology)",
+        "score": 0.639911
+      },
+      {
+        "id": 4,
+        "label": "Anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Anatomy",
+        "score": 0.579351
+      },
+      {
+        "id": 5,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.470474
+      },
+      {
+        "id": 6,
+        "label": "Zoology",
+        "wikiLink": "http://en.wikipedia.org/Category:Zoology",
+        "score": 0.42627
+      },
+      {
+        "id": 7,
+        "label": "Morphology",
+        "wikiLink": "http://en.wikipedia.org/Category:Morphology",
+        "score": 0.41697
+      },
+      {
+        "id": 8,
+        "label": "Structure",
+        "wikiLink": "http://en.wikipedia.org/Category:Structure",
+        "score": 0.41697
+      },
+      {
+        "id": 9,
+        "label": "Dermatology",
+        "wikiLink": "http://en.wikipedia.org/Category:Dermatology",
+        "score": 0.157312
+      },
+      {
+        "id": 10,
+        "label": "Histology",
+        "wikiLink": "http://en.wikipedia.org/Category:Histology",
+        "score": 0.138251
+      },
+      {
+        "id": 11,
+        "label": "Tissues",
+        "wikiLink": "http://en.wikipedia.org/Category:Tissues",
+        "score": 0.138251
+      },
+      {
+        "id": 12,
+        "label": "Concepts",
+        "wikiLink": "http://en.wikipedia.org/Category:Concepts_by_field",
+        "score": 0.0542774
+      },
+      {
+        "id": 13,
+        "label": "Dimension",
+        "wikiLink": "http://en.wikipedia.org/Category:Dimension",
+        "score": 0.0542774
+      },
+      {
+        "id": 14,
+        "label": "Traumatology",
+        "wikiLink": "http://en.wikipedia.org/Category:Traumatology",
+        "score": 0.053335
+      },
+      {
+        "id": 15,
+        "label": "Injuries",
+        "wikiLink": "http://en.wikipedia.org/Category:Injuries",
+        "score": 0.022612
+      },
+      {
+        "id": 16,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.018943
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Necrosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 1.63323,
+        "wikiLink": "http://en.wikipedia.org/wiki/Necrosis",
+        "matchedText": "Dead tissue",
+        "freebaseId": "/m/09yql",
+        "relevanceScore": 0.179496,
+        "entityEnglishId": "Necrosis",
+        "startingPos": 0,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Tissue (biology)",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.50079,
+        "wikiLink": "http://en.wikipedia.org/wiki/Tissue_(biology)",
+        "matchedText": "tissue",
+        "freebaseId": "/m/0q4pl",
+        "relevanceScore": 0.0703939,
+        "entityEnglishId": "Tissue (biology)",
+        "startingPos": 5,
+        "endingPos": 11
+      },
+      {
+        "id": 2,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Foot",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/business/product_category",
+          "/sports/sports_equipment",
+          "/visual_art/art_subject",
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.13888,
+        "wikiLink": "http://en.wikipedia.org/wiki/Foot",
+        "matchedText": "foot",
+        "freebaseId": "/m/031n1",
+        "relevanceScore": 0.0237727,
+        "entityEnglishId": "Foot",
+        "startingPos": 45,
+        "endingPos": 49
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Diabetic foot ulcer",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.27247,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot_ulcer",
+        "matchedText": "foot ulcers",
+        "freebaseId": "/m/064p1q4",
+        "relevanceScore": 0.582734,
+        "entityEnglishId": "Diabetic foot ulcer",
+        "startingPos": 45,
+        "endingPos": 56
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Ulcer (dermatology)",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.80914,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ulcer_(dermatology)",
+        "matchedText": "ulcers",
+        "freebaseId": "/m/01klgg",
+        "relevanceScore": 0.639911,
+        "entityEnglishId": "Ulcer (dermatology)",
+        "startingPos": 50,
+        "endingPos": 56
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Healing",
+        "freebaseTypes": [
+          "/tv/tv_subject",
+          "/media_common/media_genre",
+          "/film/film_genre"
+        ],
+        "confidenceScore": 1.41373,
+        "wikiLink": "http://en.wikipedia.org/wiki/Healing",
+        "matchedText": "healing",
+        "freebaseId": "/m/01jpqs",
+        "relevanceScore": 0.55447,
+        "entityEnglishId": "Healing",
+        "startingPos": 71,
+        "endingPos": 78
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              8,
+              11,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          13,
+          15,
+          16
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              14
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1
+        ],
+        "propertyPositions": [
+          0
+        ]
+      }
+    ]
+  },
+  "time": 3.016,
+  "ok": true
+}

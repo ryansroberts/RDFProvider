@@ -1,0 +1,114 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Pharmaceutical drug",
+        "wikiLink": "http://en.wikipedia.org/Pharmaceutical_drug",
+        "score": 0.115677
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Acarbose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.25469,
+        "wikiLink": "http://en.wikipedia.org/wiki/Acarbose",
+        "matchedText": "acarbose",
+        "freebaseId": "/m/048rkb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Acarbose",
+        "startingPos": 9,
+        "endingPos": 17
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.79154,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "medications",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.115677,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 73,
+        "endingPos": 84
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          11
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  "time": 3.032,
+  "ok": true
+}

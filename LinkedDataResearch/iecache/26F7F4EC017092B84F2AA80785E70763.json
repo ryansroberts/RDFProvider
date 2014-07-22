@@ -1,0 +1,304 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Period (geology)",
+        "confidenceScore": 1.07514,
+        "wikiLink": "http://en.wikipedia.org/wiki/Period_(geology)",
+        "matchedText": "period",
+        "freebaseId": "/m/08z6b_",
+        "relevanceScore": 0.0568944,
+        "entityEnglishId": "Period (geology)",
+        "startingPos": 47,
+        "endingPos": 53
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Mixture",
+        "confidenceScore": 1.47583,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mixture",
+        "matchedText": "mixture",
+        "freebaseId": "/m/01q0j8",
+        "relevanceScore": 0.0472954,
+        "entityEnglishId": "Mixture",
+        "startingPos": 185,
+        "endingPos": 192
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          2,
+          3,
+          7
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              8,
+              9,
+              10,
+              11,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3,
+          7
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              8,
+              9,
+              10,
+              11,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          2,
+          3,
+          6,
+          7
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              8,
+              9,
+              10,
+              11,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          2,
+          3,
+          7,
+          8,
+          9,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              11,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          15,
+          16,
+          25,
+          29,
+          33
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              14
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              26,
+              27,
+              30,
+              31,
+              32,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          15,
+          16,
+          25,
+          29,
+          33,
+          34
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              14
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              26,
+              27,
+              30,
+              31,
+              32,
+              35,
+              36,
+              37,
+              38,
+              39
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          23
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          30,
+          32
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          35,
+          36,
+          37
+        ],
+        "propertyPositions": [
+          38,
+          39
+        ]
+      }
+    ]
+  },
+  "time": 3.021,
+  "ok": true
+}

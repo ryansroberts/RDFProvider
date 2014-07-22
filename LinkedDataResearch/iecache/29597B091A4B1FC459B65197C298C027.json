@@ -1,0 +1,313 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.781899
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.742209
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.620674
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.42015
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.397553
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Adaptation",
+        "wikiLink": "http://en.wikipedia.org/Adaptation",
+        "score": 0.128572
+      },
+      {
+        "id": 1,
+        "label": "Disability",
+        "wikiLink": "http://en.wikipedia.org/Disability",
+        "score": 0.359331
+      },
+      {
+        "id": 2,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.132153
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0430861
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Disability",
+        "freebaseTypes": [
+          "/tv/tv_subject",
+          "/book/book_subject",
+          "/media_common/quotation_subject",
+          "/film/film_subject"
+        ],
+        "confidenceScore": 1.93932,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disability",
+        "matchedText": "disability",
+        "freebaseId": "/m/0fl5x",
+        "relevanceScore": 0.359331,
+        "entityEnglishId": "Disability",
+        "startingPos": 35,
+        "endingPos": 45
+      },
+      {
+        "id": 1,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 2.99557,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.0917401,
+        "entityEnglishId": "Insulin",
+        "startingPos": 59,
+        "endingPos": 66
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Adaptation",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.00852,
+        "wikiLink": "http://en.wikipedia.org/wiki/Adaptation",
+        "matchedText": "adaptation",
+        "freebaseId": "/m/03r_vp",
+        "relevanceScore": 0.128572,
+        "entityEnglishId": "Adaptation",
+        "startingPos": 86,
+        "endingPos": 96
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          21,
+          22,
+          27,
+          28,
+          30
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              24,
+              25,
+              26
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              23,
+              29,
+              31,
+              32,
+              33,
+              34
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          21,
+          22,
+          30,
+          32,
+          33,
+          34
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              31
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          3,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              10,
+              11,
+              13,
+              14,
+              15,
+              16,
+              17
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          28
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          4,
+          8
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          9
+        ]
+      }
+    ]
+  },
+  "time": 3.02,
+  "ok": true
+}

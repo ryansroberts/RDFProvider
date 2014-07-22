@@ -1,0 +1,336 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.981335
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.491975
+      },
+      {
+        "id": 5,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.489505
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Foot",
+        "wikiLink": "http://en.wikipedia.org/Foot",
+        "score": 0.140132
+      },
+      {
+        "id": 1,
+        "label": "Podiatry",
+        "wikiLink": "http://en.wikipedia.org/Podiatry",
+        "score": 0.370767
+      },
+      {
+        "id": 2,
+        "label": "Shoe",
+        "wikiLink": "http://en.wikipedia.org/Shoe",
+        "score": 0.250649
+      },
+      {
+        "id": 3,
+        "label": "Lower limb anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Lower_limb_anatomy",
+        "score": 0.671755
+      },
+      {
+        "id": 4,
+        "label": "Land transport",
+        "wikiLink": "http://en.wikipedia.org/Category:Land_transport",
+        "score": 0.0913534
+      },
+      {
+        "id": 5,
+        "label": "Style",
+        "wikiLink": "http://en.wikipedia.org/Category:Style",
+        "score": 0.0913534
+      },
+      {
+        "id": 6,
+        "label": "Outdoor recreation",
+        "wikiLink": "http://en.wikipedia.org/Category:Outdoor_recreation",
+        "score": 0.0913534
+      },
+      {
+        "id": 7,
+        "label": "Clothing",
+        "wikiLink": "http://en.wikipedia.org/Category:Clothing",
+        "score": 0.0913534
+      },
+      {
+        "id": 8,
+        "label": "Human power",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_power",
+        "score": 0.0913534
+      },
+      {
+        "id": 9,
+        "label": "Footwear",
+        "wikiLink": "http://en.wikipedia.org/Category:Footwear",
+        "score": 0.0913534
+      },
+      {
+        "id": 10,
+        "label": "Walking",
+        "wikiLink": "http://en.wikipedia.org/Category:Walking",
+        "score": 0.0913534
+      },
+      {
+        "id": 11,
+        "label": "Cultural trends",
+        "wikiLink": "http://en.wikipedia.org/Category:Cultural_trends",
+        "score": 0.0913534
+      },
+      {
+        "id": 12,
+        "label": "Types of travel",
+        "wikiLink": "http://en.wikipedia.org/Category:Types_of_travel",
+        "score": 0.0913534
+      },
+      {
+        "id": 13,
+        "label": "Fashion",
+        "wikiLink": "http://en.wikipedia.org/Category:Fashion",
+        "score": 0.0913534
+      },
+      {
+        "id": 14,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0633667
+      },
+      {
+        "id": 15,
+        "label": "Morphology",
+        "wikiLink": "http://en.wikipedia.org/Category:Morphology",
+        "score": 0.0619062
+      },
+      {
+        "id": 16,
+        "label": "Structure",
+        "wikiLink": "http://en.wikipedia.org/Category:Structure",
+        "score": 0.0619062
+      },
+      {
+        "id": 17,
+        "label": "Zoology",
+        "wikiLink": "http://en.wikipedia.org/Category:Zoology",
+        "score": 0.0619062
+      },
+      {
+        "id": 18,
+        "label": "Anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Anatomy",
+        "score": 0.0619062
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Foot",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/business/product_category",
+          "/sports/sports_equipment",
+          "/visual_art/art_subject",
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.36566,
+        "wikiLink": "http://en.wikipedia.org/wiki/Foot",
+        "matchedText": "foot",
+        "freebaseId": "/m/031n1",
+        "relevanceScore": 0.140132,
+        "entityEnglishId": "Foot",
+        "startingPos": 73,
+        "endingPos": 77
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          10,
+          11
+        ],
+        "entityId": "Podiatry",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study",
+          "/business/industry"
+        ],
+        "confidenceScore": 2.10814,
+        "wikiLink": "http://en.wikipedia.org/wiki/Podiatry",
+        "matchedText": "foot care",
+        "freebaseId": "/m/02tgxy",
+        "relevanceScore": 0.370767,
+        "entityEnglishId": "Podiatry",
+        "startingPos": 73,
+        "endingPos": 82
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Footwear",
+        "freebaseTypes": [
+          "/business/industry",
+          "/business/product_category",
+          "/fashion/garment",
+          "/book/book_subject",
+          "/exhibitions/exhibition_subject"
+        ],
+        "confidenceScore": 1.62856,
+        "wikiLink": "http://en.wikipedia.org/wiki/Footwear",
+        "matchedText": "footwear",
+        "freebaseId": "/m/09j5n",
+        "relevanceScore": 0,
+        "entityEnglishId": "Footwear",
+        "startingPos": 110,
+        "endingPos": 118
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Shoe",
+        "freebaseTypes": [
+          "/internet/website_category",
+          "/business/product_category",
+          "/business/industry",
+          "/book/book_subject",
+          "/fashion/garment",
+          "/exhibitions/exhibition_subject",
+          "/business/consumer_product",
+          "/visual_art/visual_art_medium"
+        ],
+        "confidenceScore": 2.35003,
+        "wikiLink": "http://en.wikipedia.org/wiki/Shoe",
+        "matchedText": "insoles",
+        "freebaseId": "/m/06rrc",
+        "relevanceScore": 0.250649,
+        "entityEnglishId": "Shoe",
+        "startingPos": 123,
+        "endingPos": 130
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Skin",
+        "freebaseTypes": [
+          "/film/film_subject",
+          "/book/book_subject",
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.31822,
+        "wikiLink": "http://en.wikipedia.org/wiki/Skin",
+        "matchedText": "skin",
+        "freebaseId": "/m/06z04",
+        "relevanceScore": 0,
+        "entityEnglishId": "Skin",
+        "startingPos": 136,
+        "endingPos": 140
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          17,
+          18,
+          20
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          30
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          14
+        ]
+      }
+    ]
+  },
+  "time": 3.203,
+  "ok": true
+}

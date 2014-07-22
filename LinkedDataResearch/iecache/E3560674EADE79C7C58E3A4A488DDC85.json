@@ -1,0 +1,343 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.617811
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.610698
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.590298
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.50457
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.50397
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Relapse",
+        "wikiLink": "http://en.wikipedia.org/Relapse",
+        "score": 0.242145
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Period (geology)",
+        "confidenceScore": 1.33836,
+        "wikiLink": "http://en.wikipedia.org/wiki/Period_(geology)",
+        "matchedText": "period",
+        "freebaseId": "/m/08z6b_",
+        "relevanceScore": 0.0809854,
+        "entityEnglishId": "Period (geology)",
+        "startingPos": 132,
+        "endingPos": 138
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Behavior",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.07133,
+        "wikiLink": "http://en.wikipedia.org/wiki/Behavior",
+        "matchedText": "behaviour",
+        "freebaseId": "/m/01jbm",
+        "relevanceScore": 0.0344504,
+        "entityEnglishId": "Behavior",
+        "startingPos": 177,
+        "endingPos": 186
+      },
+      {
+        "id": 2,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "Relapse",
+        "confidenceScore": 2.214,
+        "wikiLink": "http://en.wikipedia.org/wiki/Relapse",
+        "matchedText": "relapse",
+        "freebaseId": "/m/05lm0m",
+        "relevanceScore": 0.242145,
+        "entityEnglishId": "Relapse",
+        "startingPos": 229,
+        "endingPos": 236
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          27
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              25,
+              26
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              39,
+              40,
+              41,
+              42
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          27,
+          28,
+          29,
+          34
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              25,
+              26
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              30,
+              31,
+              32,
+              33,
+              35,
+              36,
+              37,
+              39,
+              40,
+              41,
+              42
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          45,
+          46
+        ],
+        "propertyPositions": [
+          44
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          45,
+          46
+        ],
+        "propertyPositions": [
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          2,
+          3,
+          14,
+          19
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          5,
+          7
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          5,
+          7
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          5,
+          7
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          0,
+          2,
+          3,
+          14,
+          19
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          7,
+          8,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          0,
+          2,
+          3,
+          14,
+          19
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          20,
+          22,
+          23
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          30,
+          32,
+          33
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          40,
+          41
+        ],
+        "propertyPositions": [
+          42
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          25,
+          26
+        ],
+        "propertyPositions": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          39,
+          40,
+          41,
+          42
+        ]
+      }
+    ]
+  },
+  "time": 3.021,
+  "ok": true
+}

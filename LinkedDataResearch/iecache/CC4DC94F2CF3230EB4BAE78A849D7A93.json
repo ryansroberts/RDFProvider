@@ -1,0 +1,242 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.653063
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.381127
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.344922
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.327372
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.325691
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Peptic ulcer",
+        "wikiLink": "http://en.wikipedia.org/Peptic_ulcer",
+        "score": 0.229324
+      },
+      {
+        "id": 1,
+        "label": "Risk",
+        "wikiLink": "http://en.wikipedia.org/Risk",
+        "score": 0.178439
+      },
+      {
+        "id": 2,
+        "label": "Fields of application of statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_application_of_statistics",
+        "score": 0.0816822
+      },
+      {
+        "id": 3,
+        "label": "Security",
+        "wikiLink": "http://en.wikipedia.org/Category:Security",
+        "score": 0.0708747
+      },
+      {
+        "id": 4,
+        "label": "Health fields",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_fields",
+        "score": 0.0648604
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Risk",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.04257,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk",
+        "matchedText": "risk",
+        "freebaseId": "/m/06d5f",
+        "relevanceScore": 0.178439,
+        "entityEnglishId": "Risk",
+        "startingPos": 84,
+        "endingPos": 88
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Risk factor",
+        "confidenceScore": 1.25693,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk_factor",
+        "matchedText": "risk factors",
+        "freebaseId": "/m/03nznf",
+        "relevanceScore": 0,
+        "entityEnglishId": "Risk factor",
+        "startingPos": 84,
+        "endingPos": 96
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Peptic ulcer",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/symptom",
+          "/medicine/risk_factor",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 0.981953,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peptic_ulcer",
+        "matchedText": "ulceration",
+        "freebaseId": "/m/0h3h4",
+        "relevanceScore": 0.229324,
+        "entityEnglishId": "Peptic ulcer",
+        "startingPos": 102,
+        "endingPos": 112
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          8,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          8,
+          9,
+          12,
+          13,
+          16
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4,
+              10,
+              11,
+              14,
+              15,
+              17
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  "time": 3.021,
+  "ok": true
+}

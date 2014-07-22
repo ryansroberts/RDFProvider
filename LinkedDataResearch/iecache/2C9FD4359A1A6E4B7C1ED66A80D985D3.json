@@ -1,0 +1,266 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.845211
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Microalbuminuria",
+        "wikiLink": "http://en.wikipedia.org/Microalbuminuria",
+        "score": 0.478104
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "albumin:creatinine",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "albumin:creatinine",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 31,
+        "endingPos": 49
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Ratio",
+        "freebaseTypes": [
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 1.29261,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ratio",
+        "matchedText": "ratio",
+        "freebaseId": "/m/0m1mr",
+        "relevanceScore": 0.0317601,
+        "entityEnglishId": "Ratio",
+        "startingPos": 50,
+        "endingPos": 55
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          39
+        ],
+        "entityId": "Microalbuminuria",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.90688,
+        "wikiLink": "http://en.wikipedia.org/wiki/Microalbuminuria",
+        "matchedText": "microalbuminuria",
+        "freebaseId": "/m/07y7r4",
+        "relevanceScore": 0.478104,
+        "entityEnglishId": "Microalbuminuria",
+        "startingPos": 211,
+        "endingPos": 227
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          8,
+          9,
+          11,
+          17,
+          25,
+          26
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              12,
+              13,
+              14,
+              15,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          20,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          27,
+          28,
+          29
+        ],
+        "propertyPositions": [
+          30,
+          31
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          40,
+          41,
+          43,
+          45
+        ],
+        "propertyPositions": [
+          42
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          56,
+          57
+        ],
+        "propertyPositions": [
+          50,
+          51,
+          52
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          62,
+          63
+        ],
+        "propertyPositions": [
+          64
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          56,
+          57
+        ],
+        "propertyPositions": [
+          60,
+          61,
+          62,
+          63,
+          64
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          56,
+          57
+        ],
+        "propertyPositions": [
+          58
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          40,
+          41,
+          43,
+          45
+        ],
+        "propertyPositions": [
+          47,
+          48,
+          50,
+          51,
+          52,
+          54,
+          55,
+          56,
+          57,
+          58,
+          60,
+          61,
+          62,
+          63,
+          64
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

@@ -1,0 +1,755 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.345413
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.258514
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Autoantibody",
+        "wikiLink": "http://en.wikipedia.org/Autoantibody",
+        "score": 0.311971
+      },
+      {
+        "id": 1,
+        "label": "B cell",
+        "wikiLink": "http://en.wikipedia.org/B_cell",
+        "score": 0.148026
+      },
+      {
+        "id": 2,
+        "label": "C-peptide",
+        "wikiLink": "http://en.wikipedia.org/C-peptide",
+        "score": 0.378695
+      },
+      {
+        "id": 3,
+        "label": "Diabetes mellitus type 1",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_1",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 1
+      },
+      {
+        "id": 5,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.777966
+      },
+      {
+        "id": 6,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.755794
+      },
+      {
+        "id": 7,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.746242
+      },
+      {
+        "id": 8,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders_by_system",
+        "score": 0.236687
+      },
+      {
+        "id": 9,
+        "label": "Immune system disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Immune_system_disorders",
+        "score": 0.236687
+      },
+      {
+        "id": 10,
+        "label": "Immunology",
+        "wikiLink": "http://en.wikipedia.org/Category:Immunology",
+        "score": 0.236687
+      },
+      {
+        "id": 11,
+        "label": "Autoimmune diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Autoimmune_diseases",
+        "score": 0.236687
+      },
+      {
+        "id": 12,
+        "label": "Immune system",
+        "wikiLink": "http://en.wikipedia.org/Category:Immune_system",
+        "score": 0.0632002
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Autoantibody",
+        "confidenceScore": 1.87379,
+        "wikiLink": "http://en.wikipedia.org/wiki/Autoantibody",
+        "matchedText": "auto-antibodies",
+        "freebaseId": "/m/06f88q",
+        "relevanceScore": 0.311971,
+        "entityEnglishId": "Autoantibody",
+        "startingPos": 25,
+        "endingPos": 40
+      },
+      {
+        "id": 1,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "C-peptide",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 4.41694,
+        "wikiLink": "http://en.wikipedia.org/wiki/C-peptide",
+        "matchedText": "C-peptide",
+        "freebaseId": "/m/02dc9b",
+        "relevanceScore": 0.378695,
+        "entityEnglishId": "C-peptide",
+        "startingPos": 55,
+        "endingPos": 64
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.10611,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "Type 1",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.818127,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 133,
+        "endingPos": 139
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20,
+          21,
+          22
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 6.27739,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "Type 1 diabetes",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.502183,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 133,
+        "endingPos": 148
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.14583,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.584845,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 140,
+        "endingPos": 148
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Islet",
+        "freebaseTypes": [
+          "/geography/geographical_feature_category"
+        ],
+        "confidenceScore": 1.4471,
+        "wikiLink": "http://en.wikipedia.org/wiki/Islet",
+        "matchedText": "islet",
+        "freebaseId": "/m/01jyr1",
+        "relevanceScore": 0.0281678,
+        "entityEnglishId": "Islet",
+        "startingPos": 218,
+        "endingPos": 223
+      },
+      {
+        "id": 6,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "B cell",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 2.64385,
+        "wikiLink": "http://en.wikipedia.org/wiki/B_cell",
+        "matchedText": "B-cell",
+        "freebaseId": "/m/01f1w5",
+        "relevanceScore": 0.148026,
+        "entityEnglishId": "B cell",
+        "startingPos": 224,
+        "endingPos": 230
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          44,
+          45
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.10611,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "Type 1",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.818127,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 274,
+        "endingPos": 280
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          47,
+          48
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.6628,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "Type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.831644,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 286,
+        "endingPos": 292
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          47,
+          48,
+          49
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.93812,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "Type 2 diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.488346,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 286,
+        "endingPos": 301
+      },
+      {
+        "id": 10,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          49
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.14583,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.584845,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 293,
+        "endingPos": 301
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2,
+          5
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              3,
+              4,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              3,
+              4,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6,
+          7,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              8,
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              8,
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              8,
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              17,
+              18,
+              19,
+              20,
+              21,
+              22
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          25,
+          26,
+          27,
+          28
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              24
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          26,
+          27,
+          28
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              24,
+              25
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          26,
+          27,
+          28,
+          30
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              24,
+              25
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              29,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          26,
+          27,
+          28,
+          29,
+          39,
+          41,
+          42
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              24,
+              25
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              40,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          34,
+          35
+        ],
+        "propertyPositions": [
+          36,
+          37,
+          38
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          31,
+          32,
+          33
+        ],
+        "propertyPositions": [
+          34,
+          35,
+          36,
+          37,
+          38
+        ]
+      }
+    ]
+  },
+  "time": 3.025,
+  "ok": true
+}

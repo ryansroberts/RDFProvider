@@ -1,0 +1,192 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.970896
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.970896
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Advice (opinion)",
+        "wikiLink": "http://en.wikipedia.org/Advice_(opinion)",
+        "score": 0.298564
+      },
+      {
+        "id": 1,
+        "label": "Branches of philosophy",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_philosophy",
+        "score": 0.0699914
+      },
+      {
+        "id": 2,
+        "label": "Philosophy",
+        "wikiLink": "http://en.wikipedia.org/Category:Philosophy_by_field",
+        "score": 0.0699914
+      },
+      {
+        "id": 3,
+        "label": "Value",
+        "wikiLink": "http://en.wikipedia.org/Category:Value",
+        "score": 0.0699914
+      },
+      {
+        "id": 4,
+        "label": "Society",
+        "wikiLink": "http://en.wikipedia.org/Category:Society",
+        "score": 0.0699914
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Advice (opinion)",
+        "freebaseTypes": [
+          "/media_common/quotation_subject",
+          "/media_common/media_genre"
+        ],
+        "confidenceScore": 1.18486,
+        "wikiLink": "http://en.wikipedia.org/wiki/Advice_(opinion)",
+        "matchedText": "advice",
+        "freebaseId": "/m/02z7r3z",
+        "relevanceScore": 0.298564,
+        "entityEnglishId": "Advice (opinion)",
+        "startingPos": 16,
+        "endingPos": 22
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          28,
+          29,
+          30
+        ],
+        "entityId": "Quality of life",
+        "freebaseTypes": [
+          "/tv/tv_genre",
+          "/media_common/media_genre"
+        ],
+        "confidenceScore": 1.78528,
+        "wikiLink": "http://en.wikipedia.org/wiki/Quality_of_life",
+        "matchedText": "quality of life",
+        "freebaseId": "/m/0cvgr",
+        "relevanceScore": 0.0289913,
+        "entityEnglishId": "Quality of life",
+        "startingPos": 163,
+        "endingPos": 178
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          28,
+          29
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          24,
+          25,
+          26
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ]
+  },
+  "time": 3.021,
+  "ok": true
+}

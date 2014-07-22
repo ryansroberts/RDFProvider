@@ -1,0 +1,161 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Experience",
+        "wikiLink": "http://en.wikipedia.org/Experience",
+        "score": 0.107534
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Experience",
+        "freebaseTypes": [
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.31612,
+        "wikiLink": "http://en.wikipedia.org/wiki/Experience",
+        "matchedText": "experiences",
+        "freebaseId": "/m/01rhgl",
+        "relevanceScore": 0.107534,
+        "entityEnglishId": "Experience",
+        "startingPos": 129,
+        "endingPos": 140
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          24,
+          25,
+          27,
+          29,
+          31,
+          32,
+          35
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              30
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              26,
+              28,
+              33,
+              34,
+              36,
+              37
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          29,
+          31,
+          32,
+          35
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              30
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              33,
+              34,
+              36,
+              37
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          1,
+          2,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  "time": 3.018,
+  "ok": true
+}

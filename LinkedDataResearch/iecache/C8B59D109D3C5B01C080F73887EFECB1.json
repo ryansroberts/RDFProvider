@@ -1,0 +1,173 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.475644
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.458849
+      },
+      {
+        "id": 3,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.357731
+      },
+      {
+        "id": 4,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.357731
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Aspirin",
+        "wikiLink": "http://en.wikipedia.org/Aspirin",
+        "score": 0.335175
+      },
+      {
+        "id": 1,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.148719
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Aspirin",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors",
+          "/medicine/risk_factor",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 7.34016,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aspirin",
+        "matchedText": "Aspirin",
+        "freebaseId": "/m/0qkc",
+        "relevanceScore": 0.335175,
+        "entityEnglishId": "Aspirin",
+        "startingPos": 0,
+        "endingPos": 7
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.48372,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.148719,
+        "entityEnglishId": "Therapy",
+        "startingPos": 8,
+        "endingPos": 15
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              11,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "time": 3.031,
+  "ok": true
+}

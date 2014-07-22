@@ -1,0 +1,322 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Dipeptidyl peptidase-4",
+        "wikiLink": "http://en.wikipedia.org/Dipeptidyl_peptidase-4",
+        "score": 0.249497
+      },
+      {
+        "id": 1,
+        "label": "Glycated hemoglobin",
+        "wikiLink": "http://en.wikipedia.org/Glycated_hemoglobin",
+        "score": 0.301967
+      },
+      {
+        "id": 2,
+        "label": "Sitagliptin",
+        "wikiLink": "http://en.wikipedia.org/Sitagliptin",
+        "score": 0.502799
+      },
+      {
+        "id": 3,
+        "label": "Vildagliptin",
+        "wikiLink": "http://en.wikipedia.org/Vildagliptin",
+        "score": 0.294462
+      },
+      {
+        "id": 4,
+        "label": "Hydrolases",
+        "wikiLink": "http://en.wikipedia.org/Category:Hydrolases",
+        "score": 0.650743
+      },
+      {
+        "id": 5,
+        "label": "Hydrolase inhibitors",
+        "wikiLink": "http://en.wikipedia.org/Category:Hydrolase_inhibitors",
+        "score": 0.363898
+      },
+      {
+        "id": 6,
+        "label": "Enzyme inhibitors",
+        "wikiLink": "http://en.wikipedia.org/Category:Enzyme_inhibitors",
+        "score": 0.363898
+      },
+      {
+        "id": 7,
+        "label": "Dipeptidyl peptidase-4 inhibitors",
+        "wikiLink": "http://en.wikipedia.org/Category:Dipeptidyl_peptidase-4_inhibitors",
+        "score": 0.354676
+      },
+      {
+        "id": 8,
+        "label": "Organonitrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organonitrogen_compounds",
+        "score": 0.114245
+      },
+      {
+        "id": 9,
+        "label": "Oxygen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxygen_compounds",
+        "score": 0.114245
+      },
+      {
+        "id": 10,
+        "label": "Nitrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Nitrogen_compounds",
+        "score": 0.114245
+      },
+      {
+        "id": 11,
+        "label": "Oxygen",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxygen",
+        "score": 0.114245
+      },
+      {
+        "id": 12,
+        "label": "Organic chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_chemistry",
+        "score": 0.114245
+      },
+      {
+        "id": 13,
+        "label": "Amides",
+        "wikiLink": "http://en.wikipedia.org/Category:Amides",
+        "score": 0.114245
+      },
+      {
+        "id": 14,
+        "label": "Functional groups",
+        "wikiLink": "http://en.wikipedia.org/Category:Functional_groups",
+        "score": 0.114245
+      },
+      {
+        "id": 15,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.114245
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Dipeptidyl peptidase-4",
+        "confidenceScore": 1.15215,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dipeptidyl_peptidase-4",
+        "matchedText": "DPP-4",
+        "freebaseId": "/m/0f2wt4",
+        "relevanceScore": 0.249497,
+        "entityEnglishId": "Dipeptidyl peptidase-4",
+        "startingPos": 14,
+        "endingPos": 19
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          2,
+          3
+        ],
+        "entityId": "Dipeptidyl peptidase-4 inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/medicine/drug_mechanism_of_action",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 2.3794,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dipeptidyl_peptidase-4_inhibitor",
+        "matchedText": "DPP-4 inhibitor",
+        "freebaseId": "/m/0dk7rr",
+        "relevanceScore": 0.0351856,
+        "entityEnglishId": "Dipeptidyl peptidase-4 inhibitor",
+        "startingPos": 14,
+        "endingPos": 29
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Sitagliptin",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 4.02117,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sitagliptin",
+        "matchedText": "sitagliptin",
+        "freebaseId": "/m/0dk8qr",
+        "relevanceScore": 0.502799,
+        "entityEnglishId": "Sitagliptin",
+        "startingPos": 39,
+        "endingPos": 50
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Vildagliptin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 2.97891,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vildagliptin",
+        "matchedText": "vildagliptin",
+        "freebaseId": "/m/0dk7d9",
+        "relevanceScore": 0.294462,
+        "entityEnglishId": "Vildagliptin",
+        "startingPos": 52,
+        "endingPos": 64
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Percentage",
+        "freebaseTypes": [
+          "/type/unit"
+        ],
+        "confidenceScore": 1.12077,
+        "wikiLink": "http://en.wikipedia.org/wiki/Percentage",
+        "matchedText": "percentage",
+        "freebaseId": "/m/0h6zk",
+        "relevanceScore": 0,
+        "entityEnglishId": "Percentage",
+        "startingPos": 151,
+        "endingPos": 161
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.49781,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "HbA1c",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.301967,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 172,
+        "endingPos": 177
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          28,
+          29,
+          30,
+          32
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          28,
+          29,
+          30,
+          32
+        ],
+        "propertyPositions": [
+          33,
+          34
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          16,
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16,
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          21,
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          16,
+          19
+        ],
+        "propertyPositions": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ]
+      }
+    ]
+  },
+  "time": 3.016,
+  "ok": true
+}

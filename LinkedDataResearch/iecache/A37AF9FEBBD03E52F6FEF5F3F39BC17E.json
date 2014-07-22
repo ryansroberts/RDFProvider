@@ -1,0 +1,220 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Creatinine",
+        "wikiLink": "http://en.wikipedia.org/Creatinine",
+        "score": 0.550313
+      },
+      {
+        "id": 1,
+        "label": "Equation",
+        "wikiLink": "http://en.wikipedia.org/Equation",
+        "score": 0.21216
+      },
+      {
+        "id": 2,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.399109
+      },
+      {
+        "id": 4,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.371084
+      },
+      {
+        "id": 5,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.364516
+      },
+      {
+        "id": 6,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.364516
+      },
+      {
+        "id": 7,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.364516
+      },
+      {
+        "id": 8,
+        "label": "Renal physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Renal_physiology",
+        "score": 0.324803
+      },
+      {
+        "id": 9,
+        "label": "Physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Physiology",
+        "score": 0.324803
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 6.96286,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 1,
+        "entityEnglishId": "Renal function",
+        "startingPos": 29,
+        "endingPos": 32
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "CKD-EPI",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "CKD-EPI",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 60,
+        "endingPos": 67
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.68251,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.550313,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 68,
+        "endingPos": 78
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Equation",
+        "confidenceScore": 1.52021,
+        "wikiLink": "http://en.wikipedia.org/wiki/Equation",
+        "matchedText": "equation",
+        "freebaseId": "/m/02jnw",
+        "relevanceScore": 0.21216,
+        "entityEnglishId": "Equation",
+        "startingPos": 79,
+        "endingPos": 87
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "African�Caribbean",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "African�Caribbean",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 102,
+        "endingPos": 119
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 7.50845,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "eGFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 1,
+        "entityEnglishId": "Renal function",
+        "startingPos": 155,
+        "endingPos": 159
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          19,
+          20
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 3.025,
+  "ok": true
+}

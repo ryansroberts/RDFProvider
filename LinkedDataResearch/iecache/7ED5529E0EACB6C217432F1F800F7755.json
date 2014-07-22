@@ -1,0 +1,372 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.425103
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.420973
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.211287
+      },
+      {
+        "id": 4,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.202988
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.193513
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Blood",
+        "wikiLink": "http://en.wikipedia.org/Blood",
+        "score": 0.209352
+      },
+      {
+        "id": 1,
+        "label": "Blood sugar",
+        "wikiLink": "http://en.wikipedia.org/Blood_sugar",
+        "score": 0.144204
+      },
+      {
+        "id": 2,
+        "label": "Cure",
+        "wikiLink": "http://en.wikipedia.org/Cure",
+        "score": 0.235164
+      },
+      {
+        "id": 3,
+        "label": "Glucose",
+        "wikiLink": "http://en.wikipedia.org/Glucose",
+        "score": 0.137797
+      },
+      {
+        "id": 4,
+        "label": "Peripheral neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Peripheral_neuropathy",
+        "score": 0.552736
+      },
+      {
+        "id": 5,
+        "label": "Symptom",
+        "wikiLink": "http://en.wikipedia.org/Symptom",
+        "score": 0.12851
+      },
+      {
+        "id": 6,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.179501
+      },
+      {
+        "id": 7,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.137245
+      },
+      {
+        "id": 8,
+        "label": "Chemical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_pathology",
+        "score": 0.13187
+      },
+      {
+        "id": 9,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.129012
+      },
+      {
+        "id": 10,
+        "label": "Human metabolites",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_metabolites",
+        "score": 0.128435
+      },
+      {
+        "id": 11,
+        "label": "Clinical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_pathology",
+        "score": 0.128435
+      },
+      {
+        "id": 12,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.128435
+      },
+      {
+        "id": 13,
+        "label": "Hematology",
+        "wikiLink": "http://en.wikipedia.org/Category:Hematology",
+        "score": 0.125748
+      },
+      {
+        "id": 14,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0985273
+      },
+      {
+        "id": 15,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.0955902
+      },
+      {
+        "id": 16,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0919861
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Peripheral neuropathy",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.90547,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peripheral_neuropathy",
+        "matchedText": "neuropathic",
+        "freebaseId": "/m/02w1fx",
+        "relevanceScore": 0.552736,
+        "entityEnglishId": "Peripheral neuropathy",
+        "startingPos": 3,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Symptom",
+        "confidenceScore": 1.99574,
+        "wikiLink": "http://en.wikipedia.org/wiki/Symptom",
+        "matchedText": "symptoms",
+        "freebaseId": "/m/01b_06",
+        "relevanceScore": 0.12851,
+        "entityEnglishId": "Symptom",
+        "startingPos": 15,
+        "endingPos": 23
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Cure",
+        "confidenceScore": 2.03254,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cure",
+        "matchedText": "remission",
+        "freebaseId": "/m/0405g08",
+        "relevanceScore": 0.235164,
+        "entityEnglishId": "Cure",
+        "startingPos": 141,
+        "endingPos": 150
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Blood",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/food/ingredient",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.93022,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood",
+        "matchedText": "blood",
+        "freebaseId": "/m/019jw",
+        "relevanceScore": 0.209352,
+        "entityEnglishId": "Blood",
+        "startingPos": 191,
+        "endingPos": 196
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          37,
+          38
+        ],
+        "entityId": "Blood sugar",
+        "confidenceScore": 2.38797,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_sugar",
+        "matchedText": "blood glucose",
+        "freebaseId": "/m/01qd35",
+        "relevanceScore": 0.144204,
+        "entityEnglishId": "Blood sugar",
+        "startingPos": 191,
+        "endingPos": 204
+      },
+      {
+        "id": 5,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "Glucose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.13077,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucose",
+        "matchedText": "glucose",
+        "freebaseId": "/m/02kb_m_",
+        "relevanceScore": 0.137797,
+        "entityEnglishId": "Glucose",
+        "startingPos": 197,
+        "endingPos": 204
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          18,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21,
+          22
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          37,
+          38,
+          39
+        ],
+        "propertyPositions": [
+          36
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          33,
+          34,
+          35
+        ],
+        "propertyPositions": [
+          36,
+          37,
+          38,
+          39
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          2
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          9
+        ],
+        "propertyPositions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          24,
+          25,
+          26,
+          28
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          29,
+          31
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          24,
+          25,
+          26,
+          28
+        ],
+        "propertyPositions": [
+          29,
+          30,
+          31
+        ]
+      }
+    ]
+  },
+  "time": 3.019,
+  "ok": true
+}

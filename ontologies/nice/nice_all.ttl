@@ -354,6 +354,16 @@
 
 
 
+###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#hasDenominator
+
+:hasDenominator rdf:type owl:ObjectProperty ;
+                
+                rdfs:range :Denominator ;
+                
+                rdfs:domain :QualityMeasure .
+
+
+
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#hasMeasure
 
 :hasMeasure rdf:type owl:ObjectProperty ;
@@ -366,6 +376,28 @@
 
 
 
+###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#hasNumerator
+
+:hasNumerator rdf:type owl:ObjectProperty ;
+              
+              rdfs:range :Numerator ;
+              
+              rdfs:domain :QualityMeasure .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#isDenominatorOf
+
+:isDenominatorOf rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:domain :Denominator ;
+                 
+                 rdfs:range :QualityMeasure ;
+                 
+                 owl:inverseOf :hasDenominator .
+
+
+
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#isMeasureOf
 
 :isMeasureOf rdf:type owl:ObjectProperty ;
@@ -375,6 +407,18 @@
              rdfs:domain :QualityMeasure ;
              
              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#isNumeratorOf
+
+:isNumeratorOf rdf:type owl:ObjectProperty ;
+               
+               rdfs:domain :Numerator ;
+               
+               rdfs:range :QualityMeasure ;
+               
+               owl:inverseOf :hasNumerator .
 
 
 
@@ -427,6 +471,8 @@
                                                                                        
                                                                                        rdfs:domain [ rdf:type owl:Class ;
                                                                                                      owl:unionOf ( <http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#SharedLearning>
+                                                                                                                   :Denominator
+                                                                                                                   :Numerator
                                                                                                                    :QualityMeasure
                                                                                                                  )
                                                                                                    ] .
@@ -586,26 +632,6 @@
 
 
 
-###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#hasDenominator
-
-:hasDenominator rdf:type owl:DatatypeProperty ;
-                
-                rdfs:domain :QualityMeasure ;
-                
-                rdfs:range xsd:string .
-
-
-
-###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#hasNumerator
-
-:hasNumerator rdf:type owl:DatatypeProperty ;
-              
-              rdfs:domain :QualityMeasure ;
-              
-              rdfs:range xsd:string .
-
-
-
 
 
 #################################################################
@@ -758,6 +784,20 @@
 <http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesIndicator> rdf:type owl:Class ;
                                                                                               
                                                                                               rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#Denominator
+
+:Denominator rdf:type owl:Class ;
+             
+             owl:disjointWith :Numerator .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/6/untitled-ontology-10#Numerator
+
+:Numerator rdf:type owl:Class .
 
 
 

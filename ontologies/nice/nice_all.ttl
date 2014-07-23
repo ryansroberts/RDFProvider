@@ -384,7 +384,6 @@
               rdfs:domain :QualityMeasure .
 
 
-
 ### http://www.semanticweb.org/amitchell/ontologies/nice_all#isDenominatorOf
 
 :isDenominatorOf rdf:type owl:ObjectProperty ;
@@ -419,20 +418,6 @@
                
                owl:inverseOf :hasNumerator .
 
-
-
-### http://www.semanticweb.org/amitchell/ontologies/nice_all#isUnderpinnedBy
-
-:isUnderpinnedBy rdf:type owl:ObjectProperty ;
-                 
-                 rdfs:range :Recommendation ;
-                 
-                 rdfs:domain :QualityStatement ;
-                 
-                 owl:inverseOf :underpins .
-
-
-
 ### http://www.semanticweb.org/amitchell/ontologies/nice_all#underpins
 
 :underpins rdf:type owl:ObjectProperty ;
@@ -441,18 +426,6 @@
            
            rdfs:range :QualityStatement .
 
-###  isUsedBy
-  
- :isUsedBy rdf:type owl:ObjectProperty ;                                                                   
-	rdfs:range :Discussion ;
- 	rdfs:domain :EvidenceStatement ;
- 	owl:inverseOf :uses .
-
-###  uses
-
- :uses rdf:type owl:ObjectProperty ;
- 	rdfs:domain :Discussion ;
-	rdfs:range :EvidenceStatement .
 
 
 #################################################################

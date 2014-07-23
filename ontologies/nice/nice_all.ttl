@@ -393,13 +393,7 @@
 
 ###  http://www.semanticweb.org/amitchell/ontologies/nice_allisUsedBy
 
-<http://www.semanticweb.org/amitchell/ontologies/nice_allisUsedBy> rdf:type owl:ObjectProperty ;
-                                                                   
-                                                                   rdfs:range <http://www.semanticweb.org/amitchell/ontologies/nice_allDiscussion> ;
-                                                                   
-                                                                   rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/nice_allEvidenceStatement> ;
-                                                                   
-                                                                   owl:inverseOf <http://www.semanticweb.org/amitchell/ontologies/nice_alluses> .
+<http://www.semanticweb.org/amitchell/ontologies/nice_allisUsedBy> rdf:type owl:ObjectProperty .
 
 
 
@@ -432,16 +426,6 @@
                                                                     rdfs:range <http://www.semanticweb.org/amitchell/ontologies/nice_allQualityStatement> ;
                                                                     
                                                                     rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/nice_allRecommendation> .
-
-
-
-###  http://www.semanticweb.org/amitchell/ontologies/nice_alluses
-
-<http://www.semanticweb.org/amitchell/ontologies/nice_alluses> rdf:type owl:ObjectProperty ;
-                                                               
-                                                               rdfs:domain <http://www.semanticweb.org/amitchell/ontologies/nice_allDiscussion> ;
-                                                               
-                                                               rdfs:range <http://www.semanticweb.org/amitchell/ontologies/nice_allEvidenceStatement> .
 
 
 

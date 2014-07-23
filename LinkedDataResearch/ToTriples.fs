@@ -1,4 +1,4 @@
-﻿module Project
+module Project
 
     open Model
     open Owl
@@ -192,8 +192,8 @@
                 yield (Predicate.from qualityStatement.DataProperties.``nice:title``.Uri,Object.from (string statement.Title))
                 yield (Predicate.from chars.Uri,Object.from (string statement.Statement))
                 for r in statement.Reccomendation do
-                    let rScope = (Scope("http://nice.org.uk/reccomendation", [r]))
-                    yield (Predicate.from qualityStatement.ObjectProperties.``nice:isUnderpinnedBy``.Uri,Object.from (string rScope))
+                    let rScope = Owl.Uri( string (Scope("http://nice.org.uk/reccomendation", [r])))
+                    yield (Predicate.from qualityStatement.ObjectProperties.``nice:isUnderpinnedBy``.Uri,Object.from rScope)
                    
             ] 
 
@@ -211,6 +211,35 @@
 
         for s in s.Statements do
             yield! qualityStatements scope s
+    ]
+
+    let organisation (o:Model.Organisation) = [
+        let scope = Scope("http://nice.org.uk/organisations", [o.Id])
+        yield! statementsFor (Subject (Owl.Uri (string scope)))
+            [ 
+                yield (a,Object.from organisation.Uri)
+                yield (a,individual)
+            ]
+    ]
+
+    let sharedLearning (s:Model.SharedLearning) = [
+        let scope = Scope("http://nice.org.uk/sharedlearning", [s.Id])
+        yield! statementsFor (Subject (Owl.Uri (string scope)))
+            [ 
+                yield (a,Object.from sharedLearning.Uri)
+                yield (a,individual)
+                yield (Predicate.from sharedLearning.DataProperties.``nice:hasTitle``.Uri,Object.from (string s.Title))
+                yield (Predicate.from sharedLearning.DataProperties.``nice:hasDescription``.Uri,Object.from (string s.Description))
+                for o in s.Organisations do
+                    let orgscope = Owl.Uri (string (Scope("http://nice.org.uk/organisations", [o])))
+                    yield (Predicate.from sharedLearning.ObjectProperties.``nice:wasDevelopedBy``.Uri,Object.from orgscope)   
+                for (uri,name) in s.Geo do
+                    yield (Predicate.from sharedLearning.ObjectProperties.``nice:hasGeoSetting``.Uri,Object.from uri)   
+                for qs in s.QualityStandards do
+                    yield (Predicate.from sharedLearning.ObjectProperties.)
+            ]
+         
+    
     ]
 
 

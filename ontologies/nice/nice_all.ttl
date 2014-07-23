@@ -236,19 +236,16 @@
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isAbout
 
+
+
+
 :isAbout rdf:type owl:ObjectProperty ;
-                                                                                
-                                                                                rdfs:range :Topic ;
-                                                                                
-                                                                                owl:inverseOf :isTopicOf ;
-                                                                                
-                                                                                rdfs:domain [ rdf:type owl:Class ;
-                                                                                              owl:unionOf ( :Question
-                                                                                                            :EvidenceStatement
-                                                                                                            :Guideline
-                                                                                                            :Recommendation
-                                                                                                          )
-                                                                                            ] .
+	rdfs:range :Topic ;
+ 	owl:inverseOf :isTopicOf ;
+ 	rdfs:domain [ rdf:type owl:Class ;
+	owl:unionOf ( 	:Discussion 					:EvidenceStatement
+					:Guideline
+					:Question 					:Recommendation 				)] .
 
 
 
@@ -304,7 +301,7 @@
                                                                                                owl:unionOf ( :Question
                                                                                                              :EvidenceStatement
                                                                                                              :Guideline
-                                                                                                             :Recommendation
+                                                                                                             :Recommendation 																											 :Discussion
                                                                                                            )
                                                                                              ] .
 
@@ -442,8 +439,17 @@
            
            rdfs:range :QualityStatement .
 
+###  isUsedBy
+  
+ :isUsedBy rdf:type owl:ObjectProperty ;                                                                   
+	rdfs:range :Discussion ;
+ 	rdfs:domain :EvidenceStatement ;
+ 	owl:inverseOf :uses .
 
+###  uses
 
+ :uses rdf:type owl:ObjectProperty ;
+ 	rdfs:domain :Discussion ; 	rdfs:range :EvidenceStatement .
 
 
 #################################################################

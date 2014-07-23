@@ -1,4 +1,4 @@
-﻿module NiceOntology
+module NiceOntology
     [<Literal>]
     let server = "http://localhost:5820"
 
@@ -40,6 +40,8 @@
     type review = thing.``nice:Review``
     type qualityStandard = thing.``nice:QualityStandard``
     type qualityStatement = thing.``nice:QualityStatement``
+    type sharedLearning = thing.``nice:SharedLearning``
+    type organisation = thing.``nice:Organisation``
 
     //Annotations 
     type semanticTag = thing.``oa:Tag``.``oa:SemanticTag``

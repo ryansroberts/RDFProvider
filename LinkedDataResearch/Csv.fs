@@ -77,14 +77,12 @@ module Import =
         Csv.QualityStatementToReccomendation.Load(csvfile "QualityStandard/QSToRecMap")
     let audit = Csv.Audit.Load(csvfile "Audit/Audit")
     let auditInfoSource = Csv.AuditInfoSource.Load(csvfile "Audit/AuditInfoSource")
-    let organisation = Csv.AuditInfoSource.Load(csvfile "SharedLearning/Organisation")
-    let sharedLearning = Csv.AuditInfoSource.Load(csvfile "SharedLearning/SharedLearning")
-    let slearning = Csv.AuditInfoSource.Load(csvfile "SharedLearning/SLearning")
-    let sltogeo  = Csv.AuditInfoSource.Load(csvfile "SharedLearning/SLtoGeo")
-    let sltoOrgmap = Csv.AuditInfoSource.Load(csvfile "SharedLearning/SlToOrgMap")
-    let sltoqsmap = Csv.AuditInfoSource.Load(csvfile "SharedLearning/SLToQsMap")
-
-
+    let organisation = Csv.Organisation.Load(csvfile "SharedLearning/Organisation")
+    let sharedLearning = Csv.SharedLearning.Load(csvfile "SharedLearning/SharedLearning")
+    let slearning = Csv.SLearning.Load(csvfile "SharedLearning/SLearning")
+    let sltogeo = Csv.SLToGeo.Load(csvfile "SharedLearning/SLtoGeo")
+    let sltoOrgmap = Csv.SLToOrgMap.Load(csvfile "SharedLearning/SlToOrgMap")
+    let sltoqsmap = Csv.SLToQsMap.Load(csvfile "SharedLearning/SLToQsMap")
     
     let loadStudy id = 
         [ let sm = esToStudyMap
@@ -184,3 +182,24 @@ module Import =
                       Notes = Body a.Notes
                       AuditInfoSource = loadInfoSource a.AuditInfoSourceID
                       AuditDate = a.AuditDate } ]
+    
+    let loadOrganisations = 
+        [for o in organisation.Rows do
+            yield {
+                Id = Identifier o.``Organisation ID``
+                Name = o.OrganisationName
+                Type = o.OrganisationType
+            }
+        ]
+
+    let loadSharedLearning = 
+        [ for s in sharedLearning.Rows do
+              let s1 = slearning.Filter(fun r -> r.``Shared Learning ID`` = s.``Shared Learning ID``).Rows |> Seq.head
+              yield { Id = Identifier s1.``Shared Learning ID``
+                      Title = Title s1.Title
+                      Description = Body s1.Description
+                      Aim = s1.Aim
+                      Organisations = 
+                          [ for r in sltoOrgmap.Filter(fun r -> r.``Shared Learning ID`` = s1.``Shared Learning ID``).Rows -> 
+                                Identifier r.``Organisation ID`` ] } ]
+                      

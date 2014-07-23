@@ -134,3 +134,20 @@ and Audit = {
     AuditInfoSource : AuditInfoSource
     AuditDate : System.DateTime option
 }
+
+and SharedLearning = {
+   Id : Identifier
+   Title : Title
+   Description : Body
+   Aim: string
+   Organisations : Identifier list
+   Reccomendations :Identifier list
+   QualityStandards : Identifier list
+   Geo : (Owl.Uri * string) list
+}
+
+and Organisation = {
+    Id : Identifier
+    Name : string
+    Type : string
+}

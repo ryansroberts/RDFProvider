@@ -1,0 +1,175 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.964458
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.938576
+      },
+      {
+        "id": 4,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.938576
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.938576
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Fundus photography",
+        "wikiLink": "http://en.wikipedia.org/Fundus_photography",
+        "score": 0.128173
+      },
+      {
+        "id": 1,
+        "label": "Photography",
+        "wikiLink": "http://en.wikipedia.org/Photography",
+        "score": 0.190528
+      },
+      {
+        "id": 2,
+        "label": "Vision",
+        "wikiLink": "http://en.wikipedia.org/Category:Vision",
+        "score": 0.0903343
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Fundus photography",
+        "freebaseTypes": [
+          "/medicine/diagnostic_test"
+        ],
+        "confidenceScore": 1.37685,
+        "wikiLink": "http://en.wikipedia.org/wiki/Fundus_photography",
+        "matchedText": "retinal photography",
+        "freebaseId": "/m/03clkvb",
+        "relevanceScore": 0.128173,
+        "entityEnglishId": "Fundus photography",
+        "startingPos": 30,
+        "endingPos": 49
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Photography",
+        "freebaseTypes": [
+          "/media_common/literary_genre",
+          "/exhibitions/exhibition_subject",
+          "/computer/software_genre",
+          "/book/periodical_subject",
+          "/film/film_subject",
+          "/media_common/media_genre",
+          "/law/invention",
+          "/internet/website_category",
+          "/media_common/netflix_genre",
+          "/media_common/quotation_subject",
+          "/people/profession",
+          "/broadcast/genre",
+          "/business/industry",
+          "/education/field_of_study",
+          "/visual_art/visual_art_medium",
+          "/architecture/type_of_museum",
+          "/interests/interest",
+          "/organization/club_interest",
+          "/book/book_subject",
+          "/award/award_discipline",
+          "/visual_art/visual_art_form",
+          "/interests/hobby",
+          "/organization/organization_sector"
+        ],
+        "confidenceScore": 1.31964,
+        "wikiLink": "http://en.wikipedia.org/wiki/Photography",
+        "matchedText": "photography",
+        "freebaseId": "/m/05wkw",
+        "relevanceScore": 0.190528,
+        "entityEnglishId": "Photography",
+        "startingPos": 38,
+        "endingPos": 49
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          5,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          5,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          5,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "time": 3.014,
+  "ok": true
+}

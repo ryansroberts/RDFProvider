@@ -1,0 +1,135 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Sulfonylurea",
+        "wikiLink": "http://en.wikipedia.org/Sulfonylurea",
+        "score": 0.428026
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Sulfonylurea",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 6.51959,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sulfonylurea",
+        "matchedText": "sulfonylurea",
+        "freebaseId": "/m/036kty",
+        "relevanceScore": 0.428026,
+        "entityEnglishId": "Sulfonylurea",
+        "startingPos": 68,
+        "endingPos": 80
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8,
+              9,
+              10,
+              12,
+              13
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          0,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          13
+        ],
+        "propertyPositions": [
+          9,
+          10
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          8,
+          13
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          0,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "time": 3.011,
+  "ok": true
+}

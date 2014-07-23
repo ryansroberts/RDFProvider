@@ -1,0 +1,345 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.865674
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.21899
+      },
+      {
+        "id": 1,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.510878
+      },
+      {
+        "id": 2,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Urinary_system",
+        "score": 0.355799
+      },
+      {
+        "id": 3,
+        "label": "Anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Anatomy",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.64314,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.109495,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 16,
+        "endingPos": 24
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.64314,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.109495,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 45,
+        "endingPos": 53
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.56082,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.510878,
+        "entityEnglishId": "Renal function",
+        "startingPos": 61,
+        "endingPos": 64
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Urinary system",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 0.940096,
+        "wikiLink": "http://en.wikipedia.org/wiki/Urinary_system",
+        "matchedText": "urinary",
+        "freebaseId": "/m/0fj3q",
+        "relevanceScore": 0.355799,
+        "entityEnglishId": "Urinary system",
+        "startingPos": 112,
+        "endingPos": 119
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Excretion",
+        "confidenceScore": 2.22387,
+        "wikiLink": "http://en.wikipedia.org/wiki/Excretion",
+        "matchedText": "excretion",
+        "freebaseId": "/m/01lvt1",
+        "relevanceScore": 0.0319921,
+        "entityEnglishId": "Excretion",
+        "startingPos": 136,
+        "endingPos": 145
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          19,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              21,
+              22,
+              23,
+              24,
+              25
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          31,
+          32,
+          33,
+          34
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              27,
+              28,
+              29,
+              30
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              35,
+              36,
+              37,
+              38,
+              40,
+              41,
+              42,
+              43
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          27,
+          30
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          27,
+          30
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          35,
+          37,
+          38
+        ],
+        "propertyPositions": [
+          36
+        ]
+      }
+    ]
+  },
+  "time": 3.02,
+  "ok": true
+}

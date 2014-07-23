@@ -1,0 +1,291 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.602206
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.590902
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.589847
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.519485
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Titration",
+        "wikiLink": "http://en.wikipedia.org/Titration",
+        "score": 0.123229
+      },
+      {
+        "id": 1,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.318558
+      },
+      {
+        "id": 2,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0620546
+      },
+      {
+        "id": 3,
+        "label": "Cell biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cell_biology",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Biomolecule",
+          "Enzyme"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Angiotensin-converting enzyme",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 1.17977,
+        "wikiLink": "http://en.wikipedia.org/wiki/Angiotensin-converting_enzyme",
+        "matchedText": "ACE inhibitors",
+        "freebaseId": "/m/02z_36",
+        "relevanceScore": 0,
+        "entityEnglishId": "Angiotensin-converting enzyme",
+        "startingPos": 6,
+        "endingPos": 20
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Titration",
+        "confidenceScore": 1.66779,
+        "wikiLink": "http://en.wikipedia.org/wiki/Titration",
+        "matchedText": "titrate",
+        "freebaseId": "/m/07ph7",
+        "relevanceScore": 0.123229,
+        "entityEnglishId": "Titration",
+        "startingPos": 52,
+        "endingPos": 59
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Dose (biochemistry)",
+        "confidenceScore": 1.66398,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dose_(biochemistry)",
+        "matchedText": "dose",
+        "freebaseId": "/m/02qdgt_",
+        "relevanceScore": 0.0604981,
+        "entityEnglishId": "Dose (biochemistry)",
+        "startingPos": 68,
+        "endingPos": 72
+      },
+      {
+        "id": 3,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Serum albumin",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 1.70272,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_albumin",
+        "matchedText": "albumin",
+        "freebaseId": "/m/051h4z",
+        "relevanceScore": 0,
+        "entityEnglishId": "Serum albumin",
+        "startingPos": 114,
+        "endingPos": 121
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Excretion",
+        "confidenceScore": 2.4504,
+        "wikiLink": "http://en.wikipedia.org/wiki/Excretion",
+        "matchedText": "excretion",
+        "freebaseId": "/m/01lvt1",
+        "relevanceScore": 0.0349286,
+        "entityEnglishId": "Excretion",
+        "startingPos": 122,
+        "endingPos": 131
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          6
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          30,
+          31
+        ],
+        "propertyPositions": [
+          32
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          18,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25,
+          26,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25,
+          26,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

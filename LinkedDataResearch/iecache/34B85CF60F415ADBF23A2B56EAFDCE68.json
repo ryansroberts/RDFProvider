@@ -1,0 +1,940 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.482031
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.455385
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.390305
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.370305
+      },
+      {
+        "id": 5,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.220014
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Blood",
+        "wikiLink": "http://en.wikipedia.org/Blood",
+        "score": 0.111896
+      },
+      {
+        "id": 1,
+        "label": "Blood sugar",
+        "wikiLink": "http://en.wikipedia.org/Blood_sugar",
+        "score": 0.20623
+      },
+      {
+        "id": 2,
+        "label": "Glucose",
+        "wikiLink": "http://en.wikipedia.org/Glucose",
+        "score": 0.232744
+      },
+      {
+        "id": 3,
+        "label": "Insulin",
+        "wikiLink": "http://en.wikipedia.org/Insulin",
+        "score": 0.978289
+      },
+      {
+        "id": 4,
+        "label": "Insulin therapy",
+        "wikiLink": "http://en.wikipedia.org/Insulin_therapy",
+        "score": 0.615559
+      },
+      {
+        "id": 5,
+        "label": "Pioglitazone",
+        "wikiLink": "http://en.wikipedia.org/Pioglitazone",
+        "score": 1
+      },
+      {
+        "id": 6,
+        "label": "Rosiglitazone",
+        "wikiLink": "http://en.wikipedia.org/Rosiglitazone",
+        "score": 0.471157
+      },
+      {
+        "id": 7,
+        "label": "Thiazolidinedione",
+        "wikiLink": "http://en.wikipedia.org/Thiazolidinedione",
+        "score": 0.264126
+      },
+      {
+        "id": 8,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 1
+      },
+      {
+        "id": 9,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 1
+      },
+      {
+        "id": 10,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 1
+      },
+      {
+        "id": 11,
+        "label": "Endocrinology",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrinology",
+        "score": 1
+      },
+      {
+        "id": 12,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 1
+      },
+      {
+        "id": 13,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 1
+      },
+      {
+        "id": 14,
+        "label": "Medical procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_procedures",
+        "score": 0.963573
+      },
+      {
+        "id": 15,
+        "label": "Endocrine procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_procedures",
+        "score": 0.963573
+      },
+      {
+        "id": 16,
+        "label": "Insulin therapies",
+        "wikiLink": "http://en.wikipedia.org/Category:Insulin_therapies",
+        "score": 0.963573
+      },
+      {
+        "id": 17,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.724219
+      },
+      {
+        "id": 18,
+        "label": "Chemical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_pathology",
+        "score": 0.67452
+      },
+      {
+        "id": 19,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.662999
+      },
+      {
+        "id": 20,
+        "label": "Human metabolites",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_metabolites",
+        "score": 0.640006
+      },
+      {
+        "id": 21,
+        "label": "Clinical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_pathology",
+        "score": 0.640006
+      },
+      {
+        "id": 22,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.515585
+      },
+      {
+        "id": 23,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.495571
+      },
+      {
+        "id": 24,
+        "label": "Amides",
+        "wikiLink": "http://en.wikipedia.org/Category:Amides",
+        "score": 0.478032
+      },
+      {
+        "id": 25,
+        "label": "Nitrogen heterocycles",
+        "wikiLink": "http://en.wikipedia.org/Category:Nitrogen_heterocycles",
+        "score": 0.452365
+      },
+      {
+        "id": 26,
+        "label": "PPAR agonists",
+        "wikiLink": "http://en.wikipedia.org/Category:PPAR_agonists",
+        "score": 0.44713
+      },
+      {
+        "id": 27,
+        "label": "Thiazolidinediones",
+        "wikiLink": "http://en.wikipedia.org/Category:Thiazolidinediones",
+        "score": 0.44713
+      },
+      {
+        "id": 28,
+        "label": "Receptor agonists",
+        "wikiLink": "http://en.wikipedia.org/Category:Receptor_agonists",
+        "score": 0.44713
+      },
+      {
+        "id": 29,
+        "label": "Lactams",
+        "wikiLink": "http://en.wikipedia.org/Category:Lactams",
+        "score": 0.44713
+      },
+      {
+        "id": 30,
+        "label": "Manufacturing",
+        "wikiLink": "http://en.wikipedia.org/Category:Manufacturing_by_country",
+        "score": 0.37052
+      },
+      {
+        "id": 31,
+        "label": "Pharmaceutical companies",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_companies_by_country",
+        "score": 0.37052
+      },
+      {
+        "id": 32,
+        "label": "Eli Lilly and Company",
+        "wikiLink": "http://en.wikipedia.org/Category:Eli_Lilly_and_Company",
+        "score": 0.37052
+      },
+      {
+        "id": 33,
+        "label": "Hematology",
+        "wikiLink": "http://en.wikipedia.org/Category:Hematology",
+        "score": 0.309725
+      },
+      {
+        "id": 34,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.204726
+      },
+      {
+        "id": 35,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.190566
+      },
+      {
+        "id": 36,
+        "label": "Oxygen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxygen_compounds",
+        "score": 0.141184
+      },
+      {
+        "id": 37,
+        "label": "Phenol ethers",
+        "wikiLink": "http://en.wikipedia.org/Category:Phenol_ethers",
+        "score": 0.141184
+      },
+      {
+        "id": 38,
+        "label": "Heterocyclic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Heterocyclic_compounds",
+        "score": 0.141184
+      },
+      {
+        "id": 39,
+        "label": "Ethers",
+        "wikiLink": "http://en.wikipedia.org/Category:Ethers",
+        "score": 0.141184
+      },
+      {
+        "id": 40,
+        "label": "Aromatic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Aromatic_compounds",
+        "score": 0.141184
+      },
+      {
+        "id": 41,
+        "label": "Functional groups",
+        "wikiLink": "http://en.wikipedia.org/Category:Functional_groups",
+        "score": 0.141184
+      },
+      {
+        "id": 42,
+        "label": "Aromatic nitrogen heterocycles",
+        "wikiLink": "http://en.wikipedia.org/Category:Aromatic_nitrogen_heterocycles",
+        "score": 0.135949
+      },
+      {
+        "id": 43,
+        "label": "Heterocyclic compounds (1 ring)",
+        "wikiLink": "http://en.wikipedia.org/Category:Heterocyclic_compounds_(1_ring)",
+        "score": 0.135949
+      },
+      {
+        "id": 44,
+        "label": "Simple aromatic rings",
+        "wikiLink": "http://en.wikipedia.org/Category:Simple_aromatic_rings",
+        "score": 0.135949
+      },
+      {
+        "id": 45,
+        "label": "Pyridines",
+        "wikiLink": "http://en.wikipedia.org/Category:Pyridines",
+        "score": 0.135949
+      },
+      {
+        "id": 46,
+        "label": "Molecular biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Molecular_biology",
+        "score": 0.13435
+      },
+      {
+        "id": 47,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.117063
+      },
+      {
+        "id": 48,
+        "label": "Nutrition",
+        "wikiLink": "http://en.wikipedia.org/Category:Nutrition",
+        "score": 0.0964969
+      },
+      {
+        "id": 49,
+        "label": "Biomolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Biomolecules_by_chemical_classification",
+        "score": 0.0832195
+      },
+      {
+        "id": 50,
+        "label": "Food and drink",
+        "wikiLink": "http://en.wikipedia.org/Category:Food_and_drink",
+        "score": 0.0222922
+      },
+      {
+        "id": 51,
+        "label": "Blood tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Blood_tests",
+        "score": 0.0171054
+      },
+      {
+        "id": 52,
+        "label": "Gastronomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Gastronomy",
+        "score": 0.00825218
+      },
+      {
+        "id": 53,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.00825218
+      },
+      {
+        "id": 54,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.000549475
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Pioglitazone",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.95157,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pioglitazone",
+        "matchedText": "pioglitazone",
+        "freebaseId": "/m/02vycf",
+        "relevanceScore": 0.709931,
+        "entityEnglishId": "Pioglitazone",
+        "startingPos": 19,
+        "endingPos": 31
+      },
+      {
+        "id": 1,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 9.03016,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.489145,
+        "entityEnglishId": "Insulin",
+        "startingPos": 37,
+        "endingPos": 44
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Thiazolidinedione",
+        "freebaseTypes": [
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 6.19974,
+        "wikiLink": "http://en.wikipedia.org/wiki/Thiazolidinedione",
+        "matchedText": "thiazolidinedione",
+        "freebaseId": "/m/02rnrl",
+        "relevanceScore": 0.264126,
+        "entityEnglishId": "Thiazolidinedione",
+        "startingPos": 132,
+        "endingPos": 149
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.37971,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0,
+        "entityEnglishId": "Therapy",
+        "startingPos": 150,
+        "endingPos": 157
+      },
+      {
+        "id": 4,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Pioglitazone",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.95157,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pioglitazone",
+        "matchedText": "pioglitazone",
+        "freebaseId": "/m/02vycf",
+        "relevanceScore": 0.709931,
+        "entityEnglishId": "Pioglitazone",
+        "startingPos": 159,
+        "endingPos": 171
+      },
+      {
+        "id": 5,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Rosiglitazone",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.62039,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rosiglitazone",
+        "matchedText": "rosiglitazone",
+        "freebaseId": "/m/02vn54",
+        "relevanceScore": 0.471157,
+        "entityEnglishId": "Rosiglitazone",
+        "startingPos": 173,
+        "endingPos": 186
+      },
+      {
+        "id": 6,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 9.03016,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.489145,
+        "entityEnglishId": "Insulin",
+        "startingPos": 212,
+        "endingPos": 219
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          32,
+          33
+        ],
+        "entityId": "Insulin therapy",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 5.12585,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin_therapy",
+        "matchedText": "insulin therapy",
+        "freebaseId": "/m/0521j1s",
+        "relevanceScore": 0.615559,
+        "entityEnglishId": "Insulin therapy",
+        "startingPos": 212,
+        "endingPos": 227
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.37971,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0,
+        "entityEnglishId": "Therapy",
+        "startingPos": 220,
+        "endingPos": 227
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Blood",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/food/ingredient",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.12726,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood",
+        "matchedText": "blood",
+        "freebaseId": "/m/019jw",
+        "relevanceScore": 0.111896,
+        "entityEnglishId": "Blood",
+        "startingPos": 238,
+        "endingPos": 243
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          36,
+          37
+        ],
+        "entityId": "Blood sugar",
+        "confidenceScore": 4.95308,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_sugar",
+        "matchedText": "blood glucose",
+        "freebaseId": "/m/01qd35",
+        "relevanceScore": 0.20623,
+        "entityEnglishId": "Blood sugar",
+        "startingPos": 238,
+        "endingPos": 251
+      },
+      {
+        "id": 11,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Glucose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 5.05647,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucose",
+        "matchedText": "glucose",
+        "freebaseId": "/m/02kb_m_",
+        "relevanceScore": 0.232744,
+        "entityEnglishId": "Glucose",
+        "startingPos": 244,
+        "endingPos": 251
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          11,
+          12,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              22,
+              24,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          12,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              22,
+              24,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          29,
+          30
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              28
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              31,
+              32,
+              33,
+              34
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          29,
+          30,
+          38,
+          39,
+          40
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              28,
+              35,
+              36,
+              37
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              31,
+              32,
+              33,
+              34
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          11,
+          12,
+          13,
+          29,
+          30,
+          38,
+          39,
+          40
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10,
+              28,
+              35,
+              36,
+              37
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              22,
+              24,
+              27,
+              31,
+              32,
+              33,
+              34
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          14,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          14,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          22,
+          24,
+          27
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          28
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          32,
+          33
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          28
+        ],
+        "propertyPositions": [
+          31,
+          32,
+          33,
+          34
+        ]
+      }
+    ]
+  },
+  "time": 3.028,
+  "ok": true
+}

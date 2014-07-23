@@ -1,0 +1,136 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.471262
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.471262
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.471262
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Insulin",
+        "wikiLink": "http://en.wikipedia.org/Insulin",
+        "score": 0.123817
+      },
+      {
+        "id": 1,
+        "label": "Secretagogue",
+        "wikiLink": "http://en.wikipedia.org/Secretagogue",
+        "score": 0.228329
+      },
+      {
+        "id": 2,
+        "label": "Endocrinology",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrinology",
+        "score": 0.0658568
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 2.99814,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.123817,
+        "entityEnglishId": "Insulin",
+        "startingPos": 33,
+        "endingPos": 40
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Secretagogue",
+        "confidenceScore": 3.60479,
+        "wikiLink": "http://en.wikipedia.org/wiki/Secretagogue",
+        "matchedText": "secretagogue",
+        "freebaseId": "/m/027xn7m",
+        "relevanceScore": 0.228329,
+        "entityEnglishId": "Secretagogue",
+        "startingPos": 41,
+        "endingPos": 53
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          10,
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "time": 3.015,
+  "ok": true
+}

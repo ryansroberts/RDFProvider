@@ -1,0 +1,195 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.287053
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diarrhea",
+        "wikiLink": "http://en.wikipedia.org/Diarrhea",
+        "score": 0.187246
+      },
+      {
+        "id": 1,
+        "label": "Dysautonomia",
+        "wikiLink": "http://en.wikipedia.org/Dysautonomia",
+        "score": 0.114309
+      },
+      {
+        "id": 2,
+        "label": "Peripheral neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Peripheral_neuropathy",
+        "score": 0.387737
+      },
+      {
+        "id": 3,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders_by_system",
+        "score": 0.132338
+      },
+      {
+        "id": 4,
+        "label": "Neurology",
+        "wikiLink": "http://en.wikipedia.org/Category:Neurology",
+        "score": 0.132338
+      },
+      {
+        "id": 5,
+        "label": "Neurological disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Neurological_disorders",
+        "score": 0.132338
+      },
+      {
+        "id": 6,
+        "label": "Peripheral nervous system",
+        "wikiLink": "http://en.wikipedia.org/Category:Peripheral_nervous_system",
+        "score": 0.129991
+      },
+      {
+        "id": 7,
+        "label": "Peripheral nervous system disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Peripheral_nervous_system_disorders",
+        "score": 0.129991
+      },
+      {
+        "id": 8,
+        "label": "Neuroanatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Neuroanatomy",
+        "score": 0.129991
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Dysautonomia",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.42788,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dysautonomia",
+        "matchedText": "autonomic neuropathy",
+        "freebaseId": "/m/02510j",
+        "relevanceScore": 0.114309,
+        "entityEnglishId": "Dysautonomia",
+        "startingPos": 28,
+        "endingPos": 48
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Peripheral neuropathy",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.20865,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peripheral_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02w1fx",
+        "relevanceScore": 0.387737,
+        "entityEnglishId": "Peripheral neuropathy",
+        "startingPos": 38,
+        "endingPos": 48
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Diarrhea",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/medicine/disease_cause",
+          "/book/book_subject",
+          "/medicine/symptom",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 4.94506,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diarrhea",
+        "matchedText": "diarrhoea",
+        "freebaseId": "/m/0f3kl",
+        "relevanceScore": 0.187246,
+        "entityEnglishId": "Diarrhea",
+        "startingPos": 96,
+        "endingPos": 105
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5,
+          6,
+          9
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "time": 3.019,
+  "ok": true
+}

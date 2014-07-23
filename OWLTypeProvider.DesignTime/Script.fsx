@@ -21,7 +21,7 @@ let (store,connection) = Store.emptyStardog "http://localhost:5820" "Nice"
 
 let importFromFolder folder =  
     for f in Directory.GetFiles(folder) do
-       if ["rdf";"ttl";"nq";"owl"] |> List.exists (fun s -> (f.EndsWith s)) then
+       if ["rdf";"ttl";"nq";"owl"] |> List.exists f.EndsWith then
            printf "Loading graph %s\r\n" f
            (connection ()) 
            |> Store.bootStrapFromFile (f) (null :> Uri)

@@ -1,0 +1,171 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.925804
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Measurement",
+        "confidenceScore": 1.54636,
+        "wikiLink": "http://en.wikipedia.org/wiki/Measurement",
+        "matchedText": "measurement",
+        "freebaseId": "/m/04t14",
+        "relevanceScore": 0,
+        "entityEnglishId": "Measurement",
+        "startingPos": 9,
+        "endingPos": 20
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          3,
+          7,
+          11,
+          12,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              2,
+              4,
+              5,
+              6,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          18,
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          18,
+          20
+        ],
+        "propertyPositions": [
+          21,
+          22,
+          24
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          24
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          26,
+          28,
+          29
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          30,
+          32,
+          33,
+          34,
+          35
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          26,
+          28,
+          29
+        ],
+        "propertyPositions": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

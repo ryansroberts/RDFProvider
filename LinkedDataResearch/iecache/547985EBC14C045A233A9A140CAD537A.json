@@ -1,0 +1,633 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.715256
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.637919
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.563057
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.519523
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.232645
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.243818
+      },
+      {
+        "id": 1,
+        "label": "Polymerase chain reaction",
+        "wikiLink": "http://en.wikipedia.org/Polymerase_chain_reaction",
+        "score": 0.620806
+      },
+      {
+        "id": 2,
+        "label": "Proteinuria",
+        "wikiLink": "http://en.wikipedia.org/Proteinuria",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Ratio",
+        "wikiLink": "http://en.wikipedia.org/Ratio",
+        "score": 0.22035
+      },
+      {
+        "id": 4,
+        "label": "Sensitivity and specificity",
+        "wikiLink": "http://en.wikipedia.org/Sensitivity_and_specificity",
+        "score": 0.253629
+      },
+      {
+        "id": 5,
+        "label": "Urine",
+        "wikiLink": "http://en.wikipedia.org/Urine",
+        "score": 0.314195
+      },
+      {
+        "id": 6,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.307341
+      },
+      {
+        "id": 7,
+        "label": "Ratios",
+        "wikiLink": "http://en.wikipedia.org/Category:Ratios",
+        "score": 0.0950451
+      },
+      {
+        "id": 8,
+        "label": "Arithmetic",
+        "wikiLink": "http://en.wikipedia.org/Category:Arithmetic",
+        "score": 0.0950451
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Proteinuria",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 6.98506,
+        "wikiLink": "http://en.wikipedia.org/wiki/Proteinuria",
+        "matchedText": "proteinuria",
+        "freebaseId": "/m/012zf3",
+        "relevanceScore": 0.772553,
+        "entityEnglishId": "Proteinuria",
+        "startingPos": 23,
+        "endingPos": 34
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Urine",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 3.08279,
+        "wikiLink": "http://en.wikipedia.org/wiki/Urine",
+        "matchedText": "urine",
+        "freebaseId": "/m/0b7q43",
+        "relevanceScore": 0.314195,
+        "entityEnglishId": "Urine",
+        "startingPos": 40,
+        "endingPos": 45
+      },
+      {
+        "id": 2,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "albumin:creatinine",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "albumin:creatinine",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 46,
+        "endingPos": 64
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Ratio",
+        "freebaseTypes": [
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 1.68323,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ratio",
+        "matchedText": "ratio",
+        "freebaseId": "/m/0m1mr",
+        "relevanceScore": 0.110175,
+        "entityEnglishId": "Ratio",
+        "startingPos": 65,
+        "endingPos": 70
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Sensitivity and specificity",
+        "confidenceScore": 1.24634,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sensitivity_and_specificity",
+        "matchedText": "sensitivity",
+        "freebaseId": "/m/047vmjj",
+        "relevanceScore": 0.253629,
+        "entityEnglishId": "Sensitivity and specificity",
+        "startingPos": 110,
+        "endingPos": 121
+      },
+      {
+        "id": 5,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "protein:creatinine",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "protein:creatinine",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 127,
+        "endingPos": 145
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Ratio",
+        "freebaseTypes": [
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 1.68323,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ratio",
+        "matchedText": "ratio",
+        "freebaseId": "/m/0m1mr",
+        "relevanceScore": 0.110175,
+        "entityEnglishId": "Ratio",
+        "startingPos": 146,
+        "endingPos": 151
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Polymerase chain reaction",
+        "freebaseTypes": [
+          "/law/invention"
+        ],
+        "confidenceScore": 3.38275,
+        "wikiLink": "http://en.wikipedia.org/wiki/Polymerase_chain_reaction",
+        "matchedText": "PCR",
+        "freebaseId": "/m/05w_j",
+        "relevanceScore": 0.310403,
+        "entityEnglishId": "Polymerase chain reaction",
+        "startingPos": 153,
+        "endingPos": 156
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Proteinuria",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 6.98506,
+        "wikiLink": "http://en.wikipedia.org/wiki/Proteinuria",
+        "matchedText": "proteinuria",
+        "freebaseId": "/m/012zf3",
+        "relevanceScore": 0.772553,
+        "entityEnglishId": "Proteinuria",
+        "startingPos": 176,
+        "endingPos": 187
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Quantification",
+        "confidenceScore": 1.93503,
+        "wikiLink": "http://en.wikipedia.org/wiki/Quantification",
+        "matchedText": "quantification",
+        "freebaseId": "/m/01h9pj",
+        "relevanceScore": 0.0434935,
+        "entityEnglishId": "Quantification",
+        "startingPos": 193,
+        "endingPos": 207
+      },
+      {
+        "id": 10,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "Proteinuria",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 5.89495,
+        "wikiLink": "http://en.wikipedia.org/wiki/Proteinuria",
+        "matchedText": "proteinuria",
+        "freebaseId": "/m/012zf3",
+        "relevanceScore": 0.772553,
+        "entityEnglishId": "Proteinuria",
+        "startingPos": 226,
+        "endingPos": 237
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          40
+        ],
+        "entityId": "Polymerase chain reaction",
+        "freebaseTypes": [
+          "/law/invention"
+        ],
+        "confidenceScore": 3.38275,
+        "wikiLink": "http://en.wikipedia.org/wiki/Polymerase_chain_reaction",
+        "matchedText": "PCR",
+        "freebaseId": "/m/05w_j",
+        "relevanceScore": 0.310403,
+        "entityEnglishId": "Polymerase chain reaction",
+        "startingPos": 239,
+        "endingPos": 242
+      },
+      {
+        "id": 12,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          48
+        ],
+        "entityId": "ACR",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "ACR",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 274,
+        "endingPos": 277
+      },
+      {
+        "id": 13,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          56
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.68014,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.243818,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 320,
+        "endingPos": 328
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          16,
+          18
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              17
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              19,
+              20,
+              21,
+              22,
+              23,
+              25,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          33,
+          41,
+          42,
+          43,
+          44
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              40
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              34,
+              35,
+              36,
+              37,
+              38,
+              45,
+              46
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          33,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              40
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              34,
+              35,
+              36,
+              37,
+              38
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          48
+        ],
+        "propertyPositions": [
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          50,
+          52,
+          53
+        ],
+        "propertyPositions": [
+          51
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          54,
+          55
+        ],
+        "propertyPositions": [
+          56
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          50,
+          52,
+          53
+        ],
+        "propertyPositions": [
+          54,
+          55,
+          56
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          20,
+          21,
+          27
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          20,
+          21,
+          27
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          25
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          29,
+          30
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          29,
+          30
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          20,
+          21,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          29,
+          30,
+          31
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          25,
+          27,
+          28,
+          29,
+          30,
+          31
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          34,
+          37
+        ],
+        "propertyPositions": [
+          38
+        ]
+      }
+    ]
+  },
+  "time": 3.025,
+  "ok": true
+}

@@ -1,0 +1,211 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.434565
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.425651
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.223736
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.212688
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.197042
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Discontinuation",
+        "wikiLink": "http://en.wikipedia.org/Discontinuation",
+        "score": 0.324931
+      },
+      {
+        "id": 1,
+        "label": "Drug withdrawal",
+        "wikiLink": "http://en.wikipedia.org/Drug_withdrawal",
+        "score": 0.698341
+      },
+      {
+        "id": 2,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.271626
+      },
+      {
+        "id": 3,
+        "label": "Substance dependence",
+        "wikiLink": "http://en.wikipedia.org/Category:Substance_dependence",
+        "score": 0.193748
+      },
+      {
+        "id": 4,
+        "label": "Substance-related disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Substance-related_disorders",
+        "score": 0.137958
+      },
+      {
+        "id": 5,
+        "label": "Support groups",
+        "wikiLink": "http://en.wikipedia.org/Category:Support_groups",
+        "score": 0.134154
+      },
+      {
+        "id": 6,
+        "label": "Drug rehabilitation",
+        "wikiLink": "http://en.wikipedia.org/Category:Drug_rehabilitation",
+        "score": 0.134154
+      },
+      {
+        "id": 7,
+        "label": "Syndromes",
+        "wikiLink": "http://en.wikipedia.org/Category:Syndromes",
+        "score": 0.123628
+      },
+      {
+        "id": 8,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.0830421
+      },
+      {
+        "id": 9,
+        "label": "Withdrawal syndromes",
+        "wikiLink": "http://en.wikipedia.org/Category:Withdrawal_syndromes",
+        "score": 0.075727
+      },
+      {
+        "id": 10,
+        "label": "Addiction",
+        "wikiLink": "http://en.wikipedia.org/Category:Addiction",
+        "score": 0.0492195
+      },
+      {
+        "id": 11,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0458504
+      },
+      {
+        "id": 12,
+        "label": "Neuroscience",
+        "wikiLink": "http://en.wikipedia.org/Category:Neuroscience",
+        "score": 0.0228099
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Drug withdrawal",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.93062,
+        "wikiLink": "http://en.wikipedia.org/wiki/Drug_withdrawal",
+        "matchedText": "withdrawal",
+        "freebaseId": "/m/026750",
+        "relevanceScore": 0.698341,
+        "entityEnglishId": "Drug withdrawal",
+        "startingPos": 51,
+        "endingPos": 61
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Dose (biochemistry)",
+        "confidenceScore": 1.00031,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dose_(biochemistry)",
+        "matchedText": "dosage",
+        "freebaseId": "/m/02qdgt_",
+        "relevanceScore": 0.0948197,
+        "entityEnglishId": "Dose (biochemistry)",
+        "startingPos": 90,
+        "endingPos": 96
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Discontinuation",
+        "confidenceScore": 1.00626,
+        "wikiLink": "http://en.wikipedia.org/wiki/Discontinuation",
+        "matchedText": "discontinuation",
+        "freebaseId": "/m/0b22lz",
+        "relevanceScore": 0.324931,
+        "entityEnglishId": "Discontinuation",
+        "startingPos": 105,
+        "endingPos": 120
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Symptom",
+        "confidenceScore": 1.57247,
+        "wikiLink": "http://en.wikipedia.org/wiki/Symptom",
+        "matchedText": "symptoms",
+        "freebaseId": "/m/01b_06",
+        "relevanceScore": 0,
+        "entityEnglishId": "Symptom",
+        "startingPos": 121,
+        "endingPos": 129
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

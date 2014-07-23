@@ -1,0 +1,117 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cell biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cell_biology",
+        "score": 0.0458717
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Serum albumin",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 1.62725,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_albumin",
+        "matchedText": "albumin",
+        "freebaseId": "/m/051h4z",
+        "relevanceScore": 0,
+        "entityEnglishId": "Serum albumin",
+        "startingPos": 50,
+        "endingPos": 57
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Excretion",
+        "confidenceScore": 2.25948,
+        "wikiLink": "http://en.wikipedia.org/wiki/Excretion",
+        "matchedText": "excretion",
+        "freebaseId": "/m/01lvt1",
+        "relevanceScore": 0,
+        "entityEnglishId": "Excretion",
+        "startingPos": 58,
+        "endingPos": 67
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16
+        ]
+      }
+    ]
+  },
+  "time": 3.012,
+  "ok": true
+}

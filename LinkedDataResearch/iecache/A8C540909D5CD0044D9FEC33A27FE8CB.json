@@ -1,0 +1,598 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.863784
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.444877
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.444877
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.444877
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.444877
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Crisis hotline",
+        "wikiLink": "http://en.wikipedia.org/Crisis_hotline",
+        "score": 0.147508
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.47661
+      },
+      {
+        "id": 2,
+        "label": "Diabetes mellitus type 1",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_1",
+        "score": 0.709916
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Open",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Open",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 4
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Open access",
+        "freebaseTypes": [
+          "/computer/content_license",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.52809,
+        "wikiLink": "http://en.wikipedia.org/wiki/Open_access",
+        "matchedText": "Open access",
+        "freebaseId": "/m/021m45",
+        "relevanceScore": 0.0415383,
+        "entityEnglishId": "Open access",
+        "startingPos": 0,
+        "endingPos": 11
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.429,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "Type 1",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.562101,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 117,
+        "endingPos": 123
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19,
+          20
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.09126,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "Type 1 diabetes",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.147816,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 117,
+        "endingPos": 132
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.65577,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.15887,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 124,
+        "endingPos": 132
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Crisis hotline",
+        "confidenceScore": 1.34834,
+        "wikiLink": "http://en.wikipedia.org/wiki/Crisis_hotline",
+        "matchedText": "helpline",
+        "freebaseId": "/m/03rfz7",
+        "relevanceScore": 0.147508,
+        "entityEnglishId": "Crisis hotline",
+        "startingPos": 140,
+        "endingPos": 148
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.65577,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.15887,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 181,
+        "endingPos": 189
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.65577,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.15887,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 251,
+        "endingPos": 259
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4,
+          5,
+          6,
+          12,
+          15,
+          22
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              13,
+              14,
+              16,
+              17,
+              18,
+              19,
+              20,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4,
+          5,
+          6,
+          12,
+          15,
+          22,
+          32,
+          33,
+          34,
+          35
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              13,
+              14,
+              16,
+              17,
+              18,
+              19,
+              20,
+              36,
+              37,
+              38
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          32,
+          33,
+          34,
+          35
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              36,
+              37,
+              38
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          15,
+          22
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              10,
+              13,
+              14,
+              16,
+              17,
+              18,
+              19,
+              20,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          43,
+          44,
+          45,
+          46
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              40,
+              41,
+              42
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              47,
+              48,
+              49,
+              50,
+              51
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              40,
+              41,
+              42
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              50,
+              51
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          30,
+          31
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          29,
+          30,
+          31
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          36,
+          38
+        ],
+        "propertyPositions": [
+          37
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          11
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          40,
+          41
+        ],
+        "propertyPositions": [
+          42
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          47,
+          48,
+          49
+        ],
+        "propertyPositions": [
+          50,
+          51
+        ]
+      }
+    ]
+  },
+  "time": 3.035,
+  "ok": true
+}

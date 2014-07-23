@@ -1,0 +1,317 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.941154
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.891351
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.401159
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.33558
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.323389
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Medical guideline",
+        "wikiLink": "http://en.wikipedia.org/Medical_guideline",
+        "score": 0.217121
+      },
+      {
+        "id": 1,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Pain",
+        "score": 0.900101
+      },
+      {
+        "id": 2,
+        "label": "Feeling",
+        "wikiLink": "http://en.wikipedia.org/Category:Feeling",
+        "score": 0.144731
+      },
+      {
+        "id": 3,
+        "label": "Symptoms and signs: General",
+        "wikiLink": "http://en.wikipedia.org/Category:Symptoms_and_signs:_General",
+        "score": 0.144731
+      },
+      {
+        "id": 4,
+        "label": "Perception",
+        "wikiLink": "http://en.wikipedia.org/Category:Perception",
+        "score": 0.144731
+      },
+      {
+        "id": 5,
+        "label": "Symptoms and signs",
+        "wikiLink": "http://en.wikipedia.org/Category:Symptoms_and_signs",
+        "score": 0.0894225
+      },
+      {
+        "id": 6,
+        "label": "Psychological concepts",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychological_concepts",
+        "score": 0.0894225
+      },
+      {
+        "id": 7,
+        "label": "Experimental psychology",
+        "wikiLink": "http://en.wikipedia.org/Category:Experimental_psychology",
+        "score": 0.0894225
+      },
+      {
+        "id": 8,
+        "label": "Sources of knowledge",
+        "wikiLink": "http://en.wikipedia.org/Category:Sources_of_knowledge",
+        "score": 0.0894225
+      },
+      {
+        "id": 9,
+        "label": "Subjective experience",
+        "wikiLink": "http://en.wikipedia.org/Category:Subjective_experience",
+        "score": 0.0894225
+      },
+      {
+        "id": 10,
+        "label": "Emotion",
+        "wikiLink": "http://en.wikipedia.org/Category:Emotion",
+        "score": 0.0894225
+      },
+      {
+        "id": 11,
+        "label": "Qualia",
+        "wikiLink": "http://en.wikipedia.org/Category:Qualia",
+        "score": 0.0894225
+      },
+      {
+        "id": 12,
+        "label": "Neuropsychological assessment",
+        "wikiLink": "http://en.wikipedia.org/Category:Neuropsychological_assessment",
+        "score": 0.0894225
+      },
+      {
+        "id": 13,
+        "label": "Cognitive science",
+        "wikiLink": "http://en.wikipedia.org/Category:Cognitive_science",
+        "score": 0.0894225
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.54525,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "neuropathic",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.547748,
+        "entityEnglishId": "Pain",
+        "startingPos": 42,
+        "endingPos": 53
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.46715,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "neuropathic pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.0822454,
+        "entityEnglishId": "Pain",
+        "startingPos": 42,
+        "endingPos": 58
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.57629,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.270108,
+        "entityEnglishId": "Pain",
+        "startingPos": 54,
+        "endingPos": 58
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Nice",
+        "freebaseTypes": [
+          "/periodicals/newspaper_circulation_area",
+          "/location/capital_of_administrative_division",
+          "/location/citytown",
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/travel/travel_destination",
+          "/location/location",
+          "/location/administrative_division"
+        ],
+        "confidenceScore": 0.932387,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nice",
+        "matchedText": "NICE",
+        "freebaseId": "/m/0cp6w",
+        "relevanceScore": 0.0247543,
+        "entityEnglishId": "Nice",
+        "startingPos": 62,
+        "endingPos": 66
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Medical guideline",
+        "confidenceScore": 2.00126,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medical_guideline",
+        "matchedText": "clinical guideline",
+        "freebaseId": "/m/04qpqc",
+        "relevanceScore": 0.217121,
+        "entityEnglishId": "Medical guideline",
+        "startingPos": 67,
+        "endingPos": 85
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              8,
+              11,
+              12,
+              13,
+              14
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          13
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "time": 3.019,
+  "ok": true
+}

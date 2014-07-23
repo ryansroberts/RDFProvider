@@ -1,0 +1,237 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.524457
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.414282
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.414282
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus type 1",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_1",
+        "score": 0.693938
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.518371
+      },
+      {
+        "id": 2,
+        "label": "Glycated hemoglobin",
+        "wikiLink": "http://en.wikipedia.org/Glycated_hemoglobin",
+        "score": 0.511195
+      },
+      {
+        "id": 3,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.60214
+      },
+      {
+        "id": 4,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.55971
+      },
+      {
+        "id": 5,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.55971
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 6.46934,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "HbA1c",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.511195,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 0,
+        "endingPos": 5
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.86861,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "Type 1",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.613706,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 56,
+        "endingPos": 62
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9,
+          10,
+          11
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.44455,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "Type 1 diabetes",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.0802325,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 56,
+        "endingPos": 71
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.18802,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.518371,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 63,
+        "endingPos": 71
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Measurement",
+        "confidenceScore": 1.07272,
+        "wikiLink": "http://en.wikipedia.org/wiki/Measurement",
+        "matchedText": "measurement",
+        "freebaseId": "/m/04t14",
+        "relevanceScore": 0.0715878,
+        "entityEnglishId": "Measurement",
+        "startingPos": 83,
+        "endingPos": 94
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          19,
+          20,
+          21,
+          22
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              16,
+              17,
+              18
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              23
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          5,
+          8,
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              7,
+              9,
+              10,
+              11,
+              13,
+              14
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

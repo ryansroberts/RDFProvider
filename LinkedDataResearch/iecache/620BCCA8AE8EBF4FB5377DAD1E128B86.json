@@ -1,0 +1,420 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.728917
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.345284
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.339147
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.338261
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Assay",
+        "wikiLink": "http://en.wikipedia.org/Assay",
+        "score": 0.215941
+      },
+      {
+        "id": 1,
+        "label": "Calibration",
+        "wikiLink": "http://en.wikipedia.org/Calibration",
+        "score": 0.296549
+      },
+      {
+        "id": 2,
+        "label": "Cystatin C",
+        "wikiLink": "http://en.wikipedia.org/Cystatin_C",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Laboratory",
+        "wikiLink": "http://en.wikipedia.org/Laboratory",
+        "score": 0.118211
+      },
+      {
+        "id": 4,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.705896
+      },
+      {
+        "id": 5,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.492943
+      },
+      {
+        "id": 6,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.216715
+      },
+      {
+        "id": 7,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.20906
+      },
+      {
+        "id": 8,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.20906
+      },
+      {
+        "id": 9,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.20906
+      },
+      {
+        "id": 10,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.177657
+      },
+      {
+        "id": 11,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.170002
+      },
+      {
+        "id": 12,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.170002
+      },
+      {
+        "id": 13,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.148704
+      },
+      {
+        "id": 14,
+        "label": "Scientific method",
+        "wikiLink": "http://en.wikipedia.org/Category:Scientific_method",
+        "score": 0.131457
+      },
+      {
+        "id": 15,
+        "label": "Scientific buildings",
+        "wikiLink": "http://en.wikipedia.org/Category:Scientific_buildings",
+        "score": 0.101641
+      },
+      {
+        "id": 16,
+        "label": "Research institutes",
+        "wikiLink": "http://en.wikipedia.org/Category:Research_institutes_by_type",
+        "score": 0.0999197
+      },
+      {
+        "id": 17,
+        "label": "Facilities and organizations of science",
+        "wikiLink": "http://en.wikipedia.org/Category:Facilities_and_organizations_of_science",
+        "score": 0.0999197
+      },
+      {
+        "id": 18,
+        "label": "Laboratories",
+        "wikiLink": "http://en.wikipedia.org/Category:Laboratories",
+        "score": 0.0999197
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Laboratory",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/architecture/building_function"
+        ],
+        "confidenceScore": 1.04023,
+        "wikiLink": "http://en.wikipedia.org/wiki/Laboratory",
+        "matchedText": "laboratories",
+        "freebaseId": "/m/017clw",
+        "relevanceScore": 0.118211,
+        "entityEnglishId": "Laboratory",
+        "startingPos": 9,
+        "endingPos": 21
+      },
+      {
+        "id": 1,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Cystatin",
+        "confidenceScore": 2.24773,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cystatin",
+        "matchedText": "cystatin",
+        "freebaseId": "/m/0fhtpr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Cystatin",
+        "startingPos": 33,
+        "endingPos": 41
+      },
+      {
+        "id": 2,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Cystatin C",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 4.7209,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cystatin_C",
+        "matchedText": "cystatin C",
+        "freebaseId": "/m/02qzgpw",
+        "relevanceScore": 0.658805,
+        "entityEnglishId": "Cystatin C",
+        "startingPos": 33,
+        "endingPos": 43
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Assay",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.44656,
+        "wikiLink": "http://en.wikipedia.org/wiki/Assay",
+        "matchedText": "assays",
+        "freebaseId": "/m/02hddz",
+        "relevanceScore": 0.215941,
+        "entityEnglishId": "Assay",
+        "startingPos": 44,
+        "endingPos": 50
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Calibration",
+        "confidenceScore": 1.27642,
+        "wikiLink": "http://en.wikipedia.org/wiki/Calibration",
+        "matchedText": "calibrated",
+        "freebaseId": "/m/0cs6m",
+        "relevanceScore": 0.296549,
+        "entityEnglishId": "Calibration",
+        "startingPos": 51,
+        "endingPos": 61
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Serum (blood)",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 1.88117,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_(blood)",
+        "matchedText": "serum",
+        "freebaseId": "/m/07s8fsr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Serum (blood)",
+        "startingPos": 104,
+        "endingPos": 109
+      },
+      {
+        "id": 6,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Cystatin",
+        "confidenceScore": 2.24773,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cystatin",
+        "matchedText": "cystatin",
+        "freebaseId": "/m/0fhtpr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Cystatin",
+        "startingPos": 110,
+        "endingPos": 118
+      },
+      {
+        "id": 7,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Cystatin C",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 4.7209,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cystatin_C",
+        "matchedText": "cystatin C",
+        "freebaseId": "/m/02qzgpw",
+        "relevanceScore": 0.658805,
+        "entityEnglishId": "Cystatin C",
+        "startingPos": 110,
+        "endingPos": 120
+      },
+      {
+        "id": 8,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Cystatin",
+        "confidenceScore": 2.24773,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cystatin",
+        "matchedText": "cystatin",
+        "freebaseId": "/m/0fhtpr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Cystatin",
+        "startingPos": 125,
+        "endingPos": 133
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.18616,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.705896,
+        "entityEnglishId": "Renal function",
+        "startingPos": 156,
+        "endingPos": 159
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12,
+          13,
+          14,
+          18
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          20
+        ]
+      }
+    ]
+  },
+  "time": 3.021,
+  "ok": true
+}

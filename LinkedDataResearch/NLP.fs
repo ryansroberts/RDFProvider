@@ -43,7 +43,7 @@ let cacheSet text res =
     File.WriteAllText(cacheFile (text),string res)
 
 let fetch text = 
-    printf "Classifying: %s\r\n" text
+    printf "Classifyinice: %s\r\n" text
     let s = 
         Http.RequestStream("http://api.textrazor.com/", 
                            body = FormValues [ ("apiKey", "1d89771d5553d95d41202a2b81a13e423d514e8bcce8c30450941103")

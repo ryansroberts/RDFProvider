@@ -7,9 +7,8 @@
 
     [<Literal>]
     let ontologyRoot = "http://www.w3.org/2002/07/owl#Thing"
-
     [<Literal>]
-    let nsmap = """nice:http://www.semanticweb.org/amitchell/ontologies/nice_all,
+    let nsmap = """nice:http://www.semanticweb.org/amitchell/ontologies/nice_all#,
                     owl:http://www.w3.org/2002/07/owl#,
                     cnt:http://www.w3.org/2011/content#,
                     oa:http://www.w3.org/ns/oa#,

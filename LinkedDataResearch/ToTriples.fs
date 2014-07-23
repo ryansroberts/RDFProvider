@@ -17,18 +17,21 @@
                     let innerscope = scope.Enter (Identifier (System.Guid.NewGuid().ToString()))
 
                     let targetUri = Owl.Uri (string (innerscope.Enter (Identifier (sprintf "_range_%d" i))))
+                    let selectorUri = Owl.Uri (string (innerscope.Enter (Identifier (sprintf "_selector_%d" i)))) 
                     yield! statementsFor (Subject targetUri)
                         [
                              yield (a,Object.from specificResource.Uri)
                              yield (a,individual)
                              yield (Predicate.from specificResource.ObjectProperties.``oa:hasSource``.Uri,Object.from (string scope)) 
+                             yield (Predicate.from specificResource.ObjectProperties.``oa:hasSelector``.Uri,Object.from selectorUri)
                         ]
 
-                    let selectorUri = Owl.Uri (string (innerscope.Enter (Identifier (sprintf "_selector_%d" i)))) 
+                    
                     yield! statementsFor (Subject selectorUri)
                         [
 
                              yield (a,Object.from textPosition.Uri)
+                          
                              yield (Predicate.from startPos.Uri,Object.from e.StartingPos)
                              yield (Predicate.from endPos.Uri,Object.from e.EndingPos)
                              yield (a,individual)

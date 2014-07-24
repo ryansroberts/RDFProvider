@@ -1,0 +1,212 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.936215
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.49987
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.173908
+      },
+      {
+        "id": 1,
+        "label": "Evidence (law)",
+        "wikiLink": "http://en.wikipedia.org/Evidence_(law)",
+        "score": 0.175215
+      },
+      {
+        "id": 2,
+        "label": "Goal",
+        "wikiLink": "http://en.wikipedia.org/Goal",
+        "score": 0.247749
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Evidence (law)",
+        "confidenceScore": 1.17613,
+        "wikiLink": "http://en.wikipedia.org/wiki/Evidence_(law)",
+        "matchedText": "Evidence",
+        "freebaseId": "/m/06d34f",
+        "relevanceScore": 0.175215,
+        "entityEnglishId": "Evidence (law)",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Resource",
+        "confidenceScore": 1.03162,
+        "wikiLink": "http://en.wikipedia.org/wiki/Resource",
+        "matchedText": "resources",
+        "freebaseId": "/m/02q9lq2",
+        "relevanceScore": 0.0879594,
+        "entityEnglishId": "Resource",
+        "startingPos": 48,
+        "endingPos": 57
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.65799,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.173908,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 85,
+        "endingPos": 93
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Goal",
+        "freebaseTypes": [
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.01516,
+        "wikiLink": "http://en.wikipedia.org/wiki/Goal",
+        "matchedText": "goals",
+        "freebaseId": "/m/03g_1kv",
+        "relevanceScore": 0.247749,
+        "entityEnglishId": "Goal",
+        "startingPos": 163,
+        "endingPos": 168
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              11,
+              12,
+              13
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              10,
+              16,
+              17,
+              18,
+              22
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          17,
+          18,
+          22
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          3
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          0,
+          1,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

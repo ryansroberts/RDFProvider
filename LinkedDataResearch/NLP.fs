@@ -32,7 +32,6 @@ let cacheGet (scope : Scope) text =
     ensureCacheDir()
     let fn = cacheFile text
     try 
-        printf "Check for cache entry %s\r\n" fn
         use fin = File.OpenText(fn)
         Some(trResponse.Load(fin))
     with e -> 

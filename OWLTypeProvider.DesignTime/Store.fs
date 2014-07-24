@@ -187,25 +187,27 @@ let nodeUri (n : INode) = Uri(string (n :?> UriNode).Uri)
 
 let toStorageTriple (g : Graph) (t : Owl.Triple) = 
     let (s, p, o) = t
+    try
+        let s = 
+            match s with
+            | Owl.Subject(Owl.Uri uri) -> g.CreateUriNode(System.Uri uri)
+            | Owl.Subject(Owl.QName(p,u)) -> g.CreateUriNode(p + ":" + u)
     
-    let s = 
-        match s with
-        | Owl.Subject(Owl.Uri uri) -> g.CreateUriNode(System.Uri uri)
-        | Owl.Subject(Owl.QName(p,u)) -> g.CreateUriNode(p + ":" + u)
+        let p = 
+            match p with
+            | Owl.Predicate(Owl.Uri uri) -> g.CreateUriNode(System.Uri uri)
+            | Owl.Predicate(Owl.QName(p,u)) -> g.CreateUriNode(p + ":" + u)
     
-    let p = 
-        match p with
-        | Owl.Predicate(Owl.Uri uri) -> g.CreateUriNode(System.Uri uri)
-        | Owl.Predicate(Owl.QName(p,u)) -> g.CreateUriNode(p + ":" + u)
-    
-    let o = 
-        match o with
-        | Owl.Object.Uri(Owl.Uri uri) -> g.CreateUriNode(System.Uri uri) :> INode
-        | Owl.Object.Uri(Owl.QName(p,u)) -> g.CreateUriNode(p + ":" + u) :> INode
-        | Owl.Object.Literal(Owl.String(s)) -> g.CreateLiteralNode(s) :> INode
-        | Owl.Object.Literal(Owl.Int(i)) -> i.ToLiteral(g) :> INode
-        | Owl.Object.Literal(Owl.DateTime(t)) -> t.ToLiteral(g) :> INode
-    Triple(s, p, o)
+        let o = 
+            match o with
+            | Owl.Object.Uri(Owl.Uri uri) -> g.CreateUriNode(System.Uri uri) :> INode
+            | Owl.Object.Uri(Owl.QName(p,u)) -> g.CreateUriNode(p + ":" + u) :> INode
+            | Owl.Object.Literal(Owl.String(s)) -> g.CreateLiteralNode(s) :> INode
+            | Owl.Object.Literal(Owl.Int(i)) -> i.ToLiteral(g) :> INode
+            | Owl.Object.Literal(Owl.DateTime(t)) -> t.ToLiteral(g) :> INode
+        Triple(s, p, o)
+    with 
+    | :? System.UriFormatException as e -> raise(System.Exception(sprintf "Bad uri %A" t))
 
 let assertTriples (conn : unit -> StardogConnector) (ns : namespaceMappings) (tx : Owl.Triple list) = 
     use conn = conn()

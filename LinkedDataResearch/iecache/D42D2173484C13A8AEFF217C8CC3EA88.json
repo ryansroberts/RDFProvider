@@ -1,0 +1,216 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.263083
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.254166
+      },
+      {
+        "id": 3,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.234004
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.218534
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.19671
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Hospital",
+        "wikiLink": "http://en.wikipedia.org/Hospital",
+        "score": 0.520902
+      },
+      {
+        "id": 1,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.841439
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.78577
+      },
+      {
+        "id": 4,
+        "label": "Hospitals",
+        "wikiLink": "http://en.wikipedia.org/Category:Hospitals",
+        "score": 0.275425
+      },
+      {
+        "id": 5,
+        "label": "Medical and health organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_and_health_organizations",
+        "score": 0.268501
+      },
+      {
+        "id": 6,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0744128
+      },
+      {
+        "id": 7,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.0208694
+      },
+      {
+        "id": 8,
+        "label": "Organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Organizations_by_subject",
+        "score": 0.00638477
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.81043,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patient",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.943824,
+        "entityEnglishId": "Patient",
+        "startingPos": 12,
+        "endingPos": 19
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          2,
+          3
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.92702,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patient satisfaction",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.661579,
+        "entityEnglishId": "Patient",
+        "startingPos": 12,
+        "endingPos": 32
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Hospital",
+        "freebaseTypes": [
+          "/architecture/structure",
+          "/fictional_universe/type_of_fictional_setting",
+          "/media_common/quotation_subject",
+          "/location/location",
+          "/architecture/building",
+          "/organization/contact_category",
+          "/book/book_subject",
+          "/medicine/hospital",
+          "/architecture/building_function"
+        ],
+        "confidenceScore": 1.47633,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hospital",
+        "matchedText": "hospital",
+        "freebaseId": "/m/0hpnr",
+        "relevanceScore": 0.520902,
+        "entityEnglishId": "Hospital",
+        "startingPos": 52,
+        "endingPos": 60
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          5,
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          7
+        ],
+        "propertyPositions": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1,
+          7
+        ],
+        "propertyPositions": [
+          8
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

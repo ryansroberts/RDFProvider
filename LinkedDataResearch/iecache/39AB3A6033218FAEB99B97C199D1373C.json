@@ -1,0 +1,444 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.944623
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.942611
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.655253
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.386895
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.353851
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Health_care",
+        "score": 0.27136
+      },
+      {
+        "id": 1,
+        "label": "Health care provider",
+        "wikiLink": "http://en.wikipedia.org/Health_care_provider",
+        "score": 0.199064
+      },
+      {
+        "id": 2,
+        "label": "Nutrition",
+        "wikiLink": "http://en.wikipedia.org/Nutrition",
+        "score": 0.23567
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.395345
+      },
+      {
+        "id": 4,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.107593
+      },
+      {
+        "id": 5,
+        "label": "Industries",
+        "wikiLink": "http://en.wikipedia.org/Category:Industries",
+        "score": 0.0836755
+      },
+      {
+        "id": 6,
+        "label": "Social policy",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_policy",
+        "score": 0.0631504
+      },
+      {
+        "id": 7,
+        "label": "Social programs",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_programs",
+        "score": 0.0631504
+      },
+      {
+        "id": 8,
+        "label": "Service industries",
+        "wikiLink": "http://en.wikipedia.org/Category:Service_industries",
+        "score": 0.0631504
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.69092,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0957286,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 26,
+        "endingPos": 34
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Nutrition",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/business/industry",
+          "/award/award_discipline",
+          "/book/book_subject",
+          "/atom/feed_category",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.12329,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nutrition",
+        "matchedText": "nutrition",
+        "freebaseId": "/m/05djc",
+        "relevanceScore": 0.23567,
+        "entityEnglishId": "Nutrition",
+        "startingPos": 70,
+        "endingPos": 79
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Health care",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/organization/organization_sector",
+          "/food/tea_type",
+          "/people/professional_field",
+          "/education/field_of_study",
+          "/government/government_service",
+          "/business/industry",
+          "/exhibitions/exhibition_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.05948,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_care",
+        "matchedText": "healthcare",
+        "freebaseId": "/m/01mw2x",
+        "relevanceScore": 0.27136,
+        "entityEnglishId": "Health care",
+        "startingPos": 117,
+        "endingPos": 127
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Health care provider",
+        "freebaseTypes": [
+          "/people/profession",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.53098,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_care_provider",
+        "matchedText": "healthcare professional",
+        "freebaseId": "/m/0fsbk0",
+        "relevanceScore": 0.199064,
+        "entityEnglishId": "Health care provider",
+        "startingPos": 117,
+        "endingPos": 140
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          9,
+          11
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              7,
+              8,
+              10,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6,
+          9,
+          11
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              8,
+              10,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6,
+          9,
+          10,
+          11
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              8,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          13,
+          16,
+          19
+        ],
+        "propertyPositions": [
+          14,
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          22,
+          25
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          22,
+          25
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          13,
+          16,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          2,
+          3,
+          6,
+          9,
+          11
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    ]
+  },
+  "time": 3.019,
+  "ok": true
+}

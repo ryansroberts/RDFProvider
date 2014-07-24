@@ -40,8 +40,12 @@ module NiceOntology
     type review = thing.``nice:Review``
     type qualityStandard = thing.``nice:QualityStandard``
     type qualityStatement = thing.``nice:QualityStatement``
+    type qualityMeasure = thing.``nice:QualityMeasure``
+    type denominator = thing.``nice:Denominator``
+    type numerator = thing.``nice:Numerator``
     type sharedLearning = thing.``nice:SharedLearning``
     type organisation = thing.``nice:Organisation``
+    type discussion = thing.``nice:Discussion``
 
     //Annotations 
     type semanticTag = thing.``oa:Tag``.``oa:SemanticTag``

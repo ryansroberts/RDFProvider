@@ -180,7 +180,11 @@
 
 ###  http://www.semanticweb.org/amitchell/ontologies/nice_all#implements
 
-:implements rdf:type owl:ObjectProperty .
+:implements rdf:type owl:ObjectProperty ;
+            
+            rdfs:range :Recommendation ;
+            
+            rdfs:domain :SharedLearning .
 
 
 
@@ -245,6 +249,18 @@
                              rdfs:domain :Setting ;
                              
                              rdfs:range :SharedLearning .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#isImplementedBy
+
+:isImplementedBy rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:domain :Recommendation ;
+                 
+                 rdfs:range :SharedLearning ;
+                 
+                 owl:inverseOf :implements .
 
 
 

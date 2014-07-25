@@ -15,7 +15,6 @@ type namespaceMappings = (String * Schema.Uri) list
 let connectStarDog server store = 
     (fun () -> new StardogConnector(server, store, StardogReasoningMode.RL, "admin", "admin") :> IQueryableStorage)
 
-
 let connectStupidStardog server store = 
     (fun () -> new StardogConnector(server, store, StardogReasoningMode.None, "admin", "admin") :> IQueryableStorage)
 

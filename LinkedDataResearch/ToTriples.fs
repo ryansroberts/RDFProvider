@@ -90,7 +90,7 @@ module Project
             [
                 yield (a,Object.from study.Uri) 
                 yield (a,individual)
-                yield (Predicate.from isAbout.Uri,t)
+                yield (Predicate.from study.ObjectProperties.``nice:isSummarisedBy``.Uri,t)
                 yield (Predicate.from study.ObjectProperties.``nice:hasReference``.Uri,Object.from referenceUri)
             ]
         ]
@@ -105,11 +105,10 @@ module Project
                 yield (a,Object.from textContent.Uri)
                 yield (Predicate.from chars.Uri,Object.from (string st.Statement))
                 yield (Predicate.from isAbout.Uri,t)
-                //yield (Predicate.from ,Object.from (string st.EvidenceCategory))
             ]
         for s in st.Studies do
             let studyScope = Scope("nice:studies", [ s.Id ]) 
-            yield! study scope s (Object.from (string scope))
+            yield! study scope s (Object.from (Owl.Uri(string scope)))
         ]
 
     let question (scope : Scope) (q:Model.Question) t = [
@@ -125,9 +124,10 @@ module Project
             ]
         ]
 
-    let set (scope : Scope) (t:Model.Set) = [
+    let topic (scope : Scope) (t:Model.Set) = [
+        let guidanceScope =  Owl.Uri((string scope))
         let scope = scope.Enter t.Id
-        let aboutTopic = Object.from (string t.Id)
+        let aboutTopic = Object.from (Owl.Uri((string t.Id)))
 
         let rationaleScope = scope.Enter (Identifier "rationale")
         let discussionScope= scope.Enter (Identifier "discussion")
@@ -138,6 +138,7 @@ module Project
                 yield (a,Object.from textContent.Uri)
                 yield (a,individual)
                 yield (Predicate.from  topic.DataProperties.``nice:subject``.Uri, aboutTopic)
+                yield (Predicate.from topic.ObjectProperties.``nice:isTopicOf``.Uri,Object.from guidanceScope)
             ]
 
         yield! statementsFor (Subject (Owl.Uri (string rationaleScope)))
@@ -167,7 +168,7 @@ module Project
     
     let reccomendation (scope:Scope) (r:Model.Reccomendation) = [
         let guidanceScope = scope
-        let scope = scope.Enter r.Id 
+        let scope = Scope("http://nice.org.uk/reccomendaton",[r.Id]) 
         
         yield! statementsFor (Subject (Owl.Uri (string scope)))
             [
@@ -179,7 +180,7 @@ module Project
                 yield (Predicate.from recommendation.DataProperties.``nice:identifier``.Uri,Object.from (string r.Id))
                 yield (Predicate.from recommendation.DataProperties.``nice:title``.Uri,Object.from (string r.Title))
 
-                yield (Predicate.from isAbout.Uri,Object.from (Owl.Uri(string (scope.Enter(r.Set)))))
+                yield (Predicate.from isPartOf.Uri,Object.from (Owl.Uri((string guidanceScope))))
                 yield (Predicate.from recommendation.DataProperties.``nice:recommendationStrength``.Uri,Object.from r.Grade)
             ]
     ]
@@ -195,10 +196,10 @@ module Project
                 ]
       
             for s in g.Sets do
-                yield! set scope s
+                yield! topic scope s
 
             for r in g.Reccomendation do
-                yield! reccomendation (Scope("http://nice.org.uk/reccomendation", [])) r 
+                yield! reccomendation scope r 
         ]
 
     let qualityStatements (scope:Scope) (statement:Model.QualityStatement) = [
@@ -211,9 +212,9 @@ module Project
                 yield (a,Object.from textContent.Uri)
                 yield (Predicate.from qualityStatement.DataProperties.``nice:title``.Uri,Object.from (string statement.Title))
                 yield (Predicate.from chars.Uri,Object.from (string statement.Statement))
-                //for r in statement.Reccomendation do
-                 //   let rScope = Owl.Uri( string (Scope("http://nice.org.uk/reccomendation", [r])))
-                  //  yield (Predicate.from qualityStatement.ObjectProperties.``nice:hasMeasure``,Object.from rScope)
+                for r in statement.Recommendation do
+                    let rScope = Owl.Uri( string (Scope("http://nice.org.uk/reccomendation", [r])))
+                    yield (Predicate.from qualityStatement.ObjectProperties.``nice:isUnderPinnedBy``.Uri,Object.from rScope)
             ] 
         
         for m in statement.QualityMeasures do
@@ -257,7 +258,6 @@ module Project
                 yield (a,Object.from qualityStandard.Uri)
                 yield (a,individual)
                 yield (Predicate.from qualityStandard.DataProperties.``nice:title``.Uri,Object.from (string s.Title))
-
                 yield (Predicate.from qualityStandard.DataProperties.``nice:subject``.Uri,Object.from (string s.Subject))
             ]
 
@@ -287,9 +287,9 @@ module Project
                     yield (Predicate.from sharedLearning.ObjectProperties.``nice:wasDevelopedBy``.Uri,Object.from orgscope)   
                 for (uri,name) in s.Geo do
                     yield (Predicate.from sharedLearning.ObjectProperties.``nice:hasGeoSetting``.Uri,Object.from uri)   
-                //for qs in s.QualityStandards do
-                //    let qsScope =  Owl.Uri (string (Scope("http://nice.org.uk/qualitystandards", [qs])))
- 
+                for r in s.Recommendations do
+                    let rscope = Owl.Uri (string (Scope("http://nice.org.uk/reccomendaton",[r])))
+                    yield (Predicate.from sharedLearning.ObjectProperties.``nice:isImplementedBy``.Uri,Object.from rscope)
             ]
     ]
 

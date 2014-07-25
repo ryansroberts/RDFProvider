@@ -241,6 +241,6 @@ module Import =
                       Organisations = 
                           [ for r in sltoOrgmap.Filter(fun r -> r.``Shared Learning ID`` = s1.``Shared Learning ID``).Rows -> 
                                 Identifier r.``Organisation ID`` ]
-                      Reccomendations = []
-                      QualityStandards = []
+                      Recommendations = []
+                      QualityStatements = []
                       Geo = [] } ]

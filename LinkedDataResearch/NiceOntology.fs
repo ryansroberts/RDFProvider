@@ -24,7 +24,6 @@ module NiceOntology
     //type owl = LinkedData.File<owlLocation,"http://www.w3.org/2000/01/rdf-schema#class","owl:http://www.w3.org/2002/07/owl#">
 
     type thing = nice.``owl:Thing``
-  
 
     type guideline = thing.``nice:Guideline``
     type topic = thing.``nice:Topic``
@@ -32,6 +31,11 @@ module NiceOntology
     type hasRationale = topic.ObjectProperties.``nice:hasRationale``
     type rationale = thing.``nice:Rationale`` 
     type question = thing.``nice:Question``
+    type isImplementedBy = thing.``prov:Entity``.ObjectProperties.``nice:isImplementedBy``
+    type hasPart = thing.``prov:Entity``.ObjectProperties.``nice:hasPart``
+    type isPartOf = thing.``prov:Entity``.ObjectProperties.``nice:isPartOf``
+    type underpins = thing.``prov:Entity``.ObjectProperties.``nice:underpins``
+    
     type evidenceStatement = thing.``nice:EvidenceStatement``
     type study = thing.``nice:Study``
     type recommendation = thing.``nice:Recommendation``

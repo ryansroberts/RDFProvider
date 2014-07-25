@@ -143,8 +143,8 @@ and SharedLearning = {
    Description : Body
    Aim: string
    Organisations : Identifier list
-   Reccomendations :Identifier list
-   QualityStandards : Identifier list
+   Recommendations :Identifier list
+   QualityStatements : Identifier list
    Geo : (Owl.Uri * string) list
 }
 

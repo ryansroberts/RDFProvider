@@ -54,9 +54,25 @@
 
 
 
+###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#isImplementedBy
+
+:isImplementedBy rdf:type owl:ObjectProperty ;
+
+							rdfs:domain :Recommendation ;
+                                                                                                   
+                            rdfs:range :SharedLearning ;
+                                                                                                   
+                            owl:inverseOf :isImplementedBy .	
+
 ###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#implements
 
-:implements rdf:type owl:ObjectProperty .
+:implements rdf:type owl:ObjectProperty ;
+
+							rdfs:range :Recommendation ;
+                                                                                                   
+                            rdfs:domain :SharedLearning ;
+                                                                                                   
+                            owl:inverseOf :isImplementedBy .	
 
 
 
@@ -424,7 +440,17 @@
            
            rdfs:domain :Recommendation ;
            
-           rdfs:range :QualityStatement .
+           rdfs:range :QualityStatement ;
+
+		   owl:inverseOf :isUnderPinnedBy .
+
+:isUnderPinnedBy rdf:type owl:ObjectProperty ;
+           
+           rdfs:range :Recommendation ;
+           
+           rdfs:domain :QualityStatement ;
+
+		   owl:inverseOf :underpins .
 
 
 

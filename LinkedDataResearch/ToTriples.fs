@@ -127,7 +127,7 @@ module Project
     let topic (scope : Scope) (t:Model.Set) = [
         let guidanceScope =  Owl.Uri((string scope))
         let scope = scope.Enter t.Id
-        let aboutTopic = Object.from (Owl.Uri((string t.Id)))
+        let aboutTopic = Object.from (string scope)
 
         let rationaleScope = scope.Enter (Identifier "rationale")
         let discussionScope= scope.Enter (Identifier "discussion")

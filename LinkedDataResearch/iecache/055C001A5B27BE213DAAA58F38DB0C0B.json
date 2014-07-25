@@ -1,0 +1,205 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.460779
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.460779
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.460779
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.453824
+      },
+      {
+        "id": 5,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.453824
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.0875998
+      },
+      {
+        "id": 1,
+        "label": "Medical procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_procedures",
+        "score": 0.0374204
+      },
+      {
+        "id": 2,
+        "label": "Endocrine procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_procedures",
+        "score": 0.0374204
+      },
+      {
+        "id": 3,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.0374204
+      },
+      {
+        "id": 4,
+        "label": "Endocrinology",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrinology",
+        "score": 0.0374204
+      },
+      {
+        "id": 5,
+        "label": "Insulin therapies",
+        "wikiLink": "http://en.wikipedia.org/Category:Insulin_therapies",
+        "score": 0.0374204
+      },
+      {
+        "id": 6,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.0374204
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 3.14453,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.073247,
+        "entityEnglishId": "Insulin",
+        "startingPos": 89,
+        "endingPos": 96
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Insulin therapy",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.10898,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin_therapy",
+        "matchedText": "insulin therapy",
+        "freebaseId": "/m/0521j1s",
+        "relevanceScore": 0.0245645,
+        "entityEnglishId": "Insulin therapy",
+        "startingPos": 89,
+        "endingPos": 104
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.31458,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0,
+        "entityEnglishId": "Therapy",
+        "startingPos": 97,
+        "endingPos": 104
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "propertyPositions": [
+          3,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "propertyPositions": [
+          5,
+          6
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

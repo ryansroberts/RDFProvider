@@ -1,0 +1,863 @@
+@prefix : <http://www.semanticweb.org/amitchell/ontologies/nice_all#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/amitchell/ontologies/nice_all#> .
+
+<http://www.semanticweb.org/amitchell/ontologies/nice_all> rdf:type owl:Ontology ;
+                                                           
+                                                           owl:imports <http://www.w3.org/ns/prov-o#> .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#develops
+
+:develops rdf:type owl:ObjectProperty ;
+                                                                                 
+                                                                                 rdfs:domain :Organisation ;
+                                                                                 
+                                                                                 rdfs:range :Setting ;
+                                                                                 
+                                                                                 owl:inverseOf :wasDevelopedBy .
+
+
+
+###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#hasGeoSetting
+
+:hasGeoSetting rdf:type owl:ObjectProperty ;
+                                                                                      
+                                                                                      rdfs:domain :SharedLearning ;
+                                                                                      
+                                                                                      owl:inverseOf :isGeoSettingOf ;
+                                                                                      
+                                                                                      rdfs:range <http://www.w3.org/ns/prov#Location> .
+
+
+
+###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#hasHealthSocialCareSetting
+
+:hasHealthSocialCareSetting rdf:type owl:ObjectProperty ;
+                                                                                                   
+                                                                                                   rdfs:range :Setting ;
+                                                                                                   
+                                                                                                   rdfs:domain :SharedLearning ;
+                                                                                                   
+                                                                                                   owl:inverseOf :isHealthSocialCareSettingOf .
+
+
+
+###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#implements
+
+:implements rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#isGeoSettingOf
+
+:isGeoSettingOf rdf:type owl:ObjectProperty ;
+                                                                                       
+                                                                                       rdfs:range :SharedLearning ;
+                                                                                       
+                                                                                       rdfs:domain <http://www.w3.org/ns/prov#Location> .
+
+
+
+###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#isHealthSocialCareSettingOf
+
+:isHealthSocialCareSettingOf rdf:type owl:ObjectProperty ;
+                                                                                                    
+                                                                                                    rdfs:domain :Setting ;
+                                                                                                    
+                                                                                                    rdfs:range :SharedLearning .
+
+
+
+###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#wasDevelopedBy
+
+:wasDevelopedBy rdf:type owl:ObjectProperty ;
+                                                                                       
+                                                                                       rdfs:range :Organisation ;
+                                                                                       
+                                                                                       rdfs:domain :SharedLearning .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasExcludedStudy
+
+:hasExcludedStudy rdf:type owl:ObjectProperty ;
+                                                                                          
+                                                                                          rdfs:domain :Review ;
+                                                                                          
+                                                                                          rdfs:range :Study .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasIncludedStudy
+
+:hasIncludedStudy rdf:type owl:ObjectProperty ;
+                                                                                          
+                                                                                          rdfs:domain :Review ;
+                                                                                          
+                                                                                          rdfs:range :Study ;
+                                                                                          
+                                                                                          owl:inverseOf :isIncludedStudyOf .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasQuestion
+
+:hasQuestion rdf:type owl:ObjectProperty ;
+                                                                                     
+                                                                                     rdfs:range :Question ;
+                                                                                     
+                                                                                     rdfs:domain :Review ;
+                                                                                     
+                                                                                     owl:inverseOf :isQuestionOf .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasReference
+
+:hasReference rdf:type owl:ObjectProperty ;
+                                                                                      
+                                                                                      rdfs:range :Reference ;
+                                                                                      
+                                                                                      rdfs:domain :Study ;
+                                                                                      
+                                                                                      owl:inverseOf :isReferenceOf .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasSearchStrategy
+
+:hasSearchStrategy rdf:type owl:ObjectProperty ;
+                                                                                           
+                                                                                           rdfs:domain :Question ;
+                                                                                           
+                                                                                           rdfs:range :SearchStrategy ;
+                                                                                           
+                                                                                           owl:inverseOf :isSearchStrategyOf .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#isExcludedStudyOf
+
+:isExcludedStudyOf rdf:type owl:ObjectProperty ;
+                                                                                           
+                                                                                           rdfs:range :Review ;
+                                                                                           
+                                                                                           rdfs:domain :Study ;
+                                                                                           
+                                                                                           owl:inverseOf :hasExcludedStudy .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#isIncludedStudyOf
+
+:isIncludedStudyOf rdf:type owl:ObjectProperty ;
+                                                                                           
+                                                                                           rdfs:range :Review ;
+                                                                                           
+                                                                                           rdfs:domain :Study .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#isQuestionOf
+
+:isQuestionOf rdf:type owl:ObjectProperty ;
+                                                                                      
+                                                                                      rdfs:domain :Question ;
+                                                                                      
+                                                                                      rdfs:range :Review .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#isReferenceOf
+
+:isReferenceOf rdf:type owl:ObjectProperty ;
+                                                                                       
+                                                                                       rdfs:domain :Reference ;
+                                                                                       
+                                                                                       rdfs:range :Study .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#isSearchStrategyOf
+
+:isSearchStrategyOf rdf:type owl:ObjectProperty ;
+                                                                                            
+                                                                                            rdfs:range :Question ;
+                                                                                            
+                                                                                            rdfs:domain :SearchStrategy .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#follows
+
+:follows rdf:type owl:ObjectProperty ;
+                                                                                
+                                                                                rdfs:range :Recommendation ;
+                                                                                
+                                                                                rdfs:domain :Recommendation ;
+                                                                                
+                                                                                owl:inverseOf :isFollowedBy .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#hasPart
+
+:hasPart rdf:type owl:ObjectProperty ;
+                                                                                
+                                                                                owl:inverseOf :isPartOf ;
+                                                                                
+                                                                                rdfs:domain <http://www.w3.org/ns/prov#Entity> ;
+                                                                                
+                                                                                rdfs:range <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#hasRationale
+
+:hasRationale rdf:type owl:ObjectProperty ;
+                                                                                     
+                                                                                     rdfs:range :Rationale ;
+                                                                                     
+                                                                                     rdfs:domain :Topic .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isAbout
+:isAbout rdf:type owl:ObjectProperty ;
+ 															owl:inverseOf :isTopicOf ;
+															rdfs:range :Topic ;
+                                                                                  
+                                                            rdfs:doman [ rdf:type owl:Class ;
+                                                                        owl:unionOf ( :Question
+                                                                                        :EvidenceStatement
+                                                                                        :Guideline
+                                                                                        :Recommendation
+																						:Discussion
+                                                                                    )
+                                                                        ] .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isFollowedBy
+
+:isFollowedBy rdf:type owl:ObjectProperty ;
+                                                                                     
+                                                                                     rdfs:range :Recommendation ;
+                                                                                     
+                                                                                     rdfs:domain :Recommendation .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isPartOf
+
+:isPartOf rdf:type owl:ObjectProperty ;
+                                                                                 
+                                                                                 rdfs:range <http://www.w3.org/ns/prov#Entity> ;
+                                                                                 
+                                                                                 rdfs:domain <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isRationaleOf
+
+:isRationaleOf rdf:type owl:ObjectProperty ;
+                                                                                      
+                                                                                      rdfs:domain :Rationale ;
+                                                                                      
+                                                                                      rdfs:range :Topic ;
+                                                                                      
+                                                                                      owl:inverseOf :hasRationale .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isSummarisedBy
+
+:isSummarisedBy rdf:type owl:ObjectProperty ;
+                                                                                       
+                                                                                       rdfs:domain :Study ;
+                                                                                       
+                                                                                       rdfs:range :EvidenceStatement .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isTopicOf
+
+:isTopicOf rdf:type owl:ObjectProperty ;
+                                                                                  
+                                                                                  rdfs:domain :Topic ;
+                                                                                  
+                                                                                  rdfs:range [ rdf:type owl:Class ;
+                                                                                               owl:unionOf ( :Question
+                                                                                                             :EvidenceStatement
+                                                                                                             :Guideline
+                                                                                                             :Recommendation
+																											 :Discussion
+                                                                                                           )
+                                                                                             ] .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isUsedBy
+
+:isUsedBy rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#summarises
+
+:summarises rdf:type owl:ObjectProperty ;
+                                                                                   
+                                                                                   rdfs:range :Study ;
+                                                                                   
+                                                                                   rdfs:domain :EvidenceStatement .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#uses
+
+:uses rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#isSupportedBy
+
+:isSupportedBy rdf:type owl:ObjectProperty ;
+                                                                                          
+                                                                                          rdfs:domain <http://www.w3.org/ns/prov#Entity> ;
+                                                                                          
+                                                                                          rdfs:range <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#supports
+
+:supports rdf:type owl:ObjectProperty ;
+                                                                                     
+                                                                                     owl:inverseOf :isSupportedBy ;
+                                                                                     
+                                                                                     rdfs:domain <http://www.w3.org/ns/prov#Entity> ;
+                                                                                     
+                                                                                     rdfs:range <http://www.w3.org/ns/prov#Entity> .
+
+
+
+### http://www.semanticweb.org/amitchell/ontologies/nice_all#hasDenominator
+
+:hasDenominator rdf:type owl:ObjectProperty ;
+                
+                rdfs:range :Denominator ;
+                
+                rdfs:domain :QualityMeasure .
+
+
+
+### http://www.semanticweb.org/amitchell/ontologies/nice_all#hasMeasure
+
+:hasMeasure rdf:type owl:ObjectProperty ;
+            
+            rdfs:domain :QualityStatement ;
+            
+            rdfs:range :QualityMeasure ;
+            
+            owl:inverseOf :isMeasureOf .
+
+
+
+### http://www.semanticweb.org/amitchell/ontologies/nice_all#hasNumerator
+
+:hasNumerator rdf:type owl:ObjectProperty ;
+              
+              rdfs:range :Numerator ;
+              
+              rdfs:domain :QualityMeasure .
+
+
+
+### http://www.semanticweb.org/amitchell/ontologies/nice_all#isDenominatorOf
+
+:isDenominatorOf rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:domain :Denominator ;
+                 
+                 rdfs:range :QualityMeasure ;
+                 
+                 owl:inverseOf :hasDenominator .
+
+
+
+### http://www.semanticweb.org/amitchell/ontologies/nice_all#isMeasureOf
+
+:isMeasureOf rdf:type owl:ObjectProperty ;
+             
+             rdfs:range :QualityMeasure ;
+             
+             rdfs:domain :QualityMeasure ;
+             
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+### http://www.semanticweb.org/amitchell/ontologies/nice_all#isNumeratorOf
+
+:isNumeratorOf rdf:type owl:ObjectProperty ;
+               
+               rdfs:domain :Numerator ;
+               
+               rdfs:range :QualityMeasure ;
+               
+               owl:inverseOf :hasNumerator .
+
+
+
+### http://www.semanticweb.org/amitchell/ontologies/nice_all#isUnderpinnedBy
+
+:isUnderpinnedBy rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:range :Recommendation ;
+                 
+                 rdfs:domain :QualityStatement ;
+                 
+                 owl:inverseOf :underpins .
+
+
+
+### http://www.semanticweb.org/amitchell/ontologies/nice_all#underpins
+
+:underpins rdf:type owl:ObjectProperty ;
+           
+           rdfs:domain :Recommendation ;
+           
+           rdfs:range :QualityStatement .
+
+###  isUsedBy
+  
+ :isUsedBy rdf:type owl:ObjectProperty ;                                                                   
+	rdfs:range :Discussion ;
+ 	rdfs:domain :EvidenceStatement ;
+ 	owl:inverseOf :uses .
+
+###  uses
+
+ :uses rdf:type owl:ObjectProperty ;
+ 	rdfs:domain :Discussion ;
+	rdfs:range :EvidenceStatement .
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#dateSubmitted
+
+:dateSubmitted rdf:type owl:DatatypeProperty ;
+                                                                                      
+                                                                                      rdfs:domain :SharedLearning ;
+                                                                                      
+                                                                                      rdfs:range rdfs:Literal .
+
+
+
+###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#hasDescription
+
+:hasDescription rdf:type owl:DatatypeProperty ;
+                                                                                       
+                                                                                       rdfs:range xsd:string ;
+                                                                                       
+                                                                                       rdfs:domain [ rdf:type owl:Class ;
+                                                                                                     owl:unionOf ( :SharedLearning
+                                                                                                                   :Denominator
+                                                                                                                   :Numerator
+                                                                                                                   :QualityMeasure
+                                                                                                                 )
+                                                                                                   ] .
+
+
+
+###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#hasTitle
+
+:hasTitle rdf:type owl:DatatypeProperty ;
+                                                                                 
+                                                                                 rdfs:domain :SharedLearning ;
+                                                                                 
+                                                                                 rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasDateRange
+
+:hasDateRange rdf:type owl:DatatypeProperty ;
+                                                                                      
+                                                                                      rdfs:domain :SearchStrategy ;
+                                                                                      
+                                                                                      rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasPopulation
+
+:hasPopulation rdf:type owl:DatatypeProperty ;
+                                                                                       
+                                                                                       rdfs:domain :SearchStrategy ;
+                                                                                       
+                                                                                       rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasSource
+
+:hasSource rdf:type owl:DatatypeProperty ;
+                                                                                   
+                                                                                   rdfs:domain :SearchStrategy ;
+                                                                                   
+                                                                                   rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasStrategyType
+
+:hasStrategyType rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasStudyType
+
+:hasStudyType rdf:type owl:DatatypeProperty ;
+                                                                                      
+                                                                                      rdfs:domain :SearchStrategy ;
+                                                                                      
+                                                                                      rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#evidenceLevel
+
+:evidenceLevel rdf:type owl:DatatypeProperty ;
+                                                                                      
+                                                                                      rdfs:domain :EvidenceStatement ;
+                                                                                      
+                                                                                      rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#evidenceType
+
+:evidenceType rdf:type owl:DatatypeProperty ;
+                                                                                     
+                                                                                     rdfs:domain :EvidenceStatement ;
+                                                                                     
+                                                                                     rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#identifier
+
+:identifier rdf:type owl:DatatypeProperty ;
+                                                                                   
+                                                                                   rdfs:domain :Recommendation ;
+                                                                                   
+                                                                                   rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#issued
+
+:issued rdf:type owl:DatatypeProperty ;
+                                                                               
+                                                                               rdfs:domain :Guideline ;
+                                                                               
+                                                                               rdfs:range rdfs:Literal .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#recommendationStrength
+
+:recommendationStrength rdf:type owl:DatatypeProperty ;
+                                                                                               
+                                                                                               rdfs:domain :Recommendation ;
+                                                                                               
+                                                                                               rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#subject
+
+:subject rdf:type owl:DatatypeProperty ;
+                                                                                
+                                                                                rdfs:domain :Topic ;
+                                                                                
+                                                                                rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#title
+
+:title rdf:type owl:DatatypeProperty ;
+                                                                              
+                                                                              rdfs:range xsd:string ;
+                                                                              
+                                                                              rdfs:domain [ rdf:type owl:Class ;
+                                                                                            owl:unionOf ( :Guideline
+                                                                                                          :Recommendation
+                                                                                                          :QualityStandard
+                                                                                                          :QualityStatement
+                                                                                                          :OutcomesFramework
+                                                                                                        )
+                                                                                          ] .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#subject
+
+:subject rdf:type owl:DatatypeProperty ;
+                                                                                       
+                                                                                       rdfs:domain :QualityStandard ;
+                                                                                       
+                                                                                       rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#dateIssued
+
+:dateIssued rdf:type owl:DatatypeProperty ;
+                                                                                       
+                                                                                       rdfs:domain :OutcomesFramework ;
+                                                                                       
+                                                                                       rdfs:range rdfs:Literal .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#Organisation
+
+:Organisation rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#Setting
+
+:Setting rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#SharedLearning
+
+:SharedLearning rdf:type owl:Class ;
+                                                                                       
+                                                                                       rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Question
+
+:Question rdf:type owl:Class ;
+                                                                                  
+                                                                                  rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Reference
+
+:Reference rdf:type owl:Class ;
+                                                                                   
+                                                                                   rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Review
+
+:Review rdf:type owl:Class ;
+                                                                                
+                                                                                rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#SearchStrategy
+
+:SearchStrategy rdf:type owl:Class ;
+                                                                                        
+                                                                                        rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Study
+
+:Study rdf:type owl:Class ;
+                                                                               
+                                                                               rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Discussion
+
+:Discussion rdf:type owl:Class ;
+                                                                                   
+                                                                                   rdfs:subClassOf <http://www.w3.org/ns/prov#Activity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#EvidenceStatement
+
+:EvidenceStatement rdf:type owl:Class ;
+                                                                                          
+                                                                                          rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Guideline
+
+:Guideline rdf:type owl:Class ;
+                                                                                  
+                                                                                  rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Rationale
+
+:Rationale rdf:type owl:Class ;
+                                                                                  
+                                                                                  rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation
+
+:Recommendation rdf:type owl:Class ;
+                                                                                       
+                                                                                       rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Topic
+
+:Topic rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStandard
+
+:QualityStandard rdf:type owl:Class ;
+                                                                                               
+                                                                                               rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStatement
+
+:QualityStatement rdf:type owl:Class ;
+                                                                                                
+                                                                                                rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesDomain
+
+:OutcomesDomain rdf:type owl:Class ;
+                                                                                           
+                                                                                           rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesFramework
+
+:OutcomesFramework rdf:type owl:Class ;
+                                                                                              
+                                                                                              rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/2014/5/outcomes_framework#OutcomesIndicator
+
+:OutcomesIndicator rdf:type owl:Class ;
+                                                                                              
+                                                                                              rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+### http://www.semanticweb.org/amitchell/ontologies/nice_all#Denominator
+
+:Denominator rdf:type owl:Class ;
+             
+             owl:disjointWith :Numerator .
+
+
+
+### http://www.semanticweb.org/amitchell/ontologies/nice_all#Numerator
+
+:Numerator rdf:type owl:Class .
+
+
+
+### http://www.semanticweb.org/amitchell/ontologies/nice_all#QualityMeasure
+
+:QualityMeasure rdf:type owl:Class ;
+                
+                rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.w3.org/ns/prov#Location
+
+<http://www.w3.org/ns/prov#Location> rdf:type owl:Class .
+
+
+
+
+
+#################################################################
+#
+#    General axioms
+#
+#################################################################
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :SharedLearning
+                :Question
+                :Reference
+                :Review
+                :SearchStrategy
+                :Study
+                :EvidenceStatement
+                :Guideline
+                :Rationale
+                :Recommendation
+                :QualityStandard
+                :QualityStatement
+                :OutcomesDomain
+                :OutcomesFramework
+                :OutcomesIndicator
+                :QualityMeasure
+                <http://www.w3.org/ns/prov#Bundle>
+                <http://www.w3.org/ns/prov#Collection>
+                <http://www.w3.org/ns/prov#Plan>
+              )
+] .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+

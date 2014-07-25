@@ -1,4 +1,4 @@
-﻿module NiceOntology
+module NiceOntology
     [<Literal>]
     let server = "http://localhost:5820"
 
@@ -7,9 +7,8 @@
 
     [<Literal>]
     let ontologyRoot = "http://www.w3.org/2002/07/owl#Thing"
-
     [<Literal>]
-    let nsmap = """nice:http://www.semanticweb.org/amitchell/ontologies/nice_all,
+    let nsmap = """nice:http://www.semanticweb.org/amitchell/ontologies/nice_all#,
                     owl:http://www.w3.org/2002/07/owl#,
                     cnt:http://www.w3.org/2011/content#,
                     oa:http://www.w3.org/ns/oa#,
@@ -25,7 +24,6 @@
     //type owl = LinkedData.File<owlLocation,"http://www.w3.org/2000/01/rdf-schema#class","owl:http://www.w3.org/2002/07/owl#">
 
     type thing = nice.``owl:Thing``
-  
 
     type guideline = thing.``nice:Guideline``
     type topic = thing.``nice:Topic``
@@ -33,6 +31,11 @@
     type hasRationale = topic.ObjectProperties.``nice:hasRationale``
     type rationale = thing.``nice:Rationale`` 
     type question = thing.``nice:Question``
+    type isImplementedBy = thing.``prov:Entity``.ObjectProperties.``nice:isImplementedBy``
+    type hasPart = thing.``prov:Entity``.ObjectProperties.``nice:hasPart``
+    type isPartOf = thing.``prov:Entity``.ObjectProperties.``nice:isPartOf``
+    type underpins = thing.``prov:Entity``.ObjectProperties.``nice:underpins``
+    
     type evidenceStatement = thing.``nice:EvidenceStatement``
     type study = thing.``nice:Study``
     type recommendation = thing.``nice:Recommendation``
@@ -41,6 +44,12 @@
     type review = thing.``nice:Review``
     type qualityStandard = thing.``nice:QualityStandard``
     type qualityStatement = thing.``nice:QualityStatement``
+    type qualityMeasure = thing.``nice:QualityMeasure``
+    type denominator = thing.``nice:Denominator``
+    type numerator = thing.``nice:Numerator``
+    type sharedLearning = thing.``nice:SharedLearning``
+    type organisation = thing.``nice:Organisation``
+    type discussion = thing.``nice:Discussion``
 
     //Annotations 
     type semanticTag = thing.``oa:Tag``.``oa:SemanticTag``

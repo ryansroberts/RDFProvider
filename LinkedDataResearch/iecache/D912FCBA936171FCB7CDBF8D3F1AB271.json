@@ -1,0 +1,152 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Ketoacidosis",
+        "wikiLink": "http://en.wikipedia.org/Ketoacidosis",
+        "score": 0.236464
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Diabetic ketoacidosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 4.96262,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_ketoacidosis",
+        "matchedText": "diabetic ketoacidosis",
+        "freebaseId": "/m/0fmk8",
+        "relevanceScore": 0.0422186,
+        "entityEnglishId": "Diabetic ketoacidosis",
+        "startingPos": 73,
+        "endingPos": 94
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Ketoacidosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 5.4464,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ketoacidosis",
+        "matchedText": "ketoacidosis",
+        "freebaseId": "/m/02mwg6",
+        "relevanceScore": 0.236464,
+        "entityEnglishId": "Ketoacidosis",
+        "startingPos": 82,
+        "endingPos": 94
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              11,
+              12
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          4,
+          7
+        ],
+        "propertyPositions": [
+          2,
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1,
+          4,
+          7
+        ],
+        "propertyPositions": [
+          5,
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          4,
+          7
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      }
+    ]
+  },
+  "time": 3.013,
+  "ok": true
+}

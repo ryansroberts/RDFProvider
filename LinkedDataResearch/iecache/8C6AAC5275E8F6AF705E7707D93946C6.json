@@ -1,0 +1,112 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Hypoglycemia",
+        "wikiLink": "http://en.wikipedia.org/Hypoglycemia",
+        "score": 0.353066
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Hypoglycemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.34145,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypoglycemia",
+        "matchedText": "hypoglycaemia",
+        "freebaseId": "/m/03gwt",
+        "relevanceScore": 0.353066,
+        "entityEnglishId": "Hypoglycemia",
+        "startingPos": 49,
+        "endingPos": 62
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          0,
+          1,
+          10,
+          13
+        ],
+        "propertyPositions": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "time": 3.017,
+  "ok": true
+}

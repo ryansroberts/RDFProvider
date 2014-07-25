@@ -60,6 +60,7 @@ and Set =
     { Id : Identifier
       Guid : Guid
       SetTitle : Title
+      Discussion : string
       Questions : Question list
       Statements : Statement list
       Rationale : Rationale }
@@ -113,7 +114,8 @@ and QualityStatement =
       Id :Identifier
       Title : Title
       Statement : string
-      Reccomendation : Identifier list
+      Recommendation : Identifier list
+      QualityMeasures : QualityMeasure list
     }
 
 and AuditInfoSource = {
@@ -133,4 +135,34 @@ and Audit = {
     Notes : Body
     AuditInfoSource : AuditInfoSource
     AuditDate : System.DateTime option
+}
+
+and SharedLearning = {
+   Id : Identifier
+   Title : Title
+   Description : Body
+   Aim: string
+   Organisations : Identifier list
+   Recommendations :Identifier list
+   QualityStatements : Identifier list
+   Geo : (Owl.Uri * string) list
+}
+
+and Organisation = {
+    Id : Identifier
+    Name : string
+    Type : string
+}
+
+and QualityMeasure = {
+    Id : Identifier
+    Description : Body
+    Numerators : Numerator list
+    Denominators : Numerator list
+}
+
+and Numerator = {
+    Id : Identifier
+    Description : Body
+
 }

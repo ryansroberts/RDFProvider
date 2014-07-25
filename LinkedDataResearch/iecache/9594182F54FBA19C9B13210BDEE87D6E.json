@@ -1,0 +1,268 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.941993
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.415543
+      },
+      {
+        "id": 1,
+        "label": "Glycated hemoglobin",
+        "wikiLink": "http://en.wikipedia.org/Glycated_hemoglobin",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.227206
+      },
+      {
+        "id": 3,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.220649
+      },
+      {
+        "id": 4,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.220649
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 0.995228,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.415543,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 26,
+        "endingPos": 34
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 5.49884,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "HbA1c",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.606509,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 65,
+        "endingPos": 70
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 5.49884,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "HbA1c",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.606509,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 103,
+        "endingPos": 108
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          3,
+          6
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          9,
+          10,
+          12
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          9,
+          10,
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13,
+          16
+        ],
+        "propertyPositions": [
+          14,
+          15
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          9,
+          10,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          2,
+          3,
+          6
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "time": 3.014,
+  "ok": true
+}

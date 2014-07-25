@@ -1,4 +1,4 @@
-@prefix : <http://www.semanticweb.org/amitchell/ontologies/nice_all> .
+@prefix : <http://www.semanticweb.org/amitchell/ontologies/nice_all#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -54,9 +54,25 @@
 
 
 
+###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#isImplementedBy
+
+:isImplementedBy rdf:type owl:ObjectProperty ;
+
+							rdfs:domain :Recommendation ;
+                                                                                                   
+                            rdfs:range :SharedLearning ;
+                                                                                                   
+                            owl:inverseOf :isImplementedBy .	
+
 ###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#implements
 
-:implements rdf:type owl:ObjectProperty .
+:implements rdf:type owl:ObjectProperty ;
+
+							rdfs:range :Recommendation ;
+                                                                                                   
+                            rdfs:domain :SharedLearning ;
+                                                                                                   
+                            owl:inverseOf :isImplementedBy .	
 
 
 
@@ -235,20 +251,18 @@
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isAbout
-
 :isAbout rdf:type owl:ObjectProperty ;
-                                                                                
-                                                                                rdfs:range :Topic ;
-                                                                                
-                                                                                owl:inverseOf :isTopicOf ;
-                                                                                
-                                                                                rdfs:domain [ rdf:type owl:Class ;
-                                                                                              owl:unionOf ( :Question
-                                                                                                            :EvidenceStatement
-                                                                                                            :Guideline
-                                                                                                            :Recommendation
-                                                                                                          )
-                                                                                            ] .
+ 															owl:inverseOf :isTopicOf ;
+															rdfs:range :Topic ;
+                                                                                  
+                                                            rdfs:doman [ rdf:type owl:Class ;
+                                                                        owl:unionOf ( :Question
+                                                                                        :EvidenceStatement
+                                                                                        :Guideline
+                                                                                        :Recommendation
+																						:Discussion
+                                                                                    )
+                                                                        ] .
 
 
 
@@ -305,6 +319,7 @@
                                                                                                              :EvidenceStatement
                                                                                                              :Guideline
                                                                                                              :Recommendation
+																											 :Discussion
                                                                                                            )
                                                                                              ] .
 
@@ -385,7 +400,6 @@
               rdfs:domain :QualityMeasure .
 
 
-
 ### http://www.semanticweb.org/amitchell/ontologies/nice_all#isDenominatorOf
 
 :isDenominatorOf rdf:type owl:ObjectProperty ;
@@ -420,29 +434,23 @@
                
                owl:inverseOf :hasNumerator .
 
-
-
-### http://www.semanticweb.org/amitchell/ontologies/nice_all#isUnderpinnedBy
-
-:isUnderpinnedBy rdf:type owl:ObjectProperty ;
-                 
-                 rdfs:range :Recommendation ;
-                 
-                 rdfs:domain :QualityStatement ;
-                 
-                 owl:inverseOf :underpins .
-
-
-
 ### http://www.semanticweb.org/amitchell/ontologies/nice_all#underpins
 
 :underpins rdf:type owl:ObjectProperty ;
            
            rdfs:domain :Recommendation ;
            
-           rdfs:range :QualityStatement .
+           rdfs:range :QualityStatement ;
 
+		   owl:inverseOf :isUnderPinnedBy .
 
+:isUnderPinnedBy rdf:type owl:ObjectProperty ;
+           
+           rdfs:range :Recommendation ;
+           
+           rdfs:domain :QualityStatement ;
+
+		   owl:inverseOf :underpins .
 
 
 

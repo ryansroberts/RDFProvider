@@ -1,0 +1,310 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.539428
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes in dogs",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_in_dogs",
+        "score": 0.295912
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.26179
+      },
+      {
+        "id": 2,
+        "label": "Ketoacidosis",
+        "wikiLink": "http://en.wikipedia.org/Ketoacidosis",
+        "score": 0.24
+      },
+      {
+        "id": 3,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.0884551
+      },
+      {
+        "id": 4,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.0884551
+      },
+      {
+        "id": 5,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.0884551
+      },
+      {
+        "id": 6,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders",
+        "score": 0.0789897
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.994267,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.26179,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 47,
+        "endingPos": 55
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Diabetic ketoacidosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 5.08945,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_ketoacidosis",
+        "matchedText": "diabetic ketoacidosis",
+        "freebaseId": "/m/0fmk8",
+        "relevanceScore": 0.0714578,
+        "entityEnglishId": "Diabetic ketoacidosis",
+        "startingPos": 47,
+        "endingPos": 68
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Ketoacidosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 6.34214,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ketoacidosis",
+        "matchedText": "ketoacidosis",
+        "freebaseId": "/m/02mwg6",
+        "relevanceScore": 0.24,
+        "entityEnglishId": "Ketoacidosis",
+        "startingPos": 56,
+        "endingPos": 68
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Diabetes in dogs",
+        "confidenceScore": 0.998581,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_in_dogs",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0bh89gw",
+        "relevanceScore": 0.295912,
+        "entityEnglishId": "Diabetes in dogs",
+        "startingPos": 138,
+        "endingPos": 146
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4,
+          6
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          10,
+          12,
+          15,
+          17
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              11,
+              13,
+              14,
+              16,
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          10,
+          12,
+          15,
+          16,
+          17
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              11,
+              13,
+              14,
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10,
+          12,
+          15,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              11,
+              13,
+              14,
+              16
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      }
+    ]
+  },
+  "time": 3.019,
+  "ok": true
+}

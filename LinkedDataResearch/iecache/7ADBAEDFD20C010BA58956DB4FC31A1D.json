@@ -1,0 +1,169 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.23648
+      },
+      {
+        "id": 1,
+        "label": "Ketoacidosis",
+        "wikiLink": "http://en.wikipedia.org/Ketoacidosis",
+        "score": 0.30803
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.980377,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.23648,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 48,
+        "endingPos": 56
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Diabetic ketoacidosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 4.96331,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_ketoacidosis",
+        "matchedText": "diabetic ketoacidosis",
+        "freebaseId": "/m/0fmk8",
+        "relevanceScore": 0.0445312,
+        "entityEnglishId": "Diabetic ketoacidosis",
+        "startingPos": 48,
+        "endingPos": 69
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Ketoacidosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 6.54991,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ketoacidosis",
+        "matchedText": "ketoacidosis",
+        "freebaseId": "/m/02mwg6",
+        "relevanceScore": 0.30803,
+        "entityEnglishId": "Ketoacidosis",
+        "startingPos": 57,
+        "endingPos": 69
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              7,
+              8,
+              9
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "time": 3.012,
+  "ok": true
+}

@@ -27,6 +27,18 @@ module Csv =
     
     type QualityStatment = CsvProvider< "input/QualityStandard/QualityStatements.csv" >
     
+    type Denominator = CsvProvider< "input/QualityStandard/\Denominator.csv" >
+    
+    type Numerator = CsvProvider< "input/QualityStandard/Numerator.csv" >
+    
+    type QualityMeasure = CsvProvider< "input/QualityStandard/Quality Measure.csv" >
+    
+    type QualityStatementToQualityMeasure = CsvProvider< "input/QualityStandard/QS to QM map.csv" >
+    
+    type QualityMeasureToDeonominator = CsvProvider< "input/QualityStandard/QM to DEN map.csv" >
+    
+    type QualityMeasureToNumerator = CsvProvider< "input/QualityStandard/QM to NUM map.csv" >
+    
     type QualityStatementToReccomendation = CsvProvider< "input/QualityStandard/QSToRecMap.csv" >
     
     type Audit = CsvProvider< "input/Audit/Audit.csv" >
@@ -75,16 +87,21 @@ module Import =
     let qualityStatements = Csv.QualityStatment.Load(csvfile "QualityStandard/QualityStatements")
     let qualityStatementsToReccomendation = 
         Csv.QualityStatementToReccomendation.Load(csvfile "QualityStandard/QSToRecMap")
+    let qualityMeasures = Csv.QualityMeasure.Load(csvfile "QualityStandard/Quality Measure")
+    let qualityStatementToQualityMeasures = 
+        Csv.QualityStatementToQualityMeasure.Load(csvfile "QualityStandard/QS to QM map")
+    let qualityMeasureToDenominator = Csv.QualityMeasureToDeonominator.Load(csvfile "QualityStandard/QM to DEN map")
+    let qualityMeasureToNumerator = Csv.QualityMeasureToNumerator.Load(csvfile "QualityStandard/QM to NUM map")
+    let numerators = Csv.Numerator.Load(csvfile "QualityStandard/Numerator")
+    let denominators = Csv.Numerator.Load(csvfile "QualityStandard/Denominator")
     let audit = Csv.Audit.Load(csvfile "Audit/Audit")
     let auditInfoSource = Csv.AuditInfoSource.Load(csvfile "Audit/AuditInfoSource")
-    let organisation = Csv.AuditInfoSource.Load(csvfile "SharedLearning/Organisation")
-    let sharedLearning = Csv.AuditInfoSource.Load(csvfile "SharedLearning/SharedLearning")
-    let slearning = Csv.AuditInfoSource.Load(csvfile "SharedLearning/SLearning")
-    let sltogeo  = Csv.AuditInfoSource.Load(csvfile "SharedLearning/SLtoGeo")
-    let sltoOrgmap = Csv.AuditInfoSource.Load(csvfile "SharedLearning/SlToOrgMap")
-    let sltoqsmap = Csv.AuditInfoSource.Load(csvfile "SharedLearning/SLToQsMap")
-
-
+    let organisation = Csv.Organisation.Load(csvfile "SharedLearning/Organisation")
+    let sharedLearning = Csv.SharedLearning.Load(csvfile "SharedLearning/SharedLearning")
+    let slearning = Csv.SLearning.Load(csvfile "SharedLearning/SLearning")
+    let sltogeo = Csv.SLToGeo.Load(csvfile "SharedLearning/SLtoGeo")
+    let sltoOrgmap = Csv.SLToOrgMap.Load(csvfile "SharedLearning/SlToOrgMap")
+    let sltoqsmap = Csv.SLToQsMap.Load(csvfile "SharedLearning/SLToQsMap")
     
     let loadStudy id = 
         [ let sm = esToStudyMap
@@ -122,6 +139,7 @@ module Import =
                { Id = Identifier r.``Set GUID``
                  Guid = Guid r.``Set GUID``
                  SetTitle = Title r.Rationale
+                 Discussion = r.Discussion
                  Questions = loadQuestions r.``Set GUID``
                  Statements = loadStatements r.``Set GUID``
                  Rationale = Rationale r.Rationale })
@@ -152,12 +170,34 @@ module Import =
         [ for r in qualityStatementsToReccomendation.Filter(fun s -> s.``Quality statement GUID`` = id).Rows do
               yield Identifier r.``Recommendation GUID`` ]
     
+    let loadNumerators id = 
+        [ for e in qualityMeasureToNumerator.Filter(fun r -> r.``Quality Measure GUID`` = id).Rows do
+              let numerator = numerators.Filter(fun r -> r.``Numerator GUID`` = e.``Numerator GUID``).Rows |> Seq.head
+              yield { Id = Identifier numerator.``Numerator GUID``
+                      Description = Body numerator.``Numerator Description`` } ]
+    
+    let loadDenominators id = 
+        [ for e in qualityMeasureToDenominator.Filter(fun r -> r.``Quality Measure GUID`` = id).Rows do
+              let denominator = 
+                  denominators.Filter(fun r -> r.``Numerator GUID`` = e.``Denominator GUID``).Rows |> Seq.head
+              yield { Id = Identifier denominator.``Numerator GUID``
+                      Description = Body denominator.``Numerator Description`` } ]
+    
+    let loadQualityMeasures id = 
+        [ for m in qualityStatementToQualityMeasures.Filter(fun r -> r.``Quality Statement GUID`` = id).Rows do
+              for q in qualityMeasures.Filter(fun r -> r.``Quality Measure GUID`` = m.``Quality Measure GUID``).Rows do
+                  yield { Id = Identifier q.``Quality Measure GUID``
+                          Description = Body q.``Quality Measure Description``
+                          Numerators = loadNumerators q.``Quality Measure GUID``
+                          Denominators = loadDenominators q.``Quality Measure GUID`` } ]
+    
     let loadQualityStatements id = 
         [ for q in qualityStatements.Rows do
               yield { Id = Identifier q.``Quality statement GUID``
                       Title = Title q.``Quality Statement Title``
                       Statement = q.``Quality Statement``
-                      Reccomendation = loadQsRecommendations q.``Quality statement GUID`` } ]
+                      Recommendation = loadQsRecommendations q.``Quality statement GUID``
+                      QualityMeasures = loadQualityMeasures q.``Quality statement GUID`` } ]
     
     let loadQualityStandards = 
         [ for qstd in qualityStandards.Rows do
@@ -184,3 +224,23 @@ module Import =
                       Notes = Body a.Notes
                       AuditInfoSource = loadInfoSource a.AuditInfoSourceID
                       AuditDate = a.AuditDate } ]
+    
+    let loadOrganisations = 
+        [ for o in organisation.Rows do
+              yield { Id = Identifier o.``Organisation ID``
+                      Name = o.OrganisationName
+                      Type = o.OrganisationType } ]
+    
+    let loadSharedLearning = 
+        [ for s in sharedLearning.Rows do
+              let s1 = slearning.Filter(fun r -> r.``Shared Learning ID`` = s.``Shared Learning ID``).Rows |> Seq.head
+              yield { Id = Identifier s1.``Shared Learning ID``
+                      Title = Title s1.Title
+                      Description = Body s1.Description
+                      Aim = s1.Aim
+                      Organisations = 
+                          [ for r in sltoOrgmap.Filter(fun r -> r.``Shared Learning ID`` = s1.``Shared Learning ID``).Rows -> 
+                                Identifier r.``Organisation ID`` ]
+                      Recommendations = []
+                      QualityStatements = []
+                      Geo = [] } ]

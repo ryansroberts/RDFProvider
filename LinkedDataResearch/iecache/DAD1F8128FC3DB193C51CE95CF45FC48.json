@@ -1,0 +1,92 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Nice",
+        "freebaseTypes": [
+          "/periodicals/newspaper_circulation_area",
+          "/location/capital_of_administrative_division",
+          "/location/citytown",
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/travel/travel_destination",
+          "/location/location",
+          "/location/administrative_division"
+        ],
+        "confidenceScore": 0.924961,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nice",
+        "matchedText": "NICE",
+        "freebaseId": "/m/0cp6w",
+        "relevanceScore": 0,
+        "entityEnglishId": "Nice",
+        "startingPos": 67,
+        "endingPos": 71
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "time": 3.015,
+  "ok": true
+}

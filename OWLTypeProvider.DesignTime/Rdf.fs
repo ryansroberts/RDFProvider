@@ -1,5 +1,5 @@
-﻿namespace Owl
-
+﻿[<ReflectedDefinition>]
+module Owl
 
 type Uri = 
     | Uri of string

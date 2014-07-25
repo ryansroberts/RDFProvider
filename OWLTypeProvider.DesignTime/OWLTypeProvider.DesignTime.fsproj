@@ -37,6 +37,14 @@
       <HintPath>..\packages\dotNetRDF.1.0.6-prerelease01\lib\net40\dotNetRDF.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="FunScript">
+      <HintPath>..\packages\FunScript.1.1.50\lib\net40\FunScript.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FunScript.Interop">
+      <HintPath>..\packages\FunScript.1.1.50\lib\net40\FunScript.Interop.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="HtmlAgilityPack">
       <HintPath>..\packages\HtmlAgilityPack.1.4.6\lib\Net45\HtmlAgilityPack.dll</HintPath>
       <Private>True</Private>
@@ -76,7 +84,7 @@
     <Compile Include="Provider.fs" />
     <Compile Include="TypeProviderInstantiation.fs" />
     <None Include="packages.config" />
-    <None Include="Script.fsx" />
+    <None Include="ImportOntology.fsx" />
     <None Include="app.config" />
     <None Include="Test.fsx" />
     <None Include="Script1.fsx" />

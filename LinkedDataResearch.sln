@@ -72,6 +72,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Audit", "Audit", "{677535FF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Review", "Review", "{266EC8B2-042D-4D6A-8692-F9482D4D3AC4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generated", "Generated", "{C55A1DAC-C793-4738-B56B-18BF47B3C4A8}"
+	ProjectSection(SolutionItems) = preProject
+		LinkedDataResearch\Client\queries.js = LinkedDataResearch\Client\queries.js
+		LinkedDataResearch\Client\uris.js = LinkedDataResearch\Client\uris.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,5 +101,6 @@ Global
 		{E580CB4E-71CB-4BAE-A242-FDF0DB36BA6C} = {CCAA90FF-482E-4D76-BA8F-470C61145170}
 		{677535FF-A1DC-47B2-98F3-5616C42F50F8} = {CCAA90FF-482E-4D76-BA8F-470C61145170}
 		{266EC8B2-042D-4D6A-8692-F9482D4D3AC4} = {CCAA90FF-482E-4D76-BA8F-470C61145170}
+		{C55A1DAC-C793-4738-B56B-18BF47B3C4A8} = {F86AA893-3439-472C-B309-FD42806545B8}
 	EndGlobalSection
 EndGlobal

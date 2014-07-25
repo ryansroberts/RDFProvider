@@ -12,7 +12,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <Name>LinkedDataResearch</Name>
     <TargetFSharpCoreVersion>4.3.0.0</TargetFSharpCoreVersion>
-    <NuGetPackageImportStamp>dd0580b5</NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>e336f3c5</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -99,6 +99,7 @@
     <Compile Include="Csv.fs" />
     <Compile Include="Site.fs" />
     <Compile Include="OntologyUris.fs" />
+    <Compile Include="Queries.fs" />
     <None Include="Import.fsx" />
     <None Include="Serve.fsx" />
     <None Include="packages.config" />
@@ -120,6 +121,12 @@
     </Otherwise>
   </Choose>
   <Import Project="$(FSharpTargetsPath)" Condition="Exists('$(FSharpTargetsPath)')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\WebSharper.2.5.119.54\build\WebSharper.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\WebSharper.2.5.119.54\build\WebSharper.targets'))" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

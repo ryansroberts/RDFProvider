@@ -137,7 +137,7 @@ module Project
                 yield (a,Object.from topic.Uri)
                 yield (a,Object.from textContent.Uri)
                 yield (a,individual)
-                yield (Predicate.from  topic.DataProperties.``nice:subject``.Uri, aboutTopic)
+                yield (Predicate.from  topic.DataProperties.``nice:subject``.Uri, Object.from (string t.Id))
                 yield (Predicate.from topic.ObjectProperties.``nice:isTopicOf``.Uri,Object.from guidanceScope)
             ]
 

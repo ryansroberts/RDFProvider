@@ -6,8 +6,6 @@
 #r "../packages/HtmlAgilityPack.1.4.6/lib/Net40/HtmlAgilityPack.dll"
 #r "../OWLTypeProvider.DesignTime/bin/Debug/OWLTypeProvider.DesignTime.dll"
 #r "../packages/Suave.0.10.0/lib/suave.dll"
-
-
 #load "Model.fs"
 #load "NLP.fs"
 #load "NiceOntology.fs"
@@ -17,13 +15,11 @@
 
 open Site
 
-do 
-    OntologyUris.write (__SOURCE_DIRECTORY__ + "..\Client\uris.js")
-    let server = async {Site.server "http://localhost:5820" "Nice"}
-    server |> Async.RunSynchronously
-
-
-
-
-
-
+do OntologyUris.write (__SOURCE_DIRECTORY__ + "..\Client\uris.js")
+   async { 
+       let server = async { Site.server "http://localhost:5820" "Nice" }
+       System.Diagnostics.Process.Start "http://localhost:8083/index.html" |> ignore
+       return! server
+   }
+   |> Async.RunSynchronously
+   |> ignore

@@ -63,7 +63,6 @@ module NiceOntology
     type startPos = thing.``oa:Selector``.DataProperties.``oa:start``
     type endPos = thing.``oa:Selector``.DataProperties.``oa:end``
 
-    type entity = thing.``prov:Entity``
     
 
 

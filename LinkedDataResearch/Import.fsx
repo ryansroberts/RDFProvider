@@ -5,7 +5,6 @@
 #r "../packages/VDS.Common.1.3.0/lib/net40-client/VDS.Common.dll"
 #r "../OWLTypeProvider.DesignTime/bin/Debug/OWLTypeProvider.DesignTime.dll"
 #load "Excel.fs"
-
 #load "Model.fs"
 #load "Csv.fs"
 #load "NLP.fs"
@@ -24,64 +23,60 @@ open VDS.RDF.Query
 open VDS.RDF
 open Microsoft.FSharp.Collections
 
-let processCsv () = 
-    let triples = [for g in Import.loadGuidelines do  yield! Project.guideline g
-                   for s in Import.loadQualityStandards do yield! Project.qualityStandard s] 
-
-    let g = new  VDS.RDF.Graph()
-    g.NamespaceMap.AddNamespace("guidelines",Uri "http://nice.org.uk/guidelines/")
-    let triples = seq{for t in triples do 
-                      let t = Store.toStorageTriple g t
-                      yield t}
+let processCsv() = 
+    let triples = 
+        [ for g in Import.loadGuidelines do
+              yield! Project.guideline g
+          for s in Import.loadQualityStandards do
+              yield! Project.qualityStandard s ]
+    
+    let g = new VDS.RDF.Graph()
+    g.NamespaceMap.AddNamespace("guidelines", Uri "http://nice.org.uk/guidelines/")
+    let triples = 
+        seq { 
+            for t in triples do
+                let t = Store.toStorageTriple g t
+                yield t
+        }
+    
     let res = g.Assert(triples)
-
     let ttl = new VDS.RDF.Writing.CompressingTurtleWriter()
     ttl.CompressionLevel <- 3
     ttl.PrettyPrintMode <- true
-    do
-        use mem = new System.IO.MemoryStream()
-        use writer = new System.IO.StreamWriter(mem)
+    do 
         ttl.Save(g, sprintf "%s/output/%s.ttl" __SOURCE_DIRECTORY__ "Individuals")
-
 
     printf "Now annotate the graph, we are looking for cnt:textContent nodes to classify\r\n"
     let conn = Store.connectMemory g
-
-    let toAnnotate = (Store.inference """
-            PREFIX owl: <http://www.w3.org/2002/07/owl#>
-            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-            SELECT ?uri ?content
-            WHERE {
-              ?uri a <http://www.w3.org/2011/content#ContentAsText>.
-              ?uri <http://www.w3.org/2011/content#chars> ?content
-            }
-        """ conn.Query) |> Store.twoTuple
-      
-    let ax = toAnnotate 
-            |> PSeq.map (fun (uri,content) ->
-                let scope = Scope (string ((uri :?> IUriNode).ToString()),[])
-                let content =  (content :?> ILiteralNode).Value
-                Project.annotate scope content)
+    let toAnnotate () =
+         (Store.inference """
+                PREFIX owl: <http://www.w3.org/2002/07/owl#>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                SELECT ?uri ?content
+                WHERE {
+                  ?uri a <http://www.w3.org/2011/content#ContentAsText>.
+                  ?uri <http://www.w3.org/2011/content#chars> ?content
+                }
+            """ conn.Query) |> Store.twoTuple
+    
+    let annotate() = 
+        let ax = 
+            toAnnotate ()
+            |> PSeq.map (fun (uri, content) -> 
+                   let scope = Scope(string ((uri :?> IUriNode).ToString()), [])
+                   let content = (content :?> ILiteralNode).Value
+                   Project.annotate scope content)
             |> PSeq.withDegreeOfParallelism 20
             |> PSeq.toArray
-
-    printf "Annotations created, committing to graph\r\n"
-    
-    for a in ax do
-        for t in a do
-            g.Assert(Store.toStorageTriple g t) |> ignore
-
+        printf "Annotations created, committing to graph\r\n"
+        for a in ax do
+            for t in a do
+                g.Assert(Store.toStorageTriple g t) |> ignore
+    annotate()
+    printf "Collect\r\n"
+    System.GC.Collect()
+    printf "Save graph\r\n"
     let ttl = new VDS.RDF.Writing.CompressingTurtleWriter()
-    ttl.CompressionLevel <- 3
-    ttl.PrettyPrintMode <- true
-    let mem = new System.IO.MemoryStream()
-    let writer = new System.IO.StreamWriter(mem)
     ttl.Save(g, sprintf "%s/output/%s.ttl" __SOURCE_DIRECTORY__ "Individuals_Annotated")
 
-
-do processCsv ()
-
-
-
-
-
+do processCsv()

@@ -1,32 +1,71 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-var N3   = require('n3'),
-    uris = require('./uris.js'),
-    parser = N3.Parser(),
-    SparkleSparkleGo = require('./sparkle-sparkle-go.js');
+var N3   = require('n3'),    uris = require('./uris.js'),    queries = require('./queries.js'),    parser = N3.Parser(),    SparkleSparkleGo = require('./sparkle-sparkle-go.js');var sparql = new SparkleSparkleGo('/sparql/query{?query*}');sparql  .query(queries.contentMatching('nice:EvidenceStatement','Diabetes miletus'))  .execute(function (err, data){    if (!err){      parser.parse(data, function (err, triple, prefixes) {        if (triple){          document.querySelector('#output').innerHTML += triple.subject + ' ' + triple.predicate + ' ' + triple.object;        }      });    }  });
+},{"./queries.js":2,"./sparkle-sparkle-go.js":3,"./uris.js":4,"n3":30}],2:[function(require,module,exports){
+var uris = require('./uris.js');
 
-var sparql = new SparkleSparkleGo('/sparql/query{?query*}');
+var concat = function(arr) {
+    var r = [];
 
-sparql
-  .query('describe <http://nice.org.uk/guideline//CG15>')
-  .execute(function (err, data){
-
-    if (!err){
-
-      parser.parse(data, function (err, triple, prefixes) {
-
-        if (triple){
-          document.querySelector('#output').innerHTML += triple.subject + ' ' + triple.predicate + ' ' + triple.object;
-        }
-
-      });
-
+    for(var i = 0;i !== arr.length;i++){
+        r += arr[i] + '\r\n';
     }
 
-    
+    return r;
+};
 
-  });
+var uri = function(s) {
+    return '<' + s +  '>';
+};
 
-},{"./sparkle-sparkle-go.js":2,"./uris.js":3,"n3":29}],2:[function(require,module,exports){
+var prefxies = concat([
+    'prefix nice:' + uri(uris.nice.prefix),
+    'prexix oa:' + uri(uris.oa.prefix),
+    'prexix content:' + uri(uris.cnt.prefix),
+    'prexix prov:' + uri(uris.prov.prefix),
+    'prexix owl:' + uri(uris.owl.prefix),
+    'prexix rdfs:' + uri(uris.rdfs.prefix)
+]);
+
+
+module.exports = {
+    annotatedContent : function(cnt) {
+        return concat([
+	'construct {',
+	uri(cnt) + ' content:chars ?cnt .',
+	'?ann oa:hasTarget ' + uri(cnt) + ' .',
+	'?ann nice:semanticTag ?tag .',
+	'?ann oa:start ?st .',
+	'?ann oa:end ?end .',
+	'',
+	'}',
+	'where {',
+	uri(cnt) + ' a content:ContentAsText .',
+	uri(cnt) + ' content:chars ?cnt .',
+	'?ann oa:hasTarget ' + uri(cnt) + ' . ',
+	'?ann oa:hasSource ?src .',
+	'?ann oa:hasSelector ?slt .',
+	'?slt oa:start ?st .',
+	'?slt oa:end ?end .',
+	'}'
+        ]);
+    },
+    contentMatching : function(type,tag) {
+	return concat([
+	'construct {',
+	'?rec content:chars ?cnt .',
+	'}',
+	'where {',
+	'?rec a ' + uri(type) + ' .',
+	'?rec a content:ContentAsText .',
+	'?rec content:chars ?cnt .',
+	'?ann oa:hasTarget ?rec . ',
+	'?ann oa:hasBody/content:chars "' + tag + ' " .',
+	'}'
+	]);
+    }
+};
+
+},{"./uris.js":4}],3:[function(require,module,exports){
 var uriTemplate = require('uritemplate');
 var http = require('http');
 
@@ -79,33 +118,62 @@ SparkleSparkleGo.prototype = {
 module.exports = SparkleSparkleGo;
 
 
-},{"http":8,"uritemplate":37}],3:[function(require,module,exports){
+},{"http":9,"uritemplate":38}],4:[function(require,module,exports){
 var uris = {
-	guideline : "http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Guideline",
-	topic : "http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Topic",
-	isAbout : "http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#isAbout",
-	hasRationale : "http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#hasRationale",
-	rationale : "http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Rationale",
-	question : "http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Question",
-	evidenceStatement : "http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#EvidenceStatement",
-	study : "http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Study",
-	recommendation : "http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_guideline#Recommendation",
-	hasReference : "http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#hasReference",
-	review : "http://www.semanticweb.org/amitchell/ontologies/2014/5/evidence_review#Review",
-	qualityStandard : "http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStandard",
-	qualityStatement : "http://www.semanticweb.org/amitchell/ontologies/2014/5/nice_quality_standard#QualityStatement",
-	semanticTag : "http://www.w3.org/ns/oa#SemanticTag",
-	tag : "http://www.w3.org/ns/oa#Tag",
-	textContent : "http://www.w3.org/2011/content#ContentAsText",
-	chars : "http://www.w3.org/2011/content#chars",
-	annotation : "http://www.w3.org/ns/oa#Annotation",
-	specificResource : "http://www.w3.org/ns/oa#SpecificResource",
-	textPosition : "http://www.w3.org/ns/oa#TextPositionSelector"
+	nice : {
+		prefix:"http://www.semanticweb.org/amitchell/ontologies/nice_all#",
+		Guideline:"Guideline",
+		Topic:"Topic",
+		isAbout:"isAbout",
+		hasRationale:"hasRationale",
+		Rationale:"Rationale",
+		Question:"Question",
+		EvidenceStatement:"EvidenceStatement",
+		Study:"Study",
+		Recommendation:"Recommendation",
+		hasReference:"hasReference",
+		Review:"Review",
+		QualityStandard:"QualityStandard",
+		QualityStatement:"QualityStatement"
+	},
+	owl : {
+		prefix:"http://www.w3.org/2002/07/owl#",
+
+	},
+	rdfs : {
+		prefix:"http://www.w3.org/2000/01/rdf-schema#",
+
+	},
+	rdf : {
+		prefix:"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+
+	},
+	xsd : {
+		prefix:"http://www.w3.org/2001/XMLSchema#",
+
+	},
+	cnt : {
+		prefix:"http://www.w3.org/2011/content#",
+		textContent:"textContent",
+		chars:"chars"
+	},
+	oa : {
+		prefix:"http://www.w3.org/ns/oa#",
+		SemanticTag:"SemanticTag",
+		Tag:"Tag",
+		Annotation:"Annotation",
+		specificResource:"specificResource",
+		textPosition:"textPosition"
+	},
+	prov : {
+		prefix:"http://www.w3.org/ns/prov#",
+
+	},
 };
 
-module.exports.uris = uris;
+module.exports = uris;
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 /*!
  * The buffer module from node.js, for the browser.
  *
@@ -1216,7 +1284,7 @@ function assert (test, message) {
   if (!test) throw new Error(message || 'Failed assertion')
 }
 
-},{"base64-js":5,"ieee754":6}],5:[function(require,module,exports){
+},{"base64-js":6,"ieee754":7}],6:[function(require,module,exports){
 var lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
 
 ;(function (exports) {
@@ -1338,7 +1406,7 @@ var lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
 	exports.fromByteArray = uint8ToBase64
 }(typeof exports === 'undefined' ? (this.base64js = {}) : exports))
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 exports.read = function(buffer, offset, isLE, mLen, nBytes) {
   var e, m,
       eLen = nBytes * 8 - mLen - 1,
@@ -1424,7 +1492,7 @@ exports.write = function(buffer, value, offset, isLE, mLen, nBytes) {
   buffer[offset + i - d] |= s * 128;
 };
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -1729,7 +1797,7 @@ function isUndefined(arg) {
   return arg === void 0;
 }
 
-},{}],8:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 var http = module.exports;
 var EventEmitter = require('events').EventEmitter;
 var Request = require('./lib/request');
@@ -1868,7 +1936,7 @@ http.STATUS_CODES = {
     510 : 'Not Extended',               // RFC 2774
     511 : 'Network Authentication Required' // RFC 6585
 };
-},{"./lib/request":9,"events":7,"url":26}],9:[function(require,module,exports){
+},{"./lib/request":10,"events":8,"url":27}],10:[function(require,module,exports){
 var Stream = require('stream');
 var Response = require('./response');
 var Base64 = require('Base64');
@@ -2059,7 +2127,7 @@ var indexOf = function (xs, x) {
     return -1;
 };
 
-},{"./response":10,"Base64":11,"inherits":12,"stream":19}],10:[function(require,module,exports){
+},{"./response":11,"Base64":12,"inherits":13,"stream":20}],11:[function(require,module,exports){
 var Stream = require('stream');
 var util = require('util');
 
@@ -2181,7 +2249,7 @@ var isArray = Array.isArray || function (xs) {
     return Object.prototype.toString.call(xs) === '[object Array]';
 };
 
-},{"stream":19,"util":28}],11:[function(require,module,exports){
+},{"stream":20,"util":29}],12:[function(require,module,exports){
 ;(function () {
 
   var object = typeof exports != 'undefined' ? exports : this; // #8: web workers
@@ -2243,7 +2311,7 @@ var isArray = Array.isArray || function (xs) {
 
 }());
 
-},{}],12:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 if (typeof Object.create === 'function') {
   // implementation from standard node.js 'util' module
   module.exports = function inherits(ctor, superCtor) {
@@ -2268,7 +2336,7 @@ if (typeof Object.create === 'function') {
   }
 }
 
-},{}],13:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -2333,7 +2401,7 @@ process.chdir = function (dir) {
     throw new Error('process.chdir is not supported');
 };
 
-},{}],14:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 (function (global){
 /*! http://mths.be/punycode v1.2.4 by @mathias */
 ;(function(root) {
@@ -2844,7 +2912,7 @@ process.chdir = function (dir) {
 }(this));
 
 }).call(this,typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],15:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -2930,7 +2998,7 @@ var isArray = Array.isArray || function (xs) {
   return Object.prototype.toString.call(xs) === '[object Array]';
 };
 
-},{}],16:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -3017,13 +3085,13 @@ var objectKeys = Object.keys || function (obj) {
   return res;
 };
 
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 'use strict';
 
 exports.decode = exports.parse = require('./decode');
 exports.encode = exports.stringify = require('./encode');
 
-},{"./decode":15,"./encode":16}],18:[function(require,module,exports){
+},{"./decode":16,"./encode":17}],19:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -3097,7 +3165,7 @@ function onend() {
   });
 }
 
-},{"./readable.js":22,"./writable.js":24,"inherits":12,"process/browser.js":20}],19:[function(require,module,exports){
+},{"./readable.js":23,"./writable.js":25,"inherits":13,"process/browser.js":21}],20:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -3226,7 +3294,7 @@ Stream.prototype.pipe = function(dest, options) {
   return dest;
 };
 
-},{"./duplex.js":18,"./passthrough.js":21,"./readable.js":22,"./transform.js":23,"./writable.js":24,"events":7,"inherits":12}],20:[function(require,module,exports){
+},{"./duplex.js":19,"./passthrough.js":22,"./readable.js":23,"./transform.js":24,"./writable.js":25,"events":8,"inherits":13}],21:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -3281,7 +3349,7 @@ process.chdir = function (dir) {
     throw new Error('process.chdir is not supported');
 };
 
-},{}],21:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -3324,7 +3392,7 @@ PassThrough.prototype._transform = function(chunk, encoding, cb) {
   cb(null, chunk);
 };
 
-},{"./transform.js":23,"inherits":12}],22:[function(require,module,exports){
+},{"./transform.js":24,"inherits":13}],23:[function(require,module,exports){
 (function (process){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -4261,7 +4329,7 @@ function indexOf (xs, x) {
 }
 
 }).call(this,require("JkpR2F"))
-},{"./index.js":19,"JkpR2F":13,"buffer":4,"events":7,"inherits":12,"process/browser.js":20,"string_decoder":25}],23:[function(require,module,exports){
+},{"./index.js":20,"JkpR2F":14,"buffer":5,"events":8,"inherits":13,"process/browser.js":21,"string_decoder":26}],24:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -4467,7 +4535,7 @@ function done(stream, er) {
   return stream.push(null);
 }
 
-},{"./duplex.js":18,"inherits":12}],24:[function(require,module,exports){
+},{"./duplex.js":19,"inherits":13}],25:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -4855,7 +4923,7 @@ function endWritable(stream, state, cb) {
   state.ended = true;
 }
 
-},{"./index.js":19,"buffer":4,"inherits":12,"process/browser.js":20}],25:[function(require,module,exports){
+},{"./index.js":20,"buffer":5,"inherits":13,"process/browser.js":21}],26:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -5048,7 +5116,7 @@ function base64DetectIncompleteChar(buffer) {
   return incomplete;
 }
 
-},{"buffer":4}],26:[function(require,module,exports){
+},{"buffer":5}],27:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -5757,14 +5825,14 @@ function isNullOrUndefined(arg) {
   return  arg == null;
 }
 
-},{"punycode":14,"querystring":17}],27:[function(require,module,exports){
+},{"punycode":15,"querystring":18}],28:[function(require,module,exports){
 module.exports = function isBuffer(arg) {
   return arg && typeof arg === 'object'
     && typeof arg.copy === 'function'
     && typeof arg.fill === 'function'
     && typeof arg.readUInt8 === 'function';
 }
-},{}],28:[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 (function (process,global){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -6354,7 +6422,7 @@ function hasOwnProperty(obj, prop) {
 }
 
 }).call(this,require("JkpR2F"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./support/isBuffer":27,"JkpR2F":13,"inherits":12}],29:[function(require,module,exports){
+},{"./support/isBuffer":28,"JkpR2F":14,"inherits":13}],30:[function(require,module,exports){
 // Replace local require by a lazy loader
 var globalRequire = require;
 require = function () {};
@@ -6382,7 +6450,7 @@ Object.keys(exports).forEach(function (submodule) {
   });
 });
 
-},{"./lib/N3Lexer":30,"./lib/N3Parser":31,"./lib/N3Store":32,"./lib/N3StreamParser":33,"./lib/N3StreamWriter":34,"./lib/N3Util":35,"./lib/N3Writer":36}],30:[function(require,module,exports){
+},{"./lib/N3Lexer":31,"./lib/N3Parser":32,"./lib/N3Store":33,"./lib/N3StreamParser":34,"./lib/N3StreamWriter":35,"./lib/N3Util":36,"./lib/N3Writer":37}],31:[function(require,module,exports){
 // **N3Lexer** tokenizes N3 documents.
 // ## Regular expressions
 var patterns = {
@@ -6741,7 +6809,7 @@ N3Lexer.prototype = {
 // Export the `N3Lexer` class as a whole.
 module.exports = N3Lexer;
 
-},{}],31:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 // **N3Parser** parses N3 documents.
 var N3Lexer = require('./N3Lexer.js');
 
@@ -7254,7 +7322,7 @@ N3Parser.prototype = {
 // Export the `N3Parser` class as a whole.
 module.exports = N3Parser;
 
-},{"./N3Lexer.js":30}],32:[function(require,module,exports){
+},{"./N3Lexer.js":31}],33:[function(require,module,exports){
 // **N3Store** objects store N3 triples with an associated context in memory.
 
 var prefixMatcher = /^([^:\/#"']*):[^\/]/;
@@ -7509,7 +7577,7 @@ N3Store.prototype = {
 // Export the `N3Store` class as a whole.
 module.exports = N3Store;
 
-},{}],33:[function(require,module,exports){
+},{}],34:[function(require,module,exports){
 // **N3StreamParser** parses an N3 stream into a triple stream
 var Transform = require('stream').Transform,
     util = require('util'),
@@ -7545,7 +7613,7 @@ util.inherits(N3StreamParser, Transform);
 // Export the `N3StreamParser` class as a whole.
 module.exports = N3StreamParser;
 
-},{"./N3Parser.js":31,"stream":19,"util":28}],34:[function(require,module,exports){
+},{"./N3Parser.js":32,"stream":20,"util":29}],35:[function(require,module,exports){
 // **N3StreamWriter** serializes a triple stream into an N3 stream
 var Transform = require('stream').Transform,
     util = require('util'),
@@ -7577,7 +7645,7 @@ util.inherits(N3StreamWriter, Transform);
 // Export the `N3StreamWriter` class as a whole.
 module.exports = N3StreamWriter;
 
-},{"./N3Writer.js":36,"stream":19,"util":28}],35:[function(require,module,exports){
+},{"./N3Writer.js":37,"stream":20,"util":29}],36:[function(require,module,exports){
 // **N3Util** provides N3 utility functions
 
 var XsdString = 'http://www.w3.org/2001/XMLSchema#string';
@@ -7662,7 +7730,7 @@ function ApplyToThis(f) {
 // Expose N3Util, attaching all functions to it
 module.exports = AddN3Util(AddN3Util);
 
-},{}],36:[function(require,module,exports){
+},{}],37:[function(require,module,exports){
 // **N3Writer** writes N3 documents.
 
 // Matches a literal as represented in memory by the N3 library
@@ -7865,7 +7933,7 @@ N3Writer.prototype = {
 // Export the `N3Writer` class as a whole.
 module.exports = N3Writer;
 
-},{}],37:[function(require,module,exports){
+},{}],38:[function(require,module,exports){
 (function (global){
 /*global unescape, module, define, window, global*/
 

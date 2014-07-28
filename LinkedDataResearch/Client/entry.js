@@ -1,26 +1,1 @@
-var N3   = require('n3'),
-    uris = require('./uris.js'),
-    parser = N3.Parser(),
-    SparkleSparkleGo = require('./sparkle-sparkle-go.js');
-
-var sparql = new SparkleSparkleGo('/sparql/query{?query*}');
-
-sparql
-  .query('describe <http://nice.org.uk/guideline//CG15>')
-  .execute(function (err, data){
-
-    if (!err){
-
-      parser.parse(data, function (err, triple, prefixes) {
-
-        if (triple){
-          document.querySelector('#output').innerHTML += triple.subject + ' ' + triple.predicate + ' ' + triple.object;
-        }
-
-      });
-
-    }
-
-    
-
-  });
+var N3   = require('n3'),    uris = require('./uris.js'),    queries = require('./queries.js'),    parser = N3.Parser(),    SparkleSparkleGo = require('./sparkle-sparkle-go.js');var sparql = new SparkleSparkleGo('/sparql/query{?query*}');sparql  .query(queries.contentMatching('nice:EvidenceStatement','Diabetes miletus'))  .execute(function (err, data){    if (!err){      parser.parse(data, function (err, triple, prefixes) {        if (triple){          document.querySelector('#output').innerHTML += triple.subject + ' ' + triple.predicate + ' ' + triple.object;        }      });    }  });

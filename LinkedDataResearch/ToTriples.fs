@@ -22,7 +22,7 @@ module Project
                         [
                              yield (a,Object.from specificResource.Uri)
                              yield (a,individual)
-                             yield (Predicate.from specificResource.ObjectProperties.``oa:hasSource``.Uri,Object.from (string scope)) 
+                             yield (Predicate.from specificResource.ObjectProperties.``oa:hasSource``.Uri,Object.from (Owl.Uri(string scope))) 
                              yield (Predicate.from specificResource.ObjectProperties.``oa:hasSelector``.Uri,Object.from selectorUri)
                         ]
 
@@ -58,7 +58,7 @@ module Project
                            yield (a,Object.from textContent.Uri)
                            yield (Predicate.from chars.Uri,Object.from (string e.EntityId)) 
                         ]
-                    let freebaseUri = (Owl.Uri ("http://freebase.org" + e.FreebaseId))
+                    let freebaseUri = (Owl.Uri ("http://www.freebase.com" + e.FreebaseId))
                     yield! statementsFor annSubject
                         [
                            yield (Predicate.from annotation.ObjectProperties.``oa:hasBody``.Uri,Object.from freebaseUri)

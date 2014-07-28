@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ontology", "Ontology", "{D62BC2AD-7E79-4C60-95DF-DAE54AAC995C}"
 	ProjectSection(SolutionItems) = preProject
+		ontologies\external\content.rdf = ontologies\external\content.rdf
 		ontologies\nice\nice_all.ttl = ontologies\nice\nice_all.ttl
 		ontologies\external\oa.ttl = ontologies\external\oa.ttl
 	EndProjectSection
@@ -74,7 +75,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Review", "Review", "{266EC8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generated", "Generated", "{C55A1DAC-C793-4738-B56B-18BF47B3C4A8}"
 	ProjectSection(SolutionItems) = preProject
-		LinkedDataResearch\Client\queries.js = LinkedDataResearch\Client\queries.js
 		LinkedDataResearch\Client\uris.js = LinkedDataResearch\Client\uris.js
 	EndProjectSection
 EndProject

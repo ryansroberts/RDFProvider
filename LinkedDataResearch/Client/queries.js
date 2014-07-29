@@ -24,6 +24,11 @@ var prefixes = concat([
 ]);
 
 module.exports = {
+    tagsForType : function(type) {
+	return prefixed + concat([
+	    
+	]);
+    },
     annotatedContent : function(cnt) {
         return prefixes + concat([
         'construct {',

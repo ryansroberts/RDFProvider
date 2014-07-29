@@ -63,7 +63,7 @@ module.exports = {
     relatedEvidenceStatements : function (individual){
         return prefixes + concat(
             'construct {',
-            '?st  nice:Supports <' + individual + '>',
+            '<' + individual + '> nice:isSupportedBy ?st ',
             '}',
             'WHERE {',
                 '<' + individual + '> nice:isAbout ?t .',

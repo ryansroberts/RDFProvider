@@ -4,23 +4,14 @@ var uris = require('./uris.js'),
 
 app
   .route('/evidence-statements/*')
-    .on('activate', function (ctx, uri){
-
-      uri = uri.replace('/evidence-statements/', '');
-
-      alert(uri);
-
-    })
-    //.on('deactivate', function (ctx, uri){
-    //  // clean up? 
-    //
-    //})
+    .on('activate', require('./routes/evidence-statements.js') )
+    .on('deactivate', require('./routes/evidence-statements.js').cleanUp )
   .route('/studies/*')
     .on('activate', function (ctx, uri){
 
       uri = uri.replace('/studies/', '');
 
-      alert(uri);
+      console.log(uri);
 
     })
   .route('/')

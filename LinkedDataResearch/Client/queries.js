@@ -1,36 +1,29 @@
 var uris = require('./uris.js');
 
 var concat = function(arr) {
-    var r = [];
 
-    for(var i = 0;i !== arr.length;i++){
-        r += arr[i] + '\r\n';
-    }
-
-    return r;
+    return Array.prototype.join.call(arguments,'\r\n')
 };
 
 var uri = function(s) {
     return '<' + s +  '>';
 };
 
-var prefixes = concat([
+var prefixes = concat(
     'prefix nice:' + uri(uris.nice.prefix),
     'prefix oa:' + uri(uris.oa.prefix),
     'prefix content:' + uri(uris.cnt.prefix),
     'prefix prov:' + uri(uris.prov.prefix),
     'prefix owl:' + uri(uris.owl.prefix),
     'prefix rdfs:' + uri(uris.rdfs.prefix)
-]);
+);
 
 module.exports = {
-    tagsForType : function(type) {
-	return prefixed + concat([
-	    
-	]);
+    tagsForType : function (type) {
+	return prefixed + concat('');
     },
-    annotatedContent : function(cnt) {
-        return prefixes + concat([
+    annotatedContent : function (cnt) {
+        return prefixes + concat(
         'construct {',
         uri(cnt) + ' content:chars ?cnt .',
         '?ann oa:hasTarget ' + uri(cnt) + ' .',
@@ -50,10 +43,10 @@ module.exports = {
         '?slt oa:start ?st .',
         '?slt oa:end ?end .',
         '}'
-        ]);
+        );
     },
-    contentMatching : function(type,tag) {
-        return prefixes + concat([
+    contentMatching : function (type,tag) {
+        return prefixes + concat(
         'construct {',
         '?rec content:chars ?cnt .',
         '}',
@@ -65,6 +58,20 @@ module.exports = {
         '?ann oa:hasTarget ?rec . ',
         '?ann oa:hasBody/content:chars "' + tag + '" .',
         '}'
-        ]);
+        );
+    },
+    relatedEvidenceStatements : function (individual){
+        return prefixes + concat(
+            'construct {',
+            '?st  nice:Supports <' + individual + '>',
+            '}',
+            'WHERE {',
+                '<' + individual + '> nice:isAbout ?t .',
+                '?t a nice:Topic .',
+                '<' + individual + '> a nice:Recommendation .',
+                '?st nice:isAbout ?t .',
+                '?st a nice:EvidenceStatement .',
+            '}');
+
     }
 };

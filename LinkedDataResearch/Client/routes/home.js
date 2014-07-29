@@ -33,8 +33,8 @@ module.exports = function (ctx, uri){
           if (recommendations.hasOwnProperty(rec)){
 
             var recommendation = domify('<li><h3>' + rec + '</h3><p>' + recommendations[rec] + '</p></li>');
-            var evidenceStatements = domify('<p><a href="#/evidence-statements/' + encodeURI(rec) + '">Find evidence statements supporting this recommendation</a></p>');
-            var studies = domify('<p><a href="#/studies/<' + encodeURI(rec) + '>">Find studies supporting this recommendation</a></p>');
+            var evidenceStatements = domify('<p><a href="#/evidence-statements/' + rec + '">Find evidence statements supporting this recommendation</a></p>');
+            var studies = domify('<p><a href="#/studies/' + rec + '">Find studies supporting this recommendation</a></p>');
 
             // append..
             list.appendChild(recommendation);

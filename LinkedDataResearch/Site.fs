@@ -83,7 +83,7 @@ let parts conn =
              ]
 
 let server url db =  
-    let connection = (Store.connectStupidStardog url db) 
+    let connection = (Store.connectStarDog url db) 
 
     parts (connection()) 
         |> web_server { default_config with 

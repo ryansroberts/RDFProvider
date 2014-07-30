@@ -304,7 +304,9 @@
                                                                                        
                                                                                        rdfs:domain :Study ;
                                                                                        
-                                                                                       rdfs:range :EvidenceStatement .
+                                                                                       rdfs:range :EvidenceStatement ;
+																						
+																					   owl:inverseOf :summarises .
 
 
 
@@ -335,9 +337,11 @@
 
 :summarises rdf:type owl:ObjectProperty ;
                                                                                    
-                                                                                   rdfs:range :Study ;
+                                                                                   rdfs:range :EvidenceStatement ;
                                                                                    
-                                                                                   rdfs:domain :EvidenceStatement .
+                                                                                   rdfs:domain :Study ;
+
+																				   owl:inverseOf :isSummarisedBy .
 
 
 

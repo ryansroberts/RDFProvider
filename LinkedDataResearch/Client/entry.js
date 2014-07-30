@@ -14,7 +14,7 @@ var recommendations = {};
 var tags = {};
 
 
-sparql
+Sparql
   .query(queries.contentMatching('nice:Recommendation','Gastroparesis'))
   .execute(function (err, data){
     if (!err){

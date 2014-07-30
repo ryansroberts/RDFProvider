@@ -1,0 +1,749 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.91889
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.843911
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.779097
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.765562
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.759958
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Evidence (law)",
+        "wikiLink": "http://en.wikipedia.org/Evidence_(law)",
+        "score": 0.464133
+      },
+      {
+        "id": 1,
+        "label": "Guideline",
+        "wikiLink": "http://en.wikipedia.org/Guideline",
+        "score": 0.138569
+      },
+      {
+        "id": 2,
+        "label": "Literature",
+        "wikiLink": "http://en.wikipedia.org/Literature",
+        "score": 0.165038
+      },
+      {
+        "id": 3,
+        "label": "Research",
+        "wikiLink": "http://en.wikipedia.org/Research",
+        "score": 0.707236
+      },
+      {
+        "id": 4,
+        "label": "Risk",
+        "wikiLink": "http://en.wikipedia.org/Risk",
+        "score": 0.280886
+      },
+      {
+        "id": 5,
+        "label": "Scientific literature",
+        "wikiLink": "http://en.wikipedia.org/Scientific_literature",
+        "score": 0.306253
+      },
+      {
+        "id": 6,
+        "label": "Problem solving",
+        "wikiLink": "http://en.wikipedia.org/Category:Problem_solving",
+        "score": 0.135362
+      },
+      {
+        "id": 7,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.0880762
+      },
+      {
+        "id": 8,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law_by_issue",
+        "score": 0.0736704
+      },
+      {
+        "id": 9,
+        "label": "Common law",
+        "wikiLink": "http://en.wikipedia.org/Category:Common_law",
+        "score": 0.0583286
+      },
+      {
+        "id": 10,
+        "label": "Communication",
+        "wikiLink": "http://en.wikipedia.org/Category:Communication_by_type",
+        "score": 0.0521166
+      },
+      {
+        "id": 11,
+        "label": "Intellectual works",
+        "wikiLink": "http://en.wikipedia.org/Category:Intellectual_works",
+        "score": 0.039537
+      },
+      {
+        "id": 12,
+        "label": "Written communication",
+        "wikiLink": "http://en.wikipedia.org/Category:Written_communication",
+        "score": 0.039537
+      },
+      {
+        "id": 13,
+        "label": "Primary sources",
+        "wikiLink": "http://en.wikipedia.org/Category:Primary_sources",
+        "score": 0.039537
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Evidence (law)",
+        "confidenceScore": 1.28482,
+        "wikiLink": "http://en.wikipedia.org/wiki/Evidence_(law)",
+        "matchedText": "evidence",
+        "freebaseId": "/m/06d34f",
+        "relevanceScore": 0.232066,
+        "entityEnglishId": "Evidence (law)",
+        "startingPos": 50,
+        "endingPos": 58
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Research",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/education/field_of_study",
+          "/education/school_category",
+          "/book/book_subject",
+          "/architecture/building_function",
+          "/book/periodical_subject",
+          "/business/industry",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 1.60511,
+        "wikiLink": "http://en.wikipedia.org/wiki/Research",
+        "matchedText": "research",
+        "freebaseId": "/m/06cs1",
+        "relevanceScore": 0.353618,
+        "entityEnglishId": "Research",
+        "startingPos": 74,
+        "endingPos": 82
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Scientific literature",
+        "freebaseTypes": [
+          "/media_common/media_genre",
+          "/book/book_subject",
+          "/media_common/literary_genre"
+        ],
+        "confidenceScore": 1.63571,
+        "wikiLink": "http://en.wikipedia.org/wiki/Scientific_literature",
+        "matchedText": "research literature",
+        "freebaseId": "/m/024hv9",
+        "relevanceScore": 0.306253,
+        "entityEnglishId": "Scientific literature",
+        "startingPos": 74,
+        "endingPos": 93
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Literature",
+        "freebaseTypes": [
+          "/book/school_or_movement",
+          "/internet/website_category",
+          "/book/book_subject",
+          "/organization/organization_sector",
+          "/projects/project_focus",
+          "/radio/radio_subject",
+          "/media_common/media_genre",
+          "/education/field_of_study",
+          "/book/periodical_subject",
+          "/media_common/quotation_subject",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 0.962504,
+        "wikiLink": "http://en.wikipedia.org/wiki/Literature",
+        "matchedText": "literature",
+        "freebaseId": "/m/04g51",
+        "relevanceScore": 0.165038,
+        "entityEnglishId": "Literature",
+        "startingPos": 83,
+        "endingPos": 93
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Guideline",
+        "confidenceScore": 1.54246,
+        "wikiLink": "http://en.wikipedia.org/wiki/Guideline",
+        "matchedText": "guideline",
+        "freebaseId": "/m/04xyb9",
+        "relevanceScore": 0.0692847,
+        "entityEnglishId": "Guideline",
+        "startingPos": 147,
+        "endingPos": 156
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          49
+        ],
+        "entityId": "Risk",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.21778,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk",
+        "matchedText": "risk",
+        "freebaseId": "/m/06d5f",
+        "relevanceScore": 0.280886,
+        "entityEnglishId": "Risk",
+        "startingPos": 293,
+        "endingPos": 297
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          59
+        ],
+        "entityId": "Guideline",
+        "confidenceScore": 1.8061,
+        "wikiLink": "http://en.wikipedia.org/wiki/Guideline",
+        "matchedText": "guideline",
+        "freebaseId": "/m/04xyb9",
+        "relevanceScore": 0.0692847,
+        "entityEnglishId": "Guideline",
+        "startingPos": 344,
+        "endingPos": 353
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          65
+        ],
+        "entityId": "Research",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/education/field_of_study",
+          "/education/school_category",
+          "/book/book_subject",
+          "/architecture/building_function",
+          "/book/periodical_subject",
+          "/business/industry",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 1.54371,
+        "wikiLink": "http://en.wikipedia.org/wiki/Research",
+        "matchedText": "research",
+        "freebaseId": "/m/06cs1",
+        "relevanceScore": 0.353618,
+        "entityEnglishId": "Research",
+        "startingPos": 393,
+        "endingPos": 401
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          66
+        ],
+        "entityId": "Evidence (law)",
+        "confidenceScore": 1.56054,
+        "wikiLink": "http://en.wikipedia.org/wiki/Evidence_(law)",
+        "matchedText": "evidence",
+        "freebaseId": "/m/06d34f",
+        "relevanceScore": 0.232066,
+        "entityEnglishId": "Evidence (law)",
+        "startingPos": 402,
+        "endingPos": 410
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5,
+          6,
+          7,
+          21
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              18,
+              19,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          21
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              12,
+              13,
+              14,
+              15,
+              16,
+              18,
+              19,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          31,
+          32,
+          33,
+          34
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              30
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          76,
+          77
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              69,
+              70,
+              71,
+              72,
+              73,
+              74
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              75
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          51,
+          52
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              50
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              30
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          4
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          22,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          37,
+          40
+        ],
+        "propertyPositions": [
+          38
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          37,
+          40
+        ],
+        "propertyPositions": [
+          39
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          69,
+          70,
+          71,
+          72
+        ],
+        "propertyPositions": [
+          75,
+          76,
+          77
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          47,
+          48
+        ],
+        "propertyPositions": [
+          46
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          56,
+          57
+        ],
+        "propertyPositions": [
+          58,
+          59
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          47,
+          48
+        ],
+        "propertyPositions": [
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          44,
+          45
+        ],
+        "propertyPositions": [
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67
+        ]
+      }
+    ]
+  },
+  "time": 3.043,
+  "ok": true
+}

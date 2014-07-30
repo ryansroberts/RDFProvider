@@ -14,10 +14,10 @@ module Project
             match ex,i with
             | [],_ -> ()
             | e::tail,i ->
-                    let innerscope = scope.Enter (Identifier (System.Guid.NewGuid().ToString()))
+                    let annotationScope = (Scope ("http://nice.org.uk/annotation",[Identifier (System.Guid.NewGuid().ToString())]))
 
-                    let targetUri = Owl.Uri (string (innerscope.Enter (Identifier (sprintf "_range_%d" i))))
-                    let selectorUri = Owl.Uri (string (innerscope.Enter (Identifier (sprintf "_selector_%d" i)))) 
+                    let targetUri = Owl.Uri (string (annotationScope.Enter (Identifier (sprintf "_range_%d" i))))
+                    let selectorUri = Owl.Uri (string (annotationScope.Enter (Identifier (sprintf "_selector_%d" i)))) 
                     yield! statementsFor (Subject targetUri)
                         [
                              yield (a,Object.from specificResource.Uri)
@@ -26,10 +26,8 @@ module Project
                              yield (Predicate.from specificResource.ObjectProperties.``oa:hasSelector``.Uri,Object.from selectorUri)
                         ]
 
-                    
                     yield! statementsFor (Subject selectorUri)
                         [
-
                              yield (a,Object.from textPosition.Uri)
                           
                              yield (Predicate.from startPos.Uri,Object.from e.StartingPos)
@@ -37,36 +35,26 @@ module Project
                              yield (a,individual)
                         ]
 
-                    let annSubject = Subject (Owl.Uri (string innerscope))
-                    yield! statementsFor annSubject
+                    let tagUri = Owl.Uri (string (annotationScope.Enter (Identifier (sprintf "_tag_%d" i))))
+                    yield! statementsFor (Subject (Owl.Uri(string annotationScope)))
                         [
                             yield (a,Object.from annotation.Uri)
                             yield (a,individual)
-                            yield (Predicate.from annotation.ObjectProperties.``oa:hasTarget``.Uri,Object.from (Owl.Uri (string scope)))
+                            yield (Predicate.from annotation.ObjectProperties.``oa:hasTarget``.Uri,Object.from targetUri)
                             yield (Predicate.from annotation.DataProperties.``oa:annotatedAt``.Uri,Object.from (System.DateTimeOffset.Now))
+                            yield (Predicate.from annotation.ObjectProperties.``oa:hasBody``.Uri,Object.from tagUri)
                         ]
-                    let tagUri = Owl.Uri (string (innerscope.Enter (Identifier (sprintf "_tag_%d" i))))
-                    yield! statementsFor annSubject
-                        [
-                           yield (Predicate.from annotation.ObjectProperties.``oa:hasBody``.Uri,Object.from tagUri)
-                           
-                        ]
+
+
                     yield! statementsFor (Subject.from tagUri)
                         [
                            yield (a,Object.from tag.Uri)
                            yield (a,individual)
                            yield (a,Object.from textContent.Uri)
+                           yield (Predicate.from (Owl.Uri("http://www.w3.org/2002/07/owl#sameAs")),Object.from((Owl.Uri ("http://www.freebase.com" + e.FreebaseId))))
                            yield (Predicate.from chars.Uri,Object.from (string e.EntityId)) 
                         ]
-                    let freebaseUri = (Owl.Uri ("http://www.freebase.com" + e.FreebaseId))
-                    yield! statementsFor annSubject
-                        [
-                           yield (Predicate.from annotation.ObjectProperties.``oa:hasBody``.Uri,Object.from freebaseUri)
-                        ] 
-                    yield! statementsFor (Subject.from freebaseUri)
-                        [
-                           yield (a,Object.from semanticTag.Uri)
-                        ]
+                 
                     yield! body tail (i + 1)
             ]
         
@@ -107,7 +95,7 @@ module Project
                 yield (Predicate.from isAbout.Uri,t)
             ]
         for s in st.Studies do
-            let studyScope = Scope("nice:studies", [ s.Id ]) 
+            let studyScope = Scope("http://nice.org.uk/studies", [ s.Id ]) 
             yield! study scope s (Object.from (Owl.Uri(string scope)))
         ]
 
@@ -120,7 +108,6 @@ module Project
                 yield (a,Object.from textContent.Uri)
                 yield (Predicate.from chars.Uri,Object.from (string q.Text))
                 yield (Predicate.from isAbout.Uri,t)
-
             ]
         ]
 
@@ -155,7 +142,7 @@ module Project
                 yield (a,Object.from discussion.Uri)
                 yield (a,Object.from textContent.Uri)
                 yield (a,individual)
-                yield (Predicate.from chars.Uri,Object.from (string t.Rationale))
+                yield (Predicate.from chars.Uri,Object.from (string t.Discussion))
                 yield (Predicate.from isAbout.Uri,Object.from (Owl.Uri(string scope)))
             ]
 

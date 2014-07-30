@@ -5,7 +5,7 @@
 #r "../packages/VDS.Common.1.3.0/lib/net40-client/VDS.Common.dll"
 #r "../packages/HtmlAgilityPack.1.4.6/lib/Net40/HtmlAgilityPack.dll"
 #r "../OWLTypeProvider.DesignTime/bin/Debug/OWLTypeProvider.DesignTime.dll"
-#r "../packages/Suave.0.10.0/lib/suave.dll"
+#r "../packages/Suave.0.11.0/lib/suave.dll"
 #load "Model.fs"
 #load "NLP.fs"
 #load "NiceOntology.fs"

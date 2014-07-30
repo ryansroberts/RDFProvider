@@ -48,15 +48,16 @@ module.exports = {
         return concat(
             prefixes,
             'construct {',
-                '?rec content:chars ?cnt .',
+            '?rec content:chars ?cnt .',
             '}',
             'where {',
-                '?rec a ' + type + ' .',
-                '?rec a owl:NamedIndividual .',
-                '?rec a content:ContentAsText .',
-                '?rec content:chars ?cnt .',
-                '?ann oa:hasTarget ?rec . ',
-                '?ann oa:hasBody/content:chars "' + tag + '" .',
+              '?tgt a oa:SpecificResource .',
+              '?tgt oa:hasSource ?rec .',
+              '?rec a ' + type + ' . ',
+              '?rec content:chars ?cnt .',
+              '?tgt oa:hasSelector ?sl .',
+              '?ann oa:hasTarget ?tgt .',
+              '?ann oa:hasBody/content:chars "' + tag + '"',
             '}'
         );
     },

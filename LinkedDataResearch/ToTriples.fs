@@ -155,7 +155,7 @@ module Project
     
     let reccomendation (scope:Scope) (r:Model.Reccomendation) = [
         let guidanceScope = scope
-        let scope = Scope("http://nice.org.uk/reccomendaton",[r.Id]) 
+        let scope = Scope("http://nice.org.uk/recommendation",[r.Id]) 
         
         yield! statementsFor (Subject (Owl.Uri (string scope)))
             [

@@ -69,7 +69,7 @@
                             owl:inverseOf :isImplementedBy .	
 
 ###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#implements
-:implements rdf:type owl:ObjectProperty .
+:implements rdf:type owl:ObjectProperty ;
 							rdfs:range :Recommendation ;
                                                                                                    
                             rdfs:domain :SharedLearning ;

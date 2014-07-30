@@ -1,7 +1,6 @@
 var uris = require('./uris.js');
 
 var concat = function(arr) {
-
     return Array.prototype.join.call(arguments,'\r\n')
 };
 
@@ -18,74 +17,79 @@ var prefixes = concat(
     'prefix rdfs:' + uri(uris.rdfs.prefix)
 );
 
-
 module.exports = {
-    tagsForType : function(type) {
-        return prefixes + concat(
-            'construct{?tag owl:SameAs ?txtTag . } ',
-            '{',
-            'distinct ?tag ?txtTag',
-            'where {',
-            '?ann oa:hasTarget ?tgt . ',
-            '?tgt ' + type + ' .',
-            '?ann oa:hasBody ?body .',
-            '?body content:chars ?txtTag .',
-            '?ann oa:hasBody ?tag .',
-            'FILTER(NOT EXISTS { ?tag a content:ContentAsText . })',
-            '}',
-            '}'
-        );
+    tagsForType : function (type) {
+	   return prefixed;
     },
-    annotatedContent : function (cnt) {
-        return prefixes + concat(
+    annotatedContent : function (individual) {
+        return concat(
+            prefixes, 
             'construct {',
-            uri(cnt) + ' content:chars ?cnt .',
-            '?ann oa:hasTarget ' + uri(cnt) + ' .',
-            '?ann oa:start ?st .',
-            '?ann oa:end ?end .',
-            '',
-            '}',
+                uri(individual) + ' content:chars ?cnt .',
+                uri(individual) + ' nice:semanticTag ?tag .',
+                '?tag owl:SameAs ?concept .',
+            '}', 
             'where {',
-            uri(cnt) + ' a content:ContentAsText .',
-            uri(cnt) + ' content:chars ?cnt .',
-            '?ann oa:hasTarget ' + uri(cnt) + ' . ',
-            '?ann a owl:NamedIndividual .',
-            '?ann oa:hasSource ?src .',
-            '?src a owl:NamedIndividual .',
-            '?ann oa:hasSelector ?slt .',
-            '?slt a owl:NamedIndividual .',
-            '?slt oa:start ?st .',
-            '?slt oa:end ?end .',
-            '}'
+              uri(individual) + ' a content:ContentAsText .',
+              uri(individual) + ' content:chars ?cnt .',
+              'optional {',
+                  '?ann oa:hasTarget ' + uri(individual) + ' .',
+                  
+                  '?ann oa:hasBody ?txt .',
+                  '?txt a content:ContentAsText .',
+                  '?txt content:chars ?concept .',
+                  
+                  '?ann oa:hasBody ?tag .',
+              '}',
+           '}'
         );
     },
     contentMatching : function (type,tag) {
-        return prefixes + concat(
+        return concat(
+            prefixes,
             'construct {',
-            '?rec content:chars ?cnt .',
+                '?rec content:chars ?cnt .',
             '}',
             'where {',
-            '?rec a ' + type + ' .',
-            '?rec a owl:NamedIndividual .',
-            '?rec a content:ContentAsText .',
-            '?rec content:chars ?cnt .',
-            '?ann oa:hasTarget ?rec . ',
-            '?ann oa:hasBody/content:chars "' + tag + '" .',
+                '?rec a ' + type + ' .',
+                '?rec a owl:NamedIndividual .',
+                '?rec a content:ContentAsText .',
+                '?rec content:chars ?cnt .',
+                '?ann oa:hasTarget ?rec . ',
+                '?ann oa:hasBody/content:chars "' + tag + '" .',
             '}'
         );
     },
     relatedEvidenceStatements : function (individual){
-        return prefixes + concat(
+        return concat(
+            prefixes, 
             'construct {',
-            '<' + individual + '> nice:isSupportedBy ?st ',
+                uri(individual) + ' nice:isSupportedBy ?st ',
             '}',
             'WHERE {',
-                '<' + individual + '> nice:isAbout ?t .',
+                uri(individual) + ' nice:isAbout ?t .',
                 '?t a nice:Topic .',
-                '<' + individual + '> a nice:Recommendation .',
+                uri(individual) + ' a nice:Recommendation .',
                 '?st nice:isAbout ?t .',
                 '?st a nice:EvidenceStatement .',
-            '}');
+            '}'
+        );
+
+    },
+    recommendationDiscussion : function (individual){
+        return concat(
+            prefixes,
+            'construct {',
+               uri(individual) +  ' nice:CreatedAsAResultOf ?dis',
+            '}',
+            'WHERE {',
+                '?dis nice:isAbout ?t .',
+                '?dis a nice:Discussion .',
+                '?t a nice:Topic .',
+                uri(individual) +   ' a nice:Recommendation .',
+                uri(individual) +  ' nice:isAbout ?t',
+            '}'
+        )
 
     }
 };

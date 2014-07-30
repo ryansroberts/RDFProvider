@@ -7,6 +7,8 @@ var queries = require('../queries.js'),
 
 module.exports = function (ctx, uri){
 
+  document.getElementById('output').innerHTML = "";
+
   sparql
     .query(queries.contentMatching('nice:Recommendation','Gastroparesis'))
     .execute(parseTriples(function (err, triples){
@@ -33,13 +35,11 @@ module.exports = function (ctx, uri){
           if (recommendations.hasOwnProperty(rec)){
 
             var recommendation = domify('<li><h3>' + rec + '</h3><p>' + recommendations[rec] + '</p></li>');
-            var evidenceStatements = domify('<p><a href="#/evidence-statements/' + rec + '">Find evidence statements supporting this recommendation</a></p>');
-            var studies = domify('<p><a href="#/studies/' + rec + '">Find studies supporting this recommendation</a></p>');
+            var evidenceStatements = domify('<p><a href="#/evidence-statements/' + rec + '">Investigate the evidence behind this recommendation</a></p>');
 
             // append..
             list.appendChild(recommendation);
             list.appendChild(evidenceStatements);
-            list.appendChild(studies);
 
           }
         }
@@ -47,10 +47,4 @@ module.exports = function (ctx, uri){
       }
 
     }));
-}
-
-module.exports.cleanUp = function (){
-
-  document.getElementById('output').innerHTML = "";
-
 }

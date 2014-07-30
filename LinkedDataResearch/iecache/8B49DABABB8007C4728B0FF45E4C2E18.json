@@ -1,0 +1,408 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.924504
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.593532
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.483483
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.453712
+      },
+      {
+        "id": 5,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.444447
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Antibiotics",
+        "wikiLink": "http://en.wikipedia.org/Antibiotics",
+        "score": 0.20908
+      },
+      {
+        "id": 1,
+        "label": "Cellulitis",
+        "wikiLink": "http://en.wikipedia.org/Cellulitis",
+        "score": 0.41794
+      },
+      {
+        "id": 2,
+        "label": "Evidence (law)",
+        "wikiLink": "http://en.wikipedia.org/Evidence_(law)",
+        "score": 0.198176
+      },
+      {
+        "id": 3,
+        "label": "Intravenous therapy",
+        "wikiLink": "http://en.wikipedia.org/Intravenous_therapy",
+        "score": 0.371241
+      },
+      {
+        "id": 4,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.153634
+      },
+      {
+        "id": 5,
+        "label": "Placebo-controlled study",
+        "wikiLink": "http://en.wikipedia.org/Placebo-controlled_study",
+        "score": 0.444544
+      },
+      {
+        "id": 6,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.217408
+      },
+      {
+        "id": 7,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.210386
+      },
+      {
+        "id": 8,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.204042
+      },
+      {
+        "id": 9,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.187422
+      },
+      {
+        "id": 10,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.140822
+      },
+      {
+        "id": 11,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law_by_issue",
+        "score": 0.0565921
+      },
+      {
+        "id": 12,
+        "label": "Common law",
+        "wikiLink": "http://en.wikipedia.org/Category:Common_law",
+        "score": 0.0565921
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Intravenous therapy",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 3.84974,
+        "wikiLink": "http://en.wikipedia.org/wiki/Intravenous_therapy",
+        "matchedText": "Intravenous",
+        "freebaseId": "/m/018c_8",
+        "relevanceScore": 0.371241,
+        "entityEnglishId": "Intravenous therapy",
+        "startingPos": 0,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Antibiotics",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/risk_factor",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 2.12516,
+        "wikiLink": "http://en.wikipedia.org/wiki/Antibiotics",
+        "matchedText": "antibiotics",
+        "freebaseId": "/m/0tbr",
+        "relevanceScore": 0.20908,
+        "entityEnglishId": "Antibiotics",
+        "startingPos": 12,
+        "endingPos": 23
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Guideline",
+        "confidenceScore": 0.901517,
+        "wikiLink": "http://en.wikipedia.org/wiki/Guideline",
+        "matchedText": "guideline",
+        "freebaseId": "/m/04xyb9",
+        "relevanceScore": 0,
+        "entityEnglishId": "Guideline",
+        "startingPos": 43,
+        "endingPos": 52
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.9815,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.153634,
+        "entityEnglishId": "Patient",
+        "startingPos": 97,
+        "endingPos": 105
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Cellulitis",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 5.92506,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cellulitis",
+        "matchedText": "cellulitis",
+        "freebaseId": "/m/036l45",
+        "relevanceScore": 0.41794,
+        "entityEnglishId": "Cellulitis",
+        "startingPos": 111,
+        "endingPos": 121
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Evidence (law)",
+        "confidenceScore": 1.36549,
+        "wikiLink": "http://en.wikipedia.org/wiki/Evidence_(law)",
+        "matchedText": "evidence",
+        "freebaseId": "/m/06d34f",
+        "relevanceScore": 0.198176,
+        "entityEnglishId": "Evidence (law)",
+        "startingPos": 141,
+        "endingPos": 149
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Placebo-controlled study",
+        "confidenceScore": 2.72718,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo-controlled_study",
+        "matchedText": "placebo-controlled",
+        "freebaseId": "/m/05b5m22",
+        "relevanceScore": 0.444544,
+        "entityEnglishId": "Placebo-controlled study",
+        "startingPos": 155,
+        "endingPos": 173
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          15
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              16,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          9,
+          11,
+          12,
+          13,
+          15
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8,
+              10,
+              14,
+              16,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          25
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

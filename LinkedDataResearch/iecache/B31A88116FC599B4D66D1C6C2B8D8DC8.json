@@ -1,0 +1,173 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.961592
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.961592
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Experience",
+        "wikiLink": "http://en.wikipedia.org/Experience",
+        "score": 0.126987
+      },
+      {
+        "id": 1,
+        "label": "Expert",
+        "wikiLink": "http://en.wikipedia.org/Expert",
+        "score": 0.318402
+      },
+      {
+        "id": 2,
+        "label": "Cognition",
+        "wikiLink": "http://en.wikipedia.org/Category:Cognition",
+        "score": 0.0776793
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Expert",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/people/profession",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 0.93126,
+        "wikiLink": "http://en.wikipedia.org/wiki/Expert",
+        "matchedText": "expertise",
+        "freebaseId": "/m/02pkl",
+        "relevanceScore": 0.318402,
+        "entityEnglishId": "Expert",
+        "startingPos": 133,
+        "endingPos": 142
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Experience",
+        "freebaseTypes": [
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.53652,
+        "wikiLink": "http://en.wikipedia.org/wiki/Experience",
+        "matchedText": "experience",
+        "freebaseId": "/m/01rhgl",
+        "relevanceScore": 0.126987,
+        "entityEnglishId": "Experience",
+        "startingPos": 147,
+        "endingPos": 157
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "GDG",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "GDG",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 165,
+        "endingPos": 168
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          18,
+          19,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              16,
+              17
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          7,
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23,
+          26
+        ],
+        "propertyPositions": [
+          27,
+          28
+        ]
+      }
+    ]
+  },
+  "time": 3.013,
+  "ok": true
+}

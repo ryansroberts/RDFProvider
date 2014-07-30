@@ -1,0 +1,432 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.358571
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.281522
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.260317
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.254296
+      },
+      {
+        "id": 5,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.209039
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.131162
+      },
+      {
+        "id": 1,
+        "label": "Diabetic foot",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot",
+        "score": 0.173532
+      },
+      {
+        "id": 2,
+        "label": "Diabetic foot ulcer",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot_ulcer",
+        "score": 0.964027
+      },
+      {
+        "id": 3,
+        "label": "Ulcer (dermatology)",
+        "wikiLink": "http://en.wikipedia.org/Ulcer_(dermatology)",
+        "score": 0.713994
+      },
+      {
+        "id": 4,
+        "label": "Wound",
+        "wikiLink": "http://en.wikipedia.org/Wound",
+        "score": 0.851982
+      },
+      {
+        "id": 5,
+        "label": "Wound healing",
+        "wikiLink": "http://en.wikipedia.org/Wound_healing",
+        "score": 0.125005
+      },
+      {
+        "id": 6,
+        "label": "Traumatology",
+        "wikiLink": "http://en.wikipedia.org/Category:Traumatology",
+        "score": 0.334467
+      },
+      {
+        "id": 7,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.229473
+      },
+      {
+        "id": 8,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.229473
+      },
+      {
+        "id": 9,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.229473
+      },
+      {
+        "id": 10,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.157367
+      },
+      {
+        "id": 11,
+        "label": "Emergency medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Emergency_medicine",
+        "score": 0.136298
+      },
+      {
+        "id": 12,
+        "label": "Integumentary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Integumentary_system",
+        "score": 0.107848
+      },
+      {
+        "id": 13,
+        "label": "Dermatology",
+        "wikiLink": "http://en.wikipedia.org/Category:Dermatology",
+        "score": 0.0966286
+      },
+      {
+        "id": 14,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.093167
+      },
+      {
+        "id": 15,
+        "label": "Injuries",
+        "wikiLink": "http://en.wikipedia.org/Category:Injuries",
+        "score": 0.0678002
+      },
+      {
+        "id": 16,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.0366287
+      },
+      {
+        "id": 17,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0271233
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Wound",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 1.85457,
+        "wikiLink": "http://en.wikipedia.org/wiki/Wound",
+        "matchedText": "wound",
+        "freebaseId": "/m/01xrk2",
+        "relevanceScore": 0.851982,
+        "entityEnglishId": "Wound",
+        "startingPos": 99,
+        "endingPos": 104
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Wound healing",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction"
+        ],
+        "confidenceScore": 2.95698,
+        "wikiLink": "http://en.wikipedia.org/wiki/Wound_healing",
+        "matchedText": "wound healing",
+        "freebaseId": "/m/02kd5b",
+        "relevanceScore": 0.125005,
+        "entityEnglishId": "Wound healing",
+        "startingPos": 99,
+        "endingPos": 112
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.66998,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.131162,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 128,
+        "endingPos": 136
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.06075,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0.173532,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 128,
+        "endingPos": 141
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Foot",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/business/product_category",
+          "/sports/sports_equipment",
+          "/visual_art/art_subject",
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.10843,
+        "wikiLink": "http://en.wikipedia.org/wiki/Foot",
+        "matchedText": "foot",
+        "freebaseId": "/m/031n1",
+        "relevanceScore": 0.021677,
+        "entityEnglishId": "Foot",
+        "startingPos": 137,
+        "endingPos": 141
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          21,
+          22
+        ],
+        "entityId": "Diabetic foot ulcer",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.37599,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot_ulcer",
+        "matchedText": "foot ulcers",
+        "freebaseId": "/m/064p1q4",
+        "relevanceScore": 0.964027,
+        "entityEnglishId": "Diabetic foot ulcer",
+        "startingPos": 137,
+        "endingPos": 148
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Ulcer (dermatology)",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.06908,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ulcer_(dermatology)",
+        "matchedText": "ulcers",
+        "freebaseId": "/m/01klgg",
+        "relevanceScore": 0.713994,
+        "entityEnglishId": "Ulcer (dermatology)",
+        "startingPos": 142,
+        "endingPos": 148
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          6,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22
+        ]
+      }
+    ]
+  },
+  "time": 3.019,
+  "ok": true
+}

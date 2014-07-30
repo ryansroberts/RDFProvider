@@ -69,9 +69,8 @@ module Import =
         | Error of obj array * System.Exception
     
     let csvfile t = 
-        let fn = ("input/" + t + ".csv")
-        printf "Loading %s\r\n" fn
-        fn
+        let fn = (__SOURCE_DIRECTORY__ + "/input/" + t + ".csv")
+        new StreamReader(File.OpenRead(fn),System.Text.Encoding.UTF8,true)
     
     let guidelines = Csv.Guideline.Load(csvfile "Guideline&Evidence/Guideline")
     let esToStudyMap = Csv.EStoStudyMap.Load(csvfile "Guideline&Evidence/EStoStudyMap")

@@ -25,7 +25,7 @@ let importFromFolder folder =
            printf "Loading graph %s\r\n" f
            (connection ()) 
            |> Store.bootStrapFromFile (f) (null :> Uri)
-
+          
 importFromFolder (__SOURCE_DIRECTORY__ ++ "../ontologies/external" )
 importFromFolder (__SOURCE_DIRECTORY__ ++ "../ontologies/nice" )
 

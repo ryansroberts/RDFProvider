@@ -15,9 +15,6 @@ let format (tw : System.IO.TextWriter) (rx : obj) =
         w.Save(g,tw)
     ()
 
-
-    
-
 open Suave
 open Suave.Web
 open Suave.Http

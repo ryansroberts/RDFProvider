@@ -1,0 +1,476 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.977755
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.503817
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.503817
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.503817
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.478684
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.228364
+      },
+      {
+        "id": 1,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Medicine",
+        "score": 0.208294
+      },
+      {
+        "id": 2,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.241059
+      },
+      {
+        "id": 3,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0826561
+      },
+      {
+        "id": 4,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0826561
+      },
+      {
+        "id": 5,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0780621
+      },
+      {
+        "id": 6,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0780621
+      },
+      {
+        "id": 7,
+        "label": "Applied sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Applied_sciences",
+        "score": 0.0780621
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "McCulloch DK",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "McCulloch DK",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Endocrine system",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.50156,
+        "wikiLink": "http://en.wikipedia.org/wiki/Endocrine_system",
+        "matchedText": "endocrine",
+        "freebaseId": "/m/02jw6",
+        "relevanceScore": 0.0988574,
+        "entityEnglishId": "Endocrine system",
+        "startingPos": 24,
+        "endingPos": 33
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.36809,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0761214,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 38,
+        "endingPos": 46
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.81453,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.241059,
+        "entityEnglishId": "Patient",
+        "startingPos": 96,
+        "endingPos": 104
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.36809,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0761214,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 110,
+        "endingPos": 118
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.36809,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0761214,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 120,
+        "endingPos": 128
+      },
+      {
+        "id": 6,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          31,
+          32
+        ],
+        "entityId": "Levetan CS",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Levetan CS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 168,
+        "endingPos": 178
+      },
+      {
+        "id": 7,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          34,
+          35
+        ],
+        "entityId": "Salas R",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Salas R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 180,
+        "endingPos": 187
+      },
+      {
+        "id": 8,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          42,
+          43,
+          44,
+          45
+        ],
+        "entityId": "American Journal of Medicine",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "American Journal of Medicine",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 207,
+        "endingPos": 235
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          45
+        ],
+        "entityId": "Medicine",
+        "freebaseTypes": [
+          "/radio/radio_subject",
+          "/education/field_of_study",
+          "/broadcast/genre",
+          "/book/periodical_subject",
+          "/media_common/literary_genre",
+          "/film/film_subject",
+          "/media_common/quotation_subject",
+          "/organization/organization_sector",
+          "/book/book_subject",
+          "/book/magazine_genre",
+          "/award/award_discipline",
+          "/media_common/media_genre"
+        ],
+        "confidenceScore": 1.01785,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medicine",
+        "matchedText": "Medicine",
+        "freebaseId": "/m/04sh3",
+        "relevanceScore": 0.208294,
+        "entityEnglishId": "Medicine",
+        "startingPos": 227,
+        "endingPos": 235
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          42,
+          43,
+          44
+        ],
+        "propertyPositions": [
+          45,
+          46
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3,
+          4,
+          10
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          3,
+          4,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          31,
+          32
+        ],
+        "propertyPositions": [
+          34,
+          35
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          31,
+          32
+        ],
+        "propertyPositions": [
+          37,
+          38,
+          39,
+          40
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          29,
+          30
+        ],
+        "propertyPositions": [
+          31,
+          32,
+          34,
+          35,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ]
+  },
+  "time": 3.032,
+  "ok": true
+}

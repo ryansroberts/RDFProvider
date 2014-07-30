@@ -1,0 +1,501 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.616918
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.344727
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.341387
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.292911
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.292362
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.335492
+      },
+      {
+        "id": 1,
+        "label": "Dose (biochemistry)",
+        "wikiLink": "http://en.wikipedia.org/Dose_(biochemistry)",
+        "score": 0.297542
+      },
+      {
+        "id": 2,
+        "label": "Hypoglycemia",
+        "wikiLink": "http://en.wikipedia.org/Hypoglycemia",
+        "score": 0.338395
+      },
+      {
+        "id": 3,
+        "label": "Pharmaceutical drug",
+        "wikiLink": "http://en.wikipedia.org/Pharmaceutical_drug",
+        "score": 0.173613
+      },
+      {
+        "id": 4,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.093989
+      },
+      {
+        "id": 5,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.0806234
+      },
+      {
+        "id": 6,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.0774727
+      },
+      {
+        "id": 7,
+        "label": "Medicinal chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicinal_chemistry",
+        "score": 0.0760635
+      },
+      {
+        "id": 8,
+        "label": "Pharmaceutical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_sciences",
+        "score": 0.0760635
+      },
+      {
+        "id": 9,
+        "label": "Medical treatments",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_treatments",
+        "score": 0.0760635
+      },
+      {
+        "id": 10,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.0760635
+      },
+      {
+        "id": 11,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Category:Therapy",
+        "score": 0.0760635
+      },
+      {
+        "id": 12,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.0332797
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "George E",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "George E",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Bedford C",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bedford C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Peacey SR",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Peacey SR",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 30
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Evidence (law)",
+        "confidenceScore": 1.12415,
+        "wikiLink": "http://en.wikipedia.org/wiki/Evidence_(law)",
+        "matchedText": "evidence",
+        "freebaseId": "/m/06d34f",
+        "relevanceScore": 0.01838,
+        "entityEnglishId": "Evidence (law)",
+        "startingPos": 47,
+        "endingPos": 55
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Nocturnality",
+        "confidenceScore": 1.27433,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nocturnality",
+        "matchedText": "nocturnal",
+        "freebaseId": "/m/0gznd",
+        "relevanceScore": 0.0265999,
+        "entityEnglishId": "Nocturnality",
+        "startingPos": 80,
+        "endingPos": 89
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Hypoglycemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 6.20143,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypoglycemia",
+        "matchedText": "hypoglycaemia",
+        "freebaseId": "/m/03gwt",
+        "relevanceScore": 0.338395,
+        "entityEnglishId": "Hypoglycemia",
+        "startingPos": 90,
+        "endingPos": 103
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Dose (biochemistry)",
+        "confidenceScore": 2.01701,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dose_(biochemistry)",
+        "matchedText": "dose",
+        "freebaseId": "/m/02qdgt_",
+        "relevanceScore": 0.148771,
+        "entityEnglishId": "Dose (biochemistry)",
+        "startingPos": 126,
+        "endingPos": 130
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Dose (biochemistry)",
+        "confidenceScore": 2.01701,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dose_(biochemistry)",
+        "matchedText": "dose",
+        "freebaseId": "/m/02qdgt_",
+        "relevanceScore": 0.148771,
+        "entityEnglishId": "Dose (biochemistry)",
+        "startingPos": 135,
+        "endingPos": 139
+      },
+      {
+        "id": 8,
+        "type": [
+          "Species",
+          "Eukaryote",
+          "Animal",
+          "Mammal"
+        ],
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Suidae",
+        "freebaseTypes": [
+          "/biology/organism_classification"
+        ],
+        "confidenceScore": 1.47654,
+        "wikiLink": "http://en.wikipedia.org/wiki/Suidae",
+        "matchedText": "porcine",
+        "freebaseId": "/m/020bgr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Suidae",
+        "startingPos": 167,
+        "endingPos": 174
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.94183,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.335492,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 185,
+        "endingPos": 193
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.38563,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "Medicine",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.173613,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 194,
+        "endingPos": 202
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          37
+        ],
+        "propertyPositions": [
+          36
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          23,
+          24,
+          25,
+          27
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          34
+        ],
+        "propertyPositions": [
+          31,
+          32,
+          33
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          28,
+          29,
+          30
+        ],
+        "propertyPositions": [
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          23,
+          24,
+          25,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          14,
+          16,
+          17
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          19,
+          20
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          14,
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 3.026,
+  "ok": true
+}

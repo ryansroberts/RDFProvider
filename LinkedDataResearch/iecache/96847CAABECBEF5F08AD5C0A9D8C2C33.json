@@ -1,0 +1,417 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.646539
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.621866
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.588611
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.58386
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.321458
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.341368
+      },
+      {
+        "id": 1,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Health_care",
+        "score": 0.26409
+      },
+      {
+        "id": 2,
+        "label": "Health care provider",
+        "wikiLink": "http://en.wikipedia.org/Health_care_provider",
+        "score": 0.14313
+      },
+      {
+        "id": 3,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.307522
+      },
+      {
+        "id": 4,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.475177
+      },
+      {
+        "id": 5,
+        "label": "Social programs",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_programs",
+        "score": 0.143054
+      },
+      {
+        "id": 6,
+        "label": "Service industries",
+        "wikiLink": "http://en.wikipedia.org/Category:Service_industries",
+        "score": 0.143054
+      },
+      {
+        "id": 7,
+        "label": "Social policy",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_policy",
+        "score": 0.119101
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Davis TM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Davis TM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          3,
+          4,
+          5
+        ],
+        "entityId": "Bridgford A. A",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bridgford A. A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.26465,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.113789,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 63,
+        "endingPos": 71
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.26465,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.113789,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 113,
+        "endingPos": 121
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Database",
+        "freebaseTypes": [
+          "/computer/software_genre",
+          "/computer/file_format_genre",
+          "/dataworld/information_source",
+          "/book/book_subject",
+          "/internet/website_category"
+        ],
+        "confidenceScore": 1.43519,
+        "wikiLink": "http://en.wikipedia.org/wiki/Database",
+        "matchedText": "databank",
+        "freebaseId": "/m/02bc6",
+        "relevanceScore": 0.0348619,
+        "entityEnglishId": "Database",
+        "startingPos": 122,
+        "endingPos": 130
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 2.21402,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.307522,
+        "entityEnglishId": "Patient",
+        "startingPos": 134,
+        "endingPos": 142
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "Health care",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/organization/organization_sector",
+          "/food/tea_type",
+          "/people/professional_field",
+          "/education/field_of_study",
+          "/government/government_service",
+          "/business/industry",
+          "/exhibitions/exhibition_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.54919,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_care",
+        "matchedText": "health care",
+        "freebaseId": "/m/01mw2x",
+        "relevanceScore": 0.26409,
+        "entityEnglishId": "Health care",
+        "startingPos": 147,
+        "endingPos": 158
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          24,
+          25,
+          26
+        ],
+        "entityId": "Health care provider",
+        "freebaseTypes": [
+          "/people/profession",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.38667,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_care_provider",
+        "matchedText": "health care workers",
+        "freebaseId": "/m/0fsbk0",
+        "relevanceScore": 0.14313,
+        "entityEnglishId": "Health care provider",
+        "startingPos": 147,
+        "endingPos": 166
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.26465,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.113789,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 178,
+        "endingPos": 186
+      },
+      {
+        "id": 9,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "International",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "International",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 187,
+        "endingPos": 200
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          29
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          16,
+          17,
+          21
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16,
+          17,
+          21
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          16,
+          17,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24,
+          25,
+          26
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

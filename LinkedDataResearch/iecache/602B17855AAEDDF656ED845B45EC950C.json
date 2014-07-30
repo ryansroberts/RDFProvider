@@ -1,0 +1,277 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.489813
+      },
+      {
+        "id": 2,
+        "label": "Sports",
+        "wikiLink": "http://en.wikipedia.org/Category:Sports",
+        "score": 0.489813
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cardiovascular disease",
+        "wikiLink": "http://en.wikipedia.org/Cardiovascular_disease",
+        "score": 0.234503
+      },
+      {
+        "id": 1,
+        "label": "Circulatory system",
+        "wikiLink": "http://en.wikipedia.org/Circulatory_system",
+        "score": 0.164238
+      },
+      {
+        "id": 2,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.184285
+      },
+      {
+        "id": 3,
+        "label": "Ramipril",
+        "wikiLink": "http://en.wikipedia.org/Ramipril",
+        "score": 0.111496
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "Bosch J. Long-term",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bosch J. Long-term",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 22
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Ramipril",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 4.01169,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ramipril",
+        "matchedText": "ramipril",
+        "freebaseId": "/m/04nl9p",
+        "relevanceScore": 0.111496,
+        "entityEnglishId": "Ramipril",
+        "startingPos": 34,
+        "endingPos": 42
+      },
+      {
+        "id": 2,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Circulatory system",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.24525,
+        "wikiLink": "http://en.wikipedia.org/wiki/Circulatory_system",
+        "matchedText": "cardiovascular",
+        "freebaseId": "/m/0frx0",
+        "relevanceScore": 0.164238,
+        "entityEnglishId": "Circulatory system",
+        "startingPos": 46,
+        "endingPos": 60
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.45315,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "cardiovascular events",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.234503,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 46,
+        "endingPos": 67
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.24414,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.184285,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 75,
+        "endingPos": 83
+      },
+      {
+        "id": 5,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "HOPE",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "HOPE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 100,
+        "endingPos": 104
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        "propertyPositions": [
+          12
+        ]
+      }
+    ]
+  },
+  "time": 3.014,
+  "ok": true
+}

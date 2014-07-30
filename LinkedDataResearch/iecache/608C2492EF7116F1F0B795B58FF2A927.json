@@ -1,0 +1,581 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.70626
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.689923
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.543509
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.415853
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.379063
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.403396
+      },
+      {
+        "id": 1,
+        "label": "Glomerulus",
+        "wikiLink": "http://en.wikipedia.org/Glomerulus",
+        "score": 0.411713
+      },
+      {
+        "id": 2,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.18225
+      },
+      {
+        "id": 4,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.164874
+      },
+      {
+        "id": 5,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.156047
+      },
+      {
+        "id": 6,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.137359
+      },
+      {
+        "id": 7,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.122927
+      },
+      {
+        "id": 8,
+        "label": "Critical thinking",
+        "wikiLink": "http://en.wikipedia.org/Category:Critical_thinking",
+        "score": 0.0390988
+      },
+      {
+        "id": 9,
+        "label": "Applied sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Applied_sciences",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Rigalleau V",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Rigalleau V",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 15
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Lasseur C",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lasseur C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 17,
+        "endingPos": 26
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Perlemoine C",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Perlemoine C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 28,
+        "endingPos": 40
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.94633,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "Cockcroft-Gault",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.933955,
+        "entityEnglishId": "Renal function",
+        "startingPos": 61,
+        "endingPos": 76
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.69055,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "Cockcroft-Gault formula",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.790139,
+        "entityEnglishId": "Renal function",
+        "startingPos": 61,
+        "endingPos": 84
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Formula",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 0.919003,
+        "wikiLink": "http://en.wikipedia.org/wiki/Formula",
+        "matchedText": "formula",
+        "freebaseId": "/m/015tl8",
+        "relevanceScore": 0,
+        "entityEnglishId": "Formula",
+        "startingPos": 77,
+        "endingPos": 84
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Prediction",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/media_genre",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 0.989515,
+        "wikiLink": "http://en.wikipedia.org/wiki/Prediction",
+        "matchedText": "prediction",
+        "freebaseId": "/m/01klyk",
+        "relevanceScore": 0.0828016,
+        "entityEnglishId": "Prediction",
+        "startingPos": 100,
+        "endingPos": 110
+      },
+      {
+        "id": 7,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Glomerulus",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 2.56117,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glomerulus",
+        "matchedText": "glomerular",
+        "freebaseId": "/m/02_dbc",
+        "relevanceScore": 0.411713,
+        "entityEnglishId": "Glomerulus",
+        "startingPos": 118,
+        "endingPos": 128
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          21,
+          22
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.39568,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "glomerular filtration",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.513838,
+        "entityEnglishId": "Renal function",
+        "startingPos": 118,
+        "endingPos": 139
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Filtration",
+        "freebaseTypes": [
+          "/business/industry",
+          "/law/invention",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.72625,
+        "wikiLink": "http://en.wikipedia.org/wiki/Filtration",
+        "matchedText": "filtration",
+        "freebaseId": "/m/032x7",
+        "relevanceScore": 0,
+        "entityEnglishId": "Filtration",
+        "startingPos": 129,
+        "endingPos": 139
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          21,
+          22,
+          23
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 5.33283,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "glomerular filtration rate",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.435396,
+        "entityEnglishId": "Renal function",
+        "startingPos": 118,
+        "endingPos": 144
+      },
+      {
+        "id": 11,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.40989,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.201698,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 148,
+        "endingPos": 156
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.11927,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Patient",
+        "startingPos": 157,
+        "endingPos": 165
+      },
+      {
+        "id": 13,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.31386,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.201698,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 167,
+        "endingPos": 175
+      },
+      {
+        "id": 14,
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Metabolism",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.05703,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metabolism",
+        "matchedText": "Metabolism",
+        "freebaseId": "/m/053p5",
+        "relevanceScore": 0.0351188,
+        "entityEnglishId": "Metabolism",
+        "startingPos": 178,
+        "endingPos": 188
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          14
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          20,
+          22,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          20,
+          22,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ]
+      }
+    ]
+  },
+  "time": 3.022,
+  "ok": true
+}

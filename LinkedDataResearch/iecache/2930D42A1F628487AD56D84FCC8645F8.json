@@ -1,0 +1,548 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.460587
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.308957
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.283041
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.239388
+      },
+      {
+        "id": 5,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.215488
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Antibiotics",
+        "wikiLink": "http://en.wikipedia.org/Antibiotics",
+        "score": 0.638744
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.215514
+      },
+      {
+        "id": 2,
+        "label": "Infection",
+        "wikiLink": "http://en.wikipedia.org/Infection",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.36281
+      },
+      {
+        "id": 4,
+        "label": "Infectious diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Infectious_diseases",
+        "score": 0.628881
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.547874
+      },
+      {
+        "id": 6,
+        "label": "Immunology",
+        "wikiLink": "http://en.wikipedia.org/Category:Immunology",
+        "score": 0.533521
+      },
+      {
+        "id": 7,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders",
+        "score": 0.478622
+      },
+      {
+        "id": 8,
+        "label": "Microbiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Microbiology",
+        "score": 0.428371
+      },
+      {
+        "id": 9,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.0769577
+      },
+      {
+        "id": 10,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0475876
+      },
+      {
+        "id": 11,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.0181701
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Lipsky BA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lipsky BA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Baker PD",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Baker PD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Landon GC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Landon GC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 30
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Fernau R.",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Fernau R.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 32,
+        "endingPos": 41
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Antibiotics",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/risk_factor",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.92373,
+        "wikiLink": "http://en.wikipedia.org/wiki/Antibiotics",
+        "matchedText": "Antibiotic",
+        "freebaseId": "/m/0tbr",
+        "relevanceScore": 0.367558,
+        "entityEnglishId": "Antibiotics",
+        "startingPos": 49,
+        "endingPos": 59
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Antibiotics",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/risk_factor",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 2.52852,
+        "wikiLink": "http://en.wikipedia.org/wiki/Antibiotics",
+        "matchedText": "Antibiotic therapy",
+        "freebaseId": "/m/0tbr",
+        "relevanceScore": 0.271185,
+        "entityEnglishId": "Antibiotics",
+        "startingPos": 49,
+        "endingPos": 67
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.83451,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.36281,
+        "entityEnglishId": "Therapy",
+        "startingPos": 60,
+        "endingPos": 67
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.3191,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.215514,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 72,
+        "endingPos": 80
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.09513,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0.0676308,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 72,
+        "endingPos": 85
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Infection",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.63246,
+        "wikiLink": "http://en.wikipedia.org/wiki/Infection",
+        "matchedText": "infections",
+        "freebaseId": "/m/098s1",
+        "relevanceScore": 0.564525,
+        "entityEnglishId": "Infection",
+        "startingPos": 86,
+        "endingPos": 96
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Infection",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.91419,
+        "wikiLink": "http://en.wikipedia.org/wiki/Infection",
+        "matchedText": "Infectious",
+        "freebaseId": "/m/098s1",
+        "relevanceScore": 0.550445,
+        "entityEnglishId": "Infection",
+        "startingPos": 156,
+        "endingPos": 166
+      },
+      {
+        "id": 11,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          29,
+          30,
+          31
+        ],
+        "entityId": "Clinical Infectious Diseases",
+        "freebaseTypes": [
+          "/book/journal",
+          "/book/periodical"
+        ],
+        "confidenceScore": 1.29354,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_Infectious_Diseases",
+        "matchedText": "Clinical Infectious Diseases",
+        "freebaseId": "/m/02r_ks1",
+        "relevanceScore": 0.0635508,
+        "entityEnglishId": "Clinical Infectious Diseases",
+        "startingPos": 147,
+        "endingPos": 175
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          30,
+          31
+        ],
+        "entityId": "Infection",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.33388,
+        "wikiLink": "http://en.wikipedia.org/wiki/Infection",
+        "matchedText": "Infectious Diseases",
+        "freebaseId": "/m/098s1",
+        "relevanceScore": 0.413107,
+        "entityEnglishId": "Infection",
+        "startingPos": 156,
+        "endingPos": 175
+      },
+      {
+        "id": 13,
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Infection",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 0.978105,
+        "wikiLink": "http://en.wikipedia.org/wiki/Infection",
+        "matchedText": "Diseases",
+        "freebaseId": "/m/098s1",
+        "relevanceScore": 0.63177,
+        "entityEnglishId": "Infection",
+        "startingPos": 167,
+        "endingPos": 175
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          31
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          31
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          31
+        ],
+        "propertyPositions": [
+          32
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9,
+          10,
+          15,
+          16
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          9,
+          10,
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          27
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          27
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          21,
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      }
+    ]
+  },
+  "time": 3.028,
+  "ok": true
+}

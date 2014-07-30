@@ -1,0 +1,572 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.277195
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Coma",
+        "wikiLink": "http://en.wikipedia.org/Coma",
+        "score": 0.144361
+      },
+      {
+        "id": 1,
+        "label": "Diabetic hypoglycemia",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_hypoglycemia",
+        "score": 0.627328
+      },
+      {
+        "id": 2,
+        "label": "Emergency department",
+        "wikiLink": "http://en.wikipedia.org/Emergency_department",
+        "score": 0.39423
+      },
+      {
+        "id": 3,
+        "label": "Emergency medicine",
+        "wikiLink": "http://en.wikipedia.org/Emergency_medicine",
+        "score": 0.114888
+      },
+      {
+        "id": 4,
+        "label": "Glucagon",
+        "wikiLink": "http://en.wikipedia.org/Glucagon",
+        "score": 0.196342
+      },
+      {
+        "id": 5,
+        "label": "Hypoglycemia",
+        "wikiLink": "http://en.wikipedia.org/Hypoglycemia",
+        "score": 0.436449
+      },
+      {
+        "id": 6,
+        "label": "Intravenous therapy",
+        "wikiLink": "http://en.wikipedia.org/Intravenous_therapy",
+        "score": 0.102419
+      },
+      {
+        "id": 7,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.948681
+      },
+      {
+        "id": 8,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.635683
+      },
+      {
+        "id": 9,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.633874
+      },
+      {
+        "id": 10,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.633874
+      },
+      {
+        "id": 11,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.152219
+      },
+      {
+        "id": 12,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.152219
+      },
+      {
+        "id": 13,
+        "label": "Routes of administration",
+        "wikiLink": "http://en.wikipedia.org/Category:Routes_of_administration",
+        "score": 0.127742
+      },
+      {
+        "id": 14,
+        "label": "Pharmacy",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacy",
+        "score": 0.127742
+      },
+      {
+        "id": 15,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs",
+        "score": 0.127742
+      },
+      {
+        "id": 16,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.127742
+      },
+      {
+        "id": 17,
+        "label": "Dosage forms",
+        "wikiLink": "http://en.wikipedia.org/Category:Dosage_forms",
+        "score": 0.127742
+      },
+      {
+        "id": 18,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0725416
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Patrick AW",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Patrick AW",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Collier A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Collier A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 12,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Hepburn DA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hepburn DA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 23,
+        "endingPos": 33
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Intramuscular injection",
+        "freebaseTypes": [
+          "/medicine/drug_administration_route"
+        ],
+        "confidenceScore": 3.26713,
+        "wikiLink": "http://en.wikipedia.org/wiki/Intramuscular_injection",
+        "matchedText": "intramuscular",
+        "freebaseId": "/m/01xbr8",
+        "relevanceScore": 0.0418509,
+        "entityEnglishId": "Intramuscular injection",
+        "startingPos": 56,
+        "endingPos": 69
+      },
+      {
+        "id": 4,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Glucagon",
+        "freebaseTypes": [
+          "/medicine/hormone",
+          "/chemistry/chemical_compound",
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 7.19155,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucagon",
+        "matchedText": "glucagon",
+        "freebaseId": "/m/01l2q7",
+        "relevanceScore": 0.196342,
+        "entityEnglishId": "Glucagon",
+        "startingPos": 70,
+        "endingPos": 78
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Intravenous therapy",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 3.28055,
+        "wikiLink": "http://en.wikipedia.org/wiki/Intravenous_therapy",
+        "matchedText": "intravenous",
+        "freebaseId": "/m/018c_8",
+        "relevanceScore": 0.102419,
+        "entityEnglishId": "Intravenous therapy",
+        "startingPos": 83,
+        "endingPos": 94
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Diabetic hypoglycemia",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.36429,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_hypoglycemia",
+        "matchedText": "dextrose",
+        "freebaseId": "/m/05v0gv",
+        "relevanceScore": 0.627328,
+        "entityEnglishId": "Diabetic hypoglycemia",
+        "startingPos": 95,
+        "endingPos": 103
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Hypoglycemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.47827,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypoglycemia",
+        "matchedText": "hypoglycaemic",
+        "freebaseId": "/m/03gwt",
+        "relevanceScore": 0.436449,
+        "entityEnglishId": "Hypoglycemia",
+        "startingPos": 124,
+        "endingPos": 137
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Coma",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom",
+          "/book/book_subject",
+          "/people/cause_of_death",
+          "/fictional_universe/medical_condition_in_fiction"
+        ],
+        "confidenceScore": 2.09528,
+        "wikiLink": "http://en.wikipedia.org/wiki/Coma",
+        "matchedText": "coma",
+        "freebaseId": "/m/01qw1",
+        "relevanceScore": 0.144361,
+        "entityEnglishId": "Coma",
+        "startingPos": 138,
+        "endingPos": 142
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          26,
+          27,
+          28
+        ],
+        "entityId": "Emergency department",
+        "freebaseTypes": [
+          "/medicine/hospital",
+          "/architecture/building",
+          "/architecture/structure",
+          "/location/location"
+        ],
+        "confidenceScore": 2.67887,
+        "wikiLink": "http://en.wikipedia.org/wiki/Emergency_department",
+        "matchedText": "accident and emergency",
+        "freebaseId": "/m/0180qc",
+        "relevanceScore": 0.166033,
+        "entityEnglishId": "Emergency department",
+        "startingPos": 149,
+        "endingPos": 171
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          26,
+          27,
+          28,
+          29
+        ],
+        "entityId": "Emergency department",
+        "freebaseTypes": [
+          "/medicine/hospital",
+          "/architecture/building",
+          "/architecture/structure",
+          "/location/location"
+        ],
+        "confidenceScore": 3.09413,
+        "wikiLink": "http://en.wikipedia.org/wiki/Emergency_department",
+        "matchedText": "accident and emergency department",
+        "freebaseId": "/m/0180qc",
+        "relevanceScore": 0.092576,
+        "entityEnglishId": "Emergency department",
+        "startingPos": 149,
+        "endingPos": 182
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          28,
+          29
+        ],
+        "entityId": "Emergency department",
+        "freebaseTypes": [
+          "/medicine/hospital",
+          "/architecture/building",
+          "/architecture/structure",
+          "/location/location"
+        ],
+        "confidenceScore": 1.84072,
+        "wikiLink": "http://en.wikipedia.org/wiki/Emergency_department",
+        "matchedText": "emergency department",
+        "freebaseId": "/m/0180qc",
+        "relevanceScore": 0.135621,
+        "entityEnglishId": "Emergency department",
+        "startingPos": 162,
+        "endingPos": 182
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          33,
+          34
+        ],
+        "entityId": "Emergency medicine",
+        "freebaseTypes": [
+          "/people/professional_field",
+          "/book/book_subject",
+          "/education/field_of_study",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 3.2332,
+        "wikiLink": "http://en.wikipedia.org/wiki/Emergency_medicine",
+        "matchedText": "Emergency Medicine",
+        "freebaseId": "/m/0dxgl",
+        "relevanceScore": 0.114888,
+        "entityEnglishId": "Emergency medicine",
+        "startingPos": 196,
+        "endingPos": 214
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          31,
+          32
+        ],
+        "propertyPositions": [
+          33,
+          34,
+          35
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          11,
+          12,
+          18
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          19,
+          20,
+          21,
+          24
+        ],
+        "propertyPositions": [
+          22,
+          23
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          19,
+          20,
+          21,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          11,
+          12,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      }
+    ]
+  },
+  "time": 3.029,
+  "ok": true
+}

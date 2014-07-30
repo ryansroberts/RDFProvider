@@ -1,0 +1,367 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.693007
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.479439
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.341674
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.251828
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.251828
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Pain",
+        "score": 0.828444
+      },
+      {
+        "id": 1,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.147362
+      },
+      {
+        "id": 2,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0981379
+      },
+      {
+        "id": 3,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0981379
+      },
+      {
+        "id": 4,
+        "label": "Feeling",
+        "wikiLink": "http://en.wikipedia.org/Category:Feeling",
+        "score": 0.0422257
+      },
+      {
+        "id": 5,
+        "label": "Symptoms and signs: General",
+        "wikiLink": "http://en.wikipedia.org/Category:Symptoms_and_signs:_General",
+        "score": 0.0422257
+      },
+      {
+        "id": 6,
+        "label": "Perception",
+        "wikiLink": "http://en.wikipedia.org/Category:Perception",
+        "score": 0.0422257
+      },
+      {
+        "id": 7,
+        "label": "Symptoms and signs",
+        "wikiLink": "http://en.wikipedia.org/Category:Symptoms_and_signs",
+        "score": 0.0182165
+      },
+      {
+        "id": 8,
+        "label": "Psychological concepts",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychological_concepts",
+        "score": 0.0182165
+      },
+      {
+        "id": 9,
+        "label": "Experimental psychology",
+        "wikiLink": "http://en.wikipedia.org/Category:Experimental_psychology",
+        "score": 0.0182165
+      },
+      {
+        "id": 10,
+        "label": "Sources of knowledge",
+        "wikiLink": "http://en.wikipedia.org/Category:Sources_of_knowledge",
+        "score": 0.0182165
+      },
+      {
+        "id": 11,
+        "label": "Subjective experience",
+        "wikiLink": "http://en.wikipedia.org/Category:Subjective_experience",
+        "score": 0.0182165
+      },
+      {
+        "id": 12,
+        "label": "Emotion",
+        "wikiLink": "http://en.wikipedia.org/Category:Emotion",
+        "score": 0.0182165
+      },
+      {
+        "id": 13,
+        "label": "Qualia",
+        "wikiLink": "http://en.wikipedia.org/Category:Qualia",
+        "score": 0.0182165
+      },
+      {
+        "id": 14,
+        "label": "Neuropsychological assessment",
+        "wikiLink": "http://en.wikipedia.org/Category:Neuropsychological_assessment",
+        "score": 0.0182165
+      },
+      {
+        "id": 15,
+        "label": "Cognitive science",
+        "wikiLink": "http://en.wikipedia.org/Category:Cognitive_science",
+        "score": 0.0182165
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "McCarberg B",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "McCarberg B",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Pharmacotherapy",
+        "freebaseTypes": [
+          "/law/invention",
+          "/education/field_of_study",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.94854,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmacotherapy",
+        "matchedText": "Pharmacotherapy",
+        "freebaseId": "/m/0c59df",
+        "relevanceScore": 0.0753163,
+        "entityEnglishId": "Pharmacotherapy",
+        "startingPos": 19,
+        "endingPos": 34
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.52983,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "neuropathic",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.523765,
+        "entityEnglishId": "Pain",
+        "startingPos": 39,
+        "endingPos": 50
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.3446,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "neuropathic pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.0584447,
+        "entityEnglishId": "Pain",
+        "startingPos": 39,
+        "endingPos": 55
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.48094,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.246234,
+        "entityEnglishId": "Pain",
+        "startingPos": 51,
+        "endingPos": 55
+      },
+      {
+        "id": 5,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Advanced Studies",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Advanced Studies",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 78,
+        "endingPos": 94
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Medicine",
+        "freebaseTypes": [
+          "/radio/radio_subject",
+          "/education/field_of_study",
+          "/broadcast/genre",
+          "/book/periodical_subject",
+          "/media_common/literary_genre",
+          "/film/film_subject",
+          "/media_common/quotation_subject",
+          "/organization/organization_sector",
+          "/book/book_subject",
+          "/book/magazine_genre",
+          "/award/award_discipline",
+          "/media_common/media_genre"
+        ],
+        "confidenceScore": 1.53827,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medicine",
+        "matchedText": "Medicine",
+        "freebaseId": "/m/04sh3",
+        "relevanceScore": 0.0258201,
+        "entityEnglishId": "Medicine",
+        "startingPos": 98,
+        "endingPos": 106
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          16,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  "time": 3.015,
+  "ok": true
+}

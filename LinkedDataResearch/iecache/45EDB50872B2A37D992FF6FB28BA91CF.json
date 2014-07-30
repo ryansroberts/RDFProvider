@@ -1,0 +1,455 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.672332
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.670537
+      },
+      {
+        "id": 3,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.333333
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.333333
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Erythromycin",
+        "wikiLink": "http://en.wikipedia.org/Erythromycin",
+        "score": 0.315966
+      },
+      {
+        "id": 1,
+        "label": "Gastroparesis",
+        "wikiLink": "http://en.wikipedia.org/Gastroparesis",
+        "score": 0.525335
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Janssens J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Janssens J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Peeters TL",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Peeters TL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 26
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Fish measurement",
+        "confidenceScore": 1.70827,
+        "wikiLink": "http://en.wikipedia.org/wiki/Fish_measurement",
+        "matchedText": "TL",
+        "freebaseId": "/m/0djkfz",
+        "relevanceScore": 0,
+        "entityEnglishId": "Fish measurement",
+        "startingPos": 24,
+        "endingPos": 26
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Vantrappen G",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Vantrappen G",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 28,
+        "endingPos": 40
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Stomach",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.03543,
+        "wikiLink": "http://en.wikipedia.org/wiki/Stomach",
+        "matchedText": "gastric",
+        "freebaseId": "/m/09x8z",
+        "relevanceScore": 0.0292775,
+        "entityEnglishId": "Stomach",
+        "startingPos": 63,
+        "endingPos": 70
+      },
+      {
+        "id": 5,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Stomach",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 2.07115,
+        "wikiLink": "http://en.wikipedia.org/wiki/Stomach",
+        "matchedText": "gastric emptying",
+        "freebaseId": "/m/09x8z",
+        "relevanceScore": 0,
+        "entityEnglishId": "Stomach",
+        "startingPos": 63,
+        "endingPos": 79
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Gastroparesis",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 7.67091,
+        "wikiLink": "http://en.wikipedia.org/wiki/Gastroparesis",
+        "matchedText": "gastroparesis",
+        "freebaseId": "/m/02w1n2",
+        "relevanceScore": 0.525335,
+        "entityEnglishId": "Gastroparesis",
+        "startingPos": 92,
+        "endingPos": 105
+      },
+      {
+        "id": 7,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Erythromycin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 5.73452,
+        "wikiLink": "http://en.wikipedia.org/wiki/Erythromycin",
+        "matchedText": "erythromycin",
+        "freebaseId": "/m/02r51",
+        "relevanceScore": 0.315966,
+        "entityEnglishId": "Erythromycin",
+        "startingPos": 109,
+        "endingPos": 121
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "New England",
+        "freebaseTypes": [
+          "/location/region",
+          "/book/book_subject",
+          "/symbols/namesake",
+          "/periodicals/newspaper_circulation_area",
+          "/location/statistical_region",
+          "/location/dated_location",
+          "/meteorology/cyclone_affected_area",
+          "/business/employer",
+          "/visual_art/art_subject",
+          "/organization/organization_scope",
+          "/location/location"
+        ],
+        "confidenceScore": 1.52724,
+        "wikiLink": "http://en.wikipedia.org/wiki/New_England",
+        "matchedText": "New England",
+        "freebaseId": "/m/029jpy",
+        "relevanceScore": 0.0778933,
+        "entityEnglishId": "New England",
+        "startingPos": 144,
+        "endingPos": 155
+      },
+      {
+        "id": 9,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "England",
+        "freebaseTypes": [
+          "/fictional_universe/fictional_setting",
+          "/food/beer_country_region",
+          "/sports/sport_country",
+          "/location/uk_statistical_location",
+          "/organization/organization_scope",
+          "/biology/breed_origin",
+          "/sports/sports_team_location",
+          "/location/statistical_region",
+          "/military/military_combatant",
+          "/symbols/name_source",
+          "/location/uk_constituent_country",
+          "/location/dated_location",
+          "/law/court_jurisdiction_area",
+          "/government/governmental_jurisdiction",
+          "/travel/travel_destination",
+          "/film/film_location",
+          "/military/military_post",
+          "/film/film_subject",
+          "/location/country",
+          "/location/administrative_division",
+          "/olympics/olympic_participating_country",
+          "/periodicals/newspaper_circulation_area",
+          "/symbols/flag_referent",
+          "/book/book_subject",
+          "/event/speech_topic",
+          "/location/location"
+        ],
+        "confidenceScore": 2.24701,
+        "wikiLink": "http://en.wikipedia.org/wiki/England",
+        "matchedText": "England",
+        "freebaseId": "/m/02jx1",
+        "relevanceScore": 0.0106217,
+        "entityEnglishId": "England",
+        "startingPos": 148,
+        "endingPos": 155
+      },
+      {
+        "id": 10,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "entityId": "The New England Journal of Medicine",
+        "freebaseTypes": [
+          "/book/journal",
+          "/book/periodical",
+          "/book/publication"
+        ],
+        "confidenceScore": 2.39342,
+        "wikiLink": "http://en.wikipedia.org/wiki/The_New_England_Journal_of_Medicine",
+        "matchedText": "New England Journal of Medicine",
+        "freebaseId": "/m/02g96l",
+        "relevanceScore": 0.0256615,
+        "entityEnglishId": "The New England Journal of Medicine",
+        "startingPos": 144,
+        "endingPos": 175
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          22
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          29
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          15,
+          18
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          15,
+          18
+        ],
+        "propertyPositions": [
+          16,
+          17
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          15,
+          18
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "time": 3.023,
+  "ok": true
+}

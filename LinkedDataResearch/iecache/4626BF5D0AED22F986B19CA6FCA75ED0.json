@@ -1,0 +1,508 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.420208
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.339521
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.331574
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.317894
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cardiovascular disease",
+        "wikiLink": "http://en.wikipedia.org/Cardiovascular_disease",
+        "score": 0.654374
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.291185
+      },
+      {
+        "id": 2,
+        "label": "Hyperlipidemia",
+        "wikiLink": "http://en.wikipedia.org/Hyperlipidemia",
+        "score": 0.421269
+      },
+      {
+        "id": 3,
+        "label": "Niacin",
+        "wikiLink": "http://en.wikipedia.org/Niacin",
+        "score": 0.433955
+      },
+      {
+        "id": 4,
+        "label": "Pravastatin",
+        "wikiLink": "http://en.wikipedia.org/Pravastatin",
+        "score": 0.395714
+      },
+      {
+        "id": 5,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.299103
+      },
+      {
+        "id": 6,
+        "label": "Hypolipidemic agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Hypolipidemic_agents",
+        "score": 0.157547
+      },
+      {
+        "id": 7,
+        "label": "Carboxylic acids",
+        "wikiLink": "http://en.wikipedia.org/Category:Carboxylic_acids",
+        "score": 0.124632
+      },
+      {
+        "id": 8,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.121277
+      },
+      {
+        "id": 9,
+        "label": "Acids",
+        "wikiLink": "http://en.wikipedia.org/Category:Acids",
+        "score": 0.0567758
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Panagiotopoulos S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Panagiotopoulos S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 20,
+        "endingPos": 37
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Sinha A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Sinha A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 39,
+        "endingPos": 46
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Pravastatin",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 4.35566,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pravastatin",
+        "matchedText": "pravastatin",
+        "freebaseId": "/m/02z8br",
+        "relevanceScore": 0.395714,
+        "entityEnglishId": "Pravastatin",
+        "startingPos": 79,
+        "endingPos": 90
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Niacin",
+        "freebaseTypes": [
+          "/food/nutrient",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 5.36053,
+        "wikiLink": "http://en.wikipedia.org/wiki/Niacin",
+        "matchedText": "nicotinic acid",
+        "freebaseId": "/m/09gvd",
+        "relevanceScore": 0.433955,
+        "entityEnglishId": "Niacin",
+        "startingPos": 95,
+        "endingPos": 109
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Acid",
+        "freebaseTypes": [
+          "/chemistry/chemical_classification"
+        ],
+        "confidenceScore": 1.12941,
+        "wikiLink": "http://en.wikipedia.org/wiki/Acid",
+        "matchedText": "acid",
+        "freebaseId": "/m/0hqs",
+        "relevanceScore": 0.0236426,
+        "entityEnglishId": "Acid",
+        "startingPos": 105,
+        "endingPos": 109
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Hyperlipidemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.70759,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hyperlipidemia",
+        "matchedText": "hyperlipidaemia",
+        "freebaseId": "/m/05f45h",
+        "relevanceScore": 0.421269,
+        "entityEnglishId": "Hyperlipidemia",
+        "startingPos": 139,
+        "endingPos": 154
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.72402,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.291185,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 158,
+        "endingPos": 166
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.06913,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.0896877,
+        "entityEnglishId": "Patient",
+        "startingPos": 184,
+        "endingPos": 192
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.01325,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "Cardiovascular",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.40163,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 205,
+        "endingPos": 219
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          32,
+          33
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.1201,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "Cardiovascular Risk",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.252744,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 205,
+        "endingPos": 224
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          33
+        ],
+        "propertyPositions": [
+          32
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          30,
+          31
+        ],
+        "propertyPositions": [
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          18
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          18
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          19,
+          20,
+          21,
+          24
+        ],
+        "propertyPositions": [
+          22,
+          23
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          28
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          19,
+          20,
+          21,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ]
+      }
+    ]
+  },
+  "time": 3.028,
+  "ok": true
+}

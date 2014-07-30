@@ -1,0 +1,356 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.520865
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.26319
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.260751
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.260113
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.257675
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Analgesic",
+        "wikiLink": "http://en.wikipedia.org/Analgesic",
+        "score": 0.199298
+      },
+      {
+        "id": 1,
+        "label": "Anesthesia",
+        "wikiLink": "http://en.wikipedia.org/Anesthesia",
+        "score": 0.311157
+      },
+      {
+        "id": 2,
+        "label": "Hernia repair",
+        "wikiLink": "http://en.wikipedia.org/Hernia_repair",
+        "score": 0.244751
+      },
+      {
+        "id": 3,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Pain",
+        "score": 0.220886
+      },
+      {
+        "id": 4,
+        "label": "Feeling",
+        "wikiLink": "http://en.wikipedia.org/Category:Feeling",
+        "score": 0.424235
+      },
+      {
+        "id": 5,
+        "label": "Symptoms and signs: General",
+        "wikiLink": "http://en.wikipedia.org/Category:Symptoms_and_signs:_General",
+        "score": 0.424235
+      },
+      {
+        "id": 6,
+        "label": "Perception",
+        "wikiLink": "http://en.wikipedia.org/Category:Perception",
+        "score": 0.424235
+      },
+      {
+        "id": 7,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0735068
+      },
+      {
+        "id": 8,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.0706027
+      },
+      {
+        "id": 9,
+        "label": "Surgery",
+        "wikiLink": "http://en.wikipedia.org/Category:Surgery",
+        "score": 0.0706027
+      },
+      {
+        "id": 10,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.0706027
+      },
+      {
+        "id": 11,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0706027
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Mikkelsen T",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Mikkelsen T",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Werner MU",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Werner MU",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 22
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Lassen B",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lassen B",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 24,
+        "endingPos": 32
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.14474,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "Pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.220886,
+        "entityEnglishId": "Pain",
+        "startingPos": 47,
+        "endingPos": 51
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Hernia repair",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.5738,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hernia_repair",
+        "matchedText": "herniotomy",
+        "freebaseId": "/m/06fzcj",
+        "relevanceScore": 0.244751,
+        "entityEnglishId": "Hernia repair",
+        "startingPos": 106,
+        "endingPos": 116
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Anesthesia",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 4.12808,
+        "wikiLink": "http://en.wikipedia.org/wiki/Anesthesia",
+        "matchedText": "Anesthesia",
+        "freebaseId": "/m/0fmqk",
+        "relevanceScore": 0.311157,
+        "entityEnglishId": "Anesthesia",
+        "startingPos": 118,
+        "endingPos": 128
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Anesthesia Analgesia",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Anesthesia Analgesia",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 118,
+        "endingPos": 138
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Analgesic",
+        "freebaseTypes": [
+          "/celebrities/abused_substance",
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.97974,
+        "wikiLink": "http://en.wikipedia.org/wiki/Analgesic",
+        "matchedText": "Analgesia",
+        "freebaseId": "/m/0y09",
+        "relevanceScore": 0.199298,
+        "entityEnglishId": "Analgesic",
+        "startingPos": 129,
+        "endingPos": 138
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          21
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          0,
+          1,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          23
+        ]
+      }
+    ]
+  },
+  "time": 3.015,
+  "ok": true
+}

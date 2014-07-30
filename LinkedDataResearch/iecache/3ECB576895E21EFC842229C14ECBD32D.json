@@ -1,0 +1,56 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Data",
+        "freebaseTypes": [
+          "/internet/website_category"
+        ],
+        "confidenceScore": 1.00677,
+        "wikiLink": "http://en.wikipedia.org/wiki/Data",
+        "matchedText": "data",
+        "freebaseId": "/m/026sq",
+        "relevanceScore": 0.0498563,
+        "entityEnglishId": "Data",
+        "startingPos": 31,
+        "endingPos": 35
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  "time": 3.011,
+  "ok": true
+}

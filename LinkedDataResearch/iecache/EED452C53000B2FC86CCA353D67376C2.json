@@ -1,0 +1,310 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.477642
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Antidepressant",
+        "wikiLink": "http://en.wikipedia.org/Antidepressant",
+        "score": 0.529347
+      },
+      {
+        "id": 1,
+        "label": "Major depressive disorder",
+        "wikiLink": "http://en.wikipedia.org/Major_depressive_disorder",
+        "score": 0.409515
+      },
+      {
+        "id": 2,
+        "label": "Pharmaceutical drug",
+        "wikiLink": "http://en.wikipedia.org/Pharmaceutical_drug",
+        "score": 0.205522
+      },
+      {
+        "id": 3,
+        "label": "Mood disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Mood_disorders",
+        "score": 0.1785
+      },
+      {
+        "id": 4,
+        "label": "Depression (psychology)",
+        "wikiLink": "http://en.wikipedia.org/Category:Depression_(psychology)",
+        "score": 0.155182
+      },
+      {
+        "id": 5,
+        "label": "Psychiatric diagnosis",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychiatric_diagnosis",
+        "score": 0.14438
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Revicki DA",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Revicki DA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Wood M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wood M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 12,
+        "endingPos": 18
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Major depressive disorder",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.71058,
+        "wikiLink": "http://en.wikipedia.org/wiki/Major_depressive_disorder",
+        "matchedText": "depression",
+        "freebaseId": "/m/02bft",
+        "relevanceScore": 0.409515,
+        "entityEnglishId": "Major depressive disorder",
+        "startingPos": 114,
+        "endingPos": 124
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Antidepressant",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class",
+          "/business/competitive_space"
+        ],
+        "confidenceScore": 5.45577,
+        "wikiLink": "http://en.wikipedia.org/wiki/Antidepressant",
+        "matchedText": "antidepressant",
+        "freebaseId": "/m/0z0q",
+        "relevanceScore": 0.29652,
+        "entityEnglishId": "Antidepressant",
+        "startingPos": 138,
+        "endingPos": 152
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          21,
+          22
+        ],
+        "entityId": "Antidepressant",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class",
+          "/business/competitive_space"
+        ],
+        "confidenceScore": 2.65798,
+        "wikiLink": "http://en.wikipedia.org/wiki/Antidepressant",
+        "matchedText": "antidepressant medications",
+        "freebaseId": "/m/0z0q",
+        "relevanceScore": 0.232827,
+        "entityEnglishId": "Antidepressant",
+        "startingPos": 138,
+        "endingPos": 164
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.00423,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "medications",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.205522,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 153,
+        "endingPos": 164
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          25
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              24
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              26
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          22
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      }
+    ]
+  },
+  "time": 3.025,
+  "ok": true
+}

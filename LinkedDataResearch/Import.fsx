@@ -80,3 +80,4 @@ let processCsv() =
     ttl.Save(g, sprintf "%s/output/%s.ttl" __SOURCE_DIRECTORY__ "Individuals_Annotated")
 
 do processCsv()
+

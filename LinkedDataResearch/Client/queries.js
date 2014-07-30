@@ -18,46 +18,60 @@ var prefixes = concat(
     'prefix rdfs:' + uri(uris.rdfs.prefix)
 );
 
+
 module.exports = {
-    tagsForType : function (type) {
-	return prefixed + concat('');
+    tagsForType : function(type) {
+        return prefixes + concat(
+            'construct{?tag owl:SameAs ?txtTag . } ',
+            '{',
+            'distinct ?tag ?txtTag',
+            'where {',
+            '?ann oa:hasTarget ?tgt . ',
+            '?tgt ' + type + ' .',
+            '?ann oa:hasBody ?body .',
+            '?body content:chars ?txtTag .',
+            '?ann oa:hasBody ?tag .',
+            'FILTER(NOT EXISTS { ?tag a content:ContentAsText . })',
+            '}',
+            '}'
+        );
     },
     annotatedContent : function (cnt) {
         return prefixes + concat(
-        'construct {',
-        uri(cnt) + ' content:chars ?cnt .',
-        '?ann oa:hasTarget ' + uri(cnt) + ' .',
-        '?ann oa:start ?st .',
-        '?ann oa:end ?end .',
-        '',
-        '}',
-        'where {',
-        uri(cnt) + ' a content:ContentAsText .',
-        uri(cnt) + ' content:chars ?cnt .',
-        '?ann oa:hasTarget ' + uri(cnt) + ' . ',
-        '?ann a owl:NamedIndividual .',
-        '?ann oa:hasSource ?src .',
-        '?src a owl:NamedIndividual .',
-        '?ann oa:hasSelector ?slt .',
-        '?slt a owl:NamedIndividual .',
-        '?slt oa:start ?st .',
-        '?slt oa:end ?end .',
-        '}'
+            'construct {',
+            uri(cnt) + ' content:chars ?cnt .',
+            '?ann oa:hasTarget ' + uri(cnt) + ' .',
+            '?ann oa:start ?st .',
+            '?ann oa:end ?end .',
+            '',
+            '}',
+            'where {',
+            uri(cnt) + ' a content:ContentAsText .',
+            uri(cnt) + ' content:chars ?cnt .',
+            '?ann oa:hasTarget ' + uri(cnt) + ' . ',
+            '?ann a owl:NamedIndividual .',
+            '?ann oa:hasSource ?src .',
+            '?src a owl:NamedIndividual .',
+            '?ann oa:hasSelector ?slt .',
+            '?slt a owl:NamedIndividual .',
+            '?slt oa:start ?st .',
+            '?slt oa:end ?end .',
+            '}'
         );
     },
     contentMatching : function (type,tag) {
         return prefixes + concat(
-        'construct {',
-        '?rec content:chars ?cnt .',
-        '}',
-        'where {',
-        '?rec a ' + type + ' .',
-        '?rec a owl:NamedIndividual .',
-        '?rec a content:ContentAsText .',
-        '?rec content:chars ?cnt .',
-        '?ann oa:hasTarget ?rec . ',
-        '?ann oa:hasBody/content:chars "' + tag + '" .',
-        '}'
+            'construct {',
+            '?rec content:chars ?cnt .',
+            '}',
+            'where {',
+            '?rec a ' + type + ' .',
+            '?rec a owl:NamedIndividual .',
+            '?rec a content:ContentAsText .',
+            '?rec content:chars ?cnt .',
+            '?ann oa:hasTarget ?rec . ',
+            '?ann oa:hasBody/content:chars "' + tag + '" .',
+            '}'
         );
     },
     relatedEvidenceStatements : function (individual){

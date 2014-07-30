@@ -96,7 +96,7 @@ module Project
         ]
 
     let statement (scope:Scope) (st: Model.Statement) t = [
-        let scope = scope.Enter st.Id
+        let scope = Scope("http://nice.org.uk/evidencestatement",[st.Id])
         yield! statementsFor(Subject (Owl.Uri (string scope)))
             [
             
@@ -126,7 +126,7 @@ module Project
 
     let topic (scope : Scope) (t:Model.Set) = [
         let guidanceScope =  Owl.Uri((string scope))
-        let scope = scope.Enter t.Id
+        let scope = Scope("http://nice.org.uk/topic",[t.Id])
         let aboutTopic = Object.from (Owl.Uri(string scope))
 
         let rationaleScope = scope.Enter (Identifier "rationale")
@@ -178,7 +178,7 @@ module Project
                 yield (Predicate.from chars.Uri,Object.from (string r.Body))
                 yield (Predicate.from recommendation.DataProperties.``nice:identifier``.Uri,Object.from (string r.Id))
                 yield (Predicate.from recommendation.DataProperties.``nice:title``.Uri,Object.from (string r.Title))
-                yield (Predicate.from isAbout.Uri,Object.from (Owl.Uri(string (Scope("http://nice.org.uk/recommendation",[r.Set])))))
+                yield (Predicate.from isAbout.Uri,Object.from (Owl.Uri(string (Scope("http://nice.org.uk/topic",[r.Set])))))
                 yield (Predicate.from isPartOf.Uri,Object.from (Owl.Uri((string guidanceScope))))
                 yield (Predicate.from recommendation.DataProperties.``nice:recommendationStrength``.Uri,Object.from r.Grade)
             ]

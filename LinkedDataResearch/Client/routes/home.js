@@ -1,6 +1,6 @@
 var queries = require('../queries.js'),
-    SparkleSparkleGo = require('../sparkle-sparkle-go.js'),
-    parseTriples = require('../triN3ty.js'),
+    SparkleSparkleGo = require('../lib/sparkle-sparkle-go.js'),
+    parseTriples = require('../lib/triN3ty.js'),
     markdownParser = require('marked'),
     domify = require('domify'),
     sparql = new SparkleSparkleGo('/sparql/query{?query*}');
@@ -44,7 +44,7 @@ module.exports = function (ctx, uri){
         }
     }));
 
-  var loadRecommendations = function (tag) {
+  function loadRecommendations(tag) {
     sparql
       .query(queries.contentMatching('nice:Recommendation',tag))
       .execute(parseTriples(function (err, triples){

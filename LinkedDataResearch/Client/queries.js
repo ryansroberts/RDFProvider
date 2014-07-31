@@ -40,7 +40,7 @@ module.exports = {
             'construct {',
               uri(individual) + ' content:chars ?cnt .',
               uri(individual) + ' oa:tag ?tag .',
-              '?tag content:chars ?txt .',
+              '?tag owl:sameAs ?txt .',
               '?tag oa:hasSelector ?sl .',
               '?sl oa:start ?st .',
               '?sl oa:end ?end ',

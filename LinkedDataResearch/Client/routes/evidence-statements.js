@@ -79,9 +79,9 @@ module.exports = function (ctx, uri){
 
               // make a colour chart of concepts..
               _.each(triples, function (triple){
-
+                
                 if (triple.predicate === "http://www.w3.org/2002/07/owl#SameAs"){
-
+                  console.log(triple.object);
                   item.appendChild(
                     domify(
                       '<div style =" display: inline-block; background: ' +

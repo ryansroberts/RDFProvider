@@ -1,12 +1,14 @@
 var queries = require('../queries.js'),
-    SparkleSparkleGo = require('../sparkle-sparkle-go.js'),
-    parseTriples = require('../triN3ty.js'),
+    SparkleSparkleGo = require('../lib/sparkle-sparkle-go.js'),
+    parseTriples = require('../lib/triN3ty.js'),
     markdownParser = require('marked'),
     domify = require('domify'),
     sparql = new SparkleSparkleGo('/sparql/query{?query*}'),
     _ = require('underscore'),
     crc = require('crc'),
-    colour = require('rgb');
+    uris = require('../uris'),
+    colour = require('rgb'),
+    getAnnotatedContent = require('../lib/annotated-content.js');
 
 module.exports = function (ctx, uri){
 
@@ -31,76 +33,91 @@ module.exports = function (ctx, uri){
   // load the discussion...
   sparql
     .query(queries.recommendationDiscussion(uri))
-    .execute(parseTriples(function (err, triples){
-
-      sparql
-        .query(queries.annotatedContent(triples[0].object))
-        .execute(parseTriples(function (err, triples){
-
-          var discussion = _.find(triples, function (triple){
-
-            return triple.predicate === "http://www.w3.org/2011/content#chars";
-
-          });
-
-          discussionSection.appendChild(domify('<p>' + discussion.object + '</p>'));
-
-        }));
-
-
-    }));
+    .execute(parseTriples(processDiscussion.bind(this, discussionSection)));
 
   // load the evidence statements..
   sparql
     .query(queries.relatedEvidenceStatements(uri))
-    .execute(parseTriples(function (err, triples){
+    .execute(parseTriples(processEvidenceStatementList.bind(this, statementList)));
 
-      triples.forEach(function (triple){
+}
 
-        var item = domify('<li>Loading ' + triple.object + '</li>');
-        statementList.appendChild(item);
+function processDiscussion(parent, err, triples){
 
-        sparql
-          .query(queries.annotatedContent(triple.object))
-          .execute(parseTriples(function evidenceStatementDetail(err, triples){
+  getAnnotatedContent(triples[0].object, function(err, chars, triples){
 
-            if (!err){
+    parent.appendChild(domify('<p>' + chars + '</p>'));
 
-              item.innerHTML = "";
+  });
 
-              var title = _.find(triples, function (triple){
+}
 
-                return triple.predicate === "http://www.w3.org/2011/content#chars";
+function processEvidenceStatementList (parent, err, triples){
 
-              });
-              
-              var detail = domify('<h3>' + title.subject + '</h4><p>' + title.object.replace(/�/g, '') + '</p>');
-              item.appendChild(detail);  
+  var references = {};
 
-              // make a colour chart of concepts..
-              _.each(triples, function (triple){
-                
-                if (triple.predicate === "http://www.w3.org/2002/07/owl#SameAs"){
-                  console.log(triple.object);
-                  item.appendChild(
-                    domify(
-                      '<div style =" display: inline-block; background: ' +
-                      colour('hsl(' + new crc.CRC8().update( triple.object ).checksum() + ',50,50)') + 
-                      '">' + triple.object +'</div>'
-                    )
-                  )
+  triples.forEach(function (triple){
 
-                }
+    if (triple.predicate === uris.nice.prefix + "isSupportedBy"){
 
+      var item = domify('<li>Loading ' + triple.object + '</li>');
+      parent.appendChild(item);
 
-              })            
+      var references = _.filter(triples, function (otherTriple){
+        return otherTriple.subject === triple.object;
+      });
 
-            }
+      getAnnotatedContent(triple.object, function (err, text, annotations){
 
-          }))
+        if (!err){
+
+          item.innerHTML = "";
+          item.appendChild(domify('<h3>' + triple.object + '</h4><p>' + text + '</p>'));
+
+          processAnnotateEvidenceStatement(item, references, annotations);
+
+        } else {
+
+          item.innerHTML = "<p>Error loading!</p>";
+
+        }
 
       });
 
-    }));
+    }
 
+  });
+
+}
+
+function processAnnotateEvidenceStatement (item, references, annotations){
+
+  // get the annotated study text... 
+  _.each(references, function (triple){
+
+    var ref = domify('<p>Loading...</p>');
+    item.appendChild(ref);
+
+    getAnnotatedContent(triple.object, function (err, text, annotations){
+
+      ref.innerHTML = "";
+      ref.appendChild(domify('<cite>' + text + '</cite>'))
+
+    });
+
+  });
+
+  // make a colour chart of concepts..
+  _.each(annotations, function (triple){
+
+    if (triple.predicate === "http://www.w3.org/2002/07/owl#SameAs"){
+
+      item.appendChild(domify(
+        '<div style =" display: inline-block; background: ' +
+        colour('hsl(' + new crc.CRC8().update( triple.object ).checksum() + ',50,50)') + 
+        '">' + triple.object +'</div>'
+      ));
+    }
+
+  });
 }

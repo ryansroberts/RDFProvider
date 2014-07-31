@@ -9,42 +9,67 @@ module.exports = function (ctx, uri){
 
   document.getElementById('output').innerHTML = "";
 
+  var output = document.getElementById('output');
+  var header = domify('<h2>All recommendations for Gastroparesis</h2>');
+  var list = domify('<ul></ul>');
+  var label = domify('<label for="tags">Concept: </label>');
+  var tags = domify('<input name="tags" type="text" list="tags" />');
+  output.appendChild(label);
+  output.appendChild(tags);
+  var dl = domify('<datalist id="tags"/>'); 
+  output.appendChild( dl );
+  output.appendChild( header );
+  output.appendChild( list );
+
   sparql
-    .query(queries.contentMatching('nice:Recommendation','Gastroparesis'))
-    .execute(parseTriples(function (err, triples){
+    .query(queries.tagsForType('nice:Recommendation'))
+    .execute(parseTriples(function (err,tx) {
+        if(!err) {
+            var tagHolder = {};
+            tx.forEach(function (t){
+              tagHolder[t.subject] = t.object; 
+            });
 
-      if (!err){
+            var output = document.getElementById('output');
+            for(var t in tagHolder) {
+                dl.appendChild(domify('<option value=' + tagHolder[t] + ' />'));
+            }
+            tags.addEventListener('change',function (e) {
+                console.log(e);
+                loadRecommendations(e.target.value);
+            });
+        }
+    }));
 
-        var recommendations = {};
+  var loadRecommendations = function (tag) {
+    sparql
+      .query(queries.contentMatching('nice:Recommendation',tag))
+      .execute(parseTriples(function (err, triples){
 
-        triples.forEach(function (triple){
+        if (!err){
 
-          recommendations[triple.subject] = markdownParser(triple.object.replace(/\n\?\s/g, '\n- '));
+          var recommendations = {};
 
-        });
+          triples.forEach(function (triple){
 
-        var output = document.getElementById('output');
-        var header = domify('<h2>All recommendations for Gastroparesis</h2>');
-        var list = domify('<ul></ul>');
+            recommendations[triple.subject] = markdownParser(triple.object.replace(/\n\?\s/g, '\n- '));
 
-        output.appendChild( header );
-        output.appendChild( list );
+          });
 
-        for (var rec in recommendations){
+           for (var rec in recommendations){
 
-          if (recommendations.hasOwnProperty(rec)){
+            if (recommendations.hasOwnProperty(rec)){
 
-            var recommendation = domify('<li><h3>' + rec + '</h3><p>' + recommendations[rec] + '</p></li>');
-            var evidenceStatements = domify('<p><a href="#/evidence-statements/' + rec + '">Investigate the evidence behind this recommendation</a></p>');
+              var recommendation = domify('<li><h3>' + rec + '</h3><p>' + recommendations[rec] + '</p></li>');
+              var evidenceStatements = domify('<p><a href="#/evidence-statements/' + rec + '">Investigate the evidence behind this recommendation</a></p>');
 
-            // append..
-            list.appendChild(recommendation);
-            list.appendChild(evidenceStatements);
+              // append..
+              list.appendChild(recommendation);
+              list.appendChild(evidenceStatements);
 
+            }
           }
         }
-
-      }
-
     }));
+  }
 }

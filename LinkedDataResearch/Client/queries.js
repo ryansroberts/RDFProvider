@@ -19,7 +19,20 @@ var prefixes = concat(
 
 module.exports = {
     tagsForType : function (type) {
-	   return prefixed;
+        return concat(
+            prefixes,
+            'construct {',
+                '?tag owl:sameAs ?cnt',
+            '}',
+            '{',
+                 '?tgt a oa:SpecificResource .',
+                 '?tgt oa:hasSource ?rec .',
+                 '?rec a ' + type + ' .',
+                 '?ann oa:hasTarget ?tgt .',
+                 '?ann oa:hasBody/content:chars ?cnt .',
+                 '?ann oa:hasBody/owl:sameAs ?tag ',
+            '}'
+            );
     },
     annotatedContent : function (individual) {
         return concat(
@@ -55,7 +68,6 @@ module.exports = {
               '?tgt oa:hasSource ?rec .',
               '?rec a ' + type + ' . ',
               '?rec content:chars ?cnt .',
-              '?tgt oa:hasSelector ?sl .',
               '?ann oa:hasTarget ?tgt .',
               '?ann oa:hasBody/content:chars "' + tag + '"',
             '}'

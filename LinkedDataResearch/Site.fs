@@ -32,7 +32,7 @@ open VDS.RDF.Storage
 
 let execSparql q (conn:IQueryableStorage) ctx = 
     use mem = new System.IO.MemoryStream()
-    use writer = new System.IO.StreamWriter(mem)
+    use writer = new System.IO.StreamWriter(mem,System.Text.Encoding.UTF8)
     printf "%s\r\n" q 
     try
         q 

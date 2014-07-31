@@ -34,8 +34,7 @@ module.exports = function (ctx, uri){
             for(var t in tagHolder) {
                 dl.appendChild(domify('<option value=' + tagHolder[t] + ' />'));
             }
-            tags.addEventListener('change',function (e) {
-                console.log(e);
+            tags.addEventListener('change',function (e) {   
                 loadRecommendations(e.target.value);
             });
         }

@@ -38,23 +38,24 @@ module.exports = {
         return concat(
             prefixes, 
             'construct {',
-                uri(individual) + ' content:chars ?cnt .',
-                uri(individual) + ' nice:semanticTag ?tag .',
-                '?tag owl:SameAs ?concept .',
-            '}', 
-            'where {',
-              uri(individual) + ' a content:ContentAsText .',
               uri(individual) + ' content:chars ?cnt .',
-              'optional {',
-                  '?ann oa:hasTarget ' + uri(individual) + ' .',
-                  
-                  '?ann oa:hasBody ?txt .',
-                  '?txt a content:ContentAsText .',
-                  '?txt content:chars ?concept .',
-                  
-                  '?ann oa:hasBody ?tag .',
-              '}',
-           '}'
+              uri(individual) + ' oa:tag ?tag .',
+              '?tag content:chars ?txt .',
+              '?tag oa:hasSelector ?sl .',
+              '?sl oa:start ?st .',
+              '?sl oa:end ?end ',
+            '}',
+            'where {',
+              '?tgt a oa:SpecificResource .',
+              uri(individual) + ' content:chars ?cnt .',
+              '?tgt oa:hasSource ' + uri(individual) + '  .',
+              '?ann oa:hasTarget ?tgt .',
+              '?ann oa:hasBody/content:chars ?txt .',
+              '?ann oa:hasBody/owl:sameAs ?tag .',
+              '?tgt oa:hasSelector ?sl .',
+              '?sl oa:start ?st .',
+              '?sl oa:end ?end .',
+            '}'
         );
     },
     contentMatching : function (type,tag) {

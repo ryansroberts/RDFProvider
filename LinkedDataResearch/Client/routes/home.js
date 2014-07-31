@@ -10,7 +10,7 @@ module.exports = function (ctx, uri){
   document.getElementById('output').innerHTML = "";
 
   var output = document.getElementById('output');
-  var header = domify('<h2>All recommendations for Gastroparesis</h2>');
+  var header = domify('<h2></h2>');
   var list = domify('<ul></ul>');
   var label = domify('<label for="tags">Concept: </label>');
   var tags = domify('<input name="tags" type="text" list="tags" />');
@@ -33,9 +33,12 @@ module.exports = function (ctx, uri){
             var output = document.getElementById('output');
             for(var t in tagHolder) {
                 dl.appendChild(domify('<option value=' + tagHolder[t] + ' />'));
+
             }
             tags.addEventListener('change',function (e) {
                 console.log(e);
+                header.innerHTML = "All recommendations for " + e.target.value;
+                list.innerHTML = "";
                 loadRecommendations(e.target.value);
             });
         }

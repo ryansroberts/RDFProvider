@@ -77,14 +77,20 @@ module.exports = {
         return concat(
             prefixes, 
             'construct {',
-                uri(individual) + ' nice:isSupportedBy ?st ',
+            '<http://nice.org.uk/recommendation/CG87R1.14.3.2> nice:isSupportedBy ?es .',
+            '?es nice:hasReference ?gr',
             '}',
             'WHERE {',
-                uri(individual) + ' nice:isAbout ?t .',
-                '?t a nice:Topic .',
-                uri(individual) + ' a nice:Recommendation .',
-                '?st nice:isAbout ?t .',
-                '?st a nice:EvidenceStatement .',
+            '<http://nice.org.uk/recommendation/CG87R1.14.3.2> nice:isAbout ?t .',
+            '?t a nice:Topic .',
+            '<http://nice.org.uk/recommendation/CG87R1.14.3.2> a nice:Recommendation .',
+            '?es nice:isAbout ?t .',
+            '?es a nice:EvidenceStatement .',
+            'optional {',
+            '?st nice:isSummarisedBy ?es .',
+            '?st a nice:Study .',
+            '?st nice:hasReference ?gr .',
+            '}',
             '}'
         );
 

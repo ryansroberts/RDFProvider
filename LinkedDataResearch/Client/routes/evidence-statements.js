@@ -108,16 +108,13 @@ function processAnnotateEvidenceStatement (item, references, annotations){
   });
 
   // make a colour chart of concepts..
-  _.each(annotations, function (triple){
+  _.each(annotations, function (annotation, uri){
 
-    if (triple.predicate === "http://www.w3.org/2002/07/owl#SameAs"){
-
-      item.appendChild(domify(
-        '<div style =" display: inline-block; background: ' +
-        colour('hsl(' + new crc.CRC8().update( triple.object ).checksum() + ',50,50)') + 
-        '">' + triple.object +'</div>'
-      ));
-    }
+    item.appendChild(domify(
+      '<div style =" display: inline-block; padding:0 10px; background: ' +
+      colour('hsl(' + new crc.CRC8().update( annotation.concept ).checksum() + ',25,25)') + 
+      '"><a style="color:#fff; text-decoration: none;" target="new" href="'+ uri + '">' + annotation.concept +'</a></div>'
+    ));
 
   });
 }

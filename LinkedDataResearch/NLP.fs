@@ -10,6 +10,43 @@ open System
 open System.Security.Cryptography
 open Model
 
+[<Literal>]
+let FreebaseApiKey = "AIzaSyCJkOixp2bajLxnFp_mGWEdHbV7FyZ4sbA"
+
+type pv = FreebaseDataProvider<Key=FreebaseApiKey>
+let freebase = pv.GetDataContext()
+
+let drugBank id = 
+  let r = query {
+        for med in freebase.``Science and Technology``.Medicine.Drugs do
+        where (med.MachineId = id)
+        select med.Drugbank
+        exactlyOneOrDefault
+        }
+  match r with 
+  | null -> None
+  | _ -> Some(r)
+
+let meshCode id = 
+    let r = query { 
+        for med in freebase.``Science and Technology``.Medicine.``Disease or medical conditions`` do
+        where (med.MachineId = id)
+        select med.``MeSH ID`` 
+        exactlyOneOrDefault
+    }
+    match r with 
+    | null -> None
+    | _ -> Some(r)
+
+
+let tryNone f = 
+    (fun x -> 
+        try 
+            f x
+        with
+        | _ -> None  
+)
+ 
 type trResponse = JsonProvider< "./tr.json" >
 
 let folder = ( __SOURCE_DIRECTORY__  + "\\iecache")
@@ -28,7 +65,19 @@ let cacheFile (content) =
     let fn = sprintf "%s\\%s.json" folder (hash content)
     fn
 
-let cacheGet (scope : Scope) text = 
+
+open Nessos.FsPickler
+open Nessos.FsPickler.Json
+
+let cacheGet<'a> k = 
+    ensureCacheDir()
+    let fn = cacheFile (hash k)
+    try
+        let json = FsPickler.CreateJson();
+        Some (json.UnPickleOfString<'a>(File.ReadAllText(fn)))
+    with e -> None
+   
+let cacheGetTextRazor  text = 
     ensureCacheDir()
     let fn = cacheFile text
     try 
@@ -37,12 +86,17 @@ let cacheGet (scope : Scope) text =
     with e -> 
         None
 
-let cacheSet text res = 
+
+let cacheSetTextRazor text res = 
     ensureCacheDir()
-    File.WriteAllText(cacheFile (text),string res)
+    File.WriteAllText(cacheFile (text),res)
+
+let cacheSet<'a> c k  = 
+    let json = FsPickler.CreateJson();
+    File.WriteAllText(cacheFile ((hash k)),json.PickleToString<'a>(c))
 
 let fetch text = 
-    printf "Classifyinice: %s\r\n" text
+    printf "Classify nice: %s\r\n" text
     let s = 
         Http.RequestStream("http://api.textrazor.com/", 
                            body = FormValues [ ("apiKey", "1d89771d5553d95d41202a2b81a13e423d514e8bcce8c30450941103")
@@ -55,11 +109,42 @@ let fetch text =
             trResponse.Load s.ResponseStream
         with _ -> trResponse.GetSample()
 
+let memo f = 
+    let d = new System.Collections.Generic.Dictionary<string,'a>()
+    (fun x ->
+        if not(d.ContainsKey (string x)) then d.[x] <- f x
+        d.[x]
+    )
+
+let drugbankIdsFor c = 
+    let k = c + "drugbank"
+    match cacheGet k with 
+    | Some r -> r
+    | None ->
+        let res = match (tryNone drugBank) c with
+                     | Some(ids) -> Seq.toList ids
+                     | None ->[] 
+        try cacheSet res k with _ -> ()
+        res
+
+
+let _meshCodeFor c =
+    printf "Mesh lookup for: %s\r\n" c 
+    let k = c + "mesh"
+    match cacheGet k with 
+    | Some r -> r
+    | None ->
+        let res = match meshCode c with
+                     | Some(ids) -> Seq.toList ids
+                     | None ->[] 
+        cacheSet res k
+        res
+
 let graphOf (scope : Scope) s = 
-    match cacheGet scope s with
+    match cacheGetTextRazor  s with
     | Some r -> r
     | None -> 
         let res = fetch s
-        cacheSet s res
+        cacheSetTextRazor s (string res)
         res
 

@@ -2,6 +2,8 @@
 #r "../packages/SharpZipLib.0.86.0/lib/20/ICSharpCode.SharpZipLib.dll"
 #r "../packages/FSharp.Data.2.0.8/lib/net40/FSharp.Data.dll"
 #r "../packages/dotNetRDF.1.0.6-prerelease01/lib/net40/dotNetRDF.dll"
+#r "../packages/FsPickler.0.9.9/lib/net45/FsPickler.dll"
+#r "../packages/FsPickler.Json.0.9.9/lib/net45/FsPickler.Json.dll"
 #r "../packages/VDS.Common.1.3.0/lib/net40-client/VDS.Common.dll"
 #r "../OWLTypeProvider.DesignTime/bin/Debug/OWLTypeProvider.DesignTime.dll"
 #load "Excel.fs"
@@ -80,4 +82,5 @@ let processCsv() =
     ttl.Save(g, sprintf "%s/output/%s.ttl" __SOURCE_DIRECTORY__ "Individuals_Annotated")
 
 do processCsv()
+
 

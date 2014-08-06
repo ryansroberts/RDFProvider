@@ -32,7 +32,6 @@ importFromFolder (__SOURCE_DIRECTORY__ ++ "../ontologies/nice" )
 //let connection = Store.connectStarDog  "http://localhost:5820" "Nice"
 
 #load "Generator.fs"
-
 let map = 
     [ ("nice", Schema.Uri "http://nice.org/ontology/")
       ("owl", Schema.Uri "http://www.w3.org/2002/07/owl#") 

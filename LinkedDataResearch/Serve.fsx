@@ -4,6 +4,8 @@
 #r "../packages/dotNetRDF.1.0.6-prerelease01/lib/net40/dotNetRDF.dll"
 #r "../packages/VDS.Common.1.3.0/lib/net40-client/VDS.Common.dll"
 #r "../packages/HtmlAgilityPack.1.4.6/lib/Net40/HtmlAgilityPack.dll"
+#r "../packages/FsPickler.0.9.9/lib/net45/FsPickler.dll"
+#r "../packages/FsPickler.Json.0.9.9/lib/net45/FsPickler.Json.dll"
 #r "../OWLTypeProvider.DesignTime/bin/Debug/OWLTypeProvider.DesignTime.dll"
 #r "../packages/Suave.0.11.0/lib/suave.dll"
 #load "Model.fs"

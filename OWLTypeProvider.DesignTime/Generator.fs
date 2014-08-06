@@ -61,7 +61,7 @@ let rec generate pt c (builder : Schema.Uri -> Schema.Node) =
         let ranges = ProvidedTypeDefinition("Ranges", Some typeof<obj>)
         for uri in node.Ranges do
             ranges.AddMemberDelayed(fun () -> generate pt (Entity.Class(builder uri)) builder) 
-        let pt = node.ProvidedType()
+        let pt = node.ProvidedType ()
         uriProp pt node ObjectProperty
         pt.AddMember <| ranges
         subtypes pt node Entity.ObjectProperty

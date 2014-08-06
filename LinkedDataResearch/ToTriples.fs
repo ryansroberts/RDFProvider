@@ -51,14 +51,8 @@ module Project
                            yield (a,Object.from tag.Uri)
                            yield (a,individual)
                            yield (a,Object.from textContent.Uri)
-                           if (not(System.String.IsNullOrEmpty(e.FreebaseId))) then
-                               for id in (NLP.memo NLP.drugbankIdsFor) e.FreebaseId do
-                                yield (Predicate.from (Owl.Uri("http://www.semanticweb.org/amitchell/ontologies/nice_all#hasDrugBankId")),Object.from id)
-                           
-                               //for wtf in NLP.meshCodeFor e.FreebaseId do
-                                //printf "%s\r\n" wtf
 
-                           yield (Predicate.from (Owl.Uri("http://www.w3.org/2002/07/owl#sameAs")),Object.from((Owl.Uri ("http://rdf.freebase.com/ns/" + e.FreebaseId.Replace("m/","m.")))))
+                           yield (Predicate.from (Owl.Uri("http://www.w3.org/2002/07/owl#sameAs")),Object.from((Owl.Uri ("http://rdf.freebase.com/ns" + e.FreebaseId.Replace("m/","m.")))))
                            yield (Predicate.from chars.Uri,Object.from (string e.EntityId)) 
                         ]
                  

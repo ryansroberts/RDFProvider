@@ -34,7 +34,7 @@ module.exports = function(ctx, uri) {
 
     output.appendChild(statementList);
 
-                      // load the discussion...
+    // load the discussion...
     sparql
         .query(queries.recommendationDiscussion(uri))
         .execute(parseTriples(processDiscussion.bind(this, discussionSection)));
@@ -75,7 +75,7 @@ function processEvidenceStatementList(parent, err, triples) {
                 if (!err) {
 
                     item.innerHTML = "";
-                    item.appendChild(domify('<h3>' + triple.object + '</h4><p>' + spannerify(text,annotations) + '</p>'));
+                    item.appendChild(domify('<h3>' + triple.object + '</h4><p>' + spannerify(text, annotations) + '</p>'));
 
                     processAnnotatedEvidenceStatement(item, references, annotations);
 

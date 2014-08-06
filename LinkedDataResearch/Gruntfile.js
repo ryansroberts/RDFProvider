@@ -38,7 +38,7 @@ module.exports = function(grunt) {
 
     watch: {
       files: ['<%= jshint.files %>'],
-      tasks: ['test']
+      tasks: ['browserify']
     },
 
     // run the mocha tests in the browser via PhantomJS

@@ -1,14 +1,22 @@
 var queries = require('../queries.js'),
-    SparkleSparkleGo = require('./sparkle-sparkle-go.js'),
+    domify = require('domify'),
+    SparkleSparkleGo = require('../lib/sparkle-sparkle-go.js'),
+    n3 = require('n3'),
     parseTriples = require('./triN3ty.js'),
+    crc = require('crc'),
     uris = require('../uris.js'),
+    colour = require('rgb'),
+    _ = require('underscore'),
     sparql = new SparkleSparkleGo('/sparql/query{?query*}'),
-    _ = require('underscore');
+    lambda = require('functional.js');
 
-module.exports = function (individual, fn){
-  
-  sparql
-    .query(queries.annotatedContent(individual))
+function parseXMLInt (stupidString){
+  return parseInt(stupidString.match(/"([0-9]+)"/)[1], 10);
+}
+
+function loadAnnotatedContent (uri,fn) {
+    sparql
+    .query(queries.annotatedContent(uri))
     .execute(parseTriples(function (err, triples){
 
       var text = _.find(triples, function (triple){
@@ -54,26 +62,37 @@ module.exports = function (individual, fn){
 
         });
 
-      });
+         var drugbankIds = _.filter(triples,function(t){
+             return t.subject === triple.subject && t.predicate === uris.nice.prefix + "hasDrugBankId";
+         });
+          
+         var meshId = _.filter(triples,function(t){
+             return t.subject === triple.subject && t.predicate === uris.nice.prefix + "hasMeshId";
+         })
 
-      console.log(concepts);
+
+          concepts[triple.subject].drugbank = [];
+          _.each(drugbankIds,function(t){
+              concepts[triple.subject].drugbank.push(String.prototype.match.call(t.object,/"(.*?)"/)[0].replace("\"",""));
+          });
+        
+          concepts[triple.subject].mesh = [];
+          _.each(meshId,function(t){
+              concepts[triple.subject].mesh.push(String.prototype.match.call(t.object,/"(.*?)"/)[0].replace("\"",""));
+          });
+ 
+      });
 
       if (!err){
 
-        fn (false, text.object || "", concepts);
+          if(!text) {fn(false,"",concepts);}
+          else fn (false, text.object || "", concepts);
 
       } else {
 
         fn (err);
-
       }
-
     }))
+};
 
-}
-
-function parseXMLInt (stupidString){
-
-  return parseInt(stupidString.match(/"([0-9]+)"/)[1], 10);
-
-}
+module.exports = loadAnnotatedContent;

@@ -1,10 +1,10 @@
 var uris = require('./uris.js');
 
-var concat = function(arr) {
+var concat = function (arr) {
     return Array.prototype.join.call(arguments,'\r\n')
 };
 
-var uri = function(s) {
+var uri = function (s) {
     return '<' + s +  '>';
 };
 
@@ -43,7 +43,9 @@ module.exports = {
               '?tag owl:sameAs ?txt .',
               '?tag oa:hasSelector ?sl .',
               '?sl oa:start ?st .',
-              '?sl oa:end ?end ',
+              '?sl oa:end ?end .',
+              '?tag nice:hasMeshId ?mesh .',
+              '?tag nice:hasDrugBankId ?db .',
             '}',
             'where {',
               '?tgt a oa:SpecificResource .',
@@ -55,6 +57,8 @@ module.exports = {
               '?tgt oa:hasSelector ?sl .',
               '?sl oa:start ?st .',
               '?sl oa:end ?end .',
+              'optional {?tag nice:hasMeshId ?mesh}  .',
+              'optional {?tag nice:hasDrugBankId ?db}  .',
             '}'
         );
     },

@@ -43,18 +43,14 @@ function listFor(annotation) {
 function annotationKey(uri, annotation) {
     var k = "key_" + new crc.CRC8().update(uri).checksum();
     if (document.getElementById(k)) return;
-
-
    
     var li = document.getElementById(listFor(annotation)).appendChild(domify(
         '<li id="' + k + '" style =" display: inline-block; padding:0 10px; background: ' + conceptColor(uri, annotation.concept) + '"></li>'
     ));
 
-    console.table(annotation);
-
     var freebaseUri = uri.replace("http://rdf.freebase.com/ns/m.", "http://freebase.com/m/");
 
-    li.appendChild(domify('<a style="color:#fff; text-decoration: none;" target="new" href="' + freebaseUri + '">' + annotation.concept + '</a>'))
+    li.appendChild(domify('<a style="color:#fff; text-decoration: none;" target="new" href="' + freebaseUri + '">' + annotation.concept ))
 
     var meshUri = 'http://www.nlm.nih.gov/cgi/mesh/2011/MB_cgi?field=uid&term=';
 

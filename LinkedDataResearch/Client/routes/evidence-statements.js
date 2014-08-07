@@ -13,6 +13,7 @@ var queries = require('../queries.js'),
 
 module.exports = function(ctx, uri) {
 
+
     var output = document.getElementById('output')
 
     output.innerHTML = "";
@@ -34,7 +35,7 @@ module.exports = function(ctx, uri) {
 
     output.appendChild(statementList);
 
-                      // load the discussion...
+    // load the discussion...
     sparql
         .query(queries.recommendationDiscussion(uri))
         .execute(parseTriples(processDiscussion.bind(this, discussionSection)));
@@ -56,9 +57,11 @@ function processDiscussion(parent, err, triples) {
 
 }
 
+
 function processEvidenceStatementList(parent, err, triples) {
 
     var references = {};
+mul
 
     var processStatement = function(triple) {
         if (triple.predicate === uris.nice.prefix + "isSupportedBy") {
@@ -70,12 +73,13 @@ function processEvidenceStatementList(parent, err, triples) {
                 return otherTriple.subject === triple.object;
             }, triples);
 
+
             getAnnotatedContent(triple.object, function(err, text, annotations) {
 
                 if (!err) {
 
                     item.innerHTML = "";
-                    item.appendChild(domify('<h3>' + triple.object + '</h4><p>' + spannerify(text,annotations) + '</p>'));
+                    item.appendChild(domify('<h3>' + triple.object + '</h4><p>' + spannerify(text, annotations) + '</p>'));
 
                     processAnnotatedEvidenceStatement(item, references, annotations);
 

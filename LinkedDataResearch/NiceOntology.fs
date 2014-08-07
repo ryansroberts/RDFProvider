@@ -18,13 +18,10 @@ module NiceOntology
               
     let assertTriples = LinkedData.assertTriples server store "admin" "admin" nsmap
 
-
-
     type nice = LinkedData.Stardog<server, store, ontologyRoot, nsmap>
     //type owl = LinkedData.File<owlLocation,"http://www.w3.org/2000/01/rdf-schema#class","owl:http://www.w3.org/2002/07/owl#">
 
     type thing = nice.``owl:Thing``
-
     type guideline = thing.``nice:Guideline``
     type topic = thing.``nice:Topic``
     type isAbout = thing.ObjectProperties.``nice:isAbout`` 

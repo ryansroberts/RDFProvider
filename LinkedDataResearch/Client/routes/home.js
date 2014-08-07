@@ -3,6 +3,7 @@ var queries = require('../queries.js'),
     parseTriples = require('../lib/triN3ty.js'),
     markdownParser = require('marked'),
     spannerify = require('../lib/spannerify.js'),
+    lambda = require('functional.js'),
     annotatedcontent = require('../lib/annotated-content.js'),
     domify = require('domify'),
     sparql = new SparkleSparkleGo('/sparql/query{?query*}');
@@ -53,33 +54,44 @@ module.exports = function(ctx, uri) {
             }
         }));
 
+    function loadInteractions(uri,interactions) {
+        sparql.query(queries.interactionsForUris([uri]))
+            .execute(parseTriples(function(err, tx) {
+                if (!err) {
+                    lambda.each(function(t){
+                        interactions.appendChild(domify('<li>' + t.object + '</li>'));
+                    },tx);
+                }
+            }));
+    }
+
+
     function loadRecommendations(tag) {
         sparql
             .query(queries.contentMatching('nice:Recommendation', tag))
             .execute(parseTriples(function(err, triples) {
 
                 if (!err) {
-
                     var recommendations = {};
 
                     triples.forEach(function(triple) {
-
                         recommendations[triple.subject] = markdownParser(triple.object.replace(/\n\?\s/g, '\n- '));
-
                     });
 
                     for (var rec in recommendations) {
-
-
-
                         if (recommendations.hasOwnProperty(rec)) {
                             annotatedcontent(rec, function(err, text, annotations) {
 
                                 var recommendation = domify('<li><h3>' + rec + '</h3><p>' + spannerify(text, annotations) + '</p></li>');
+                                var interactions = domify('<ul class="interactions"></ul>');
+
+                                loadInteractions(rec,interactions);
+
                                 var evidenceStatements = domify('<p><a href="#/evidence-statements/' + rec + '">Investigate the evidence behind this recommendation</a></p>');
 
                                 // append..
                                 list.appendChild(recommendation);
+                                list.appendChild(interactions);
                                 list.appendChild(evidenceStatements);
                             });
 

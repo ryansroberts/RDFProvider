@@ -42,6 +42,30 @@
 
 
 
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#hasAction
+
+:hasAction rdf:type owl:ObjectProperty ;
+           
+           rdfs:range :Action ;
+           
+           rdfs:domain :QualityStatement ;
+           
+           owl:inverseOf :isActionOf .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#hasActionTaker
+
+:hasActionTaker rdf:type owl:ObjectProperty ;
+                
+                rdfs:domain :Action ;
+                
+                rdfs:range :JobRole ;
+                
+                owl:inverseOf :isActionTakerOf .
+
+
+
 ###  http://www.semanticweb.org/amitchell/ontologies/nice_all#hasDenominator
 
 :hasDenominator rdf:type owl:ObjectProperty ;
@@ -195,6 +219,26 @@
          rdfs:range :Topic ;
          
          owl:inverseOf :isTopicOf .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#isActionOf
+
+:isActionOf rdf:type owl:ObjectProperty ;
+            
+            rdfs:domain :Action ;
+            
+            rdfs:range :QualityStatement .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#isActionTakerOf
+
+:isActionTakerOf rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:range :Action ;
+                 
+                 rdfs:domain :JobRole .
 
 
 
@@ -641,6 +685,14 @@
 #################################################################
 
 
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#Action
+
+:Action rdf:type owl:Class ;
+        
+        rdfs:subClassOf <http://www.w3.org/ns/prov#Activity> .
+
+
+
 ###  http://www.semanticweb.org/amitchell/ontologies/nice_all#Denominator
 
 :Denominator rdf:type owl:Class ;
@@ -670,6 +722,14 @@
 :Guideline rdf:type owl:Class ;
            
            rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#JobRole
+
+:JobRole rdf:type owl:Class ;
+         
+         rdfs:subClassOf <http://www.w3.org/ns/prov#Agent> .
 
 
 

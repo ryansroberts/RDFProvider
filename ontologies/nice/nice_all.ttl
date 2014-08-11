@@ -66,6 +66,30 @@
 
 
 
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#hasAuditMeasure
+
+:hasAuditMeasure rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:range :AuditMeasure ;
+                 
+                 rdfs:domain :Recommendation ;
+                 
+                 owl:inverseOf :isAuditMeasureOf .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#hasDataSource
+
+:hasDataSource rdf:type owl:ObjectProperty ;
+               
+               rdfs:domain :AuditMeasure ;
+               
+               rdfs:range :DataSource ;
+               
+               owl:inverseOf :isDataSourceOf .
+
+
+
 ###  http://www.semanticweb.org/amitchell/ontologies/nice_all#hasDenominator
 
 :hasDenominator rdf:type owl:ObjectProperty ;
@@ -184,9 +208,13 @@
               
               rdfs:range :Reference ;
               
-              rdfs:domain :Study ;
+              owl:inverseOf :isReferenceOf ;
               
-              owl:inverseOf :isReferenceOf .
+              rdfs:domain [ rdf:type owl:Class ;
+                            owl:unionOf ( :DataSource
+                                          :Study
+                                        )
+                          ] .
 
 
 
@@ -239,6 +267,26 @@
                  rdfs:range :Action ;
                  
                  rdfs:domain :JobRole .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#isAuditMeasureOf
+
+:isAuditMeasureOf rdf:type owl:ObjectProperty ;
+                  
+                  rdfs:domain :AuditMeasure ;
+                  
+                  rdfs:range :Recommendation .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#isDataSourceOf
+
+:isDataSourceOf rdf:type owl:ObjectProperty ;
+                
+                rdfs:range :AuditMeasure ;
+                
+                rdfs:domain :DataSource .
 
 
 
@@ -380,7 +428,11 @@
                
                rdfs:domain :Reference ;
                
-               rdfs:range :Study .
+               rdfs:range [ rdf:type owl:Class ;
+                            owl:unionOf ( :DataSource
+                                          :Study
+                                        )
+                          ] .
 
 
 
@@ -506,11 +558,23 @@
 #################################################################
 
 
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#date
+
+:date rdf:type owl:DatatypeProperty ;
+      
+      rdfs:range rdfs:Literal ;
+      
+      rdfs:domain <http://www.w3.org/ns/prov#Entity> .
+
+
+
 ###  http://www.semanticweb.org/amitchell/ontologies/nice_all#dateIssued
 
 :dateIssued rdf:type owl:DatatypeProperty ;
             
             rdfs:domain :OutcomesFramework ;
+            
+            rdfs:subPropertyOf :date ;
             
             rdfs:range rdfs:Literal .
 
@@ -521,6 +585,8 @@
 :dateSubmitted rdf:type owl:DatatypeProperty ;
                
                rdfs:domain :SharedLearning ;
+               
+               rdfs:subPropertyOf :date ;
                
                rdfs:range rdfs:Literal .
 
@@ -693,6 +759,24 @@
 
 
 
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#AuditMeasure
+
+:AuditMeasure rdf:type owl:Class ;
+              
+              rdfs:subClassOf :Measure ;
+              
+              owl:disjointWith :QualityMeasure .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#DataSource
+
+:DataSource rdf:type owl:Class ;
+            
+            rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
 ###  http://www.semanticweb.org/amitchell/ontologies/nice_all#Denominator
 
 :Denominator rdf:type owl:Class ;
@@ -730,6 +814,30 @@
 :JobRole rdf:type owl:Class ;
          
          rdfs:subClassOf <http://www.w3.org/ns/prov#Agent> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#JournalArticle
+
+:JournalArticle rdf:type owl:Class ;
+                
+                rdfs:subClassOf :DataSource .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#Measure
+
+:Measure rdf:type owl:Class ;
+         
+         rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#NationalAudit
+
+:NationalAudit rdf:type owl:Class ;
+               
+               rdfs:subClassOf :DataSource .
 
 
 
@@ -773,7 +881,7 @@
 
 :QualityMeasure rdf:type owl:Class ;
                 
-                rdfs:subClassOf <http://www.w3.org/ns/prov#Entity> .
+                rdfs:subClassOf :Measure .
 
 
 
@@ -885,12 +993,13 @@
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :EvidenceStatement
+  owl:members ( :DataSource
+                :EvidenceStatement
                 :Guideline
+                :Measure
                 :OutcomesDomain
                 :OutcomesFramework
                 :OutcomesIndicator
-                :QualityMeasure
                 :QualityStandard
                 :QualityStatement
                 :Question

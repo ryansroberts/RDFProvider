@@ -11,6 +11,7 @@ var queries = require('../queries.js'),
     getAnnotatedContent = require('../lib/annotated-content.js'),
     spannerify = require('../lib/spannerify');
 
+
 module.exports = function(ctx, uri) {
 
 
@@ -61,7 +62,6 @@ function processDiscussion(parent, err, triples) {
 function processEvidenceStatementList(parent, err, triples) {
 
     var references = {};
-mul
 
     var processStatement = function(triple) {
         if (triple.predicate === uris.nice.prefix + "isSupportedBy") {
@@ -80,7 +80,7 @@ mul
 
                     item.innerHTML = "";
                     item.appendChild(domify('<h3>' + triple.object + '</h4><p>' + spannerify(text, annotations) + '</p>'));
-
+                    
                     processAnnotatedEvidenceStatement(item, references, annotations);
 
                 } else {

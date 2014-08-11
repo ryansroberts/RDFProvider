@@ -184,6 +184,7 @@ let typeName (ns : namespaceMappings) (uri : Schema.Uri) =
 
 let nodeUri (n : INode) = Uri(string (n :?> UriNode).Uri)
 
+
 let toStorageTriple (g : Graph) (t : Owl.Triple) = 
     let (s, p, o) = t
     try
@@ -219,7 +220,6 @@ let d = new  System.Collections.Concurrent.ConcurrentDictionary<Schema.Uri,Schem
 let Node (query) (ns : namespaceMappings) (uri : Schema.Uri) = 
     if(d.ContainsKey uri) then d.[uri]
     else 
-        printf "Node Query %s" (string uri)
         let node = {
                     Uri = uri
                     ObjectProperties = [for p in objectProperties uri (query) do yield (nodeUri p,"Doc")]

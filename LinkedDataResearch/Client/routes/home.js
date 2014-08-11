@@ -1,4 +1,5 @@
 var queries = require('../queries.js'),
+    edity = require('../lib/editable.js'),
     SparkleSparkleGo = require('../lib/sparkle-sparkle-go.js'),
     parseTriples = require('../lib/triN3ty.js'),
     markdownParser = require('marked'),
@@ -65,7 +66,6 @@ module.exports = function(ctx, uri) {
             }));
     }
 
-
     function loadRecommendations(tag) {
         sparql
             .query(queries.contentMatching('nice:Recommendation', tag))
@@ -81,8 +81,12 @@ module.exports = function(ctx, uri) {
                     for (var rec in recommendations) {
                         if (recommendations.hasOwnProperty(rec)) {
                             annotatedcontent(rec, function(err, text, annotations) {
+                                
+                                var recommendation = domify('<li><h3>' + rec + '</h3></li>');
+                                recommendation = list.appendChild(recommendation);
+                                var editable =  edity(domify(spannerify(text, annotations)),rec);
+                                recommendation.appendChild(editable);
 
-                                var recommendation = domify('<li><h3>' + rec + '</h3><p>' + spannerify(text, annotations) + '</p></li>');
                                 var interactions = domify('<ul class="interactions"></ul>');
 
                                 loadInteractions(rec,interactions);

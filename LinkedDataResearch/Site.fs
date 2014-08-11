@@ -4,15 +4,20 @@ open NiceOntology
 open VDS.RDF.Query
 open VDS.RDF.Writing
 open VDS.RDF
+open VDS.RDF.Query
+open VDS.RDF.Parsing
+open VDS.RDF.Query
+open VDS.RDF.Update
 
 let format (tw : System.IO.TextWriter) (rx : obj) = 
     match rx with
     | :? SparqlResultSet as rx ->
-        let w = new SparqlRdfWriter()
+        let w = new SparqlRdfWriter ()
         w.Save(rx,tw)
     | :? IGraph as g ->
         let w = CompressingTurtleWriter(3, VDS.RDF.Parsing.TurtleSyntax.W3C) 
         w.Save(g,tw)
+    | _ -> failwith "Unknown result type"
     ()
 
 open Suave
@@ -28,6 +33,7 @@ open Suave.Utils
 open Response
 open Types.Codes
 open VDS.RDF.Storage
+
 
 
 let execSparql q (conn:IQueryableStorage) ctx = 
@@ -52,7 +58,36 @@ let execSparql q (conn:IQueryableStorage) ctx =
             |> succeed
 
 
-let parts conn = 
+
+
+let updateStatement (store:IStorageProvider) (Owl.Uri(s),Owl.Uri(p)) o =
+  let q = new SparqlParameterizedString  ()
+  printfn "%A" (s,p) 
+  q.CommandText <- """
+  delete {
+    ?p ?p ?o
+  }
+  insert {
+   @s @p @o .
+  }
+  where {
+    ?s ?p ?o .
+    FILTER (?s = @s && ?p = @p)
+  }
+  """
+  q.SetUri("s",System.Uri(s))
+  q.SetUri ("p",System.Uri(p))
+
+  q.SetLiteral ("o",string o)
+  q.UpdateProcessor <- GenericUpdateProcessor(store)
+  printfn "%s" (q.ToString())
+  q.ExecuteUpdate()
+
+  ()
+  
+  
+  
+let parts conn store = 
     System.Net.ServicePointManager.DefaultConnectionLimit <- System.Int32.MaxValue
 
 
@@ -71,18 +106,30 @@ let parts conn =
 
     let sparqlQuery : WebPart = url "/sparql/query" 
                                 >>= GET 
-                                >>= queryString (fun qs ctx -> execSparql qs.["query"].Head conn ctx) 
+                                >>= queryString (fun qs ctx -> execSparql qs.["query"].Head conn ctx)
+                                
+    let updateStatement : WebPart = url "/updatecontent"
+                                >>= POST
+                                >>= (fun x -> 
+                                            let f = (form x.request)
+                                            match f ^^ "s",f ^^ "o" with
+                                            | Some(s),Some(o) -> 
+                                                updateStatement store (Owl.Uri s ,textContent.Uri) (o)
+                                                OK "" x
+                                            | _ -> RequestErrors.BAD_REQUEST "" x)
+                                       
 
-    choose [ log (Loggers.sane_defaults_for Debug) log_format >>= never
-             sparqlQuery
-             GET >>= browse
-             RequestErrors.NOT_FOUND "Found no handlers"
-             ]
+    choose [ 
+                 sparqlQuery
+                 updateStatement
+                 GET >>= browse
+                 RequestErrors.NOT_FOUND "Found no handlers"]
 
 let server url db =  
     let connection = (Store.connectStarDog url db) 
-
-    parts (connection()) 
+    let store = (Store.stardogStorage url).GetStore("Nice")
+    
+    parts (connection()) store
         |> web_server { default_config with 
                                        home_folder = Some (__SOURCE_DIRECTORY__ + "\Public")
                                        error_handler    = default_error_handler

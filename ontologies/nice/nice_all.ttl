@@ -159,6 +159,16 @@
 
 
 
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#hasIndicator
+
+:hasIndicator rdf:type owl:ObjectProperty ;
+              
+              rdfs:domain :OutcomesDomain ;
+              
+              rdfs:range :OutcomesIndicator .
+
+
+
 ###  http://www.semanticweb.org/amitchell/ontologies/nice_all#hasMeasure
 
 :hasMeasure rdf:type owl:ObjectProperty ;
@@ -376,6 +386,18 @@
                    rdfs:range :Review ;
                    
                    rdfs:domain :Study .
+
+
+
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#isIndicatorOf
+
+:isIndicatorOf rdf:type owl:ObjectProperty ;
+               
+               rdfs:range :OutcomesDomain ;
+               
+               rdfs:domain :OutcomesIndicator ;
+               
+               owl:inverseOf :hasIndicator .
 
 
 

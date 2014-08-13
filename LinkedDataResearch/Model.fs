@@ -84,7 +84,7 @@ and Reccomendation =
 
 and Study = 
     { Id : Identifier
-      Reference : string }
+      References : string }
 
 and Statement = 
     { Id : Identifier
@@ -118,23 +118,19 @@ and QualityStatement =
       QualityMeasures : QualityMeasure list
     }
 
-and AuditInfoSource = {
-    Id: Identifier
-    SourceName : string
-    InformationType : string
-    Notes : string
-}
+and AuditDataSource = {
+    Id : Identifier
+    Reference : string
+    DataSourceType : string
+    Date : string
 
+}
 and Audit = {
     Id : Identifier
-    Reccomendation : Identifier
-    AuditCriteria : string
-    NumberFulfil : System.Nullable<int>
-    TotalNumber : System.Nullable<int>
-    PercentAchived : decimal
-    Notes : Body
-    AuditInfoSource : AuditInfoSource
-    AuditDate : System.DateTime option
+    Recommendation : Identifier
+    PercentAchieved : decimal
+    AuditMeasureDescription : Body
+    DataSources : AuditDataSource list 
 }
 
 and SharedLearning = {
@@ -154,15 +150,31 @@ and Organisation = {
     Type : string
 }
 
+
+
+and OutcomesFramework = {
+    Id : Identifier
+    Name : string
+    Date : System.DateTimeOffset
+}
+
+and OutcomeIndicator = {
+    Id : Identifier 
+    IndicatorNumber : string
+    Title : string
+    Outcome: string
+}
+
+
+
 and QualityMeasure = {
     Id : Identifier
     Description : Body
     Numerators : Numerator list
     Denominators : Numerator list
 }
-
 and Numerator = {
     Id : Identifier
-    Description : Body
-
+    NumeratorDescription : Body
 }
+

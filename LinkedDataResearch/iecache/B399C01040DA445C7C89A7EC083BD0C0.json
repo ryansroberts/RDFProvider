@@ -1,0 +1,165 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 5,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Fundus photography",
+        "wikiLink": "http://en.wikipedia.org/Fundus_photography",
+        "score": 0.160754
+      },
+      {
+        "id": 1,
+        "label": "Vision",
+        "wikiLink": "http://en.wikipedia.org/Category:Vision",
+        "score": 0.0809734
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Fundus photography",
+        "freebaseTypes": [
+          "/medicine/diagnostic_test"
+        ],
+        "confidenceScore": 1.38662,
+        "wikiLink": "http://en.wikipedia.org/wiki/Fundus_photography",
+        "matchedText": "retinal photography",
+        "freebaseId": "/m/03clkvb",
+        "relevanceScore": 0.160754,
+        "entityEnglishId": "Fundus photography",
+        "startingPos": 25,
+        "endingPos": 44
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Photography",
+        "freebaseTypes": [
+          "/media_common/literary_genre",
+          "/exhibitions/exhibition_subject",
+          "/computer/software_genre",
+          "/book/periodical_subject",
+          "/film/film_subject",
+          "/media_common/media_genre",
+          "/law/invention",
+          "/internet/website_category",
+          "/media_common/netflix_genre",
+          "/media_common/quotation_subject",
+          "/people/profession",
+          "/broadcast/genre",
+          "/business/industry",
+          "/education/field_of_study",
+          "/visual_art/visual_art_medium",
+          "/architecture/type_of_museum",
+          "/interests/interest",
+          "/organization/club_interest",
+          "/book/book_subject",
+          "/award/award_discipline",
+          "/visual_art/visual_art_form",
+          "/interests/hobby",
+          "/organization/organization_sector"
+        ],
+        "confidenceScore": 0.909384,
+        "wikiLink": "http://en.wikipedia.org/wiki/Photography",
+        "matchedText": "photography",
+        "freebaseId": "/m/05wkw",
+        "relevanceScore": 0,
+        "entityEnglishId": "Photography",
+        "startingPos": 33,
+        "endingPos": 44
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              2,
+              3,
+              4
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4
+        ],
+        "propertyPositions": [
+          3
+        ]
+      }
+    ]
+  },
+  "time": 3.01,
+  "ok": true
+}

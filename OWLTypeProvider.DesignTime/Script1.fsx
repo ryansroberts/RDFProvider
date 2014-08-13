@@ -62,7 +62,6 @@ let rec tokens s =
     
 let calculate s = List.fold apply Calc.cons (tokens s)
 
-let a = for x in a do
 
 let accumulator c =
   match c with 

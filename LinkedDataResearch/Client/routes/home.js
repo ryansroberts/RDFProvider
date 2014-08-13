@@ -47,7 +47,6 @@ module.exports = function(ctx, uri) {
 
                 }
                 tags.addEventListener('change', function(e) {
-                    console.log(e);
                     header.innerHTML = "All recommendations for " + e.target.value;
                     list.innerHTML = "";
                     loadRecommendations(e.target.value);
@@ -80,12 +79,16 @@ module.exports = function(ctx, uri) {
 
                     for (var rec in recommendations) {
                         if (recommendations.hasOwnProperty(rec)) {
-                            annotatedcontent(rec, function(err, text, annotations) {
-                                
-                                var recommendation = domify('<li><h3>' + rec + '</h3></li>');
+                            function editableRec(text, annotations, recommendation) {
                                 recommendation = list.appendChild(recommendation);
                                 var editable =  edity(domify(spannerify(text, annotations)),rec);
                                 recommendation.appendChild(editable);
+                            }
+
+                            annotatedcontent(rec, function(err, text, annotations) {
+                                
+                                var recommendation = domify('<li><h3>' + rec + '</h3></li>');
+                                editableRec(text, annotations, recommendation);
 
                                 var interactions = domify('<ul class="interactions"></ul>');
 

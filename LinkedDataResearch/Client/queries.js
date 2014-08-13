@@ -2,7 +2,7 @@ var uris = require('./uris.js'),
     lambda = require('functional.js');
 
 var concat = function(arr) {
-    return Array.prototype.join.call(arguments, '\r\n')
+    return Array.prototype.join.call(arguments, '\r\n');
 };
 
 var uri = function(s) {

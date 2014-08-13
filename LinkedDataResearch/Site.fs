@@ -8,6 +8,7 @@ open VDS.RDF.Query
 open VDS.RDF.Parsing
 open VDS.RDF.Query
 open VDS.RDF.Update
+open Project
 
 let format (tw : System.IO.TextWriter) (rx : obj) = 
     match rx with
@@ -58,14 +59,36 @@ let execSparql q (conn:IQueryableStorage) ctx =
             |> succeed
 
 
+let annotate (store:IStorageProvider) uri content =
+    
+    let q = new SparqlParameterizedString ()
+    q.CommandText <- """
+        delete 
+        where {
+            ?s @p @o
+        }
+    """
 
+    match specificResource.ObjectProperties.``oa:hasSource``.Uri with
+    |Owl.Uri(p) -> q.SetUri("p",System.Uri p)
+    q.SetUri("o",System.Uri(uri))
+    q.UpdateProcessor <-  GenericUpdateProcessor(store)
+
+    let g = new Graph()
+
+    Project.annotate (Model.Scope(uri,[])) content
+        |> List.iter (fun t -> Store.toStorageTriple g t |> ignore)
+    
+    store.LoadGraph(g,null :> System.Uri)
+
+    ()
 
 let updateStatement (store:IStorageProvider) (Owl.Uri(s),Owl.Uri(p)) o =
   let q = new SparqlParameterizedString  ()
   printfn "%A" (s,p) 
   q.CommandText <- """
   delete {
-    ?p ?p ?o
+    ?s ?p ?o
   }
   insert {
    @s @p @o .
@@ -82,6 +105,8 @@ let updateStatement (store:IStorageProvider) (Owl.Uri(s),Owl.Uri(p)) o =
   q.UpdateProcessor <- GenericUpdateProcessor(store)
   printfn "%s" (q.ToString())
   q.ExecuteUpdate()
+
+  annotate store s o
 
   ()
   
@@ -114,7 +139,7 @@ let parts conn store =
                                             let f = (form x.request)
                                             match f ^^ "s",f ^^ "o" with
                                             | Some(s),Some(o) -> 
-                                                updateStatement store (Owl.Uri s ,textContent.Uri) (o)
+                                                updateStatement store (Owl.Uri s ,chars.Uri) (o)
                                                 OK "" x
                                             | _ -> RequestErrors.BAD_REQUEST "" x)
                                        

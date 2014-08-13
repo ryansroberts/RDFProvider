@@ -67,12 +67,12 @@ module Project
 
     let study (scope : Scope) (st : Model.Study) (t:Owl.Object) = [
         let scope = scope.Enter st.Id
-        let referenceUri = Owl.Uri("guideline:reference#" + (string (NLP.hash st.Reference)))
+        let referenceUri = Owl.Uri("guideline:reference#" + (string (NLP.hash st.References)))
         yield! statementsFor (Subject (referenceUri)) 
             [
                 yield (a,Object.from reference.Uri)
                 yield (a,Object.from textContent.Uri)
-                yield (Predicate.from chars.Uri,Object.from (string st.Reference))
+                yield (Predicate.from chars.Uri,Object.from (string st.References))
             ]
 
         yield! statementsFor (Subject (Owl.Uri (string scope)))
@@ -123,7 +123,6 @@ module Project
         yield! statementsFor (Subject (Owl.Uri (string scope)))
             [ 
                 yield (a,Object.from topic.Uri)
-                yield (a,Object.from textContent.Uri)
                 yield (a,individual)
                 yield (Predicate.from  topic.DataProperties.``nice:subject``.Uri, Object.from (string t.Id))
                 yield (Predicate.from topic.ObjectProperties.``nice:isTopicOf``.Uri,Object.from guidanceScope)
@@ -201,7 +200,7 @@ module Project
                 yield (Predicate.from chars.Uri,Object.from (string statement.Statement))
                 for r in statement.Recommendation do
                     let rScope = Owl.Uri( string (Scope("http://nice.org.uk/recommendation", [r])))
-                    yield (Predicate.from qualityStatement.ObjectProperties.``nice:isUnderPinnedBy``.Uri,Object.from rScope)
+                    yield (Predicate.from isunderPinnedBy.Uri ,Object.from rScope)
             ] 
         
         for m in statement.QualityMeasures do
@@ -222,7 +221,7 @@ module Project
                     yield (a,Object.from numerator.Uri)
                     yield (a,individual)
                     yield (a,Object.from textContent.Uri)
-                    yield (Predicate.from chars.Uri,Object.from (string n.Description))
+                    yield (Predicate.from chars.Uri,Object.from (string n.NumeratorDescription))
                     yield (Predicate.from numerator.ObjectProperties.``nice:hasMeasure``.Uri, Object.from (Owl.Uri(string nscope)))
                 ]
             for n in m.Denominators do
@@ -233,7 +232,7 @@ module Project
                     yield (a,Object.from denominator.Uri)
                     yield (a,individual)
                     yield (a,Object.from textContent.Uri)
-                    yield (Predicate.from chars.Uri,Object.from (string n.Description))
+                    yield (Predicate.from chars.Uri,Object.from (string n.NumeratorDescription))
                     yield (Predicate.from denominator.ObjectProperties.``nice:hasMeasure``.Uri, Object.from (Owl.Uri(string nscope)))
                 ]
     ]
@@ -276,10 +275,33 @@ module Project
                     yield (Predicate.from sharedLearning.ObjectProperties.``nice:hasGeoSetting``.Uri,Object.from uri)   
                 for r in s.Recommendations do
                     let rscope = Owl.Uri (string (Scope("http://nice.org.uk/recommendation",[r])))
-                    yield (Predicate.from sharedLearning.ObjectProperties.``nice:isImplementedBy``.Uri,Object.from rscope)
+                    yield (Predicate.from sharedLearning.ObjectProperties.``nice:implements``.Uri,Object.from rscope)
             ]
     ]
 
+    let audit (audit:Model.Audit) = [
+        let scope = Scope("http://nice.org.uk/audit",[audit.Id])
+        yield! statementsFor(Subject (Owl.Uri(string scope)))
+            [
+                yield (a,Object.from auditMeasure.Uri)
+                yield (a,individual)
+                yield (a,Object.from textContent.Uri)
+                yield (Predicate.from chars.Uri,Object.from (string audit.AuditMeasureDescription))
+               
+            ]
+      
+        for ds in audit.DataSources do
+            let dScope = Scope("http://nice.org.uk/datasources",[ds.Id]) 
+            yield! statementsFor(Subject (Owl.Uri(string dScope)))
+                [
+                    yield (a,individual)
+                    match ds.DataSourceType with 
+                    | "National Audit" -> yield (a,Object.from nationalAudit.Uri)
+                    | "Journal Article" -> yield (a,Object.from journalArticle.Uri) 
+                    yield (Predicate.from chars.Uri,Object.from (string ds.Reference))
+                   
+                ]
+    ]
 
 
 

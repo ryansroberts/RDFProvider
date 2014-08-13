@@ -101,30 +101,17 @@
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/nice_all#hasExcludedStudy
+
 :hasExcludedStudy rdf:type owl:ObjectProperty ;
                   
                   rdfs:domain :Review ;
                   
                   rdfs:range :Study .
 
-###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#isImplementedBy
-:isImplementedBy rdf:type owl:ObjectProperty ;
 
-							rdfs:domain :Recommendation ;
-                                                                                                   
-                            rdfs:range :SharedLearning ;
-                                                                                                   
-                            owl:inverseOf :isImplementedBy .	
-
-###  http://www.semanticweb.org/adesimone/ontologies/2014/5/sharedlearning#implements
-:implements rdf:type owl:ObjectProperty ;
-							rdfs:range :Recommendation ;
-                                                                                                   
-                            rdfs:domain :SharedLearning ;
-                                                                                                   
-                            owl:inverseOf :isImplementedBy .	
 
 ###  http://www.semanticweb.org/amitchell/ontologies/nice_all#hasGeoSetting
+
 :hasGeoSetting rdf:type owl:ObjectProperty ;
                
                rdfs:domain :SharedLearning ;
@@ -202,6 +189,17 @@
          rdfs:range <http://www.w3.org/ns/prov#Entity> .
 
 
+###  http://www.semanticweb.org/amitchell/ontologies/nice_all#hasPart
+:isPartOf rdf:type owl:ObjectProperty ;
+         
+         owl:inverseOf :hasPart ;
+         
+         rdfs:domain <http://www.w3.org/ns/prov#Entity> ;
+         
+         rdfs:range <http://www.w3.org/ns/prov#Entity> .
+
+
+
 
 ###  http://www.semanticweb.org/amitchell/ontologies/nice_all#hasQuestion
 
@@ -266,10 +264,20 @@
 ###  http://www.semanticweb.org/amitchell/ontologies/nice_all#isAbout
 
 :isAbout rdf:type owl:ObjectProperty ;
-         
-         rdfs:range :Topic ;
-         
-         owl:inverseOf :isTopicOf .
+ 
+    rdfs:range :Topic ;
+    rdfs:domain [ rdf:type owl:Class ;
+                        owl:unionOf ( :Discussion
+                                      :EvidenceStatement
+                                      :Guideline
+                                      :Question
+                                      :Recommendation
+                                    )
+    ] ;
+    
+
+    owl:inverseOf :isTopicOf .
+    
 
 
 
@@ -428,6 +436,9 @@
 ###  http://www.semanticweb.org/amitchell/ontologies/nice_all#isPartOf
 
 :isPartOf rdf:type owl:ObjectProperty ;
+
+    owl:inverseOf :hasPart;
+    
           
           rdfs:range <http://www.w3.org/ns/prov#Entity> ;
           
@@ -454,15 +465,6 @@
                rdfs:range :Topic ;
                
                owl:inverseOf :hasRationale .
-
-:isSummarisedBy rdf:type owl:ObjectProperty ;
-                                                                                       
-                                                                                       rdfs:domain :Study ;
-                                                                                       
-                                                                                       rdfs:range :EvidenceStatement ;
-																						
-																					   owl:inverseOf :summarises .
-
 
 
 
@@ -492,13 +494,11 @@
 
 ###  http://www.semanticweb.org/amitchell/ontologies/nice_all#isSummarisedBy
 
-:summarises rdf:type owl:ObjectProperty ;
-                                                                                   
-                                                                                   rdfs:range :EvidenceStatement ;
-                                                                                   
-                                                                                   rdfs:domain :Study ;
-
-																				   owl:inverseOf :isSummarisedBy .
+:isSummarisedBy rdf:type owl:ObjectProperty ;
+                
+                rdfs:range :EvidenceStatement ;
+                
+                rdfs:domain :Study .
 
 
 
@@ -517,6 +517,8 @@
 :isTopicOf rdf:type owl:ObjectProperty ;
            
            rdfs:domain :Topic ;
+
+    owl:inverseOf :isAbout;
            
            rdfs:range [ rdf:type owl:Class ;
                         owl:unionOf ( :Discussion
@@ -535,7 +537,12 @@
                  
                  rdfs:domain :QualityStatement ;
                  
+    owl:inverseOf :underpins;
+    
+                 
                  rdfs:range :Recommendation .
+
+
 
 
 
@@ -594,22 +601,6 @@
                 rdfs:domain :SharedLearning .
 
 
-:underpins rdf:type owl:ObjectProperty ;
-           
-           rdfs:domain :Recommendation ;
-           
-           rdfs:range :QualityStatement ;
-
-		   owl:inverseOf :isUnderPinnedBy .
-
-:isUnderPinnedBy rdf:type owl:ObjectProperty ;
-           
-           rdfs:range :Recommendation ;
-           
-           rdfs:domain :QualityStatement ;
-
-		   owl:inverseOf :underpins .
-
 
 
 
@@ -618,6 +609,11 @@
 #    Data properties
 #
 #################################################################
+
+:percentAchieved rdf:type owl:DatatypeProperty ;
+    rdfs:range :AuditMeasure;
+    rdfs:domain xsd:decimal.    
+    
 
 
 ###  http://www.semanticweb.org/amitchell/ontologies/nice_all#date
@@ -1082,4 +1078,3 @@
 
 
 ###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
-

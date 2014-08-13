@@ -18,7 +18,7 @@ function spannerify(content, annotations) {
 
         annotationKey(an,annotations[an]);
 
-        for(var i = start;i != end + 1;i++){
+        for(var i = start;i != end;i++){
             style += '.annotated' + chk + ' .char' + i + '{ border-bottom: solid ' + conceptColor(an,annotations[an].concept) + ' 2px; }\r\n'; 
         }
     }

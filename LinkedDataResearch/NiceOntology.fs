@@ -24,8 +24,8 @@ module NiceOntology
     type thing = nice.``owl:Thing``
     type guideline = thing.``nice:Guideline``
     type topic = thing.``nice:Topic``
-    type isAbout = thing.ObjectProperties.``nice:isAbout`` 
-    type hasRationale = topic.ObjectProperties.``nice:hasRationale``
+    type isAbout =  thing.``nice:Topic``.InRangeOf.``nice:isAbout``
+    type hasRationale = thing.``nice:Rationale``.InRangeOf.``nice:hasRationale``
     type rationale = thing.``nice:Rationale`` 
     type question = thing.``nice:Question``
     type isImplementedBy = thing.``prov:Entity``.ObjectProperties.``nice:isImplementedBy``
@@ -47,6 +47,7 @@ module NiceOntology
     type sharedLearning = thing.``nice:SharedLearning``
     type organisation = thing.``nice:Organisation``
     type discussion = thing.``nice:Discussion``
+    type isunderPinnedBy = thing.ObjectProperties.``nice:isUnderpinnedBy``
 
     //Annotations 
     type semanticTag = thing.``oa:Tag``.``oa:SemanticTag``
@@ -59,6 +60,16 @@ module NiceOntology
     type textPosition = thing.``oa:TextPositionSelector``
     type startPos = thing.``oa:Selector``.DataProperties.``oa:start``
     type endPos = thing.``oa:Selector``.DataProperties.``oa:end``
+    
+    type outcomesFramework = thing.``nice:OutcomesFramework``
+    type outcomesIndicator = thing.``nice:OutcomesIndicator``
+    type outcomesDomain = thing.``nice:OutcomesDomain``
+
+
+    type auditMeasure = thing.``nice:AuditMeasure``
+    type nationalAudit = thing.``nice:DataSource``.``nice:NationalAudit``
+    type journalArticle = thing.``nice:DataSource``.``nice:JournalArticle``
+
 
     
 

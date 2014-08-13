@@ -15,7 +15,7 @@ var queries = require('../queries.js'),
 module.exports = function(ctx, uri) {
 
 
-    var output = document.getElementById('output')
+    var output = document.getElementById('output');
 
     output.innerHTML = "";
 
@@ -32,7 +32,7 @@ module.exports = function(ctx, uri) {
 
     output.appendChild(discussionSection);
 
-    output.appendChild(domify('<h4>Evidence statements</h4>'))
+    output.appendChild(domify('<h4>Evidence statements</h4>'));
 
     output.appendChild(statementList);
 

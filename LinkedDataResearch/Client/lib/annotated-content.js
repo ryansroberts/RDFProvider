@@ -86,7 +86,7 @@ function loadAnnotatedContent (uri,fn) {
       if (!err){
 
           if(!text) {fn(false,"",concepts);}
-          else fn (false, text.object || "", concepts);
+          else fn (false, n3.Util.getLiteralValue(text.object) || "", concepts);
 
       } else {
 

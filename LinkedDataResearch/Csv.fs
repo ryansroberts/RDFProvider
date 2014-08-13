@@ -41,9 +41,13 @@ module Csv =
     
     type QualityStatementToReccomendation = CsvProvider< "input/QualityStandard/QSToRecMap.csv" >
     
-    type Audit = CsvProvider< "input/Audit/Audit.csv" >
+    type AuditDataSource = CsvProvider< "input/Audit/AuditDataSource.csv" >
     
-    type AuditInfoSource = CsvProvider< "input/Audit/AuditInfoSource.csv" >
+    type AuditDataSourceMap = CsvProvider< "input/Audit/AuditDataSourceMap.csv" >
+    
+    type AuditMeasure = CsvProvider< "input/Audit/AuditMeasure.csv" >
+    
+    type AuditToRecMap = CsvProvider< "input/Audit/AuditToRecMap.csv" >
     
     type Organisation = CsvProvider< "input/SharedLearning/Organisation.csv" >
     
@@ -70,7 +74,7 @@ module Import =
     
     let csvfile t = 
         let fn = (__SOURCE_DIRECTORY__ + "/input/" + t + ".csv")
-        new StreamReader(File.OpenRead(fn),System.Text.Encoding.UTF8,true)
+        new StreamReader(File.OpenRead(fn), System.Text.Encoding.UTF8, true)
     
     let guidelines = Csv.Guideline.Load(csvfile "Guideline&Evidence/Guideline")
     let esToStudyMap = Csv.EStoStudyMap.Load(csvfile "Guideline&Evidence/EStoStudyMap")
@@ -93,8 +97,10 @@ module Import =
     let qualityMeasureToNumerator = Csv.QualityMeasureToNumerator.Load(csvfile "QualityStandard/QM to NUM map")
     let numerators = Csv.Numerator.Load(csvfile "QualityStandard/Numerator")
     let denominators = Csv.Numerator.Load(csvfile "QualityStandard/Denominator")
-    let audit = Csv.Audit.Load(csvfile "Audit/Audit")
-    let auditInfoSource = Csv.AuditInfoSource.Load(csvfile "Audit/AuditInfoSource")
+    let auditDataSource = Csv.AuditDataSource.Load(csvfile "Audit/AuditDataSource")
+    let auditDataSourceMap = Csv.AuditDataSourceMap.Load(csvfile "Audit/AuditDataSourceMap")
+    let auditMeasure = Csv.AuditMeasure.Load(csvfile "Audit/AuditMeasure")
+    let auditToRecMap = Csv.AuditToRecMap.Load(csvfile "Audit/AuditToRecMap")
     let organisation = Csv.Organisation.Load(csvfile "SharedLearning/Organisation")
     let sharedLearning = Csv.SharedLearning.Load(csvfile "SharedLearning/SharedLearning")
     let slearning = Csv.SLearning.Load(csvfile "SharedLearning/SLearning")
@@ -108,7 +114,7 @@ module Import =
           for r in sm.Filter(fun s -> s.``Evidence statement GUID`` = id).Rows do
               for r2 in sx.Filter(fun s -> s.``Study GUID`` = r.``Study GUID``).Rows do
                   yield { Id = Identifier r2.``Study GUID``
-                          Reference = r2.Reference } ]
+                          References = r2.Reference } ]
     
     let loadStatements id = 
         [ let sx = evidenceStatements
@@ -172,15 +178,16 @@ module Import =
     let loadNumerators id = 
         [ for e in qualityMeasureToNumerator.Filter(fun r -> r.``Quality Measure GUID`` = id).Rows do
               let numerator = numerators.Filter(fun r -> r.``Numerator GUID`` = e.``Numerator GUID``).Rows |> Seq.head
-              yield { Id = Identifier numerator.``Numerator GUID``
-                      Description = Body numerator.``Numerator Description`` } ]
+              let id = Identifier numerator.``Numerator GUID``
+              let desc = Body numerator.``Numerator Description``
+              yield { Id = id;NumeratorDescription = desc } ]
     
     let loadDenominators id = 
         [ for e in qualityMeasureToDenominator.Filter(fun r -> r.``Quality Measure GUID`` = id).Rows do
-              let denominator = 
-                  denominators.Filter(fun r -> r.``Numerator GUID`` = e.``Denominator GUID``).Rows |> Seq.head
-              yield { Id = Identifier denominator.``Numerator GUID``
-                      Description = Body denominator.``Numerator Description`` } ]
+              let denominator =   denominators.Filter(fun r -> r.``Numerator GUID`` = e.``Denominator GUID``).Rows |> Seq.head
+              let id = Identifier denominator.``Numerator GUID``
+              let desc = Body denominator.``Numerator Description``
+              yield { Id = id;NumeratorDescription = desc } ]
     
     let loadQualityMeasures id = 
         [ for m in qualityStatementToQualityMeasures.Filter(fun r -> r.``Quality Statement GUID`` = id).Rows do
@@ -205,24 +212,22 @@ module Import =
                       Subject = qstd.Subject
                       Statements = loadQualityStatements qstd.``Quality Standard ID`` } ]
     
-    let loadInfoSource id = 
-        let is = (auditInfoSource.Filter(fun a -> a.AuditInfoSourceID = id).Rows |> Seq.head)
-        { Id = Identifier(string is.AuditInfoSourceID)
-          SourceName = is.SourceName
-          InformationType = is.InformationType
-          Notes = is.Notes }
+    let loadAuditDataSource id = 
+        [ for m in auditDataSourceMap.Filter((fun r -> r.``Audit ID`` = id)).Rows do
+              for d in auditDataSource.Filter((fun r -> m.DataSource = r.AuditDataSourceID)).Rows do
+                  yield { Id = Identifier(d.AuditDataSourceID)
+                          Reference = d.Reference
+                          DataSourceType = d.DataSourceType
+                          Date = d.Date } ]
     
-    let loadAudit = 
-        [ for a in audit.Rows do
-              yield { Id = Identifier(string a.``Audit ID``)
-                      Reccomendation = Identifier a.``Recommendation GUID``
-                      AuditCriteria = a.AuditCriteria
-                      NumberFulfil = a.NumberFulfill
-                      TotalNumber = a.TotalNumber
-                      PercentAchived = a.PercentAchiev
-                      Notes = Body a.Notes
-                      AuditInfoSource = loadInfoSource a.AuditInfoSourceID
-                      AuditDate = a.AuditDate } ]
+    let loadAuditMeasures = 
+        [ for a in auditMeasure.Rows do
+              let reco = auditToRecMap.Filter((fun r -> r.``Audit ID`` = a.``Audit ID``)).Rows |> Seq.head
+              yield { Id = Identifier(a.``Audit ID``)
+                      Recommendation = Identifier reco.Recommendation
+                      DataSources = loadAuditDataSource a.``Audit ID``
+                      AuditMeasureDescription = Body a.AuditMeasureDescription
+                      PercentAchieved = System.Decimal.Parse(a.``Percentage Achieved``.Replace("%", "")) } ]
     
     let loadOrganisations = 
         [ for o in organisation.Rows do

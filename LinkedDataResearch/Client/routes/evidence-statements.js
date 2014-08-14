@@ -52,7 +52,8 @@ function processDiscussion(parent, err, triples) {
 
     getAnnotatedContent(triples[0].object, function(err, chars, annotations) {
 
-        parent.appendChild(domify('<p>' + spannerify(chars, annotations) + '</p>'));
+        var p = parent.appendChild(domify('<p>' + spannerify(chars, annotations) + '</p>'));
+
 
     });
 

@@ -18,7 +18,7 @@
   "noempty": true,
   "nonew": true,
   "quotmark": true,
-  "strict": false,
+  "strict": true,
   "trailing": true,
   "undef": true,
   "node": true,
@@ -32,6 +32,9 @@
     "beforeEach": true,
     "describe": true,
     "it": true,
-    "mocha": true
+    "mocha": true,
+    "window" : true,
+    "document" : true,
+    "require" : true
   }
 }

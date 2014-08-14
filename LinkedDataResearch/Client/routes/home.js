@@ -51,6 +51,7 @@ module.exports = function(ctx, uri) {
                     list.innerHTML = "";
                     loadRecommendations(e.target.value);
                 });
+
             }
         }));
 
@@ -59,7 +60,12 @@ module.exports = function(ctx, uri) {
             .execute(parseTriples(function(err, tx) {
                 if (!err) {
                     lambda.each(function(t){
-                        interactions.appendChild(domify('<li>' + t.object + '</li>'));
+                        if(t.predicate === "http://purl.org/dc/terms/")
+                        {
+                            var txt =  markdownParser(t.object.replace(/\n\?\s/g, '\n- '));
+
+                            interactions.appendChild(domify('<li style="color:red">' + txt  + '</li>'));
+                        }
                     },tx);
                 }
             }));
@@ -103,6 +109,7 @@ module.exports = function(ctx, uri) {
                             });
 
                         }
+
                     }
                 }
             }));

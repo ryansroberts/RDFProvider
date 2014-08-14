@@ -1,6 +1,8 @@
 var annotatedContent = require('./annotated-content.js'),
     domify = require('domify'),
-    spannerify = require('./spannerify.js');
+    spannerify = require('./spannerify.js'),
+    shiny = require('./shiny.js');
+
 
 
 
@@ -28,7 +30,7 @@ function editable(element, uri) {
 
             r.send(m);
         }
-    });
+    });  
 
     return element;
 }

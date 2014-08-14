@@ -1,5 +1,11 @@
 ﻿namespace global
 
+
+module Json = 
+    open FSharp.Data
+
+
+
 module Csv = 
     open FSharp.Data
     

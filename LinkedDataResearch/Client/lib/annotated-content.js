@@ -19,6 +19,9 @@ function loadAnnotatedContent (uri,fn) {
     .query(queries.annotatedContent(uri))
     .execute(parseTriples(function (err, triples){
 
+      require('../lib/shiny.js')(document.body,triples);
+
+
       var text = _.find(triples, function (triple){
 
         return triple.predicate === uris.cnt.prefix + uris.cnt.chars;

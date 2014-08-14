@@ -44,7 +44,8 @@ module.exports = {
             '?ann oa:hasBody/owl:sameAs ?tag .',
             '?tag nice:hasDrugBankId ?db . ',
             'BIND(IRI(CONCAT("http://bio2rdf.org/drugbank:",STR(?db))) as ?dburi) .',
-            '?interaction <http://bio2rdf.org/drugbank_vocabulary:Drug-Drug-Interaction> ?dburi .',
+            '?interaction <http://bio2rdf.org/drugbank_vocabulary:Drug-Drug-Interaction> ?dburi1,?dburi2 .',
+            'filter(?dburi1=?dburi && ?dburi != ?dburi2)',
             '?interaction <http://purl.org/dc/terms/title> ?title .',
             'FILTER(?item in (' + uriList(uris) + '))',
             '}'

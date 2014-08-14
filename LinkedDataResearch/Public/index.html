@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Linked data demonstrator</title>
+    <title>Linked data demonstrator</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="description" content="">
@@ -24,17 +24,27 @@
     <meta name="msapplication-TileColor" content="#fafafb">
     <meta name="msapplication-TileImage" content="../Content/nice/favicon-144.png">
     <style>
-      .annotationhover {
-      border-radius: 10px;
-      display: none;
-      opacity: 0.9;
-      padding: 10px;
-      z-index: 100;
-      }
-      .annotation_hover_link:hover + span {
-    display: inline;
-      }
-      
+        .annotationhover {
+            border-radius: 10px;
+            display: none;
+            opacity: 0.9;
+            padding: 10px;
+            z-index: 100;
+        }
+        .annotation_hover_link:hover + span {
+            display: inline;
+        }
+        .render {
+            height: 100%;
+            width: 100%;
+            color: #cccccc;
+            background: white;
+            position: absolute;
+            top: 0;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
     </style>
 </head>
 
@@ -43,7 +53,10 @@
         <header>
             <h1>Linked Data</h1>
         </header>
-        <section id="output"></section>
+        <section id="output">
+
+        </section>
+        <div id="visualise" class="render" style="display:none" />
         <script type="text/javascript" src="/Scripts/build.js"></script>
     </div>
 </body>

@@ -1,0 +1,287 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.444027
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.362284
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.350367
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.245618
+      },
+      {
+        "id": 5,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.192837
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Death",
+        "wikiLink": "http://en.wikipedia.org/Death",
+        "score": 0.344973
+      },
+      {
+        "id": 1,
+        "label": "Disease",
+        "wikiLink": "http://en.wikipedia.org/Disease",
+        "score": 0.317001
+      },
+      {
+        "id": 2,
+        "label": "Preterm birth",
+        "wikiLink": "http://en.wikipedia.org/Preterm_birth",
+        "score": 0.42593
+      },
+      {
+        "id": 3,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders",
+        "score": 0.94778
+      },
+      {
+        "id": 4,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.334595
+      },
+      {
+        "id": 5,
+        "label": "Fields of application of statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_application_of_statistics",
+        "score": 0.239509
+      },
+      {
+        "id": 6,
+        "label": "Demographics",
+        "wikiLink": "http://en.wikipedia.org/Category:Demographics",
+        "score": 0.230766
+      },
+      {
+        "id": 7,
+        "label": "Statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistics",
+        "score": 0.21889
+      },
+      {
+        "id": 8,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.208351
+      },
+      {
+        "id": 9,
+        "label": "Cultural spheres of influence",
+        "wikiLink": "http://en.wikipedia.org/Category:Cultural_spheres_of_influence",
+        "score": 0.206533
+      },
+      {
+        "id": 10,
+        "label": "Demography",
+        "wikiLink": "http://en.wikipedia.org/Category:Demography",
+        "score": 0.206533
+      },
+      {
+        "id": 11,
+        "label": "Public economics",
+        "wikiLink": "http://en.wikipedia.org/Category:Public_economics",
+        "score": 0.205621
+      },
+      {
+        "id": 12,
+        "label": "Population",
+        "wikiLink": "http://en.wikipedia.org/Category:Population",
+        "score": 0.205621
+      },
+      {
+        "id": 13,
+        "label": "Sociology",
+        "wikiLink": "http://en.wikipedia.org/Category:Sociology",
+        "score": 0.144693
+      },
+      {
+        "id": 14,
+        "label": "Branches of sociology (interdisciplinary)",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_sociology_(interdisciplinary)",
+        "score": 0.144693
+      },
+      {
+        "id": 15,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0331405
+      },
+      {
+        "id": 16,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0137891
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Preterm birth",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.13539,
+        "wikiLink": "http://en.wikipedia.org/wiki/Preterm_birth",
+        "matchedText": "premature",
+        "freebaseId": "/m/027hpx",
+        "relevanceScore": 0.42593,
+        "entityEnglishId": "Preterm birth",
+        "startingPos": 8,
+        "endingPos": 17
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Death",
+        "freebaseTypes": [
+          "/visual_art/art_subject",
+          "/film/film_subject",
+          "/exhibitions/exhibition_subject",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 0.960112,
+        "wikiLink": "http://en.wikipedia.org/wiki/Death",
+        "matchedText": "mortality",
+        "freebaseId": "/m/0294j",
+        "relevanceScore": 0.344973,
+        "entityEnglishId": "Death",
+        "startingPos": 18,
+        "endingPos": 27
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Respiratory disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.88564,
+        "wikiLink": "http://en.wikipedia.org/wiki/Respiratory_disease",
+        "matchedText": "respiratory disease",
+        "freebaseId": "/m/08nhwb",
+        "relevanceScore": 0.0507694,
+        "entityEnglishId": "Respiratory disease",
+        "startingPos": 33,
+        "endingPos": 52
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 2.45395,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.317001,
+        "entityEnglishId": "Disease",
+        "startingPos": 45,
+        "endingPos": 52
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          5
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

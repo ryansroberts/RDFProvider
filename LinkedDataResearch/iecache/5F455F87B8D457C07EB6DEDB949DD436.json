@@ -1,0 +1,251 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.451564
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.438015
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.409075
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.252406
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.231866
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Gastrointestinal perforation",
+        "wikiLink": "http://en.wikipedia.org/Gastrointestinal_perforation",
+        "score": 0.277091
+      },
+      {
+        "id": 1,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.325718
+      },
+      {
+        "id": 2,
+        "label": "Perforation",
+        "wikiLink": "http://en.wikipedia.org/Perforation",
+        "score": 0.209742
+      },
+      {
+        "id": 3,
+        "label": "Vomiting",
+        "wikiLink": "http://en.wikipedia.org/Vomiting",
+        "score": 0.346983
+      },
+      {
+        "id": 4,
+        "label": "Digestive diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Digestive_diseases",
+        "score": 0.149839
+      },
+      {
+        "id": 5,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0673178
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Gastrointestinal perforation",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.71352,
+        "wikiLink": "http://en.wikipedia.org/wiki/Gastrointestinal_perforation",
+        "matchedText": "Gastric perforation",
+        "freebaseId": "/m/06hw8z",
+        "relevanceScore": 0.277091,
+        "entityEnglishId": "Gastrointestinal perforation",
+        "startingPos": 0,
+        "endingPos": 19
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Perforation",
+        "confidenceScore": 1.27279,
+        "wikiLink": "http://en.wikipedia.org/wiki/Perforation",
+        "matchedText": "perforation",
+        "freebaseId": "/m/01qrgy",
+        "relevanceScore": 0.104871,
+        "entityEnglishId": "Perforation",
+        "startingPos": 8,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Vomiting",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.12837,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vomiting",
+        "matchedText": "vomiting",
+        "freebaseId": "/m/012qjw",
+        "relevanceScore": 0.346983,
+        "entityEnglishId": "Vomiting",
+        "startingPos": 45,
+        "endingPos": 53
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.9036,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patient",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.162859,
+        "entityEnglishId": "Patient",
+        "startingPos": 103,
+        "endingPos": 110
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.70486,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.162859,
+        "entityEnglishId": "Patient",
+        "startingPos": 134,
+        "endingPos": 142
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Perforation",
+        "confidenceScore": 1.02888,
+        "wikiLink": "http://en.wikipedia.org/wiki/Perforation",
+        "matchedText": "perforation",
+        "freebaseId": "/m/01qrgy",
+        "relevanceScore": 0.104871,
+        "entityEnglishId": "Perforation",
+        "startingPos": 175,
+        "endingPos": 186
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          30,
+          31,
+          32
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              28,
+              29
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              33,
+              34,
+              35,
+              36
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          21,
+          22,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26
+        ]
+      }
+    ]
+  },
+  "time": 0.321,
+  "ok": true
+}

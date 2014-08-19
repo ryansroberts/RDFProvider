@@ -1,4 +1,6 @@
 #r "..\\packages\\dotNetRDF.1.0.6-prerelease01\\lib\\net40\\dotNetRDF.dll"
+#r "..\\packages\\FunScript.1.1.50\\lib\\net40\\FunScript.dll"
+#r "..\\packages\\FunScript.1.1.50\\lib\\net40\\FunScript.Interop.dll"
 #r "..\\packages\\HtmlAgilityPack.1.4.6\\lib\\Net45\\HtmlAgilityPack.dll"
 #r "..\\packages\\Newtonsoft.Json.6.0.3\\lib\\net45\\Newtonsoft.Json.dll"
 #r "..\\packages\\PerfUtil.0.1.5\\lib\\net40\\PerfUtil.dll"

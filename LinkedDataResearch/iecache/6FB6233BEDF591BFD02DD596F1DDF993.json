@@ -1,0 +1,259 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.598424
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.559581
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.555726
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.345295
+      },
+      {
+        "id": 5,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.29953
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Disease",
+        "wikiLink": "http://en.wikipedia.org/Disease",
+        "score": 0.340289
+      },
+      {
+        "id": 1,
+        "label": "Experience",
+        "wikiLink": "http://en.wikipedia.org/Experience",
+        "score": 0.277207
+      },
+      {
+        "id": 2,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Health_care",
+        "score": 0.270576
+      },
+      {
+        "id": 3,
+        "label": "Mental disorder",
+        "wikiLink": "http://en.wikipedia.org/Mental_disorder",
+        "score": 0.166143
+      },
+      {
+        "id": 4,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.612385
+      },
+      {
+        "id": 5,
+        "label": "Social problems",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_problems",
+        "score": 0.468138
+      },
+      {
+        "id": 6,
+        "label": "Social policy",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_policy",
+        "score": 0.436085
+      },
+      {
+        "id": 7,
+        "label": "Social issues",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_issues",
+        "score": 0.394233
+      },
+      {
+        "id": 8,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.0901169
+      },
+      {
+        "id": 9,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders",
+        "score": 0.0901169
+      },
+      {
+        "id": 10,
+        "label": "Philosophy",
+        "wikiLink": "http://en.wikipedia.org/Category:Philosophy_by_period",
+        "score": 0.0901169
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Experience",
+        "freebaseTypes": [
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.73986,
+        "wikiLink": "http://en.wikipedia.org/wiki/Experience",
+        "matchedText": "experience",
+        "freebaseId": "/m/01rhgl",
+        "relevanceScore": 0.277207,
+        "entityEnglishId": "Experience",
+        "startingPos": 8,
+        "endingPos": 18
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Health care",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/organization/organization_sector",
+          "/food/tea_type",
+          "/people/professional_field",
+          "/education/field_of_study",
+          "/government/government_service",
+          "/business/industry",
+          "/exhibitions/exhibition_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.32928,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_care",
+        "matchedText": "healthcare",
+        "freebaseId": "/m/01mw2x",
+        "relevanceScore": 0.270576,
+        "entityEnglishId": "Health care",
+        "startingPos": 22,
+        "endingPos": 32
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Mental disorder",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/media_common/quotation_subject",
+          "/medicine/disease",
+          "/book/book_subject",
+          "/radio/radio_subject",
+          "/people/cause_of_death",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.21242,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mental_disorder",
+        "matchedText": "mental illness",
+        "freebaseId": "/m/04x4r",
+        "relevanceScore": 0.166143,
+        "entityEnglishId": "Mental disorder",
+        "startingPos": 49,
+        "endingPos": 63
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.07443,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "illness",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.340289,
+        "entityEnglishId": "Disease",
+        "startingPos": 56,
+        "endingPos": 63
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2,
+          4
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          1,
+          2,
+          4
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

@@ -34,7 +34,12 @@ let processCsv() =
           for a in Import.loadAuditMeasures do
               yield! Project.audit a 
           for s in Import.loadSharedLearning do
-              yield! Project.sharedLearning s]
+              yield! Project.sharedLearning s 
+          for i in Import.loadOutcomesFramework do
+              yield! Project.outcomeFramework i
+          for i in Import.loadOutcomeIndicators do
+              yield! Project.outcomeIndicator i  
+         ]
     
     let g = new VDS.RDF.Graph()
     g.NamespaceMap.AddNamespace("guidelines", Uri "http://nice.org.uk/guidelines/")

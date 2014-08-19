@@ -3,14 +3,13 @@ var uris = require('./uris.js'),
     app = new Router;
 
 
-
 app
-  .route('/evidence-statements/*')
-    .on('activate', require('./routes/evidence-statements.js') )
-  .route('/')
-    .on('activate', require('./routes/home.js') )
-  .route('')
-    .on('activate', function (){
-      app.navigateTo('/');      
+    .route('/evidence-statements/*')
+    .on('activate', require('./routes/evidence-statements.js'))
+    .route('/')
+    .on('activate', require('./routes/home.js'))
+    .route('')
+    .on('activate', function() {
+        app.navigateTo('/');
     })
-  .listen();
+    .listen();

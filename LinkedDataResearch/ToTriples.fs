@@ -304,5 +304,48 @@ module Project
     ]
 
 
+    let outcomeFramework (o:Model.OutcomeFramework) = [
+        let scope = Scope("http://nice.org.uk/outcomesframework",[o.Id])
+        yield! statementsFor(Subject (Owl.Uri(string scope)))
+            [
+                yield (a,individual)
+                yield (a,Object.from outcomesFramework.Uri)
+                yield (Predicate.from outcomesFramework.DataProperties.``nice:title``.Uri,Object.from o.FrameworkName)
+                yield (Predicate.from outcomesFramework.DataProperties.``nice:dateIssued``.Uri,Object.from (new System.DateTimeOffset( o.Date)))
+                
+            ] 
+        for d in o.Domains do 
+           
+            let dscope =  Scope("http://nice.org.uk/outcomesdomain",[d.Id])
+            yield! statementsFor(Subject (Owl.Uri(string dscope)))
+                [
+                    yield (a,individual)
+                    yield (a,Object.from outcomesDomain.Uri)
+                    
+                    yield (Predicate.from outcomesFramework.DataProperties.``nice:title``.Uri,Object.from d.Title)
+                    yield (a,Object.from textContent.Uri)
+                    yield (Predicate.from chars.Uri,Object.from (string d.Objective))
+                    for i in d.Indicators do
+                        yield (Predicate.from outcomesDomain.ObjectProperties.``nice:hasIndicator``.Uri,Object.from (Owl.Uri("http://nice.org.uk/outcomeindicator/" + (string i))))
+                ]
+    ]
+
+    let outcomeIndicator (o:Model.Outcomeindicator) = [
+      let scope = Scope("http://nice.org.uk/outcomeindicator",[o.Id])
+      yield! statementsFor(Subject (Owl.Uri(string scope)))
+            [
+                
+                yield (a,individual)
+                yield (a,Object.from outcomesFramework.Uri)
+                
+                yield (Predicate.from outcomesFramework.DataProperties.``nice:title``.Uri,Object.from o.Title)
+                
+                yield (a,Object.from textContent.Uri)
+                yield (Predicate.from chars.Uri,Object.from (string o.OutcomeSought))
+
+                for qs in o.QualityStandards do
+                    yield (Predicate.from outcomesIndicator.ObjectProperties.``nice:hasMeasure``.Uri,Object.from (Owl.Uri("http://nice.org.uk/qualitystandard/" + (string qs))))
+            ]
+     ]
 
     

@@ -1,0 +1,137 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Quality of life (healthcare)",
+        "wikiLink": "http://en.wikipedia.org/Quality_of_life_(healthcare)",
+        "score": 0.894439
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "entityId": "Quality of life (healthcare)",
+        "confidenceScore": 1.3392,
+        "wikiLink": "http://en.wikipedia.org/wiki/Quality_of_life_(healthcare)",
+        "matchedText": "health-related quality of life",
+        "freebaseId": "/m/05n_fjn",
+        "relevanceScore": 0.108903,
+        "entityEnglishId": "Quality of life (healthcare)",
+        "startingPos": 9,
+        "endingPos": 39
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          2,
+          3,
+          4
+        ],
+        "entityId": "Quality of life (healthcare)",
+        "confidenceScore": 1.80924,
+        "wikiLink": "http://en.wikipedia.org/wiki/Quality_of_life_(healthcare)",
+        "matchedText": "quality of life",
+        "freebaseId": "/m/05n_fjn",
+        "relevanceScore": 0.785536,
+        "entityEnglishId": "Quality of life (healthcare)",
+        "startingPos": 24,
+        "endingPos": 39
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3,
+          5
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3,
+          5
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          2,
+          3,
+          5
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          2,
+          3,
+          5
+        ],
+        "propertyPositions": [
+          6
+        ]
+      }
+    ]
+  },
+  "time": 0.31,
+  "ok": true
+}

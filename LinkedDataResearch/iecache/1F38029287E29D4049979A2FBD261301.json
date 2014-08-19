@@ -1,0 +1,256 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.898531
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.766607
+      },
+      {
+        "id": 3,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.49174
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.473011
+      },
+      {
+        "id": 5,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.40755
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Battery (electricity)",
+        "wikiLink": "http://en.wikipedia.org/Battery_(electricity)",
+        "score": 0.210246
+      },
+      {
+        "id": 1,
+        "label": "Case series",
+        "wikiLink": "http://en.wikipedia.org/Case_series",
+        "score": 0.238679
+      },
+      {
+        "id": 2,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0879749
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Battery (electricity)",
+        "freebaseTypes": [
+          "/law/invention",
+          "/award/ranked_item",
+          "/business/product_category"
+        ],
+        "confidenceScore": 1.10807,
+        "wikiLink": "http://en.wikipedia.org/wiki/Battery_(electricity)",
+        "matchedText": "Battery",
+        "freebaseId": "/m/01c0z",
+        "relevanceScore": 0.210246,
+        "entityEnglishId": "Battery (electricity)",
+        "startingPos": 0,
+        "endingPos": 7
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.69362,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Patient",
+        "startingPos": 78,
+        "endingPos": 86
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Case series",
+        "confidenceScore": 1.09686,
+        "wikiLink": "http://en.wikipedia.org/wiki/Case_series",
+        "matchedText": "case series",
+        "freebaseId": "/m/02rtzqf",
+        "relevanceScore": 0.238679,
+        "entityEnglishId": "Case series",
+        "startingPos": 94,
+        "endingPos": 105
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.69362,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Patient",
+        "startingPos": 113,
+        "endingPos": 121
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6,
+          7,
+          8,
+          15
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              11,
+              13,
+              14,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              23,
+              24
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6,
+          7,
+          8,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              11,
+              13,
+              14,
+              20,
+              21,
+              23,
+              24
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          23,
+          24
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          23,
+          24
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

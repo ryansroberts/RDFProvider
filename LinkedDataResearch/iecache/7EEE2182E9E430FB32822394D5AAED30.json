@@ -1,0 +1,606 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.66829
+      },
+      {
+        "id": 2,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.668234
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.341533
+      },
+      {
+        "id": 4,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.337703
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.332049
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Crossover study",
+        "wikiLink": "http://en.wikipedia.org/Crossover_study",
+        "score": 0.262776
+      },
+      {
+        "id": 1,
+        "label": "Standard deviation",
+        "wikiLink": "http://en.wikipedia.org/Standard_deviation",
+        "score": 0.158348
+      },
+      {
+        "id": 2,
+        "label": "Statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistics",
+        "score": 0.330711
+      },
+      {
+        "id": 3,
+        "label": "Mathematical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_sciences",
+        "score": 0.330711
+      },
+      {
+        "id": 4,
+        "label": "Probability and statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Probability_and_statistics",
+        "score": 0.330711
+      },
+      {
+        "id": 5,
+        "label": "Mathematical and quantitative methods (economics)",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_and_quantitative_methods_(economics)",
+        "score": 0.330711
+      },
+      {
+        "id": 6,
+        "label": "Data management",
+        "wikiLink": "http://en.wikipedia.org/Category:Data_management",
+        "score": 0.058834
+      },
+      {
+        "id": 7,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.0551093
+      },
+      {
+        "id": 8,
+        "label": "Statistical terminology",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistical_terminology",
+        "score": 0.0551093
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Crossover study",
+        "confidenceScore": 1.41071,
+        "wikiLink": "http://en.wikipedia.org/wiki/Crossover_study",
+        "matchedText": "crossover trial",
+        "freebaseId": "/m/0bqsgd",
+        "relevanceScore": 0.262776,
+        "entityEnglishId": "Crossover study",
+        "startingPos": 2,
+        "endingPos": 17
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Standard deviation",
+        "confidenceScore": 3.98692,
+        "wikiLink": "http://en.wikipedia.org/wiki/Standard_deviation",
+        "matchedText": "standard deviation",
+        "freebaseId": "/m/06w22",
+        "relevanceScore": 0.158348,
+        "entityEnglishId": "Standard deviation",
+        "startingPos": 113,
+        "endingPos": 131
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Deviation (statistics)",
+        "confidenceScore": 0.923104,
+        "wikiLink": "http://en.wikipedia.org/wiki/Deviation_(statistics)",
+        "matchedText": "deviation",
+        "freebaseId": "/m/0281rk5",
+        "relevanceScore": 0.0732666,
+        "entityEnglishId": "Deviation (statistics)",
+        "startingPos": 122,
+        "endingPos": 131
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6,
+          53
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              18,
+              19,
+              21,
+              23,
+              25,
+              26,
+              27,
+              28,
+              30,
+              31,
+              33,
+              34,
+              35,
+              37,
+              39,
+              40,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              50,
+              51,
+              54,
+              55,
+              56,
+              58,
+              59,
+              61,
+              62,
+              63,
+              65,
+              67,
+              68,
+              70
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          53
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              18,
+              19,
+              21,
+              23,
+              25,
+              26,
+              27,
+              28,
+              30,
+              31,
+              33,
+              34,
+              35,
+              37,
+              39,
+              40,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              50,
+              51,
+              54,
+              55,
+              56,
+              58,
+              59,
+              61,
+              62,
+              63,
+              65,
+              67,
+              68,
+              70
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          19,
+          25
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          19,
+          25
+        ],
+        "propertyPositions": [
+          21,
+          23
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          35
+        ],
+        "propertyPositions": [
+          34
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          30,
+          33
+        ],
+        "propertyPositions": [
+          34,
+          35,
+          37,
+          39,
+          40
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          45,
+          46,
+          47
+        ],
+        "propertyPositions": [
+          44
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          45,
+          46,
+          47
+        ],
+        "propertyPositions": [
+          48,
+          50,
+          51
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          30,
+          33
+        ],
+        "propertyPositions": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          50,
+          51
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          26,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          30,
+          31,
+          33,
+          34,
+          35,
+          37,
+          39,
+          40,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          50,
+          51
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          19,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27,
+          28,
+          30,
+          31,
+          33,
+          34,
+          35,
+          37,
+          39,
+          40,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          50,
+          51
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          18,
+          19,
+          21,
+          23,
+          25,
+          26,
+          27,
+          28,
+          30,
+          31,
+          33,
+          34,
+          35,
+          37,
+          39,
+          40,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          50,
+          51
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          7,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          21,
+          23,
+          25,
+          26,
+          27,
+          28,
+          30,
+          31,
+          33,
+          34,
+          35,
+          37,
+          39,
+          40,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          50,
+          51
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          54,
+          55,
+          61
+        ],
+        "propertyPositions": [
+          56,
+          58,
+          59
+        ]
+      },
+      {
+        "id": 16,
+        "wordPositions": [
+          63
+        ],
+        "propertyPositions": [
+          62
+        ]
+      },
+      {
+        "id": 17,
+        "wordPositions": [
+          63
+        ],
+        "propertyPositions": [
+          65
+        ]
+      },
+      {
+        "id": 18,
+        "wordPositions": [
+          54,
+          55,
+          61
+        ],
+        "propertyPositions": [
+          62,
+          63,
+          65
+        ]
+      }
+    ]
+  },
+  "time": 0.329,
+  "ok": true
+}

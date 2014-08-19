@@ -610,6 +610,12 @@
 #
 #################################################################
 
+:indicatorNumber rdf:type owl:DataTypeProperty ;
+    rdfs:range :OutcomesIndicator ;
+    rdfs:domain rdfs:Literal .
+    
+
+
 :percentAchieved rdf:type owl:DatatypeProperty ;
     rdfs:range :AuditMeasure;
     rdfs:domain xsd:decimal.    
@@ -792,6 +798,8 @@
        rdfs:domain [ rdf:type owl:Class ;
                      owl:unionOf ( :Guideline
                                    :OutcomesFramework
+                                   :OutcomesIndicator
+                                   :OutcomesDomain
                                    :QualityStandard
                                    :QualityStatement
                                    :Recommendation

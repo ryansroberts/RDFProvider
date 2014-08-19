@@ -1,5 +1,8 @@
 ﻿module Model
 
+
+
+
 type Identifier(s : string) = 
     member x.S = s
     override x.ToString() = x.S
@@ -150,23 +153,6 @@ and Organisation = {
     Type : string
 }
 
-
-
-and OutcomesFramework = {
-    Id : Identifier
-    Name : string
-    Date : System.DateTimeOffset
-}
-
-and OutcomeIndicator = {
-    Id : Identifier 
-    IndicatorNumber : string
-    Title : string
-    Outcome: string
-}
-
-
-
 and QualityMeasure = {
     Id : Identifier
     Description : Body
@@ -178,3 +164,24 @@ and Numerator = {
     NumeratorDescription : Body
 }
 
+and OutcomeFramework = {
+    Id : Identifier
+    Date :  System.DateTime
+    FrameworkName : string 
+    Domains : OutcomeDomain list
+}
+
+and OutcomeDomain = {
+    Id : Identifier
+    Title : string
+    Objective : string
+    Indicators : Identifier list
+}
+
+and Outcomeindicator ={
+    Id  : Identifier 
+    IndicatorNumber : string
+    Title : string
+    OutcomeSought : string
+    QualityStandards : Identifier list
+}

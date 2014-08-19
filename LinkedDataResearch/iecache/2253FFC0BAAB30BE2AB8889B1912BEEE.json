@@ -1,0 +1,191 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.353646
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.353646
+      },
+      {
+        "id": 3,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.353646
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.353646
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.282434
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Death",
+        "wikiLink": "http://en.wikipedia.org/Death",
+        "score": 0.285811
+      },
+      {
+        "id": 1,
+        "label": "Preterm birth",
+        "wikiLink": "http://en.wikipedia.org/Preterm_birth",
+        "score": 0.491898
+      },
+      {
+        "id": 2,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders",
+        "score": 0.177507
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Preterm birth",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.27347,
+        "wikiLink": "http://en.wikipedia.org/wiki/Preterm_birth",
+        "matchedText": "premature",
+        "freebaseId": "/m/027hpx",
+        "relevanceScore": 0.491898,
+        "entityEnglishId": "Preterm birth",
+        "startingPos": 8,
+        "endingPos": 17
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Death",
+        "freebaseTypes": [
+          "/visual_art/art_subject",
+          "/film/film_subject",
+          "/exhibitions/exhibition_subject",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.02785,
+        "wikiLink": "http://en.wikipedia.org/wiki/Death",
+        "matchedText": "mortality",
+        "freebaseId": "/m/0294j",
+        "relevanceScore": 0.285811,
+        "entityEnglishId": "Death",
+        "startingPos": 18,
+        "endingPos": 27
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Health care",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/organization/organization_sector",
+          "/food/tea_type",
+          "/people/professional_field",
+          "/education/field_of_study",
+          "/government/government_service",
+          "/business/industry",
+          "/exhibitions/exhibition_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.2984,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_care",
+        "matchedText": "health care",
+        "freebaseId": "/m/01mw2x",
+        "relevanceScore": 0,
+        "entityEnglishId": "Health care",
+        "startingPos": 52,
+        "endingPos": 63
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  "time": 0.314,
+  "ok": true
+}

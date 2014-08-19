@@ -1,0 +1,74 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Broadcaster",
+          "TelevisionStation"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "A\u0026E (TV channel)",
+        "freebaseTypes": [
+          "/tv/tv_network",
+          "/film/film_distributor",
+          "/tv/tv_producer",
+          "/organization/organization",
+          "/award/award_nominee",
+          "/media_common/netflix_genre",
+          "/award/award_winner"
+        ],
+        "confidenceScore": 2.05807,
+        "wikiLink": "http://en.wikipedia.org/wiki/A\u0026E_(TV_channel)",
+        "matchedText": "A\u0026E",
+        "freebaseId": "/m/02dp08",
+        "relevanceScore": 0,
+        "entityEnglishId": "A\u0026E (TV channel)",
+        "startingPos": 32,
+        "endingPos": 35
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  "time": 0.307,
+  "ok": true
+}

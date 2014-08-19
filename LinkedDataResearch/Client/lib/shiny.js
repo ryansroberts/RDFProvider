@@ -4,8 +4,8 @@ var domify = require('domify'),
     lambda = require('functional.js');
 
 
-function conceptColor(uri, text) {
-    return colour('hsl(' + new crc.CRC8().update(text).checksum() + ',' +  new crc.CRC8().update(uri).checksum() % 50 + ',50)');
+function conceptColor(uri) {
+    return colour('hsl(' + new crc.CRC8().update(uri).checksum() + ',80,80)');
 }
 
 
@@ -18,7 +18,6 @@ function shinybutton(element, triples) {
         var graph = require('ngraph.graph')();
         graph.beginUpdate();
         lambda.each(function(t) {
-            console.log(t);
             graph.addNode(t.subject, t.object);
             graph.addLink(t.subject, t.object, t.predicate);
         }, triples);
@@ -35,25 +34,37 @@ function shinybutton(element, triples) {
             if(node.links)
                 connected = node.links.length
 
-            var nodeGeometry = new graphics.THREE.SphereGeometry(connected * 4);
-            var nodeMaterial = new graphics.THREE.MeshPhongMaterial({
-                color: conceptColor(node.id || "magic",node.data || "socks")
+            var nodeGeometry = new graphics.THREE.TextGeometry(node.id,{size:12,font:'optimer'});
+            var nodeMaterial = new graphics.THREE.MeshBasicMaterial({
+                color: conceptColor(node.id || "magic",node.data || "socks"),
+                overdraw: true
+                
             });
             return new graphics.THREE.Mesh(nodeGeometry, nodeMaterial);
         }
 
-        var links = [];
 
         function linkUI(link) {
             var linkGeometry = new graphics.THREE.Geometry();
             linkGeometry.vertices.push(new graphics.THREE.Vector3(0, 0, 0));
             linkGeometry.vertices.push(new graphics.THREE.Vector3(0, 0, 0));
+            
+            var colour = 0x33333;
+            console.log(link);
+            if(link.id.search("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"))
+                colour = 0x771111;
+
+            if(link.id.search("http://nice.org.uk"))
+                colour = 0x111177;
+
+            if(link.id.search("freebase"))
+                colour = 0x117711;
 
             var linkMaterial = new graphics.THREE.LineBasicMaterial({
-                color: 0x333333
+                color: colour,
+                lineWidth: 2
             });
-            link.color = linkMaterial.color;
-            links.push(link);
+
             return new graphics.THREE.Line(linkGeometry, linkMaterial);
         }
 

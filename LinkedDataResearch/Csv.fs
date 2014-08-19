@@ -1,10 +1,7 @@
 ﻿namespace global
 
-
 module Json = 
     open FSharp.Data
-
-
 
 module Csv = 
     open FSharp.Data
@@ -68,6 +65,16 @@ module Csv =
     type SLToQsMap = CsvProvider< "input/SharedLearning/SLToQsMap.csv" >
     
     type SLToRecMap = CsvProvider< "input/SharedLearning/SLToRecMap.csv" >
+    
+    type OutcomesFramework = CsvProvider< "input/OutcomesFramework/OutcomesFramework.csv" >
+    
+    type OutcomeDomain = CsvProvider< "input/OutcomesFramework/OutcomeDomain.csv" >
+    
+    type OutcomeIndicator = CsvProvider< "input/OutcomesFramework/OutcomeIndicator.csv" >
+    
+    type DomainToIndicatorMap = CsvProvider< "input/OutcomesFramework/DomainToIndicatorMap.csv" >
+    
+    type QSToIndicatorMap = CsvProvider< "input/OutcomesFramework/QSToIndicatorMap.csv" >
 
 module Import = 
     open Excel
@@ -113,6 +120,11 @@ module Import =
     let sltogeo = Csv.SLToGeo.Load(csvfile "SharedLearning/SLtoGeo")
     let sltoOrgmap = Csv.SLToOrgMap.Load(csvfile "SharedLearning/SlToOrgMap")
     let sltoqsmap = Csv.SLToQsMap.Load(csvfile "SharedLearning/SLToQsMap")
+    let outcomesFramework = Csv.OutcomesFramework.Load(csvfile "OutcomesFramework/OutcomesFramework")
+    let outcomeDomain = Csv.OutcomeDomain.Load(csvfile "OutcomesFramework/OutcomeDomain")
+    let outcomeIndicator = Csv.OutcomeIndicator.Load(csvfile "OutcomesFramework/OutcomeIndicator")
+    let domainToIndicatorMap = Csv.DomainToIndicatorMap.Load(csvfile "OutcomesFramework/DomainToIndicatorMap")
+    let qSToIndicatorMap = Csv.QSToIndicatorMap.Load(csvfile "OutcomesFramework/QSToIndicatorMap")
     
     let loadStudy id = 
         [ let sm = esToStudyMap
@@ -149,11 +161,11 @@ module Import =
         |> Seq.map (fun r -> 
                { Id = Identifier r.``Set GUID``
                  Guid = Guid r.``Set GUID``
-                 SetTitle = Title r.Rationale
-                 Discussion = r.Discussion
+                 SetTitle = Title r.``Set rationale``
+                 Discussion = r.``Set discussion``
                  Questions = loadQuestions r.``Set GUID``
                  Statements = loadStatements r.``Set GUID``
-                 Rationale = Rationale r.Rationale })
+                 Rationale = Rationale r.``Set rationale`` })
         |> List.ofSeq
     
     let loadReccomendations id = 
@@ -186,14 +198,17 @@ module Import =
               let numerator = numerators.Filter(fun r -> r.``Numerator GUID`` = e.``Numerator GUID``).Rows |> Seq.head
               let id = Identifier numerator.``Numerator GUID``
               let desc = Body numerator.``Numerator Description``
-              yield { Id = id;NumeratorDescription = desc } ]
+              yield { Id = id
+                      NumeratorDescription = desc } ]
     
     let loadDenominators id = 
         [ for e in qualityMeasureToDenominator.Filter(fun r -> r.``Quality Measure GUID`` = id).Rows do
-              let denominator =   denominators.Filter(fun r -> r.``Numerator GUID`` = e.``Denominator GUID``).Rows |> Seq.head
+              let denominator = 
+                  denominators.Filter(fun r -> r.``Numerator GUID`` = e.``Denominator GUID``).Rows |> Seq.head
               let id = Identifier denominator.``Numerator GUID``
               let desc = Body denominator.``Numerator Description``
-              yield { Id = id;NumeratorDescription = desc } ]
+              yield { Id = id
+                      NumeratorDescription = desc } ]
     
     let loadQualityMeasures id = 
         [ for m in qualityStatementToQualityMeasures.Filter(fun r -> r.``Quality Statement GUID`` = id).Rows do
@@ -254,3 +269,30 @@ module Import =
                       Recommendations = []
                       QualityStatements = []
                       Geo = [] } ]
+    
+    let loadOutcomesDomain id = 
+        [ for d in outcomeDomain.Filter(fun r -> r.``OutcomesFramework ID`` = id).Rows do
+              let indicators = 
+                  [ for i in domainToIndicatorMap.Filter(fun r -> r.``Domain GUID`` = d.``Domain GUID``).Rows -> 
+                        Identifier i.``Indicator GUID`` ]
+              yield { Id = Identifier d.``Domain GUID``
+                      Title = d.``Domain Title``
+                      Objective = d.``Domain Objective``
+                      Indicators = indicators } ]
+    
+    let loadOutcomeIndicators = 
+        [ for i in outcomeIndicator.Rows do
+              yield { Id = Identifier i.``Indicator GUID``
+                      IndicatorNumber = i.``Indicator No.``
+                      Title = i.``Indicator Title``
+                      OutcomeSought = i.``Outcome Sought``
+                      QualityStandards = 
+                          [ for qs in qSToIndicatorMap.Filter(fun r -> r.``Indicator GUID`` = i.``Indicator GUID``).Rows do
+                                yield Identifier qs.``Quality Standard ID`` ] } ]
+    
+    let loadOutcomesFramework = 
+        [ for o in outcomesFramework.Rows do
+              yield { Id = Identifier o.``OutcomesFramework ID``
+                      Date = o.``Date Published``
+                      FrameworkName = o.``Outcomes Framework Name``
+                      Domains = loadOutcomesDomain o.``OutcomesFramework ID`` } ]

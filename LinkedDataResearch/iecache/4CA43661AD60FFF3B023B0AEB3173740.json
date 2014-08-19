@@ -1,0 +1,202 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.52834
+      },
+      {
+        "id": 2,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.52834
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.52834
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Ambulatory care",
+        "wikiLink": "http://en.wikipedia.org/Ambulatory_care",
+        "score": 0.144863
+      },
+      {
+        "id": 1,
+        "label": "Chronic (medicine)",
+        "wikiLink": "http://en.wikipedia.org/Chronic_(medicine)",
+        "score": 0.634115
+      },
+      {
+        "id": 2,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.104743
+      },
+      {
+        "id": 3,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.104743
+      },
+      {
+        "id": 4,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.104743
+      },
+      {
+        "id": 5,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.104743
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Chronic (medicine)",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.35141,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_(medicine)",
+        "matchedText": "chronic",
+        "freebaseId": "/m/0c1dj4",
+        "relevanceScore": 0.634115,
+        "entityEnglishId": "Chronic (medicine)",
+        "startingPos": 39,
+        "endingPos": 46
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Ambulatory",
+        "confidenceScore": 1.0691,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ambulatory",
+        "matchedText": "ambulatory",
+        "freebaseId": "/m/04sxxp",
+        "relevanceScore": 0,
+        "entityEnglishId": "Ambulatory",
+        "startingPos": 47,
+        "endingPos": 57
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Ambulatory care",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 2.09337,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ambulatory_care",
+        "matchedText": "ambulatory care",
+        "freebaseId": "/m/01w3r_",
+        "relevanceScore": 0.144863,
+        "entityEnglishId": "Ambulatory care",
+        "startingPos": 47,
+        "endingPos": 62
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          10
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          10
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          8,
+          10
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  "time": 0.314,
+  "ok": true
+}

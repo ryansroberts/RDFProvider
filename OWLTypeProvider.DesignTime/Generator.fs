@@ -18,8 +18,6 @@ let typeName (uri : string) =
 
 let xmlDoc text = "<summary>" + System.Security.SecurityElement.Escape text + "</summary>"
 
-
-
 let rec generate pt c (builder : Schema.Uri -> Schema.Node) = 
     
     

@@ -34,7 +34,7 @@ function shinybutton(element, triples) {
             if(node.links)
                 connected = node.links.length
 
-            var nodeGeometry = new graphics.THREE.TextGeometry(node.id,{size:12,font:'optimer'});
+            var nodeGeometry = new graphics.THREE.SphereGeometry(connected);
             var nodeMaterial = new graphics.THREE.MeshBasicMaterial({
                 color: conceptColor(node.id || "magic",node.data || "socks"),
                 overdraw: true
@@ -62,7 +62,7 @@ function shinybutton(element, triples) {
 
             var linkMaterial = new graphics.THREE.LineBasicMaterial({
                 color: colour,
-                lineWidth: 2
+                lineWidth: 10
             });
 
             return new graphics.THREE.Line(linkGeometry, linkMaterial);

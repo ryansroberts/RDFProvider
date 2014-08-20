@@ -26,6 +26,19 @@ function uriList(uris) {
 
 
 module.exports = {
+    outcomeDomains: function() {
+        return concat(
+            prefixes,
+            'construct {',
+            '?d content:chars ?c',
+            '}',
+            'where ',
+            '{',
+            '?d a nice:OutcomesDomain .',
+            '?d content:chars ?c',
+            '}'
+        );
+    },
     interactionsForUris: function(uris) {
         return concat(
             prefixes,

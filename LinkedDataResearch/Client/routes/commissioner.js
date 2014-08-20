@@ -1,4 +1,12 @@
-e('crc'),
+var queries = require('../queries.js'),
+    SparkleSparkleGo = require('../lib/sparkle-sparkle-go.js'),
+    parseTriples = require('../lib/triN3ty.js'),
+    markdownParser = require('marked'),
+    domify = require('domify'),
+    sparql = new SparkleSparkleGo('/sparql/query{?query*}'),
+    _ = require('underscore'),
+    lambda = require('functional.js'),
+    crc = require('crc'),
     uris = require('../uris'),
     getAnnotatedContent = require('../lib/annotated-content.js'),
     spannerify = require('../lib/spannerify');

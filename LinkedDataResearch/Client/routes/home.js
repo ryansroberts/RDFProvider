@@ -91,9 +91,12 @@ module.exports = function(ctx, uri) {
                                 recommendation.appendChild(editable);
                             }
 
-                            annotatedcontent(rec, function(err, text, annotations) {
+                            annotatedcontent(rec, function(err, text, annotations, shiny) {
                                 
                                 var recommendation = domify('<li><h3>' + rec + '</h3></li>');
+
+                                recommendation.appendChild(shiny);
+
                                 editableRec(text, annotations, recommendation);
 
                                 var interactions = domify('<ul class="interactions"></ul>');
@@ -104,6 +107,7 @@ module.exports = function(ctx, uri) {
 
                                 // append..
                                 list.appendChild(recommendation);
+                                //list.appendChild(shiny);
                                 list.appendChild(interactions);
                                 list.appendChild(evidenceStatements);
                             });

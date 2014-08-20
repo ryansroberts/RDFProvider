@@ -13,8 +13,8 @@ function spannerify(content, annotations) {
 
     style += '<style>'; 
     for(an in annotations) {
-        var start = annotations[an].selectors[1] + 1,
-            end = annotations[an].selectors[0] + 1;
+        var start = annotations[an].selectors[1] ,
+            end = annotations[an].selectors[0] ;
 
         annotationKey(an,annotations[an]);
 
@@ -31,7 +31,7 @@ function spannerify(content, annotations) {
 }
 
 function conceptColor(uri, text) {
-    return colour('hsl(' + new crc.CRC8().update(text).checksum() + ',' +  new crc.CRC8().update(uri).checksum() % 50 + ',50)');
+    return colour('hsl(' + new crc.CRC8().update(text).checksum() + ',50,50)');
 }
 
 function listFor(annotation) {

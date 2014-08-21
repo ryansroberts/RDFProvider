@@ -105,12 +105,9 @@ module.exports = function(ctx, uri) {
                                 list.appendChild(recommendation);
                                 list.appendChild(interactions);
 
-                                var evidenceStatements = domify('<p><ul><li><a href="#/evidence-statements/' + rec + '">Investigate the evidence behind this recommendation</a><a href="#/quality-statements/' + rec + '">Quality statements  under pinned by this recommendation </a></li></ul></p>';
+                                var evidenceStatements = domify('<p><ul><li><a href="#/evidence-statements/' + rec + '">Investigate the evidence behind this recommendation</a></li><a href="#/quality-statements/' + rec + '">Quality statements  under pinned by this recommendation </a></li></ul></p>');
                                 
                                 var statements = list.appendChild(evidenceStatements);
-                                
-                                statements.querySelector("ul")
-                                            .appendChild(domify('<a href="#/quality-statements/' + rec + '">Quality statements  under pinned by this recommendation </a></li>'));
 
                             });
 

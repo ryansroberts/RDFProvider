@@ -20,9 +20,11 @@ function editable(element, uri) {
             var m = window.encodeURI("s=" + uri + "&o=" + element.textContent);
             r.open('POST', '/updatecontent', true);
             r.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-            debugger
+            
+            var overlay = document.body.appendChild(domify('<div><h2 style="width:100%">Annotating...</h2>'), element);
 
-            var overlay = element.parentElement.replaceChild(domify('<div><h2 style="width:100%">Annotating </h2> <div id="loader"><div id="top"></div><div id="bottom"></div><div id="line"></div></div>'), element);
+            element.parentElement.replaceChild(overlay,element);
+
 
             r.onreadystatechange = function() {
                 if (r.readyState == 4 && r.status == 200) {
@@ -32,7 +34,7 @@ function editable(element, uri) {
                     });
                 }
             };
-
+ 
             r.send(m);
         }
     });

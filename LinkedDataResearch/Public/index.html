@@ -39,12 +39,12 @@
             color: #fff;
         }
         #loader {
-            animation: loader 5s cubic-bezier(.8, 0, .2, 1) infinite;
+            animation: loader 5s cubic-bezier(0.8, 0, 0.2, 1) infinite;
             height: 40px;
             width: 41px;
             position: absolute;
-            top: calc(50% - 20px);
-            left: calc(50% - 20px);
+            top: calc(30%);
+            left: calc(30%);
         }
         @keyframes loader {
             90% {
@@ -134,14 +134,15 @@
 </head>
 
 <body>
-    <div class="container">
+    <div>
         <header>
             <h1>Linked Data</h1>
         </header>
-        <section id="output">
+        <section id="output" class="container">
 
         </section>
-        <div id="visualise" class="render" style="display:none" />
+        <section id="visualise" class="render" style="display:none">
+        </section>
         <script type="text/javascript" src="/Scripts/build.js"></script>
     </div>
 </body>

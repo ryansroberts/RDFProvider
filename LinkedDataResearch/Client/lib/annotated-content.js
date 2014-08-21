@@ -8,7 +8,8 @@ var queries = require('../queries.js'),
     colour = require('rgb'),
     _ = require('underscore'),
     sparql = new SparkleSparkleGo('/sparql/query{?query*}'),
-    lambda = require('functional.js');
+    lambda = require('functional.js'),
+    shinyButton = require('./shiny.js');
 
 function parseXMLInt (stupidString){
   return parseInt(stupidString.match(/"([0-9]+)"/)[1], 10);
@@ -19,7 +20,7 @@ function loadAnnotatedContent (uri,fn) {
     .query(queries.annotatedContent(uri))
     .execute(parseTriples(function (err, triples){
 
-      require('../lib/shiny.js')(document.body,triples);
+      var shiny = shinyButton(triples);
 
 
       var text = _.find(triples, function (triple){
@@ -88,8 +89,8 @@ function loadAnnotatedContent (uri,fn) {
 
       if (!err){
 
-          if(!text) {fn(false,"",concepts);}
-          else fn (false, n3.Util.getLiteralValue(text.object) || "", concepts);
+          if(!text) {fn(false,"",concepts, shiny);}
+          else fn (false, n3.Util.getLiteralValue(text.object) || "", concepts, shiny);
 
       } else {
 

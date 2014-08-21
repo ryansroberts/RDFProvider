@@ -90,9 +90,13 @@ module.exports = function(ctx, uri) {
                                 var editable =  edity(domify(spannerify(text, annotations)),rec);
                                 recommendation.appendChild(editable);
                             }
+                     
+                            annotatedcontent(rec, function(err, text, annotations, shiny) {
 
-                            annotatedcontent(rec, function(err, text, annotations) {
                                 var recommendation = domify('<li><h3>' + rec + '</h3></li>');
+
+                                recommendation.appendChild(shiny);
+
                                 editableRec(text, annotations, recommendation);
 
                                 var interactions = domify('<ul class="interactions"></ul>');
@@ -101,19 +105,12 @@ module.exports = function(ctx, uri) {
                                 list.appendChild(recommendation);
                                 list.appendChild(interactions);
 
-                                var evidenceStatements = domify('<p><ul><li><a href="#/evidence-statements/' + rec + '">Investigate the evidence behind this recommendation</a></li></ul></p>');
+                                var evidenceStatements = domify('<p><ul><li><a href="#/evidence-statements/' + rec + '">Investigate the evidence behind this recommendation</a><a href="#/quality-statements/' + rec + '">Quality statements  under pinned by this recommendation </a></li></ul></p>';
                                 
                                 var statements = list.appendChild(evidenceStatements);
                                 
-                                sparql
-                                    .query(queries.qualityStatementsFor(rec))
-                                    .execute(parseTriples(function(e,tx){
-                                        if(!e && tx.length){
-                                            statements.querySelector("ul")
-                                                .appendChild(domify('<a href="#/quality-statements/' + rec + '">Quality statements  under pinned by this recommendation</a></li>'));
-                                        }
-                                    }))
-
+                                statements.querySelector("ul")
+                                            .appendChild(domify('<a href="#/quality-statements/' + rec + '">Quality statements  under pinned by this recommendation </a></li>'));
 
                             });
 

@@ -79,7 +79,7 @@ let annotate (store:IStorageProvider) uri content =
     Project.annotate (Model.Scope(uri,[])) content
         |> List.iter (fun t -> Store.toStorageTriple g t |> ignore)
     
-    store.LoadGraph(g,null :> System.Uri)
+    store.UpdateGraph(null :> System.String,g.Triples,[])
 
     ()
 

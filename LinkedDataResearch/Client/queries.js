@@ -174,5 +174,24 @@ module.exports = {
             '}'
         )
 
+    },
+    'shinyGraph' : function (){
+        return concat(
+            prefixes,
+
+            'construct',
+            '{',
+            '?t oa:tag ?tag .',
+            '?tag owl:sameAs ?txt.',
+            '}',
+            'where {',
+            '?t nice:isPartOf* ?t1 .',
+            '?tgt a oa:SpecificResource .',
+            '?tgt oa:hasSource ?t  .',
+            '?ann oa:hasTarget ?tgt .',
+            '?ann oa:hasBody/content:chars ?txt .',
+            '?ann oa:hasBody/owl:sameAs ?tag .',
+            '} LIMIT 500'
+        )
     }
 };

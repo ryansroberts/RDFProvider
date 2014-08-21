@@ -5,13 +5,15 @@ var uris = require('./uris.js'),
 
 app
     .route('/quality-statements/*')
-    .on('activate', require('./routes/quality-statements.js'))
+        .on('activate', require('./routes/quality-statements.js'))
     .route('/evidence-statements/*')
-    .on('activate', require('./routes/evidence-statements.js'))
+        .on('activate', require('./routes/evidence-statements.js'))
+    .route('/graph')
+        .on('activate', require('./routes/graph-view.js'))
     .route('/')
-    .on('activate', require('./routes/home.js'))
+        .on('activate', require('./routes/home.js'))
     .route('')
-    .on('activate', function() {
-        app.navigateTo('/');
-    })
+        .on('activate', function() {
+            app.navigateTo('/');
+        })
     .listen();

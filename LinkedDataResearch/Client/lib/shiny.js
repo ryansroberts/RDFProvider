@@ -28,6 +28,8 @@ function shinybutton(triples) {
         }, triples);
         graph.endUpdate();
 
+        console.log('nodes added');
+
         var createThree = require('ngraph.three');
         var graphics = createThree(graph, {
             interactive: true,
@@ -46,8 +48,8 @@ function shinybutton(triples) {
 
             var container = new graphics.THREE.Object3D();
 
-            
 
+            
             if (n3.Util.isLiteral(node.id) || (node.id.search("http://nice.org.uk/")  !== -1 && node.id.search("http://nice.org.uk/annotation") === -1)){
 
                 var labelContainer = new graphics.THREE.Object3D();
@@ -68,8 +70,10 @@ function shinybutton(triples) {
             }
             
             
+            
+            
 
-            var nodeGeometry = new graphics.THREE.SphereGeometry(connected, 20, 20);
+            var nodeGeometry = new graphics.THREE.SphereGeometry( 5, 20, 20);
             var nodeMaterial = new graphics.THREE.MeshPhongMaterial({
                 color: col,
                 ambient : col,
@@ -80,6 +84,10 @@ function shinybutton(triples) {
             });
 
             var mesh = new graphics.THREE.Mesh(nodeGeometry, nodeMaterial);
+
+            container.scale.x = 0.5 + ((Math.log(connected) + 3) * 0.4)
+            container.scale.y = 0.5 + ((Math.log(connected) + 3) * 0.4)
+            container.scale.z = 0.5 + ((Math.log(connected) + 3) * 0.4)
 
             container.add(mesh);
 
@@ -106,7 +114,7 @@ function shinybutton(triples) {
 
             var linkMaterial = new graphics.THREE.LineBasicMaterial({
                 color: colour,
-                linewidth: 10,
+                linewidth: 2,
                 opacity : 0.5
             });
 
@@ -218,7 +226,7 @@ function shinybutton(triples) {
                 //label.rotation = graphics.camera.rotation;
            //
                label.lookAt(graphics.camera.position);
-            })
+            });
 
         });
 

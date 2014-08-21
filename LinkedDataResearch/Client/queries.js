@@ -39,6 +39,19 @@ module.exports = {
             '}'
         );
     },
+    qualityStatementsFor: function(r) {
+        return concat(
+            prefixes,
+            'construct {',
+            uri(r) + ' nice:underpins ?qs . ',
+            '}',
+            'where ',
+            '{',
+            uri(r) + 'nice:underpins ?qs .',
+            '?qs a nice:QualityStatement . ',
+            '}'
+        );
+    },
     interactionsForUris: function(uris) {
         return concat(
             prefixes,

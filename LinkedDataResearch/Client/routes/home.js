@@ -92,20 +92,29 @@ module.exports = function(ctx, uri) {
                             }
 
                             annotatedcontent(rec, function(err, text, annotations) {
-                                
                                 var recommendation = domify('<li><h3>' + rec + '</h3></li>');
                                 editableRec(text, annotations, recommendation);
 
                                 var interactions = domify('<ul class="interactions"></ul>');
 
                                 loadInteractions(rec,interactions);
-
-                                var evidenceStatements = domify('<p><a href="#/evidence-statements/' + rec + '">Investigate the evidence behind this recommendation</a></p>');
-
-                                // append..
                                 list.appendChild(recommendation);
                                 list.appendChild(interactions);
-                                list.appendChild(evidenceStatements);
+
+                                var evidenceStatements = domify('<p><ul><li><a href="#/evidence-statements/' + rec + '">Investigate the evidence behind this recommendation</a></li></ul></p>');
+                                
+                                var statements = list.appendChild(evidenceStatements);
+                                
+                                sparql
+                                    .query(queries.qualityStatementsFor(rec))
+                                    .execute(parseTriples(function(e,tx){
+                                        if(!e && tx.length){
+                                            statements.querySelector("ul")
+                                                .appendChild(domify('<a href="#/quality-statements/' + rec + '">Quality statements  under pinned by this recommendation</a></li>'));
+                                        }
+                                    }))
+
+
                             });
 
                         }

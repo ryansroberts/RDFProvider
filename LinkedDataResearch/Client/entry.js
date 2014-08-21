@@ -4,8 +4,8 @@ var uris = require('./uris.js'),
 
 
 app
-    .route('commissioner/*')
-    .on('activate', require('./routes/commissioner.js'))
+    .route('/quality-statements/*')
+    .on('activate', require('./routes/quality-statements.js'))
     .route('/evidence-statements/*')
     .on('activate', require('./routes/evidence-statements.js'))
     .route('/')

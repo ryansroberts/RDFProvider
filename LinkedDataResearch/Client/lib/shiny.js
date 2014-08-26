@@ -85,9 +85,9 @@ function shinybutton(triples) {
 
             var mesh = new graphics.THREE.Mesh(nodeGeometry, nodeMaterial);
 
-            container.scale.x = 0.5 + ((Math.log(connected) + 3) * 0.4)
-            container.scale.y = 0.5 + ((Math.log(connected) + 3) * 0.4)
-            container.scale.z = 0.5 + ((Math.log(connected) + 3) * 0.4)
+            container.scale.x = 0.1 + ((Math.log(connected) + 3) )
+            container.scale.y = 0.1 + ((Math.log(connected) + 3) )
+            container.scale.z = 0.1 + ((Math.log(connected) + 3) )
 
             container.add(mesh);
 

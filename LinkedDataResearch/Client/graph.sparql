@@ -1,0 +1,19 @@
+PREFIX nice: <http://www.semanticweb.org/amitchell/ontologies/nice_all#>
+PREFIX content: <http://www.w3.org/2011/content#>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+PREFIX prov: <http://www.w3.org/ns/prov-o#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+construct
+{
+  ?t oa:tag ?tag .
+  ?tag owl:sameAs ?txt .
+}
+where {
+    ?t a nice:Recommendation .
+    ?tgt a oa:SpecificResource .
+    ?tgt oa:hasSource ?t  .
+    ?ann oa:hasTarget ?tgt .
+    ?ann oa:hasBody/content:chars ?txt .
+    ?ann oa:hasBody/owl:sameAs ?tag .
+} 

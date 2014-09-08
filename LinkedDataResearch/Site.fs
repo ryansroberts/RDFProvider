@@ -74,10 +74,16 @@ let annotate (store:IStorageProvider) uri content =
     q.SetUri("o",System.Uri(uri))
     q.UpdateProcessor <-  GenericUpdateProcessor(store)
 
+    q.ExecuteUpdate()
+
     let g = new Graph()
 
+
+    printfn "annotating %A %A" uri content
     Project.annotate (Model.Scope(uri,[])) content
-        |> List.iter (fun t -> Store.toStorageTriple g t |> ignore)
+        |> List.iter (fun t -> 
+            printfn "annotate %A" t
+            g.Assert(Store.toStorageTriple g t) |> ignore)
     
     store.UpdateGraph(null :> System.String,g.Triples,[])
 

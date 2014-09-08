@@ -156,6 +156,18 @@ module Import =
                           Text = Body q.Question
                           SearchStrategies = loadSearchStrategies q.``Question GUID`` } ]
     
+    let loadSet id  = 
+       sets.Filter(fun r -> r.``Set GUID`` = id).Rows
+        |> Seq.map (fun r -> 
+               { Id = Identifier r.``Set GUID``
+                 Guid = Guid r.``Set GUID``
+                 SetTitle = Title r.``Set rationale``
+                 Discussion = r.``Set discussion``
+                 Questions = loadQuestions r.``Set GUID``
+                 Statements = loadStatements r.``Set GUID``
+                 Rationale = Rationale r.``Set rationale`` })
+        |> Seq.head
+
     let loadSets id = 
         sets.Rows
         |> Seq.map (fun r -> 
@@ -168,8 +180,8 @@ module Import =
                  Rationale = Rationale r.``Set rationale`` })
         |> List.ofSeq
     
-    let loadReccomendations id = 
-        reccomendations.Rows
+    let loadRecommendations id = 
+        reccomendations.Filter(fun r -> r.``Set GUID`` = id).Rows
         |> Seq.map (fun r -> 
                { Id = Identifier r.``Recommendation GUID``
                  Body = Body r.``Recommendation body``
@@ -182,9 +194,13 @@ module Import =
     
     let loadGuidelines = 
         [ for g in guidelines.Rows do
+              let sets = loadSets g.``Guideline GUID``
+              let recs = [for set in sets do 
+                                yield! loadRecommendations (string set.Id)
+                             ]
               yield { Id = Identifier g.``Guideline GUID``
                       Title = Title g.``Guideline Title``
-                      Reccomendation = loadReccomendations id
+                      Reccomendation = recs 
                       Sets = loadSets g.``Guideline GUID``
                       Studies = []
                       Issued = g.``Guideline Publication Date`` } ]

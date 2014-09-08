@@ -39,6 +39,13 @@ module.exports = {
             '}'
         );
     },
+    outcomesForStatement: function(s) {
+        return concat(
+            prefixes,
+            'construct {',
+            '?d content:'
+        );
+    },
     qualityStatementsFor: function(r) {
         return concat(
             prefixes,
@@ -181,17 +188,20 @@ module.exports = {
 
             'construct',
             '{',
+            '?t ',
             '?t oa:tag ?tag .',
             '?tag owl:sameAs ?txt.',
             '}',
             'where {',
+            '?t ',
             '?t nice:isPartOf* ?t1 .',
             '?tgt a oa:SpecificResource .',
             '?tgt oa:hasSource ?t  .',
             '?ann oa:hasTarget ?tgt .',
             '?ann oa:hasBody/content:chars ?txt .',
             '?ann oa:hasBody/owl:sameAs ?tag .',
-            '} LIMIT 500'
-        )
+            'FILTER (REGEX(STR(?t), "CH15", "i"))',
+            '} limit 100'
+        );
     }
 };

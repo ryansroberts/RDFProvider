@@ -9,7 +9,7 @@ module Project
     
     let annotate (scope:Scope) s = [
         let ex = (NLP.graphOf scope s).Response.Entities |> Array.toList
-        
+        printfn "%A" ex
         let rec body (ex:trResponse.Entity list)  i = [
             match ex,i with
             | [],_ -> ()
@@ -222,7 +222,7 @@ module Project
                     yield (a,individual)
                     yield (a,Object.from textContent.Uri)
                     yield (Predicate.from chars.Uri,Object.from (string n.NumeratorDescription))
-                    yield (Predicate.from numerator.ObjectProperties.``nice:hasMeasure``.Uri, Object.from (Owl.Uri(string nscope)))
+                    yield (Predicate.from numerator.ObjectProperties.``nice:isNumeratorOf``.Uri, Object.from (Owl.Uri(string nscope)))
                 ]
             for n in m.Denominators do
              let nscope = scope.Enter(Identifier "denominators").Enter(m.Id)
@@ -233,7 +233,7 @@ module Project
                     yield (a,individual)
                     yield (a,Object.from textContent.Uri)
                     yield (Predicate.from chars.Uri,Object.from (string n.NumeratorDescription))
-                    yield (Predicate.from denominator.ObjectProperties.``nice:hasMeasure``.Uri, Object.from (Owl.Uri(string nscope)))
+                    yield (Predicate.from denominator.ObjectProperties.``nice:isDenominatorOf``.Uri, Object.from (Owl.Uri(string nscope)))
                 ]
     ]
 

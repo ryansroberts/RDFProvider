@@ -69,7 +69,7 @@ let inference a c =
     c(rdfhandler,reshandler,a)
     resultset
 
-let cachedinference = memo inference
+let cachedinference = inference
  
 let oneTuple (rx : SparqlResultSet) = 
     [ for r in rx do
@@ -86,6 +86,7 @@ open Schema
 
 let subTypes root conn =
     cachedinference (sprintf """
+        prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         prefix owl:  <http://www.w3.org/2002/07/owl#>
         prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         select distinct ?t 
@@ -96,6 +97,7 @@ let subTypes root conn =
 
 let objectProperties root conn = 
     cachedinference (sprintf """
+        prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         prefix owl:  <http://www.w3.org/2002/07/owl#>
         select distinct ?p
@@ -114,6 +116,7 @@ let objectProperties root conn =
 
 let inRangeOf root conn = 
     cachedinference (sprintf """
+        prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         prefix owl:  <http://www.w3.org/2002/07/owl#>
         select distinct ?p 
@@ -126,6 +129,7 @@ let inRangeOf root conn =
 let propertyRange root conn =
     cachedinference (sprintf """
     prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         prefix owl:  <http://www.w3.org/2002/07/owl#>
         select distinct ?r
         where {
@@ -136,6 +140,7 @@ let propertyRange root conn =
 
 let dataProperties root conn = 
     cachedinference (sprintf """
+        prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         PREFIX owl: <http://www.w3.org/2002/07/owl#>
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         select distinct ?p ?t
@@ -156,6 +161,7 @@ let dataProperties root conn =
 
 let sampleIndividuals root conn = 
     cachedinference (sprintf """
+        prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         PREFIX owl: <http://www.w3.org/2002/07/owl#>
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         SELECT ?entity
@@ -168,6 +174,7 @@ let sampleIndividuals root conn =
 
 let statements root conn = 
     cachedinference (sprintf """
+        prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         PREFIX owl: <http://www.w3.org/2002/07/owl#>
         SELECT ?o ?s
         WHERE {

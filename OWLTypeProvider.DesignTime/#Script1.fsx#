@@ -1,0 +1,22 @@
+
+
+
+type Stack =
+  | Empty
+  | Stack of int * Stack
+
+
+let push x s =
+  match x,s with
+    | x,Empty -> Stack (x,Empty)
+    | x,xs -> Stack(x,xs)
+    
+
+let pop s =
+  match s with
+    | Empty -> None,Empty
+    | Stack(x,xs) -> Some(x),xs
+
+let a = [1;2]
+
+let map f sx = [for i in sx do yield f i]

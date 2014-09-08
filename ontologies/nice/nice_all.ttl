@@ -95,6 +95,9 @@
 :hasDenominator rdf:type owl:ObjectProperty ;
                 
                 rdfs:range :Denominator ;
+
+    owl:inverseOf :isDenominatorOf;
+    
                 
                 rdfs:domain :QualityMeasure .
 
@@ -151,6 +154,8 @@
 :hasIndicator rdf:type owl:ObjectProperty ;
               
               rdfs:domain :OutcomesDomain ;
+            
+owl:inverseOf :isIndicatorOf;
               
               rdfs:range :OutcomesIndicator .
 
@@ -172,9 +177,15 @@
 
 :hasNumerator rdf:type owl:ObjectProperty ;
               
-              rdfs:range :Numerator ;
+    rdfs:range :Numerator ;
+    
               
-              rdfs:domain :QualityMeasure .
+    owl:inverseOf :isNumeratorOf;
+    
+              
+    rdfs:domain :QualityMeasure .
+    
+
 
 
 

@@ -21,7 +21,6 @@ module NiceOntology =
 
     type nice = LinkedData.Stardog<server, store, ontologyRoot, nsmap>
 
-
 type Triple = string * string * string
                                   
 
@@ -45,17 +44,41 @@ module Git =
   let p2id (p:string) = ((p.Replace("/","-")).Replace(" ","-")).Replace("\\","-")
 
   let versionedContent (c:Commit) (i:TreeEntryChanges) (cf:ObjectId -> Blob) = [
-    let content = nc  + "/file-" + (p2id i.Path) + "-" + i.Oid.Sha
+    let commit = nc + "/commit-" + c.Sha
+    let content = nc  + "/file-" + (p2id i.Path)
+    let versionedContent =  content + "-" + i.Oid.Sha
     let chars = cf i.Oid
-    yield! statementsFor (Subject (Owl.Uri content)) 
+    let oldContent =  content + "-" + i.OldOid.Sha
+    yield! statementsFor (Subject (Owl.Uri versionedContent)) 
             [
+                yield (a,Object.from nice.``owl:Thing``.``prov:Entity``.Uri)
                 yield (a,Object.from nice.``owl:Thing``.``cnt:ContentAsText``.Uri)
                 yield (Predicate.from nice.``owl:Thing``.ObjectProperties.``cnt:chars``.Uri,
                          Object.from  (chars.GetContentText(System.Text.Encoding.UTF8)))
-
+                yield (Predicate.from nice.``owl:Thing``.ObjectProperties.``prov:specializationOf``.Uri,
+                         Object.from (Owl.Uri content))
+                yield (Predicate.from nice.``owl:Thing``.ObjectProperties.``prov:wasGeneratedBy``.Uri,
+                         Object.from (Owl.Uri commit))
+                yield (Predicate.from nice.``owl:Thing``.ObjectProperties.``prov:wasDerivedFrom``.Uri,
+                         Object.from (Owl.Uri oldContent)) 
+                yield (Predicate.from nice.``owl:Thing``.ObjectProperties.``prov:wasAttributedTo``.Uri,
+                         Object.from (Owl.Uri (("http://nice.org.uk/identity/git-username-" + p2id c.Committer.Name)))) 
             ] 
   ]
-  
+
+  let qualifiedUsage commit i x = [
+    let qu = commit + (sprintf "-qa%d" i) 
+    yield! statementsFor ((Subject (Owl.Uri commit)))
+        [
+            yield(Predicate.from nice.``owl:Thing``.ObjectProperties.``prov:qualifiedUsage``.Uri, 
+                    Object.from (Owl.Uri(qu)))
+        ]
+    yield! statementsFor ((Subject (Owl.Uri qu)))
+        [
+            yield(a,Object.from nice.``owl:Thing``.``prov:Usage``.Uri)
+        ]     
+  ]
+
   let contentFor (repo:Repository) (id:ObjectId) =  repo.Lookup(id) :?> Blob
   let provFor (repo:Repository) (c:Commit,d:TreeChanges) = [
     let commit = nc + "/commit-" + c.Sha
@@ -72,6 +95,7 @@ module Git =
                 yield (Predicate.from (Owl.Uri "http://www.w3.org/2000/01/rdf-schema#label"),Object.from c.Message)
                 yield (Predicate.from nice.``owl:Thing``.ObjectProperties.``prov:wasAssociatedWith``.Uri,
                          Object.from (Owl.Uri (("http://nice.org.uk/identity/git-username-" + p2id c.Committer.Name))))
+                
                 for a in d.Added do 
                         yield (Predicate.from nice.``owl:Thing``.``prov:Activity``.ObjectProperties.``prov:used``.Uri,
                                  Object.from (Owl.Uri(nc  + "/file-" + (p2id a.Path) + "-" + a.Oid.Sha)))
@@ -82,6 +106,7 @@ module Git =
                 if(not((Seq.isEmpty (c.Parents)))) then
                     yield (Predicate.from nice.``owl:Thing``.``prov:Activity``.ObjectProperties.``prov:wasInformedBy``.Uri,
                              Object.from (Owl.Uri(nc + "/commit-" + (c.Parents |> Seq.head).Sha)))
+
            ]  
     yield! statementsFor ((Subject (Owl.Uri qa)))
         [
@@ -90,9 +115,7 @@ module Git =
             yield(Predicate.from nice.``owl:Thing``.``prov:Association``.ObjectProperties.``prov:hadRole``.Uri,
                     Object.from "author, comitter")   
         ]
-    
-    
-    
+   
     for a in d.Added do yield! versionedContent c a (contentFor repo)
     for m in d.Modified do yield! versionedContent c m (contentFor repo)
 

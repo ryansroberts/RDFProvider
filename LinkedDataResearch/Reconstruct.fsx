@@ -40,8 +40,9 @@ let write (fs : IDirectory) n (s : string) =
     ()
 
 let lines l = l |> List.fold (fun a i -> a + i + "\r\n") ""
-let directive n v = "" // sprintf "\r\n---\r\n %s: %s\r\n...\r\n" n v
+let directive n v =  sprintf "\r\n---\r\n%s: %s\r\n...\r\n" n v
 let citations = System.Collections.Generic.HashSet<string>()
+let h1 s = sprintf "# " + s
 let h2 s = sprintf "## " + s
 let h3 s = sprintf "### " + s
 
@@ -86,10 +87,10 @@ let processCsv() =
             printfn "Rec %s" (string r.Id)
             let recdir = mkdir recs (string ( r.Id))
             let l = lines [
-                string r.Title
+                h2 (string r.Title)
                 (string r.Body) |> fixBullets
                 "'\r\n"
-                directive "nice.evidencegrade" r.Grade 
+                directive "niceevidencegrade" r.Grade 
             ]
              
             write recdir "Recommendation.md"  l
@@ -100,18 +101,20 @@ let processCsv() =
                 (string set.SetTitle)
             ])
             write recdir "Discussion.md" (lines [
+                h3 "Discussion"
                 set.Discussion |> fixBullets
             ])
             for st in set.Statements do
                 let l = lines [
-                             yield h3 ("Evidence Statement " + (string st.Id))
-                             yield string st.Statement |> fixBullets
-                             yield directive "nice.evidencecategory" st.EvidenceCategory
-                             yield ""
+                             yield h3 ("Evidence Statement " + (string st.Id));
+                             yield string st.Statement |> fixBullets;
                              yield! [ for study in st.Studies do
                                           yield ""
-                                          yield "[@" + citeId (citeFor (study.References)) + "]" ] ]
-
+                                          yield "[@" + citeId (citeFor (study.References)) + "]" 
+                                      ]
+                             yield directive "niceevidencecategory" st.EvidenceCategory;
+                             yield ""]
+              
                 write recdir ((string st.Id) + ".md") l
 
         printfn "%A" citations

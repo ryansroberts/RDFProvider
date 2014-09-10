@@ -23,7 +23,7 @@ open FSharp.Data
 
 let viz = Http.RequestStream("http://provoviz.org/service",
     httpMethod="POST",
-    body= FormValues[("graph_uri","");("data","")])
+    body= FormValues[("graph_uri","");("data",System.IO.File.ReadAllText(fn))])
     
 let fout = System.IO.File.OpenWrite(fn + ".html")
 

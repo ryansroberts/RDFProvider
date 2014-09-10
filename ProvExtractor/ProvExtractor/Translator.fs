@@ -54,7 +54,7 @@ module Git =
                 yield (a,Object.from nice.``owl:Thing``.``prov:Entity``.Uri)
                 yield (a,Object.from nice.``owl:Thing``.``cnt:ContentAsText``.Uri)
                 yield (Predicate.from nice.``owl:Thing``.ObjectProperties.``cnt:chars``.Uri,
-                         Object.from  (chars.GetContentText(System.Text.Encoding.UTF8)))
+                         Object.from  (Owl.Uri("https://raw.githubusercontent.com/ryansroberts/markdownpipeline/" + i.Oid.Sha + "/" + i.Path)))
                 yield (Predicate.from nice.``owl:Thing``.ObjectProperties.``prov:specializationOf``.Uri,
                          Object.from (Owl.Uri content))
                 yield (Predicate.from nice.``owl:Thing``.ObjectProperties.``prov:wasGeneratedBy``.Uri,

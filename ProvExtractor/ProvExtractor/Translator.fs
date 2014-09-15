@@ -32,12 +32,9 @@ module Git =
   let repo p = new Repository(p)
 
   let commits (repo:Repository) = 
-    query { 
-        for c in repo.Commits do 
-        select c
-    } 
+    seq {yield (null :> Commit,null :> Tree);yield! repo.Commits |> Seq.map (fun c -> (c,c.Tree))}   
     |> Seq.pairwise
-    |> Seq.map (fun (c,c') -> (c',repo.Diff.Compare<TreeChanges>(c.Tree,c'.Tree)))
+    |> Seq.map (fun ((c,t),(c',t')) -> (c',repo.Diff.Compare<TreeChanges>(t,t')))
   
   let nc = "http://nice.org.uk/vcs"
 
@@ -59,8 +56,8 @@ module Git =
                          Object.from (Owl.Uri content))
                 yield (Predicate.from nice.``owl:Thing``.ObjectProperties.``prov:wasGeneratedBy``.Uri,
                          Object.from (Owl.Uri commit))
-                yield (Predicate.from nice.``owl:Thing``.ObjectProperties.``prov:wasDerivedFrom``.Uri,
-                         Object.from (Owl.Uri oldContent)) 
+                //yield (Predicate.from nice.``owl:Thing``.ObjectProperties.``prov:wasDerivedFrom``.Uri,
+               //          Object.from (Owl.Uri oldContent)) 
                 yield (Predicate.from nice.``owl:Thing``.ObjectProperties.``prov:wasAttributedTo``.Uri,
                          Object.from (Owl.Uri (("http://nice.org.uk/identity/git-username-" + p2id c.Committer.Name)))) 
             ] 
@@ -81,6 +78,7 @@ module Git =
 
   let contentFor (repo:Repository) (id:ObjectId) =  repo.Lookup(id) :?> Blob
   let provFor (repo:Repository) (c:Commit,d:TreeChanges) = [
+    printfn "Commit "
     let commit = nc + "/commit-" + c.Sha
     let qa = commit + "-qa" 
     yield! statementsFor (Subject (Owl.Uri commit)) 
@@ -121,7 +119,5 @@ module Git =
 
   ]
 
-  let walk repo  = [
-    for c in commits repo do
-    yield! (provFor repo c)
-  ]
+  let walk repo = [for s in commits repo  do yield! provFor repo s]
+

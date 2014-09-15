@@ -9,8 +9,9 @@
 
 open ProvExtractor
 
+let repo = Git.repo (__SOURCE_DIRECTORY__ + "\\..\\..\\..\\ScreeningScheduling")
+let tx =  Git.walk repo
 
-let tx =  Git.walk <| Git.repo (__SOURCE_DIRECTORY__ + "\\..\\..\\..\\provvy") 
 
 let g = new VDS.RDF.Graph()
 

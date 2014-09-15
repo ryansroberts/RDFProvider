@@ -76,14 +76,15 @@ let citeId (s : string) = ((s.Split '{').[1].Split ',').[0]
 let processCsv() = 
     let dir = OpenFileSystem.IO.FileSystems.Local.Win32.Win32Directory("c:/temp/")
     let dir = mkdir dir "guidelines"
-    for g in [Import.loadGuidelines |>List.head] do
+    for g in Import.loadGuidelines |> List.filter (fun i -> (string i.Id).StartsWith("CG87")) do
         printfn "%A" g
         let dir = mkdir dir (string g.Id)
         let chapters = mkdir dir "chapters"
         let intro = mkdir chapters "introduction"
         write intro "Introduction.md" (sprintf "# %s\r\n" (string g.Title))
         let recs = mkdir chapters "recommendations"
-        for r in g.Reccomendation |> List.filter(fun x -> (string x.Id).StartsWith(string g.Id)) |> Seq.distinctBy (fun r -> (string r.Set)) do
+        let grecs = g.Reccomendation |> List.filter(fun x -> (string x.Id).StartsWith(string g.Id)) |> Seq.distinctBy (fun r -> (string r.Set))
+        for r in grecs do
             printfn "Rec %s" (string r.Id)
             let recdir = mkdir recs (string ( r.Id))
             let l = lines [
@@ -97,8 +98,7 @@ let processCsv() =
 
             let set = Import.loadSet (string r.Set) 
             write recdir "Set.md" (lines [
-                h2 ("Topic " + (string set.Id))
-                (string set.SetTitle)
+               (string set.SetTitle)
             ])
             write recdir "Discussion.md" (lines [
                 h3 "Discussion"
@@ -119,7 +119,7 @@ let processCsv() =
                 write recdir ((string st.Id) + ".md") l
 
         printfn "%A" citations
-        write dir "Citations.bibtex" (lines (citations |> Seq.distinct |> Seq.toList))
+        //write dir "Citations.bibtex" (lines (citations |> Seq.distinct |> Seq.toList))
 
 do processCsv()
 

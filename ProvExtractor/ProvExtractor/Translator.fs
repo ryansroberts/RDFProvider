@@ -41,8 +41,8 @@ module Git =
   let p2id (p:string) = ((p.Replace("/","-")).Replace(" ","-")).Replace("\\","-")
 
   let versionedContent (c:Commit) (i:TreeEntryChanges) (cf:ObjectId -> Blob) = [
-    let commit = nc + "/commit-" + c.Sha
-    let content = nc  + "/file-" + (p2id i.Path)
+    let commit = nc + "-commit-" + c.Sha
+    let content = nc  + "-file-" + (p2id i.Path)
     let versionedContent =  content + "-" + i.Oid.Sha
     let chars = cf i.Oid
     let oldContent =  content + "-" + i.OldOid.Sha
@@ -79,7 +79,7 @@ module Git =
   let contentFor (repo:Repository) (id:ObjectId) =  repo.Lookup(id) :?> Blob
   let provFor (repo:Repository) (c:Commit,d:TreeChanges) = [
     printfn "Commit "
-    let commit = nc + "/commit-" + c.Sha
+    let commit = nc + "-commit-" + c.Sha
     let qa = commit + "-qa" 
     yield! statementsFor (Subject (Owl.Uri commit)) 
             [
@@ -96,14 +96,14 @@ module Git =
                 
                 for a in d.Added do 
                         yield (Predicate.from nice.``owl:Thing``.``prov:Activity``.ObjectProperties.``prov:used``.Uri,
-                                 Object.from (Owl.Uri(nc  + "/file-" + (p2id a.Path) + "-" + a.Oid.Sha)))
+                                 Object.from (Owl.Uri(nc  + "-file-" + (p2id a.Path) + "-" + a.Oid.Sha)))
                 for a in d.Modified do 
                         yield (Predicate.from nice.``owl:Thing``.``prov:Activity``.ObjectProperties.``prov:used``.Uri,
-                                 Object.from (Owl.Uri(nc  + "/file-" + (p2id a.Path) + "-" + a.Oid.Sha)))
+                                 Object.from (Owl.Uri(nc  + "-file-" + (p2id a.Path) + "-" + a.Oid.Sha)))
                                
                 if(not((Seq.isEmpty (c.Parents)))) then
                     yield (Predicate.from nice.``owl:Thing``.``prov:Activity``.ObjectProperties.``prov:wasInformedBy``.Uri,
-                             Object.from (Owl.Uri(nc + "/commit-" + (c.Parents |> Seq.head).Sha)))
+                             Object.from (Owl.Uri(nc + "-commit-" + (c.Parents |> Seq.head).Sha)))
 
            ]  
     yield! statementsFor ((Subject (Owl.Uri qa)))
@@ -119,5 +119,5 @@ module Git =
 
   ]
 
-  let walk repo = [for s in commits repo  do yield! provFor repo s]
+  let walk repo = [for s in commits repo |> Seq.take 2  do yield! provFor repo s]
 

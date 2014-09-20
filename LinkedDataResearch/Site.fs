@@ -46,13 +46,15 @@ let execSparql q (conn:IQueryableStorage) ctx =
         |> conn.Query
         |> format writer 
         let content = HttpContent.Bytes(mem.GetBuffer())
+        
         { ctx with response = 
                        { ctx.response with status = HTTP_200
                                            headers = [("Content-Type","text/turtle")]
                                            content = content } }
             |> succeed
     with 
-    | e ->  { ctx with response = 
+    | e ->  printfn "Error %s" (System.Text.Encoding.UTF8.GetString(mem.GetBuffer()))
+            {ctx with response = 
                        { ctx.response with status = HTTP_400
                                            headers = [("Content-Type","text/plain")]
                                            content = HttpContent.Bytes(System.Text.Encoding.UTF8.GetBytes(string e)) } }

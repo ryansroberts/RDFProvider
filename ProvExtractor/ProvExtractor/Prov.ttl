@@ -2,196 +2,37 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<http://nice.org.uk/vcs/commit-3180fad79e9483b67dcc6da48bcb991dee9a33be> a <http://www.w3.org/ns/prov#Activity>;
+<http://nice.org.uk/vcs-commit-3180fad79e9483b67dcc6da48bcb991dee9a33be> a <http://www.w3.org/ns/prov#Activity>;
                                                                          rdfs:label "Update README.mdown";
                                                                          <http://www.w3.org/ns/prov#endedAtTime> "2013-06-25T13:08:32.000000+02:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#qualifiedAssociation> <http://nice.org.uk/vcs/commit-3180fad79e9483b67dcc6da48bcb991dee9a33be-qa>;
+                                                                         <http://www.w3.org/ns/prov#qualifiedAssociation> <http://nice.org.uk/vcs-commit-3180fad79e9483b67dcc6da48bcb991dee9a33be-qa>;
                                                                          <http://www.w3.org/ns/prov#startedAtTime> "2013-06-25T13:08:32.000000+02:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#used> <http://nice.org.uk/vcs/file-README.mdown-99aeee94c91d0e3617b5ffba94ab5f8b1ef5b4f0>;
+                                                                         <http://www.w3.org/ns/prov#used> <http://nice.org.uk/vcs-file-README.mdown-99aeee94c91d0e3617b5ffba94ab5f8b1ef5b4f0>;
                                                                          <http://www.w3.org/ns/prov#wasAssociatedWith> <http://nice.org.uk/identity/git-username-ryansroberts>;
-                                                                         <http://www.w3.org/ns/prov#wasInformedBy> <http://nice.org.uk/vcs/commit-f2b2ab99dac50e8754afd585208647575577e41a>.
-<http://nice.org.uk/vcs/commit-3180fad79e9483b67dcc6da48bcb991dee9a33be-qa> a <http://www.w3.org/ns/prov#Association>;
+                                                                         <http://www.w3.org/ns/prov#wasInformedBy> <http://nice.org.uk/vcs-commit-f2b2ab99dac50e8754afd585208647575577e41a>.
+<http://nice.org.uk/vcs-commit-3180fad79e9483b67dcc6da48bcb991dee9a33be-qa> a <http://www.w3.org/ns/prov#Association>;
                                                                             <http://www.w3.org/ns/prov#Agent> <http://nice.org.uk/identity/git-username-ryansroberts>;
                                                                             <http://www.w3.org/ns/prov#hadRole> "author, comitter".
-<http://nice.org.uk/vcs/commit-3b47385903a11c0656b10b316aff848d0100f156> a <http://www.w3.org/ns/prov#Activity>;
-                                                                         rdfs:label """tweaked
-""";
-                                                                         <http://www.w3.org/ns/prov#endedAtTime> "2011-11-11T11:31:19.000000+00:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#qualifiedAssociation> <http://nice.org.uk/vcs/commit-3b47385903a11c0656b10b316aff848d0100f156-qa>;
-                                                                         <http://www.w3.org/ns/prov#startedAtTime> "2011-11-11T11:31:19.000000+00:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#used> <http://nice.org.uk/vcs/file-README.mdown-10a2af15679e9f4ca9993f8c95df4d044447d0a5>;
-                                                                         <http://www.w3.org/ns/prov#wasAssociatedWith> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                         <http://www.w3.org/ns/prov#wasInformedBy> <http://nice.org.uk/vcs/commit-534f750d4f2274367e2a4903511242d1a2a1ddbb>.
-<http://nice.org.uk/vcs/commit-3b47385903a11c0656b10b316aff848d0100f156-qa> a <http://www.w3.org/ns/prov#Association>;
-                                                                            <http://www.w3.org/ns/prov#Agent> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                            <http://www.w3.org/ns/prov#hadRole> "author, comitter".
-<http://nice.org.uk/vcs/commit-534f750d4f2274367e2a4903511242d1a2a1ddbb> a <http://www.w3.org/ns/prov#Activity>;
-                                                                         rdfs:label """tweak
-""";
-                                                                         <http://www.w3.org/ns/prov#endedAtTime> "2011-11-11T11:22:23.000000+00:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#qualifiedAssociation> <http://nice.org.uk/vcs/commit-534f750d4f2274367e2a4903511242d1a2a1ddbb-qa>;
-                                                                         <http://www.w3.org/ns/prov#startedAtTime> "2011-11-11T11:22:23.000000+00:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#used> <http://nice.org.uk/vcs/file-README.mdown-5b8c8325ec51ea1732f2836c7dbf0e49dd9b7fa6>;
-                                                                         <http://www.w3.org/ns/prov#wasAssociatedWith> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                         <http://www.w3.org/ns/prov#wasInformedBy> <http://nice.org.uk/vcs/commit-e88857b9084f6d5e6b85a923adad5f9089eb01aa>.
-<http://nice.org.uk/vcs/commit-534f750d4f2274367e2a4903511242d1a2a1ddbb-qa> a <http://www.w3.org/ns/prov#Association>;
-                                                                            <http://www.w3.org/ns/prov#Agent> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                            <http://www.w3.org/ns/prov#hadRole> "author, comitter".
-<http://nice.org.uk/vcs/commit-c3da3369a443357bf5d45a7bd6f2217481796bcf> a <http://www.w3.org/ns/prov#Activity>;
-                                                                         rdfs:label """tweak cyclical test
-""";
-                                                                         <http://www.w3.org/ns/prov#endedAtTime> "2011-11-21T15:01:17.000000+00:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#qualifiedAssociation> <http://nice.org.uk/vcs/commit-c3da3369a443357bf5d45a7bd6f2217481796bcf-qa>;
-                                                                         <http://www.w3.org/ns/prov#startedAtTime> "2011-11-21T15:01:17.000000+00:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#used> <http://nice.org.uk/vcs/file-README.mdown-128e732e1402f16643b44f9140dd090bb29ffff6>;
-                                                                         <http://www.w3.org/ns/prov#wasAssociatedWith> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                         <http://www.w3.org/ns/prov#wasInformedBy> <http://nice.org.uk/vcs/commit-cf6b0761a1043e8042c9e6d80bf0a89cd68e0df3>.
-<http://nice.org.uk/vcs/commit-c3da3369a443357bf5d45a7bd6f2217481796bcf-qa> a <http://www.w3.org/ns/prov#Association>;
-                                                                            <http://www.w3.org/ns/prov#Agent> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                            <http://www.w3.org/ns/prov#hadRole> "author, comitter".
-<http://nice.org.uk/vcs/commit-cf6b0761a1043e8042c9e6d80bf0a89cd68e0df3> a <http://www.w3.org/ns/prov#Activity>;
-                                                                         rdfs:label """tweaked
-""";
-                                                                         <http://www.w3.org/ns/prov#endedAtTime> "2011-11-11T11:32:07.000000+00:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#qualifiedAssociation> <http://nice.org.uk/vcs/commit-cf6b0761a1043e8042c9e6d80bf0a89cd68e0df3-qa>;
-                                                                         <http://www.w3.org/ns/prov#startedAtTime> "2011-11-11T11:32:07.000000+00:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#used> <http://nice.org.uk/vcs/file-README.mdown-95f9cbb2b91f408f531869665fc7ff547119892b>;
-                                                                         <http://www.w3.org/ns/prov#wasAssociatedWith> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                         <http://www.w3.org/ns/prov#wasInformedBy> <http://nice.org.uk/vcs/commit-3b47385903a11c0656b10b316aff848d0100f156>.
-<http://nice.org.uk/vcs/commit-cf6b0761a1043e8042c9e6d80bf0a89cd68e0df3-qa> a <http://www.w3.org/ns/prov#Association>;
-                                                                            <http://www.w3.org/ns/prov#Agent> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                            <http://www.w3.org/ns/prov#hadRole> "author, comitter".
-<http://nice.org.uk/vcs/commit-d40ff4b1b03ea8c63389d7524c4bc23bd36993f0> a <http://www.w3.org/ns/prov#Activity>;
+<http://nice.org.uk/vcs-commit-d40ff4b1b03ea8c63389d7524c4bc23bd36993f0> a <http://www.w3.org/ns/prov#Activity>;
                                                                          rdfs:label "Update README.mdown";
                                                                          <http://www.w3.org/ns/prov#endedAtTime> "2013-08-08T15:29:12.000000+01:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#qualifiedAssociation> <http://nice.org.uk/vcs/commit-d40ff4b1b03ea8c63389d7524c4bc23bd36993f0-qa>;
+                                                                         <http://www.w3.org/ns/prov#qualifiedAssociation> <http://nice.org.uk/vcs-commit-d40ff4b1b03ea8c63389d7524c4bc23bd36993f0-qa>;
                                                                          <http://www.w3.org/ns/prov#startedAtTime> "2013-08-08T15:29:12.000000+01:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#used> <http://nice.org.uk/vcs/file-README.mdown-9af9134f97193170f1e665087cef64c4cc538e64>;
+                                                                         <http://www.w3.org/ns/prov#used> <http://nice.org.uk/vcs-file-README.mdown-9af9134f97193170f1e665087cef64c4cc538e64>;
                                                                          <http://www.w3.org/ns/prov#wasAssociatedWith> <http://nice.org.uk/identity/git-username-vurt007>;
-                                                                         <http://www.w3.org/ns/prov#wasInformedBy> <http://nice.org.uk/vcs/commit-3180fad79e9483b67dcc6da48bcb991dee9a33be>.
-<http://nice.org.uk/vcs/commit-d40ff4b1b03ea8c63389d7524c4bc23bd36993f0-qa> a <http://www.w3.org/ns/prov#Association>;
+                                                                         <http://www.w3.org/ns/prov#wasInformedBy> <http://nice.org.uk/vcs-commit-3180fad79e9483b67dcc6da48bcb991dee9a33be>.
+<http://nice.org.uk/vcs-commit-d40ff4b1b03ea8c63389d7524c4bc23bd36993f0-qa> a <http://www.w3.org/ns/prov#Association>;
                                                                             <http://www.w3.org/ns/prov#Agent> <http://nice.org.uk/identity/git-username-vurt007>;
                                                                             <http://www.w3.org/ns/prov#hadRole> "author, comitter".
-<http://nice.org.uk/vcs/commit-e2c208ffb0332cf2e2e57b7c130c87624812dd75> a <http://www.w3.org/ns/prov#Activity>;
-                                                                         rdfs:label """updated submission details
-""";
-                                                                         <http://www.w3.org/ns/prov#endedAtTime> "2011-11-22T12:08:47.000000+00:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#qualifiedAssociation> <http://nice.org.uk/vcs/commit-e2c208ffb0332cf2e2e57b7c130c87624812dd75-qa>;
-                                                                         <http://www.w3.org/ns/prov#startedAtTime> "2011-11-22T12:08:47.000000+00:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#used> <http://nice.org.uk/vcs/file-README.mdown-9aad826c73c234cf8074f46f90ef579bf47d0ccb>;
-                                                                         <http://www.w3.org/ns/prov#wasAssociatedWith> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                         <http://www.w3.org/ns/prov#wasInformedBy> <http://nice.org.uk/vcs/commit-c3da3369a443357bf5d45a7bd6f2217481796bcf>.
-<http://nice.org.uk/vcs/commit-e2c208ffb0332cf2e2e57b7c130c87624812dd75-qa> a <http://www.w3.org/ns/prov#Association>;
-                                                                            <http://www.w3.org/ns/prov#Agent> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                            <http://www.w3.org/ns/prov#hadRole> "author, comitter".
-<http://nice.org.uk/vcs/commit-e88857b9084f6d5e6b85a923adad5f9089eb01aa> a <http://www.w3.org/ns/prov#Activity>;
-                                                                         rdfs:label """added instructions
-""";
-                                                                         <http://www.w3.org/ns/prov#endedAtTime> "2011-11-11T11:14:10.000000+00:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#qualifiedAssociation> <http://nice.org.uk/vcs/commit-e88857b9084f6d5e6b85a923adad5f9089eb01aa-qa>;
-                                                                         <http://www.w3.org/ns/prov#startedAtTime> "2011-11-11T11:14:10.000000+00:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#used> <http://nice.org.uk/vcs/file-README.mdown-acd7cbb98bec971396b3a84ad31d6b3cd205f443>;
-                                                                         <http://www.w3.org/ns/prov#wasAssociatedWith> <http://nice.org.uk/identity/git-username-Simon-Hambly>.
-<http://nice.org.uk/vcs/commit-e88857b9084f6d5e6b85a923adad5f9089eb01aa-qa> a <http://www.w3.org/ns/prov#Association>;
-                                                                            <http://www.w3.org/ns/prov#Agent> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                            <http://www.w3.org/ns/prov#hadRole> "author, comitter".
-<http://nice.org.uk/vcs/commit-eaa8dfb95f7c72449eaec4e7ea6a3281c6bd52ff> a <http://www.w3.org/ns/prov#Activity>;
-                                                                         rdfs:label """small changes
-""";
-                                                                         <http://www.w3.org/ns/prov#endedAtTime> "2012-03-23T19:54:57.000000+00:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#qualifiedAssociation> <http://nice.org.uk/vcs/commit-eaa8dfb95f7c72449eaec4e7ea6a3281c6bd52ff-qa>;
-                                                                         <http://www.w3.org/ns/prov#startedAtTime> "2012-03-23T19:54:57.000000+00:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#used> <http://nice.org.uk/vcs/file-README.mdown-4ebb1ee97359488d766a1ed1001eba1191ea6b42>;
-                                                                         <http://www.w3.org/ns/prov#wasAssociatedWith> <http://nice.org.uk/identity/git-username-Edward-Hiley>;
-                                                                         <http://www.w3.org/ns/prov#wasInformedBy> <http://nice.org.uk/vcs/commit-e2c208ffb0332cf2e2e57b7c130c87624812dd75>.
-<http://nice.org.uk/vcs/commit-eaa8dfb95f7c72449eaec4e7ea6a3281c6bd52ff-qa> a <http://www.w3.org/ns/prov#Association>;
-                                                                            <http://www.w3.org/ns/prov#Agent> <http://nice.org.uk/identity/git-username-Edward-Hiley>;
-                                                                            <http://www.w3.org/ns/prov#hadRole> "author, comitter".
-<http://nice.org.uk/vcs/commit-f2b2ab99dac50e8754afd585208647575577e41a> a <http://www.w3.org/ns/prov#Activity>;
-                                                                         rdfs:label "Update README.mdown";
-                                                                         <http://www.w3.org/ns/prov#endedAtTime> "2013-04-10T14:30:09.000000+02:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#qualifiedAssociation> <http://nice.org.uk/vcs/commit-f2b2ab99dac50e8754afd585208647575577e41a-qa>;
-                                                                         <http://www.w3.org/ns/prov#startedAtTime> "2013-04-10T14:30:09.000000+02:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#used> <http://nice.org.uk/vcs/file-README.mdown-fe4d816e03fba0792a241d103e1d551bb05e0107>;
-                                                                         <http://www.w3.org/ns/prov#wasAssociatedWith> <http://nice.org.uk/identity/git-username-vurt007>;
-                                                                         <http://www.w3.org/ns/prov#wasInformedBy> <http://nice.org.uk/vcs/commit-f588980c8b4800391d53ff12baea03264629801b>.
-<http://nice.org.uk/vcs/commit-f2b2ab99dac50e8754afd585208647575577e41a-qa> a <http://www.w3.org/ns/prov#Association>;
-                                                                            <http://www.w3.org/ns/prov#Agent> <http://nice.org.uk/identity/git-username-vurt007>;
-                                                                            <http://www.w3.org/ns/prov#hadRole> "author, comitter".
-<http://nice.org.uk/vcs/commit-f588980c8b4800391d53ff12baea03264629801b> a <http://www.w3.org/ns/prov#Activity>;
-                                                                         rdfs:label "Update README.mdown";
-                                                                         <http://www.w3.org/ns/prov#endedAtTime> "2013-02-06T11:04:38.000000+00:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#qualifiedAssociation> <http://nice.org.uk/vcs/commit-f588980c8b4800391d53ff12baea03264629801b-qa>;
-                                                                         <http://www.w3.org/ns/prov#startedAtTime> "2013-02-06T11:04:38.000000+00:00"^^xsd:dateTime;
-                                                                         <http://www.w3.org/ns/prov#used> <http://nice.org.uk/vcs/file-README.mdown-1da65d583bcb656661c68e15b69d74e05f1ed3d6>;
-                                                                         <http://www.w3.org/ns/prov#wasAssociatedWith> <http://nice.org.uk/identity/git-username-ryansroberts>;
-                                                                         <http://www.w3.org/ns/prov#wasInformedBy> <http://nice.org.uk/vcs/commit-eaa8dfb95f7c72449eaec4e7ea6a3281c6bd52ff>.
-<http://nice.org.uk/vcs/commit-f588980c8b4800391d53ff12baea03264629801b-qa> a <http://www.w3.org/ns/prov#Association>;
-                                                                            <http://www.w3.org/ns/prov#Agent> <http://nice.org.uk/identity/git-username-ryansroberts>;
-                                                                            <http://www.w3.org/ns/prov#hadRole> "author, comitter".
-<http://nice.org.uk/vcs/file-README.mdown-10a2af15679e9f4ca9993f8c95df4d044447d0a5> a <http://www.w3.org/2011/content#ContentAsText>,
-                                                                                      <http://www.w3.org/ns/prov#Entity>;
-                                                                                    <http://www.w3.org/2011/content#chars> <https://raw.githubusercontent.com/ryansroberts/markdownpipeline/10a2af15679e9f4ca9993f8c95df4d044447d0a5/README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#specializationOf> <http://nice.org.uk/vcs/file-README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#wasAttributedTo> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                                    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://nice.org.uk/vcs/commit-3b47385903a11c0656b10b316aff848d0100f156>.
-<http://nice.org.uk/vcs/file-README.mdown-128e732e1402f16643b44f9140dd090bb29ffff6> a <http://www.w3.org/2011/content#ContentAsText>,
-                                                                                      <http://www.w3.org/ns/prov#Entity>;
-                                                                                    <http://www.w3.org/2011/content#chars> <https://raw.githubusercontent.com/ryansroberts/markdownpipeline/128e732e1402f16643b44f9140dd090bb29ffff6/README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#specializationOf> <http://nice.org.uk/vcs/file-README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#wasAttributedTo> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                                    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://nice.org.uk/vcs/commit-c3da3369a443357bf5d45a7bd6f2217481796bcf>.
-<http://nice.org.uk/vcs/file-README.mdown-1da65d583bcb656661c68e15b69d74e05f1ed3d6> a <http://www.w3.org/2011/content#ContentAsText>,
-                                                                                      <http://www.w3.org/ns/prov#Entity>;
-                                                                                    <http://www.w3.org/2011/content#chars> <https://raw.githubusercontent.com/ryansroberts/markdownpipeline/1da65d583bcb656661c68e15b69d74e05f1ed3d6/README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#specializationOf> <http://nice.org.uk/vcs/file-README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#wasAttributedTo> <http://nice.org.uk/identity/git-username-ryansroberts>;
-                                                                                    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://nice.org.uk/vcs/commit-f588980c8b4800391d53ff12baea03264629801b>.
-<http://nice.org.uk/vcs/file-README.mdown-4ebb1ee97359488d766a1ed1001eba1191ea6b42> a <http://www.w3.org/2011/content#ContentAsText>,
-                                                                                      <http://www.w3.org/ns/prov#Entity>;
-                                                                                    <http://www.w3.org/2011/content#chars> <https://raw.githubusercontent.com/ryansroberts/markdownpipeline/4ebb1ee97359488d766a1ed1001eba1191ea6b42/README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#specializationOf> <http://nice.org.uk/vcs/file-README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#wasAttributedTo> <http://nice.org.uk/identity/git-username-Edward-Hiley>;
-                                                                                    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://nice.org.uk/vcs/commit-eaa8dfb95f7c72449eaec4e7ea6a3281c6bd52ff>.
-<http://nice.org.uk/vcs/file-README.mdown-5b8c8325ec51ea1732f2836c7dbf0e49dd9b7fa6> a <http://www.w3.org/2011/content#ContentAsText>,
-                                                                                      <http://www.w3.org/ns/prov#Entity>;
-                                                                                    <http://www.w3.org/2011/content#chars> <https://raw.githubusercontent.com/ryansroberts/markdownpipeline/5b8c8325ec51ea1732f2836c7dbf0e49dd9b7fa6/README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#specializationOf> <http://nice.org.uk/vcs/file-README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#wasAttributedTo> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                                    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://nice.org.uk/vcs/commit-534f750d4f2274367e2a4903511242d1a2a1ddbb>.
-<http://nice.org.uk/vcs/file-README.mdown-95f9cbb2b91f408f531869665fc7ff547119892b> a <http://www.w3.org/2011/content#ContentAsText>,
-                                                                                      <http://www.w3.org/ns/prov#Entity>;
-                                                                                    <http://www.w3.org/2011/content#chars> <https://raw.githubusercontent.com/ryansroberts/markdownpipeline/95f9cbb2b91f408f531869665fc7ff547119892b/README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#specializationOf> <http://nice.org.uk/vcs/file-README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#wasAttributedTo> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                                    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://nice.org.uk/vcs/commit-cf6b0761a1043e8042c9e6d80bf0a89cd68e0df3>.
-<http://nice.org.uk/vcs/file-README.mdown-99aeee94c91d0e3617b5ffba94ab5f8b1ef5b4f0> a <http://www.w3.org/2011/content#ContentAsText>,
+<http://nice.org.uk/vcs-file-README.mdown-99aeee94c91d0e3617b5ffba94ab5f8b1ef5b4f0> a <http://www.w3.org/2011/content#ContentAsText>,
                                                                                       <http://www.w3.org/ns/prov#Entity>;
                                                                                     <http://www.w3.org/2011/content#chars> <https://raw.githubusercontent.com/ryansroberts/markdownpipeline/99aeee94c91d0e3617b5ffba94ab5f8b1ef5b4f0/README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#specializationOf> <http://nice.org.uk/vcs/file-README.mdown>;
+                                                                                    <http://www.w3.org/ns/prov#specializationOf> <http://nice.org.uk/vcs-file-README.mdown>;
                                                                                     <http://www.w3.org/ns/prov#wasAttributedTo> <http://nice.org.uk/identity/git-username-ryansroberts>;
-                                                                                    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://nice.org.uk/vcs/commit-3180fad79e9483b67dcc6da48bcb991dee9a33be>.
-<http://nice.org.uk/vcs/file-README.mdown-9aad826c73c234cf8074f46f90ef579bf47d0ccb> a <http://www.w3.org/2011/content#ContentAsText>,
-                                                                                      <http://www.w3.org/ns/prov#Entity>;
-                                                                                    <http://www.w3.org/2011/content#chars> <https://raw.githubusercontent.com/ryansroberts/markdownpipeline/9aad826c73c234cf8074f46f90ef579bf47d0ccb/README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#specializationOf> <http://nice.org.uk/vcs/file-README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#wasAttributedTo> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                                    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://nice.org.uk/vcs/commit-e2c208ffb0332cf2e2e57b7c130c87624812dd75>.
-<http://nice.org.uk/vcs/file-README.mdown-9af9134f97193170f1e665087cef64c4cc538e64> a <http://www.w3.org/2011/content#ContentAsText>,
+                                                                                    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://nice.org.uk/vcs-commit-3180fad79e9483b67dcc6da48bcb991dee9a33be>.
+<http://nice.org.uk/vcs-file-README.mdown-9af9134f97193170f1e665087cef64c4cc538e64> a <http://www.w3.org/2011/content#ContentAsText>,
                                                                                       <http://www.w3.org/ns/prov#Entity>;
                                                                                     <http://www.w3.org/2011/content#chars> <https://raw.githubusercontent.com/ryansroberts/markdownpipeline/9af9134f97193170f1e665087cef64c4cc538e64/README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#specializationOf> <http://nice.org.uk/vcs/file-README.mdown>;
+                                                                                    <http://www.w3.org/ns/prov#specializationOf> <http://nice.org.uk/vcs-file-README.mdown>;
                                                                                     <http://www.w3.org/ns/prov#wasAttributedTo> <http://nice.org.uk/identity/git-username-vurt007>;
-                                                                                    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://nice.org.uk/vcs/commit-d40ff4b1b03ea8c63389d7524c4bc23bd36993f0>.
-<http://nice.org.uk/vcs/file-README.mdown-acd7cbb98bec971396b3a84ad31d6b3cd205f443> a <http://www.w3.org/2011/content#ContentAsText>,
-                                                                                      <http://www.w3.org/ns/prov#Entity>;
-                                                                                    <http://www.w3.org/2011/content#chars> <https://raw.githubusercontent.com/ryansroberts/markdownpipeline/acd7cbb98bec971396b3a84ad31d6b3cd205f443/README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#specializationOf> <http://nice.org.uk/vcs/file-README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#wasAttributedTo> <http://nice.org.uk/identity/git-username-Simon-Hambly>;
-                                                                                    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://nice.org.uk/vcs/commit-e88857b9084f6d5e6b85a923adad5f9089eb01aa>.
-<http://nice.org.uk/vcs/file-README.mdown-fe4d816e03fba0792a241d103e1d551bb05e0107> a <http://www.w3.org/2011/content#ContentAsText>,
-                                                                                      <http://www.w3.org/ns/prov#Entity>;
-                                                                                    <http://www.w3.org/2011/content#chars> <https://raw.githubusercontent.com/ryansroberts/markdownpipeline/fe4d816e03fba0792a241d103e1d551bb05e0107/README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#specializationOf> <http://nice.org.uk/vcs/file-README.mdown>;
-                                                                                    <http://www.w3.org/ns/prov#wasAttributedTo> <http://nice.org.uk/identity/git-username-vurt007>;
-                                                                                    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://nice.org.uk/vcs/commit-f2b2ab99dac50e8754afd585208647575577e41a>.
+                                                                                    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://nice.org.uk/vcs-commit-d40ff4b1b03ea8c63389d7524c4bc23bd36993f0>.

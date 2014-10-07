@@ -1,0 +1,565 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.241755
+      },
+      {
+        "id": 2,
+        "label": "Sports",
+        "wikiLink": "http://en.wikipedia.org/Category:Sports",
+        "score": 0.241755
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.234871
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.234871
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.234871
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cardiovascular disease",
+        "wikiLink": "http://en.wikipedia.org/Cardiovascular_disease",
+        "score": 0.161194
+      },
+      {
+        "id": 1,
+        "label": "Chronic kidney disease",
+        "wikiLink": "http://en.wikipedia.org/Chronic_kidney_disease",
+        "score": 0.6265
+      },
+      {
+        "id": 2,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.778354
+      },
+      {
+        "id": 3,
+        "label": "Preventive healthcare",
+        "wikiLink": "http://en.wikipedia.org/Preventive_healthcare",
+        "score": 0.21723
+      },
+      {
+        "id": 4,
+        "label": "Renal failure",
+        "wikiLink": "http://en.wikipedia.org/Renal_failure",
+        "score": 0.571099
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.759765
+      },
+      {
+        "id": 6,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.203626
+      },
+      {
+        "id": 7,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.180104
+      },
+      {
+        "id": 8,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.180104
+      },
+      {
+        "id": 9,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.180104
+      },
+      {
+        "id": 10,
+        "label": "Organ failure",
+        "wikiLink": "http://en.wikipedia.org/Category:Organ_failure",
+        "score": 0.166664
+      },
+      {
+        "id": 11,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.133294
+      },
+      {
+        "id": 12,
+        "label": "Human anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_anatomy",
+        "score": 0.13053
+      },
+      {
+        "id": 13,
+        "label": "Animal anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_anatomy",
+        "score": 0.13053
+      },
+      {
+        "id": 14,
+        "label": "Organs",
+        "wikiLink": "http://en.wikipedia.org/Category:Organs",
+        "score": 0.13053
+      },
+      {
+        "id": 15,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.122305
+      },
+      {
+        "id": 16,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.122305
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Tonelli M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Tonelli M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Collins D",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Collins D",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Robins S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Robins S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 34
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Gemfibrozil",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 3.27749,
+        "wikiLink": "http://en.wikipedia.org/wiki/Gemfibrozil",
+        "matchedText": "Gemfibrozil",
+        "freebaseId": "/m/035xrc",
+        "relevanceScore": 0,
+        "entityEnglishId": "Gemfibrozil",
+        "startingPos": 42,
+        "endingPos": 53
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Preventive healthcare",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/education/field_of_study",
+          "/media_common/quotation_subject",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 1.51122,
+        "wikiLink": "http://en.wikipedia.org/wiki/Preventive_healthcare",
+        "matchedText": "secondary prevention",
+        "freebaseId": "/m/0400g4",
+        "relevanceScore": 0.21723,
+        "entityEnglishId": "Preventive healthcare",
+        "startingPos": 58,
+        "endingPos": 78
+      },
+      {
+        "id": 5,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Circulatory system",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.22677,
+        "wikiLink": "http://en.wikipedia.org/wiki/Circulatory_system",
+        "matchedText": "cardiovascular",
+        "freebaseId": "/m/0frx0",
+        "relevanceScore": 0.0992663,
+        "entityEnglishId": "Circulatory system",
+        "startingPos": 82,
+        "endingPos": 96
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.10855,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "cardiovascular events",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.161194,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 82,
+        "endingPos": 103
+      },
+      {
+        "id": 7,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.30586,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.382404,
+        "entityEnglishId": "Kidney",
+        "startingPos": 132,
+        "endingPos": 137
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          22,
+          23,
+          24
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.87533,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "chronic renal insufficiency",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.6265,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 124,
+        "endingPos": 151
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23,
+          24
+        ],
+        "entityId": "Renal failure",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 5.91282,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_failure",
+        "matchedText": "renal insufficiency",
+        "freebaseId": "/m/01psyx",
+        "relevanceScore": 0.571099,
+        "entityEnglishId": "Renal failure",
+        "startingPos": 132,
+        "endingPos": 151
+      },
+      {
+        "id": 10,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.16399,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.39595,
+        "entityEnglishId": "Kidney",
+        "startingPos": 153,
+        "endingPos": 159
+      },
+      {
+        "id": 11,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "Kidney International",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kidney International",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 153,
+        "endingPos": 173
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          24
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          24
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          24
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      }
+    ]
+  },
+  "time": 0.321,
+  "ok": true
+}

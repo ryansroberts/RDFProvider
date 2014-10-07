@@ -1,0 +1,340 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.641878
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.352402
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.309456
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Nephrology",
+        "score": 0.175026
+      },
+      {
+        "id": 1,
+        "label": "Protein",
+        "wikiLink": "http://en.wikipedia.org/Protein",
+        "score": 0.102236
+      },
+      {
+        "id": 2,
+        "label": "Serum albumin",
+        "wikiLink": "http://en.wikipedia.org/Serum_albumin",
+        "score": 0.218981
+      },
+      {
+        "id": 3,
+        "label": "Body fluids",
+        "wikiLink": "http://en.wikipedia.org/Category:Body_fluids",
+        "score": 0.0948809
+      },
+      {
+        "id": 4,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.0794994
+      },
+      {
+        "id": 5,
+        "label": "Proteins",
+        "wikiLink": "http://en.wikipedia.org/Category:Proteins",
+        "score": 0.0773284
+      },
+      {
+        "id": 6,
+        "label": "Molecular biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Molecular_biology",
+        "score": 0.0773284
+      },
+      {
+        "id": 7,
+        "label": "Cell biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cell_biology",
+        "score": 0.0773284
+      },
+      {
+        "id": 8,
+        "label": "Biomolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Biomolecules_by_chemical_classification",
+        "score": 0.0709913
+      },
+      {
+        "id": 9,
+        "label": "Nutrients",
+        "wikiLink": "http://en.wikipedia.org/Category:Nutrients",
+        "score": 0.0709913
+      },
+      {
+        "id": 10,
+        "label": "Macromolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Macromolecules",
+        "score": 0.0709913
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Newman DJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Newman DJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Thakkar H",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Thakkar H",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Medcalf EA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Medcalf EA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 36
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Urine",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 2.42113,
+        "wikiLink": "http://en.wikipedia.org/wiki/Urine",
+        "matchedText": "urine",
+        "freebaseId": "/m/0b7q43",
+        "relevanceScore": 0.0516403,
+        "entityEnglishId": "Urine",
+        "startingPos": 51,
+        "endingPos": 56
+      },
+      {
+        "id": 4,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Serum albumin",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 2.40706,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_albumin",
+        "matchedText": "albumin",
+        "freebaseId": "/m/051h4z",
+        "relevanceScore": 0.218981,
+        "entityEnglishId": "Serum albumin",
+        "startingPos": 57,
+        "endingPos": 64
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Protein",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/chemistry/chemical_classification",
+          "/medicine/drug_class",
+          "/food/nutrient"
+        ],
+        "confidenceScore": 2.9633,
+        "wikiLink": "http://en.wikipedia.org/wiki/Protein",
+        "matchedText": "protein",
+        "freebaseId": "/m/05wvs",
+        "relevanceScore": 0.102236,
+        "entityEnglishId": "Protein",
+        "startingPos": 104,
+        "endingPos": 111
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Nephrology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 4.18519,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephrology",
+        "matchedText": "Nephrology",
+        "freebaseId": "/m/05jd4",
+        "relevanceScore": 0.175026,
+        "entityEnglishId": "Nephrology",
+        "startingPos": 122,
+        "endingPos": 132
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          24
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          16
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.32,
+  "ok": true
+}

@@ -1,0 +1,325 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.223473
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.198616
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.192766
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Anticonvulsant",
+        "wikiLink": "http://en.wikipedia.org/Anticonvulsant",
+        "score": 0.308138
+      },
+      {
+        "id": 1,
+        "label": "Antidepressant",
+        "wikiLink": "http://en.wikipedia.org/Antidepressant",
+        "score": 0.189011
+      },
+      {
+        "id": 2,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.110104
+      },
+      {
+        "id": 3,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0878336
+      },
+      {
+        "id": 4,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.0872963
+      },
+      {
+        "id": 5,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0872963
+      },
+      {
+        "id": 6,
+        "label": "Occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Occupations_by_type",
+        "score": 0.082458
+      },
+      {
+        "id": 7,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.056608
+      },
+      {
+        "id": 8,
+        "label": "Practice of medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Practice_of_medicine",
+        "score": 0.0425818
+      },
+      {
+        "id": 9,
+        "label": "Physicians",
+        "wikiLink": "http://en.wikipedia.org/Category:Physicians",
+        "score": 0.0425818
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          4,
+          5,
+          6
+        ],
+        "entityId": "McCarberg B. Antidepressants",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "McCarberg B. Antidepressants",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 43
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Antidepressant",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class",
+          "/business/competitive_space"
+        ],
+        "confidenceScore": 4.48943,
+        "wikiLink": "http://en.wikipedia.org/wiki/Antidepressant",
+        "matchedText": "Antidepressants",
+        "freebaseId": "/m/0z0q",
+        "relevanceScore": 0.189011,
+        "entityEnglishId": "Antidepressant",
+        "startingPos": 28,
+        "endingPos": 43
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Anticonvulsant",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 3.22654,
+        "wikiLink": "http://en.wikipedia.org/wiki/Anticonvulsant",
+        "matchedText": "antiepileptic",
+        "freebaseId": "/m/018kmx",
+        "relevanceScore": 0.263222,
+        "entityEnglishId": "Anticonvulsant",
+        "startingPos": 48,
+        "endingPos": 61
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Anticonvulsant",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.32153,
+        "wikiLink": "http://en.wikipedia.org/wiki/Anticonvulsant",
+        "matchedText": "antiepileptic drugs",
+        "freebaseId": "/m/018kmx",
+        "relevanceScore": 0.0449157,
+        "entityEnglishId": "Anticonvulsant",
+        "startingPos": 48,
+        "endingPos": 67
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Drug",
+        "freebaseTypes": [
+          "/medicine/drug_formulation_category",
+          "/film/film_subject",
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.7767,
+        "wikiLink": "http://en.wikipedia.org/wiki/Drug",
+        "matchedText": "drugs",
+        "freebaseId": "/m/02kjb_",
+        "relevanceScore": 0.0632339,
+        "entityEnglishId": "Drug",
+        "startingPos": 62,
+        "endingPos": 67
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.02254,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.0956979,
+        "entityEnglishId": "Pain",
+        "startingPos": 91,
+        "endingPos": 95
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          15,
+          16,
+          17
+        ],
+        "entityId": "American Family Physician",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "American Family Physician",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 97,
+        "endingPos": 122
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Family medicine",
+        "freebaseTypes": [
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 1.23171,
+        "wikiLink": "http://en.wikipedia.org/wiki/Family_medicine",
+        "matchedText": "Family Physician",
+        "freebaseId": "/m/03x_dvn",
+        "relevanceScore": 0.0378365,
+        "entityEnglishId": "Family medicine",
+        "startingPos": 106,
+        "endingPos": 122
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Physician",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/people/profession",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.13788,
+        "wikiLink": "http://en.wikipedia.org/wiki/Physician",
+        "matchedText": "Physician",
+        "freebaseId": "/m/05t4q",
+        "relevanceScore": 0.0608596,
+        "entityEnglishId": "Physician",
+        "startingPos": 113,
+        "endingPos": 122
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          9
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

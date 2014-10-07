@@ -1,0 +1,565 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.6794
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.660926
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.334255
+      },
+      {
+        "id": 4,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.3228
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 1",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_1",
+        "score": 0.205656
+      },
+      {
+        "id": 2,
+        "label": "Geography",
+        "wikiLink": "http://en.wikipedia.org/Category:Geography_by_continent",
+        "score": 0.326105
+      },
+      {
+        "id": 3,
+        "label": "Archipelagoes",
+        "wikiLink": "http://en.wikipedia.org/Category:Archipelagoes_by_sea_or_ocean",
+        "score": 0.0594381
+      },
+      {
+        "id": 4,
+        "label": "Islands",
+        "wikiLink": "http://en.wikipedia.org/Category:Islands_by_ocean_or_sea",
+        "score": 0.0594381
+      },
+      {
+        "id": 5,
+        "label": "United Kingdom",
+        "wikiLink": "http://en.wikipedia.org/Category:United_Kingdom",
+        "score": 0.0594381
+      },
+      {
+        "id": 6,
+        "label": "Great Britain",
+        "wikiLink": "http://en.wikipedia.org/Category:Great_Britain",
+        "score": 0.0594381
+      },
+      {
+        "id": 7,
+        "label": "Cultural spheres of influence",
+        "wikiLink": "http://en.wikipedia.org/Category:Cultural_spheres_of_influence",
+        "score": 0.0594381
+      },
+      {
+        "id": 8,
+        "label": "British Isles",
+        "wikiLink": "http://en.wikipedia.org/Category:British_Isles",
+        "score": 0.0594381
+      },
+      {
+        "id": 9,
+        "label": "Western Europe",
+        "wikiLink": "http://en.wikipedia.org/Category:Western_Europe",
+        "score": 0.0594381
+      },
+      {
+        "id": 10,
+        "label": "Northern Europe",
+        "wikiLink": "http://en.wikipedia.org/Category:Northern_Europe",
+        "score": 0.0594381
+      },
+      {
+        "id": 11,
+        "label": "Coastal and oceanic landforms",
+        "wikiLink": "http://en.wikipedia.org/Category:Coastal_and_oceanic_landforms",
+        "score": 0.0594381
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Gray A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Gray A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 6
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Fenn P",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Fenn P",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 8,
+        "endingPos": 14
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "McGuire A.",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "McGuire A.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 26
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 3.25101,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "insulin-dependent",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.777428,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 39,
+        "endingPos": 56
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.22805,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "insulin-dependent diabetes",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.181113,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 39,
+        "endingPos": 65
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.69673,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.307962,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 57,
+        "endingPos": 65
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12,
+          13
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.74868,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "insulin-dependent diabetes mellitus",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.0245432,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 39,
+        "endingPos": 74
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 4.31741,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes mellitus",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 57,
+        "endingPos": 74
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "England",
+        "freebaseTypes": [
+          "/fictional_universe/fictional_setting",
+          "/food/beer_country_region",
+          "/sports/sport_country",
+          "/location/uk_statistical_location",
+          "/organization/organization_scope",
+          "/biology/breed_origin",
+          "/sports/sports_team_location",
+          "/location/statistical_region",
+          "/military/military_combatant",
+          "/symbols/name_source",
+          "/location/uk_constituent_country",
+          "/location/dated_location",
+          "/law/court_jurisdiction_area",
+          "/government/governmental_jurisdiction",
+          "/travel/travel_destination",
+          "/film/film_location",
+          "/military/military_post",
+          "/film/film_subject",
+          "/location/country",
+          "/location/administrative_division",
+          "/olympics/olympic_participating_country",
+          "/periodicals/newspaper_circulation_area",
+          "/symbols/flag_referent",
+          "/book/book_subject",
+          "/event/speech_topic",
+          "/location/location"
+        ],
+        "confidenceScore": 2.27324,
+        "wikiLink": "http://en.wikipedia.org/wiki/England",
+        "matchedText": "England",
+        "freebaseId": "/m/02jx1",
+        "relevanceScore": 0.0533879,
+        "entityEnglishId": "England",
+        "startingPos": 85,
+        "endingPos": 92
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          18,
+          19,
+          20
+        ],
+        "entityId": "England and Wales",
+        "freebaseTypes": [
+          "/government/governmental_jurisdiction",
+          "/location/location",
+          "/law/court_jurisdiction_area",
+          "/organization/organization_scope",
+          "/location/uk_statistical_location"
+        ],
+        "confidenceScore": 1.58874,
+        "wikiLink": "http://en.wikipedia.org/wiki/England_and_Wales",
+        "matchedText": "England and Wales",
+        "freebaseId": "/m/01p7b1",
+        "relevanceScore": 0,
+        "entityEnglishId": "England and Wales",
+        "startingPos": 85,
+        "endingPos": 102
+      },
+      {
+        "id": 10,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Wales",
+        "freebaseTypes": [
+          "/location/location",
+          "/fictional_universe/fictional_setting",
+          "/organization/organization_scope",
+          "/sports/sports_team_location",
+          "/sports/sport_country",
+          "/periodicals/newspaper_circulation_area",
+          "/location/statistical_region",
+          "/location/administrative_division",
+          "/location/uk_constituent_country",
+          "/location/country",
+          "/government/governmental_jurisdiction",
+          "/biology/breed_origin",
+          "/book/book_subject",
+          "/location/dated_location",
+          "/law/court_jurisdiction_area",
+          "/location/uk_statistical_location",
+          "/food/beer_country_region",
+          "/military/military_combatant",
+          "/symbols/flag_referent",
+          "/travel/travel_destination",
+          "/film/film_location",
+          "/religion/religious_leadership_jurisdiction"
+        ],
+        "confidenceScore": 1.90662,
+        "wikiLink": "http://en.wikipedia.org/wiki/Wales",
+        "matchedText": "Wales",
+        "freebaseId": "/m/0j5g9",
+        "relevanceScore": 0.0762121,
+        "entityEnglishId": "Wales",
+        "startingPos": 97,
+        "endingPos": 102
+      },
+      {
+        "id": 11,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.79024,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.307962,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 104,
+        "endingPos": 112
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.33363,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "Medicine",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.0693872,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 113,
+        "endingPos": 121
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          15,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          15,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

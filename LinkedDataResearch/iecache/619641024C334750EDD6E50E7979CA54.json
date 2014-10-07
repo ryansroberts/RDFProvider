@@ -1,0 +1,453 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.726178
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.272752
+      },
+      {
+        "id": 3,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.271297
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.257835
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.246422
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Blood",
+        "wikiLink": "http://en.wikipedia.org/Blood",
+        "score": 0.135089
+      },
+      {
+        "id": 1,
+        "label": "Hypertension",
+        "wikiLink": "http://en.wikipedia.org/Hypertension",
+        "score": 0.332519
+      },
+      {
+        "id": 2,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Shock (circulatory)",
+        "wikiLink": "http://en.wikipedia.org/Shock_(circulatory)",
+        "score": 0.476898
+      },
+      {
+        "id": 4,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.720346
+      },
+      {
+        "id": 5,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.38205
+      },
+      {
+        "id": 6,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.377912
+      },
+      {
+        "id": 7,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.325819
+      },
+      {
+        "id": 8,
+        "label": "Causes of death",
+        "wikiLink": "http://en.wikipedia.org/Category:Causes_of_death",
+        "score": 0.20336
+      },
+      {
+        "id": 9,
+        "label": "Death",
+        "wikiLink": "http://en.wikipedia.org/Category:Death",
+        "score": 0.20336
+      },
+      {
+        "id": 10,
+        "label": "Pressure",
+        "wikiLink": "http://en.wikipedia.org/Category:Pressure",
+        "score": 0.183342
+      },
+      {
+        "id": 11,
+        "label": "Body fluids",
+        "wikiLink": "http://en.wikipedia.org/Category:Body_fluids",
+        "score": 0.142261
+      },
+      {
+        "id": 12,
+        "label": "Tissues",
+        "wikiLink": "http://en.wikipedia.org/Category:Tissues",
+        "score": 0.142261
+      },
+      {
+        "id": 13,
+        "label": "Animal anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_anatomy",
+        "score": 0.129122
+      },
+      {
+        "id": 14,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.0687737
+      },
+      {
+        "id": 15,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.0687307
+      },
+      {
+        "id": 16,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0665013
+      },
+      {
+        "id": 17,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0198185
+      },
+      {
+        "id": 18,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders",
+        "score": 0.00789658
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Lindeman RD",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lindeman RD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 15
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Tobin JD",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Tobin JD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 17,
+        "endingPos": 25
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Shock (circulatory)",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/people/cause_of_death",
+          "/medicine/risk_factor",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.50995,
+        "wikiLink": "http://en.wikipedia.org/wiki/Shock_(circulatory)",
+        "matchedText": "Shock",
+        "freebaseId": "/m/012n6d",
+        "relevanceScore": 0.476898,
+        "entityEnglishId": "Shock (circulatory)",
+        "startingPos": 27,
+        "endingPos": 32
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Blood",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/food/ingredient",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.81737,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood",
+        "matchedText": "blood",
+        "freebaseId": "/m/019jw",
+        "relevanceScore": 0.135089,
+        "entityEnglishId": "Blood",
+        "startingPos": 57,
+        "endingPos": 62
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Hypertension",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.41535,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypertension",
+        "matchedText": "blood pressure",
+        "freebaseId": "/m/0k95h",
+        "relevanceScore": 0.332519,
+        "entityEnglishId": "Hypertension",
+        "startingPos": 57,
+        "endingPos": 71
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Pressure",
+        "freebaseTypes": [
+          "/measurement_unit/common_dimension",
+          "/medicine/disease_cause",
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 0.966513,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pressure",
+        "matchedText": "pressure",
+        "freebaseId": "/m/05wnx",
+        "relevanceScore": 0.0271794,
+        "entityEnglishId": "Pressure",
+        "startingPos": 63,
+        "endingPos": 71
+      },
+      {
+        "id": 6,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.50055,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.598973,
+        "entityEnglishId": "Kidney",
+        "startingPos": 99,
+        "endingPos": 104
+      },
+      {
+        "id": 7,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.88701,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal function",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.598973,
+        "entityEnglishId": "Kidney",
+        "startingPos": 99,
+        "endingPos": 113
+      },
+      {
+        "id": 8,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.88443,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.613602,
+        "entityEnglishId": "Kidney",
+        "startingPos": 124,
+        "endingPos": 130
+      },
+      {
+        "id": 9,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Kidney International",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kidney International",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 124,
+        "endingPos": 144
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15,
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12,
+          13,
+          22
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

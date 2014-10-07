@@ -1,0 +1,102 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 5,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "European Medicines Agency",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/government/government_agency"
+        ],
+        "confidenceScore": 5.80464,
+        "wikiLink": "http://en.wikipedia.org/wiki/European_Medicines_Agency",
+        "matchedText": "European Medicines Agency",
+        "freebaseId": "/m/050ndx",
+        "relevanceScore": 0,
+        "entityEnglishId": "European Medicines Agency",
+        "startingPos": 4,
+        "endingPos": 29
+      },
+      {
+        "id": 1,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "www.emea.europa.eu",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "www.emea.europa.eu",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 37,
+        "endingPos": 55
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      }
+    ]
+  },
+  "time": 0.311,
+  "ok": true
+}

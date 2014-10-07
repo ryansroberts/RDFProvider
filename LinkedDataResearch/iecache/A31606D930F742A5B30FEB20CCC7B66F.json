@@ -1,0 +1,255 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Albuminuria",
+        "wikiLink": "http://en.wikipedia.org/Albuminuria",
+        "score": 0.12873
+      },
+      {
+        "id": 1,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.210004
+      },
+      {
+        "id": 2,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.0741796
+      },
+      {
+        "id": 3,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.0526191
+      },
+      {
+        "id": 4,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0526191
+      },
+      {
+        "id": 5,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.0526191
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Astor B",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Astor B",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 20
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Romundstad S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Romundstad S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 22,
+        "endingPos": 34
+      },
+      {
+        "id": 2,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.55733,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.0559954,
+        "entityEnglishId": "Kidney",
+        "startingPos": 57,
+        "endingPos": 63
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.97143,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "kidney function",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.210004,
+        "entityEnglishId": "Renal function",
+        "startingPos": 57,
+        "endingPos": 72
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.22088,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "albuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.12873,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 77,
+        "endingPos": 88
+      },
+      {
+        "id": 5,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          27,
+          28,
+          29
+        ],
+        "entityId": "HUNT II Study",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "HUNT II Study",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 156,
+        "endingPos": 169
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          19,
+          20
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          24
+        ],
+        "propertyPositions": [
+          21,
+          22
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          24
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21,
+          22,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          7
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

@@ -1,0 +1,228 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.319011
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Loveman E",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Loveman E",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Royle P",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Royle P",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 18
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Waugh N.",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Waugh N.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 20,
+        "endingPos": 28
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.68293,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.285819,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 50,
+        "endingPos": 58
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 4.31785,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes mellitus",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0331919,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 50,
+        "endingPos": 67
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Cochrane Library",
+        "confidenceScore": 3.91526,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cochrane_Library",
+        "matchedText": "Cochrane Library",
+        "freebaseId": "/m/01jydn",
+        "relevanceScore": 0,
+        "entityEnglishId": "Cochrane Library",
+        "startingPos": 74,
+        "endingPos": 90
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "time": 0.315,
+  "ok": true
+}

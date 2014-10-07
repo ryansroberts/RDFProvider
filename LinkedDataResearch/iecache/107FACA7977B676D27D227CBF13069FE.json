@@ -1,0 +1,294 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.894194
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.588513
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.35011
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.319406
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.301294
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.132365
+      },
+      {
+        "id": 1,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Medicine",
+        "score": 0.139249
+      },
+      {
+        "id": 2,
+        "label": "Meta-analysis",
+        "wikiLink": "http://en.wikipedia.org/Meta-analysis",
+        "score": 0.207343
+      },
+      {
+        "id": 3,
+        "label": "Applied sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Applied_sciences",
+        "score": 0.0593065
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Berlie HD",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Berlie HD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Kalus JS",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kalus JS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 23
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Edema",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/disease",
+          "/people/cause_of_death",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.41511,
+        "wikiLink": "http://en.wikipedia.org/wiki/Edema",
+        "matchedText": "edema",
+        "freebaseId": "/m/0j80c",
+        "relevanceScore": 0.0508294,
+        "entityEnglishId": "Edema",
+        "startingPos": 70,
+        "endingPos": 75
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Meta-analysis",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.17317,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meta-analysis",
+        "matchedText": "meta-analysis",
+        "freebaseId": "/m/0gvjk",
+        "relevanceScore": 0.207343,
+        "entityEnglishId": "Meta-analysis",
+        "startingPos": 79,
+        "endingPos": 92
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8,
+          9
+        ],
+        "entityId": "Jaber LA. Thiazolidinediones",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Jaber LA. Thiazolidinediones",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 25,
+        "endingPos": 53
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.08855,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.132365,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 94,
+        "endingPos": 102
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          22,
+          23
+        ],
+        "entityId": "Medicine",
+        "freebaseTypes": [
+          "/radio/radio_subject",
+          "/education/field_of_study",
+          "/broadcast/genre",
+          "/book/periodical_subject",
+          "/media_common/literary_genre",
+          "/film/film_subject",
+          "/media_common/quotation_subject",
+          "/organization/organization_sector",
+          "/book/book_subject",
+          "/book/magazine_genre",
+          "/award/award_discipline",
+          "/media_common/media_genre"
+        ],
+        "confidenceScore": 1.02525,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medicine",
+        "matchedText": "Clinical Practice",
+        "freebaseId": "/m/04sh3",
+        "relevanceScore": 0.139249,
+        "entityEnglishId": "Medicine",
+        "startingPos": 114,
+        "endingPos": 131
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "time": 0.32,
+  "ok": true
+}

@@ -1,0 +1,333 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.560999
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.506623
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.493377
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.493377
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.493377
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.204717
+      },
+      {
+        "id": 1,
+        "label": "Nephropathy",
+        "wikiLink": "http://en.wikipedia.org/Nephropathy",
+        "score": 0.167475
+      },
+      {
+        "id": 2,
+        "label": "Proteinuria",
+        "wikiLink": "http://en.wikipedia.org/Proteinuria",
+        "score": 0.385495
+      },
+      {
+        "id": 3,
+        "label": "Ratio",
+        "wikiLink": "http://en.wikipedia.org/Ratio",
+        "score": 0.213966
+      },
+      {
+        "id": 4,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.0801255
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0749666
+      },
+      {
+        "id": 6,
+        "label": "Genitourinary system diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Genitourinary_system_diseases",
+        "score": 0.0517539
+      },
+      {
+        "id": 7,
+        "label": "Urological conditions",
+        "wikiLink": "http://en.wikipedia.org/Category:Urological_conditions",
+        "score": 0.0517539
+      },
+      {
+        "id": 8,
+        "label": "Kidney diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney_diseases",
+        "score": 0.0517539
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "MacGregor MS",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "MacGregor MS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 16
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Traynor JP",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Traynor JP",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 18,
+        "endingPos": 28
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "OReilly DSJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "OReilly DSJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 30,
+        "endingPos": 41
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Proteinuria",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 8.34559,
+        "wikiLink": "http://en.wikipedia.org/wiki/Proteinuria",
+        "matchedText": "proteinuria",
+        "freebaseId": "/m/012zf3",
+        "relevanceScore": 0.385495,
+        "entityEnglishId": "Proteinuria",
+        "startingPos": 59,
+        "endingPos": 70
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.03811,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.204717,
+        "entityEnglishId": "Kidney",
+        "startingPos": 82,
+        "endingPos": 88
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15,
+          16
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.58551,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "chronic kidney disease",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.0427299,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 74,
+        "endingPos": 96
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.48175,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephropathy",
+        "matchedText": "kidney disease",
+        "freebaseId": "/m/02z63k",
+        "relevanceScore": 0.167475,
+        "entityEnglishId": "Nephropathy",
+        "startingPos": 82,
+        "endingPos": 96
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.61111,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0,
+        "entityEnglishId": "Disease",
+        "startingPos": 89,
+        "endingPos": 96
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Ratio",
+        "freebaseTypes": [
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 0.934635,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ratio",
+        "matchedText": "ratio",
+        "freebaseId": "/m/0m1mr",
+        "relevanceScore": 0.106983,
+        "entityEnglishId": "Ratio",
+        "startingPos": 116,
+        "endingPos": 121
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Ratio",
+        "freebaseTypes": [
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 0.934635,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ratio",
+        "matchedText": "ratio",
+        "freebaseId": "/m/0m1mr",
+        "relevanceScore": 0.106983,
+        "entityEnglishId": "Ratio",
+        "startingPos": 147,
+        "endingPos": 152
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          27
+        ],
+        "propertyPositions": [
+          26
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

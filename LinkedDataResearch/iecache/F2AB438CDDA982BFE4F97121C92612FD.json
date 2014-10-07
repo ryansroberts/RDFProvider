@@ -1,0 +1,305 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.792218
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chronic kidney disease",
+        "wikiLink": "http://en.wikipedia.org/Chronic_kidney_disease",
+        "score": 0.857111
+      },
+      {
+        "id": 1,
+        "label": "Dialysis",
+        "wikiLink": "http://en.wikipedia.org/Dialysis",
+        "score": 0.622256
+      },
+      {
+        "id": 2,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.225783
+      },
+      {
+        "id": 3,
+        "label": "Organ transplantation",
+        "wikiLink": "http://en.wikipedia.org/Organ_transplantation",
+        "score": 0.148994
+      },
+      {
+        "id": 4,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.322358
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Sesso R",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Sesso R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 2,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Belasco AG",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Belasco AG",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 0.972993,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.225783,
+        "entityEnglishId": "Kidney",
+        "startingPos": 49,
+        "endingPos": 54
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          10,
+          11,
+          12
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 5.41147,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "chronic renal failure",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.428555,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 41,
+        "endingPos": 62
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.12819,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "renal failure",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.428555,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 49,
+        "endingPos": 62
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Dialysis",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 5.5182,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dialysis",
+        "matchedText": "dialysis",
+        "freebaseId": "/m/0fmf0",
+        "relevanceScore": 0.311128,
+        "entityEnglishId": "Dialysis",
+        "startingPos": 92,
+        "endingPos": 100
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Dialysis",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 5.5182,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dialysis",
+        "matchedText": "Dialysis",
+        "freebaseId": "/m/0fmf0",
+        "relevanceScore": 0.311128,
+        "entityEnglishId": "Dialysis",
+        "startingPos": 112,
+        "endingPos": 120
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Organ transplantation",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject",
+          "/award/award_winning_work",
+          "/medicine/risk_factor",
+          "/radio/radio_subject"
+        ],
+        "confidenceScore": 2.17811,
+        "wikiLink": "http://en.wikipedia.org/wiki/Organ_transplantation",
+        "matchedText": "Transplantation",
+        "freebaseId": "/m/016bb2",
+        "relevanceScore": 0.148994,
+        "entityEnglishId": "Organ transplantation",
+        "startingPos": 125,
+        "endingPos": 140
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          9,
+          15
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          8,
+          9,
+          15
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          8,
+          9,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "time": 0.312,
+  "ok": true
+}

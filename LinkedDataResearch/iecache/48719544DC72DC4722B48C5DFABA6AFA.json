@@ -1,0 +1,434 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.607184
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.334812
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.27851
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes in dogs",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_in_dogs",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.88605
+      },
+      {
+        "id": 2,
+        "label": "Diabetic ketoacidosis",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_ketoacidosis",
+        "score": 0.378078
+      },
+      {
+        "id": 3,
+        "label": "Efficacy",
+        "wikiLink": "http://en.wikipedia.org/Efficacy",
+        "score": 0.130897
+      },
+      {
+        "id": 4,
+        "label": "Insulin",
+        "wikiLink": "http://en.wikipedia.org/Insulin",
+        "score": 0.33287
+      },
+      {
+        "id": 5,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.911865
+      },
+      {
+        "id": 6,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.46911
+      },
+      {
+        "id": 7,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.456027
+      },
+      {
+        "id": 8,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders",
+        "score": 0.249026
+      },
+      {
+        "id": 9,
+        "label": "Animals",
+        "wikiLink": "http://en.wikipedia.org/Category:Animals",
+        "score": 0.194372
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Lutterman JA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lutterman JA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 23
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Efficacy",
+        "confidenceScore": 1.18386,
+        "wikiLink": "http://en.wikipedia.org/wiki/Efficacy",
+        "matchedText": "efficacy",
+        "freebaseId": "/m/03mrl3",
+        "relevanceScore": 0.130897,
+        "entityEnglishId": "Efficacy",
+        "startingPos": 52,
+        "endingPos": 60
+      },
+      {
+        "id": 2,
+        "type": [
+          "Species",
+          "Eukaryote",
+          "Animal",
+          "Mammal"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Suidae",
+        "freebaseTypes": [
+          "/biology/organism_classification"
+        ],
+        "confidenceScore": 1.37699,
+        "wikiLink": "http://en.wikipedia.org/wiki/Suidae",
+        "matchedText": "porcine",
+        "freebaseId": "/m/020bgr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Suidae",
+        "startingPos": 74,
+        "endingPos": 81
+      },
+      {
+        "id": 3,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 5.52035,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.33287,
+        "entityEnglishId": "Insulin",
+        "startingPos": 82,
+        "endingPos": 89
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.85284,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.458113,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 106,
+        "endingPos": 114
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Diabetic ketoacidosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 7.78746,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_ketoacidosis",
+        "matchedText": "diabetic ketoacidosis",
+        "freebaseId": "/m/0fmk8",
+        "relevanceScore": 0.378078,
+        "entityEnglishId": "Diabetic ketoacidosis",
+        "startingPos": 106,
+        "endingPos": 127
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Diabetes in dogs",
+        "confidenceScore": 2.30005,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_in_dogs",
+        "matchedText": "ketoacidosis",
+        "freebaseId": "/m/0bh89gw",
+        "relevanceScore": 0.732398,
+        "entityEnglishId": "Diabetes in dogs",
+        "startingPos": 115,
+        "endingPos": 127
+      },
+      {
+        "id": 7,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8,
+          9
+        ],
+        "entityId": "Laar A. Comparison",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Laar A. Comparison",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 30,
+        "endingPos": 48
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Diabetes in dogs",
+        "confidenceScore": 1.38949,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_in_dogs",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0bh89gw",
+        "relevanceScore": 0.682592,
+        "entityEnglishId": "Diabetes in dogs",
+        "startingPos": 129,
+        "endingPos": 137
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23,
+          24
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.57834,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes Care",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.427937,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 129,
+        "endingPos": 142
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6,
+          17
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1,
+              3,
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.32,
+  "ok": true
+}

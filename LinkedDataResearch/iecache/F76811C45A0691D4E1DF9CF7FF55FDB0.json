@@ -1,0 +1,543 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.484657
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.232645
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.232645
+      },
+      {
+        "id": 4,
+        "label": "Weather",
+        "wikiLink": "http://en.wikipedia.org/Category:Weather",
+        "score": 0.232645
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "American Medical Association",
+        "wikiLink": "http://en.wikipedia.org/American_Medical_Association",
+        "score": 0.156408
+      },
+      {
+        "id": 1,
+        "label": "Blood",
+        "wikiLink": "http://en.wikipedia.org/Blood",
+        "score": 0.10817
+      },
+      {
+        "id": 2,
+        "label": "Creatinine",
+        "wikiLink": "http://en.wikipedia.org/Creatinine",
+        "score": 0.392953
+      },
+      {
+        "id": 3,
+        "label": "Serum (blood)",
+        "wikiLink": "http://en.wikipedia.org/Serum_(blood)",
+        "score": 0.143982
+      },
+      {
+        "id": 4,
+        "label": "Body fluids",
+        "wikiLink": "http://en.wikipedia.org/Category:Body_fluids",
+        "score": 0.35653
+      },
+      {
+        "id": 5,
+        "label": "Tissues",
+        "wikiLink": "http://en.wikipedia.org/Category:Tissues",
+        "score": 0.35653
+      },
+      {
+        "id": 6,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.0841987
+      },
+      {
+        "id": 7,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.0841987
+      },
+      {
+        "id": 8,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0841987
+      },
+      {
+        "id": 9,
+        "label": "Animal physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_physiology",
+        "score": 0.0841091
+      },
+      {
+        "id": 10,
+        "label": "Histology",
+        "wikiLink": "http://en.wikipedia.org/Category:Histology",
+        "score": 0.0841091
+      },
+      {
+        "id": 11,
+        "label": "Animal anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_anatomy",
+        "score": 0.0841091
+      },
+      {
+        "id": 12,
+        "label": "Anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Anatomy",
+        "score": 0.0841091
+      },
+      {
+        "id": 13,
+        "label": "Medical associations",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_associations_by_country",
+        "score": 0.0620423
+      },
+      {
+        "id": 14,
+        "label": "Pressure",
+        "wikiLink": "http://en.wikipedia.org/Category:Pressure",
+        "score": 0.0390871
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Perneger TV",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Perneger TV",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 15
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Nieto FJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Nieto FJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 17,
+        "endingPos": 25
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Whelton PK",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Whelton PK",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 27,
+        "endingPos": 37
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Blood",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/food/ingredient",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.3924,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood",
+        "matchedText": "blood",
+        "freebaseId": "/m/019jw",
+        "relevanceScore": 0.10817,
+        "entityEnglishId": "Blood",
+        "startingPos": 68,
+        "endingPos": 73
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Blood pressure",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 2.23375,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_pressure",
+        "matchedText": "blood pressure",
+        "freebaseId": "/m/0fmq1",
+        "relevanceScore": 0.0314132,
+        "entityEnglishId": "Blood pressure",
+        "startingPos": 68,
+        "endingPos": 82
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Pressure",
+        "freebaseTypes": [
+          "/measurement_unit/common_dimension",
+          "/medicine/disease_cause",
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 1.00253,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pressure",
+        "matchedText": "pressure",
+        "freebaseId": "/m/05wnx",
+        "relevanceScore": 0.0196352,
+        "entityEnglishId": "Pressure",
+        "startingPos": 74,
+        "endingPos": 82
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Serum (blood)",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 1.59513,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_(blood)",
+        "matchedText": "serum",
+        "freebaseId": "/m/07s8fsr",
+        "relevanceScore": 0.143982,
+        "entityEnglishId": "Serum (blood)",
+        "startingPos": 87,
+        "endingPos": 92
+      },
+      {
+        "id": 7,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 1.93555,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "serum creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.0908876,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 87,
+        "endingPos": 103
+      },
+      {
+        "id": 8,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 5.88416,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.302065,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 93,
+        "endingPos": 103
+      },
+      {
+        "id": 9,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "Clue Study",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Clue Study",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 122,
+        "endingPos": 132
+      },
+      {
+        "id": 10,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          28,
+          29
+        ],
+        "entityId": "ARIC Study",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "ARIC Study",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 141,
+        "endingPos": 151
+      },
+      {
+        "id": 11,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          37,
+          38,
+          39
+        ],
+        "entityId": "American Medical Association",
+        "freebaseTypes": [
+          "/business/employer",
+          "/book/periodical_publisher",
+          "/organization/organization",
+          "/internet/website_owner",
+          "/award/award_presenting_organization",
+          "/book/author"
+        ],
+        "confidenceScore": 3.93897,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Medical_Association",
+        "matchedText": "American Medical Association",
+        "freebaseId": "/m/01pq0r",
+        "relevanceScore": 0.156408,
+        "entityEnglishId": "American Medical Association",
+        "startingPos": 179,
+        "endingPos": 207
+      },
+      {
+        "id": 12,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "entityId": "JAMA (journal)",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/publication",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.12948,
+        "wikiLink": "http://en.wikipedia.org/wiki/JAMA_(journal)",
+        "matchedText": "JAMA : the Journal of the American Medical Association",
+        "freebaseId": "/m/02n872",
+        "relevanceScore": 0,
+        "entityEnglishId": "JAMA (journal)",
+        "startingPos": 153,
+        "endingPos": 207
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          33,
+          34,
+          35
+        ],
+        "propertyPositions": [
+          36,
+          37,
+          38,
+          39
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "time": 0.327,
+  "ok": true
+}

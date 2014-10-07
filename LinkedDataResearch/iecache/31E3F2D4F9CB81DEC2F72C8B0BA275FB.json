@@ -1,0 +1,268 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.127915
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Goldacre M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Goldacre M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 18,
+        "endingPos": 28
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Coles J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Coles J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 9,
+        "endingPos": 16
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Health",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Health",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 37,
+        "endingPos": 43
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.37652,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.127915,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 64,
+        "endingPos": 72
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          25,
+          26,
+          27
+        ],
+        "entityId": "Department of Health",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Department of Health",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 109,
+        "endingPos": 129
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Oxford",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Oxford",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 132,
+        "endingPos": 138
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "entityId": "National Centre for Health Outcomes Development",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "National Centre for Health Outcomes Development",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 140,
+        "endingPos": 187
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          31,
+          32,
+          33
+        ],
+        "propertyPositions": [
+          34,
+          35,
+          36,
+          38
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          17,
+          18,
+          19,
+          23
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          24,
+          25,
+          26
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          17,
+          18,
+          19,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26,
+          27
+        ]
+      }
+    ]
+  },
+  "time": 0.315,
+  "ok": true
+}

@@ -1,0 +1,338 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.641204
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.319297
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.314407
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.314407
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.302833
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "In vitro",
+        "wikiLink": "http://en.wikipedia.org/In_vitro",
+        "score": 0.306563
+      },
+      {
+        "id": 1,
+        "label": "In vivo",
+        "wikiLink": "http://en.wikipedia.org/In_vivo",
+        "score": 0.250288
+      },
+      {
+        "id": 2,
+        "label": "Phosphorus",
+        "wikiLink": "http://en.wikipedia.org/Phosphorus",
+        "score": 0.106154
+      },
+      {
+        "id": 3,
+        "label": "Latin biological phrases",
+        "wikiLink": "http://en.wikipedia.org/Category:Latin_biological_phrases",
+        "score": 0.150756
+      },
+      {
+        "id": 4,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.0884994
+      },
+      {
+        "id": 5,
+        "label": "Matter",
+        "wikiLink": "http://en.wikipedia.org/Category:Matter",
+        "score": 0.061011
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Sheikh MS",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Sheikh MS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Maguire",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Maguire",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 22
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Phosphorus",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_element",
+          "/food/nutrient"
+        ],
+        "confidenceScore": 4.04903,
+        "wikiLink": "http://en.wikipedia.org/wiki/Phosphorus",
+        "matchedText": "phosphorus",
+        "freebaseId": "/m/025s7x6",
+        "relevanceScore": 0.0530771,
+        "entityEnglishId": "Phosphorus",
+        "startingPos": 55,
+        "endingPos": 65
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Absorption (chemistry)",
+        "confidenceScore": 1.45774,
+        "wikiLink": "http://en.wikipedia.org/wiki/Absorption_(chemistry)",
+        "matchedText": "absorption",
+        "freebaseId": "/m/04y8dn",
+        "relevanceScore": 0,
+        "entityEnglishId": "Absorption (chemistry)",
+        "startingPos": 66,
+        "endingPos": 76
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Phosphorus",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_element",
+          "/food/nutrient"
+        ],
+        "confidenceScore": 4.04903,
+        "wikiLink": "http://en.wikipedia.org/wiki/Phosphorus",
+        "matchedText": "phosphorus",
+        "freebaseId": "/m/025s7x6",
+        "relevanceScore": 0.0530771,
+        "entityEnglishId": "Phosphorus",
+        "startingPos": 80,
+        "endingPos": 90
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          21,
+          22
+        ],
+        "entityId": "In vitro",
+        "confidenceScore": 4.73182,
+        "wikiLink": "http://en.wikipedia.org/wiki/In_vitro",
+        "matchedText": "in vitro",
+        "freebaseId": "/m/03xnx",
+        "relevanceScore": 0.306563,
+        "entityEnglishId": "In vitro",
+        "startingPos": 115,
+        "endingPos": 123
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "In vivo",
+        "confidenceScore": 5.05657,
+        "wikiLink": "http://en.wikipedia.org/wiki/In_vivo",
+        "matchedText": "in vivo",
+        "freebaseId": "/m/03xnf",
+        "relevanceScore": 0.250288,
+        "entityEnglishId": "In vivo",
+        "startingPos": 129,
+        "endingPos": 136
+      },
+      {
+        "id": 7,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          29,
+          30,
+          31,
+          32
+        ],
+        "entityId": "Journal of Clinical Investigation",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.7448,
+        "wikiLink": "http://en.wikipedia.org/wiki/Journal_of_Clinical_Investigation",
+        "matchedText": "Journal of Clinical Investigation",
+        "freebaseId": "/m/089jjv",
+        "relevanceScore": 0,
+        "entityEnglishId": "Journal of Clinical Investigation",
+        "startingPos": 144,
+        "endingPos": 177
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          32
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          29,
+          30
+        ],
+        "propertyPositions": [
+          31,
+          32
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2,
+          6
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          14
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          1,
+          2,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "time": 0.325,
+  "ok": true
+}

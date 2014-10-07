@@ -1,0 +1,342 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.975149
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.968056
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.636077
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.636077
+      },
+      {
+        "id": 5,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.349656
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Biochemistry",
+        "score": 0.171365
+      },
+      {
+        "id": 1,
+        "label": "Protein",
+        "wikiLink": "http://en.wikipedia.org/Protein",
+        "score": 0.114801
+      },
+      {
+        "id": 2,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.621101
+      },
+      {
+        "id": 3,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.621101
+      },
+      {
+        "id": 4,
+        "label": "Biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Biology",
+        "score": 0.0917542
+      },
+      {
+        "id": 5,
+        "label": "Euthenics",
+        "wikiLink": "http://en.wikipedia.org/Category:Euthenics",
+        "score": 0.0815527
+      },
+      {
+        "id": 6,
+        "label": "Physical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Physical_sciences",
+        "score": 0.0815527
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Dube J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Dube J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 3,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Girouard J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Girouard J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Leclerc P",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Leclerc P",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 23,
+        "endingPos": 32
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Urine",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 1.35738,
+        "wikiLink": "http://en.wikipedia.org/wiki/Urine",
+        "matchedText": "urine",
+        "freebaseId": "/m/0b7q43",
+        "relevanceScore": 0.0612037,
+        "entityEnglishId": "Urine",
+        "startingPos": 72,
+        "endingPos": 77
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Protein",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/chemistry/chemical_classification",
+          "/medicine/drug_class",
+          "/food/nutrient"
+        ],
+        "confidenceScore": 2.22787,
+        "wikiLink": "http://en.wikipedia.org/wiki/Protein",
+        "matchedText": "protein",
+        "freebaseId": "/m/05wvs",
+        "relevanceScore": 0.114801,
+        "entityEnglishId": "Protein",
+        "startingPos": 78,
+        "endingPos": 85
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Assay",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.00761,
+        "wikiLink": "http://en.wikipedia.org/wiki/Assay",
+        "matchedText": "assays",
+        "freebaseId": "/m/02hddz",
+        "relevanceScore": 0.0505741,
+        "entityEnglishId": "Assay",
+        "startingPos": 99,
+        "endingPos": 105
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          22,
+          23
+        ],
+        "entityId": "Clinical chemistry",
+        "freebaseTypes": [
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 2.58656,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_chemistry",
+        "matchedText": "Clinical Biochemistry",
+        "freebaseId": "/m/0hdq2",
+        "relevanceScore": 0.0728008,
+        "entityEnglishId": "Clinical chemistry",
+        "startingPos": 107,
+        "endingPos": 128
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Biochemistry",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/education/field_of_study",
+          "/organization/organization_sector",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 2.69021,
+        "wikiLink": "http://en.wikipedia.org/wiki/Biochemistry",
+        "matchedText": "Biochemistry",
+        "freebaseId": "/m/0193x",
+        "relevanceScore": 0.171365,
+        "entityEnglishId": "Biochemistry",
+        "startingPos": 116,
+        "endingPos": 128
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          13,
+          14,
+          15,
+          18
+        ],
+        "propertyPositions": [
+          16,
+          17
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          13,
+          14,
+          15,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

@@ -1,0 +1,262 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.323902
+      },
+      {
+        "id": 1,
+        "label": "Nephron",
+        "wikiLink": "http://en.wikipedia.org/Nephron",
+        "score": 0.367001
+      },
+      {
+        "id": 2,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.416067
+      },
+      {
+        "id": 3,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.412336
+      },
+      {
+        "id": 4,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.412336
+      },
+      {
+        "id": 5,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.0679518
+      },
+      {
+        "id": 6,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0634074
+      },
+      {
+        "id": 7,
+        "label": "Organ failure",
+        "wikiLink": "http://en.wikipedia.org/Category:Organ_failure",
+        "score": 0.0445721
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Haaber AB",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Haaber AB",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 24
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Feldt RB",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Feldt RB",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 34
+      },
+      {
+        "id": 2,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.47995,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.323902,
+        "entityEnglishId": "Kidney",
+        "startingPos": 91,
+        "endingPos": 96
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18,
+          19
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 3.59897,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "chronic renal failure",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.0618192,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 83,
+        "endingPos": 104
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Renal failure",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 4.05749,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_failure",
+        "matchedText": "renal failure",
+        "freebaseId": "/m/01psyx",
+        "relevanceScore": 0.0653823,
+        "entityEnglishId": "Renal failure",
+        "startingPos": 91,
+        "endingPos": 104
+      },
+      {
+        "id": 5,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Nephron",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 7.70062,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephron",
+        "matchedText": "Nephron",
+        "freebaseId": "/m/01fj4p",
+        "relevanceScore": 0.367001,
+        "entityEnglishId": "Nephron",
+        "startingPos": 106,
+        "endingPos": 113
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          14,
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "time": 0.315,
+  "ok": true
+}

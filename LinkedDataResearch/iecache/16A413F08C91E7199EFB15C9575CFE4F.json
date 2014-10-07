@@ -1,0 +1,535 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.523338
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.382526
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.353274
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.34659
+      },
+      {
+        "id": 5,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.339342
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.563727
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.872486
+      },
+      {
+        "id": 2,
+        "label": "Disease",
+        "wikiLink": "http://en.wikipedia.org/Disease",
+        "score": 0.233141
+      },
+      {
+        "id": 3,
+        "label": "Fibrate",
+        "wikiLink": "http://en.wikipedia.org/Fibrate",
+        "score": 0.295794
+      },
+      {
+        "id": 4,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.174326
+      },
+      {
+        "id": 5,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0949294
+      },
+      {
+        "id": 6,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0949294
+      },
+      {
+        "id": 7,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0883768
+      },
+      {
+        "id": 8,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.0836984
+      },
+      {
+        "id": 9,
+        "label": "Medical terminology",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_terminology",
+        "score": 0.0836984
+      },
+      {
+        "id": 10,
+        "label": "Social issues",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_issues",
+        "score": 0.0767784
+      },
+      {
+        "id": 11,
+        "label": "Cultural spheres of influence",
+        "wikiLink": "http://en.wikipedia.org/Category:Cultural_spheres_of_influence",
+        "score": 0.0661013
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Langley-Hawthorne CE",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Langley-Hawthorne CE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 34
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Byrne CD",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Byrne CD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 36,
+        "endingPos": 44
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Fibrate",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 3.98861,
+        "wikiLink": "http://en.wikipedia.org/wiki/Fibrate",
+        "matchedText": "fibrate",
+        "freebaseId": "/m/026zxv",
+        "relevanceScore": 0.295794,
+        "entityEnglishId": "Fibrate",
+        "startingPos": 71,
+        "endingPos": 78
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.77132,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.174326,
+        "entityEnglishId": "Therapy",
+        "startingPos": 79,
+        "endingPos": 86
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.32401,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.65396,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 90,
+        "endingPos": 96
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16,
+          17,
+          18
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.77805,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2 diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.218526,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 90,
+        "endingPos": 105
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.78457,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.281864,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 97,
+        "endingPos": 105
+      },
+      {
+        "id": 7,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.75802,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "British",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.016799,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 107,
+        "endingPos": 114
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "British Journal",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "British Journal",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 107,
+        "endingPos": 122
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.78457,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.281864,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 126,
+        "endingPos": 134
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Vascular",
+        "confidenceScore": 1.12883,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vascular",
+        "matchedText": "Vascular",
+        "freebaseId": "",
+        "relevanceScore": 0,
+        "entityEnglishId": "Vascular",
+        "startingPos": 137,
+        "endingPos": 145
+      },
+      {
+        "id": 11,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Vascular disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.59194,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vascular_disease",
+        "matchedText": "Vascular Disease",
+        "freebaseId": "/m/07s82fq",
+        "relevanceScore": 0.0609314,
+        "entityEnglishId": "Vascular disease",
+        "startingPos": 137,
+        "endingPos": 153
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.65368,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "Disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.233141,
+        "entityEnglishId": "Disease",
+        "startingPos": 146,
+        "endingPos": 153
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11,
+          12,
+          15
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          11,
+          12,
+          15
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          11,
+          12,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      }
+    ]
+  },
+  "time": 0.323,
+  "ok": true
+}

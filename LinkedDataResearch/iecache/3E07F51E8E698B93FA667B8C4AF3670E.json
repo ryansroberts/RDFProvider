@@ -1,0 +1,506 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.495742
+      },
+      {
+        "id": 2,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.461225
+      },
+      {
+        "id": 3,
+        "label": "Sports",
+        "wikiLink": "http://en.wikipedia.org/Category:Sports",
+        "score": 0.461225
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.439401
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.426544
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cardiac muscle",
+        "wikiLink": "http://en.wikipedia.org/Cardiac_muscle",
+        "score": 0.200719
+      },
+      {
+        "id": 1,
+        "label": "Infarction",
+        "wikiLink": "http://en.wikipedia.org/Infarction",
+        "score": 0.337683
+      },
+      {
+        "id": 2,
+        "label": "Myocardial infarction",
+        "wikiLink": "http://en.wikipedia.org/Myocardial_infarction",
+        "score": 0.256282
+      },
+      {
+        "id": 3,
+        "label": "Rosiglitazone",
+        "wikiLink": "http://en.wikipedia.org/Rosiglitazone",
+        "score": 0.839884
+      },
+      {
+        "id": 4,
+        "label": "The New England Journal of Medicine",
+        "wikiLink": "http://en.wikipedia.org/The_New_England_Journal_of_Medicine",
+        "score": 0.320131
+      },
+      {
+        "id": 5,
+        "label": "Cardiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiology",
+        "score": 0.24596
+      },
+      {
+        "id": 6,
+        "label": "Causes of death",
+        "wikiLink": "http://en.wikipedia.org/Category:Causes_of_death",
+        "score": 0.143024
+      },
+      {
+        "id": 7,
+        "label": "Death",
+        "wikiLink": "http://en.wikipedia.org/Category:Death",
+        "score": 0.143024
+      },
+      {
+        "id": 8,
+        "label": "Sports instruction",
+        "wikiLink": "http://en.wikipedia.org/Category:Sports_instruction",
+        "score": 0.0982521
+      },
+      {
+        "id": 9,
+        "label": "Human physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_physiology",
+        "score": 0.0982521
+      },
+      {
+        "id": 10,
+        "label": "Physical exercise",
+        "wikiLink": "http://en.wikipedia.org/Category:Physical_exercise",
+        "score": 0.0982521
+      },
+      {
+        "id": 11,
+        "label": "Exercise physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Exercise_physiology",
+        "score": 0.0982521
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Nissen",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Nissen",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5,
+          6
+        ],
+        "entityId": "Wolski K. Effect",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wolski K. Effect",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 31
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Rosiglitazone",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 9.67245,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rosiglitazone",
+        "matchedText": "rosiglitazone",
+        "freebaseId": "/m/02vn54",
+        "relevanceScore": 0.839884,
+        "entityEnglishId": "Rosiglitazone",
+        "startingPos": 35,
+        "endingPos": 48
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Cardiac muscle",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 0.909869,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiac_muscle",
+        "matchedText": "myocardial",
+        "freebaseId": "/m/026vdt",
+        "relevanceScore": 0.200719,
+        "entityEnglishId": "Cardiac muscle",
+        "startingPos": 64,
+        "endingPos": 74
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Myocardial infarction",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/disease_cause",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 8.04617,
+        "wikiLink": "http://en.wikipedia.org/wiki/Myocardial_infarction",
+        "matchedText": "myocardial infarction",
+        "freebaseId": "/m/0gk4g",
+        "relevanceScore": 0.256282,
+        "entityEnglishId": "Myocardial infarction",
+        "startingPos": 64,
+        "endingPos": 85
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Infarction",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.30778,
+        "wikiLink": "http://en.wikipedia.org/wiki/Infarction",
+        "matchedText": "infarction",
+        "freebaseId": "/m/02vnfx",
+        "relevanceScore": 0.337683,
+        "entityEnglishId": "Infarction",
+        "startingPos": 75,
+        "endingPos": 85
+      },
+      {
+        "id": 6,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Circulatory system",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.02028,
+        "wikiLink": "http://en.wikipedia.org/wiki/Circulatory_system",
+        "matchedText": "cardiovascular",
+        "freebaseId": "/m/0frx0",
+        "relevanceScore": 0.0415406,
+        "entityEnglishId": "Circulatory system",
+        "startingPos": 101,
+        "endingPos": 115
+      },
+      {
+        "id": 7,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          21,
+          22
+        ],
+        "entityId": "New England",
+        "freebaseTypes": [
+          "/location/region",
+          "/book/book_subject",
+          "/symbols/namesake",
+          "/periodicals/newspaper_circulation_area",
+          "/location/statistical_region",
+          "/location/dated_location",
+          "/meteorology/cyclone_affected_area",
+          "/business/employer",
+          "/visual_art/art_subject",
+          "/organization/organization_scope",
+          "/location/location"
+        ],
+        "confidenceScore": 1.52575,
+        "wikiLink": "http://en.wikipedia.org/wiki/New_England",
+        "matchedText": "New England",
+        "freebaseId": "/m/029jpy",
+        "relevanceScore": 0.059014,
+        "entityEnglishId": "New England",
+        "startingPos": 124,
+        "endingPos": 135
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "England",
+        "freebaseTypes": [
+          "/fictional_universe/fictional_setting",
+          "/food/beer_country_region",
+          "/sports/sport_country",
+          "/location/uk_statistical_location",
+          "/organization/organization_scope",
+          "/biology/breed_origin",
+          "/sports/sports_team_location",
+          "/location/statistical_region",
+          "/military/military_combatant",
+          "/symbols/name_source",
+          "/location/uk_constituent_country",
+          "/location/dated_location",
+          "/law/court_jurisdiction_area",
+          "/government/governmental_jurisdiction",
+          "/travel/travel_destination",
+          "/film/film_location",
+          "/military/military_post",
+          "/film/film_subject",
+          "/location/country",
+          "/location/administrative_division",
+          "/olympics/olympic_participating_country",
+          "/periodicals/newspaper_circulation_area",
+          "/symbols/flag_referent",
+          "/book/book_subject",
+          "/event/speech_topic",
+          "/location/location"
+        ],
+        "confidenceScore": 2.25274,
+        "wikiLink": "http://en.wikipedia.org/wiki/England",
+        "matchedText": "England",
+        "freebaseId": "/m/02jx1",
+        "relevanceScore": 0.0355147,
+        "entityEnglishId": "England",
+        "startingPos": 128,
+        "endingPos": 135
+      },
+      {
+        "id": 9,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "entityId": "The New England Journal of Medicine",
+        "freebaseTypes": [
+          "/book/journal",
+          "/book/periodical",
+          "/book/publication"
+        ],
+        "confidenceScore": 2.65911,
+        "wikiLink": "http://en.wikipedia.org/wiki/The_New_England_Journal_of_Medicine",
+        "matchedText": "New England Journal of Medicine",
+        "freebaseId": "/m/02g96l",
+        "relevanceScore": 0.320131,
+        "entityEnglishId": "The New England Journal of Medicine",
+        "startingPos": 124,
+        "endingPos": 155
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          21,
+          22,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          7,
+          9,
+          17
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          7,
+          9,
+          17
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          7,
+          9,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "time": 0.321,
+  "ok": true
+}

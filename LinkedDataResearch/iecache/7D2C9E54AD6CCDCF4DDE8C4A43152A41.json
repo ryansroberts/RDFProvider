@@ -1,0 +1,309 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.986944
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.577219
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.493202
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.481353
+      },
+      {
+        "id": 5,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.473972
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Interim analysis",
+        "wikiLink": "http://en.wikipedia.org/Interim_analysis",
+        "score": 0.165893
+      },
+      {
+        "id": 1,
+        "label": "Rosiglitazone",
+        "wikiLink": "http://en.wikipedia.org/Rosiglitazone",
+        "score": 0.558235
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Pocock SJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Pocock SJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 22
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Beck-Nielsen H",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Beck-Nielsen H",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 24,
+        "endingPos": 38
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Rosiglitazone",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.22687,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rosiglitazone",
+        "matchedText": "Rosiglitazone",
+        "freebaseId": "/m/02vn54",
+        "relevanceScore": 0.558235,
+        "entityEnglishId": "Rosiglitazone",
+        "startingPos": 46,
+        "endingPos": 59
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Interim analysis",
+        "confidenceScore": 1.39267,
+        "wikiLink": "http://en.wikipedia.org/wiki/Interim_analysis",
+        "matchedText": "interim analysis",
+        "freebaseId": "/m/0dh_8x",
+        "relevanceScore": 0.165893,
+        "entityEnglishId": "Interim analysis",
+        "startingPos": 102,
+        "endingPos": 118
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "New England",
+        "freebaseTypes": [
+          "/location/region",
+          "/book/book_subject",
+          "/symbols/namesake",
+          "/periodicals/newspaper_circulation_area",
+          "/location/statistical_region",
+          "/location/dated_location",
+          "/meteorology/cyclone_affected_area",
+          "/business/employer",
+          "/visual_art/art_subject",
+          "/organization/organization_scope",
+          "/location/location"
+        ],
+        "confidenceScore": 1.5231,
+        "wikiLink": "http://en.wikipedia.org/wiki/New_England",
+        "matchedText": "New England",
+        "freebaseId": "/m/029jpy",
+        "relevanceScore": 0.0613128,
+        "entityEnglishId": "New England",
+        "startingPos": 120,
+        "endingPos": 131
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "England",
+        "freebaseTypes": [
+          "/fictional_universe/fictional_setting",
+          "/food/beer_country_region",
+          "/sports/sport_country",
+          "/location/uk_statistical_location",
+          "/organization/organization_scope",
+          "/biology/breed_origin",
+          "/sports/sports_team_location",
+          "/location/statistical_region",
+          "/military/military_combatant",
+          "/symbols/name_source",
+          "/location/uk_constituent_country",
+          "/location/dated_location",
+          "/law/court_jurisdiction_area",
+          "/government/governmental_jurisdiction",
+          "/travel/travel_destination",
+          "/film/film_location",
+          "/military/military_post",
+          "/film/film_subject",
+          "/location/country",
+          "/location/administrative_division",
+          "/olympics/olympic_participating_country",
+          "/periodicals/newspaper_circulation_area",
+          "/symbols/flag_referent",
+          "/book/book_subject",
+          "/event/speech_topic",
+          "/location/location"
+        ],
+        "confidenceScore": 2.24235,
+        "wikiLink": "http://en.wikipedia.org/wiki/England",
+        "matchedText": "England",
+        "freebaseId": "/m/02jx1",
+        "relevanceScore": 0,
+        "entityEnglishId": "England",
+        "startingPos": 124,
+        "endingPos": 131
+      },
+      {
+        "id": 6,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "entityId": "The New England Journal of Medicine",
+        "freebaseTypes": [
+          "/book/journal",
+          "/book/periodical",
+          "/book/publication"
+        ],
+        "confidenceScore": 2.48362,
+        "wikiLink": "http://en.wikipedia.org/wiki/The_New_England_Journal_of_Medicine",
+        "matchedText": "New England Journal of Medicine",
+        "freebaseId": "/m/02g96l",
+        "relevanceScore": 0,
+        "entityEnglishId": "The New England Journal of Medicine",
+        "startingPos": 120,
+        "endingPos": 151
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          16,
+          18
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "time": 0.32,
+  "ok": true
+}

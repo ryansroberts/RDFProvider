@@ -1,0 +1,254 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.301107
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.18439
+      },
+      {
+        "id": 1,
+        "label": "Pharmaceutical drug",
+        "wikiLink": "http://en.wikipedia.org/Pharmaceutical_drug",
+        "score": 0.100533
+      },
+      {
+        "id": 2,
+        "label": "Retinopathy",
+        "wikiLink": "http://en.wikipedia.org/Retinopathy",
+        "score": 0.229517
+      },
+      {
+        "id": 3,
+        "label": "Disorders of choroid and retina",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_choroid_and_retina",
+        "score": 0.0664092
+      },
+      {
+        "id": 4,
+        "label": "Diseases of the eye and adnexa",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_of_the_eye_and_adnexa",
+        "score": 0.0664092
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.928461,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0921948,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 74,
+        "endingPos": 82
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Diabetic retinopathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 4.53551,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_retinopathy",
+        "matchedText": "diabetic retinopathy",
+        "freebaseId": "/m/0fmlk",
+        "relevanceScore": 0,
+        "entityEnglishId": "Diabetic retinopathy",
+        "startingPos": 74,
+        "endingPos": 94
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Retinopathy",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.81379,
+        "wikiLink": "http://en.wikipedia.org/wiki/Retinopathy",
+        "matchedText": "retinopathy",
+        "freebaseId": "/m/0fml5",
+        "relevanceScore": 0.229517,
+        "entityEnglishId": "Retinopathy",
+        "startingPos": 83,
+        "endingPos": 94
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4,
+          5
+        ],
+        "entityId": "Taylor R. Quality",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Taylor R. Quality",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 28
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Pandit RJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Pandit RJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.928461,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0921948,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 96,
+        "endingPos": 104
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.34533,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "Medicine",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.100533,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 105,
+        "endingPos": 113
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

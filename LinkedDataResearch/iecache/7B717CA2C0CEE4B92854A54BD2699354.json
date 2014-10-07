@@ -1,0 +1,451 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.517162
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.257983
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.224982
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.189112
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.820367
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Insulin",
+        "wikiLink": "http://en.wikipedia.org/Insulin",
+        "score": 0.276152
+      },
+      {
+        "id": 3,
+        "label": "Sulfonylurea",
+        "wikiLink": "http://en.wikipedia.org/Sulfonylurea",
+        "score": 0.65165
+      },
+      {
+        "id": 4,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 1
+      },
+      {
+        "id": 5,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.35869
+      },
+      {
+        "id": 6,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.349765
+      },
+      {
+        "id": 7,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.33733
+      },
+      {
+        "id": 8,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.284012
+      },
+      {
+        "id": 9,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Kabadi MU",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kabadi MU",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Kabadi UM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kabadi UM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Efficacy",
+        "confidenceScore": 1.06813,
+        "wikiLink": "http://en.wikipedia.org/wiki/Efficacy",
+        "matchedText": "Efficacy",
+        "freebaseId": "/m/03mrl3",
+        "relevanceScore": 0.0278324,
+        "entityEnglishId": "Efficacy",
+        "startingPos": 26,
+        "endingPos": 34
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Sulfonylurea",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 6.10499,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sulfonylurea",
+        "matchedText": "sulfonylureas",
+        "freebaseId": "/m/036kty",
+        "relevanceScore": 0.65165,
+        "entityEnglishId": "Sulfonylurea",
+        "startingPos": 38,
+        "endingPos": 51
+      },
+      {
+        "id": 4,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 5.77883,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.276152,
+        "entityEnglishId": "Insulin",
+        "startingPos": 57,
+        "endingPos": 64
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.74204,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.879766,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 68,
+        "endingPos": 74
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13,
+          14,
+          15
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.10534,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "type 2 diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.500993,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 68,
+        "endingPos": 83
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.18007,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.572314,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 75,
+        "endingPos": 83
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 5.30752,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2 diabetes mellitus",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.359239,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 68,
+        "endingPos": 92
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 5.65171,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes mellitus",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.319374,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 75,
+        "endingPos": 92
+      },
+      {
+        "id": 10,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          18,
+          19,
+          20
+        ],
+        "entityId": "Annals of Pharmacotherapy",
+        "freebaseTypes": [
+          "/business/employer",
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.30364,
+        "wikiLink": "http://en.wikipedia.org/wiki/Annals_of_Pharmacotherapy",
+        "matchedText": "Annals of Pharmacotherapy",
+        "freebaseId": "/m/04_0vkr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Annals of Pharmacotherapy",
+        "startingPos": 94,
+        "endingPos": 119
+      },
+      {
+        "id": 11,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Pharmacotherapy",
+        "freebaseTypes": [
+          "/law/invention",
+          "/education/field_of_study",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.97917,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmacotherapy",
+        "matchedText": "Pharmacotherapy",
+        "freebaseId": "/m/0c59df",
+        "relevanceScore": 0,
+        "entityEnglishId": "Pharmacotherapy",
+        "startingPos": 104,
+        "endingPos": 119
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          12
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "time": 0.314,
+  "ok": true
+}

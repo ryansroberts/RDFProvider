@@ -1,0 +1,312 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.676035
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.35207
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.35207
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Meta-analysis",
+        "wikiLink": "http://en.wikipedia.org/Meta-analysis",
+        "score": 0.156795
+      },
+      {
+        "id": 1,
+        "label": "Statin",
+        "wikiLink": "http://en.wikipedia.org/Statin",
+        "score": 0.20186
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Douglas K",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Douglas K",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "OMalley PG",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "OMalley PG",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 25
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Jackson JL",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Jackson JL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 27,
+        "endingPos": 37
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Meta-analysis",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.9483,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meta-analysis",
+        "matchedText": "Meta-analysis",
+        "freebaseId": "/m/0gvjk",
+        "relevanceScore": 0.156795,
+        "entityEnglishId": "Meta-analysis",
+        "startingPos": 39,
+        "endingPos": 52
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Statin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 2.78796,
+        "wikiLink": "http://en.wikipedia.org/wiki/Statin",
+        "matchedText": "statins",
+        "freebaseId": "/m/0187ml",
+        "relevanceScore": 0.20186,
+        "entityEnglishId": "Statin",
+        "startingPos": 68,
+        "endingPos": 75
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.86624,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "albuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 79,
+        "endingPos": 90
+      },
+      {
+        "id": 6,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          23,
+          24,
+          25,
+          26
+        ],
+        "entityId": "Annals of Internal Medicine",
+        "freebaseTypes": [
+          "/book/journal",
+          "/book/periodical"
+        ],
+        "confidenceScore": 2.35143,
+        "wikiLink": "http://en.wikipedia.org/wiki/Annals_of_Internal_Medicine",
+        "matchedText": "Annals of Internal Medicine",
+        "freebaseId": "/m/0glqp7",
+        "relevanceScore": 0,
+        "entityEnglishId": "Annals of Internal Medicine",
+        "startingPos": 113,
+        "endingPos": 140
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Internal medicine",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 1.9887,
+        "wikiLink": "http://en.wikipedia.org/wiki/Internal_medicine",
+        "matchedText": "Internal Medicine",
+        "freebaseId": "/m/01d3n8",
+        "relevanceScore": 0,
+        "entityEnglishId": "Internal medicine",
+        "startingPos": 123,
+        "endingPos": 140
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          7,
+          8
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          19,
+          20
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.315,
+  "ok": true
+}

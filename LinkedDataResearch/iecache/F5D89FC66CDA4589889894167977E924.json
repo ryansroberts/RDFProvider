@@ -1,0 +1,451 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.531879
+      },
+      {
+        "id": 2,
+        "label": "Violence",
+        "wikiLink": "http://en.wikipedia.org/Category:Violence",
+        "score": 0.355856
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.307795
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.273382
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.270915
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Amputation",
+        "wikiLink": "http://en.wikipedia.org/Amputation",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.275548
+      },
+      {
+        "id": 2,
+        "label": "Pharmaceutical drug",
+        "wikiLink": "http://en.wikipedia.org/Pharmaceutical_drug",
+        "score": 0.148473
+      },
+      {
+        "id": 3,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0977126
+      },
+      {
+        "id": 4,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0969867
+      },
+      {
+        "id": 5,
+        "label": "Anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Anatomy",
+        "score": 0.0675907
+      },
+      {
+        "id": 6,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.043848
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Deerochanawong C",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Deerochanawong C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 16
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Home PD",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Home PD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 18,
+        "endingPos": 25
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Alberti KGMM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Alberti KGMM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 27,
+        "endingPos": 39
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Lower limb",
+        "confidenceScore": 1.79373,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lower_limb",
+        "matchedText": "lower limb",
+        "freebaseId": "/m/080dmtt",
+        "relevanceScore": 0,
+        "entityEnglishId": "Lower limb",
+        "startingPos": 59,
+        "endingPos": 69
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Limb (anatomy)",
+        "confidenceScore": 1.05507,
+        "wikiLink": "http://en.wikipedia.org/wiki/Limb_(anatomy)",
+        "matchedText": "limb",
+        "freebaseId": "/m/03c0bxg",
+        "relevanceScore": 0.0453679,
+        "entityEnglishId": "Limb (anatomy)",
+        "startingPos": 65,
+        "endingPos": 69
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15,
+          16
+        ],
+        "entityId": "Amputation",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.91925,
+        "wikiLink": "http://en.wikipedia.org/wiki/Amputation",
+        "matchedText": "lower limb amputation",
+        "freebaseId": "/m/012r6",
+        "relevanceScore": 0.257633,
+        "entityEnglishId": "Amputation",
+        "startingPos": 59,
+        "endingPos": 80
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Amputation",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.53454,
+        "wikiLink": "http://en.wikipedia.org/wiki/Amputation",
+        "matchedText": "limb amputation",
+        "freebaseId": "/m/012r6",
+        "relevanceScore": 0.257633,
+        "entityEnglishId": "Amputation",
+        "startingPos": 65,
+        "endingPos": 80
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Amputation",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 5.28583,
+        "wikiLink": "http://en.wikipedia.org/wiki/Amputation",
+        "matchedText": "amputation",
+        "freebaseId": "/m/012r6",
+        "relevanceScore": 0.597533,
+        "entityEnglishId": "Amputation",
+        "startingPos": 70,
+        "endingPos": 80
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.93341,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.137774,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 84,
+        "endingPos": 92
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.36488,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.0908011,
+        "entityEnglishId": "Patient",
+        "startingPos": 93,
+        "endingPos": 101
+      },
+      {
+        "id": 10,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.93341,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.137774,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 103,
+        "endingPos": 111
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.37839,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "Medicine",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.148473,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 112,
+        "endingPos": 120
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          22
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          15,
+          16,
+          17
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          15,
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          9
+        ]
+      }
+    ]
+  },
+  "time": 0.32,
+  "ok": true
+}

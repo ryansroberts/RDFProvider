@@ -1,0 +1,201 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Exenatide",
+        "wikiLink": "http://en.wikipedia.org/Exenatide",
+        "score": 0.470529
+      },
+      {
+        "id": 1,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.176594
+      },
+      {
+        "id": 2,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.176594
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "DeFronzo RA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "DeFronzo RA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 15
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Ratner RE",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ratner RE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 17,
+        "endingPos": 26
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Han J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Han J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 28,
+        "endingPos": 33
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Exenatide",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 5.45839,
+        "wikiLink": "http://en.wikipedia.org/wiki/Exenatide",
+        "matchedText": "exenatide",
+        "freebaseId": "/m/093_zf",
+        "relevanceScore": 0.470529,
+        "entityEnglishId": "Exenatide",
+        "startingPos": 52,
+        "endingPos": 61
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Diabetes management",
+        "confidenceScore": 2.59905,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_management",
+        "matchedText": "glycemic control",
+        "freebaseId": "/m/08gmh7",
+        "relevanceScore": 0.088296,
+        "entityEnglishId": "Diabetes management",
+        "startingPos": 77,
+        "endingPos": 93
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          17,
+          22
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          17,
+          22
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          17,
+          22
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.315,
+  "ok": true
+}

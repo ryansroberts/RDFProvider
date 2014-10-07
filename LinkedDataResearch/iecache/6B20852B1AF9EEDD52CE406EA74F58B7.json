@@ -1,0 +1,401 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.696459
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.666199
+      },
+      {
+        "id": 3,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.64059
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.36709
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.34154
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Clopidogrel",
+        "wikiLink": "http://en.wikipedia.org/Clopidogrel",
+        "score": 0.192202
+      },
+      {
+        "id": 1,
+        "label": "Dipyridamole",
+        "wikiLink": "http://en.wikipedia.org/Dipyridamole",
+        "score": 0.496846
+      },
+      {
+        "id": 2,
+        "label": "National Institute for Health and Care Excellence",
+        "wikiLink": "http://en.wikipedia.org/National_Institute_for_Health_and_Care_Excellence",
+        "score": 0.26262
+      },
+      {
+        "id": 3,
+        "label": "National Institutes of Health",
+        "wikiLink": "http://en.wikipedia.org/National_Institutes_of_Health",
+        "score": 0.117687
+      },
+      {
+        "id": 4,
+        "label": "Sociology",
+        "wikiLink": "http://en.wikipedia.org/Category:Sociology",
+        "score": 0.106473
+      },
+      {
+        "id": 5,
+        "label": "Medical and health organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_and_health_organizations_by_country",
+        "score": 0.0920255
+      },
+      {
+        "id": 6,
+        "label": "Health agencies",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_agencies",
+        "score": 0.0920255
+      },
+      {
+        "id": 7,
+        "label": "Government agencies",
+        "wikiLink": "http://en.wikipedia.org/Category:Government_agencies",
+        "score": 0.0920255
+      },
+      {
+        "id": 8,
+        "label": "Health ministries",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_ministries",
+        "score": 0.0920255
+      },
+      {
+        "id": 9,
+        "label": "Healthcare quality",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_quality",
+        "score": 0.0920255
+      },
+      {
+        "id": 10,
+        "label": "Functional groups",
+        "wikiLink": "http://en.wikipedia.org/Category:Functional_groups",
+        "score": 0.0914499
+      },
+      {
+        "id": 11,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.0898566
+      },
+      {
+        "id": 12,
+        "label": "Cities",
+        "wikiLink": "http://en.wikipedia.org/Category:Cities_by_country",
+        "score": 0.0416694
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Institute",
+        "freebaseTypes": [
+          "/organization/organization_type"
+        ],
+        "confidenceScore": 1.43829,
+        "wikiLink": "http://en.wikipedia.org/wiki/Institute",
+        "matchedText": "Institute",
+        "freebaseId": "/m/01q2mr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Institute",
+        "startingPos": 13,
+        "endingPos": 22
+      },
+      {
+        "id": 1,
+        "type": [
+          "Agent",
+          "Organisation",
+          "GovernmentAgency"
+        ],
+        "matchingTokens": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "entityId": "National Institutes of Health",
+        "freebaseTypes": [
+          "/medicine/medical_trial_sponsor",
+          "/visual_art/art_owner",
+          "/computer/software_developer",
+          "/government/government_agency",
+          "/book/book_subject",
+          "/business/employer",
+          "/projects/project_participant",
+          "/education/educational_institution",
+          "/organization/organization"
+        ],
+        "confidenceScore": 1.30311,
+        "wikiLink": "http://en.wikipedia.org/wiki/National_Institutes_of_Health",
+        "matchedText": "National Institute for Health",
+        "freebaseId": "/m/0chvn",
+        "relevanceScore": 0.117687,
+        "entityEnglishId": "National Institutes of Health",
+        "startingPos": 4,
+        "endingPos": 33
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "entityId": "National Institute for Health and Care Excellence",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 7.58403,
+        "wikiLink": "http://en.wikipedia.org/wiki/National_Institute_for_Health_and_Care_Excellence",
+        "matchedText": "National Institute for Health and Clinical Excellence",
+        "freebaseId": "/m/027j90",
+        "relevanceScore": 0.26262,
+        "entityEnglishId": "National Institute for Health and Care Excellence",
+        "startingPos": 4,
+        "endingPos": 57
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Clopidogrel",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 4.51561,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clopidogrel",
+        "matchedText": "Clopidogrel",
+        "freebaseId": "/m/02svfj",
+        "relevanceScore": 0.192202,
+        "entityEnglishId": "Clopidogrel",
+        "startingPos": 59,
+        "endingPos": 70
+      },
+      {
+        "id": 4,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Dipyridamole",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 4.82937,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dipyridamole",
+        "matchedText": "dipyridamole",
+        "freebaseId": "/m/042t0v",
+        "relevanceScore": 0.496846,
+        "entityEnglishId": "Dipyridamole",
+        "startingPos": 92,
+        "endingPos": 104
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "London",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/film/film_location",
+          "/location/country",
+          "/olympics/olympic_bidding_city",
+          "/location/location",
+          "/olympics/olympic_host_city",
+          "/media_common/quotation_subject",
+          "/sports/sports_team_location",
+          "/government/governmental_jurisdiction",
+          "/location/dated_location",
+          "/periodicals/newspaper_circulation_area",
+          "/rail/railway_terminus",
+          "/organization/organization_scope",
+          "/location/statistical_region",
+          "/exhibitions/exhibition_subject",
+          "/fictional_universe/fictional_setting",
+          "/symbols/name_source",
+          "/location/citytown",
+          "/location/place_with_neighborhoods",
+          "/tv/tv_location",
+          "/location/administrative_division",
+          "/travel/travel_destination",
+          "/visual_art/art_subject",
+          "/olympics/olympic_venue"
+        ],
+        "confidenceScore": 2.23397,
+        "wikiLink": "http://en.wikipedia.org/wiki/London",
+        "matchedText": "London",
+        "freebaseId": "/m/04jpl",
+        "relevanceScore": 0.0773998,
+        "entityEnglishId": "London",
+        "startingPos": 161,
+        "endingPos": 167
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Nice",
+        "freebaseTypes": [
+          "/periodicals/newspaper_circulation_area",
+          "/location/capital_of_administrative_division",
+          "/location/citytown",
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/travel/travel_destination",
+          "/location/location",
+          "/location/administrative_division"
+        ],
+        "confidenceScore": 0.938266,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nice",
+        "matchedText": "NICE",
+        "freebaseId": "/m/0cp6w",
+        "relevanceScore": 0.0212644,
+        "entityEnglishId": "Nice",
+        "startingPos": 169,
+        "endingPos": 173
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          15,
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          9,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

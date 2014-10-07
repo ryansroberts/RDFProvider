@@ -1,0 +1,385 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.355743
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.342037
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.273571
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.246488
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.243075
+      },
+      {
+        "id": 1,
+        "label": "Diabetic neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_neuropathy",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Efficacy",
+        "wikiLink": "http://en.wikipedia.org/Efficacy",
+        "score": 0.153899
+      },
+      {
+        "id": 3,
+        "label": "Oxcarbazepine",
+        "wikiLink": "http://en.wikipedia.org/Oxcarbazepine",
+        "score": 0.203542
+      },
+      {
+        "id": 4,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Pain",
+        "score": 0.25469
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Beydoun A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Beydoun  A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Kobetz SA",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kobetz SA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 25
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Carrazana",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Carrazana",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 28,
+        "endingPos": 37
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Efficacy",
+        "confidenceScore": 1.46062,
+        "wikiLink": "http://en.wikipedia.org/wiki/Efficacy",
+        "matchedText": "Efficacy",
+        "freebaseId": "/m/03mrl3",
+        "relevanceScore": 0.153899,
+        "entityEnglishId": "Efficacy",
+        "startingPos": 42,
+        "endingPos": 50
+      },
+      {
+        "id": 4,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Oxcarbazepine",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.913,
+        "wikiLink": "http://en.wikipedia.org/wiki/Oxcarbazepine",
+        "matchedText": "oxcarbazepine",
+        "freebaseId": "/m/025gxv",
+        "relevanceScore": 0.203542,
+        "entityEnglishId": "Oxcarbazepine",
+        "startingPos": 54,
+        "endingPos": 67
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.974982,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.243075,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 98,
+        "endingPos": 106
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 8.09417,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "diabetic neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.432763,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 98,
+        "endingPos": 117
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 2.83075,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.732897,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 107,
+        "endingPos": 117
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.13316,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "Pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.25469,
+        "entityEnglishId": "Pain",
+        "startingPos": 139,
+        "endingPos": 143
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          10,
+          11,
+          13
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          14,
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          10,
+          11,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "time": 0.321,
+  "ok": true
+}

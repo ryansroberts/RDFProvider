@@ -148,3 +148,35 @@ let graphOf (scope : Scope) s =
         cacheSetTextRazor s (string res)
         res
 
+
+open FSharp.Data.JsonExtensions
+
+let doiFor s = 
+    printfn "Citation %s" s
+    let k = s + "__doi"
+    match cacheGet k with
+    | Some(x) -> Some(x)
+    | None -> 
+        try
+            let r = JsonValue.Parse(Http.RequestString("http://search.labs.crossref.org/dois?q=" + s))
+            let doi = (r.AsArray().[0]?doi).AsString()
+            printfn "Doi : %s" doi
+            cacheSet doi k
+            Some doi
+        with
+        | _ -> None
+
+let pubmedFor s =
+  let k = s + "__pubmed"
+  match cacheGet k with
+    | Some(x) -> Some x
+    | None ->
+       try
+        printfn "Xref %s with pubmed" s
+        let r = JsonValue.Parse(Http.RequestString("http://www.pubmedcentral.nih.gov/utils/idconv/v1.0/?format=json&ids=" + s))
+        let pmid = ((((r?records).AsArray()).[0])?pmid).AsString()
+        printfn "Pmid : %s" pmid
+        cacheSet pmid k
+        Some pmid
+       with        
+       | _ -> None

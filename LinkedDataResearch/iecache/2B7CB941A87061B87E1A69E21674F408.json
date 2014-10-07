@@ -1,0 +1,456 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.315457
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.310756
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.310308
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.310308
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.310308
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "American Society of Nephrology",
+        "wikiLink": "http://en.wikipedia.org/American_Society_of_Nephrology",
+        "score": 0.812513
+      },
+      {
+        "id": 1,
+        "label": "Chronic kidney disease",
+        "wikiLink": "http://en.wikipedia.org/Chronic_kidney_disease",
+        "score": 0.183499
+      },
+      {
+        "id": 2,
+        "label": "Disease",
+        "wikiLink": "http://en.wikipedia.org/Disease",
+        "score": 0.154415
+      },
+      {
+        "id": 3,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.209586
+      },
+      {
+        "id": 4,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Nephrology",
+        "score": 1
+      },
+      {
+        "id": 5,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.409272
+      },
+      {
+        "id": 6,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.40435
+      },
+      {
+        "id": 7,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.136697
+      },
+      {
+        "id": 8,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.136697
+      },
+      {
+        "id": 9,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.136697
+      },
+      {
+        "id": 10,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.119699
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Martin KJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Martin KJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Gonzalez EA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Gonzalez EA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 26
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Bone",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.57114,
+        "wikiLink": "http://en.wikipedia.org/wiki/Bone",
+        "matchedText": "bone",
+        "freebaseId": "/m/01b92",
+        "relevanceScore": 0.0528005,
+        "entityEnglishId": "Bone",
+        "startingPos": 38,
+        "endingPos": 42
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7,
+          8,
+          9
+        ],
+        "entityId": "Metabolic bone disease",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.21455,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metabolic_bone_disease",
+        "matchedText": "Metabolic bone disease",
+        "freebaseId": "/m/026j05v",
+        "relevanceScore": 0,
+        "entityEnglishId": "Metabolic bone disease",
+        "startingPos": 28,
+        "endingPos": 50
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 2.34584,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.0772077,
+        "entityEnglishId": "Disease",
+        "startingPos": 43,
+        "endingPos": 50
+      },
+      {
+        "id": 5,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.04185,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.209586,
+        "entityEnglishId": "Kidney",
+        "startingPos": 62,
+        "endingPos": 68
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12,
+          13
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 5.09369,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "chronic kidney disease",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.183499,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 54,
+        "endingPos": 76
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Nephrology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 1.72117,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephrology",
+        "matchedText": "kidney disease",
+        "freebaseId": "/m/05jd4",
+        "relevanceScore": 0.649137,
+        "entityEnglishId": "Nephrology",
+        "startingPos": 62,
+        "endingPos": 76
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 2.34584,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.0772077,
+        "entityEnglishId": "Disease",
+        "startingPos": 69,
+        "endingPos": 76
+      },
+      {
+        "id": 9,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Non-ProfitOrganisation"
+        ],
+        "matchingTokens": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "entityId": "American Society of Nephrology",
+        "freebaseTypes": [
+          "/organization/non_profit_organization",
+          "/organization/membership_organization",
+          "/organization/organization",
+          "/business/employer"
+        ],
+        "confidenceScore": 2.44491,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Society_of_Nephrology",
+        "matchedText": "Journal of the American Society of Nephrology",
+        "freebaseId": "/m/04n1tbm",
+        "relevanceScore": 0.364261,
+        "entityEnglishId": "American Society of Nephrology",
+        "startingPos": 78,
+        "endingPos": 123
+      },
+      {
+        "id": 10,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Non-ProfitOrganisation"
+        ],
+        "matchingTokens": [
+          18,
+          19,
+          20,
+          21
+        ],
+        "entityId": "American Society of Nephrology",
+        "freebaseTypes": [
+          "/organization/non_profit_organization",
+          "/organization/membership_organization",
+          "/organization/organization",
+          "/business/employer"
+        ],
+        "confidenceScore": 4.66353,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Society_of_Nephrology",
+        "matchedText": "American Society of Nephrology",
+        "freebaseId": "/m/04n1tbm",
+        "relevanceScore": 0.448252,
+        "entityEnglishId": "American Society of Nephrology",
+        "startingPos": 93,
+        "endingPos": 123
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Nephrology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 6.36389,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephrology",
+        "matchedText": "Nephrology",
+        "freebaseId": "/m/05jd4",
+        "relevanceScore": 0.669059,
+        "entityEnglishId": "Nephrology",
+        "startingPos": 113,
+        "endingPos": 123
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "time": 0.321,
+  "ok": true
+}

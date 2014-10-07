@@ -1,0 +1,358 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.675661
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.674554
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.356654
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.351978
+      },
+      {
+        "id": 5,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.351978
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "BMJ",
+        "wikiLink": "http://en.wikipedia.org/BMJ",
+        "score": 0.19844
+      },
+      {
+        "id": 1,
+        "label": "Clinical research",
+        "wikiLink": "http://en.wikipedia.org/Clinical_research",
+        "score": 0.117265
+      },
+      {
+        "id": 2,
+        "label": "Public health journal",
+        "wikiLink": "http://en.wikipedia.org/Public_health_journal",
+        "score": 0.170612
+      },
+      {
+        "id": 3,
+        "label": "Research",
+        "wikiLink": "http://en.wikipedia.org/Research",
+        "score": 0.107337
+      },
+      {
+        "id": 4,
+        "label": "Academic publishing",
+        "wikiLink": "http://en.wikipedia.org/Category:Academic_publishing",
+        "score": 0.103435
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Ratcliffe PJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ratcliffe PJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 2,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Phillips RE",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Phillips RE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 27
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Oliver",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Oliver",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 29,
+        "endingPos": 35
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Dialysis",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.57141,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dialysis",
+        "matchedText": "dialysis",
+        "freebaseId": "/m/0fmf0",
+        "relevanceScore": 0.073041,
+        "entityEnglishId": "Dialysis",
+        "startingPos": 70,
+        "endingPos": 78
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.78733,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "British",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.0499743,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 80,
+        "endingPos": 87
+      },
+      {
+        "id": 5,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          16,
+          17,
+          18
+        ],
+        "entityId": "BMJ",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 2.98308,
+        "wikiLink": "http://en.wikipedia.org/wiki/BMJ",
+        "matchedText": "British Medical Journal",
+        "freebaseId": "/m/02n85y",
+        "relevanceScore": 0.19844,
+        "entityEnglishId": "BMJ",
+        "startingPos": 80,
+        "endingPos": 103
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Public health journal",
+        "confidenceScore": 4.20131,
+        "wikiLink": "http://en.wikipedia.org/wiki/Public_health_journal",
+        "matchedText": "Medical Journal",
+        "freebaseId": "/m/02n8hz",
+        "relevanceScore": 0.170612,
+        "entityEnglishId": "Public health journal",
+        "startingPos": 88,
+        "endingPos": 103
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "entityId": "British Medical Journal Clinical Research",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "British Medical Journal Clinical Research",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 80,
+        "endingPos": 121
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Clinical research",
+        "freebaseTypes": [
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 1.54502,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_research",
+        "matchedText": "Clinical Research",
+        "freebaseId": "/m/047vmn8",
+        "relevanceScore": 0.117265,
+        "entityEnglishId": "Clinical research",
+        "startingPos": 104,
+        "endingPos": 121
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Research",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/education/field_of_study",
+          "/education/school_category",
+          "/book/book_subject",
+          "/architecture/building_function",
+          "/book/periodical_subject",
+          "/business/industry",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 1.03888,
+        "wikiLink": "http://en.wikipedia.org/wiki/Research",
+        "matchedText": "Research",
+        "freebaseId": "/m/06cs1",
+        "relevanceScore": 0.107337,
+        "entityEnglishId": "Research",
+        "startingPos": 113,
+        "endingPos": 121
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7
+        ]
+      }
+    ]
+  },
+  "time": 0.323,
+  "ok": true
+}

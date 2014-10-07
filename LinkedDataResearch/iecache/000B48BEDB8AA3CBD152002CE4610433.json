@@ -1,0 +1,164 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.48443
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Pharmacoeconomics",
+        "wikiLink": "http://en.wikipedia.org/Pharmacoeconomics",
+        "score": 0.19065
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Leese B",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Leese B",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 7
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8,
+          9,
+          10
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.36673,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "Type II diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 40,
+        "endingPos": 56
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.60942,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0583659,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 48,
+        "endingPos": 56
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Pharmacoeconomics",
+        "confidenceScore": 1.64628,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmacoeconomics",
+        "matchedText": "Pharmaco Economics",
+        "freebaseId": "/m/0g_58t",
+        "relevanceScore": 0.19065,
+        "entityEnglishId": "Pharmacoeconomics",
+        "startingPos": 58,
+        "endingPos": 76
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          16,
+          17
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  "time": 0.312,
+  "ok": true
+}

@@ -1,0 +1,478 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.976076
+      },
+      {
+        "id": 2,
+        "label": "Sports",
+        "wikiLink": "http://en.wikipedia.org/Category:Sports",
+        "score": 0.838241
+      },
+      {
+        "id": 3,
+        "label": "Violence",
+        "wikiLink": "http://en.wikipedia.org/Category:Violence",
+        "score": 0.833778
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Amputation",
+        "wikiLink": "http://en.wikipedia.org/Amputation",
+        "score": 0.224299
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.242749
+      },
+      {
+        "id": 2,
+        "label": "Geography",
+        "wikiLink": "http://en.wikipedia.org/Category:Geography_by_country",
+        "score": 0.0443954
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Ollendorf",
+        "freebaseTypes": [
+          "/location/citytown",
+          "/location/statistical_region",
+          "/location/dated_location",
+          "/location/location"
+        ],
+        "confidenceScore": 1.27932,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ollendorf",
+        "matchedText": "Ollendorf",
+        "freebaseId": "/m/03c1g6v",
+        "relevanceScore": 0,
+        "entityEnglishId": "Ollendorf",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Kotsanos",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kotsanos",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 18,
+        "endingPos": 26
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Wishner",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wishner",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 35,
+        "endingPos": 42
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Friedman",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Friedman",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 51,
+        "endingPos": 59
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Cooper",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Cooper",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 65,
+        "endingPos": 71
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Bittoni",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bittoni",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 77,
+        "endingPos": 84
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Oster",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 1.16009,
+        "wikiLink": "http://en.wikipedia.org/wiki/Oster",
+        "matchedText": "Oster",
+        "freebaseId": "/m/0dmr_m",
+        "relevanceScore": 0,
+        "entityEnglishId": "Oster",
+        "startingPos": 92,
+        "endingPos": 97
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          40
+        ],
+        "entityId": "Amputation",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.15579,
+        "wikiLink": "http://en.wikipedia.org/wiki/Amputation",
+        "matchedText": "amputation",
+        "freebaseId": "/m/012r6",
+        "relevanceScore": 0.224299,
+        "entityEnglishId": "Amputation",
+        "startingPos": 157,
+        "endingPos": 167
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          44
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.03472,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.121375,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 193,
+        "endingPos": 201
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          46
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.03472,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.121375,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 203,
+        "endingPos": 211
+      },
+      {
+        "id": 10,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          46,
+          47
+        ],
+        "entityId": "Diabetes Care",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Diabetes Care",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 203,
+        "endingPos": 216
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          21,
+          23,
+          25
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          19,
+          21,
+          23,
+          25
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          15,
+          17,
+          19,
+          21,
+          23,
+          25
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          15,
+          17,
+          19,
+          21,
+          23,
+          25
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          37,
+          38,
+          43
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          37,
+          38,
+          43
+        ],
+        "propertyPositions": [
+          36
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          40,
+          41,
+          42
+        ],
+        "propertyPositions": [
+          39
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          37,
+          38,
+          43
+        ],
+        "propertyPositions": [
+          39,
+          40,
+          41,
+          42
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          37,
+          38,
+          43
+        ],
+        "propertyPositions": [
+          44
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          30
+        ],
+        "propertyPositions": [
+          32,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          46,
+          47
+        ],
+        "propertyPositions": [
+          49
+        ]
+      }
+    ]
+  },
+  "time": 0.331,
+  "ok": true
+}

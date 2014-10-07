@@ -1,0 +1,435 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.953246
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Immunology",
+        "wikiLink": "http://en.wikipedia.org/Category:Immunology",
+        "score": 0.0464126
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Gough A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Gough A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 7
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Clapperton M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Clapperton M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 9,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Rolando N",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Rolando N",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 23,
+        "endingPos": 32
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Foster AVM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Foster AVM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 34,
+        "endingPos": 44
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Philpott-Howard J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Philpott-Howard J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 46,
+        "endingPos": 63
+      },
+      {
+        "id": 5,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Edmonds ME",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Edmonds ME",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 65,
+        "endingPos": 75
+      },
+      {
+        "id": 6,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          24,
+          25,
+          26
+        ],
+        "entityId": "Granulocyte colony-stimulating factor",
+        "confidenceScore": 1.95855,
+        "wikiLink": "http://en.wikipedia.org/wiki/Granulocyte_colony-stimulating_factor",
+        "matchedText": "granulocyte-colony stimulating factor",
+        "freebaseId": "/m/02qc22",
+        "relevanceScore": 0.0390404,
+        "entityEnglishId": "Granulocyte colony-stimulating factor",
+        "startingPos": 122,
+        "endingPos": 159
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          28,
+          29
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.07651,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 163,
+        "endingPos": 176
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Infection",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 0.942063,
+        "wikiLink": "http://en.wikipedia.org/wiki/Infection",
+        "matchedText": "infection",
+        "freebaseId": "/m/098s1",
+        "relevanceScore": 0.042372,
+        "entityEnglishId": "Infection",
+        "startingPos": 177,
+        "endingPos": 186
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              3,
+              4,
+              6,
+              7,
+              9,
+              10,
+              12,
+              13,
+              15,
+              16,
+              18
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          13
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          18
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          15,
+          16,
+          18
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          15,
+          16,
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          15,
+          16,
+          18
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          26,
+          27
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          26,
+          27
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          29,
+          30
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          26,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

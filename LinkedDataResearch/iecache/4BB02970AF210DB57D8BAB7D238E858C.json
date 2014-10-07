@@ -1,0 +1,428 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.211842
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.206079
+      },
+      {
+        "id": 3,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.201327
+      },
+      {
+        "id": 4,
+        "label": "Sports",
+        "wikiLink": "http://en.wikipedia.org/Category:Sports",
+        "score": 0.201327
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.189225
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cardiovascular disease",
+        "wikiLink": "http://en.wikipedia.org/Cardiovascular_disease",
+        "score": 0.105991
+      },
+      {
+        "id": 1,
+        "label": "Circulatory system",
+        "wikiLink": "http://en.wikipedia.org/Circulatory_system",
+        "score": 0.117877
+      },
+      {
+        "id": 2,
+        "label": "Disease",
+        "wikiLink": "http://en.wikipedia.org/Disease",
+        "score": 0.125061
+      },
+      {
+        "id": 3,
+        "label": "Internal medicine",
+        "wikiLink": "http://en.wikipedia.org/Internal_medicine",
+        "score": 0.113287
+      },
+      {
+        "id": 4,
+        "label": "JAMA Internal Medicine",
+        "wikiLink": "http://en.wikipedia.org/JAMA_Internal_Medicine",
+        "score": 0.233501
+      },
+      {
+        "id": 5,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.120477
+      },
+      {
+        "id": 6,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.441429
+      },
+      {
+        "id": 7,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.127976
+      },
+      {
+        "id": 8,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.1223
+      },
+      {
+        "id": 9,
+        "label": "Human anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_anatomy",
+        "score": 0.107971
+      },
+      {
+        "id": 10,
+        "label": "Animal anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_anatomy",
+        "score": 0.107971
+      },
+      {
+        "id": 11,
+        "label": "Organs",
+        "wikiLink": "http://en.wikipedia.org/Category:Organs",
+        "score": 0.107971
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Elsayed EF",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Elsayed EF",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Tighiouart H",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Tighiouart H",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 28
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Griffith J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Griffith J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 30,
+        "endingPos": 40
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Circulatory system",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.75288,
+        "wikiLink": "http://en.wikipedia.org/wiki/Circulatory_system",
+        "matchedText": "Cardiovascular",
+        "freebaseId": "/m/0frx0",
+        "relevanceScore": 0.117877,
+        "entityEnglishId": "Circulatory system",
+        "startingPos": 48,
+        "endingPos": 62
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.25869,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "Cardiovascular disease",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.105991,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 48,
+        "endingPos": 70
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.46264,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.0625305,
+        "entityEnglishId": "Disease",
+        "startingPos": 63,
+        "endingPos": 70
+      },
+      {
+        "id": 6,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.31611,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.120477,
+        "entityEnglishId": "Kidney",
+        "startingPos": 86,
+        "endingPos": 92
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.47408,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephropathy",
+        "matchedText": "kidney disease",
+        "freebaseId": "/m/02z63k",
+        "relevanceScore": 0.0612624,
+        "entityEnglishId": "Nephropathy",
+        "startingPos": 86,
+        "endingPos": 100
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.46264,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.0625305,
+        "entityEnglishId": "Disease",
+        "startingPos": 93,
+        "endingPos": 100
+      },
+      {
+        "id": 9,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature"
+        ],
+        "matchingTokens": [
+          18,
+          19,
+          20,
+          21
+        ],
+        "entityId": "JAMA Internal Medicine",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.95491,
+        "wikiLink": "http://en.wikipedia.org/wiki/JAMA_Internal_Medicine",
+        "matchedText": "Archives of Internal Medicine",
+        "freebaseId": "/m/09c5z5",
+        "relevanceScore": 0.233501,
+        "entityEnglishId": "JAMA Internal Medicine",
+        "startingPos": 102,
+        "endingPos": 131
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Internal medicine",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 2.09739,
+        "wikiLink": "http://en.wikipedia.org/wiki/Internal_medicine",
+        "matchedText": "Internal Medicine",
+        "freebaseId": "/m/01d3n8",
+        "relevanceScore": 0.113287,
+        "entityEnglishId": "Internal medicine",
+        "startingPos": 114,
+        "endingPos": 131
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "time": 0.323,
+  "ok": true
+}

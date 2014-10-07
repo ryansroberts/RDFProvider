@@ -1,0 +1,284 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.304804
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Aldose reductase",
+        "wikiLink": "http://en.wikipedia.org/Aldose_reductase",
+        "score": 0.197772
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.134313
+      },
+      {
+        "id": 2,
+        "label": "Retinopathy",
+        "wikiLink": "http://en.wikipedia.org/Retinopathy",
+        "score": 0.160232
+      },
+      {
+        "id": 3,
+        "label": "Ophthalmology",
+        "wikiLink": "http://en.wikipedia.org/Category:Ophthalmology",
+        "score": 0.0716488
+      },
+      {
+        "id": 4,
+        "label": "Disorders of choroid and retina",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_choroid_and_retina",
+        "score": 0.0618577
+      },
+      {
+        "id": 5,
+        "label": "Diseases of the eye and adnexa",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_of_the_eye_and_adnexa",
+        "score": 0.0618577
+      },
+      {
+        "id": 6,
+        "label": "Visual system",
+        "wikiLink": "http://en.wikipedia.org/Category:Visual_system",
+        "score": 0.0482518
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Frank RN",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Frank RN",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Aldose",
+        "freebaseTypes": [
+          "/chemistry/chemical_classification"
+        ],
+        "confidenceScore": 4.19491,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aldose",
+        "matchedText": "Aldose",
+        "freebaseId": "/m/01f92v",
+        "relevanceScore": 0,
+        "entityEnglishId": "Aldose",
+        "startingPos": 10,
+        "endingPos": 16
+      },
+      {
+        "id": 2,
+        "type": [
+          "Biomolecule",
+          "Enzyme"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Aldose reductase",
+        "confidenceScore": 3.36949,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aldose_reductase",
+        "matchedText": "Aldose reductase",
+        "freebaseId": "/m/026ps6s",
+        "relevanceScore": 0.197772,
+        "entityEnglishId": "Aldose reductase",
+        "startingPos": 10,
+        "endingPos": 26
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.950826,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.134313,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 74,
+        "endingPos": 82
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Diabetic retinopathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 4.53405,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_retinopathy",
+        "matchedText": "diabetic retinopathy",
+        "freebaseId": "/m/0fmlk",
+        "relevanceScore": 0.0217462,
+        "entityEnglishId": "Diabetic retinopathy",
+        "startingPos": 74,
+        "endingPos": 94
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Retinopathy",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.90807,
+        "wikiLink": "http://en.wikipedia.org/wiki/Retinopathy",
+        "matchedText": "retinopathy",
+        "freebaseId": "/m/0fml5",
+        "relevanceScore": 0.160232,
+        "entityEnglishId": "Retinopathy",
+        "startingPos": 83,
+        "endingPos": 94
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Ophthalmology",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/book/book_subject",
+          "/people/profession",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 2.41224,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ophthalmology",
+        "matchedText": "Ophthalmology",
+        "freebaseId": "/m/0fkdq",
+        "relevanceScore": 0,
+        "entityEnglishId": "Ophthalmology",
+        "startingPos": 108,
+        "endingPos": 121
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          7,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "time": 0.315,
+  "ok": true
+}

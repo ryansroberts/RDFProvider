@@ -1,0 +1,186 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.990249
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.990249
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.990249
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.990249
+      }
+    ],
+    "language": "pol",
+    "languageIsReliable": false,
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "Sanctis M T",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Sanctis M T",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 3,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Incandela L",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Incandela L",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 30,
+        "endingPos": 41
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Belcaro G",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Belcaro G",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 43,
+        "endingPos": 52
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Ricci A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ricci A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 54,
+        "endingPos": 61
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Griffin M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Griffin M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 63,
+        "endingPos": 72
+      },
+      {
+        "id": 5,
+        "type": [
+          "TimePeriod",
+          "Year"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "2001",
+        "confidenceScore": 1.09067,
+        "wikiLink": "http://pl.wikipedia.org/wiki/2001",
+        "matchedText": "2001",
+        "freebaseId": "",
+        "relevanceScore": 0,
+        "entityEnglishId": "2001",
+        "startingPos": 75,
+        "endingPos": 79
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          38,
+          39
+        ],
+        "entityId": "Randomized controlled trial",
+        "freebaseTypes": [
+          "/law/invention"
+        ],
+        "confidenceScore": 1.43658,
+        "wikiLink": "http://en.wikipedia.org/wiki/Randomized_controlled_trial",
+        "matchedText": "randomized study",
+        "freebaseId": "/m/015p9x",
+        "relevanceScore": 0,
+        "entityEnglishId": "Randomized controlled trial",
+        "startingPos": 170,
+        "endingPos": 186
+      }
+    ]
+  },
+  "time": 0.435,
+  "ok": true
+}

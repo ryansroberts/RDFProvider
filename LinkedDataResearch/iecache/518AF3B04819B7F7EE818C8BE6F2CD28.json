@@ -1,0 +1,340 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.244504
+      },
+      {
+        "id": 2,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.244504
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.233668
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetic ketoacidosis",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_ketoacidosis",
+        "score": 0.262757
+      },
+      {
+        "id": 1,
+        "label": "Ketoacidosis",
+        "wikiLink": "http://en.wikipedia.org/Ketoacidosis",
+        "score": 0.175972
+      },
+      {
+        "id": 2,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0651565
+      },
+      {
+        "id": 3,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0536619
+      },
+      {
+        "id": 4,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0456996
+      },
+      {
+        "id": 5,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.0456996
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Morris LR",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Morris LR",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Murphy MB",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Murphy MB",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 20
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Kitabchi AE",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kitabchi AE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 22,
+        "endingPos": 33
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Bicarbonate",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 2.1543,
+        "wikiLink": "http://en.wikipedia.org/wiki/Bicarbonate",
+        "matchedText": "Bicarbonate",
+        "freebaseId": "/m/019dq",
+        "relevanceScore": 0.047855,
+        "entityEnglishId": "Bicarbonate",
+        "startingPos": 35,
+        "endingPos": 46
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.53518,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0,
+        "entityEnglishId": "Therapy",
+        "startingPos": 47,
+        "endingPos": 54
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Diabetic ketoacidosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 5.6757,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_ketoacidosis",
+        "matchedText": "diabetic ketoacidosis",
+        "freebaseId": "/m/0fmk8",
+        "relevanceScore": 0.262757,
+        "entityEnglishId": "Diabetic ketoacidosis",
+        "startingPos": 65,
+        "endingPos": 86
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Ketoacidosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 5.54141,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ketoacidosis",
+        "matchedText": "ketoacidosis",
+        "freebaseId": "/m/02mwg6",
+        "relevanceScore": 0.175972,
+        "entityEnglishId": "Ketoacidosis",
+        "startingPos": 74,
+        "endingPos": 86
+      },
+      {
+        "id": 7,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "entityId": "Annals of Internal Medicine",
+        "freebaseTypes": [
+          "/book/journal",
+          "/book/periodical"
+        ],
+        "confidenceScore": 2.25643,
+        "wikiLink": "http://en.wikipedia.org/wiki/Annals_of_Internal_Medicine",
+        "matchedText": "Annals of Internal Medicine",
+        "freebaseId": "/m/0glqp7",
+        "relevanceScore": 0,
+        "entityEnglishId": "Annals of Internal Medicine",
+        "startingPos": 88,
+        "endingPos": 115
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Internal medicine",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 2.0112,
+        "wikiLink": "http://en.wikipedia.org/wiki/Internal_medicine",
+        "matchedText": "Internal Medicine",
+        "freebaseId": "/m/01d3n8",
+        "relevanceScore": 0.0725798,
+        "entityEnglishId": "Internal medicine",
+        "startingPos": 98,
+        "endingPos": 115
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.313,
+  "ok": true
+}

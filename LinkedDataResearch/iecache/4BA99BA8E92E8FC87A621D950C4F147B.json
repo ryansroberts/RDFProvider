@@ -1,0 +1,135 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Microalbuminuria",
+        "wikiLink": "http://en.wikipedia.org/Microalbuminuria",
+        "score": 0.126087
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Agardh CD",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Agardh CD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Microalbuminuria",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.77274,
+        "wikiLink": "http://en.wikipedia.org/wiki/Microalbuminuria",
+        "matchedText": "microalbuminuria",
+        "freebaseId": "/m/07y7r4",
+        "relevanceScore": 0.126087,
+        "entityEnglishId": "Microalbuminuria",
+        "startingPos": 63,
+        "endingPos": 79
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.61147,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0652141,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 91,
+        "endingPos": 99
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          3,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          6
+        ]
+      }
+    ]
+  },
+  "time": 0.312,
+  "ok": true
+}

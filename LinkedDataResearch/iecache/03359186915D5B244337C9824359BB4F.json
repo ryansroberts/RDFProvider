@@ -1,0 +1,233 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.488689
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.488689
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.488689
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Social services",
+        "wikiLink": "http://en.wikipedia.org/Social_services",
+        "score": 0.181149
+      },
+      {
+        "id": 1,
+        "label": "Higher education",
+        "wikiLink": "http://en.wikipedia.org/Category:Higher_education_by_country",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Curtis L",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Curtis L",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          4,
+          5,
+          6
+        ],
+        "entityId": "Netten A. Unit",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Netten A. Unit",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 28
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "entityId": "Health and Social Care",
+        "freebaseTypes": [
+          "/organization/organization_sector"
+        ],
+        "confidenceScore": 1.69697,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_and_Social_Care",
+        "matchedText": "health and social care",
+        "freebaseId": "/m/0bglyd",
+        "relevanceScore": 0,
+        "entityEnglishId": "Health and Social Care",
+        "startingPos": 38,
+        "endingPos": 60
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Canterbury",
+        "freebaseTypes": [
+          "/travel/travel_destination",
+          "/business/employer",
+          "/location/dated_location",
+          "/location/citytown",
+          "/location/statistical_region",
+          "/location/location"
+        ],
+        "confidenceScore": 0.965913,
+        "wikiLink": "http://en.wikipedia.org/wiki/Canterbury",
+        "matchedText": "Canterbury",
+        "freebaseId": "/m/0cy07",
+        "relevanceScore": 0.0472063,
+        "entityEnglishId": "Canterbury",
+        "startingPos": 67,
+        "endingPos": 77
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Social services",
+        "confidenceScore": 1.17444,
+        "wikiLink": "http://en.wikipedia.org/wiki/Social_services",
+        "matchedText": "Social Services",
+        "freebaseId": "/m/0kg1fpw",
+        "relevanceScore": 0.181149,
+        "entityEnglishId": "Social services",
+        "startingPos": 88,
+        "endingPos": 103
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          19,
+          20,
+          21
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          19,
+          20,
+          21
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "time": 0.314,
+  "ok": true
+}

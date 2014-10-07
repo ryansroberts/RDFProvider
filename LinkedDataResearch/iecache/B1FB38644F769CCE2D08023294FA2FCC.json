@@ -1,0 +1,334 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.200674
+      },
+      {
+        "id": 1,
+        "label": "Diabetic neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_neuropathy",
+        "score": 0.643039
+      },
+      {
+        "id": 2,
+        "label": "Lamotrigine",
+        "wikiLink": "http://en.wikipedia.org/Lamotrigine",
+        "score": 0.191957
+      },
+      {
+        "id": 3,
+        "label": "Neurology",
+        "wikiLink": "http://en.wikipedia.org/Neurology",
+        "score": 0.122751
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Eisenberg E",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Eisenberg E",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Lurie Y",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lurie Y",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 20
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Braker C",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Braker C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 22,
+        "endingPos": 30
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Lamotrigine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/drug",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 5.11934,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lamotrigine",
+        "matchedText": "Lamotrigine",
+        "freebaseId": "/m/01zww4",
+        "relevanceScore": 0.191957,
+        "entityEnglishId": "Lamotrigine",
+        "startingPos": 39,
+        "endingPos": 50
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.968506,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.200674,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 67,
+        "endingPos": 75
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 6.56963,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "diabetic neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.193726,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 67,
+        "endingPos": 86
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 2.02034,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.449313,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 76,
+        "endingPos": 86
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Neurology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/medicine/physician",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.78616,
+        "wikiLink": "http://en.wikipedia.org/wiki/Neurology",
+        "matchedText": "Neurology",
+        "freebaseId": "/m/05b1j",
+        "relevanceScore": 0.122751,
+        "entityEnglishId": "Neurology",
+        "startingPos": 120,
+        "endingPos": 129
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              11
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              13,
+              14,
+              15,
+              17,
+              18,
+              20,
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12,
+          17,
+          18,
+          20,
+          21
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              11
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              13,
+              14,
+              15
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          17,
+          21
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          17,
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.314,
+  "ok": true
+}

@@ -1,0 +1,289 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.924444
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.801807
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.571119
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.399428
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.388453
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "National Institute for Health and Care Excellence",
+        "wikiLink": "http://en.wikipedia.org/National_Institute_for_Health_and_Care_Excellence",
+        "score": 0.80031
+      },
+      {
+        "id": 1,
+        "label": "National Institutes of Health",
+        "wikiLink": "http://en.wikipedia.org/National_Institutes_of_Health",
+        "score": 0.191602
+      },
+      {
+        "id": 2,
+        "label": "Healthcare quality",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_quality",
+        "score": 0.216011
+      },
+      {
+        "id": 3,
+        "label": "Sociology",
+        "wikiLink": "http://en.wikipedia.org/Category:Sociology",
+        "score": 0.204285
+      },
+      {
+        "id": 4,
+        "label": "Medical and health organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_and_health_organizations_by_country",
+        "score": 0.182852
+      },
+      {
+        "id": 5,
+        "label": "Health agencies",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_agencies",
+        "score": 0.182852
+      },
+      {
+        "id": 6,
+        "label": "Government agencies",
+        "wikiLink": "http://en.wikipedia.org/Category:Government_agencies",
+        "score": 0.179884
+      },
+      {
+        "id": 7,
+        "label": "Health ministries",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_ministries",
+        "score": 0.179884
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Institute",
+        "freebaseTypes": [
+          "/organization/organization_type"
+        ],
+        "confidenceScore": 1.50727,
+        "wikiLink": "http://en.wikipedia.org/wiki/Institute",
+        "matchedText": "Institute",
+        "freebaseId": "/m/01q2mr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Institute",
+        "startingPos": 9,
+        "endingPos": 18
+      },
+      {
+        "id": 1,
+        "type": [
+          "Agent",
+          "Organisation",
+          "GovernmentAgency"
+        ],
+        "matchingTokens": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "entityId": "National Institutes of Health",
+        "freebaseTypes": [
+          "/medicine/medical_trial_sponsor",
+          "/visual_art/art_owner",
+          "/computer/software_developer",
+          "/government/government_agency",
+          "/book/book_subject",
+          "/business/employer",
+          "/projects/project_participant",
+          "/education/educational_institution",
+          "/organization/organization"
+        ],
+        "confidenceScore": 1.43684,
+        "wikiLink": "http://en.wikipedia.org/wiki/National_Institutes_of_Health",
+        "matchedText": "National Institute for Health",
+        "freebaseId": "/m/0chvn",
+        "relevanceScore": 0.191602,
+        "entityEnglishId": "National Institutes of Health",
+        "startingPos": 0,
+        "endingPos": 29
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "entityId": "National Institute for Health and Care Excellence",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 13.0489,
+        "wikiLink": "http://en.wikipedia.org/wiki/National_Institute_for_Health_and_Care_Excellence",
+        "matchedText": "National Institute for Health and Clinical Excellence",
+        "freebaseId": "/m/027j90",
+        "relevanceScore": 0.80031,
+        "entityEnglishId": "National Institute for Health and Care Excellence",
+        "startingPos": 0,
+        "endingPos": 53
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Nice",
+        "freebaseTypes": [
+          "/periodicals/newspaper_circulation_area",
+          "/location/capital_of_administrative_division",
+          "/location/citytown",
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/travel/travel_destination",
+          "/location/location",
+          "/location/administrative_division"
+        ],
+        "confidenceScore": 0.935736,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nice",
+        "matchedText": "NICE",
+        "freebaseId": "/m/0cp6w",
+        "relevanceScore": 0.0359154,
+        "entityEnglishId": "Nice",
+        "startingPos": 72,
+        "endingPos": 76
+      },
+      {
+        "id": 4,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "http://www.nice.org.uk/nicemedia/live/12067/45087/45087.pdf",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "http://www.nice.org.uk/nicemedia/live/12067/45087/45087.pdf",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 87,
+        "endingPos": 146
+      },
+      {
+        "id": 5,
+        "type": [
+          "Date"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "13.05.10",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "13.05.10",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 156,
+        "endingPos": 164
+      },
+      {
+        "id": 6,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "http://www.nice.org.uk/guidance/index.jsp?action=download\u0026o=34605Accessed",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "http://www.nice.org.uk/guidance/index.jsp?action=download\u0026o=34605Accessed",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 169,
+        "endingPos": 242
+      },
+      {
+        "id": 7,
+        "type": [
+          "Date"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "10/01/2012",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "10/01/2012",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 243,
+        "endingPos": 253
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  "time": 0.31,
+  "ok": true
+}

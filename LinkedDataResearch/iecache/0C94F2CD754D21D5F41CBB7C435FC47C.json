@@ -1,0 +1,443 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.995474
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.517678
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.482076
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Evaluation",
+        "wikiLink": "http://en.wikipedia.org/Evaluation",
+        "score": 0.190323
+      },
+      {
+        "id": 1,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Health_care",
+        "score": 0.349019
+      },
+      {
+        "id": 2,
+        "label": "Research",
+        "wikiLink": "http://en.wikipedia.org/Research",
+        "score": 0.16861
+      },
+      {
+        "id": 3,
+        "label": "Value",
+        "wikiLink": "http://en.wikipedia.org/Category:Value",
+        "score": 0.114302
+      },
+      {
+        "id": 4,
+        "label": "Research methods",
+        "wikiLink": "http://en.wikipedia.org/Category:Research_methods",
+        "score": 0.111388
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Weinstein MC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Weinstein MC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 16
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "OBrien B",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "OBrien B",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 18,
+        "endingPos": 26
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Hornberger J",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hornberger J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 28,
+        "endingPos": 40
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Health care",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/organization/organization_sector",
+          "/food/tea_type",
+          "/people/professional_field",
+          "/education/field_of_study",
+          "/government/government_service",
+          "/business/industry",
+          "/exhibitions/exhibition_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.36195,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_care",
+        "matchedText": "health-care",
+        "freebaseId": "/m/01mw2x",
+        "relevanceScore": 0.349019,
+        "entityEnglishId": "Health care",
+        "startingPos": 110,
+        "endingPos": 121
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Evaluation",
+        "freebaseTypes": [
+          "/organization/organization_sector"
+        ],
+        "confidenceScore": 1.50445,
+        "wikiLink": "http://en.wikipedia.org/wiki/Evaluation",
+        "matchedText": "evaluation",
+        "freebaseId": "/m/0gw5h",
+        "relevanceScore": 0.190323,
+        "entityEnglishId": "Evaluation",
+        "startingPos": 122,
+        "endingPos": 132
+      },
+      {
+        "id": 5,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          26,
+          27,
+          28
+        ],
+        "entityId": "ISPOR Task Force",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "ISPOR Task Force",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 148,
+        "endingPos": 164
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Research",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/education/field_of_study",
+          "/education/school_category",
+          "/book/book_subject",
+          "/architecture/building_function",
+          "/book/periodical_subject",
+          "/business/industry",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 1.16933,
+        "wikiLink": "http://en.wikipedia.org/wiki/Research",
+        "matchedText": "Research",
+        "freebaseId": "/m/06cs1",
+        "relevanceScore": 0.16861,
+        "entityEnglishId": "Research",
+        "startingPos": 173,
+        "endingPos": 181
+      },
+      {
+        "id": 7,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "Health",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Health",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 220,
+        "endingPos": 226
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          36,
+          37
+        ],
+        "propertyPositions": [
+          38,
+          39
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          15
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          31,
+          32,
+          33
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "propertyPositions": [
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          16,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      }
+    ]
+  },
+  "time": 0.323,
+  "ok": true
+}

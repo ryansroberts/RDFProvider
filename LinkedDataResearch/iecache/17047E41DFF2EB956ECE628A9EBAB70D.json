@@ -1,0 +1,263 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.731596
+      },
+      {
+        "id": 2,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.657402
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.268404
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.268404
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Department of Health (United Kingdom)",
+        "wikiLink": "http://en.wikipedia.org/Department_of_Health_(United_Kingdom)",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "National Health Service (England)",
+        "wikiLink": "http://en.wikipedia.org/National_Health_Service_(England)",
+        "score": 0.610821
+      },
+      {
+        "id": 2,
+        "label": "Bodies of the United Kingdom government",
+        "wikiLink": "http://en.wikipedia.org/Category:Bodies_of_the_United_Kingdom_government",
+        "score": 0.260868
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_by_country",
+        "score": 0.260868
+      },
+      {
+        "id": 4,
+        "label": "Organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Organizations_by_location",
+        "score": 0.135448
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Agent",
+          "Organisation",
+          "GovernmentAgency"
+        ],
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "Department of Health (United Kingdom)",
+        "freebaseTypes": [
+          "/government/government_agency",
+          "/organization/organization"
+        ],
+        "confidenceScore": 5.11487,
+        "wikiLink": "http://en.wikipedia.org/wiki/Department_of_Health_(United_Kingdom)",
+        "matchedText": "Department of Health",
+        "freebaseId": "/m/020rx0",
+        "relevanceScore": 0.911481,
+        "entityEnglishId": "Department of Health (United Kingdom)",
+        "startingPos": 4,
+        "endingPos": 24
+      },
+      {
+        "id": 1,
+        "type": [
+          "Agent",
+          "Organisation",
+          "GovernmentAgency"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "National Health Service (England)",
+        "freebaseTypes": [
+          "/business/employer",
+          "/organization/organization"
+        ],
+        "confidenceScore": 2.5535,
+        "wikiLink": "http://en.wikipedia.org/wiki/National_Health_Service_(England)",
+        "matchedText": "NHS",
+        "freebaseId": "/m/01fw9h",
+        "relevanceScore": 0.610821,
+        "entityEnglishId": "National Health Service (England)",
+        "startingPos": 26,
+        "endingPos": 29
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.69356,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.0656134,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 58,
+        "endingPos": 60
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Department",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Department",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 62,
+        "endingPos": 72
+      },
+      {
+        "id": 4,
+        "type": [
+          "Agent",
+          "Organisation",
+          "GovernmentAgency"
+        ],
+        "matchingTokens": [
+          13,
+          14,
+          15
+        ],
+        "entityId": "Department of Health (United Kingdom)",
+        "freebaseTypes": [
+          "/government/government_agency",
+          "/organization/organization"
+        ],
+        "confidenceScore": 5.11487,
+        "wikiLink": "http://en.wikipedia.org/wiki/Department_of_Health_(United_Kingdom)",
+        "matchedText": "Department of Health",
+        "freebaseId": "/m/020rx0",
+        "relevanceScore": 0.911481,
+        "entityEnglishId": "Department of Health (United Kingdom)",
+        "startingPos": 62,
+        "endingPos": 82
+      },
+      {
+        "id": 5,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Health",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Health",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 76,
+        "endingPos": 82
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          17
+        ]
+      }
+    ]
+  },
+  "time": 0.314,
+  "ok": true
+}

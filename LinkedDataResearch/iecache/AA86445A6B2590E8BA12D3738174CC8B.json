@@ -1,0 +1,485 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.732373
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.520479
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.247113
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.234463
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Albumin",
+        "wikiLink": "http://en.wikipedia.org/Albumin",
+        "score": 0.293425
+      },
+      {
+        "id": 1,
+        "label": "Albuminuria",
+        "wikiLink": "http://en.wikipedia.org/Albuminuria",
+        "score": 0.62111
+      },
+      {
+        "id": 2,
+        "label": "Concentration",
+        "wikiLink": "http://en.wikipedia.org/Concentration",
+        "score": 0.248276
+      },
+      {
+        "id": 3,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.153958
+      },
+      {
+        "id": 4,
+        "label": "Microalbuminuria",
+        "wikiLink": "http://en.wikipedia.org/Microalbuminuria",
+        "score": 0.668896
+      },
+      {
+        "id": 5,
+        "label": "Ratio",
+        "wikiLink": "http://en.wikipedia.org/Ratio",
+        "score": 0.222487
+      },
+      {
+        "id": 6,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.623571
+      },
+      {
+        "id": 7,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.394443
+      },
+      {
+        "id": 8,
+        "label": "Urine",
+        "wikiLink": "http://en.wikipedia.org/Category:Urine",
+        "score": 0.120202
+      },
+      {
+        "id": 9,
+        "label": "Urine tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Urine_tests",
+        "score": 0.120202
+      },
+      {
+        "id": 10,
+        "label": "Abnormal clinical and laboratory findings",
+        "wikiLink": "http://en.wikipedia.org/Category:Abnormal_clinical_and_laboratory_findings",
+        "score": 0.103987
+      },
+      {
+        "id": 11,
+        "label": "Abnormal clinical and laboratory findings for urine",
+        "wikiLink": "http://en.wikipedia.org/Category:Abnormal_clinical_and_laboratory_findings_for_urine",
+        "score": 0.103987
+      },
+      {
+        "id": 12,
+        "label": "Applied sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Applied_sciences",
+        "score": 0.0973342
+      },
+      {
+        "id": 13,
+        "label": "Cell biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cell_biology",
+        "score": 0.0905099
+      },
+      {
+        "id": 14,
+        "label": "Euthenics",
+        "wikiLink": "http://en.wikipedia.org/Category:Euthenics",
+        "score": 0.0826636
+      },
+      {
+        "id": 15,
+        "label": "Physical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Physical_sciences",
+        "score": 0.0826636
+      },
+      {
+        "id": 16,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.0607944
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Hutchison",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hutchison",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "OReilly DSJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "OReilly DSJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 18,
+        "endingPos": 29
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "MacCuish AC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "MacCuish AC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 31,
+        "endingPos": 42
+      },
+      {
+        "id": 3,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Albumin",
+        "confidenceScore": 3.59697,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albumin",
+        "matchedText": "Albumin",
+        "freebaseId": "/m/0qy22r2",
+        "relevanceScore": 0.146713,
+        "entityEnglishId": "Albumin",
+        "startingPos": 44,
+        "endingPos": 51
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Excretion",
+        "confidenceScore": 1.88664,
+        "wikiLink": "http://en.wikipedia.org/wiki/Excretion",
+        "matchedText": "excretion",
+        "freebaseId": "/m/01lvt1",
+        "relevanceScore": 0,
+        "entityEnglishId": "Excretion",
+        "startingPos": 52,
+        "endingPos": 61
+      },
+      {
+        "id": 5,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Albumin",
+        "confidenceScore": 3.59697,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albumin",
+        "matchedText": "albumin",
+        "freebaseId": "/m/0qy22r2",
+        "relevanceScore": 0.146713,
+        "entityEnglishId": "Albumin",
+        "startingPos": 68,
+        "endingPos": 75
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Concentration",
+        "confidenceScore": 1.7439,
+        "wikiLink": "http://en.wikipedia.org/wiki/Concentration",
+        "matchedText": "concentration",
+        "freebaseId": "/m/023qq",
+        "relevanceScore": 0.248276,
+        "entityEnglishId": "Concentration",
+        "startingPos": 76,
+        "endingPos": 89
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Microalbuminuria",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.78082,
+        "wikiLink": "http://en.wikipedia.org/wiki/Microalbuminuria",
+        "matchedText": "albumin/creatinine ratio",
+        "freebaseId": "/m/07y7r4",
+        "relevanceScore": 0.668896,
+        "entityEnglishId": "Microalbuminuria",
+        "startingPos": 95,
+        "endingPos": 119
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Ratio",
+        "freebaseTypes": [
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 1.33554,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ratio",
+        "matchedText": "ratio",
+        "freebaseId": "/m/0m1mr",
+        "relevanceScore": 0.222487,
+        "entityEnglishId": "Ratio",
+        "startingPos": 114,
+        "endingPos": 119
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.17264,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetics",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.153958,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 143,
+        "endingPos": 152
+      },
+      {
+        "id": 10,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 4.72413,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "albuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.62111,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 164,
+        "endingPos": 175
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          28,
+          29
+        ],
+        "entityId": "Clinical chemistry",
+        "freebaseTypes": [
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 3.19106,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_chemistry",
+        "matchedText": "Clinical Chemistry",
+        "freebaseId": "/m/0hdq2",
+        "relevanceScore": 0,
+        "entityEnglishId": "Clinical chemistry",
+        "startingPos": 177,
+        "endingPos": 195
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Chemistry",
+        "freebaseTypes": [
+          "/book/periodical_subject",
+          "/education/field_of_study",
+          "/media_common/literary_genre",
+          "/organization/organization_sector",
+          "/people/professional_field",
+          "/award/award_discipline",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.15488,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chemistry",
+        "matchedText": "Chemistry",
+        "freebaseId": "/m/01lj9",
+        "relevanceScore": 0.0484012,
+        "entityEnglishId": "Chemistry",
+        "startingPos": 186,
+        "endingPos": 195
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          29
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          14,
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          19,
+          20,
+          21
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26
+        ]
+      }
+    ]
+  },
+  "time": 0.323,
+  "ok": true
+}

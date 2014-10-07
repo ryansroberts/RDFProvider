@@ -1,0 +1,602 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.53117
+      },
+      {
+        "id": 2,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.468814
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.381164
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.367529
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.352148
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chronic (medicine)",
+        "wikiLink": "http://en.wikipedia.org/Chronic_(medicine)",
+        "score": 0.588006
+      },
+      {
+        "id": 1,
+        "label": "Chronic kidney disease",
+        "wikiLink": "http://en.wikipedia.org/Chronic_kidney_disease",
+        "score": 0.151158
+      },
+      {
+        "id": 2,
+        "label": "Disease",
+        "wikiLink": "http://en.wikipedia.org/Disease",
+        "score": 0.833376
+      },
+      {
+        "id": 3,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.587467
+      },
+      {
+        "id": 4,
+        "label": "Nephropathy",
+        "wikiLink": "http://en.wikipedia.org/Nephropathy",
+        "score": 0.431269
+      },
+      {
+        "id": 5,
+        "label": "Public health",
+        "wikiLink": "http://en.wikipedia.org/Public_health",
+        "score": 0.382074
+      },
+      {
+        "id": 6,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.34726
+      },
+      {
+        "id": 7,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.320459
+      },
+      {
+        "id": 8,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.281815
+      },
+      {
+        "id": 9,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.23938
+      },
+      {
+        "id": 10,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.198198
+      },
+      {
+        "id": 11,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.143217
+      },
+      {
+        "id": 12,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.126658
+      },
+      {
+        "id": 13,
+        "label": "Medical terminology",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_terminology",
+        "score": 0.126658
+      },
+      {
+        "id": 14,
+        "label": "Genitourinary system diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Genitourinary_system_diseases",
+        "score": 0.085203
+      },
+      {
+        "id": 15,
+        "label": "Urological conditions",
+        "wikiLink": "http://en.wikipedia.org/Category:Urological_conditions",
+        "score": 0.085203
+      },
+      {
+        "id": 16,
+        "label": "Kidney diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney_diseases",
+        "score": 0.085203
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Levey AS",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Levey AS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 3,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Atkins R",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Atkins R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Coresh J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Coresh J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 23,
+        "endingPos": 31
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Chronic (medicine)",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.453,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_(medicine)",
+        "matchedText": "Chronic",
+        "freebaseId": "/m/0c1dj4",
+        "relevanceScore": 0.588006,
+        "entityEnglishId": "Chronic (medicine)",
+        "startingPos": 39,
+        "endingPos": 46
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.08601,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.195822,
+        "entityEnglishId": "Kidney",
+        "startingPos": 47,
+        "endingPos": 53
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12,
+          13
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 5.1983,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "Chronic kidney disease",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.151158,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 39,
+        "endingPos": 61
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 3.36533,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephropathy",
+        "matchedText": "kidney disease",
+        "freebaseId": "/m/02z63k",
+        "relevanceScore": 0.215634,
+        "entityEnglishId": "Nephropathy",
+        "startingPos": 47,
+        "endingPos": 61
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 2.49227,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.214756,
+        "entityEnglishId": "Disease",
+        "startingPos": 54,
+        "endingPos": 61
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Public health",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/book/book_subject",
+          "/medicine/medical_specialty",
+          "/government/governmental_jurisdiction",
+          "/award/award_discipline",
+          "/organization/non_profit_designation",
+          "/film/film_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 1.64422,
+        "wikiLink": "http://en.wikipedia.org/wiki/Public_health",
+        "matchedText": "public health",
+        "freebaseId": "/m/02cm61",
+        "relevanceScore": 0.382074,
+        "entityEnglishId": "Public health",
+        "startingPos": 74,
+        "endingPos": 87
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.42688,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "health problem",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.403864,
+        "entityEnglishId": "Disease",
+        "startingPos": 81,
+        "endingPos": 95
+      },
+      {
+        "id": 10,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.08601,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.195822,
+        "entityEnglishId": "Kidney",
+        "startingPos": 151,
+        "endingPos": 157
+      },
+      {
+        "id": 11,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          28,
+          29
+        ],
+        "entityId": "Nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 3.36533,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephropathy",
+        "matchedText": "Kidney Disease",
+        "freebaseId": "/m/02z63k",
+        "relevanceScore": 0.215634,
+        "entityEnglishId": "Nephropathy",
+        "startingPos": 151,
+        "endingPos": 165
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 2.49227,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "Disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.214756,
+        "entityEnglishId": "Disease",
+        "startingPos": 158,
+        "endingPos": 165
+      },
+      {
+        "id": 13,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.39521,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.195822,
+        "entityEnglishId": "Kidney",
+        "startingPos": 193,
+        "endingPos": 199
+      },
+      {
+        "id": 14,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          34,
+          35
+        ],
+        "entityId": "Kidney International",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kidney International",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 193,
+        "endingPos": 213
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2,
+          14
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          15,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          32
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          1,
+          2,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      }
+    ]
+  },
+  "time": 0.33,
+  "ok": true
+}

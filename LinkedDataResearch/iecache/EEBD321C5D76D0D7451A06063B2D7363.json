@@ -1,0 +1,137 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.908676
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.908676
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Pharmaceutical drug",
+        "wikiLink": "http://en.wikipedia.org/Pharmaceutical_drug",
+        "score": 0.212713
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Floch",
+        "confidenceScore": 1.16869,
+        "wikiLink": "http://en.wikipedia.org/wiki/Floch",
+        "matchedText": "Le Floch",
+        "freebaseId": "",
+        "relevanceScore": 0,
+        "entityEnglishId": "Floch",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Microalbuminuria",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.71143,
+        "wikiLink": "http://en.wikipedia.org/wiki/Microalbuminuria",
+        "matchedText": "microalbuminuria",
+        "freebaseId": "/m/07y7r4",
+        "relevanceScore": 0,
+        "entityEnglishId": "Microalbuminuria",
+        "startingPos": 49,
+        "endingPos": 65
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.935108,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0530877,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 67,
+        "endingPos": 75
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.33959,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "Medicine",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.212713,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 76,
+        "endingPos": 84
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      }
+    ]
+  },
+  "time": 0.309,
+  "ok": true
+}

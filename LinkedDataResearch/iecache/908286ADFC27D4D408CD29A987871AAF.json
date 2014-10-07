@@ -1,0 +1,419 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.303195
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "American Medical Association",
+        "wikiLink": "http://en.wikipedia.org/American_Medical_Association",
+        "score": 0.159568
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.253259
+      },
+      {
+        "id": 2,
+        "label": "Diabetic neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_neuropathy",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Imipramine",
+        "wikiLink": "http://en.wikipedia.org/Imipramine",
+        "score": 0.235188
+      },
+      {
+        "id": 4,
+        "label": "Medical associations",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_associations_by_country",
+        "score": 0.0653857
+      },
+      {
+        "id": 5,
+        "label": "Local government",
+        "wikiLink": "http://en.wikipedia.org/Category:Local_government_by_country",
+        "score": 0.0333333
+      },
+      {
+        "id": 6,
+        "label": "Municipalities of Norway",
+        "wikiLink": "http://en.wikipedia.org/Category:Municipalities_of_Norway",
+        "score": 0.0333333
+      },
+      {
+        "id": 7,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.0159609
+      },
+      {
+        "id": 8,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.0159609
+      },
+      {
+        "id": 9,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.0153423
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Kvinesdal",
+        "freebaseTypes": [
+          "/location/dated_location",
+          "/location/citytown",
+          "/location/statistical_region",
+          "/location/location"
+        ],
+        "confidenceScore": 4.65148,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kvinesdal",
+        "matchedText": "Kvinesdal",
+        "freebaseId": "/m/018708",
+        "relevanceScore": 0,
+        "entityEnglishId": "Kvinesdal",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Molin J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Molin J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 17,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Region",
+          "AdministrativeRegion"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Froland",
+        "freebaseTypes": [
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/location/location",
+          "/location/citytown"
+        ],
+        "confidenceScore": 4.40785,
+        "wikiLink": "http://en.wikipedia.org/wiki/Froland",
+        "matchedText": "Froland",
+        "freebaseId": "/m/01892t",
+        "relevanceScore": 0,
+        "entityEnglishId": "Froland",
+        "startingPos": 26,
+        "endingPos": 33
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Froland A",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Froland A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 35
+      },
+      {
+        "id": 4,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Imipramine",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.6491,
+        "wikiLink": "http://en.wikipedia.org/wiki/Imipramine",
+        "matchedText": "Imipramine",
+        "freebaseId": "/m/03ztdf",
+        "relevanceScore": 0.235188,
+        "entityEnglishId": "Imipramine",
+        "startingPos": 43,
+        "endingPos": 53
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.98364,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.253259,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 75,
+        "endingPos": 83
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 7.84544,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "diabetic neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.343738,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 75,
+        "endingPos": 94
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 2.52714,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.671904,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 84,
+        "endingPos": 94
+      },
+      {
+        "id": 8,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "entityId": "JAMA (journal)",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/publication",
+          "/book/journal"
+        ],
+        "confidenceScore": 2.52579,
+        "wikiLink": "http://en.wikipedia.org/wiki/JAMA_(journal)",
+        "matchedText": "Journal of the American Medical Association",
+        "freebaseId": "/m/02n872",
+        "relevanceScore": 0,
+        "entityEnglishId": "JAMA (journal)",
+        "startingPos": 100,
+        "endingPos": 143
+      },
+      {
+        "id": 9,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          22,
+          23,
+          24
+        ],
+        "entityId": "American Medical Association",
+        "freebaseTypes": [
+          "/business/employer",
+          "/book/periodical_publisher",
+          "/organization/organization",
+          "/internet/website_owner",
+          "/award/award_presenting_organization",
+          "/book/author"
+        ],
+        "confidenceScore": 3.95585,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Medical_Association",
+        "matchedText": "American Medical Association",
+        "freebaseId": "/m/01pq0r",
+        "relevanceScore": 0.159568,
+        "entityEnglishId": "American Medical Association",
+        "startingPos": 115,
+        "endingPos": 143
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          18,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "time": 0.32,
+  "ok": true
+}

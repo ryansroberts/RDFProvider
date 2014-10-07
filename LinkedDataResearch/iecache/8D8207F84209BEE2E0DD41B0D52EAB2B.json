@@ -1,0 +1,170 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.998049
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.561274
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.546035
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.540486
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.536765
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Epidemiology",
+        "wikiLink": "http://en.wikipedia.org/Epidemiology",
+        "score": 0.299969
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "West R",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "West R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 6
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Epidemiology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.49379,
+        "wikiLink": "http://en.wikipedia.org/wiki/Epidemiology",
+        "matchedText": "Epidemiology",
+        "freebaseId": "/m/0hnfc",
+        "relevanceScore": 0.299969,
+        "entityEnglishId": "Epidemiology",
+        "startingPos": 79,
+        "endingPos": 91
+      },
+      {
+        "id": 2,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "entityId": "Journal of Epidemiology and Community Health",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal",
+          "/business/employer"
+        ],
+        "confidenceScore": 1.6447,
+        "wikiLink": "http://en.wikipedia.org/wiki/Journal_of_Epidemiology_and_Community_Health",
+        "matchedText": "Journal of Epidemiology and Community Health",
+        "freebaseId": "/m/05q6762",
+        "relevanceScore": 0.0788888,
+        "entityEnglishId": "Journal of Epidemiology and Community Health",
+        "startingPos": 68,
+        "endingPos": 112
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          21
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  "time": 0.313,
+  "ok": true
+}

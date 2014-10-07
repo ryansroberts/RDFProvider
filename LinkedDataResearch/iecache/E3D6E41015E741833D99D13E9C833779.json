@@ -1,0 +1,316 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.300134
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.300134
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.300134
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.300134
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.300134
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Geriatric nephrology",
+        "wikiLink": "http://en.wikipedia.org/Geriatric_nephrology",
+        "score": 0.162514
+      },
+      {
+        "id": 1,
+        "label": "Geriatrics",
+        "wikiLink": "http://en.wikipedia.org/Geriatrics",
+        "score": 0.144689
+      },
+      {
+        "id": 2,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Nephrology",
+        "score": 0.440492
+      },
+      {
+        "id": 3,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.102696
+      },
+      {
+        "id": 4,
+        "label": "Urology",
+        "wikiLink": "http://en.wikipedia.org/Urology",
+        "score": 0.119441
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.475334
+      },
+      {
+        "id": 6,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.414539
+      },
+      {
+        "id": 7,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.406721
+      },
+      {
+        "id": 8,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.406721
+      },
+      {
+        "id": 9,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.406721
+      },
+      {
+        "id": 10,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.406721
+      },
+      {
+        "id": 11,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.140055
+      },
+      {
+        "id": 12,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.140055
+      },
+      {
+        "id": 13,
+        "label": "Ageing",
+        "wikiLink": "http://en.wikipedia.org/Category:Ageing",
+        "score": 0.0411512
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Lindeman RD.",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lindeman RD.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 16
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.26949,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "renal function",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.102696,
+        "entityEnglishId": "Renal function",
+        "startingPos": 35,
+        "endingPos": 49
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Geriatrics",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/medicine/medical_specialty",
+          "/award/award_winning_work"
+        ],
+        "confidenceScore": 1.08435,
+        "wikiLink": "http://en.wikipedia.org/wiki/Geriatrics",
+        "matchedText": "Geriatric",
+        "freebaseId": "/m/028dfg",
+        "relevanceScore": 0.144689,
+        "entityEnglishId": "Geriatrics",
+        "startingPos": 80,
+        "endingPos": 89
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Geriatric nephrology",
+        "confidenceScore": 1.33886,
+        "wikiLink": "http://en.wikipedia.org/wiki/Geriatric_nephrology",
+        "matchedText": "Geriatric Nephrology",
+        "freebaseId": "/m/04q7tq9",
+        "relevanceScore": 0.162514,
+        "entityEnglishId": "Geriatric nephrology",
+        "startingPos": 80,
+        "endingPos": 100
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Nephrology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 9.64079,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephrology",
+        "matchedText": "Nephrology",
+        "freebaseId": "/m/05jd4",
+        "relevanceScore": 0.440492,
+        "entityEnglishId": "Nephrology",
+        "startingPos": 90,
+        "endingPos": 100
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Urology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 6.37981,
+        "wikiLink": "http://en.wikipedia.org/wiki/Urology",
+        "matchedText": "Urology",
+        "freebaseId": "/m/07w7m",
+        "relevanceScore": 0.119441,
+        "entityEnglishId": "Urology",
+        "startingPos": 103,
+        "endingPos": 110
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          9
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

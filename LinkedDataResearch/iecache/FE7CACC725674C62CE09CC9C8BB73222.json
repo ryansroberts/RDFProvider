@@ -1,0 +1,318 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.546798
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Albuminuria",
+        "wikiLink": "http://en.wikipedia.org/Albuminuria",
+        "score": 0.228954
+      },
+      {
+        "id": 1,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Nephrology",
+        "score": 0.490176
+      },
+      {
+        "id": 2,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.0723422
+      },
+      {
+        "id": 3,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.0723422
+      },
+      {
+        "id": 4,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0723422
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0723422
+      },
+      {
+        "id": 6,
+        "label": "Abnormal clinical and laboratory findings",
+        "wikiLink": "http://en.wikipedia.org/Category:Abnormal_clinical_and_laboratory_findings",
+        "score": 0.0333333
+      },
+      {
+        "id": 7,
+        "label": "Urine",
+        "wikiLink": "http://en.wikipedia.org/Category:Urine",
+        "score": 0.0333333
+      },
+      {
+        "id": 8,
+        "label": "Abnormal clinical and laboratory findings for urine",
+        "wikiLink": "http://en.wikipedia.org/Category:Abnormal_clinical_and_laboratory_findings_for_urine",
+        "score": 0.0333333
+      },
+      {
+        "id": 9,
+        "label": "Urine tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Urine_tests",
+        "score": 0.0333333
+      },
+      {
+        "id": 10,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Atkins RC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Atkins RC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Briganti EM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Briganti EM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 26
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Zimmet PZ",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Zimmet PZ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 28,
+        "endingPos": 37
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.35735,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "albuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.228954,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 65,
+        "endingPos": 76
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Proteinuria",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 5.10393,
+        "wikiLink": "http://en.wikipedia.org/wiki/Proteinuria",
+        "matchedText": "proteinuria",
+        "freebaseId": "/m/012zf3",
+        "relevanceScore": 0,
+        "entityEnglishId": "Proteinuria",
+        "startingPos": 81,
+        "endingPos": 92
+      },
+      {
+        "id": 5,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          22,
+          23
+        ],
+        "entityId": "AusDiab Study",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "AusDiab Study",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 124,
+        "endingPos": 137
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Nephrology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 5.14621,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephrology",
+        "matchedText": "Nephrology",
+        "freebaseId": "/m/05jd4",
+        "relevanceScore": 0.490176,
+        "entityEnglishId": "Nephrology",
+        "startingPos": 139,
+        "endingPos": 149
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Dialysis",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 3.65922,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dialysis",
+        "matchedText": "Dialysis",
+        "freebaseId": "/m/0fmf0",
+        "relevanceScore": 0.0692383,
+        "entityEnglishId": "Dialysis",
+        "startingPos": 150,
+        "endingPos": 158
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Organ transplantation",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject",
+          "/award/award_winning_work",
+          "/medicine/risk_factor",
+          "/radio/radio_subject"
+        ],
+        "confidenceScore": 2.40501,
+        "wikiLink": "http://en.wikipedia.org/wiki/Organ_transplantation",
+        "matchedText": "Transplantation",
+        "freebaseId": "/m/016bb2",
+        "relevanceScore": 0.0346419,
+        "entityEnglishId": "Organ transplantation",
+        "startingPos": 163,
+        "endingPos": 178
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          17,
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          21,
+          22,
+          23
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

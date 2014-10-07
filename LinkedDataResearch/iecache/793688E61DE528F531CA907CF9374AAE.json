@@ -1,0 +1,374 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.527948
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.527948
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.519373
+      },
+      {
+        "id": 4,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.480627
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.480627
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "India",
+        "wikiLink": "http://en.wikipedia.org/India",
+        "score": 0.130426
+      },
+      {
+        "id": 1,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Medicine",
+        "score": 0.168024
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Joshi SR",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Joshi SR",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Kalra S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kalra S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Badgandi M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Badgandi M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 23,
+        "endingPos": 33
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Medicine",
+        "freebaseTypes": [
+          "/radio/radio_subject",
+          "/education/field_of_study",
+          "/broadcast/genre",
+          "/book/periodical_subject",
+          "/media_common/literary_genre",
+          "/film/film_subject",
+          "/media_common/quotation_subject",
+          "/organization/organization_sector",
+          "/book/book_subject",
+          "/book/magazine_genre",
+          "/award/award_discipline",
+          "/media_common/media_genre"
+        ],
+        "confidenceScore": 1.06102,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medicine",
+        "matchedText": "clinical practice",
+        "freebaseId": "/m/04sh3",
+        "relevanceScore": 0.168024,
+        "entityEnglishId": "Medicine",
+        "startingPos": 71,
+        "endingPos": 88
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Indian",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Indian",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 108,
+        "endingPos": 114
+      },
+      {
+        "id": 5,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "entityId": "Journal of the Association of Physicians",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Journal of the Association of Physicians",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 122,
+        "endingPos": 162
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "India",
+        "freebaseTypes": [
+          "/meteorology/cyclone_affected_area",
+          "/location/dated_location",
+          "/symbols/flag_referent",
+          "/biology/breed_origin",
+          "/organization/organization_founder",
+          "/government/governmental_jurisdiction",
+          "/film/film_location",
+          "/olympics/olympic_participating_country",
+          "/organization/organization_scope",
+          "/periodicals/newspaper_circulation_area",
+          "/sports/sports_team_location",
+          "/law/court_jurisdiction_area",
+          "/book/book_subject",
+          "/tv/tv_location",
+          "/military/military_combatant",
+          "/government/government",
+          "/sports/sport_country",
+          "/food/beer_country_region",
+          "/organization/organization_member",
+          "/media_common/netflix_genre",
+          "/location/statistical_region",
+          "/location/location",
+          "/location/country",
+          "/film/film_subject",
+          "/fictional_universe/fictional_setting"
+        ],
+        "confidenceScore": 2.79874,
+        "wikiLink": "http://en.wikipedia.org/wiki/India",
+        "matchedText": "India",
+        "freebaseId": "/m/03rk0",
+        "relevanceScore": 0.130426,
+        "entityEnglishId": "India",
+        "startingPos": 166,
+        "endingPos": 171
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          29,
+          30
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          24,
+          25,
+          26
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          16,
+          17,
+          20
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          16,
+          17,
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.325,
+  "ok": true
+}

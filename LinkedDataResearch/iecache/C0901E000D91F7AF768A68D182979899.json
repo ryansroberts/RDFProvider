@@ -1,0 +1,495 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.237633
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.230682
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.226948
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.202713
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.465939
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 1",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_1",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Eating disorder",
+        "wikiLink": "http://en.wikipedia.org/Eating_disorder",
+        "score": 0.21043
+      },
+      {
+        "id": 3,
+        "label": "Psychosomatic medicine",
+        "wikiLink": "http://en.wikipedia.org/Psychosomatic_medicine",
+        "score": 0.242603
+      },
+      {
+        "id": 4,
+        "label": "Immunology",
+        "wikiLink": "http://en.wikipedia.org/Category:Immunology",
+        "score": 0.209921
+      },
+      {
+        "id": 5,
+        "label": "Abnormal psychology",
+        "wikiLink": "http://en.wikipedia.org/Category:Abnormal_psychology",
+        "score": 0.14049
+      },
+      {
+        "id": 6,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.119992
+      },
+      {
+        "id": 7,
+        "label": "Clinical psychology",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_psychology",
+        "score": 0.117579
+      },
+      {
+        "id": 8,
+        "label": "Mental and behavioural disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Mental_and_behavioural_disorders",
+        "score": 0.117579
+      },
+      {
+        "id": 9,
+        "label": "Health movements",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_movements",
+        "score": 0.0986714
+      },
+      {
+        "id": 10,
+        "label": "Mind–body interventions",
+        "wikiLink": "http://en.wikipedia.org/Category:Mind–body_interventions",
+        "score": 0.0986714
+      },
+      {
+        "id": 11,
+        "label": "Alternative medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Alternative_medicine",
+        "score": 0.0986714
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Rodin G",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Rodin G",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 7
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Olmsted MP",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Olmsted MP",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 9,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Rydall AC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Rydall AC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 30
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Eating disorder",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.19616,
+        "wikiLink": "http://en.wikipedia.org/wiki/Eating_disorder",
+        "matchedText": "Eating disorders",
+        "freebaseId": "/m/0fnyw",
+        "relevanceScore": 0.21043,
+        "entityEnglishId": "Eating disorder",
+        "startingPos": 39,
+        "endingPos": 55
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.86138,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "type 1",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.654927,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 76,
+        "endingPos": 82
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18,
+          19
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.79349,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "type 1 diabetes",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.291216,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 76,
+        "endingPos": 91
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.12095,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.357207,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 83,
+        "endingPos": 91
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 3.60067,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "type 1 diabetes mellitus",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.16489,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 76,
+        "endingPos": 100
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 4.93822,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes mellitus",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.108732,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 83,
+        "endingPos": 100
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Psychosomatic medicine",
+        "confidenceScore": 3.26447,
+        "wikiLink": "http://en.wikipedia.org/wiki/Psychosomatic_medicine",
+        "matchedText": "Psychosomatic",
+        "freebaseId": "/m/0dvcd",
+        "relevanceScore": 0.242603,
+        "entityEnglishId": "Psychosomatic medicine",
+        "startingPos": 113,
+        "endingPos": 126
+      },
+      {
+        "id": 10,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          22,
+          23,
+          24,
+          25
+        ],
+        "entityId": "Journal of Psychosomatic Research",
+        "freebaseTypes": [
+          "/business/employer",
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.41592,
+        "wikiLink": "http://en.wikipedia.org/wiki/Journal_of_Psychosomatic_Research",
+        "matchedText": "Journal of Psychosomatic Research",
+        "freebaseId": "/m/07s3l7x",
+        "relevanceScore": 0,
+        "entityEnglishId": "Journal of Psychosomatic Research",
+        "startingPos": 102,
+        "endingPos": 135
+      },
+      {
+        "id": 11,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "Psychosomatic Research",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Psychosomatic Research",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 113,
+        "endingPos": 135
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          25
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

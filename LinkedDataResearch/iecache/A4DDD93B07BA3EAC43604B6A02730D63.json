@@ -1,0 +1,414 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.723201
+      },
+      {
+        "id": 2,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.378979
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.45734
+      },
+      {
+        "id": 1,
+        "label": "Major depressive disorder",
+        "wikiLink": "http://en.wikipedia.org/Major_depressive_disorder",
+        "score": 0.278718
+      },
+      {
+        "id": 2,
+        "label": "Sexual dysfunction",
+        "wikiLink": "http://en.wikipedia.org/Sexual_dysfunction",
+        "score": 0.815345
+      },
+      {
+        "id": 3,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.23451
+      },
+      {
+        "id": 4,
+        "label": "Human behavior",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_behavior",
+        "score": 0.22396
+      },
+      {
+        "id": 5,
+        "label": "Psychiatry",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychiatry",
+        "score": 0.223178
+      },
+      {
+        "id": 6,
+        "label": "Psychology",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychology",
+        "score": 0.221976
+      },
+      {
+        "id": 7,
+        "label": "Medical diagnosis",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_diagnosis",
+        "score": 0.215413
+      },
+      {
+        "id": 8,
+        "label": "Psychiatric diagnosis",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychiatric_diagnosis",
+        "score": 0.215413
+      },
+      {
+        "id": 9,
+        "label": "Mental health",
+        "wikiLink": "http://en.wikipedia.org/Category:Mental_health",
+        "score": 0.215136
+      },
+      {
+        "id": 10,
+        "label": "Observation",
+        "wikiLink": "http://en.wikipedia.org/Category:Observation",
+        "score": 0.207371
+      },
+      {
+        "id": 11,
+        "label": "Analysis",
+        "wikiLink": "http://en.wikipedia.org/Category:Analysis",
+        "score": 0.207371
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Leedom L",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Leedom L",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Feldman M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Feldman M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Procci W",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Procci W",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 29
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Sexual dysfunction",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 6.72796,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sexual_dysfunction",
+        "matchedText": "sexual dysfunction",
+        "freebaseId": "/m/0255qr",
+        "relevanceScore": 0.274851,
+        "entityEnglishId": "Sexual dysfunction",
+        "startingPos": 54,
+        "endingPos": 72
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Sexual dysfunction",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.19802,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sexual_dysfunction",
+        "matchedText": "dysfunction",
+        "freebaseId": "/m/0255qr",
+        "relevanceScore": 0.540494,
+        "entityEnglishId": "Sexual dysfunction",
+        "startingPos": 61,
+        "endingPos": 72
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Major depressive disorder",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.70565,
+        "wikiLink": "http://en.wikipedia.org/wiki/Major_depressive_disorder",
+        "matchedText": "depression",
+        "freebaseId": "/m/02bft",
+        "relevanceScore": 0.278718,
+        "entityEnglishId": "Major depressive disorder",
+        "startingPos": 77,
+        "endingPos": 87
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.29118,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.22867,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 91,
+        "endingPos": 99
+      },
+      {
+        "id": 7,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9,
+          10,
+          11
+        ],
+        "entityId": "Zeidler A. Symptoms",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Zeidler A. Symptoms",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 31,
+        "endingPos": 50
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.49118,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.22867,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 118,
+        "endingPos": 126
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          24
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25,
+          29
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1,
+          17
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          0,
+          1,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "time": 0.321,
+  "ok": true
+}

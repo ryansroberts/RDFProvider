@@ -1,0 +1,266 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.566631
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.527975
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.527975
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.527975
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 1
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Oda H",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Oda H",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Keane WF",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Keane WF",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Lipid",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/food/nutrient"
+        ],
+        "confidenceScore": 1.96232,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lipid",
+        "matchedText": "Lipids",
+        "freebaseId": "/m/04k8n",
+        "relevanceScore": 0.0406735,
+        "entityEnglishId": "Lipid",
+        "startingPos": 21,
+        "endingPos": 27
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.09541,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.446361,
+        "entityEnglishId": "Kidney",
+        "startingPos": 46,
+        "endingPos": 51
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.26374,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal disease",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.367392,
+        "entityEnglishId": "Kidney",
+        "startingPos": 46,
+        "endingPos": 59
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.25018,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0,
+        "entityEnglishId": "Disease",
+        "startingPos": 52,
+        "endingPos": 59
+      },
+      {
+        "id": 6,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.42589,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.460068,
+        "entityEnglishId": "Kidney",
+        "startingPos": 61,
+        "endingPos": 67
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Kidney International",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kidney International",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 61,
+        "endingPos": 81
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          22
+        ],
+        "propertyPositions": [
+          24,
+          25
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "time": 0.315,
+  "ok": true
+}

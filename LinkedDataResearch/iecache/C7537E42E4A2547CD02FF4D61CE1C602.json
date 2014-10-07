@@ -1,0 +1,241 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.563644
+      },
+      {
+        "id": 1,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.51924
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.513459
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.433093
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cardiff",
+        "wikiLink": "http://en.wikipedia.org/Cardiff",
+        "score": 0.285988
+      },
+      {
+        "id": 1,
+        "label": "Welsh Office",
+        "wikiLink": "http://en.wikipedia.org/Welsh_Office",
+        "score": 0.61566
+      },
+      {
+        "id": 2,
+        "label": "Welsh people",
+        "wikiLink": "http://en.wikipedia.org/Welsh_people",
+        "score": 1
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "EthnicGroup"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Welsh people",
+        "freebaseTypes": [
+          "/people/ethnicity",
+          "/fictional_universe/ethnicity_in_fiction"
+        ],
+        "confidenceScore": 2.15381,
+        "wikiLink": "http://en.wikipedia.org/wiki/Welsh_people",
+        "matchedText": "Welsh",
+        "freebaseId": "/m/06gbnc",
+        "relevanceScore": 0.418075,
+        "entityEnglishId": "Welsh people",
+        "startingPos": 0,
+        "endingPos": 5
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Welsh Office",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 5.6322,
+        "wikiLink": "http://en.wikipedia.org/wiki/Welsh_Office",
+        "matchedText": "Welsh Office",
+        "freebaseId": "/m/01v4nq",
+        "relevanceScore": 0.30783,
+        "entityEnglishId": "Welsh Office",
+        "startingPos": 0,
+        "endingPos": 12
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Health Statistics",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Health Statistics",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 31
+      },
+      {
+        "id": 3,
+        "type": [
+          "EthnicGroup"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Welsh people",
+        "freebaseTypes": [
+          "/people/ethnicity",
+          "/fictional_universe/ethnicity_in_fiction"
+        ],
+        "confidenceScore": 2.15381,
+        "wikiLink": "http://en.wikipedia.org/wiki/Welsh_people",
+        "matchedText": "Welsh",
+        "freebaseId": "/m/06gbnc",
+        "relevanceScore": 0.418075,
+        "entityEnglishId": "Welsh people",
+        "startingPos": 55,
+        "endingPos": 60
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          11,
+          12,
+          13
+        ],
+        "entityId": "Welsh Health Survey",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Welsh Health Survey",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 55,
+        "endingPos": 74
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Cardiff",
+        "freebaseTypes": [
+          "/location/uk_principal_area",
+          "/olympics/olympic_torch_relay_location",
+          "/film/film_location",
+          "/periodicals/newspaper_circulation_area",
+          "/location/uk_statistical_location",
+          "/sports/sports_team_location",
+          "/fictional_universe/fictional_setting",
+          "/organization/organization_scope",
+          "/travel/travel_destination",
+          "/government/governmental_jurisdiction",
+          "/location/administrative_division",
+          "/location/dated_location",
+          "/tv/tv_location",
+          "/location/citytown",
+          "/location/statistical_region",
+          "/location/location"
+        ],
+        "confidenceScore": 2.89579,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiff",
+        "matchedText": "Cardiff",
+        "freebaseId": "/m/01s3v",
+        "relevanceScore": 0.285988,
+        "entityEnglishId": "Cardiff",
+        "startingPos": 81,
+        "endingPos": 88
+      },
+      {
+        "id": 6,
+        "type": [
+          "EthnicGroup"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Welsh people",
+        "freebaseTypes": [
+          "/people/ethnicity",
+          "/fictional_universe/ethnicity_in_fiction"
+        ],
+        "confidenceScore": 2.34591,
+        "wikiLink": "http://en.wikipedia.org/wiki/Welsh_people",
+        "matchedText": "Welsh",
+        "freebaseId": "/m/06gbnc",
+        "relevanceScore": 0.418075,
+        "entityEnglishId": "Welsh people",
+        "startingPos": 90,
+        "endingPos": 95
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Welsh Office",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 5.6322,
+        "wikiLink": "http://en.wikipedia.org/wiki/Welsh_Office",
+        "matchedText": "Welsh Office",
+        "freebaseId": "/m/01v4nq",
+        "relevanceScore": 0.30783,
+        "entityEnglishId": "Welsh Office",
+        "startingPos": 90,
+        "endingPos": 102
+      }
+    ]
+  },
+  "time": 0.315,
+  "ok": true
+}

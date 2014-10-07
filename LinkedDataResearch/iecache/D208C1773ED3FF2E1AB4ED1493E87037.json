@@ -1,0 +1,424 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.701575
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.31826
+      },
+      {
+        "id": 3,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.314072
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.278299
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.519811
+      },
+      {
+        "id": 2,
+        "label": "Efficacy",
+        "wikiLink": "http://en.wikipedia.org/Efficacy",
+        "score": 0.154036
+      },
+      {
+        "id": 3,
+        "label": "Glimepiride",
+        "wikiLink": "http://en.wikipedia.org/Glimepiride",
+        "score": 0.22599
+      },
+      {
+        "id": 4,
+        "label": "Japanese people",
+        "wikiLink": "http://en.wikipedia.org/Japanese_people",
+        "score": 0.143319
+      },
+      {
+        "id": 5,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.102614
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Watanabe M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Watanabe M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 23
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Nakashima Y",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Nakashima Y",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 25,
+        "endingPos": 36
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Efficacy",
+        "confidenceScore": 1.38643,
+        "wikiLink": "http://en.wikipedia.org/wiki/Efficacy",
+        "matchedText": "Efficacy",
+        "freebaseId": "/m/03mrl3",
+        "relevanceScore": 0.154036,
+        "entityEnglishId": "Efficacy",
+        "startingPos": 44,
+        "endingPos": 52
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Glimepiride",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.19677,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glimepiride",
+        "matchedText": "glimepiride",
+        "freebaseId": "/m/01lmkg",
+        "relevanceScore": 0.22599,
+        "entityEnglishId": "Glimepiride",
+        "startingPos": 56,
+        "endingPos": 67
+      },
+      {
+        "id": 4,
+        "type": [
+          "EthnicGroup"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Japanese people",
+        "freebaseTypes": [
+          "/film/film_subject",
+          "/people/ethnicity",
+          "/fictional_universe/ethnicity_in_fiction"
+        ],
+        "confidenceScore": 1.3932,
+        "wikiLink": "http://en.wikipedia.org/wiki/Japanese_people",
+        "matchedText": "Japanese",
+        "freebaseId": "/m/019kn7",
+        "relevanceScore": 0.143319,
+        "entityEnglishId": "Japanese people",
+        "startingPos": 71,
+        "endingPos": 79
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 0.970561,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.470066,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 80,
+        "endingPos": 86
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16,
+          17,
+          18
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.37623,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2 diabetic",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.0497455,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 80,
+        "endingPos": 95
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.951062,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.139149,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 87,
+        "endingPos": 95
+      },
+      {
+        "id": 8,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Inukai K",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Inukai K",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 3,
+        "endingPos": 11
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.69732,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.139149,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 106,
+        "endingPos": 114
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "Medicine",
+        "freebaseTypes": [
+          "/radio/radio_subject",
+          "/education/field_of_study",
+          "/broadcast/genre",
+          "/book/periodical_subject",
+          "/media_common/literary_genre",
+          "/film/film_subject",
+          "/media_common/quotation_subject",
+          "/organization/organization_sector",
+          "/book/book_subject",
+          "/book/magazine_genre",
+          "/award/award_discipline",
+          "/media_common/media_genre"
+        ],
+        "confidenceScore": 1.0081,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medicine",
+        "matchedText": "Clinical Practice",
+        "freebaseId": "/m/04sh3",
+        "relevanceScore": 0.0802008,
+        "entityEnglishId": "Medicine",
+        "startingPos": 126,
+        "endingPos": 143
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          16,
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "time": 0.322,
+  "ok": true
+}

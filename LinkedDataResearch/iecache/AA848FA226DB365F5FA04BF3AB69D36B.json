@@ -1,0 +1,302 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.502691
+      },
+      {
+        "id": 2,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.502691
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.49843
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.251018
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.251018
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Academic publishing",
+        "wikiLink": "http://en.wikipedia.org/Category:Academic_publishing",
+        "score": 0.0379472
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Ritchie CD",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ritchie CD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 3,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Bevan EA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bevan EA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 23
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Collier SJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Collier SJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 25,
+        "endingPos": 35
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Occult",
+        "freebaseTypes": [
+          "/broadcast/genre",
+          "/religion/religion",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.49393,
+        "wikiLink": "http://en.wikipedia.org/wiki/Occult",
+        "matchedText": "occult",
+        "freebaseId": "/m/05mp1",
+        "relevanceScore": 0,
+        "entityEnglishId": "Occult",
+        "startingPos": 51,
+        "endingPos": 57
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Hematuria",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.04377,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hematuria",
+        "matchedText": "haematuria",
+        "freebaseId": "/m/02sc7d",
+        "relevanceScore": 0.0480047,
+        "entityEnglishId": "Hematuria",
+        "startingPos": 58,
+        "endingPos": 68
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.76668,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "British",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.0318291,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 89,
+        "endingPos": 96
+      },
+      {
+        "id": 6,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          18,
+          19,
+          20
+        ],
+        "entityId": "BMJ",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 2.52385,
+        "wikiLink": "http://en.wikipedia.org/wiki/BMJ",
+        "matchedText": "British Medical Journal",
+        "freebaseId": "/m/02n85y",
+        "relevanceScore": 0,
+        "entityEnglishId": "BMJ",
+        "startingPos": 89,
+        "endingPos": 112
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Public health journal",
+        "confidenceScore": 2.65457,
+        "wikiLink": "http://en.wikipedia.org/wiki/Public_health_journal",
+        "matchedText": "Medical Journal",
+        "freebaseId": "/m/02n8hz",
+        "relevanceScore": 0.0377309,
+        "entityEnglishId": "Public health journal",
+        "startingPos": 97,
+        "endingPos": 112
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "time": 0.32,
+  "ok": true
+}

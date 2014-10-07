@@ -1,0 +1,325 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Aldose reductase",
+        "wikiLink": "http://en.wikipedia.org/Aldose_reductase",
+        "score": 0.332936
+      },
+      {
+        "id": 1,
+        "label": "Aldose reductase inhibitor",
+        "wikiLink": "http://en.wikipedia.org/Aldose_reductase_inhibitor",
+        "score": 0.292512
+      },
+      {
+        "id": 2,
+        "label": "Diabetic neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_neuropathy",
+        "score": 0.616853
+      },
+      {
+        "id": 3,
+        "label": "Dysautonomia",
+        "wikiLink": "http://en.wikipedia.org/Dysautonomia",
+        "score": 0.108232
+      },
+      {
+        "id": 4,
+        "label": "Neurology",
+        "wikiLink": "http://en.wikipedia.org/Neurology",
+        "score": 0.182675
+      },
+      {
+        "id": 5,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders_by_system",
+        "score": 0.182145
+      },
+      {
+        "id": 6,
+        "label": "Peripheral nervous system",
+        "wikiLink": "http://en.wikipedia.org/Category:Peripheral_nervous_system",
+        "score": 0.182145
+      },
+      {
+        "id": 7,
+        "label": "Peripheral nervous system disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Peripheral_nervous_system_disorders",
+        "score": 0.182145
+      },
+      {
+        "id": 8,
+        "label": "Neuroanatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Neuroanatomy",
+        "score": 0.182145
+      },
+      {
+        "id": 9,
+        "label": "Neurological disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Neurological_disorders",
+        "score": 0.182145
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Yff GA",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Yff GA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 9,
+        "endingPos": 15
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Dysautonomia",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.61864,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dysautonomia",
+        "matchedText": "autonomic neuropathy",
+        "freebaseId": "/m/02510j",
+        "relevanceScore": 0.108232,
+        "entityEnglishId": "Dysautonomia",
+        "startingPos": 58,
+        "endingPos": 78
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 2.66927,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.616853,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 68,
+        "endingPos": 78
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Aldose",
+        "freebaseTypes": [
+          "/chemistry/chemical_classification"
+        ],
+        "confidenceScore": 4.17946,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aldose",
+        "matchedText": "aldose",
+        "freebaseId": "/m/01f92v",
+        "relevanceScore": 0,
+        "entityEnglishId": "Aldose",
+        "startingPos": 87,
+        "endingPos": 93
+      },
+      {
+        "id": 4,
+        "type": [
+          "Biomolecule",
+          "Enzyme"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Aldose reductase",
+        "confidenceScore": 4.09903,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aldose_reductase",
+        "matchedText": "aldose reductase",
+        "freebaseId": "/m/026ps6s",
+        "relevanceScore": 0.332936,
+        "entityEnglishId": "Aldose reductase",
+        "startingPos": 87,
+        "endingPos": 103
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          18,
+          19,
+          20
+        ],
+        "entityId": "Aldose reductase inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug"
+        ],
+        "confidenceScore": 3.77822,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aldose_reductase_inhibitor",
+        "matchedText": "aldose reductase inhibitor",
+        "freebaseId": "/m/0flh1",
+        "relevanceScore": 0.292512,
+        "entityEnglishId": "Aldose reductase inhibitor",
+        "startingPos": 87,
+        "endingPos": 113
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          22,
+          23,
+          24
+        ],
+        "entityId": "Journal of Neurology",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Journal of Neurology",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 115,
+        "endingPos": 135
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Neurology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/medicine/physician",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.40089,
+        "wikiLink": "http://en.wikipedia.org/wiki/Neurology",
+        "matchedText": "Neurology",
+        "freebaseId": "/m/05b1j",
+        "relevanceScore": 0.182675,
+        "entityEnglishId": "Neurology",
+        "startingPos": 126,
+        "endingPos": 135
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          11,
+          12,
+          16
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          11,
+          12,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.322,
+  "ok": true
+}

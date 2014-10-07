@@ -1,0 +1,404 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.270622
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.232677
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.232677
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.232677
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chronic kidney disease",
+        "wikiLink": "http://en.wikipedia.org/Chronic_kidney_disease",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Proteinuria",
+        "wikiLink": "http://en.wikipedia.org/Proteinuria",
+        "score": 0.38025
+      },
+      {
+        "id": 3,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.960518
+      },
+      {
+        "id": 4,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.833774
+      },
+      {
+        "id": 5,
+        "label": "Urological conditions",
+        "wikiLink": "http://en.wikipedia.org/Category:Urological_conditions",
+        "score": 0.491112
+      },
+      {
+        "id": 6,
+        "label": "Kidney diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney_diseases",
+        "score": 0.491112
+      },
+      {
+        "id": 7,
+        "label": "Genitourinary system diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Genitourinary_system_diseases",
+        "score": 0.438424
+      },
+      {
+        "id": 8,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.339453
+      },
+      {
+        "id": 9,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders",
+        "score": 0.258258
+      },
+      {
+        "id": 10,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.201432
+      },
+      {
+        "id": 11,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.193452
+      },
+      {
+        "id": 12,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.188153
+      },
+      {
+        "id": 13,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.155307
+      },
+      {
+        "id": 14,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0946979
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Ikemiya Y",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ikemiya Y",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 22
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Proteinuria",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 12.958,
+        "wikiLink": "http://en.wikipedia.org/wiki/Proteinuria",
+        "matchedText": "Proteinuria",
+        "freebaseId": "/m/012zf3",
+        "relevanceScore": 0.38025,
+        "entityEnglishId": "Proteinuria",
+        "startingPos": 39,
+        "endingPos": 50
+      },
+      {
+        "id": 2,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.30501,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.594463,
+        "entityEnglishId": "Kidney",
+        "startingPos": 88,
+        "endingPos": 93
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18,
+          19
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 7.05243,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "end-stage renal disease",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.498747,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 78,
+        "endingPos": 101
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.75412,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "renal disease",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.684476,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 88,
+        "endingPos": 101
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.50602,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.0464397,
+        "entityEnglishId": "Disease",
+        "startingPos": 94,
+        "endingPos": 101
+      },
+      {
+        "id": 6,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Iseki C",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Iseki C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 24,
+        "endingPos": 31
+      },
+      {
+        "id": 7,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Iseki K",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Iseki K",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 11
+      },
+      {
+        "id": 8,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.65055,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.609583,
+        "entityEnglishId": "Kidney",
+        "startingPos": 103,
+        "endingPos": 109
+      },
+      {
+        "id": 9,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          21,
+          22
+        ],
+        "entityId": "Kidney International",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kidney International",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 103,
+        "endingPos": 123
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          17,
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "time": 0.323,
+  "ok": true
+}

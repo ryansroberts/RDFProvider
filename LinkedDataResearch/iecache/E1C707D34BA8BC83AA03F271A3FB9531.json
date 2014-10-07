@@ -1,0 +1,323 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.774923
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.544316
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.455684
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.261657
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.230607
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Department of Health (United Kingdom)",
+        "wikiLink": "http://en.wikipedia.org/Department_of_Health_(United_Kingdom)",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "London",
+        "wikiLink": "http://en.wikipedia.org/London",
+        "score": 0.143011
+      },
+      {
+        "id": 2,
+        "label": "National Health Service",
+        "wikiLink": "http://en.wikipedia.org/National_Health_Service",
+        "score": 0.350274
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_by_country",
+        "score": 0.172803
+      },
+      {
+        "id": 4,
+        "label": "Health policy",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_policy",
+        "score": 0.172803
+      },
+      {
+        "id": 5,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.172803
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Agent",
+          "Organisation",
+          "GovernmentAgency"
+        ],
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "Department of Health (United Kingdom)",
+        "freebaseTypes": [
+          "/government/government_agency",
+          "/organization/organization"
+        ],
+        "confidenceScore": 3.31208,
+        "wikiLink": "http://en.wikipedia.org/wiki/Department_of_Health_(United_Kingdom)",
+        "matchedText": "Department of Health",
+        "freebaseId": "/m/020rx0",
+        "relevanceScore": 0.592688,
+        "entityEnglishId": "Department of Health (United Kingdom)",
+        "startingPos": 4,
+        "endingPos": 24
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "National Health Service",
+        "confidenceScore": 2.42114,
+        "wikiLink": "http://en.wikipedia.org/wiki/National_Health_Service",
+        "matchedText": "NHS",
+        "freebaseId": "/m/047gmkt",
+        "relevanceScore": 0.350274,
+        "entityEnglishId": "National Health Service",
+        "startingPos": 68,
+        "endingPos": 71
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "London",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/film/film_location",
+          "/location/country",
+          "/olympics/olympic_bidding_city",
+          "/location/location",
+          "/olympics/olympic_host_city",
+          "/media_common/quotation_subject",
+          "/sports/sports_team_location",
+          "/government/governmental_jurisdiction",
+          "/location/dated_location",
+          "/periodicals/newspaper_circulation_area",
+          "/rail/railway_terminus",
+          "/organization/organization_scope",
+          "/location/statistical_region",
+          "/exhibitions/exhibition_subject",
+          "/fictional_universe/fictional_setting",
+          "/symbols/name_source",
+          "/location/citytown",
+          "/location/place_with_neighborhoods",
+          "/tv/tv_location",
+          "/location/administrative_division",
+          "/travel/travel_destination",
+          "/visual_art/art_subject",
+          "/olympics/olympic_venue"
+        ],
+        "confidenceScore": 2.26539,
+        "wikiLink": "http://en.wikipedia.org/wiki/London",
+        "matchedText": "London",
+        "freebaseId": "/m/04jpl",
+        "relevanceScore": 0.143011,
+        "entityEnglishId": "London",
+        "startingPos": 90,
+        "endingPos": 96
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.70466,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.0731075,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 98,
+        "endingPos": 100
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Department",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Department",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 102,
+        "endingPos": 112
+      },
+      {
+        "id": 5,
+        "type": [
+          "Agent",
+          "Organisation",
+          "GovernmentAgency"
+        ],
+        "matchingTokens": [
+          18,
+          19,
+          20
+        ],
+        "entityId": "Department of Health (United Kingdom)",
+        "freebaseTypes": [
+          "/government/government_agency",
+          "/organization/organization"
+        ],
+        "confidenceScore": 3.31208,
+        "wikiLink": "http://en.wikipedia.org/wiki/Department_of_Health_(United_Kingdom)",
+        "matchedText": "Department of Health",
+        "freebaseId": "/m/020rx0",
+        "relevanceScore": 0.592688,
+        "entityEnglishId": "Department of Health (United Kingdom)",
+        "startingPos": 102,
+        "endingPos": 122
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Health",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Health",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 116,
+        "endingPos": 122
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          22
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6,
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      }
+    ]
+  },
+  "time": 0.314,
+  "ok": true
+}

@@ -1,0 +1,365 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.311979
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.311979
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.311979
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.311979
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Albuminuria",
+        "wikiLink": "http://en.wikipedia.org/Albuminuria",
+        "score": 0.110632
+      },
+      {
+        "id": 1,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.639152
+      },
+      {
+        "id": 2,
+        "label": "Renal failure",
+        "wikiLink": "http://en.wikipedia.org/Renal_failure",
+        "score": 0.368136
+      },
+      {
+        "id": 3,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.127486
+      },
+      {
+        "id": 4,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.127486
+      },
+      {
+        "id": 5,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.127486
+      },
+      {
+        "id": 6,
+        "label": "Public health",
+        "wikiLink": "http://en.wikipedia.org/Category:Public_health",
+        "score": 0.0435635
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Garg AX",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Garg AX",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Bryce AK",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bryce AK",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "William FC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "William FC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 23,
+        "endingPos": 33
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.29911,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "Albuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.110632,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 41,
+        "endingPos": 52
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.56598,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.314014,
+        "entityEnglishId": "Kidney",
+        "startingPos": 57,
+        "endingPos": 62
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Renal failure",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 4.74865,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_failure",
+        "matchedText": "renal insufficiency",
+        "freebaseId": "/m/01psyx",
+        "relevanceScore": 0.368136,
+        "entityEnglishId": "Renal failure",
+        "startingPos": 57,
+        "endingPos": 76
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Prevalence",
+        "confidenceScore": 1.33087,
+        "wikiLink": "http://en.wikipedia.org/wiki/Prevalence",
+        "matchedText": "prevalence",
+        "freebaseId": "/m/0y25r",
+        "relevanceScore": 0,
+        "entityEnglishId": "Prevalence",
+        "startingPos": 77,
+        "endingPos": 87
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "National Health and Nutrition Examination Survey",
+        "confidenceScore": 1.98558,
+        "wikiLink": "http://en.wikipedia.org/wiki/National_Health_and_Nutrition_Examination_Survey",
+        "matchedText": "NHANES",
+        "freebaseId": "/m/0410_gg",
+        "relevanceScore": 0.064007,
+        "entityEnglishId": "National Health and Nutrition Examination Survey",
+        "startingPos": 134,
+        "endingPos": 140
+      },
+      {
+        "id": 8,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.42255,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.325138,
+        "entityEnglishId": "Kidney",
+        "startingPos": 146,
+        "endingPos": 152
+      },
+      {
+        "id": 9,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Kidney International",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kidney International",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 146,
+        "endingPos": 166
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24,
+          25,
+          26
+        ]
+      }
+    ]
+  },
+  "time": 0.324,
+  "ok": true
+}

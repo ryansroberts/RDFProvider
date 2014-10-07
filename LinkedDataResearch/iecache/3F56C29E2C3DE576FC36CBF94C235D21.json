@@ -1,0 +1,412 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.952381
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Albuminuria",
+        "wikiLink": "http://en.wikipedia.org/Albuminuria",
+        "score": 0.241112
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.329475
+      },
+      {
+        "id": 2,
+        "label": "Abnormal clinical and laboratory findings",
+        "wikiLink": "http://en.wikipedia.org/Category:Abnormal_clinical_and_laboratory_findings",
+        "score": 0.0333333
+      },
+      {
+        "id": 3,
+        "label": "Urine",
+        "wikiLink": "http://en.wikipedia.org/Category:Urine",
+        "score": 0.0333333
+      },
+      {
+        "id": 4,
+        "label": "Abnormal clinical and laboratory findings for urine",
+        "wikiLink": "http://en.wikipedia.org/Category:Abnormal_clinical_and_laboratory_findings_for_urine",
+        "score": 0.0333333
+      },
+      {
+        "id": 5,
+        "label": "Urine tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Urine_tests",
+        "score": 0.0333333
+      },
+      {
+        "id": 6,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Marre M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Marre M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 20
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Rodier M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Rodier M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 22,
+        "endingPos": 30
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Passa",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 1.29038,
+        "wikiLink": "http://en.wikipedia.org/wiki/Passa",
+        "matchedText": "Passa",
+        "freebaseId": "/m/03qlrt5",
+        "relevanceScore": 0,
+        "entityEnglishId": "Passa",
+        "startingPos": 32,
+        "endingPos": 37
+      },
+      {
+        "id": 3,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "entityId": "Passa P. Interest of Clinitek Microalbumin",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Passa P. Interest of Clinitek Microalbumin",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 32,
+        "endingPos": 74
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Microalbuminuria",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.12293,
+        "wikiLink": "http://en.wikipedia.org/wiki/Microalbuminuria",
+        "matchedText": "Microalbumin",
+        "freebaseId": "/m/07y7r4",
+        "relevanceScore": 0.075198,
+        "entityEnglishId": "Microalbuminuria",
+        "startingPos": 62,
+        "endingPos": 74
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.18991,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "albuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.241112,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 99,
+        "endingPos": 110
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.62383,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.164737,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 150,
+        "endingPos": 158
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Floch",
+        "confidenceScore": 1.16869,
+        "wikiLink": "http://en.wikipedia.org/wiki/Floch",
+        "matchedText": "Le Floch",
+        "freebaseId": "",
+        "relevanceScore": 0,
+        "entityEnglishId": "Floch",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.15423,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.164737,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 169,
+        "endingPos": 177
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Metabolism",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.03284,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metabolism",
+        "matchedText": "Metabolism",
+        "freebaseId": "/m/053p5",
+        "relevanceScore": 0,
+        "entityEnglishId": "Metabolism",
+        "startingPos": 182,
+        "endingPos": 192
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          16
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          16
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          16
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          25,
+          27,
+          28
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          31
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          25,
+          27,
+          28
+        ],
+        "propertyPositions": [
+          29,
+          30,
+          31
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ]
+      }
+    ]
+  },
+  "time": 0.315,
+  "ok": true
+}

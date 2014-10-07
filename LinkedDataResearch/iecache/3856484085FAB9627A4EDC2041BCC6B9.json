@@ -1,0 +1,539 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.667465
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.665937
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.642651
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.322089
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.320562
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Academy of Nutrition and Dietetics",
+        "wikiLink": "http://en.wikipedia.org/Academy_of_Nutrition_and_Dietetics",
+        "score": 0.361014
+      },
+      {
+        "id": 1,
+        "label": "Diabetes control and complications trial",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_control_and_complications_trial",
+        "score": 0.616302
+      },
+      {
+        "id": 2,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.171162
+      },
+      {
+        "id": 3,
+        "label": "Dietitian",
+        "wikiLink": "http://en.wikipedia.org/Dietitian",
+        "score": 0.843587
+      },
+      {
+        "id": 4,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.334864
+      },
+      {
+        "id": 5,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0639953
+      },
+      {
+        "id": 6,
+        "label": "Social programs",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_programs",
+        "score": 0.0639953
+      },
+      {
+        "id": 7,
+        "label": "Service industries",
+        "wikiLink": "http://en.wikipedia.org/Category:Service_industries",
+        "score": 0.0639953
+      },
+      {
+        "id": 8,
+        "label": "Nutrition",
+        "wikiLink": "http://en.wikipedia.org/Category:Nutrition",
+        "score": 0.0627045
+      },
+      {
+        "id": 9,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0430278
+      },
+      {
+        "id": 10,
+        "label": "Biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Biology",
+        "score": 0.0430278
+      },
+      {
+        "id": 11,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.0430278
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Delahanty L",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Delahanty L",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Simkins SW",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Simkins SW",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 23
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Dietitian",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/people/profession"
+        ],
+        "confidenceScore": 7.2462,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dietitian",
+        "matchedText": "dietitian",
+        "freebaseId": "/m/028r4l",
+        "relevanceScore": 0.599456,
+        "entityEnglishId": "Dietitian",
+        "startingPos": 57,
+        "endingPos": 66
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.28553,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.171162,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 74,
+        "endingPos": 82
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "entityId": "Diabetes control and complications trial",
+        "confidenceScore": 3.61057,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_control_and_complications_trial",
+        "matchedText": "Diabetes Control and Complications Trial",
+        "freebaseId": "/m/0f_m9x",
+        "relevanceScore": 0.616302,
+        "entityEnglishId": "Diabetes control and complications trial",
+        "startingPos": 74,
+        "endingPos": 114
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          23,
+          24
+        ],
+        "entityId": "Medicine",
+        "freebaseTypes": [
+          "/radio/radio_subject",
+          "/education/field_of_study",
+          "/broadcast/genre",
+          "/book/periodical_subject",
+          "/media_common/literary_genre",
+          "/film/film_subject",
+          "/media_common/quotation_subject",
+          "/organization/organization_sector",
+          "/book/book_subject",
+          "/book/magazine_genre",
+          "/award/award_discipline",
+          "/media_common/media_genre"
+        ],
+        "confidenceScore": 0.935363,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medicine",
+        "matchedText": "clinical practice",
+        "freebaseId": "/m/04sh3",
+        "relevanceScore": 0.0660978,
+        "entityEnglishId": "Medicine",
+        "startingPos": 133,
+        "endingPos": 150
+      },
+      {
+        "id": 6,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7,
+          8
+        ],
+        "entityId": "Camelon K. Expanded",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Camelon K. Expanded",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 25,
+        "endingPos": 44
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          27,
+          28,
+          29
+        ],
+        "entityId": "DCCT Research Group",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "DCCT Research Group",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 156,
+        "endingPos": 175
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Dietitian",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/people/profession"
+        ],
+        "confidenceScore": 1.26296,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dietitian",
+        "matchedText": "Dietetic",
+        "freebaseId": "/m/028r4l",
+        "relevanceScore": 0.244131,
+        "entityEnglishId": "Dietitian",
+        "startingPos": 201,
+        "endingPos": 209
+      },
+      {
+        "id": 9,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "entityId": "Academy of Nutrition and Dietetics",
+        "freebaseTypes": [
+          "/book/author",
+          "/organization/organization"
+        ],
+        "confidenceScore": 1.28418,
+        "wikiLink": "http://en.wikipedia.org/wiki/Academy_of_Nutrition_and_Dietetics",
+        "matchedText": "Journal of the American Dietetic Association",
+        "freebaseId": "/m/08qnlp",
+        "relevanceScore": 0.159456,
+        "entityEnglishId": "Academy of Nutrition and Dietetics",
+        "startingPos": 177,
+        "endingPos": 221
+      },
+      {
+        "id": 10,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          34,
+          35,
+          36
+        ],
+        "entityId": "Academy of Nutrition and Dietetics",
+        "freebaseTypes": [
+          "/book/author",
+          "/organization/organization"
+        ],
+        "confidenceScore": 4.12849,
+        "wikiLink": "http://en.wikipedia.org/wiki/Academy_of_Nutrition_and_Dietetics",
+        "matchedText": "American Dietetic Association",
+        "freebaseId": "/m/08qnlp",
+        "relevanceScore": 0.201557,
+        "entityEnglishId": "Academy of Nutrition and Dietetics",
+        "startingPos": 192,
+        "endingPos": 221
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              3,
+              4,
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              21,
+              22,
+              23,
+              24
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          9,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              3,
+              4,
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              21,
+              22,
+              23,
+              24
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          31,
+          32
+        ],
+        "propertyPositions": [
+          33,
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          24
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          23,
+          24
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

@@ -1,0 +1,199 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.531127
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.512432
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.512432
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Chemistry",
+        "score": 0.126632
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Little RR",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Little RR",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Wiedmeyer HM",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wiedmeyer HM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 29,
+        "endingPos": 41
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "entityId": "National Glycohaemoglobin Standardization Program",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "National Glycohaemoglobin Standardization Program",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 53,
+        "endingPos": 102
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Clinical chemistry",
+        "freebaseTypes": [
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 2.73535,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_chemistry",
+        "matchedText": "Clinical Chemistry",
+        "freebaseId": "/m/0hdq2",
+        "relevanceScore": 0,
+        "entityEnglishId": "Clinical chemistry",
+        "startingPos": 140,
+        "endingPos": 158
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Chemistry",
+        "freebaseTypes": [
+          "/book/periodical_subject",
+          "/education/field_of_study",
+          "/media_common/literary_genre",
+          "/organization/organization_sector",
+          "/people/professional_field",
+          "/award/award_discipline",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.10362,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chemistry",
+        "matchedText": "Chemistry",
+        "freebaseId": "/m/01lj9",
+        "relevanceScore": 0.126632,
+        "entityEnglishId": "Chemistry",
+        "startingPos": 149,
+        "endingPos": 158
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          20,
+          22,
+          23
+        ],
+        "propertyPositions": [
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

@@ -1,0 +1,236 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.166506
+      },
+      {
+        "id": 1,
+        "label": "Diabetic foot",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot",
+        "score": 0.178881
+      },
+      {
+        "id": 2,
+        "label": "Diabetic foot ulcer",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot_ulcer",
+        "score": 0.54172
+      },
+      {
+        "id": 3,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.247884
+      },
+      {
+        "id": 4,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.247884
+      },
+      {
+        "id": 5,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.216162
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Baker N",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Baker N",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 7
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Allevyn",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Allevyn",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 23,
+        "endingPos": 30
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.02743,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.166506,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 62,
+        "endingPos": 70
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.56275,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0.178881,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 62,
+        "endingPos": 75
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Diabetic foot ulcer",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.4803,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot_ulcer",
+        "matchedText": "foot ulcers",
+        "freebaseId": "/m/064p1q4",
+        "relevanceScore": 0.54172,
+        "entityEnglishId": "Diabetic foot ulcer",
+        "startingPos": 71,
+        "endingPos": 82
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Peptic ulcer",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/symptom",
+          "/medicine/risk_factor",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.09773,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peptic_ulcer",
+        "matchedText": "ulcers",
+        "freebaseId": "/m/0h3h4",
+        "relevanceScore": 0.0964369,
+        "entityEnglishId": "Peptic ulcer",
+        "startingPos": 76,
+        "endingPos": 82
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "time": 0.311,
+  "ok": true
+}

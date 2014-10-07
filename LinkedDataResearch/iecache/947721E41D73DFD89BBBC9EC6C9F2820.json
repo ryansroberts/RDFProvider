@@ -1,0 +1,370 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.259856
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.236735
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.236735
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.236735
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.226137
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetic neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_neuropathy",
+        "score": 0.613467
+      },
+      {
+        "id": 1,
+        "label": "Placebo-controlled study",
+        "wikiLink": "http://en.wikipedia.org/Placebo-controlled_study",
+        "score": 0.140724
+      },
+      {
+        "id": 2,
+        "label": "Neurology",
+        "wikiLink": "http://en.wikipedia.org/Category:Neurology",
+        "score": 0.10613
+      },
+      {
+        "id": 3,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.045831
+      },
+      {
+        "id": 4,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.045831
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Grosskopf J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Grosskopf J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 15
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Wan Y",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wan Y",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 28,
+        "endingPos": 33
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Placebo-controlled study",
+        "confidenceScore": 1.0276,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo-controlled_study",
+        "matchedText": "placebo-controlled",
+        "freebaseId": "/m/05b5m22",
+        "relevanceScore": 0.0703621,
+        "entityEnglishId": "Placebo-controlled study",
+        "startingPos": 55,
+        "endingPos": 73
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Placebo-controlled study",
+        "confidenceScore": 2.01424,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo-controlled_study",
+        "matchedText": "placebo-controlled study",
+        "freebaseId": "/m/05b5m22",
+        "relevanceScore": 0.0703621,
+        "entityEnglishId": "Placebo-controlled study",
+        "startingPos": 55,
+        "endingPos": 79
+      },
+      {
+        "id": 4,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Oxcarbazepine",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.86661,
+        "wikiLink": "http://en.wikipedia.org/wiki/Oxcarbazepine",
+        "matchedText": "oxcarbazepine",
+        "freebaseId": "/m/025gxv",
+        "relevanceScore": 0.0645406,
+        "entityEnglishId": "Oxcarbazepine",
+        "startingPos": 83,
+        "endingPos": 96
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 5.50234,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "diabetic neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.186984,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 108,
+        "endingPos": 127
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 1.64148,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.426484,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 117,
+        "endingPos": 127
+      },
+      {
+        "id": 7,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Mazzola J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Mazzola J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 17,
+        "endingPos": 26
+      },
+      {
+        "id": 8,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          23,
+          24,
+          25
+        ],
+        "entityId": "Acta Neurologica Scandinavica",
+        "confidenceScore": 1.87064,
+        "wikiLink": "http://en.wikipedia.org/wiki/Acta_Neurologica_Scandinavica",
+        "matchedText": "Acta Neurologica Scandinavica",
+        "freebaseId": "/m/09gn1cz",
+        "relevanceScore": 0,
+        "entityEnglishId": "Acta Neurologica Scandinavica",
+        "startingPos": 129,
+        "endingPos": 158
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          15,
+          16,
+          18
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11,
+          15,
+          16,
+          18
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          11,
+          15,
+          16,
+          18
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          11,
+          15,
+          16,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

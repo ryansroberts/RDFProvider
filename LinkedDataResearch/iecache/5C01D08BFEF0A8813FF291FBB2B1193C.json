@@ -1,0 +1,386 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.636588
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.620156
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.617521
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.340673
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.336555
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.150697
+      },
+      {
+        "id": 1,
+        "label": "Nutrition",
+        "wikiLink": "http://en.wikipedia.org/Nutrition",
+        "score": 0.104678
+      },
+      {
+        "id": 2,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.134939
+      },
+      {
+        "id": 3,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.112727
+      },
+      {
+        "id": 4,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.105252
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.103714
+      },
+      {
+        "id": 6,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.102671
+      },
+      {
+        "id": 7,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0852903
+      },
+      {
+        "id": 8,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.084058
+      },
+      {
+        "id": 9,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.084058
+      },
+      {
+        "id": 10,
+        "label": "Organ failure",
+        "wikiLink": "http://en.wikipedia.org/Category:Organ_failure",
+        "score": 0.0432425
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Zarazaga A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Zarazaga A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Lopez-Martinez",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lopez-Martinez",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 12,
+        "endingPos": 26
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          5,
+          6
+        ],
+        "entityId": "Lorenzo V",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lorenzo V",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 28,
+        "endingPos": 37
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.12923,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.150697,
+        "entityEnglishId": "Kidney",
+        "startingPos": 77,
+        "endingPos": 82
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13,
+          14,
+          15
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 3.65676,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "chronic renal failure",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 69,
+        "endingPos": 90
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Renal failure",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 4.27885,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_failure",
+        "matchedText": "renal failure",
+        "freebaseId": "/m/01psyx",
+        "relevanceScore": 0,
+        "entityEnglishId": "Renal failure",
+        "startingPos": 77,
+        "endingPos": 90
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Systematic review",
+        "confidenceScore": 3.12373,
+        "wikiLink": "http://en.wikipedia.org/wiki/Systematic_review",
+        "matchedText": "systematic review",
+        "freebaseId": "/m/08jd5_",
+        "relevanceScore": 0.075629,
+        "entityEnglishId": "Systematic review",
+        "startingPos": 92,
+        "endingPos": 109
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Clinical Nutrition",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Clinical Nutrition",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 111,
+        "endingPos": 129
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Nutrition",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/business/industry",
+          "/award/award_discipline",
+          "/book/book_subject",
+          "/atom/feed_category",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.61519,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nutrition",
+        "matchedText": "Nutrition",
+        "freebaseId": "/m/05djc",
+        "relevanceScore": 0.104678,
+        "entityEnglishId": "Nutrition",
+        "startingPos": 120,
+        "endingPos": 129
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          18
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

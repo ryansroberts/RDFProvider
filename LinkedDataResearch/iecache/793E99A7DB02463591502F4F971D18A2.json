@@ -1,0 +1,391 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.505494
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Glomerulus",
+        "wikiLink": "http://en.wikipedia.org/Glomerulus",
+        "score": 0.135827
+      },
+      {
+        "id": 1,
+        "label": "Hypertension",
+        "wikiLink": "http://en.wikipedia.org/Hypertension",
+        "score": 0.238639
+      },
+      {
+        "id": 2,
+        "label": "Hyperuricemia",
+        "wikiLink": "http://en.wikipedia.org/Hyperuricemia",
+        "score": 0.238593
+      },
+      {
+        "id": 3,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.33655
+      },
+      {
+        "id": 4,
+        "label": "Vasoconstriction",
+        "wikiLink": "http://en.wikipedia.org/Vasoconstriction",
+        "score": 0.114821
+      },
+      {
+        "id": 5,
+        "label": "Cardiovascular physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiovascular_physiology",
+        "score": 0.131818
+      },
+      {
+        "id": 6,
+        "label": "Cardiovascular system",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiovascular_system",
+        "score": 0.116105
+      },
+      {
+        "id": 7,
+        "label": "Metabolic disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Metabolic_disorders",
+        "score": 0.105255
+      },
+      {
+        "id": 8,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0818199
+      },
+      {
+        "id": 9,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.0817974
+      },
+      {
+        "id": 10,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.0817974
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Sanchez-Lozada LG",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Sanchez-Lozada LG",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 21
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Tapia E",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Tapia E",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 23,
+        "endingPos": 30
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Santamaria J",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Santamaria J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 32,
+        "endingPos": 44
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Hyperuricemia",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.49933,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hyperuricemia",
+        "matchedText": "hyperuricemia",
+        "freebaseId": "/m/02hl8g",
+        "relevanceScore": 0.238593,
+        "entityEnglishId": "Hyperuricemia",
+        "startingPos": 57,
+        "endingPos": 70
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Vasoconstriction",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 5.76195,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vasoconstriction",
+        "matchedText": "vasoconstriction",
+        "freebaseId": "/m/02wv6ss",
+        "relevanceScore": 0.114821,
+        "entityEnglishId": "Vasoconstriction",
+        "startingPos": 79,
+        "endingPos": 95
+      },
+      {
+        "id": 5,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Glomerulus",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.96792,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glomerulus",
+        "matchedText": "glomerular",
+        "freebaseId": "/m/02_dbc",
+        "relevanceScore": 0.135827,
+        "entityEnglishId": "Glomerulus",
+        "startingPos": 110,
+        "endingPos": 120
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Hypertension",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 5.48486,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypertension",
+        "matchedText": "hypertension",
+        "freebaseId": "/m/0k95h",
+        "relevanceScore": 0.238639,
+        "entityEnglishId": "Hypertension",
+        "startingPos": 121,
+        "endingPos": 133
+      },
+      {
+        "id": 7,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.16827,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.168275,
+        "entityEnglishId": "Kidney",
+        "startingPos": 156,
+        "endingPos": 162
+      },
+      {
+        "id": 8,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.67722,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.168275,
+        "entityEnglishId": "Kidney",
+        "startingPos": 169,
+        "endingPos": 175
+      },
+      {
+        "id": 9,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "Kidney International",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kidney International",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 169,
+        "endingPos": 189
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          13,
+          15
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              14,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          18
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

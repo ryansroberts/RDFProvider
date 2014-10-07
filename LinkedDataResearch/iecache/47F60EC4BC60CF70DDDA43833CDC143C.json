@@ -1,0 +1,271 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.364163
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.363412
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.350342
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.342226
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.342226
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "United Kingdom",
+        "wikiLink": "http://en.wikipedia.org/United_Kingdom",
+        "score": 0.149622
+      },
+      {
+        "id": 1,
+        "label": "Academic publishing",
+        "wikiLink": "http://en.wikipedia.org/Category:Academic_publishing",
+        "score": 0.058142
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Coulter A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Coulter A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Entwistle V",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Entwistle V",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 26
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8,
+          9
+        ],
+        "entityId": "Gilbert D. Sharing",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Gilbert D. Sharing",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 28,
+        "endingPos": 46
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.81001,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "British",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.149622,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 104,
+        "endingPos": 111
+      },
+      {
+        "id": 4,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          20,
+          21,
+          22
+        ],
+        "entityId": "BMJ",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 2.60216,
+        "wikiLink": "http://en.wikipedia.org/wiki/BMJ",
+        "matchedText": "British Medical Journal",
+        "freebaseId": "/m/02n85y",
+        "relevanceScore": 0.0397183,
+        "entityEnglishId": "BMJ",
+        "startingPos": 104,
+        "endingPos": 127
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          21,
+          22
+        ],
+        "entityId": "Public health journal",
+        "confidenceScore": 2.66288,
+        "wikiLink": "http://en.wikipedia.org/wiki/Public_health_journal",
+        "matchedText": "Medical Journal",
+        "freebaseId": "/m/02n8hz",
+        "relevanceScore": 0.043452,
+        "entityEnglishId": "Public health journal",
+        "startingPos": 112,
+        "endingPos": 127
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "time": 0.315,
+  "ok": true
+}

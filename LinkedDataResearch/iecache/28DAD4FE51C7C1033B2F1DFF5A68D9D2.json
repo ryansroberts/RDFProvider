@@ -1,0 +1,685 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.382321
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.344542
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.344542
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.197984
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.177364
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "American Society of Nephrology",
+        "wikiLink": "http://en.wikipedia.org/American_Society_of_Nephrology",
+        "score": 0.513075
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.238974
+      },
+      {
+        "id": 2,
+        "label": "Diabetes mellitus type 1",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_1",
+        "score": 0.531968
+      },
+      {
+        "id": 3,
+        "label": "Disease",
+        "wikiLink": "http://en.wikipedia.org/Disease",
+        "score": 0.147247
+      },
+      {
+        "id": 4,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.269169
+      },
+      {
+        "id": 5,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Nephrology",
+        "score": 0.633916
+      },
+      {
+        "id": 6,
+        "label": "Nephropathy",
+        "wikiLink": "http://en.wikipedia.org/Nephropathy",
+        "score": 0.10552
+      },
+      {
+        "id": 7,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 1
+      },
+      {
+        "id": 8,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.51694
+      },
+      {
+        "id": 9,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.502541
+      },
+      {
+        "id": 10,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.502541
+      },
+      {
+        "id": 11,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.502541
+      },
+      {
+        "id": 12,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.425129
+      },
+      {
+        "id": 13,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.140823
+      },
+      {
+        "id": 14,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.0522861
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Ibrahim H",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ibrahim H",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 3,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Mondress M",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Mondress M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Tello A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Tello A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 33
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Formula",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.06269,
+        "wikiLink": "http://en.wikipedia.org/wiki/Formula",
+        "matchedText": "formula",
+        "freebaseId": "/m/015tl8",
+        "relevanceScore": 0.0347376,
+        "entityEnglishId": "Formula",
+        "startingPos": 56,
+        "endingPos": 63
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.6641,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "Cockcroft-Gault",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 1,
+        "entityEnglishId": "Renal function",
+        "startingPos": 71,
+        "endingPos": 86
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Diet (nutrition)",
+        "freebaseTypes": [
+          "/business/industry",
+          "/internet/website_category",
+          "/medicine/condition_prevention_factors",
+          "/book/book_subject",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.17269,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diet_(nutrition)",
+        "matchedText": "diet",
+        "freebaseId": "/m/02zkwn",
+        "relevanceScore": 0.040195,
+        "entityEnglishId": "Diet (nutrition)",
+        "startingPos": 111,
+        "endingPos": 115
+      },
+      {
+        "id": 6,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.1636,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.269169,
+        "entityEnglishId": "Kidney",
+        "startingPos": 119,
+        "endingPos": 124
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23,
+          24
+        ],
+        "entityId": "Nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.06463,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephropathy",
+        "matchedText": "renal diseases",
+        "freebaseId": "/m/02z63k",
+        "relevanceScore": 0.10552,
+        "entityEnglishId": "Nephropathy",
+        "startingPos": 119,
+        "endingPos": 133
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.45368,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "diseases",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.147247,
+        "entityEnglishId": "Disease",
+        "startingPos": 125,
+        "endingPos": 133
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.09225,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.676002,
+        "entityEnglishId": "Renal function",
+        "startingPos": 157,
+        "endingPos": 160
+      },
+      {
+        "id": 10,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          32,
+          33
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.39678,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "type 1",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.434359,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 181,
+        "endingPos": 187
+      },
+      {
+        "id": 11,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          32,
+          33,
+          34
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.73634,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "type 1 diabetes",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.0976087,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 181,
+        "endingPos": 196
+      },
+      {
+        "id": 12,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.88936,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.238974,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 188,
+        "endingPos": 196
+      },
+      {
+        "id": 13,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Non-ProfitOrganisation"
+        ],
+        "matchingTokens": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ],
+        "entityId": "American Society of Nephrology",
+        "freebaseTypes": [
+          "/organization/non_profit_organization",
+          "/organization/membership_organization",
+          "/organization/organization",
+          "/business/employer"
+        ],
+        "confidenceScore": 2.50864,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Society_of_Nephrology",
+        "matchedText": "Journal of the American Society of Nephrology",
+        "freebaseId": "/m/04n1tbm",
+        "relevanceScore": 0.22269,
+        "entityEnglishId": "American Society of Nephrology",
+        "startingPos": 198,
+        "endingPos": 243
+      },
+      {
+        "id": 14,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Non-ProfitOrganisation"
+        ],
+        "matchingTokens": [
+          39,
+          40,
+          41,
+          42
+        ],
+        "entityId": "American Society of Nephrology",
+        "freebaseTypes": [
+          "/organization/non_profit_organization",
+          "/organization/membership_organization",
+          "/organization/organization",
+          "/business/employer"
+        ],
+        "confidenceScore": 4.33165,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Society_of_Nephrology",
+        "matchedText": "American Society of Nephrology",
+        "freebaseId": "/m/04n1tbm",
+        "relevanceScore": 0.290385,
+        "entityEnglishId": "American Society of Nephrology",
+        "startingPos": 213,
+        "endingPos": 243
+      },
+      {
+        "id": 15,
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "Nephrology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 6.064,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephrology",
+        "matchedText": "Nephrology",
+        "freebaseId": "/m/05jd4",
+        "relevanceScore": 0.633916,
+        "entityEnglishId": "Nephrology",
+        "startingPos": 233,
+        "endingPos": 243
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          38,
+          39,
+          40,
+          41
+        ],
+        "propertyPositions": [
+          42
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          36,
+          37
+        ],
+        "propertyPositions": [
+          38,
+          39,
+          40,
+          41,
+          42
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          18,
+          19,
+          20,
+          22,
+          26
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          18,
+          19,
+          20,
+          22,
+          26
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          30,
+          31
+        ],
+        "propertyPositions": [
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  "time": 0.331,
+  "ok": true
+}

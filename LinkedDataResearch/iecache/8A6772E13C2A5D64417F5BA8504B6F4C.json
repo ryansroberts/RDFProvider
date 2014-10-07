@@ -1,0 +1,258 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.99787
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.992007
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.939176
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.936887
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.93326
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.91327
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Exenatide",
+        "wikiLink": "http://en.wikipedia.org/Exenatide",
+        "score": 0.146939
+      },
+      {
+        "id": 1,
+        "label": "Glasgow",
+        "wikiLink": "http://en.wikipedia.org/Glasgow",
+        "score": 0.191274
+      },
+      {
+        "id": 2,
+        "label": "Scotland",
+        "wikiLink": "http://en.wikipedia.org/Scotland",
+        "score": 0.164947
+      },
+      {
+        "id": 3,
+        "label": "Geography",
+        "wikiLink": "http://en.wikipedia.org/Category:Geography_by_continent",
+        "score": 0.0989538
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Scotland",
+        "freebaseTypes": [
+          "/film/film_subject",
+          "/film/film_location",
+          "/location/uk_statistical_location",
+          "/location/dated_location",
+          "/location/country",
+          "/location/uk_constituent_country",
+          "/biology/breed_origin",
+          "/periodicals/newspaper_circulation_area",
+          "/organization/organization_scope",
+          "/location/administrative_division",
+          "/law/court_jurisdiction_area",
+          "/travel/travel_destination",
+          "/government/governmental_jurisdiction",
+          "/olympics/olympic_participating_country",
+          "/organization/club_interest",
+          "/location/statistical_region",
+          "/royalty/system_of_nobility",
+          "/symbols/coat_of_arms_bearer",
+          "/symbols/flag_referent",
+          "/location/location",
+          "/sports/sport_country",
+          "/sports/sports_team_location",
+          "/book/book_subject",
+          "/fictional_universe/fictional_setting"
+        ],
+        "confidenceScore": 2.31306,
+        "wikiLink": "http://en.wikipedia.org/wiki/Scotland",
+        "matchedText": "Scottish",
+        "freebaseId": "/m/06q1r",
+        "relevanceScore": 0.164947,
+        "entityEnglishId": "Scotland",
+        "startingPos": 4,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "Healthcare Improvement Scotland",
+        "confidenceScore": 2.23825,
+        "wikiLink": "http://en.wikipedia.org/wiki/Healthcare_Improvement_Scotland",
+        "matchedText": "Scottish Medicines Consortium",
+        "freebaseId": "/m/0ggb0r2",
+        "relevanceScore": 0,
+        "entityEnglishId": "Healthcare Improvement Scotland",
+        "startingPos": 4,
+        "endingPos": 33
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Consortium",
+        "freebaseTypes": [
+          "/organization/organization_type"
+        ],
+        "confidenceScore": 1.15522,
+        "wikiLink": "http://en.wikipedia.org/wiki/Consortium",
+        "matchedText": "Consortium",
+        "freebaseId": "/m/01q2mb",
+        "relevanceScore": 0.095364,
+        "entityEnglishId": "Consortium",
+        "startingPos": 23,
+        "endingPos": 33
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Glasgow",
+        "freebaseTypes": [
+          "/fictional_universe/fictional_setting",
+          "/location/uk_council_area",
+          "/location/dated_location",
+          "/film/film_location",
+          "/organization/organization_scope",
+          "/location/location",
+          "/periodicals/newspaper_circulation_area",
+          "/location/statistical_region",
+          "/travel/travel_destination",
+          "/location/uk_statistical_location",
+          "/government/governmental_jurisdiction",
+          "/location/administrative_division",
+          "/location/citytown",
+          "/business/employer",
+          "/sports/sports_team_location",
+          "/award/award_winner"
+        ],
+        "confidenceScore": 2.79421,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glasgow",
+        "matchedText": "Glasgow",
+        "freebaseId": "/m/0hyxv",
+        "relevanceScore": 0.191274,
+        "entityEnglishId": "Glasgow",
+        "startingPos": 35,
+        "endingPos": 42
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "New",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "New",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 44,
+        "endingPos": 47
+      },
+      {
+        "id": 5,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Exenatide",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.21589,
+        "wikiLink": "http://en.wikipedia.org/wiki/Exenatide",
+        "matchedText": "exenatide",
+        "freebaseId": "/m/093_zf",
+        "relevanceScore": 0.146939,
+        "entityEnglishId": "Exenatide",
+        "startingPos": 73,
+        "endingPos": 82
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

@@ -1,0 +1,430 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.677559
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.542301
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.538955
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.509647
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Alendronic acid",
+        "wikiLink": "http://en.wikipedia.org/Alendronic_acid",
+        "score": 0.752538
+      },
+      {
+        "id": 1,
+        "label": "Bone",
+        "wikiLink": "http://en.wikipedia.org/Bone",
+        "score": 0.252109
+      },
+      {
+        "id": 2,
+        "label": "Bone fracture",
+        "wikiLink": "http://en.wikipedia.org/Bone_fracture",
+        "score": 0.441515
+      },
+      {
+        "id": 3,
+        "label": "Mineral",
+        "wikiLink": "http://en.wikipedia.org/Mineral",
+        "score": 0.144757
+      },
+      {
+        "id": 4,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.128193
+      },
+      {
+        "id": 5,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.15823
+      },
+      {
+        "id": 6,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.0921226
+      },
+      {
+        "id": 7,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.0807675
+      },
+      {
+        "id": 8,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.0807675
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Jamal SA",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Jamal SA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Bauer DC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bauer DC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 22
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Ensrud KE",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ensrud KE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 24,
+        "endingPos": 33
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Alendronic acid",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/business/consumer_product",
+          "/medicine/medical_treatment",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.01686,
+        "wikiLink": "http://en.wikipedia.org/wiki/Alendronic_acid",
+        "matchedText": "Alendronate",
+        "freebaseId": "/m/03x8l5",
+        "relevanceScore": 0.752538,
+        "entityEnglishId": "Alendronic acid",
+        "startingPos": 41,
+        "endingPos": 52
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.07776,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.0822858,
+        "entityEnglishId": "Kidney",
+        "startingPos": 105,
+        "endingPos": 110
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.18701,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "renal function",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.128193,
+        "entityEnglishId": "Renal function",
+        "startingPos": 105,
+        "endingPos": 119
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Bone fracture",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/medicine/symptom",
+          "/media_common/quotation_subject",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 1.32917,
+        "wikiLink": "http://en.wikipedia.org/wiki/Bone_fracture",
+        "matchedText": "fracture",
+        "freebaseId": "/m/03fz1q",
+        "relevanceScore": 0.441515,
+        "entityEnglishId": "Bone fracture",
+        "startingPos": 140,
+        "endingPos": 148
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Bone",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.12029,
+        "wikiLink": "http://en.wikipedia.org/wiki/Bone",
+        "matchedText": "Bone",
+        "freebaseId": "/m/01b92",
+        "relevanceScore": 0.252109,
+        "entityEnglishId": "Bone",
+        "startingPos": 180,
+        "endingPos": 184
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Mineral",
+        "freebaseTypes": [
+          "/interests/collection_category",
+          "/business/product_category",
+          "/geology/rock_type"
+        ],
+        "confidenceScore": 1.23837,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mineral",
+        "matchedText": "Mineral",
+        "freebaseId": "/m/04tc_",
+        "relevanceScore": 0.144757,
+        "entityEnglishId": "Mineral",
+        "startingPos": 187,
+        "endingPos": 194
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          31,
+          32
+        ],
+        "propertyPositions": [
+          33,
+          34,
+          35,
+          36
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          23,
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      }
+    ]
+  },
+  "time": 0.333,
+  "ok": true
+}

@@ -1,0 +1,359 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.401472
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.393802
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.393802
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.386596
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.386596
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Aldosterone",
+        "wikiLink": "http://en.wikipedia.org/Aldosterone",
+        "score": 0.373862
+      },
+      {
+        "id": 1,
+        "label": "Chronic kidney disease",
+        "wikiLink": "http://en.wikipedia.org/Chronic_kidney_disease",
+        "score": 0.347417
+      },
+      {
+        "id": 2,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.253719
+      },
+      {
+        "id": 4,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.180057
+      },
+      {
+        "id": 5,
+        "label": "Animal anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_anatomy",
+        "score": 0.160451
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Koomans HA",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Koomans HA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 31
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Blood plasma",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 2.08362,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_plasma",
+        "matchedText": "Plasma",
+        "freebaseId": "/m/01f36w",
+        "relevanceScore": 0.0458764,
+        "entityEnglishId": "Blood plasma",
+        "startingPos": 39,
+        "endingPos": 45
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Aldosterone",
+        "freebaseTypes": [
+          "/medicine/hormone",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 8.17919,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aldosterone",
+        "matchedText": "aldosterone",
+        "freebaseId": "/m/02kbv4h",
+        "relevanceScore": 0.373862,
+        "entityEnglishId": "Aldosterone",
+        "startingPos": 46,
+        "endingPos": 57
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Concentration",
+        "confidenceScore": 0.944052,
+        "wikiLink": "http://en.wikipedia.org/wiki/Concentration",
+        "matchedText": "concentrations",
+        "freebaseId": "/m/023qq",
+        "relevanceScore": 0,
+        "entityEnglishId": "Concentration",
+        "startingPos": 58,
+        "endingPos": 72
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.86226,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.69507,
+        "entityEnglishId": "Kidney",
+        "startingPos": 84,
+        "endingPos": 89
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15,
+          16,
+          17
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 3.16598,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "chronic renal disease",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.347417,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 76,
+        "endingPos": 97
+      },
+      {
+        "id": 6,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.80419,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal disease",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.62514,
+        "entityEnglishId": "Kidney",
+        "startingPos": 84,
+        "endingPos": 97
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.31761,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0,
+        "entityEnglishId": "Disease",
+        "startingPos": 90,
+        "endingPos": 97
+      },
+      {
+        "id": 8,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Boer P",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Boer P",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 19
+      },
+      {
+        "id": 9,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.17415,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.707207,
+        "entityEnglishId": "Kidney",
+        "startingPos": 99,
+        "endingPos": 105
+      },
+      {
+        "id": 10,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Kidney International",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kidney International",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 99,
+        "endingPos": 119
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "time": 0.321,
+  "ok": true
+}

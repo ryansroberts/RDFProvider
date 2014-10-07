@@ -1,0 +1,471 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.396586
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.190373
+      },
+      {
+        "id": 3,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.188774
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "American College of Cardiology",
+        "wikiLink": "http://en.wikipedia.org/American_College_of_Cardiology",
+        "score": 0.180698
+      },
+      {
+        "id": 1,
+        "label": "Cardiology",
+        "wikiLink": "http://en.wikipedia.org/Cardiology",
+        "score": 0.237239
+      },
+      {
+        "id": 2,
+        "label": "Clopidogrel",
+        "wikiLink": "http://en.wikipedia.org/Clopidogrel",
+        "score": 0.160118
+      },
+      {
+        "id": 3,
+        "label": "Percutaneous coronary intervention",
+        "wikiLink": "http://en.wikipedia.org/Percutaneous_coronary_intervention",
+        "score": 0.125709
+      },
+      {
+        "id": 4,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.154013
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.782526
+      },
+      {
+        "id": 6,
+        "label": "Cardiovascular system",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiovascular_system",
+        "score": 0.491763
+      },
+      {
+        "id": 7,
+        "label": "Heart",
+        "wikiLink": "http://en.wikipedia.org/Category:Heart",
+        "score": 0.481896
+      },
+      {
+        "id": 8,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.437321
+      },
+      {
+        "id": 9,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.17081
+      },
+      {
+        "id": 10,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.17081
+      },
+      {
+        "id": 11,
+        "label": "Medical treatments",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_treatments",
+        "score": 0.129888
+      },
+      {
+        "id": 12,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.104211
+      },
+      {
+        "id": 13,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.0530594
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Cowper PA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Cowper PA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Udayakumar K",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Udayakumar K",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 27
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Clopidogrel",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 5.71805,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clopidogrel",
+        "matchedText": "clopidogrel",
+        "freebaseId": "/m/02svfj",
+        "relevanceScore": 0.160118,
+        "entityEnglishId": "Clopidogrel",
+        "startingPos": 79,
+        "endingPos": 90
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.76357,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.154013,
+        "entityEnglishId": "Therapy",
+        "startingPos": 91,
+        "endingPos": 98
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Percutaneous",
+        "confidenceScore": 1.68257,
+        "wikiLink": "http://en.wikipedia.org/wiki/Percutaneous",
+        "matchedText": "percutaneous",
+        "freebaseId": "/m/02jrd6",
+        "relevanceScore": 0,
+        "entityEnglishId": "Percutaneous",
+        "startingPos": 105,
+        "endingPos": 117
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19,
+          20,
+          21
+        ],
+        "entityId": "Percutaneous coronary intervention",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 5.26655,
+        "wikiLink": "http://en.wikipedia.org/wiki/Percutaneous_coronary_intervention",
+        "matchedText": "percutaneous coronary intervention",
+        "freebaseId": "/m/09xlbt",
+        "relevanceScore": 0.125709,
+        "entityEnglishId": "Percutaneous coronary intervention",
+        "startingPos": 105,
+        "endingPos": 139
+      },
+      {
+        "id": 6,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "entityId": "Journal of the American College of Cardiology",
+        "freebaseTypes": [
+          "/book/journal",
+          "/book/periodical"
+        ],
+        "confidenceScore": 1.6997,
+        "wikiLink": "http://en.wikipedia.org/wiki/Journal_of_the_American_College_of_Cardiology",
+        "matchedText": "Journal of the American College of Cardiology",
+        "freebaseId": "/m/0b74s28",
+        "relevanceScore": 0,
+        "entityEnglishId": "Journal of the American College of Cardiology",
+        "startingPos": 141,
+        "endingPos": 186
+      },
+      {
+        "id": 7,
+        "type": [
+          "Agent",
+          "Organisation",
+          "EducationalInstitution",
+          "University"
+        ],
+        "matchingTokens": [
+          26,
+          27,
+          28,
+          29
+        ],
+        "entityId": "American College of Cardiology",
+        "freebaseTypes": [
+          "/business/employer",
+          "/organization/organization",
+          "/award/award_winner",
+          "/education/educational_institution"
+        ],
+        "confidenceScore": 4.55142,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_College_of_Cardiology",
+        "matchedText": "American College of Cardiology",
+        "freebaseId": "/m/04wjky",
+        "relevanceScore": 0.180698,
+        "entityEnglishId": "American College of Cardiology",
+        "startingPos": 156,
+        "endingPos": 186
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Cardiology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/periodical_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.71345,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiology",
+        "matchedText": "Cardiology",
+        "freebaseId": "/m/01nd8",
+        "relevanceScore": 0.237239,
+        "entityEnglishId": "Cardiology",
+        "startingPos": 176,
+        "endingPos": 186
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          25,
+          26,
+          27,
+          28
+        ],
+        "propertyPositions": [
+          29,
+          30
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          18
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          18
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.32,
+  "ok": true
+}

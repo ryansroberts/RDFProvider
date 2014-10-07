@@ -1,0 +1,489 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.775939
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.57992
+      },
+      {
+        "id": 3,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.396923
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.261162
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.200932
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Department of Health (United Kingdom)",
+        "wikiLink": "http://en.wikipedia.org/Department_of_Health_(United_Kingdom)",
+        "score": 0.239371
+      },
+      {
+        "id": 1,
+        "label": "Dialysis",
+        "wikiLink": "http://en.wikipedia.org/Dialysis",
+        "score": 0.397475
+      },
+      {
+        "id": 2,
+        "label": "Kidney transplantation",
+        "wikiLink": "http://en.wikipedia.org/Kidney_transplantation",
+        "score": 0.880246
+      },
+      {
+        "id": 3,
+        "label": "London",
+        "wikiLink": "http://en.wikipedia.org/London",
+        "score": 0.101861
+      },
+      {
+        "id": 4,
+        "label": "Organ transplantation",
+        "wikiLink": "http://en.wikipedia.org/Organ_transplantation",
+        "score": 0.186293
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.529539
+      },
+      {
+        "id": 6,
+        "label": "Transplantation medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Transplantation_medicine",
+        "score": 0.230344
+      },
+      {
+        "id": 7,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_by_country",
+        "score": 0.101511
+      },
+      {
+        "id": 8,
+        "label": "Bodies of the United Kingdom government",
+        "wikiLink": "http://en.wikipedia.org/Category:Bodies_of_the_United_Kingdom_government",
+        "score": 0.0949544
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Agent",
+          "Organisation",
+          "GovernmentAgency"
+        ],
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "Department of Health (United Kingdom)",
+        "freebaseTypes": [
+          "/government/government_agency",
+          "/organization/organization"
+        ],
+        "confidenceScore": 1.26817,
+        "wikiLink": "http://en.wikipedia.org/wiki/Department_of_Health_(United_Kingdom)",
+        "matchedText": "Department of Health",
+        "freebaseId": "/m/020rx0",
+        "relevanceScore": 0.119685,
+        "entityEnglishId": "Department of Health (United Kingdom)",
+        "startingPos": 4,
+        "endingPos": 24
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          5,
+          6
+        ],
+        "entityId": "National service",
+        "confidenceScore": 1.56603,
+        "wikiLink": "http://en.wikipedia.org/wiki/National_service",
+        "matchedText": "National Service",
+        "freebaseId": "/m/01dyyj",
+        "relevanceScore": 0,
+        "entityEnglishId": "National service",
+        "startingPos": 26,
+        "endingPos": 42
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          5,
+          6,
+          7
+        ],
+        "entityId": "National Service Framework",
+        "confidenceScore": 3.64544,
+        "wikiLink": "http://en.wikipedia.org/wiki/National_Service_Framework",
+        "matchedText": "National Service Framework",
+        "freebaseId": "/m/0ddb67",
+        "relevanceScore": 0.0840314,
+        "entityEnglishId": "National Service Framework",
+        "startingPos": 26,
+        "endingPos": 52
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Kidney transplantation",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/medicine/medical_treatment",
+          "/fictional_universe/medical_condition_in_fiction"
+        ],
+        "confidenceScore": 1.30966,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney_transplantation",
+        "matchedText": "Renal",
+        "freebaseId": "/m/05dbfs",
+        "relevanceScore": 0.880246,
+        "entityEnglishId": "Kidney transplantation",
+        "startingPos": 57,
+        "endingPos": 62
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "entityId": "Renal Services Part One",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Renal Services  Part One",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 57,
+        "endingPos": 81
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Dialysis",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 7.25389,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dialysis",
+        "matchedText": "dialysis",
+        "freebaseId": "/m/0fmf0",
+        "relevanceScore": 0.397475,
+        "entityEnglishId": "Dialysis",
+        "startingPos": 83,
+        "endingPos": 91
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Organ transplantation",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject",
+          "/award/award_winning_work",
+          "/medicine/risk_factor",
+          "/radio/radio_subject"
+        ],
+        "confidenceScore": 2.77357,
+        "wikiLink": "http://en.wikipedia.org/wiki/Organ_transplantation",
+        "matchedText": "Transplantation",
+        "freebaseId": "/m/016bb2",
+        "relevanceScore": 0.186293,
+        "entityEnglishId": "Organ transplantation",
+        "startingPos": 96,
+        "endingPos": 111
+      },
+      {
+        "id": 7,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "London",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/film/film_location",
+          "/location/country",
+          "/olympics/olympic_bidding_city",
+          "/location/location",
+          "/olympics/olympic_host_city",
+          "/media_common/quotation_subject",
+          "/sports/sports_team_location",
+          "/government/governmental_jurisdiction",
+          "/location/dated_location",
+          "/periodicals/newspaper_circulation_area",
+          "/rail/railway_terminus",
+          "/organization/organization_scope",
+          "/location/statistical_region",
+          "/exhibitions/exhibition_subject",
+          "/fictional_universe/fictional_setting",
+          "/symbols/name_source",
+          "/location/citytown",
+          "/location/place_with_neighborhoods",
+          "/tv/tv_location",
+          "/location/administrative_division",
+          "/travel/travel_destination",
+          "/visual_art/art_subject",
+          "/olympics/olympic_venue"
+        ],
+        "confidenceScore": 2.25441,
+        "wikiLink": "http://en.wikipedia.org/wiki/London",
+        "matchedText": "London",
+        "freebaseId": "/m/04jpl",
+        "relevanceScore": 0.101861,
+        "entityEnglishId": "London",
+        "startingPos": 113,
+        "endingPos": 119
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.70856,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.0788676,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 121,
+        "endingPos": 123
+      },
+      {
+        "id": 9,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Department",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Department",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 125,
+        "endingPos": 135
+      },
+      {
+        "id": 10,
+        "type": [
+          "Agent",
+          "Organisation",
+          "GovernmentAgency"
+        ],
+        "matchingTokens": [
+          22,
+          23,
+          24
+        ],
+        "entityId": "Department of Health (United Kingdom)",
+        "freebaseTypes": [
+          "/government/government_agency",
+          "/organization/organization"
+        ],
+        "confidenceScore": 1.26817,
+        "wikiLink": "http://en.wikipedia.org/wiki/Department_of_Health_(United_Kingdom)",
+        "matchedText": "Department of Health",
+        "freebaseId": "/m/020rx0",
+        "relevanceScore": 0.119685,
+        "entityEnglishId": "Department of Health (United Kingdom)",
+        "startingPos": 125,
+        "endingPos": 145
+      },
+      {
+        "id": 11,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Health",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Health",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 139,
+        "endingPos": 145
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          11
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              12,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          26
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

@@ -1,0 +1,389 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.969887
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.969887
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.969887
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.949747
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.34062
+      },
+      {
+        "id": 1,
+        "label": "Disease",
+        "wikiLink": "http://en.wikipedia.org/Disease",
+        "score": 0.105154
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Connor H",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Connor H",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.08485,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.17031,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 39,
+        "endingPos": 47
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.85812,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 39,
+        "endingPos": 52
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.40523,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.105154,
+        "entityEnglishId": "Disease",
+        "startingPos": 53,
+        "endingPos": 60
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Connor H",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Connor H",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 66,
+        "endingPos": 74
+      },
+      {
+        "id": 5,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Boulton AJM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Boulton AJM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 76,
+        "endingPos": 87
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          21,
+          22
+        ],
+        "entityId": "Ward JD",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ward JD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 89,
+        "endingPos": 96
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.10724,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.17031,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 116,
+        "endingPos": 124
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Chichester",
+        "freebaseTypes": [
+          "/location/uk_non_metropolitan_district",
+          "/location/uk_civil_parish",
+          "/location/location",
+          "/location/administrative_division",
+          "/location/statistical_region",
+          "/location/citytown",
+          "/travel/travel_destination",
+          "/fictional_universe/fictional_setting",
+          "/location/dated_location"
+        ],
+        "confidenceScore": 1.84834,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chichester",
+        "matchedText": "Chichester",
+        "freebaseId": "/m/01z8f0",
+        "relevanceScore": 0.0246051,
+        "entityEnglishId": "Chichester",
+        "startingPos": 126,
+        "endingPos": 136
+      },
+      {
+        "id": 9,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Wiley",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wiley",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 138,
+        "endingPos": 143
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          27,
+          28,
+          29
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          22
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          22
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          5,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          21,
+          22,
+          24
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          5,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

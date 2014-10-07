@@ -1,0 +1,379 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.990574
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.340642
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.340642
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.340642
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.340642
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Geriatrics",
+        "wikiLink": "http://en.wikipedia.org/Geriatrics",
+        "score": 0.177205
+      },
+      {
+        "id": 1,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.107614
+      },
+      {
+        "id": 2,
+        "label": "Ageing",
+        "wikiLink": "http://en.wikipedia.org/Category:Ageing",
+        "score": 0.0539331
+      },
+      {
+        "id": 3,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0539331
+      },
+      {
+        "id": 4,
+        "label": "Health research",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_research",
+        "score": 0.0461978
+      },
+      {
+        "id": 5,
+        "label": "Clinical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_research",
+        "score": 0.0461978
+      },
+      {
+        "id": 6,
+        "label": "Healthcare quality",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_quality",
+        "score": 0.0461978
+      },
+      {
+        "id": 7,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.0410687
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Lindeman RD",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lindeman RD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 15
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Tobin J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Tobin J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 17,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          10,
+          11
+        ],
+        "entityId": "Longitudinal study",
+        "freebaseTypes": [
+          "/medicine/medical_trial_design"
+        ],
+        "confidenceScore": 2.3115,
+        "wikiLink": "http://en.wikipedia.org/wiki/Longitudinal_study",
+        "matchedText": "Longitudinal studies",
+        "freebaseId": "/m/05b5xs",
+        "relevanceScore": 0.0409477,
+        "entityEnglishId": "Longitudinal study",
+        "startingPos": 36,
+        "endingPos": 56
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.01883,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "renal function",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.107614,
+        "entityEnglishId": "Renal function",
+        "startingPos": 83,
+        "endingPos": 97
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Journal",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Journal",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 108,
+        "endingPos": 115
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Geriatrics",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/medicine/medical_specialty",
+          "/award/award_winning_work"
+        ],
+        "confidenceScore": 3.24863,
+        "wikiLink": "http://en.wikipedia.org/wiki/Geriatrics",
+        "matchedText": "Geriatrics",
+        "freebaseId": "/m/028dfg",
+        "relevanceScore": 0.177205,
+        "entityEnglishId": "Geriatrics",
+        "startingPos": 132,
+        "endingPos": 142
+      },
+      {
+        "id": 6,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "entityId": "Journal of the American Geriatrics Society",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.56799,
+        "wikiLink": "http://en.wikipedia.org/wiki/Journal_of_the_American_Geriatrics_Society",
+        "matchedText": "Journal of the American Geriatrics Society",
+        "freebaseId": "/m/05zvxjw",
+        "relevanceScore": 0,
+        "entityEnglishId": "Journal of the American Geriatrics Society",
+        "startingPos": 108,
+        "endingPos": 150
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          26,
+          27,
+          28
+        ],
+        "entityId": "American Geriatrics Society",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/organization/non_profit_organization",
+          "/business/employer"
+        ],
+        "confidenceScore": 3.47268,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Geriatrics_Society",
+        "matchedText": "American Geriatrics Society",
+        "freebaseId": "/m/02qby7m",
+        "relevanceScore": 0.0843284,
+        "entityEnglishId": "American Geriatrics Society",
+        "startingPos": 123,
+        "endingPos": 150
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          25,
+          27
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          11,
+          12,
+          20
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          11,
+          12,
+          20
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          11,
+          12,
+          20
+        ],
+        "propertyPositions": [
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

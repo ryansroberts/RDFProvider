@@ -1,0 +1,394 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.356835
+      },
+      {
+        "id": 1,
+        "label": "Nephron",
+        "wikiLink": "http://en.wikipedia.org/Nephron",
+        "score": 0.553525
+      },
+      {
+        "id": 2,
+        "label": "Parathyroid gland",
+        "wikiLink": "http://en.wikipedia.org/Parathyroid_gland",
+        "score": 0.318422
+      },
+      {
+        "id": 3,
+        "label": "Parathyroid hormone",
+        "wikiLink": "http://en.wikipedia.org/Parathyroid_hormone",
+        "score": 0.109986
+      },
+      {
+        "id": 4,
+        "label": "Renal failure",
+        "wikiLink": "http://en.wikipedia.org/Renal_failure",
+        "score": 0.130574
+      },
+      {
+        "id": 5,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.679751
+      },
+      {
+        "id": 6,
+        "label": "Glands",
+        "wikiLink": "http://en.wikipedia.org/Category:Glands",
+        "score": 0.417706
+      },
+      {
+        "id": 7,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.412698
+      },
+      {
+        "id": 8,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.406852
+      },
+      {
+        "id": 9,
+        "label": "Human anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_anatomy",
+        "score": 0.12046
+      },
+      {
+        "id": 10,
+        "label": "Animal anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_anatomy",
+        "score": 0.12046
+      },
+      {
+        "id": 11,
+        "label": "Organs",
+        "wikiLink": "http://en.wikipedia.org/Category:Organs",
+        "score": 0.114613
+      },
+      {
+        "id": 12,
+        "label": "Hormones",
+        "wikiLink": "http://en.wikipedia.org/Category:Hormones",
+        "score": 0.0501506
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          2,
+          3
+        ],
+        "entityId": "John A.",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "John A.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 7,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          5,
+          6
+        ],
+        "entityId": "Thomas MB",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Thomas MB",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 25
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Davies CP",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Davies CP",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 27,
+        "endingPos": 36
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Parathyroid gland",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 3.78956,
+        "wikiLink": "http://en.wikipedia.org/wiki/Parathyroid_gland",
+        "matchedText": "parathyroid",
+        "freebaseId": "/m/01qldc",
+        "relevanceScore": 0.318422,
+        "entityEnglishId": "Parathyroid gland",
+        "startingPos": 67,
+        "endingPos": 78
+      },
+      {
+        "id": 4,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Parathyroid hormone",
+        "freebaseTypes": [
+          "/medicine/hormone"
+        ],
+        "confidenceScore": 5.48716,
+        "wikiLink": "http://en.wikipedia.org/wiki/Parathyroid_hormone",
+        "matchedText": "parathyroid hormone",
+        "freebaseId": "/m/0264dt",
+        "relevanceScore": 0.109986,
+        "entityEnglishId": "Parathyroid hormone",
+        "startingPos": 67,
+        "endingPos": 86
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Hormone",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.62584,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hormone",
+        "matchedText": "hormone",
+        "freebaseId": "/m/03gv9",
+        "relevanceScore": 0.0599015,
+        "entityEnglishId": "Hormone",
+        "startingPos": 79,
+        "endingPos": 86
+      },
+      {
+        "id": 6,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.71631,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.356835,
+        "entityEnglishId": "Kidney",
+        "startingPos": 149,
+        "endingPos": 154
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          28,
+          29
+        ],
+        "entityId": "Renal failure",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 4.30481,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_failure",
+        "matchedText": "renal failure",
+        "freebaseId": "/m/01psyx",
+        "relevanceScore": 0.130574,
+        "entityEnglishId": "Renal failure",
+        "startingPos": 149,
+        "endingPos": 162
+      },
+      {
+        "id": 8,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Nephron",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 7.13856,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephron",
+        "matchedText": "Nephron",
+        "freebaseId": "/m/01fj4p",
+        "relevanceScore": 0.553525,
+        "entityEnglishId": "Nephron",
+        "startingPos": 164,
+        "endingPos": 171
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          5,
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          21,
+          22,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          29
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          29
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          21,
+          22,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      }
+    ]
+  },
+  "time": 0.321,
+  "ok": true
+}

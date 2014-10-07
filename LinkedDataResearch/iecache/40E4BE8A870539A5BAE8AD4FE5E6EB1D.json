@@ -1,0 +1,479 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.503322
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.496678
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.253448
+      },
+      {
+        "id": 4,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.253448
+      },
+      {
+        "id": 5,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.249875
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes UK",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_UK",
+        "score": 0.393012
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.413788
+      },
+      {
+        "id": 2,
+        "label": "London",
+        "wikiLink": "http://en.wikipedia.org/London",
+        "score": 0.120926
+      },
+      {
+        "id": 3,
+        "label": "Primary care",
+        "wikiLink": "http://en.wikipedia.org/Primary_care",
+        "score": 0.163091
+      },
+      {
+        "id": 4,
+        "label": "United Kingdom",
+        "wikiLink": "http://en.wikipedia.org/United_Kingdom",
+        "score": 0.275774
+      },
+      {
+        "id": 5,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.056848
+      },
+      {
+        "id": 6,
+        "label": "Social programs",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_programs",
+        "score": 0.056848
+      },
+      {
+        "id": 7,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.056848
+      },
+      {
+        "id": 8,
+        "label": "Service industries",
+        "wikiLink": "http://en.wikipedia.org/Category:Service_industries",
+        "score": 0.056848
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.77345,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.137929,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Company"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Diabetes UK",
+        "freebaseTypes": [
+          "/business/employer",
+          "/organization/organization",
+          "/business/business_operation"
+        ],
+        "confidenceScore": 2.82389,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_UK",
+        "matchedText": "Diabetes UK",
+        "freebaseId": "/m/055gyn",
+        "relevanceScore": 0.196506,
+        "entityEnglishId": "Diabetes UK",
+        "startingPos": 0,
+        "endingPos": 11
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.72276,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.137887,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 9,
+        "endingPos": 11
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.77345,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.137929,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 51,
+        "endingPos": 59
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          10,
+          11
+        ],
+        "entityId": "Primary care",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/business/industry",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.32246,
+        "wikiLink": "http://en.wikipedia.org/wiki/Primary_care",
+        "matchedText": "primary care",
+        "freebaseId": "/m/02mbrd",
+        "relevanceScore": 0.163091,
+        "entityEnglishId": "Primary care",
+        "startingPos": 63,
+        "endingPos": 75
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "London",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/film/film_location",
+          "/location/country",
+          "/olympics/olympic_bidding_city",
+          "/location/location",
+          "/olympics/olympic_host_city",
+          "/media_common/quotation_subject",
+          "/sports/sports_team_location",
+          "/government/governmental_jurisdiction",
+          "/location/dated_location",
+          "/periodicals/newspaper_circulation_area",
+          "/rail/railway_terminus",
+          "/organization/organization_scope",
+          "/location/statistical_region",
+          "/exhibitions/exhibition_subject",
+          "/fictional_universe/fictional_setting",
+          "/symbols/name_source",
+          "/location/citytown",
+          "/location/place_with_neighborhoods",
+          "/tv/tv_location",
+          "/location/administrative_division",
+          "/travel/travel_destination",
+          "/visual_art/art_subject",
+          "/olympics/olympic_venue"
+        ],
+        "confidenceScore": 2.26167,
+        "wikiLink": "http://en.wikipedia.org/wiki/London",
+        "matchedText": "London",
+        "freebaseId": "/m/04jpl",
+        "relevanceScore": 0.120926,
+        "entityEnglishId": "London",
+        "startingPos": 78,
+        "endingPos": 84
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.77345,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.137929,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 86,
+        "endingPos": 94
+      },
+      {
+        "id": 7,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Company"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Diabetes UK",
+        "freebaseTypes": [
+          "/business/employer",
+          "/organization/organization",
+          "/business/business_operation"
+        ],
+        "confidenceScore": 2.82389,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_UK",
+        "matchedText": "Diabetes UK",
+        "freebaseId": "/m/055gyn",
+        "relevanceScore": 0.196506,
+        "entityEnglishId": "Diabetes UK",
+        "startingPos": 86,
+        "endingPos": 97
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.72276,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.137887,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 95,
+        "endingPos": 97
+      },
+      {
+        "id": 9,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "http://www.diabetes.org.uk/infocentre/index.html",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "http://www.diabetes.org.uk/infocentre/index.html",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 105,
+        "endingPos": 153
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4,
+          9
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          3,
+          4,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  "time": 0.309,
+  "ok": true
+}

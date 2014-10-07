@@ -1,0 +1,422 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.935954
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.929779
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.929779
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.929779
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.50045
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.604007
+      },
+      {
+        "id": 1,
+        "label": "Microalbuminuria",
+        "wikiLink": "http://en.wikipedia.org/Microalbuminuria",
+        "score": 0.128342
+      },
+      {
+        "id": 2,
+        "label": "Screening (medicine)",
+        "wikiLink": "http://en.wikipedia.org/Screening_(medicine)",
+        "score": 0.252138
+      },
+      {
+        "id": 3,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.108671
+      },
+      {
+        "id": 4,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0946304
+      },
+      {
+        "id": 5,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0946304
+      },
+      {
+        "id": 6,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.0944796
+      },
+      {
+        "id": 7,
+        "label": "Medical terminology",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_terminology",
+        "score": 0.0944796
+      },
+      {
+        "id": 8,
+        "label": "Knowledge",
+        "wikiLink": "http://en.wikipedia.org/Category:Knowledge",
+        "score": 0.0944796
+      },
+      {
+        "id": 9,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0943028
+      },
+      {
+        "id": 10,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0886812
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Adamson CL",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Adamson CL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Kumar S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kumar S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 12,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Sutcliffe H",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Sutcliffe H",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 32
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Screening (medicine)",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors"
+        ],
+        "confidenceScore": 1.00475,
+        "wikiLink": "http://en.wikipedia.org/wiki/Screening_(medicine)",
+        "matchedText": "Screening",
+        "freebaseId": "/m/08zlcj",
+        "relevanceScore": 0.252138,
+        "entityEnglishId": "Screening (medicine)",
+        "startingPos": 41,
+        "endingPos": 50
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Microalbuminuria",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.7587,
+        "wikiLink": "http://en.wikipedia.org/wiki/Microalbuminuria",
+        "matchedText": "microalbuminuria",
+        "freebaseId": "/m/07y7r4",
+        "relevanceScore": 0.128342,
+        "entityEnglishId": "Microalbuminuria",
+        "startingPos": 82,
+        "endingPos": 98
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.79209,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "insulin-dependent",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.492033,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 102,
+        "endingPos": 119
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.936219,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0559873,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 120,
+        "endingPos": 128
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.40566,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.0513293,
+        "entityEnglishId": "Patient",
+        "startingPos": 129,
+        "endingPos": 137
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.63481,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0559873,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 149,
+        "endingPos": 157
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          24
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14,
+          15,
+          16,
+          18
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          14,
+          15,
+          16,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

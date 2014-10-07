@@ -1,0 +1,292 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.255618
+      },
+      {
+        "id": 1,
+        "label": "Diabetic nephropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_nephropathy",
+        "score": 0.294996
+      },
+      {
+        "id": 2,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.138533
+      },
+      {
+        "id": 3,
+        "label": "Nephropathy",
+        "wikiLink": "http://en.wikipedia.org/Nephropathy",
+        "score": 0.456118
+      },
+      {
+        "id": 4,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.21214
+      },
+      {
+        "id": 5,
+        "label": "Genitourinary system diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Genitourinary_system_diseases",
+        "score": 0.201878
+      },
+      {
+        "id": 6,
+        "label": "Urological conditions",
+        "wikiLink": "http://en.wikipedia.org/Category:Urological_conditions",
+        "score": 0.201878
+      },
+      {
+        "id": 7,
+        "label": "Kidney diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney_diseases",
+        "score": 0.201878
+      },
+      {
+        "id": 8,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.201878
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Norgaard K",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Norgaard K",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 31
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Hommel E",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hommel E",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 33,
+        "endingPos": 41
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.14611,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.255618,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 52,
+        "endingPos": 60
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Diabetic nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 5.61701,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_nephropathy",
+        "matchedText": "diabetic nephropathy",
+        "freebaseId": "/m/057z5c",
+        "relevanceScore": 0.294996,
+        "entityEnglishId": "Diabetic nephropathy",
+        "startingPos": 52,
+        "endingPos": 72
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 5.95684,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephropathy",
+        "matchedText": "nephropathy",
+        "freebaseId": "/m/02z63k",
+        "relevanceScore": 0.456118,
+        "entityEnglishId": "Nephropathy",
+        "startingPos": 61,
+        "endingPos": 72
+      },
+      {
+        "id": 5,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.20525,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.138533,
+        "entityEnglishId": "Kidney",
+        "startingPos": 100,
+        "endingPos": 106
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Kidney International",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kidney International",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 100,
+        "endingPos": 120
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9,
+          10,
+          13
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          14,
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

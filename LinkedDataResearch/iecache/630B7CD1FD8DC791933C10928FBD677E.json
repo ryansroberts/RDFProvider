@@ -1,0 +1,285 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.533848
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.50878
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.396844
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Pain",
+        "score": 0.553779
+      },
+      {
+        "id": 1,
+        "label": "Peripheral neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Peripheral_neuropathy",
+        "score": 0.27508
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Cepeda MS",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Cepeda MS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Farrar JT",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Farrar JT",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Peripheral neuropathy",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.58816,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peripheral_neuropathy",
+        "matchedText": "neuropathic",
+        "freebaseId": "/m/02w1fx",
+        "relevanceScore": 0.27508,
+        "entityEnglishId": "Peripheral neuropathy",
+        "startingPos": 69,
+        "endingPos": 80
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.50567,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "neuropathic pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.0937657,
+        "entityEnglishId": "Pain",
+        "startingPos": 69,
+        "endingPos": 85
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.63052,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.230007,
+        "entityEnglishId": "Pain",
+        "startingPos": 81,
+        "endingPos": 85
+      },
+      {
+        "id": 5,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          16,
+          17,
+          18
+        ],
+        "entityId": "Journal of Pain",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Journal of Pain",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 87,
+        "endingPos": 102
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.03441,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "Pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.230007,
+        "entityEnglishId": "Pain",
+        "startingPos": 98,
+        "endingPos": 102
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "time": 0.312,
+  "ok": true
+}

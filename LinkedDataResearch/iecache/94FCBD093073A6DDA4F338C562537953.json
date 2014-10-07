@@ -1,0 +1,298 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.956105
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.952045
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.538191
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.472346
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.453328
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Clinical trial",
+        "wikiLink": "http://en.wikipedia.org/Clinical_trial",
+        "score": 0.158393
+      },
+      {
+        "id": 1,
+        "label": "Meta-analysis",
+        "wikiLink": "http://en.wikipedia.org/Meta-analysis",
+        "score": 0.178089
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.0834446
+      },
+      {
+        "id": 3,
+        "label": "Philosophy",
+        "wikiLink": "http://en.wikipedia.org/Category:Philosophy_by_field",
+        "score": 0.0783295
+      },
+      {
+        "id": 4,
+        "label": "Methodology",
+        "wikiLink": "http://en.wikipedia.org/Category:Methodology",
+        "score": 0.0783295
+      },
+      {
+        "id": 5,
+        "label": "Problem solving",
+        "wikiLink": "http://en.wikipedia.org/Category:Problem_solving",
+        "score": 0.0783295
+      },
+      {
+        "id": 6,
+        "label": "Scientific method",
+        "wikiLink": "http://en.wikipedia.org/Category:Scientific_method",
+        "score": 0.0783295
+      },
+      {
+        "id": 7,
+        "label": "Evidence-based practices",
+        "wikiLink": "http://en.wikipedia.org/Category:Evidence-based_practices",
+        "score": 0.0718919
+      },
+      {
+        "id": 8,
+        "label": "Statistical data types",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistical_data_types",
+        "score": 0.0718919
+      },
+      {
+        "id": 9,
+        "label": "Health informatics",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_informatics",
+        "score": 0.0718919
+      },
+      {
+        "id": 10,
+        "label": "Medical statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_statistics",
+        "score": 0.0718919
+      },
+      {
+        "id": 11,
+        "label": "Epidemiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Epidemiology",
+        "score": 0.0718919
+      },
+      {
+        "id": 12,
+        "label": "Mathematical and theoretical biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_and_theoretical_biology",
+        "score": 0.0718919
+      },
+      {
+        "id": 13,
+        "label": "Fields of application of statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_application_of_statistics",
+        "score": 0.0718919
+      },
+      {
+        "id": 14,
+        "label": "Public health",
+        "wikiLink": "http://en.wikipedia.org/Category:Public_health",
+        "score": 0.0718919
+      },
+      {
+        "id": 15,
+        "label": "Biostatistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Biostatistics",
+        "score": 0.0718919
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "DerSimonian R",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "DerSimonian R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Laird N",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Laird N",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 22
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Meta-analysis",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.12241,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meta-analysis",
+        "matchedText": "Meta analysis",
+        "freebaseId": "/m/0gvjk",
+        "relevanceScore": 0.178089,
+        "entityEnglishId": "Meta-analysis",
+        "startingPos": 30,
+        "endingPos": 43
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Clinical trial",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/law/invention"
+        ],
+        "confidenceScore": 1.21295,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_trial",
+        "matchedText": "clinical trials",
+        "freebaseId": "/m/01k22z",
+        "relevanceScore": 0.0791965,
+        "entityEnglishId": "Clinical trial",
+        "startingPos": 47,
+        "endingPos": 62
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Clinical trial",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/law/invention"
+        ],
+        "confidenceScore": 1.21295,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_trial",
+        "matchedText": "Clinical Trials",
+        "freebaseId": "/m/01k22z",
+        "relevanceScore": 0.0791965,
+        "entityEnglishId": "Clinical trial",
+        "startingPos": 75,
+        "endingPos": 90
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3,
+          4,
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "time": 0.312,
+  "ok": true
+}

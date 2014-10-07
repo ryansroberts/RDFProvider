@@ -1,0 +1,223 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.59191,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 48,
+        "endingPos": 56
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Nashville, Tennessee",
+        "freebaseTypes": [
+          "/location/dated_location",
+          "/sports/sports_team_location",
+          "/film/film_location",
+          "/business/employer",
+          "/location/location",
+          "/location/capital_of_administrative_division",
+          "/location/place_with_neighborhoods",
+          "/location/citytown",
+          "/periodicals/newspaper_circulation_area",
+          "/travel/travel_destination",
+          "/tv/tv_location",
+          "/government/governmental_jurisdiction",
+          "/business/competitive_space",
+          "/organization/organization_scope",
+          "/location/statistical_region",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.24234,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nashville,_Tennessee",
+        "matchedText": "Nashville",
+        "freebaseId": "/m/05jbn",
+        "relevanceScore": 0,
+        "entityEnglishId": "Nashville, Tennessee",
+        "startingPos": 59,
+        "endingPos": 68
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          8,
+          9,
+          10
+        ],
+        "entityId": "Nashville, Tennessee",
+        "freebaseTypes": [
+          "/location/dated_location",
+          "/sports/sports_team_location",
+          "/film/film_location",
+          "/business/employer",
+          "/location/location",
+          "/location/capital_of_administrative_division",
+          "/location/place_with_neighborhoods",
+          "/location/citytown",
+          "/periodicals/newspaper_circulation_area",
+          "/travel/travel_destination",
+          "/tv/tv_location",
+          "/government/governmental_jurisdiction",
+          "/business/competitive_space",
+          "/organization/organization_scope",
+          "/location/statistical_region",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.32116,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nashville,_Tennessee",
+        "matchedText": "Nashville, TN",
+        "freebaseId": "/m/05jbn",
+        "relevanceScore": 0,
+        "entityEnglishId": "Nashville, Tennessee",
+        "startingPos": 59,
+        "endingPos": 72
+      },
+      {
+        "id": 3,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Company"
+        ],
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Healthways",
+        "freebaseTypes": [
+          "/business/employer",
+          "/business/business_operation",
+          "/business/issuer",
+          "/organization/organization"
+        ],
+        "confidenceScore": 1.88244,
+        "wikiLink": "http://en.wikipedia.org/wiki/Healthways",
+        "matchedText": "American Healthways",
+        "freebaseId": "/m/051vlys",
+        "relevanceScore": 0,
+        "entityEnglishId": "Healthways",
+        "startingPos": 74,
+        "endingPos": 93
+      },
+      {
+        "id": 4,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Company"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Healthways",
+        "freebaseTypes": [
+          "/business/employer",
+          "/business/business_operation",
+          "/business/issuer",
+          "/organization/organization"
+        ],
+        "confidenceScore": 2.81199,
+        "wikiLink": "http://en.wikipedia.org/wiki/Healthways",
+        "matchedText": "Healthways",
+        "freebaseId": "/m/051vlys",
+        "relevanceScore": 0,
+        "entityEnglishId": "Healthways",
+        "startingPos": 83,
+        "endingPos": 93
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6
+        ]
+      }
+    ]
+  },
+  "time": 0.308,
+  "ok": true
+}

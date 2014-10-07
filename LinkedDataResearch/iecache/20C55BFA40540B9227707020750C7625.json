@@ -1,0 +1,456 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.7231
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.484988
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.371606
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.361559
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.361541
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.545798
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Glycated hemoglobin",
+        "wikiLink": "http://en.wikipedia.org/Glycated_hemoglobin",
+        "score": 0.653999
+      },
+      {
+        "id": 3,
+        "label": "Hyperglycemia",
+        "wikiLink": "http://en.wikipedia.org/Hyperglycemia",
+        "score": 0.632349
+      },
+      {
+        "id": 4,
+        "label": "World Health Organization",
+        "wikiLink": "http://en.wikipedia.org/World_Health_Organization",
+        "score": 0.107059
+      },
+      {
+        "id": 5,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.729476
+      },
+      {
+        "id": 6,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.712614
+      },
+      {
+        "id": 7,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.417126
+      },
+      {
+        "id": 8,
+        "label": "Blood tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Blood_tests",
+        "score": 0.176706
+      },
+      {
+        "id": 9,
+        "label": "Chemical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_pathology",
+        "score": 0.176706
+      },
+      {
+        "id": 10,
+        "label": "Hematology",
+        "wikiLink": "http://en.wikipedia.org/Category:Hematology",
+        "score": 0.176706
+      },
+      {
+        "id": 11,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0821192
+      },
+      {
+        "id": 12,
+        "label": "Respiratory pigments",
+        "wikiLink": "http://en.wikipedia.org/Category:Respiratory_pigments",
+        "score": 0.0774736
+      },
+      {
+        "id": 13,
+        "label": "Hemoglobins",
+        "wikiLink": "http://en.wikipedia.org/Category:Hemoglobins",
+        "score": 0.0774736
+      },
+      {
+        "id": 14,
+        "label": "Organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Organizations_by_country",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          0,
+          1,
+          2
+        ],
+        "entityId": "World Health Organization",
+        "freebaseTypes": [
+          "/award/award_winner",
+          "/organization/organization",
+          "/organization/membership_organization",
+          "/business/employer",
+          "/award/ranked_list_compiler",
+          "/book/author"
+        ],
+        "confidenceScore": 5.9709,
+        "wikiLink": "http://en.wikipedia.org/wiki/World_Health_Organization",
+        "matchedText": "World Health Organisation",
+        "freebaseId": "/m/0840w",
+        "relevanceScore": 0.107059,
+        "entityEnglishId": "World Health Organization",
+        "startingPos": 0,
+        "endingPos": 25
+      },
+      {
+        "id": 1,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Hemoglobin",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/biology/protein"
+        ],
+        "confidenceScore": 4.33055,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hemoglobin",
+        "matchedText": "Haemoglobin",
+        "freebaseId": "/m/03hwm",
+        "relevanceScore": 0.0860507,
+        "entityEnglishId": "Hemoglobin",
+        "startingPos": 43,
+        "endingPos": 54
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Glycated hemoglobin",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 5.17734,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycated_hemoglobin",
+        "matchedText": "HbA1c",
+        "freebaseId": "/m/04g196",
+        "relevanceScore": 0.653999,
+        "entityEnglishId": "Glycated hemoglobin",
+        "startingPos": 56,
+        "endingPos": 61
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.2264,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.63373,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 83,
+        "endingPos": 91
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 5.00232,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes Mellitus",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.272899,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 83,
+        "endingPos": 100
+      },
+      {
+        "id": 5,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Mellitus",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Mellitus",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 92,
+        "endingPos": 100
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.2264,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.63373,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 144,
+        "endingPos": 152
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 5.00232,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes mellitus",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.272899,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 144,
+        "endingPos": 161
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Hyperglycemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 9.92611,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hyperglycemia",
+        "matchedText": "hyperglycemia",
+        "freebaseId": "/m/0kfqw",
+        "relevanceScore": 0.632349,
+        "entityEnglishId": "Hyperglycemia",
+        "startingPos": 179,
+        "endingPos": 192
+      },
+      {
+        "id": 9,
+        "type": [
+          "Agent",
+          "Organisation",
+          "MilitaryUnit"
+        ],
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Israel Defense Forces",
+        "freebaseTypes": [
+          "/organization/organization_founder",
+          "/military/armed_force",
+          "/organization/organization",
+          "/business/employer",
+          "/book/periodical_publisher",
+          "/broadcast/producer"
+        ],
+        "confidenceScore": 2.04751,
+        "wikiLink": "http://en.wikipedia.org/wiki/Israel_Defense_Forces",
+        "matchedText": "IDF",
+        "freebaseId": "/m/09s93",
+        "relevanceScore": 0.00916127,
+        "entityEnglishId": "Israel Defense Forces",
+        "startingPos": 206,
+        "endingPos": 209
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          30
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          5,
+          11
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          4,
+          5,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

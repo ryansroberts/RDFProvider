@@ -1,0 +1,573 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.754475
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.540525
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.2103
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.202668
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.197066
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Canadian Medical Association",
+        "wikiLink": "http://en.wikipedia.org/Canadian_Medical_Association",
+        "score": 0.18614
+      },
+      {
+        "id": 1,
+        "label": "Cost-effectiveness analysis",
+        "wikiLink": "http://en.wikipedia.org/Cost-effectiveness_analysis",
+        "score": 0.444444
+      },
+      {
+        "id": 2,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.15296
+      },
+      {
+        "id": 3,
+        "label": "James Bay",
+        "wikiLink": "http://en.wikipedia.org/James_Bay",
+        "score": 0.106596
+      },
+      {
+        "id": 4,
+        "label": "Ontario",
+        "wikiLink": "http://en.wikipedia.org/Ontario",
+        "score": 0.171807
+      },
+      {
+        "id": 5,
+        "label": "Retinopathy",
+        "wikiLink": "http://en.wikipedia.org/Retinopathy",
+        "score": 0.237704
+      },
+      {
+        "id": 6,
+        "label": "Geography",
+        "wikiLink": "http://en.wikipedia.org/Category:Geography_by_continent",
+        "score": 0.104775
+      },
+      {
+        "id": 7,
+        "label": "Continents",
+        "wikiLink": "http://en.wikipedia.org/Category:Continents",
+        "score": 0.0909733
+      },
+      {
+        "id": 8,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.081573
+      },
+      {
+        "id": 9,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.0730807
+      },
+      {
+        "id": 10,
+        "label": "Disorders of choroid and retina",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_choroid_and_retina",
+        "score": 0.067589
+      },
+      {
+        "id": 11,
+        "label": "Diseases of the eye and adnexa",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_of_the_eye_and_adnexa",
+        "score": 0.067589
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Maberley D",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Maberley D",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Walker H",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Walker H",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 12,
+        "endingPos": 20
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Koushik A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Koushik A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 22,
+        "endingPos": 31
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9,
+          10,
+          11
+        ],
+        "entityId": "Cruess A. Screening",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Cruess A. Screening",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 33,
+        "endingPos": 52
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.962758,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.15296,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 57,
+        "endingPos": 65
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Diabetic retinopathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 4.51856,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_retinopathy",
+        "matchedText": "diabetic retinopathy",
+        "freebaseId": "/m/0fmlk",
+        "relevanceScore": 0.0256307,
+        "entityEnglishId": "Diabetic retinopathy",
+        "startingPos": 57,
+        "endingPos": 77
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Retinopathy",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.83441,
+        "wikiLink": "http://en.wikipedia.org/wiki/Retinopathy",
+        "matchedText": "retinopathy",
+        "freebaseId": "/m/0fml5",
+        "relevanceScore": 0.237704,
+        "entityEnglishId": "Retinopathy",
+        "startingPos": 66,
+        "endingPos": 77
+      },
+      {
+        "id": 7,
+        "type": [
+          "Place",
+          "NaturalPlace",
+          "BodyOfWater"
+        ],
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "James Bay",
+        "freebaseTypes": [
+          "/symbols/namesake",
+          "/geography/geographical_feature",
+          "/geography/body_of_water",
+          "/location/location"
+        ],
+        "confidenceScore": 3.76935,
+        "wikiLink": "http://en.wikipedia.org/wiki/James_Bay",
+        "matchedText": "James Bay",
+        "freebaseId": "/m/0g0cl",
+        "relevanceScore": 0.106596,
+        "entityEnglishId": "James Bay",
+        "startingPos": 81,
+        "endingPos": 90
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place",
+          "PopulatedPlace"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Ontario",
+        "freebaseTypes": [
+          "/location/statistical_region",
+          "/film/film_location",
+          "/location/administrative_division",
+          "/travel/travel_destination",
+          "/meteorology/cyclone_affected_area",
+          "/religion/religious_leadership_jurisdiction",
+          "/location/dated_location",
+          "/location/location",
+          "/symbols/coat_of_arms_bearer",
+          "/fictional_universe/fictional_setting",
+          "/organization/organization_scope",
+          "/government/political_district",
+          "/periodicals/newspaper_circulation_area",
+          "/location/province",
+          "/symbols/name_source",
+          "/law/court_jurisdiction_area",
+          "/book/book_subject",
+          "/government/governmental_jurisdiction"
+        ],
+        "confidenceScore": 2.65736,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ontario",
+        "matchedText": "Ontario",
+        "freebaseId": "/m/05kr_",
+        "relevanceScore": 0.171807,
+        "entityEnglishId": "Ontario",
+        "startingPos": 92,
+        "endingPos": 99
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Cost-effectiveness analysis",
+        "confidenceScore": 1.12405,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cost-effectiveness_analysis",
+        "matchedText": "cost-effectiveness",
+        "freebaseId": "/m/01n8zs",
+        "relevanceScore": 0.324302,
+        "entityEnglishId": "Cost-effectiveness analysis",
+        "startingPos": 103,
+        "endingPos": 121
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          22,
+          23
+        ],
+        "entityId": "Cost-effectiveness analysis",
+        "confidenceScore": 2.34324,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cost-effectiveness_analysis",
+        "matchedText": "cost-effectiveness analysis",
+        "freebaseId": "/m/01n8zs",
+        "relevanceScore": 0.120142,
+        "entityEnglishId": "Cost-effectiveness analysis",
+        "startingPos": 103,
+        "endingPos": 130
+      },
+      {
+        "id": 11,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Canada",
+        "freebaseTypes": [
+          "/law/court_jurisdiction_area",
+          "/sports/sports_team_location",
+          "/royalty/kingdom",
+          "/periodicals/newspaper_circulation_area",
+          "/film/film_location",
+          "/exhibitions/exhibition_sponsor",
+          "/organization/organization_member",
+          "/military/military_combatant",
+          "/cvg/computer_game_region",
+          "/fictional_universe/fictional_setting",
+          "/location/dated_location",
+          "/olympics/olympic_participating_country",
+          "/organization/organization_founder",
+          "/tv/tv_location",
+          "/sports/sport_country",
+          "/business/employer",
+          "/book/book_subject",
+          "/food/beer_country_region",
+          "/location/statistical_region",
+          "/biology/breed_origin",
+          "/location/country",
+          "/symbols/flag_referent",
+          "/film/film_subject",
+          "/government/governmental_jurisdiction",
+          "/symbols/coat_of_arms_bearer",
+          "/location/administrative_division",
+          "/organization/organization_scope",
+          "/location/location"
+        ],
+        "confidenceScore": 2.54574,
+        "wikiLink": "http://en.wikipedia.org/wiki/Canada",
+        "matchedText": "Canadian",
+        "freebaseId": "/m/0d060g",
+        "relevanceScore": 0.0995842,
+        "entityEnglishId": "Canada",
+        "startingPos": 132,
+        "endingPos": 140
+      },
+      {
+        "id": 12,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          25,
+          26,
+          27
+        ],
+        "entityId": "Canadian Medical Association",
+        "freebaseTypes": [
+          "/book/periodical_publisher",
+          "/organization/organization",
+          "/business/employer",
+          "/book/author"
+        ],
+        "confidenceScore": 3.7551,
+        "wikiLink": "http://en.wikipedia.org/wiki/Canadian_Medical_Association",
+        "matchedText": "Canadian Medical Association",
+        "freebaseId": "/m/03c2fl",
+        "relevanceScore": 0.18614,
+        "entityEnglishId": "Canadian Medical Association",
+        "startingPos": 132,
+        "endingPos": 160
+      },
+      {
+        "id": 13,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          25,
+          26,
+          27,
+          28
+        ],
+        "entityId": "Canadian Medical Association Journal",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 2.01579,
+        "wikiLink": "http://en.wikipedia.org/wiki/Canadian_Medical_Association_Journal",
+        "matchedText": "Canadian Medical Association Journal",
+        "freebaseId": "/m/03bc9w",
+        "relevanceScore": 0,
+        "entityEnglishId": "Canadian Medical Association Journal",
+        "startingPos": 132,
+        "endingPos": 168
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          26,
+          27,
+          28
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          12
+        ],
+        "propertyPositions": [
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          19
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          0,
+          1,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          19
+        ]
+      }
+    ]
+  },
+  "time": 0.329,
+  "ok": true
+}

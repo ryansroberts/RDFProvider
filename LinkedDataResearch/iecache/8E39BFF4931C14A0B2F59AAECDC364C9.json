@@ -1,0 +1,376 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.60301
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 1",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_1",
+        "score": 0.494503
+      },
+      {
+        "id": 2,
+        "label": "Diabetic nephropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_nephropathy",
+        "score": 0.132504
+      },
+      {
+        "id": 3,
+        "label": "Nephropathy",
+        "wikiLink": "http://en.wikipedia.org/Nephropathy",
+        "score": 0.161012
+      },
+      {
+        "id": 4,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.130328
+      },
+      {
+        "id": 5,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.130328
+      },
+      {
+        "id": 6,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.130328
+      },
+      {
+        "id": 7,
+        "label": "Genitourinary system diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Genitourinary_system_diseases",
+        "score": 0.0905082
+      },
+      {
+        "id": 8,
+        "label": "Urological conditions",
+        "wikiLink": "http://en.wikipedia.org/Category:Urological_conditions",
+        "score": 0.0905082
+      },
+      {
+        "id": 9,
+        "label": "Kidney diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney_diseases",
+        "score": 0.0905082
+      },
+      {
+        "id": 10,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.0905082
+      },
+      {
+        "id": 11,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.0905082
+      },
+      {
+        "id": 12,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0905082
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Hovind P",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hovind P",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Tarnow L",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Tarnow L",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 25,
+        "endingPos": 33
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.96342,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.201003,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 68,
+        "endingPos": 76
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Diabetic nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.09979,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_nephropathy",
+        "matchedText": "diabetic nephropathy",
+        "freebaseId": "/m/057z5c",
+        "relevanceScore": 0.132504,
+        "entityEnglishId": "Diabetic nephropathy",
+        "startingPos": 68,
+        "endingPos": 88
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 3.86778,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephropathy",
+        "matchedText": "nephropathy",
+        "freebaseId": "/m/02z63k",
+        "relevanceScore": 0.161012,
+        "entityEnglishId": "Nephropathy",
+        "startingPos": 77,
+        "endingPos": 88
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.42119,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "type 1",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.442534,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 92,
+        "endingPos": 98
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19,
+          20
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.33243,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "type 1 diabetes",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.0519687,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 92,
+        "endingPos": 107
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.67966,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.201003,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 99,
+        "endingPos": 107
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.67966,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.201003,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 109,
+        "endingPos": 117
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5
+        ],
+        "propertyPositions": [
+          0,
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.315,
+  "ok": true
+}

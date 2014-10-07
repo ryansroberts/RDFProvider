@@ -1,0 +1,364 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.345391
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.313909
+      },
+      {
+        "id": 3,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.313909
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.313909
+      },
+      {
+        "id": 5,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.2991
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Retinopathy",
+        "wikiLink": "http://en.wikipedia.org/Retinopathy",
+        "score": 0.290289
+      },
+      {
+        "id": 1,
+        "label": "United Kingdom",
+        "wikiLink": "http://en.wikipedia.org/United_Kingdom",
+        "score": 0.138292
+      },
+      {
+        "id": 2,
+        "label": "Diseases of the eye and adnexa",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_of_the_eye_and_adnexa",
+        "score": 0.0731444
+      },
+      {
+        "id": 3,
+        "label": "Disorders of choroid and retina",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_choroid_and_retina",
+        "score": 0.0694244
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.69571,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.0691458,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 4,
+        "endingPos": 6
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "entityId": "UK National Screening Committee",
+        "confidenceScore": 1.66561,
+        "wikiLink": "http://en.wikipedia.org/wiki/UK_National_Screening_Committee",
+        "matchedText": "UK National Screening Committee",
+        "freebaseId": "/m/0z6t63v",
+        "relevanceScore": 0,
+        "entityEnglishId": "UK National Screening Committee",
+        "startingPos": 4,
+        "endingPos": 35
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          2,
+          3,
+          4
+        ],
+        "entityId": "National Screening Committee",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "National Screening Committee",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 7,
+        "endingPos": 35
+      },
+      {
+        "id": 3,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Essential",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Essential",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 37,
+        "endingPos": 46
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Diabetic retinopathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 4.41613,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_retinopathy",
+        "matchedText": "diabetic retinopathy",
+        "freebaseId": "/m/0fmlk",
+        "relevanceScore": 0.0283145,
+        "entityEnglishId": "Diabetic retinopathy",
+        "startingPos": 72,
+        "endingPos": 92
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Retinopathy",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.27637,
+        "wikiLink": "http://en.wikipedia.org/wiki/Retinopathy",
+        "matchedText": "retinopathy",
+        "freebaseId": "/m/0fml5",
+        "relevanceScore": 0.290289,
+        "entityEnglishId": "Retinopathy",
+        "startingPos": 81,
+        "endingPos": 92
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.69571,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.0691458,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 148,
+        "endingPos": 150
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "National",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "National",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 151,
+        "endingPos": 159
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          26,
+          27,
+          28,
+          29
+        ],
+        "entityId": "UK National Screening Committee",
+        "confidenceScore": 1.66561,
+        "wikiLink": "http://en.wikipedia.org/wiki/UK_National_Screening_Committee",
+        "matchedText": "UK National Screening Committee",
+        "freebaseId": "/m/0z6t63v",
+        "relevanceScore": 0,
+        "entityEnglishId": "UK National Screening Committee",
+        "startingPos": 148,
+        "endingPos": 179
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          26,
+          27,
+          28,
+          29
+        ],
+        "propertyPositions": [
+          23,
+          24
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10,
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          11
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

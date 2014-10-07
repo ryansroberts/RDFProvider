@@ -1,0 +1,463 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.774107
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.258654
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.258654
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.257579
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.246985
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Clinical chemistry",
+        "wikiLink": "http://en.wikipedia.org/Clinical_chemistry",
+        "score": 0.240994
+      },
+      {
+        "id": 1,
+        "label": "Creatinine",
+        "wikiLink": "http://en.wikipedia.org/Creatinine",
+        "score": 0.324585
+      },
+      {
+        "id": 2,
+        "label": "Venipuncture",
+        "wikiLink": "http://en.wikipedia.org/Venipuncture",
+        "score": 0.190011
+      },
+      {
+        "id": 3,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.649882
+      },
+      {
+        "id": 4,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.430552
+      },
+      {
+        "id": 5,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.382033
+      },
+      {
+        "id": 6,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0855069
+      },
+      {
+        "id": 7,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.0843247
+      },
+      {
+        "id": 8,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.0843247
+      },
+      {
+        "id": 9,
+        "label": "Hematology",
+        "wikiLink": "http://en.wikipedia.org/Category:Hematology",
+        "score": 0.0565081
+      },
+      {
+        "id": 10,
+        "label": "Blood",
+        "wikiLink": "http://en.wikipedia.org/Category:Blood",
+        "score": 0.0565081
+      },
+      {
+        "id": 11,
+        "label": "Body fluids",
+        "wikiLink": "http://en.wikipedia.org/Category:Body_fluids",
+        "score": 0.0553259
+      },
+      {
+        "id": 12,
+        "label": "Tissues",
+        "wikiLink": "http://en.wikipedia.org/Category:Tissues",
+        "score": 0.0553259
+      },
+      {
+        "id": 13,
+        "label": "Human metabolites",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_metabolites",
+        "score": 0.044642
+      },
+      {
+        "id": 14,
+        "label": "Clinical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_pathology",
+        "score": 0.044642
+      },
+      {
+        "id": 15,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.044642
+      },
+      {
+        "id": 16,
+        "label": "Chemical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_pathology",
+        "score": 0.044642
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Ford L",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ford L",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 3,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5,
+          6
+        ],
+        "entityId": "Berg J. Delay",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Berg J. Delay",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Blood",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/food/ingredient",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.58631,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood",
+        "matchedText": "blood",
+        "freebaseId": "/m/019jw",
+        "relevanceScore": 0.0541871,
+        "entityEnglishId": "Blood",
+        "startingPos": 39,
+        "endingPos": 44
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Venipuncture",
+        "confidenceScore": 0.900103,
+        "wikiLink": "http://en.wikipedia.org/wiki/Venipuncture",
+        "matchedText": "blood samples",
+        "freebaseId": "/m/01j3ww",
+        "relevanceScore": 0.190011,
+        "entityEnglishId": "Venipuncture",
+        "startingPos": 39,
+        "endingPos": 52
+      },
+      {
+        "id": 4,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 6.31779,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.324585,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 61,
+        "endingPos": 71
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Measurement",
+        "confidenceScore": 1.26115,
+        "wikiLink": "http://en.wikipedia.org/wiki/Measurement",
+        "matchedText": "measurement",
+        "freebaseId": "/m/04t14",
+        "relevanceScore": 0.0230662,
+        "entityEnglishId": "Measurement",
+        "startingPos": 72,
+        "endingPos": 83
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Roche",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Roche",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 94,
+        "endingPos": 99
+      },
+      {
+        "id": 7,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Jaffe",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Jaffe",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 108,
+        "endingPos": 113
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          21,
+          22,
+          23,
+          24
+        ],
+        "entityId": "Annals of Clinical Biochemistry",
+        "confidenceScore": 1.90456,
+        "wikiLink": "http://en.wikipedia.org/wiki/Annals_of_Clinical_Biochemistry",
+        "matchedText": "Annals of Clinical Biochemistry",
+        "freebaseId": "/m/0y4w281",
+        "relevanceScore": 0.0415166,
+        "entityEnglishId": "Annals of Clinical Biochemistry",
+        "startingPos": 122,
+        "endingPos": 153
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          23,
+          24
+        ],
+        "entityId": "Clinical chemistry",
+        "freebaseTypes": [
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 2.8971,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_chemistry",
+        "matchedText": "Clinical Biochemistry",
+        "freebaseId": "/m/0hdq2",
+        "relevanceScore": 0.240994,
+        "entityEnglishId": "Clinical chemistry",
+        "startingPos": 132,
+        "endingPos": 153
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Biochemistry",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/education/field_of_study",
+          "/organization/organization_sector",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 2.19559,
+        "wikiLink": "http://en.wikipedia.org/wiki/Biochemistry",
+        "matchedText": "Biochemistry",
+        "freebaseId": "/m/0193x",
+        "relevanceScore": 0.0260453,
+        "entityEnglishId": "Biochemistry",
+        "startingPos": 141,
+        "endingPos": 153
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          11
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          14
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              12,
+              13,
+              15,
+              16,
+              17,
+              18,
+              19
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          24
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          23,
+          24
+        ]
+      }
+    ]
+  },
+  "time": 0.327,
+  "ok": true
+}

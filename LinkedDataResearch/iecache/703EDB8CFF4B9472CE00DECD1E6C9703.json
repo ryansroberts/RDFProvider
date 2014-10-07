@@ -1,0 +1,445 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.669045
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.360957
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.349798
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.349798
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.349798
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Creatinine",
+        "wikiLink": "http://en.wikipedia.org/Creatinine",
+        "score": 0.410165
+      },
+      {
+        "id": 1,
+        "label": "Dialysis",
+        "wikiLink": "http://en.wikipedia.org/Dialysis",
+        "score": 0.174616
+      },
+      {
+        "id": 2,
+        "label": "Meat",
+        "wikiLink": "http://en.wikipedia.org/Meat",
+        "score": 0.236717
+      },
+      {
+        "id": 3,
+        "label": "Organ transplantation",
+        "wikiLink": "http://en.wikipedia.org/Organ_transplantation",
+        "score": 0.126652
+      },
+      {
+        "id": 4,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0930058
+      },
+      {
+        "id": 5,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.07205
+      },
+      {
+        "id": 6,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.071934
+      },
+      {
+        "id": 7,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.0686338
+      },
+      {
+        "id": 8,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.0573552
+      },
+      {
+        "id": 9,
+        "label": "Immunology",
+        "wikiLink": "http://en.wikipedia.org/Category:Immunology",
+        "score": 0.0573552
+      },
+      {
+        "id": 10,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0468302
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Jacobsen FK",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Jacobsen FK",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 3,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Christensen CK",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Christensen CK",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 30
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Mogensen CE",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Mogensen CE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 32,
+        "endingPos": 43
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Postprandial",
+        "confidenceScore": 2.21457,
+        "wikiLink": "http://en.wikipedia.org/wiki/Postprandial",
+        "matchedText": "Postprandial",
+        "freebaseId": "/m/02r7jxz",
+        "relevanceScore": 0.0912151,
+        "entityEnglishId": "Postprandial",
+        "startingPos": 51,
+        "endingPos": 63
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Serum (blood)",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 1.30838,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_(blood)",
+        "matchedText": "serum",
+        "freebaseId": "/m/07s8fsr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Serum (blood)",
+        "startingPos": 64,
+        "endingPos": 69
+      },
+      {
+        "id": 5,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 1.94755,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "serum creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.101069,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 64,
+        "endingPos": 80
+      },
+      {
+        "id": 6,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 5.11035,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.309096,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 70,
+        "endingPos": 80
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Meat",
+        "freebaseTypes": [
+          "/food/ingredient",
+          "/book/book_subject",
+          "/business/consumer_product",
+          "/food/food"
+        ],
+        "confidenceScore": 0.982187,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meat",
+        "matchedText": "meat",
+        "freebaseId": "/m/04scj",
+        "relevanceScore": 0.236717,
+        "entityEnglishId": "Meat",
+        "startingPos": 132,
+        "endingPos": 136
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "European",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "European",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 157,
+        "endingPos": 165
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Dialysis",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.46533,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dialysis",
+        "matchedText": "Dialysis",
+        "freebaseId": "/m/0fmf0",
+        "relevanceScore": 0.174616,
+        "entityEnglishId": "Dialysis",
+        "startingPos": 166,
+        "endingPos": 174
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Organ transplantation",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject",
+          "/award/award_winning_work",
+          "/medicine/risk_factor",
+          "/radio/radio_subject"
+        ],
+        "confidenceScore": 2.07471,
+        "wikiLink": "http://en.wikipedia.org/wiki/Organ_transplantation",
+        "matchedText": "Transplant",
+        "freebaseId": "/m/016bb2",
+        "relevanceScore": 0.126652,
+        "entityEnglishId": "Organ transplantation",
+        "startingPos": 177,
+        "endingPos": 187
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          25,
+          27
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          18
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          18
+        ],
+        "propertyPositions": [
+          16,
+          17
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.321,
+  "ok": true
+}

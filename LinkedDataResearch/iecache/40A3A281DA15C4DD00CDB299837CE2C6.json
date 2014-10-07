@@ -1,0 +1,479 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.25921
+      },
+      {
+        "id": 2,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.128156
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.109961
+      },
+      {
+        "id": 4,
+        "label": "Violence",
+        "wikiLink": "http://en.wikipedia.org/Category:Violence",
+        "score": 0.109074
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Clinical pharmacy",
+        "wikiLink": "http://en.wikipedia.org/Clinical_pharmacy",
+        "score": 0.222487
+      },
+      {
+        "id": 1,
+        "label": "Drug",
+        "wikiLink": "http://en.wikipedia.org/Drug",
+        "score": 0.191226
+      },
+      {
+        "id": 2,
+        "label": "Hospital",
+        "wikiLink": "http://en.wikipedia.org/Hospital",
+        "score": 0.183117
+      },
+      {
+        "id": 3,
+        "label": "Pharmacy",
+        "wikiLink": "http://en.wikipedia.org/Pharmacy",
+        "score": 0.445803
+      },
+      {
+        "id": 4,
+        "label": "Pharmacy and Therapeutics",
+        "wikiLink": "http://en.wikipedia.org/Pharmacy_and_Therapeutics",
+        "score": 0.169241
+      },
+      {
+        "id": 5,
+        "label": "Substance abuse",
+        "wikiLink": "http://en.wikipedia.org/Substance_abuse",
+        "score": 0.196348
+      },
+      {
+        "id": 6,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.141351
+      },
+      {
+        "id": 7,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.87457
+      },
+      {
+        "id": 8,
+        "label": "Medicinal chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicinal_chemistry",
+        "score": 0.816889
+      },
+      {
+        "id": 9,
+        "label": "Pharmaceutical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_sciences",
+        "score": 0.816889
+      },
+      {
+        "id": 10,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.747466
+      },
+      {
+        "id": 11,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.438694
+      },
+      {
+        "id": 12,
+        "label": "Medical and health organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_and_health_organizations",
+        "score": 0.429694
+      },
+      {
+        "id": 13,
+        "label": "Organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Organizations_by_subject",
+        "score": 0.402221
+      },
+      {
+        "id": 14,
+        "label": "Types of healthcare facilities",
+        "wikiLink": "http://en.wikipedia.org/Category:Types_of_healthcare_facilities",
+        "score": 0.111527
+      },
+      {
+        "id": 15,
+        "label": "Hospitals",
+        "wikiLink": "http://en.wikipedia.org/Category:Hospitals",
+        "score": 0.0718109
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Chang S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Chang S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 23
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Lung BC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lung BC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 7,
+        "endingPos": 14
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Drug",
+        "freebaseTypes": [
+          "/medicine/drug_formulation_category",
+          "/film/film_subject",
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.64149,
+        "wikiLink": "http://en.wikipedia.org/wiki/Drug",
+        "matchedText": "drug",
+        "freebaseId": "/m/02kjb_",
+        "relevanceScore": 0.191226,
+        "entityEnglishId": "Drug",
+        "startingPos": 46,
+        "endingPos": 50
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Substance abuse",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/film/film_subject",
+          "/people/cause_of_death",
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease_cause",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 1.1149,
+        "wikiLink": "http://en.wikipedia.org/wiki/Substance_abuse",
+        "matchedText": "drug usage",
+        "freebaseId": "/m/0p_cr",
+        "relevanceScore": 0.196348,
+        "entityEnglishId": "Substance abuse",
+        "startingPos": 46,
+        "endingPos": 56
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Hospital",
+        "freebaseTypes": [
+          "/architecture/structure",
+          "/fictional_universe/type_of_fictional_setting",
+          "/media_common/quotation_subject",
+          "/location/location",
+          "/architecture/building",
+          "/organization/contact_category",
+          "/book/book_subject",
+          "/medicine/hospital",
+          "/architecture/building_function"
+        ],
+        "confidenceScore": 0.988243,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hospital",
+        "matchedText": "hospital",
+        "freebaseId": "/m/0hpnr",
+        "relevanceScore": 0.183117,
+        "entityEnglishId": "Hospital",
+        "startingPos": 78,
+        "endingPos": 86
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.59166,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0608481,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 87,
+        "endingPos": 95
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Clinic",
+        "freebaseTypes": [
+          "/medicine/hospital",
+          "/architecture/structure",
+          "/architecture/building",
+          "/location/location",
+          "/architecture/building_function"
+        ],
+        "confidenceScore": 1.13381,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinic",
+        "matchedText": "clinic",
+        "freebaseId": "/m/03fk5c",
+        "relevanceScore": 0.0876592,
+        "entityEnglishId": "Clinic",
+        "startingPos": 96,
+        "endingPos": 102
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          23,
+          24,
+          25,
+          26
+        ],
+        "entityId": "Journal of Clinical Pharmacy",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Journal of Clinical Pharmacy",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 104,
+        "endingPos": 132
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Clinical pharmacy",
+        "confidenceScore": 2.84273,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_pharmacy",
+        "matchedText": "Clinical Pharmacy",
+        "freebaseId": "/m/02qcn8p",
+        "relevanceScore": 0.222487,
+        "entityEnglishId": "Clinical pharmacy",
+        "startingPos": 115,
+        "endingPos": 132
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Pharmacy",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 1.69632,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmacy",
+        "matchedText": "Pharmacy",
+        "freebaseId": "/m/01rfps",
+        "relevanceScore": 0.445803,
+        "entityEnglishId": "Pharmacy",
+        "startingPos": 124,
+        "endingPos": 132
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          26,
+          27,
+          28
+        ],
+        "entityId": "Pharmacy and Therapeutics",
+        "confidenceScore": 1.29426,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmacy_and_Therapeutics",
+        "matchedText": "Pharmacy and Therapeutics",
+        "freebaseId": "/m/09cny9",
+        "relevanceScore": 0.169241,
+        "entityEnglishId": "Pharmacy and Therapeutics",
+        "startingPos": 124,
+        "endingPos": 149
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.58864,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "Therapeutics",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.141351,
+        "entityEnglishId": "Therapy",
+        "startingPos": 137,
+        "endingPos": 149
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11,
+          12,
+          17
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          11,
+          12,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      }
+    ]
+  },
+  "time": 0.332,
+  "ok": true
+}

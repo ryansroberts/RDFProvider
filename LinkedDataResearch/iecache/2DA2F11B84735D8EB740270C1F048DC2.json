@@ -1,0 +1,421 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.479973
+      },
+      {
+        "id": 2,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.479973
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.479973
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.479973
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.334703
+      },
+      {
+        "id": 1,
+        "label": "Digestion",
+        "wikiLink": "http://en.wikipedia.org/Digestion",
+        "score": 0.441018
+      },
+      {
+        "id": 2,
+        "label": "Erythromycin",
+        "wikiLink": "http://en.wikipedia.org/Erythromycin",
+        "score": 0.406822
+      },
+      {
+        "id": 3,
+        "label": "Gastroparesis",
+        "wikiLink": "http://en.wikipedia.org/Gastroparesis",
+        "score": 0.744888
+      },
+      {
+        "id": 4,
+        "label": "Stomach",
+        "wikiLink": "http://en.wikipedia.org/Stomach",
+        "score": 0.473111
+      },
+      {
+        "id": 5,
+        "label": "Gastroenterology",
+        "wikiLink": "http://en.wikipedia.org/Category:Gastroenterology",
+        "score": 0.093816
+      },
+      {
+        "id": 6,
+        "label": "Organs",
+        "wikiLink": "http://en.wikipedia.org/Category:Organs",
+        "score": 0.093816
+      },
+      {
+        "id": 7,
+        "label": "Digestive system",
+        "wikiLink": "http://en.wikipedia.org/Category:Digestive_system",
+        "score": 0.093816
+      },
+      {
+        "id": 8,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.093816
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Desautels SG",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Desautels SG",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Hutson WR",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hutson WR",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 23
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Christian PE",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Christian PE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 25,
+        "endingPos": 37
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Stomach",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 0.97277,
+        "wikiLink": "http://en.wikipedia.org/wiki/Stomach",
+        "matchedText": "Gastric",
+        "freebaseId": "/m/09x8z",
+        "relevanceScore": 0.251055,
+        "entityEnglishId": "Stomach",
+        "startingPos": 46,
+        "endingPos": 53
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Stomach",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 2.39249,
+        "wikiLink": "http://en.wikipedia.org/wiki/Stomach",
+        "matchedText": "Gastric emptying",
+        "freebaseId": "/m/09x8z",
+        "relevanceScore": 0.222056,
+        "entityEnglishId": "Stomach",
+        "startingPos": 46,
+        "endingPos": 62
+      },
+      {
+        "id": 5,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Erythromycin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 6.93934,
+        "wikiLink": "http://en.wikipedia.org/wiki/Erythromycin",
+        "matchedText": "erythromycin",
+        "freebaseId": "/m/02r51",
+        "relevanceScore": 0.406822,
+        "entityEnglishId": "Erythromycin",
+        "startingPos": 89,
+        "endingPos": 101
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.00885,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.334703,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 112,
+        "endingPos": 120
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Gastroparesis",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 8.82527,
+        "wikiLink": "http://en.wikipedia.org/wiki/Gastroparesis",
+        "matchedText": "gastroparesis",
+        "freebaseId": "/m/02w1n2",
+        "relevanceScore": 0.744888,
+        "entityEnglishId": "Gastroparesis",
+        "startingPos": 121,
+        "endingPos": 134
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Digestion",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 0.965419,
+        "wikiLink": "http://en.wikipedia.org/wiki/Digestion",
+        "matchedText": "Digestive",
+        "freebaseId": "/m/0160x5",
+        "relevanceScore": 0.220509,
+        "entityEnglishId": "Digestion",
+        "startingPos": 136,
+        "endingPos": 145
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          23,
+          24
+        ],
+        "entityId": "Digestion",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.18331,
+        "wikiLink": "http://en.wikipedia.org/wiki/Digestion",
+        "matchedText": "Digestive Diseases",
+        "freebaseId": "/m/0160x5",
+        "relevanceScore": 0.220509,
+        "entityEnglishId": "Digestion",
+        "startingPos": 136,
+        "endingPos": 154
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 0.955546,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "Diseases",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.0751838,
+        "entityEnglishId": "Disease",
+        "startingPos": 146,
+        "endingPos": 154
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

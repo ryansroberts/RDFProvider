@@ -1,0 +1,373 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.317072
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "ACE inhibitor",
+        "wikiLink": "http://en.wikipedia.org/ACE_inhibitor",
+        "score": 0.103784
+      },
+      {
+        "id": 1,
+        "label": "Angiotensin-converting enzyme",
+        "wikiLink": "http://en.wikipedia.org/Angiotensin-converting_enzyme",
+        "score": 0.150681
+      },
+      {
+        "id": 2,
+        "label": "Enzyme",
+        "wikiLink": "http://en.wikipedia.org/Enzyme",
+        "score": 0.15734
+      },
+      {
+        "id": 3,
+        "label": "Enzyme inhibitor",
+        "wikiLink": "http://en.wikipedia.org/Enzyme_inhibitor",
+        "score": 0.351122
+      },
+      {
+        "id": 4,
+        "label": "Enzyme inhibitors",
+        "wikiLink": "http://en.wikipedia.org/Category:Enzyme_inhibitors",
+        "score": 0.0776574
+      },
+      {
+        "id": 5,
+        "label": "Biological processes",
+        "wikiLink": "http://en.wikipedia.org/Category:Biological_processes",
+        "score": 0.0743618
+      },
+      {
+        "id": 6,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0743618
+      },
+      {
+        "id": 7,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.0743618
+      },
+      {
+        "id": 8,
+        "label": "Enzymes",
+        "wikiLink": "http://en.wikipedia.org/Category:Enzymes",
+        "score": 0.0743618
+      },
+      {
+        "id": 9,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0743618
+      },
+      {
+        "id": 10,
+        "label": "Cellular processes",
+        "wikiLink": "http://en.wikipedia.org/Category:Cellular_processes",
+        "score": 0.0743618
+      },
+      {
+        "id": 11,
+        "label": "Chemical kinetics",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_kinetics",
+        "score": 0.0743618
+      },
+      {
+        "id": 12,
+        "label": "Metabolism",
+        "wikiLink": "http://en.wikipedia.org/Category:Metabolism",
+        "score": 0.0743618
+      },
+      {
+        "id": 13,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.0743618
+      },
+      {
+        "id": 14,
+        "label": "Cell biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cell_biology",
+        "score": 0.0743618
+      },
+      {
+        "id": 15,
+        "label": "Hydrolases",
+        "wikiLink": "http://en.wikipedia.org/Category:Hydrolases",
+        "score": 0.0643208
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Reardon LC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Reardon LC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Biomolecule",
+          "Enzyme"
+        ],
+        "matchingTokens": [
+          10,
+          11
+        ],
+        "entityId": "Angiotensin-converting enzyme",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 4.41934,
+        "wikiLink": "http://en.wikipedia.org/wiki/Angiotensin-converting_enzyme",
+        "matchedText": "angiotensin-converting enzyme",
+        "freebaseId": "/m/02z_36",
+        "relevanceScore": 0.150681,
+        "entityEnglishId": "Angiotensin-converting enzyme",
+        "startingPos": 65,
+        "endingPos": 94
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Enzyme",
+        "freebaseTypes": [
+          "/chemistry/chemical_classification",
+          "/book/book_subject",
+          "/biology/protein"
+        ],
+        "confidenceScore": 3.20538,
+        "wikiLink": "http://en.wikipedia.org/wiki/Enzyme",
+        "matchedText": "enzyme",
+        "freebaseId": "/m/02jgw",
+        "relevanceScore": 0.15734,
+        "entityEnglishId": "Enzyme",
+        "startingPos": 88,
+        "endingPos": 94
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          10,
+          11,
+          12
+        ],
+        "entityId": "ACE inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.73084,
+        "wikiLink": "http://en.wikipedia.org/wiki/ACE_inhibitor",
+        "matchedText": "angiotensin-converting enzyme inhibitors",
+        "freebaseId": "/m/0110z",
+        "relevanceScore": 0.103784,
+        "entityEnglishId": "ACE inhibitor",
+        "startingPos": 65,
+        "endingPos": 105
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Enzyme inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/biology/protein"
+        ],
+        "confidenceScore": 1.92127,
+        "wikiLink": "http://en.wikipedia.org/wiki/Enzyme_inhibitor",
+        "matchedText": "enzyme inhibitors",
+        "freebaseId": "/m/0dn1mq",
+        "relevanceScore": 0.0444618,
+        "entityEnglishId": "Enzyme inhibitor",
+        "startingPos": 88,
+        "endingPos": 105
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Enzyme inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/biology/protein"
+        ],
+        "confidenceScore": 1.0661,
+        "wikiLink": "http://en.wikipedia.org/wiki/Enzyme_inhibitor",
+        "matchedText": "inhibitors",
+        "freebaseId": "/m/0dn1mq",
+        "relevanceScore": 0.306661,
+        "entityEnglishId": "Enzyme inhibitor",
+        "startingPos": 95,
+        "endingPos": 105
+      },
+      {
+        "id": 6,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5,
+          6
+        ],
+        "entityId": "Macpherson DS. Hyperkalemia",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Macpherson DS. Hyperkalemia",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 43
+      },
+      {
+        "id": 7,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature"
+        ],
+        "matchingTokens": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "entityId": "JAMA Internal Medicine",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.80773,
+        "wikiLink": "http://en.wikipedia.org/wiki/JAMA_Internal_Medicine",
+        "matchedText": "Archives of Internal Medicine",
+        "freebaseId": "/m/09c5z5",
+        "relevanceScore": 0,
+        "entityEnglishId": "JAMA Internal Medicine",
+        "startingPos": 133,
+        "endingPos": 162
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          22,
+          23
+        ],
+        "entityId": "Internal medicine",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 1.97865,
+        "wikiLink": "http://en.wikipedia.org/wiki/Internal_medicine",
+        "matchedText": "Internal Medicine",
+        "freebaseId": "/m/01d3n8",
+        "relevanceScore": 0.0835,
+        "entityEnglishId": "Internal medicine",
+        "startingPos": 145,
+        "endingPos": 162
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          23
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

@@ -1,0 +1,336 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.540679
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.42478
+      },
+      {
+        "id": 3,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.390072
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.185319
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.394024
+      },
+      {
+        "id": 2,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.0181127
+      },
+      {
+        "id": 3,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.0101542
+      },
+      {
+        "id": 4,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.0101542
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Goldacre M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Goldacre M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 17,
+        "endingPos": 27
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Coles J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Coles J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 8,
+        "endingPos": 15
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Health",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Health",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 41,
+        "endingPos": 47
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.02909,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.394024,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 68,
+        "endingPos": 76
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 4.38029,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes mellitus",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.185319,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 68,
+        "endingPos": 85
+      },
+      {
+        "id": 5,
+        "type": [
+          "Agent",
+          "Organisation",
+          "GovernmentAgency"
+        ],
+        "matchingTokens": [
+          28,
+          29,
+          30
+        ],
+        "entityId": "Department of Health (United Kingdom)",
+        "freebaseTypes": [
+          "/government/government_agency",
+          "/organization/organization"
+        ],
+        "confidenceScore": 1.14601,
+        "wikiLink": "http://en.wikipedia.org/wiki/Department_of_Health_(United_Kingdom)",
+        "matchedText": "Department of Health",
+        "freebaseId": "/m/020rx0",
+        "relevanceScore": 0.0500221,
+        "entityEnglishId": "Department of Health (United Kingdom)",
+        "startingPos": 121,
+        "endingPos": 141
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Oxford",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Oxford",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 143,
+        "endingPos": 149
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "entityId": "National Centre for Health outcomes Development",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "National Centre for Health outcomes Development",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 151,
+        "endingPos": 198
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9,
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          34,
+          35,
+          36
+        ],
+        "propertyPositions": [
+          37,
+          38,
+          39,
+          41
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          21,
+          22,
+          26
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          27,
+          28,
+          29
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          21,
+          22,
+          26
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ]
+  },
+  "time": 0.321,
+  "ok": true
+}

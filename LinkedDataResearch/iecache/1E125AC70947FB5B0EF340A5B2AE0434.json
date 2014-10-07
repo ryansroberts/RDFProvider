@@ -1,0 +1,473 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.668444
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.448569
+      },
+      {
+        "id": 3,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.425551
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.276863
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.211091
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Coronary artery disease",
+        "wikiLink": "http://en.wikipedia.org/Coronary_artery_disease",
+        "score": 0.800477
+      },
+      {
+        "id": 1,
+        "label": "Disease",
+        "wikiLink": "http://en.wikipedia.org/Disease",
+        "score": 0.109392
+      },
+      {
+        "id": 2,
+        "label": "Heart",
+        "wikiLink": "http://en.wikipedia.org/Heart",
+        "score": 0.255733
+      },
+      {
+        "id": 3,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Medicine",
+        "score": 0.131189
+      },
+      {
+        "id": 4,
+        "label": "Cardiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiology",
+        "score": 0.337843
+      },
+      {
+        "id": 5,
+        "label": "Cardiovascular system",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiovascular_system",
+        "score": 0.29242
+      },
+      {
+        "id": 6,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.142632
+      },
+      {
+        "id": 7,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.134635
+      },
+      {
+        "id": 8,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.0962424
+      },
+      {
+        "id": 9,
+        "label": "Cultural spheres of influence",
+        "wikiLink": "http://en.wikipedia.org/Category:Cultural_spheres_of_influence",
+        "score": 0.0634842
+      },
+      {
+        "id": 10,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0100238
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "McInnes G",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "McInnes G",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 35
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.76688,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "British",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.0468918,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 49,
+        "endingPos": 56
+      },
+      {
+        "id": 2,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Heart",
+        "freebaseTypes": [
+          "/radio/radio_subject",
+          "/media_common/quotation_subject",
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 0.976459,
+        "wikiLink": "http://en.wikipedia.org/wiki/Heart",
+        "matchedText": "heart",
+        "freebaseId": "/m/095_n",
+        "relevanceScore": 0.127867,
+        "entityEnglishId": "Heart",
+        "startingPos": 99,
+        "endingPos": 104
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18,
+          19
+        ],
+        "entityId": "Coronary artery disease",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 5.18892,
+        "wikiLink": "http://en.wikipedia.org/wiki/Coronary_artery_disease",
+        "matchedText": "coronary heart disease",
+        "freebaseId": "/m/01s1m",
+        "relevanceScore": 0.180892,
+        "entityEnglishId": "Coronary artery disease",
+        "startingPos": 90,
+        "endingPos": 112
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Coronary artery disease",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 1.95102,
+        "wikiLink": "http://en.wikipedia.org/wiki/Coronary_artery_disease",
+        "matchedText": "heart disease",
+        "freebaseId": "/m/01s1m",
+        "relevanceScore": 0.619585,
+        "entityEnglishId": "Coronary artery disease",
+        "startingPos": 99,
+        "endingPos": 112
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.50081,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.109392,
+        "entityEnglishId": "Disease",
+        "startingPos": 105,
+        "endingPos": 112
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          21,
+          22
+        ],
+        "entityId": "Medicine",
+        "freebaseTypes": [
+          "/radio/radio_subject",
+          "/education/field_of_study",
+          "/broadcast/genre",
+          "/book/periodical_subject",
+          "/media_common/literary_genre",
+          "/film/film_subject",
+          "/media_common/quotation_subject",
+          "/organization/organization_sector",
+          "/book/book_subject",
+          "/book/magazine_genre",
+          "/award/award_discipline",
+          "/media_common/media_genre"
+        ],
+        "confidenceScore": 1.06217,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medicine",
+        "matchedText": "clinical practice",
+        "freebaseId": "/m/04sh3",
+        "relevanceScore": 0.131189,
+        "entityEnglishId": "Medicine",
+        "startingPos": 116,
+        "endingPos": 133
+      },
+      {
+        "id": 7,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Durrington P",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Durrington P",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 12,
+        "endingPos": 24
+      },
+      {
+        "id": 8,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Heart",
+        "freebaseTypes": [
+          "/radio/radio_subject",
+          "/media_common/quotation_subject",
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 0.973093,
+        "wikiLink": "http://en.wikipedia.org/wiki/Heart",
+        "matchedText": "Heart",
+        "freebaseId": "/m/095_n",
+        "relevanceScore": 0.127867,
+        "entityEnglishId": "Heart",
+        "startingPos": 135,
+        "endingPos": 140
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          13,
+          14,
+          20
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          13,
+          14,
+          20
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          13,
+          14,
+          20
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          22
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          13,
+          14,
+          20
+        ],
+        "propertyPositions": [
+          21,
+          22
+        ]
+      }
+    ]
+  },
+  "time": 0.327,
+  "ok": true
+}

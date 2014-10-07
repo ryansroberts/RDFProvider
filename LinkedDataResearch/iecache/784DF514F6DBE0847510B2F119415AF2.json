@@ -1,0 +1,350 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.529734
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.505705
+      },
+      {
+        "id": 1,
+        "label": "Pharmaceutical drug",
+        "wikiLink": "http://en.wikipedia.org/Pharmaceutical_drug",
+        "score": 0.159164
+      },
+      {
+        "id": 2,
+        "label": "Repaglinide",
+        "wikiLink": "http://en.wikipedia.org/Repaglinide",
+        "score": 0.330506
+      },
+      {
+        "id": 3,
+        "label": "Rosiglitazone",
+        "wikiLink": "http://en.wikipedia.org/Rosiglitazone",
+        "score": 0.42454
+      },
+      {
+        "id": 4,
+        "label": "Heterocyclic compounds (1 ring)",
+        "wikiLink": "http://en.wikipedia.org/Category:Heterocyclic_compounds_(1_ring)",
+        "score": 0.102221
+      },
+      {
+        "id": 5,
+        "label": "Nitrogen heterocycles",
+        "wikiLink": "http://en.wikipedia.org/Category:Nitrogen_heterocycles",
+        "score": 0.102221
+      },
+      {
+        "id": 6,
+        "label": "Phenol ethers",
+        "wikiLink": "http://en.wikipedia.org/Category:Phenol_ethers",
+        "score": 0.102221
+      },
+      {
+        "id": 7,
+        "label": "Ethers",
+        "wikiLink": "http://en.wikipedia.org/Category:Ethers",
+        "score": 0.102221
+      },
+      {
+        "id": 8,
+        "label": "Aromatic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Aromatic_compounds",
+        "score": 0.102221
+      },
+      {
+        "id": 9,
+        "label": "Amides",
+        "wikiLink": "http://en.wikipedia.org/Category:Amides",
+        "score": 0.102221
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Raskin P",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Raskin P",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "McGill J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "McGill J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 22
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Saad MF",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Saad MF",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 24,
+        "endingPos": 31
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.1474,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.474263,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 63,
+        "endingPos": 69
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15,
+          16
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.07237,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2 diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.0314423,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 63,
+        "endingPos": 78
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.70817,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0706441,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 70,
+        "endingPos": 78
+      },
+      {
+        "id": 6,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Repaglinide",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 2.47666,
+        "wikiLink": "http://en.wikipedia.org/wiki/Repaglinide",
+        "matchedText": "repaglinide",
+        "freebaseId": "/m/09_f8g",
+        "relevanceScore": 0.330506,
+        "entityEnglishId": "Repaglinide",
+        "startingPos": 80,
+        "endingPos": 91
+      },
+      {
+        "id": 7,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Rosiglitazone",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.80722,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rosiglitazone",
+        "matchedText": "rosiglitazone",
+        "freebaseId": "/m/02vn54",
+        "relevanceScore": 0.42454,
+        "entityEnglishId": "Rosiglitazone",
+        "startingPos": 97,
+        "endingPos": 110
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.41881,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "Medicine",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.159164,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 121,
+        "endingPos": 129
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

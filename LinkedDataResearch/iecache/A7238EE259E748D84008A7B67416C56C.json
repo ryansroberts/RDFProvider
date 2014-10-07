@@ -1,0 +1,406 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.995155
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.681203
+      },
+      {
+        "id": 3,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.681203
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.341489
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.339713
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cancer",
+        "wikiLink": "http://en.wikipedia.org/Cancer",
+        "score": 0.137707
+      },
+      {
+        "id": 1,
+        "label": "Hematuria",
+        "wikiLink": "http://en.wikipedia.org/Hematuria",
+        "score": 0.225739
+      },
+      {
+        "id": 2,
+        "label": "Urinary bladder",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_bladder",
+        "score": 0.055143
+      },
+      {
+        "id": 3,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.055143
+      },
+      {
+        "id": 4,
+        "label": "Organs",
+        "wikiLink": "http://en.wikipedia.org/Category:Organs",
+        "score": 0.055143
+      },
+      {
+        "id": 5,
+        "label": "Academic publishing",
+        "wikiLink": "http://en.wikipedia.org/Category:Academic_publishing",
+        "score": 0.0378926
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Britton JP",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Britton JP",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 3,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Dowell AC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Dowell AC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Hematuria",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 4.18551,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hematuria",
+        "matchedText": "haematuria",
+        "freebaseId": "/m/02sc7d",
+        "relevanceScore": 0.225739,
+        "entityEnglishId": "Hematuria",
+        "startingPos": 45,
+        "endingPos": 55
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Urinary bladder",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 0.915043,
+        "wikiLink": "http://en.wikipedia.org/wiki/Urinary_bladder",
+        "matchedText": "bladder",
+        "freebaseId": "/m/07xtz",
+        "relevanceScore": 0,
+        "entityEnglishId": "Urinary bladder",
+        "startingPos": 60,
+        "endingPos": 67
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Bladder cancer",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 4.18548,
+        "wikiLink": "http://en.wikipedia.org/wiki/Bladder_cancer",
+        "matchedText": "bladder cancer",
+        "freebaseId": "/m/01bcp7",
+        "relevanceScore": 0.0598438,
+        "entityEnglishId": "Bladder cancer",
+        "startingPos": 60,
+        "endingPos": 74
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Cancer",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/people/cause_of_death",
+          "/education/field_of_study",
+          "/medicine/disease_cause",
+          "/book/book_subject",
+          "/book/periodical_subject",
+          "/tv/tv_subject",
+          "/organization/organization_sector",
+          "/medicine/icd_9_cm_classification",
+          "/media_common/quotation_subject",
+          "/film/film_subject",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.41788,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cancer",
+        "matchedText": "cancer",
+        "freebaseId": "/m/0qcr0",
+        "relevanceScore": 0.137707,
+        "entityEnglishId": "Cancer",
+        "startingPos": 68,
+        "endingPos": 74
+      },
+      {
+        "id": 6,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8,
+          9
+        ],
+        "entityId": "Whelan P. Dipstick",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Whelan P. Dipstick",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 44
+      },
+      {
+        "id": 7,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.77918,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "British",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.0384779,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 121,
+        "endingPos": 128
+      },
+      {
+        "id": 8,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          25,
+          26,
+          27
+        ],
+        "entityId": "BMJ",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 2.53768,
+        "wikiLink": "http://en.wikipedia.org/wiki/BMJ",
+        "matchedText": "British Medical Journal",
+        "freebaseId": "/m/02n85y",
+        "relevanceScore": 0.0461112,
+        "entityEnglishId": "BMJ",
+        "startingPos": 121,
+        "endingPos": 144
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "Public health journal",
+        "confidenceScore": 2.65435,
+        "wikiLink": "http://en.wikipedia.org/wiki/Public_health_journal",
+        "matchedText": "Medical Journal",
+        "freebaseId": "/m/02n8hz",
+        "relevanceScore": 0.0372843,
+        "entityEnglishId": "Public health journal",
+        "startingPos": 129,
+        "endingPos": 144
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          14,
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          14,
+          16
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21,
+          22,
+          23
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

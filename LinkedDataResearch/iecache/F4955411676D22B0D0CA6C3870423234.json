@@ -1,0 +1,48 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          2,
+          3
+        ],
+        "entityId": "Actuarys Department",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Actuarys Department",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 34
+      },
+      {
+        "id": 1,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "http://www.gad.gov.uk/Demography_",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "http://www.gad.gov.uk/Demography_",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 63,
+        "endingPos": 96
+      }
+    ]
+  },
+  "time": 0.306,
+  "ok": true
+}

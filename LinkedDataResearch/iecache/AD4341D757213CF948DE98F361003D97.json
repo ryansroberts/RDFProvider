@@ -1,0 +1,564 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.682181
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.507249
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.465357
+      },
+      {
+        "id": 4,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.448105
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.268498
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cost-effectiveness analysis",
+        "wikiLink": "http://en.wikipedia.org/Cost-effectiveness_analysis",
+        "score": 0.427176
+      },
+      {
+        "id": 1,
+        "label": "Health economics",
+        "wikiLink": "http://en.wikipedia.org/Health_economics",
+        "score": 0.14892
+      },
+      {
+        "id": 2,
+        "label": "Percutaneous coronary intervention",
+        "wikiLink": "http://en.wikipedia.org/Percutaneous_coronary_intervention",
+        "score": 0.221581
+      },
+      {
+        "id": 3,
+        "label": "Sweden",
+        "wikiLink": "http://en.wikipedia.org/Sweden",
+        "score": 0.107741
+      },
+      {
+        "id": 4,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.38346
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.202701
+      },
+      {
+        "id": 6,
+        "label": "Medical treatments",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_treatments",
+        "score": 0.122607
+      },
+      {
+        "id": 7,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0935442
+      },
+      {
+        "id": 8,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.0935442
+      },
+      {
+        "id": 9,
+        "label": "Social issues",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_issues",
+        "score": 0.0804323
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Ringborg A",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ringborg A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Lindgren P",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lindgren P",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 26
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Jonsson B.",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Jonsson B.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 28,
+        "endingPos": 38
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Cost-effectiveness analysis",
+        "confidenceScore": 1.48399,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cost-effectiveness_analysis",
+        "matchedText": "cost-effectiveness",
+        "freebaseId": "/m/01n8zs",
+        "relevanceScore": 0.427176,
+        "entityEnglishId": "Cost-effectiveness analysis",
+        "startingPos": 43,
+        "endingPos": 61
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Antiplatelet drug",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.68934,
+        "wikiLink": "http://en.wikipedia.org/wiki/Antiplatelet_drug",
+        "matchedText": "antiplatelet",
+        "freebaseId": "/m/0187ns",
+        "relevanceScore": 0.0856449,
+        "entityEnglishId": "Antiplatelet drug",
+        "startingPos": 75,
+        "endingPos": 87
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.64488,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.0876473,
+        "entityEnglishId": "Therapy",
+        "startingPos": 88,
+        "endingPos": 95
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Percutaneous",
+        "confidenceScore": 1.63189,
+        "wikiLink": "http://en.wikipedia.org/wiki/Percutaneous",
+        "matchedText": "percutaneous",
+        "freebaseId": "/m/02jrd6",
+        "relevanceScore": 0,
+        "entityEnglishId": "Percutaneous",
+        "startingPos": 106,
+        "endingPos": 118
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18,
+          19
+        ],
+        "entityId": "Percutaneous coronary intervention",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 4.89537,
+        "wikiLink": "http://en.wikipedia.org/wiki/Percutaneous_coronary_intervention",
+        "matchedText": "percutaneous coronary intervention",
+        "freebaseId": "/m/09xlbt",
+        "relevanceScore": 0.221581,
+        "entityEnglishId": "Percutaneous coronary intervention",
+        "startingPos": 106,
+        "endingPos": 140
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Sweden",
+        "freebaseTypes": [
+          "/military/military_combatant",
+          "/government/government",
+          "/book/book_subject",
+          "/location/statistical_region",
+          "/symbols/coat_of_arms_bearer",
+          "/olympics/olympic_participating_country",
+          "/biology/breed_origin",
+          "/food/beer_country_region",
+          "/government/governmental_jurisdiction",
+          "/symbols/flag_referent",
+          "/film/film_location",
+          "/organization/organization_founder",
+          "/government/political_district",
+          "/sports/sport_country",
+          "/location/location",
+          "/location/dated_location",
+          "/periodicals/newspaper_circulation_area",
+          "/fictional_universe/fictional_setting",
+          "/travel/travel_destination",
+          "/sports/sports_team_location",
+          "/royalty/kingdom",
+          "/organization/organization_member",
+          "/organization/organization_scope",
+          "/location/country",
+          "/business/employer"
+        ],
+        "confidenceScore": 2.23488,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sweden",
+        "matchedText": "Swedish",
+        "freebaseId": "/m/0d0vqn",
+        "relevanceScore": 0.107741,
+        "entityEnglishId": "Sweden",
+        "startingPos": 144,
+        "endingPos": 151
+      },
+      {
+        "id": 9,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "CREDO",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "CREDO",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 168,
+        "endingPos": 173
+      },
+      {
+        "id": 10,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          29,
+          30,
+          31,
+          32,
+          33
+        ],
+        "entityId": "European Journal of Health Economics",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "European Journal of Health Economics",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 181,
+        "endingPos": 217
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          32,
+          33
+        ],
+        "entityId": "Health economics",
+        "confidenceScore": 2.12708,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_economics",
+        "matchedText": "Health Economics",
+        "freebaseId": "/m/01ncd3",
+        "relevanceScore": 0.14892,
+        "entityEnglishId": "Health economics",
+        "startingPos": 201,
+        "endingPos": 217
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Economics",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/media_common/media_genre",
+          "/media_common/literary_genre",
+          "/education/school_category",
+          "/organization/organization_sector",
+          "/book/periodical_subject",
+          "/radio/radio_subject",
+          "/education/department",
+          "/internet/website_category",
+          "/award/award_discipline",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.97492,
+        "wikiLink": "http://en.wikipedia.org/wiki/Economics",
+        "matchedText": "Economics",
+        "freebaseId": "/m/02j62",
+        "relevanceScore": 0.0955477,
+        "entityEnglishId": "Economics",
+        "startingPos": 208,
+        "endingPos": 217
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          30,
+          31
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          30,
+          31
+        ],
+        "propertyPositions": [
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          21,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          21,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      }
+    ]
+  },
+  "time": 0.328,
+  "ok": true
+}

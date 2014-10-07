@@ -1,0 +1,252 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.482973
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Hemodialysis",
+        "wikiLink": "http://en.wikipedia.org/Hemodialysis",
+        "score": 0.212466
+      },
+      {
+        "id": 1,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Nephrology",
+        "score": 0.411733
+      },
+      {
+        "id": 2,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0971726
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Husserl FE",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Husserl FE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 17,
+        "endingPos": 27
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Ross JL",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ross JL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 29,
+        "endingPos": 36
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Hemodialysis",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.32952,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hemodialysis",
+        "matchedText": "vascular access",
+        "freebaseId": "/m/02t3n5",
+        "relevanceScore": 0.212466,
+        "entityEnglishId": "Hemodialysis",
+        "startingPos": 98,
+        "endingPos": 113
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Lindberg JS",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lindberg JS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 15
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Nephrology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 4.2806,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephrology",
+        "matchedText": "Nephrology",
+        "freebaseId": "/m/05jd4",
+        "relevanceScore": 0.411733,
+        "entityEnglishId": "Nephrology",
+        "startingPos": 125,
+        "endingPos": 135
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          18
+        ],
+        "propertyPositions": [
+          13,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

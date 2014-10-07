@@ -1,0 +1,435 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.499989
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.499989
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.499989
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.450794
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.450794
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Copenhagen",
+        "wikiLink": "http://en.wikipedia.org/Copenhagen",
+        "score": 0.125362
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.246912
+      },
+      {
+        "id": 2,
+        "label": "World Health Organization",
+        "wikiLink": "http://en.wikipedia.org/World_Health_Organization",
+        "score": 0.544823
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          0,
+          1,
+          2
+        ],
+        "entityId": "World Health Organization",
+        "freebaseTypes": [
+          "/award/award_winner",
+          "/organization/organization",
+          "/organization/membership_organization",
+          "/business/employer",
+          "/award/ranked_list_compiler",
+          "/book/author"
+        ],
+        "confidenceScore": 6.89958,
+        "wikiLink": "http://en.wikipedia.org/wiki/World_Health_Organization",
+        "matchedText": "World Health Organisation",
+        "freebaseId": "/m/0840w",
+        "relevanceScore": 0.272412,
+        "entityEnglishId": "World Health Organization",
+        "startingPos": 0,
+        "endingPos": 25
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.07837,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.246912,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 27,
+        "endingPos": 35
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Research",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/education/field_of_study",
+          "/education/school_category",
+          "/book/book_subject",
+          "/architecture/building_function",
+          "/book/periodical_subject",
+          "/business/industry",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 0.947007,
+        "wikiLink": "http://en.wikipedia.org/wiki/Research",
+        "matchedText": "research",
+        "freebaseId": "/m/06cs1",
+        "relevanceScore": 0.0858496,
+        "entityEnglishId": "Research",
+        "startingPos": 45,
+        "endingPos": 53
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Continent"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Europe",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/biology/breed_origin",
+          "/fictional_universe/fictional_setting",
+          "/location/region",
+          "/symbols/name_source",
+          "/location/statistical_region",
+          "/periodicals/newspaper_circulation_area",
+          "/meteorology/forecast_zone",
+          "/location/location",
+          "/organization/organization_scope",
+          "/location/dated_location",
+          "/cvg/computer_game_region",
+          "/meteorology/cyclone_affected_area",
+          "/location/continent",
+          "/symbols/namesake"
+        ],
+        "confidenceScore": 1.036,
+        "wikiLink": "http://en.wikipedia.org/wiki/Europe",
+        "matchedText": "Europe",
+        "freebaseId": "/m/02j9z",
+        "relevanceScore": 0.0433134,
+        "entityEnglishId": "Europe",
+        "startingPos": 57,
+        "endingPos": 63
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "entityId": "Vincent Declaration Action Programme",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Vincent Declaration Action Programme",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 72,
+        "endingPos": 108
+      },
+      {
+        "id": 5,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "Krans HMJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Krans HMJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 148,
+        "endingPos": 157
+      },
+      {
+        "id": 6,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          27,
+          28
+        ],
+        "entityId": "Porta M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Porta M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 159,
+        "endingPos": 166
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          33,
+          34,
+          35
+        ],
+        "entityId": "Staehr Johansen K",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Staehr Johansen K",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 176,
+        "endingPos": 193
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          40
+        ],
+        "entityId": "Copenhagen",
+        "freebaseTypes": [
+          "/location/citytown",
+          "/film/film_location",
+          "/symbols/name_source",
+          "/location/statistical_region",
+          "/sports/sports_team_location",
+          "/travel/travel_destination",
+          "/film/film_subject",
+          "/location/dated_location",
+          "/location/location",
+          "/periodicals/newspaper_circulation_area",
+          "/location/administrative_division",
+          "/location/place_with_neighborhoods"
+        ],
+        "confidenceScore": 2.1331,
+        "wikiLink": "http://en.wikipedia.org/wiki/Copenhagen",
+        "matchedText": "Copenhagen",
+        "freebaseId": "/m/01lfy",
+        "relevanceScore": 0.125362,
+        "entityEnglishId": "Copenhagen",
+        "startingPos": 201,
+        "endingPos": 211
+      },
+      {
+        "id": 9,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          42,
+          43,
+          44
+        ],
+        "entityId": "World Health Organization",
+        "freebaseTypes": [
+          "/award/award_winner",
+          "/organization/organization",
+          "/organization/membership_organization",
+          "/business/employer",
+          "/award/ranked_list_compiler",
+          "/book/author"
+        ],
+        "confidenceScore": 6.89958,
+        "wikiLink": "http://en.wikipedia.org/wiki/World_Health_Organization",
+        "matchedText": "World Health Organisation",
+        "freebaseId": "/m/0840w",
+        "relevanceScore": 0.272412,
+        "entityEnglishId": "World Health Organization",
+        "startingPos": 213,
+        "endingPos": 238
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          42,
+          43,
+          44
+        ],
+        "propertyPositions": [
+          46
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          31
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          30,
+          31
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          30,
+          31
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          33,
+          34,
+          35
+        ],
+        "propertyPositions": [
+          37
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          20,
+          21
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          4,
+          5,
+          8
+        ],
+        "propertyPositions": [
+          9
+        ]
+      }
+    ]
+  },
+  "time": 0.328,
+  "ok": true
+}

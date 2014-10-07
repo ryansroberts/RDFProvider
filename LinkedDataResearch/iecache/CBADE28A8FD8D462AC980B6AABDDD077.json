@@ -1,0 +1,609 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.502313
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.435089
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.337261
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.261348
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.231389
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Clinical trial",
+        "wikiLink": "http://en.wikipedia.org/Clinical_trial",
+        "score": 0.761236
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.222498
+      },
+      {
+        "id": 2,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.762696
+      },
+      {
+        "id": 3,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.194101
+      },
+      {
+        "id": 4,
+        "label": "Pioglitazone",
+        "wikiLink": "http://en.wikipedia.org/Pioglitazone",
+        "score": 1
+      },
+      {
+        "id": 5,
+        "label": "Stroke",
+        "wikiLink": "http://en.wikipedia.org/Stroke",
+        "score": 0.686632
+      },
+      {
+        "id": 6,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.255128
+      },
+      {
+        "id": 7,
+        "label": "Senescence",
+        "wikiLink": "http://en.wikipedia.org/Category:Senescence",
+        "score": 0.235576
+      },
+      {
+        "id": 8,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.232735
+      },
+      {
+        "id": 9,
+        "label": "Aging-associated diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Aging-associated_diseases",
+        "score": 0.232593
+      },
+      {
+        "id": 10,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.206184
+      },
+      {
+        "id": 11,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.182672
+      },
+      {
+        "id": 12,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.160765
+      },
+      {
+        "id": 13,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.135083
+      },
+      {
+        "id": 14,
+        "label": "Nursing",
+        "wikiLink": "http://en.wikipedia.org/Category:Nursing",
+        "score": 0.113858
+      },
+      {
+        "id": 15,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.0302655
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Wilcox R",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wilcox R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Bousser MG",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bousser MG",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Betteridge DJ",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Betteridge DJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 39
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Pioglitazone",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 6.7795,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pioglitazone",
+        "matchedText": "pioglitazone",
+        "freebaseId": "/m/02vycf",
+        "relevanceScore": 0.692871,
+        "entityEnglishId": "Pioglitazone",
+        "startingPos": 58,
+        "endingPos": 70
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.67132,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.194101,
+        "entityEnglishId": "Patient",
+        "startingPos": 74,
+        "endingPos": 82
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.36431,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.60485,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 88,
+        "endingPos": 94
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18,
+          19
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 5.60473,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2 diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.157847,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 88,
+        "endingPos": 103
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 3.06511,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.222498,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 95,
+        "endingPos": 103
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Stroke",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/risk_factor",
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.89924,
+        "wikiLink": "http://en.wikipedia.org/wiki/Stroke",
+        "matchedText": "stroke",
+        "freebaseId": "/m/02y0js",
+        "relevanceScore": 0.343316,
+        "entityEnglishId": "Stroke",
+        "startingPos": 129,
+        "endingPos": 135
+      },
+      {
+        "id": 9,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Pioglitazone",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 6.7795,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pioglitazone",
+        "matchedText": "pioglitAzone",
+        "freebaseId": "/m/02vycf",
+        "relevanceScore": 0.692871,
+        "entityEnglishId": "Pioglitazone",
+        "startingPos": 173,
+        "endingPos": 185
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Clinical trial",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/law/invention"
+        ],
+        "confidenceScore": 1.02679,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_trial",
+        "matchedText": "Clinical",
+        "freebaseId": "/m/01k22z",
+        "relevanceScore": 0.495801,
+        "entityEnglishId": "Clinical trial",
+        "startingPos": 186,
+        "endingPos": 194
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          32,
+          33
+        ],
+        "entityId": "Clinical trial",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/law/invention"
+        ],
+        "confidenceScore": 4.90456,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_trial",
+        "matchedText": "Clinical Trial",
+        "freebaseId": "/m/01k22z",
+        "relevanceScore": 0.265434,
+        "entityEnglishId": "Clinical trial",
+        "startingPos": 186,
+        "endingPos": 200
+      },
+      {
+        "id": 12,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          40
+        ],
+        "entityId": "Stroke",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/risk_factor",
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.48777,
+        "wikiLink": "http://en.wikipedia.org/wiki/Stroke",
+        "matchedText": "Stroke",
+        "freebaseId": "/m/02y0js",
+        "relevanceScore": 0.343316,
+        "entityEnglishId": "Stroke",
+        "startingPos": 230,
+        "endingPos": 236
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          31,
+          33,
+          34
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          31,
+          33,
+          34
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          31,
+          33,
+          34
+        ],
+        "propertyPositions": [
+          32
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          36
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          31,
+          33,
+          34
+        ],
+        "propertyPositions": [
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          26,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          16
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          24
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          16
+        ],
+        "propertyPositions": [
+          23,
+          24
+        ]
+      }
+    ]
+  },
+  "time": 0.334,
+  "ok": true
+}

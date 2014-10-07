@@ -1,0 +1,337 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.357229
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Metabolism",
+        "wikiLink": "http://en.wikipedia.org/Category:Metabolism",
+        "score": 0.0592172
+      },
+      {
+        "id": 1,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0506284
+      },
+      {
+        "id": 2,
+        "label": "Genetics",
+        "wikiLink": "http://en.wikipedia.org/Category:Genetics",
+        "score": 0.0506284
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Mallamaci F",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Mallamaci F",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Zuccala A",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Zuccala A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 22
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Zoccali C",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Zoccali C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 24,
+        "endingPos": 33
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Deletion (genetics)",
+        "freebaseTypes": [
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 2.1888,
+        "wikiLink": "http://en.wikipedia.org/wiki/Deletion_(genetics)",
+        "matchedText": "deletion",
+        "freebaseId": "/m/01khpy",
+        "relevanceScore": 0,
+        "entityEnglishId": "Deletion (genetics)",
+        "startingPos": 46,
+        "endingPos": 54
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Polymorphism (biology)",
+        "freebaseTypes": [
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 1.60013,
+        "wikiLink": "http://en.wikipedia.org/wiki/Polymorphism_(biology)",
+        "matchedText": "polymorphism",
+        "freebaseId": "/m/02hq8h",
+        "relevanceScore": 0,
+        "entityEnglishId": "Polymorphism (biology)",
+        "startingPos": 55,
+        "endingPos": 67
+      },
+      {
+        "id": 5,
+        "type": [
+          "Biomolecule",
+          "Enzyme"
+        ],
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Angiotensin-converting enzyme",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 3.81501,
+        "wikiLink": "http://en.wikipedia.org/wiki/Angiotensin-converting_enzyme",
+        "matchedText": "angiotensin-converting enzyme",
+        "freebaseId": "/m/02z_36",
+        "relevanceScore": 0,
+        "entityEnglishId": "Angiotensin-converting enzyme",
+        "startingPos": 75,
+        "endingPos": 104
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Enzyme",
+        "freebaseTypes": [
+          "/chemistry/chemical_classification",
+          "/book/book_subject",
+          "/biology/protein"
+        ],
+        "confidenceScore": 3.22835,
+        "wikiLink": "http://en.wikipedia.org/wiki/Enzyme",
+        "matchedText": "enzyme",
+        "freebaseId": "/m/02jgw",
+        "relevanceScore": 0.0118746,
+        "entityEnglishId": "Enzyme",
+        "startingPos": 98,
+        "endingPos": 104
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          23,
+          24,
+          25,
+          26
+        ],
+        "entityId": "American Journal of Hypertension",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "American Journal of Hypertension",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 146,
+        "endingPos": 178
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Hypertension",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.05217,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypertension",
+        "matchedText": "Hypertension",
+        "freebaseId": "/m/0k95h",
+        "relevanceScore": 0.0570815,
+        "entityEnglishId": "Hypertension",
+        "startingPos": 166,
+        "endingPos": 178
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          18,
+          19,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              21
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          23,
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          15,
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          11,
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

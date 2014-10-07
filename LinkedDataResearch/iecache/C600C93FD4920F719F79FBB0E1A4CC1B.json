@@ -1,0 +1,229 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Bush WH",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bush WH",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Choyke BL",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Choyke BL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 22
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Bluth RI",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bluth RI",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 24,
+        "endingPos": 32
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Casalino",
+        "freebaseTypes": [
+          "/film/film_location",
+          "/location/location",
+          "/location/statistical_region",
+          "/location/dated_location",
+          "/location/citytown"
+        ],
+        "confidenceScore": 2.07435,
+        "wikiLink": "http://en.wikipedia.org/wiki/Casalino",
+        "matchedText": "Casalino",
+        "freebaseId": "/m/0g8spx",
+        "relevanceScore": 0,
+        "entityEnglishId": "Casalino",
+        "startingPos": 34,
+        "endingPos": 42
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Renal",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Renal",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 47,
+        "endingPos": 52
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Renal failure",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 3.68413,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_failure",
+        "matchedText": "Renal failure",
+        "freebaseId": "/m/01psyx",
+        "relevanceScore": 0,
+        "entityEnglishId": "Renal failure",
+        "startingPos": 47,
+        "endingPos": 60
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "entityId": "National Guidelines Clearing House",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "National Guidelines Clearing House",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 62,
+        "endingPos": 96
+      },
+      {
+        "id": 7,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "www.guideline.gov",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "www.guideline.gov",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 104,
+        "endingPos": 121
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  "time": 0.308,
+  "ok": true
+}

@@ -1,0 +1,394 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.449837
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.437672
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.397029
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes management",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_management",
+        "score": 0.451864
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.223133
+      },
+      {
+        "id": 2,
+        "label": "Duloxetine",
+        "wikiLink": "http://en.wikipedia.org/Duloxetine",
+        "score": 0.464882
+      },
+      {
+        "id": 3,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Pain",
+        "score": 0.391596
+      },
+      {
+        "id": 4,
+        "label": "Peripheral neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Peripheral_neuropathy",
+        "score": 0.46395
+      },
+      {
+        "id": 5,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.00210118
+      },
+      {
+        "id": 6,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.00210118
+      },
+      {
+        "id": 7,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.00210118
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Hardy T",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hardy T",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Sachson R",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Sachson R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 22
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Shen S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Shen S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 24,
+        "endingPos": 30
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Duloxetine",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 6.71316,
+        "wikiLink": "http://en.wikipedia.org/wiki/Duloxetine",
+        "matchedText": "duloxetine",
+        "freebaseId": "/m/02qr8l",
+        "relevanceScore": 0.464882,
+        "entityEnglishId": "Duloxetine",
+        "startingPos": 58,
+        "endingPos": 68
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Peripheral neuropathy",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.63828,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peripheral_neuropathy",
+        "matchedText": "neuropathic",
+        "freebaseId": "/m/02w1fx",
+        "relevanceScore": 0.46395,
+        "entityEnglishId": "Peripheral neuropathy",
+        "startingPos": 73,
+        "endingPos": 84
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.35,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "neuropathic pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.13401,
+        "entityEnglishId": "Pain",
+        "startingPos": 73,
+        "endingPos": 89
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.5446,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.257586,
+        "entityEnglishId": "Pain",
+        "startingPos": 85,
+        "endingPos": 89
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Diabetes management",
+        "confidenceScore": 5.64828,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_management",
+        "matchedText": "glycemic control",
+        "freebaseId": "/m/08gmh7",
+        "relevanceScore": 0.451864,
+        "entityEnglishId": "Diabetes management",
+        "startingPos": 97,
+        "endingPos": 113
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.05459,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.223133,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 115,
+        "endingPos": 123
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          11,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              12,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

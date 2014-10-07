@@ -1,0 +1,241 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.657632
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.657632
+      },
+      {
+        "id": 3,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.657632
+      },
+      {
+        "id": 4,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.328816
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.328816
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology_by_type",
+        "score": 0.310991
+      },
+      {
+        "id": 1,
+        "label": "Engineering",
+        "wikiLink": "http://en.wikipedia.org/Category:Engineering",
+        "score": 0.0443239
+      },
+      {
+        "id": 2,
+        "label": "Works",
+        "wikiLink": "http://en.wikipedia.org/Category:Works_by_topic",
+        "score": 0.0333333
+      },
+      {
+        "id": 3,
+        "label": "Change management",
+        "wikiLink": "http://en.wikipedia.org/Category:Change_management",
+        "score": 0.0333333
+      },
+      {
+        "id": 4,
+        "label": "Impact assessment",
+        "wikiLink": "http://en.wikipedia.org/Category:Impact_assessment",
+        "score": 0.0333333
+      },
+      {
+        "id": 5,
+        "label": "Technology assessment",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology_assessment",
+        "score": 0.0333333
+      },
+      {
+        "id": 6,
+        "label": "Evaluation",
+        "wikiLink": "http://en.wikipedia.org/Category:Evaluation",
+        "score": 0.0333333
+      },
+      {
+        "id": 7,
+        "label": "Development",
+        "wikiLink": "http://en.wikipedia.org/Category:Development",
+        "score": 0.0333333
+      },
+      {
+        "id": 8,
+        "label": "Prediction",
+        "wikiLink": "http://en.wikipedia.org/Category:Prediction",
+        "score": 0.0333333
+      },
+      {
+        "id": 9,
+        "label": "Postmodern theory",
+        "wikiLink": "http://en.wikipedia.org/Category:Postmodern_theory",
+        "score": 0.0333333
+      },
+      {
+        "id": 10,
+        "label": "Management",
+        "wikiLink": "http://en.wikipedia.org/Category:Management",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4,
+          5
+        ],
+        "entityId": "Mason J. How",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Mason J. How",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 22
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Eccles M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Eccles M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Technology",
+        "freebaseTypes": [
+          "/book/periodical_subject",
+          "/exhibitions/exhibition_subject",
+          "/film/film_subject",
+          "/media_common/media_genre",
+          "/tv/tv_subject",
+          "/book/book_subject",
+          "/conferences/conference_subject",
+          "/media_common/literary_genre",
+          "/organization/organization_sector",
+          "/education/field_of_study",
+          "/business/industry",
+          "/media_common/netflix_genre",
+          "/media_common/quotation_subject",
+          "/award/award_discipline",
+          "/internet/website_category",
+          "/broadcast/genre",
+          "/people/professional_field"
+        ],
+        "confidenceScore": 1.25386,
+        "wikiLink": "http://en.wikipedia.org/wiki/Technology",
+        "matchedText": "Technology",
+        "freebaseId": "/m/07c1v",
+        "relevanceScore": 0.0386197,
+        "entityEnglishId": "Technology",
+        "startingPos": 68,
+        "endingPos": 78
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          11,
+          12,
+          13
+        ],
+        "entityId": "Health technology assessment",
+        "confidenceScore": 2.01909,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_technology_assessment",
+        "matchedText": "Health Technology Assessment",
+        "freebaseId": "/m/05szz0f",
+        "relevanceScore": 0,
+        "entityEnglishId": "Health technology assessment",
+        "startingPos": 61,
+        "endingPos": 89
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Technology assessment",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/people/profession"
+        ],
+        "confidenceScore": 1.51593,
+        "wikiLink": "http://en.wikipedia.org/wiki/Technology_assessment",
+        "matchedText": "Technology Assessment",
+        "freebaseId": "/m/0jsvg",
+        "relevanceScore": 0.051482,
+        "entityEnglishId": "Technology assessment",
+        "startingPos": 68,
+        "endingPos": 89
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          9
+        ],
+        "propertyPositions": [
+          8
+        ]
+      }
+    ]
+  },
+  "time": 0.312,
+  "ok": true
+}

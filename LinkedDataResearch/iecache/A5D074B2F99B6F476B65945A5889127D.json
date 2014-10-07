@@ -1,0 +1,372 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.777147
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.434034
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.42222
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.406389
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.394575
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Meta-analysis",
+        "wikiLink": "http://en.wikipedia.org/Meta-analysis",
+        "score": 0.148626
+      },
+      {
+        "id": 2,
+        "label": "Sociology",
+        "wikiLink": "http://en.wikipedia.org/Category:Sociology",
+        "score": 0.0741477
+      },
+      {
+        "id": 3,
+        "label": "Evidence-based practices",
+        "wikiLink": "http://en.wikipedia.org/Category:Evidence-based_practices",
+        "score": 0.0741477
+      },
+      {
+        "id": 4,
+        "label": "Statistical data types",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistical_data_types",
+        "score": 0.0741477
+      },
+      {
+        "id": 5,
+        "label": "Epidemiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Epidemiology",
+        "score": 0.0741477
+      },
+      {
+        "id": 6,
+        "label": "Mathematical and theoretical biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematical_and_theoretical_biology",
+        "score": 0.0741477
+      },
+      {
+        "id": 7,
+        "label": "Fields of application of statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_application_of_statistics",
+        "score": 0.0741477
+      },
+      {
+        "id": 8,
+        "label": "Biostatistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Biostatistics",
+        "score": 0.0741477
+      },
+      {
+        "id": 9,
+        "label": "Philosophy",
+        "wikiLink": "http://en.wikipedia.org/Category:Philosophy_by_period",
+        "score": 0.0741477
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Kasiske BL",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kasiske BL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 36
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Orchard TJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Orchard TJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Lipid",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/food/nutrient"
+        ],
+        "confidenceScore": 2.63458,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lipid",
+        "matchedText": "lipid",
+        "freebaseId": "/m/04k8n",
+        "relevanceScore": 0.055238,
+        "entityEnglishId": "Lipid",
+        "startingPos": 48,
+        "endingPos": 53
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.05852,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.456141,
+        "entityEnglishId": "Kidney",
+        "startingPos": 86,
+        "endingPos": 91
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.18148,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal disease",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.385217,
+        "entityEnglishId": "Kidney",
+        "startingPos": 86,
+        "endingPos": 99
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.59915,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.040608,
+        "entityEnglishId": "Disease",
+        "startingPos": 92,
+        "endingPos": 99
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          22,
+          23,
+          24
+        ],
+        "entityId": "Meta-analysis",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.14197,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meta-analysis",
+        "matchedText": "meta- analysis",
+        "freebaseId": "/m/0gvjk",
+        "relevanceScore": 0.148626,
+        "entityEnglishId": "Meta-analysis",
+        "startingPos": 103,
+        "endingPos": 117
+      },
+      {
+        "id": 7,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.36106,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.468451,
+        "entityEnglishId": "Kidney",
+        "startingPos": 119,
+        "endingPos": 125
+      },
+      {
+        "id": 8,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "Kidney International",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kidney International",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 119,
+        "endingPos": 139
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          21,
+          24
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          10,
+          11,
+          14
+        ],
+        "propertyPositions": [
+          12,
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          15,
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          10,
+          11,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

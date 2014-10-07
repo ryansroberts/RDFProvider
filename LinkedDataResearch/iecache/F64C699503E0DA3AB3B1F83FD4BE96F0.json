@@ -1,0 +1,163 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.5
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetologia",
+        "wikiLink": "http://en.wikipedia.org/Diabetologia",
+        "score": 0.132285
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "McCulloch DK",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "McCulloch DK",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 16
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Campbell IW",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Campbell IW",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 18,
+        "endingPos": 29
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Erectile dysfunction",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 1.49708,
+        "wikiLink": "http://en.wikipedia.org/wiki/Erectile_dysfunction",
+        "matchedText": "impotence",
+        "freebaseId": "/m/03tkm",
+        "relevanceScore": 0.0930332,
+        "entityEnglishId": "Erectile dysfunction",
+        "startingPos": 71,
+        "endingPos": 80
+      },
+      {
+        "id": 3,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Diabetologia",
+        "confidenceScore": 1.63162,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetologia",
+        "matchedText": "Diabetologia",
+        "freebaseId": "/m/0cmbmrs",
+        "relevanceScore": 0.132285,
+        "entityEnglishId": "Diabetologia",
+        "startingPos": 82,
+        "endingPos": 94
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

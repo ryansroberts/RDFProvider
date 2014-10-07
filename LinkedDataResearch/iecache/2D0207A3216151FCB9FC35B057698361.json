@@ -1,0 +1,418 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.977953
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.901321
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.486517
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.486517
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.459849
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.688474
+      },
+      {
+        "id": 1,
+        "label": "Europe",
+        "wikiLink": "http://en.wikipedia.org/Europe",
+        "score": 0.194195
+      },
+      {
+        "id": 2,
+        "label": "Federation",
+        "wikiLink": "http://en.wikipedia.org/Federation",
+        "score": 0.148964
+      },
+      {
+        "id": 3,
+        "label": "International Diabetes Federation",
+        "wikiLink": "http://en.wikipedia.org/International_Diabetes_Federation",
+        "score": 0.201119
+      },
+      {
+        "id": 4,
+        "label": "World Health Organization",
+        "wikiLink": "http://en.wikipedia.org/World_Health_Organization",
+        "score": 0.275197
+      },
+      {
+        "id": 5,
+        "label": "Medical and health organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_and_health_organizations",
+        "score": 0.117502
+      },
+      {
+        "id": 6,
+        "label": "Places",
+        "wikiLink": "http://en.wikipedia.org/Category:Places",
+        "score": 0.0691147
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          0,
+          1,
+          2
+        ],
+        "entityId": "World Health Organization",
+        "freebaseTypes": [
+          "/award/award_winner",
+          "/organization/organization",
+          "/organization/membership_organization",
+          "/business/employer",
+          "/award/ranked_list_compiler",
+          "/book/author"
+        ],
+        "confidenceScore": 7.28479,
+        "wikiLink": "http://en.wikipedia.org/wiki/World_Health_Organization",
+        "matchedText": "World Health Organisation",
+        "freebaseId": "/m/0840w",
+        "relevanceScore": 0.275197,
+        "entityEnglishId": "World Health Organization",
+        "startingPos": 0,
+        "endingPos": 25
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Continent"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Europe",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/biology/breed_origin",
+          "/fictional_universe/fictional_setting",
+          "/location/region",
+          "/symbols/name_source",
+          "/location/statistical_region",
+          "/periodicals/newspaper_circulation_area",
+          "/meteorology/forecast_zone",
+          "/location/location",
+          "/organization/organization_scope",
+          "/location/dated_location",
+          "/cvg/computer_game_region",
+          "/meteorology/cyclone_affected_area",
+          "/location/continent",
+          "/symbols/namesake"
+        ],
+        "confidenceScore": 1.0459,
+        "wikiLink": "http://en.wikipedia.org/wiki/Europe",
+        "matchedText": "Europe",
+        "freebaseId": "/m/02j9z",
+        "relevanceScore": 0.0647318,
+        "entityEnglishId": "Europe",
+        "startingPos": 27,
+        "endingPos": 33
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.68022,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.229491,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 53,
+        "endingPos": 61
+      },
+      {
+        "id": 3,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          7,
+          8,
+          9
+        ],
+        "entityId": "International Diabetes Federation",
+        "freebaseTypes": [
+          "/business/employer",
+          "/organization/organization"
+        ],
+        "confidenceScore": 3.24886,
+        "wikiLink": "http://en.wikipedia.org/wiki/International_Diabetes_Federation",
+        "matchedText": "International Diabetes Federation",
+        "freebaseId": "/m/0ft2gc",
+        "relevanceScore": 0.201119,
+        "entityEnglishId": "International Diabetes Federation",
+        "startingPos": 39,
+        "endingPos": 72
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Federation",
+        "freebaseTypes": [
+          "/government/form_of_government"
+        ],
+        "confidenceScore": 0.987695,
+        "wikiLink": "http://en.wikipedia.org/wiki/Federation",
+        "matchedText": "Federation",
+        "freebaseId": "/m/014j8_",
+        "relevanceScore": 0.148964,
+        "entityEnglishId": "Federation",
+        "startingPos": 62,
+        "endingPos": 72
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Continent"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Europe",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/biology/breed_origin",
+          "/fictional_universe/fictional_setting",
+          "/location/region",
+          "/symbols/name_source",
+          "/location/statistical_region",
+          "/periodicals/newspaper_circulation_area",
+          "/meteorology/forecast_zone",
+          "/location/location",
+          "/organization/organization_scope",
+          "/location/dated_location",
+          "/cvg/computer_game_region",
+          "/meteorology/cyclone_affected_area",
+          "/location/continent",
+          "/symbols/namesake"
+        ],
+        "confidenceScore": 1.0459,
+        "wikiLink": "http://en.wikipedia.org/wiki/Europe",
+        "matchedText": "Europe",
+        "freebaseId": "/m/02j9z",
+        "relevanceScore": 0.0647318,
+        "entityEnglishId": "Europe",
+        "startingPos": 74,
+        "endingPos": 80
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.68022,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.229491,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 89,
+        "endingPos": 97
+      },
+      {
+        "id": 7,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Continent"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Europe",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/biology/breed_origin",
+          "/fictional_universe/fictional_setting",
+          "/location/region",
+          "/symbols/name_source",
+          "/location/statistical_region",
+          "/periodicals/newspaper_circulation_area",
+          "/meteorology/forecast_zone",
+          "/location/location",
+          "/organization/organization_scope",
+          "/location/dated_location",
+          "/cvg/computer_game_region",
+          "/meteorology/cyclone_affected_area",
+          "/location/continent",
+          "/symbols/namesake"
+        ],
+        "confidenceScore": 1.0459,
+        "wikiLink": "http://en.wikipedia.org/wiki/Europe",
+        "matchedText": "Europe",
+        "freebaseId": "/m/02j9z",
+        "relevanceScore": 0.0647318,
+        "entityEnglishId": "Europe",
+        "startingPos": 119,
+        "endingPos": 125
+      },
+      {
+        "id": 8,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Vincent Declaration",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Vincent Declaration",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 134,
+        "endingPos": 153
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.31269,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.229491,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 155,
+        "endingPos": 163
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          29
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.323,
+  "ok": true
+}

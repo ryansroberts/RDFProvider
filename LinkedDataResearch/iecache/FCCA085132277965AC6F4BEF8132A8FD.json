@@ -1,0 +1,495 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.50307
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.50307
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.50307
+      },
+      {
+        "id": 4,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.49693
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.248465
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Glomerulus",
+        "wikiLink": "http://en.wikipedia.org/Glomerulus",
+        "score": 0.369028
+      },
+      {
+        "id": 1,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.458218
+      },
+      {
+        "id": 2,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.3305
+      },
+      {
+        "id": 3,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.306591
+      },
+      {
+        "id": 4,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.0925887
+      },
+      {
+        "id": 5,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.0925887
+      },
+      {
+        "id": 6,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0925887
+      },
+      {
+        "id": 7,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.0925887
+      },
+      {
+        "id": 8,
+        "label": "Euthenics",
+        "wikiLink": "http://en.wikipedia.org/Category:Euthenics",
+        "score": 0.0399241
+      },
+      {
+        "id": 9,
+        "label": "Physical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Physical_sciences",
+        "score": 0.0399241
+      },
+      {
+        "id": 10,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.0399241
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Preiss DJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Preiss DJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 3,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Godber IM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Godber IM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 23
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Lamb EJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lamb EJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 25,
+        "endingPos": 32
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Meal",
+        "freebaseTypes": [
+          "/food/type_of_dish"
+        ],
+        "confidenceScore": 0.950796,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meal",
+        "matchedText": "meal",
+        "freebaseId": "/m/0krfg",
+        "relevanceScore": 0,
+        "entityEnglishId": "Meal",
+        "startingPos": 71,
+        "endingPos": 75
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Glomerulus",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 2.47641,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glomerulus",
+        "matchedText": "glomerular",
+        "freebaseId": "/m/02_dbc",
+        "relevanceScore": 0.369028,
+        "entityEnglishId": "Glomerulus",
+        "startingPos": 89,
+        "endingPos": 99
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.29471,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "glomerular filtration",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.222598,
+        "entityEnglishId": "Renal function",
+        "startingPos": 89,
+        "endingPos": 110
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Filtration",
+        "freebaseTypes": [
+          "/business/industry",
+          "/law/invention",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 0.963418,
+        "wikiLink": "http://en.wikipedia.org/wiki/Filtration",
+        "matchedText": "filtration",
+        "freebaseId": "/m/032x7",
+        "relevanceScore": 0,
+        "entityEnglishId": "Filtration",
+        "startingPos": 100,
+        "endingPos": 110
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          18,
+          19,
+          20,
+          21
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.0101,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "estimated glomerular filtration rate",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.0772902,
+        "entityEnglishId": "Renal function",
+        "startingPos": 79,
+        "endingPos": 115
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          19,
+          20,
+          21
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.50584,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "glomerular filtration rate",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.158329,
+        "entityEnglishId": "Renal function",
+        "startingPos": 89,
+        "endingPos": 115
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          23,
+          24,
+          25,
+          26
+        ],
+        "entityId": "Annals of Clinical Biochemistry",
+        "confidenceScore": 1.91474,
+        "wikiLink": "http://en.wikipedia.org/wiki/Annals_of_Clinical_Biochemistry",
+        "matchedText": "Annals of Clinical Biochemistry",
+        "freebaseId": "/m/0y4w281",
+        "relevanceScore": 0.0754317,
+        "entityEnglishId": "Annals of Clinical Biochemistry",
+        "startingPos": 117,
+        "endingPos": 148
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Clinical chemistry",
+        "freebaseTypes": [
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 2.41813,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_chemistry",
+        "matchedText": "Clinical Biochemistry",
+        "freebaseId": "/m/0hdq2",
+        "relevanceScore": 0,
+        "entityEnglishId": "Clinical chemistry",
+        "startingPos": 127,
+        "endingPos": 148
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Biochemistry",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/education/field_of_study",
+          "/organization/organization_sector",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 2.11456,
+        "wikiLink": "http://en.wikipedia.org/wiki/Biochemistry",
+        "matchedText": "Biochemistry",
+        "freebaseId": "/m/0193x",
+        "relevanceScore": 0.0225345,
+        "entityEnglishId": "Biochemistry",
+        "startingPos": 136,
+        "endingPos": 148
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14,
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          17
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.321,
+  "ok": true
+}

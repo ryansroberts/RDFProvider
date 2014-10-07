@@ -1,0 +1,328 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.519896
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.496943
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.443886
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetic neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_neuropathy",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Efficacy",
+        "wikiLink": "http://en.wikipedia.org/Efficacy",
+        "score": 0.101664
+      },
+      {
+        "id": 2,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Pain",
+        "score": 0.244417
+      },
+      {
+        "id": 3,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.26289
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Max MB",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Max MB",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Kishore KR",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kishore KR",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 12,
+        "endingPos": 22
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Schafer SC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Schafer SC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 24,
+        "endingPos": 34
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Efficacy",
+        "confidenceScore": 1.31088,
+        "wikiLink": "http://en.wikipedia.org/wiki/Efficacy",
+        "matchedText": "Efficacy",
+        "freebaseId": "/m/03mrl3",
+        "relevanceScore": 0.101664,
+        "entityEnglishId": "Efficacy",
+        "startingPos": 42,
+        "endingPos": 50
+      },
+      {
+        "id": 4,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Desipramine",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 5.55309,
+        "wikiLink": "http://en.wikipedia.org/wiki/Desipramine",
+        "matchedText": "desipramine",
+        "freebaseId": "/m/0577dm",
+        "relevanceScore": 0.0950997,
+        "entityEnglishId": "Desipramine",
+        "startingPos": 54,
+        "endingPos": 65
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 6.0035,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "diabetic neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.379464,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 77,
+        "endingPos": 96
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 2.07549,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.622536,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 86,
+        "endingPos": 96
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 3.13931,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.26289,
+        "entityEnglishId": "Placebo",
+        "startingPos": 100,
+        "endingPos": 107
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.0571,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "Pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.244417,
+        "entityEnglishId": "Pain",
+        "startingPos": 127,
+        "endingPos": 131
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          22
+        ]
+      }
+    ]
+  },
+  "time": 0.321,
+  "ok": true
+}

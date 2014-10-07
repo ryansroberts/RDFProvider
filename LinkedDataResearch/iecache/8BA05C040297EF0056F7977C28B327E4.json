@@ -1,0 +1,430 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.530929
+      },
+      {
+        "id": 1,
+        "label": "Ketoacidosis",
+        "wikiLink": "http://en.wikipedia.org/Ketoacidosis",
+        "score": 0.148387
+      },
+      {
+        "id": 2,
+        "label": "Octreotide",
+        "wikiLink": "http://en.wikipedia.org/Octreotide",
+        "score": 0.326918
+      },
+      {
+        "id": 3,
+        "label": "Somatostatin",
+        "wikiLink": "http://en.wikipedia.org/Somatostatin",
+        "score": 0.231133
+      },
+      {
+        "id": 4,
+        "label": "Endocrinology",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrinology",
+        "score": 0.0779277
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0709225
+      },
+      {
+        "id": 6,
+        "label": "Systemic hormonal preparations",
+        "wikiLink": "http://en.wikipedia.org/Category:Systemic_hormonal_preparations",
+        "score": 0.0658526
+      },
+      {
+        "id": 7,
+        "label": "Biomolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Biomolecules_by_physiological_function",
+        "score": 0.0658526
+      },
+      {
+        "id": 8,
+        "label": "Endocrine procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_procedures",
+        "score": 0.0658526
+      },
+      {
+        "id": 9,
+        "label": "Hormonal agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Hormonal_agents",
+        "score": 0.0658526
+      },
+      {
+        "id": 10,
+        "label": "Hormones",
+        "wikiLink": "http://en.wikipedia.org/Category:Hormones",
+        "score": 0.0658526
+      },
+      {
+        "id": 11,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.0658526
+      },
+      {
+        "id": 12,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0658526
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Yun YS",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Yun YS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 6
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Lee HC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lee HC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 8,
+        "endingPos": 14
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Park CS",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Park CS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 23
+      },
+      {
+        "id": 3,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Somatostatin",
+        "freebaseTypes": [
+          "/medicine/hormone",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.01894,
+        "wikiLink": "http://en.wikipedia.org/wiki/Somatostatin",
+        "matchedText": "somatostatin",
+        "freebaseId": "/m/02fs0s",
+        "relevanceScore": 0.231133,
+        "entityEnglishId": "Somatostatin",
+        "startingPos": 55,
+        "endingPos": 67
+      },
+      {
+        "id": 4,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Octreotide",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 1.74757,
+        "wikiLink": "http://en.wikipedia.org/wiki/Octreotide",
+        "matchedText": "Sandostatin",
+        "freebaseId": "/m/04_f23",
+        "relevanceScore": 0.326918,
+        "entityEnglishId": "Octreotide",
+        "startingPos": 78,
+        "endingPos": 89
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.99148,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.265464,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 103,
+        "endingPos": 111
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21,
+          22
+        ],
+        "entityId": "Diabetic ketoacidosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 5.08207,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_ketoacidosis",
+        "matchedText": "diabetic ketoacidosis",
+        "freebaseId": "/m/0fmk8",
+        "relevanceScore": 0.0693546,
+        "entityEnglishId": "Diabetic ketoacidosis",
+        "startingPos": 103,
+        "endingPos": 124
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Ketoacidosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 5.2324,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ketoacidosis",
+        "matchedText": "ketoacidosis",
+        "freebaseId": "/m/02mwg6",
+        "relevanceScore": 0.148387,
+        "entityEnglishId": "Ketoacidosis",
+        "startingPos": 112,
+        "endingPos": 124
+      },
+      {
+        "id": 8,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          24,
+          25,
+          26
+        ],
+        "entityId": "Journal of Diabetes",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Journal of Diabetes",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 126,
+        "endingPos": 145
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.73097,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.265464,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 137,
+        "endingPos": 145
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          11,
+          12,
+          19
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          17
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          22
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          22
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          11,
+          12,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

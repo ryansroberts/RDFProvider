@@ -1,0 +1,321 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.133387
+      },
+      {
+        "id": 1,
+        "label": "Diabetic neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_neuropathy",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Dysautonomia",
+        "wikiLink": "http://en.wikipedia.org/Dysautonomia",
+        "score": 0.105025
+      },
+      {
+        "id": 3,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders_by_system",
+        "score": 0.121452
+      },
+      {
+        "id": 4,
+        "label": "Peripheral nervous system",
+        "wikiLink": "http://en.wikipedia.org/Category:Peripheral_nervous_system",
+        "score": 0.121452
+      },
+      {
+        "id": 5,
+        "label": "Peripheral nervous system disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Peripheral_nervous_system_disorders",
+        "score": 0.121452
+      },
+      {
+        "id": 6,
+        "label": "Neurology",
+        "wikiLink": "http://en.wikipedia.org/Category:Neurology",
+        "score": 0.121452
+      },
+      {
+        "id": 7,
+        "label": "Neuroanatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Neuroanatomy",
+        "score": 0.121452
+      },
+      {
+        "id": 8,
+        "label": "Neurological disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Neurological_disorders",
+        "score": 0.121452
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Ryder RE",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ryder RE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Dent MT",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Dent MT",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 17
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Ward JD",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ward JD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 19,
+        "endingPos": 26
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 5.35538,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "diabetic neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.128871,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 40,
+        "endingPos": 59
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 2.07079,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.469013,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 49,
+        "endingPos": 59
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Dysautonomia",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.70236,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dysautonomia",
+        "matchedText": "autonomic neuropathy",
+        "freebaseId": "/m/02510j",
+        "relevanceScore": 0.105025,
+        "entityEnglishId": "Dysautonomia",
+        "startingPos": 71,
+        "endingPos": 91
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 2.07079,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.469013,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 81,
+        "endingPos": 91
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.63607,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.133387,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 103,
+        "endingPos": 111
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          18
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "time": 0.314,
+  "ok": true
+}

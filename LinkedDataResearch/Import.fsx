@@ -31,6 +31,8 @@ let processCsv() =
               yield! Project.guideline g
           for s in Import.loadQualityStandards do
               yield! Project.qualityStandard s 
+          for s in Import.loadStudies do
+              yield! Project.study s 
           for a in Import.loadAuditMeasures do
               yield! Project.audit a 
           for s in Import.loadSharedLearning do

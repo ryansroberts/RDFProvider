@@ -1,0 +1,472 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.955718
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.671156
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.665466
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.647568
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.632226
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.338271
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.605474
+      },
+      {
+        "id": 2,
+        "label": "Glomerulus",
+        "wikiLink": "http://en.wikipedia.org/Glomerulus",
+        "score": 0.350026
+      },
+      {
+        "id": 3,
+        "label": "Mortality rate",
+        "wikiLink": "http://en.wikipedia.org/Mortality_rate",
+        "score": 0.171935
+      },
+      {
+        "id": 4,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.157264
+      },
+      {
+        "id": 5,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.444501
+      },
+      {
+        "id": 6,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.107285
+      },
+      {
+        "id": 7,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.097897
+      },
+      {
+        "id": 8,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0939823
+      },
+      {
+        "id": 9,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0868771
+      },
+      {
+        "id": 10,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.0852881
+      },
+      {
+        "id": 11,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0852881
+      },
+      {
+        "id": 12,
+        "label": "Death",
+        "wikiLink": "http://en.wikipedia.org/Category:Death",
+        "score": 0.0729446
+      },
+      {
+        "id": 13,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0685941
+      },
+      {
+        "id": 14,
+        "label": "Applied sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Applied_sciences",
+        "score": 0.0595286
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Kong AP",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kong AP",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 18
+      },
+      {
+        "id": 1,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Glomerulus",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 2.62018,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glomerulus",
+        "matchedText": "Glomerular",
+        "freebaseId": "/m/02_dbc",
+        "relevanceScore": 0.350026,
+        "entityEnglishId": "Glomerulus",
+        "startingPos": 33,
+        "endingPos": 43
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.2486,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "Glomerular filtration",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.255595,
+        "entityEnglishId": "Renal function",
+        "startingPos": 33,
+        "endingPos": 54
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Filtration",
+        "freebaseTypes": [
+          "/business/industry",
+          "/law/invention",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.0948,
+        "wikiLink": "http://en.wikipedia.org/wiki/Filtration",
+        "matchedText": "filtration",
+        "freebaseId": "/m/032x7",
+        "relevanceScore": 0.0475035,
+        "entityEnglishId": "Filtration",
+        "startingPos": 44,
+        "endingPos": 54
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          11,
+          12,
+          13
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.43213,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "Glomerular filtration rate",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.188906,
+        "entityEnglishId": "Renal function",
+        "startingPos": 33,
+        "endingPos": 59
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Mortality rate",
+        "confidenceScore": 0.912579,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mortality_rate",
+        "matchedText": "mortality",
+        "freebaseId": "/m/01b4_q",
+        "relevanceScore": 0.171935,
+        "entityEnglishId": "Mortality rate",
+        "startingPos": 99,
+        "endingPos": 108
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23,
+          24
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.10188,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.480325,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 112,
+        "endingPos": 118
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23,
+          24,
+          25
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.40643,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2 diabetic",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.125148,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 112,
+        "endingPos": 127
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.18545,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.169136,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 119,
+        "endingPos": 127
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.14765,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.157264,
+        "entityEnglishId": "Patient",
+        "startingPos": 128,
+        "endingPos": 136
+      },
+      {
+        "id": 10,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.9765,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.169136,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 138,
+        "endingPos": 146
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          23,
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25,
+          26
+        ]
+      }
+    ]
+  },
+  "time": 0.324,
+  "ok": true
+}

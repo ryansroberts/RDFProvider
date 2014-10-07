@@ -1,0 +1,319 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.247774
+      },
+      {
+        "id": 2,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.247774
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.235803
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetic ketoacidosis",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_ketoacidosis",
+        "score": 0.164501
+      },
+      {
+        "id": 1,
+        "label": "Ketoacidosis",
+        "wikiLink": "http://en.wikipedia.org/Ketoacidosis",
+        "score": 0.192643
+      },
+      {
+        "id": 2,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0619038
+      },
+      {
+        "id": 3,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.0490279
+      },
+      {
+        "id": 4,
+        "label": "World Digital Library related",
+        "wikiLink": "http://en.wikipedia.org/Category:World_Digital_Library_related",
+        "score": 0.0490279
+      },
+      {
+        "id": 5,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0468711
+      },
+      {
+        "id": 6,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.0468711
+      },
+      {
+        "id": 7,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Wilson HK",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wilson HK",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Keuer SP",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Keuer SP",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Lea AS",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lea AS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 27
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Phosphate",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 1.74696,
+        "wikiLink": "http://en.wikipedia.org/wiki/Phosphate",
+        "matchedText": "Phosphate",
+        "freebaseId": "/m/05xd6",
+        "relevanceScore": 0,
+        "entityEnglishId": "Phosphate",
+        "startingPos": 36,
+        "endingPos": 45
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.52166,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0,
+        "entityEnglishId": "Therapy",
+        "startingPos": 46,
+        "endingPos": 53
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Diabetic ketoacidosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 4.92477,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_ketoacidosis",
+        "matchedText": "diabetic ketoacidosis",
+        "freebaseId": "/m/0fmk8",
+        "relevanceScore": 0.164501,
+        "entityEnglishId": "Diabetic ketoacidosis",
+        "startingPos": 57,
+        "endingPos": 78
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Ketoacidosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 5.70495,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ketoacidosis",
+        "matchedText": "ketoacidosis",
+        "freebaseId": "/m/02mwg6",
+        "relevanceScore": 0.192643,
+        "entityEnglishId": "Ketoacidosis",
+        "startingPos": 66,
+        "endingPos": 78
+      },
+      {
+        "id": 7,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature"
+        ],
+        "matchingTokens": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "entityId": "JAMA Internal Medicine",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.83093,
+        "wikiLink": "http://en.wikipedia.org/wiki/JAMA_Internal_Medicine",
+        "matchedText": "Archives of Internal Medicine",
+        "freebaseId": "/m/09c5z5",
+        "relevanceScore": 0,
+        "entityEnglishId": "JAMA Internal Medicine",
+        "startingPos": 80,
+        "endingPos": 109
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Internal medicine",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 1.97743,
+        "wikiLink": "http://en.wikipedia.org/wiki/Internal_medicine",
+        "matchedText": "Internal Medicine",
+        "freebaseId": "/m/01d3n8",
+        "relevanceScore": 0.079456,
+        "entityEnglishId": "Internal medicine",
+        "startingPos": 92,
+        "endingPos": 109
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          17,
+          18,
+          23
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.32,
+  "ok": true
+}

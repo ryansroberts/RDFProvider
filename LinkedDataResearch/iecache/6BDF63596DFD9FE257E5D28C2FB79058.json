@@ -1,0 +1,406 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.524642
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.503989
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.503989
+      },
+      {
+        "id": 4,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.503989
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.496011
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.129428
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 1",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_1",
+        "score": 0.557649
+      },
+      {
+        "id": 2,
+        "label": "Hematopathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Hematopathology",
+        "score": 0.0400229
+      },
+      {
+        "id": 3,
+        "label": "Anemias",
+        "wikiLink": "http://en.wikipedia.org/Category:Anemias",
+        "score": 0.0400229
+      },
+      {
+        "id": 4,
+        "label": "Red blood cell disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Red_blood_cell_disorders",
+        "score": 0.0400229
+      },
+      {
+        "id": 5,
+        "label": "Clinical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_pathology",
+        "score": 0.0400229
+      },
+      {
+        "id": 6,
+        "label": "Pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pathology",
+        "score": 0.0400229
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Davis RE",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Davis RE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "McCann VJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "McCann VJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Stanton KG",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Stanton KG",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 31
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.46436,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "Type 1",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.459698,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 33,
+        "endingPos": 39
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9,
+          10,
+          11
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.30465,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "Type 1 diabetes",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.0979513,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 33,
+        "endingPos": 48
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.6474,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.129428,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 40,
+        "endingPos": 48
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Pernicious anemia",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification",
+          "/people/cause_of_death",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 3.60013,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pernicious_anemia",
+        "matchedText": "pernicious anaemia",
+        "freebaseId": "/m/02mzv1",
+        "relevanceScore": 0.0282824,
+        "entityEnglishId": "Pernicious anemia",
+        "startingPos": 60,
+        "endingPos": 78
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Anemia",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/book/book_subject",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.33388,
+        "wikiLink": "http://en.wikipedia.org/wiki/Anemia",
+        "matchedText": "anaemia",
+        "freebaseId": "/m/0lcdk",
+        "relevanceScore": 0.0570743,
+        "entityEnglishId": "Anemia",
+        "startingPos": 71,
+        "endingPos": 78
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Public health journal",
+        "confidenceScore": 2.64872,
+        "wikiLink": "http://en.wikipedia.org/wiki/Public_health_journal",
+        "matchedText": "Medical Journal",
+        "freebaseId": "/m/02n8hz",
+        "relevanceScore": 0,
+        "entityEnglishId": "Public health journal",
+        "startingPos": 80,
+        "endingPos": 95
+      },
+      {
+        "id": 9,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Australia",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/fictional_universe/fictional_setting",
+          "/royalty/kingdom",
+          "/symbols/coat_of_arms_bearer",
+          "/biology/breed_origin",
+          "/organization/organization_scope",
+          "/olympics/olympic_participating_country",
+          "/government/governmental_jurisdiction",
+          "/organization/organization_member",
+          "/sports/sport_country",
+          "/military/military_combatant",
+          "/location/location",
+          "/location/country",
+          "/travel/travel_destination",
+          "/tv/tv_location",
+          "/law/court_jurisdiction_area",
+          "/periodicals/newspaper_circulation_area",
+          "/sports/sports_team_location",
+          "/location/statistical_region",
+          "/book/book_subject",
+          "/film/film_location",
+          "/location/dated_location",
+          "/symbols/flag_referent",
+          "/cvg/computer_game_region",
+          "/government/government",
+          "/music/music_video_subject",
+          "/organization/organization_founder",
+          "/film/film_subject"
+        ],
+        "confidenceScore": 2.49583,
+        "wikiLink": "http://en.wikipedia.org/wiki/Australia",
+        "matchedText": "Australia",
+        "freebaseId": "/m/0chghy",
+        "relevanceScore": 0.00885797,
+        "entityEnglishId": "Australia",
+        "startingPos": 99,
+        "endingPos": 108
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

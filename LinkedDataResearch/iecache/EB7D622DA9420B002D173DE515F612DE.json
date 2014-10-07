@@ -1,0 +1,611 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.886454
+      },
+      {
+        "id": 2,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.442186
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.250906
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.250767
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.241357
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "BMJ",
+        "wikiLink": "http://en.wikipedia.org/BMJ",
+        "score": 0.146329
+      },
+      {
+        "id": 1,
+        "label": "Disease",
+        "wikiLink": "http://en.wikipedia.org/Disease",
+        "score": 0.147713
+      },
+      {
+        "id": 2,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.476108
+      },
+      {
+        "id": 3,
+        "label": "Renal failure",
+        "wikiLink": "http://en.wikipedia.org/Renal_failure",
+        "score": 0.284788
+      },
+      {
+        "id": 4,
+        "label": "United Kingdom",
+        "wikiLink": "http://en.wikipedia.org/United_Kingdom",
+        "score": 0.127563
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.202818
+      },
+      {
+        "id": 6,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.187004
+      },
+      {
+        "id": 7,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.169786
+      },
+      {
+        "id": 8,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.169358
+      },
+      {
+        "id": 9,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders",
+        "score": 0.148327
+      },
+      {
+        "id": 10,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.142967
+      },
+      {
+        "id": 11,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.125576
+      },
+      {
+        "id": 12,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.125576
+      },
+      {
+        "id": 13,
+        "label": "Academic publishing",
+        "wikiLink": "http://en.wikipedia.org/Category:Academic_publishing",
+        "score": 0.0802971
+      },
+      {
+        "id": 14,
+        "label": "Cultural spheres of influence",
+        "wikiLink": "http://en.wikipedia.org/Category:Cultural_spheres_of_influence",
+        "score": 0.0766941
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Hamdy NA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hamdy NA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Beneton MN",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Beneton MN",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 24,
+        "endingPos": 34
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Alfacalcidol",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 1.73659,
+        "wikiLink": "http://en.wikipedia.org/wiki/Alfacalcidol",
+        "matchedText": "alfacalcidol",
+        "freebaseId": "/m/065_rgb",
+        "relevanceScore": 0.035213,
+        "entityEnglishId": "Alfacalcidol",
+        "startingPos": 52,
+        "endingPos": 64
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.38008,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.238054,
+        "entityEnglishId": "Kidney",
+        "startingPos": 86,
+        "endingPos": 91
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Bone",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.13723,
+        "wikiLink": "http://en.wikipedia.org/wiki/Bone",
+        "matchedText": "bone",
+        "freebaseId": "/m/01b92",
+        "relevanceScore": 0.0919605,
+        "entityEnglishId": "Bone",
+        "startingPos": 92,
+        "endingPos": 96
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19,
+          20
+        ],
+        "entityId": "Renal osteodystrophy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.07786,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_osteodystrophy",
+        "matchedText": "renal bone disease",
+        "freebaseId": "/m/06ylmt",
+        "relevanceScore": 0,
+        "entityEnglishId": "Renal osteodystrophy",
+        "startingPos": 86,
+        "endingPos": 104
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Bone disease",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 1.61141,
+        "wikiLink": "http://en.wikipedia.org/wiki/Bone_disease",
+        "matchedText": "bone disease",
+        "freebaseId": "/m/02vq9y_",
+        "relevanceScore": 0.0487655,
+        "entityEnglishId": "Bone disease",
+        "startingPos": 92,
+        "endingPos": 104
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.90557,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.147713,
+        "entityEnglishId": "Disease",
+        "startingPos": 97,
+        "endingPos": 104
+      },
+      {
+        "id": 8,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.38008,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.238054,
+        "entityEnglishId": "Kidney",
+        "startingPos": 125,
+        "endingPos": 130
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Renal failure",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 5.22767,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_failure",
+        "matchedText": "renal failure",
+        "freebaseId": "/m/01psyx",
+        "relevanceScore": 0.284788,
+        "entityEnglishId": "Renal failure",
+        "startingPos": 125,
+        "endingPos": 138
+      },
+      {
+        "id": 10,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Kanis JA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kanis JA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 22
+      },
+      {
+        "id": 11,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.79213,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "British",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.127563,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 140,
+        "endingPos": 147
+      },
+      {
+        "id": 12,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          28,
+          29,
+          30
+        ],
+        "entityId": "BMJ",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 2.82856,
+        "wikiLink": "http://en.wikipedia.org/wiki/BMJ",
+        "matchedText": "British Medical Journal",
+        "freebaseId": "/m/02n85y",
+        "relevanceScore": 0.146329,
+        "entityEnglishId": "BMJ",
+        "startingPos": 140,
+        "endingPos": 163
+      },
+      {
+        "id": 13,
+        "matchingTokens": [
+          29,
+          30
+        ],
+        "entityId": "Public health journal",
+        "confidenceScore": 2.91277,
+        "wikiLink": "http://en.wikipedia.org/wiki/Public_health_journal",
+        "matchedText": "Medical Journal",
+        "freebaseId": "/m/02n8hz",
+        "relevanceScore": 0.0989862,
+        "entityEnglishId": "Public health journal",
+        "startingPos": 148,
+        "endingPos": 163
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          19,
+          20
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          1,
+          2,
+          21
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          1,
+          2,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24,
+          25,
+          26
+        ]
+      }
+    ]
+  },
+  "time": 0.334,
+  "ok": true
+}

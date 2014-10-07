@@ -1,0 +1,302 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.518871
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.169534
+      },
+      {
+        "id": 1,
+        "label": "Diabetic retinopathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_retinopathy",
+        "score": 0.391675
+      },
+      {
+        "id": 2,
+        "label": "Visual system",
+        "wikiLink": "http://en.wikipedia.org/Category:Visual_system",
+        "score": 0.0993792
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Javitt JC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Javitt JC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Canner JK",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Canner JK",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 20
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7,
+          8
+        ],
+        "entityId": "Sommer A. Cost",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Sommer A. Cost",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 22,
+        "endingPos": 36
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Diabetic retinopathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 1.75612,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_retinopathy",
+        "matchedText": "retinopathy",
+        "freebaseId": "/m/0fmlk",
+        "relevanceScore": 0.391675,
+        "entityEnglishId": "Diabetic retinopathy",
+        "startingPos": 91,
+        "endingPos": 102
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.17127,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetics",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.169534,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 113,
+        "endingPos": 122
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Ophthalmology",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/book/book_subject",
+          "/people/profession",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 2.63364,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ophthalmology",
+        "matchedText": "Ophthalmology",
+        "freebaseId": "/m/0fkdq",
+        "relevanceScore": 0,
+        "entityEnglishId": "Ophthalmology",
+        "startingPos": 124,
+        "endingPos": 137
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          13
+        ],
+        "propertyPositions": [
+          11,
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          20,
+          21
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          14,
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

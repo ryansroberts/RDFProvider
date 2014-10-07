@@ -1,0 +1,415 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.363666
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.36226
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.36226
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.353392
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "ACE inhibitor",
+        "wikiLink": "http://en.wikipedia.org/ACE_inhibitor",
+        "score": 0.491163
+      },
+      {
+        "id": 1,
+        "label": "Chronic kidney disease",
+        "wikiLink": "http://en.wikipedia.org/Chronic_kidney_disease",
+        "score": 0.433461
+      },
+      {
+        "id": 2,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.16798
+      },
+      {
+        "id": 3,
+        "label": "Diabetes mellitus type 1",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_1",
+        "score": 0.133396
+      },
+      {
+        "id": 4,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.129768
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Hendry BM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hendry BM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Hummel S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hummel S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 23,
+        "endingPos": 31
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Viberti GC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Viberti GC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 21
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "ACE inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 9.52599,
+        "wikiLink": "http://en.wikipedia.org/wiki/ACE_inhibitor",
+        "matchedText": "ACE inhibitor",
+        "freebaseId": "/m/0110z",
+        "relevanceScore": 0.491163,
+        "entityEnglishId": "ACE inhibitor",
+        "startingPos": 91,
+        "endingPos": 104
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.38346,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.129768,
+        "entityEnglishId": "Kidney",
+        "startingPos": 132,
+        "endingPos": 137
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.29119,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "renal failure",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.433461,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 132,
+        "endingPos": 145
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          29,
+          30,
+          31
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.80976,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "type I diabetic",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.133396,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 149,
+        "endingPos": 164
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.982338,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.16798,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 156,
+        "endingPos": 164
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.41582,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.0919244,
+        "entityEnglishId": "Patient",
+        "startingPos": 165,
+        "endingPos": 173
+      },
+      {
+        "id": 9,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Medicine",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Medicine",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 196,
+        "endingPos": 204
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              11,
+              12
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          35,
+          36
+        ],
+        "propertyPositions": [
+          34
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          35,
+          36
+        ],
+        "propertyPositions": [
+          37,
+          38
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          27
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          23,
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          32
+        ],
+        "propertyPositions": [
+          31
+        ]
+      }
+    ]
+  },
+  "time": 0.33,
+  "ok": true
+}

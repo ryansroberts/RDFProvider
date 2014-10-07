@@ -1,0 +1,214 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.606976
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.42282
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.42282
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Laboratory",
+        "wikiLink": "http://en.wikipedia.org/Laboratory",
+        "score": 0.135056
+      },
+      {
+        "id": 1,
+        "label": "Microalbuminuria",
+        "wikiLink": "http://en.wikipedia.org/Microalbuminuria",
+        "score": 0.280198
+      },
+      {
+        "id": 2,
+        "label": "Urine",
+        "wikiLink": "http://en.wikipedia.org/Category:Urine",
+        "score": 0.0889655
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "Lum G. How",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lum G. How",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Microalbuminuria",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.93739,
+        "wikiLink": "http://en.wikipedia.org/wiki/Microalbuminuria",
+        "matchedText": "microalbuminuria",
+        "freebaseId": "/m/07y7r4",
+        "relevanceScore": 0.280198,
+        "entityEnglishId": "Microalbuminuria",
+        "startingPos": 49,
+        "endingPos": 65
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Urine",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 2.79825,
+        "wikiLink": "http://en.wikipedia.org/wiki/Urine",
+        "matchedText": "urine",
+        "freebaseId": "/m/0b7q43",
+        "relevanceScore": 0.0821186,
+        "entityEnglishId": "Urine",
+        "startingPos": 76,
+        "endingPos": 81
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Laboratory",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/architecture/building_function"
+        ],
+        "confidenceScore": 2.06303,
+        "wikiLink": "http://en.wikipedia.org/wiki/Laboratory",
+        "matchedText": "Laboratory",
+        "freebaseId": "/m/017clw",
+        "relevanceScore": 0.135056,
+        "entityEnglishId": "Laboratory",
+        "startingPos": 114,
+        "endingPos": 124
+      },
+      {
+        "id": 4,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "entityId": "Annals of Clinical and Laboratory Science",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal",
+          "/business/employer"
+        ],
+        "confidenceScore": 0.96667,
+        "wikiLink": "http://en.wikipedia.org/wiki/Annals_of_Clinical_and_Laboratory_Science",
+        "matchedText": "Annals of Clinical \u0026 Laboratory Science",
+        "freebaseId": "/m/05p37wb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Annals of Clinical and Laboratory Science",
+        "startingPos": 93,
+        "endingPos": 132
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      }
+    ]
+  },
+  "time": 0.314,
+  "ok": true
+}

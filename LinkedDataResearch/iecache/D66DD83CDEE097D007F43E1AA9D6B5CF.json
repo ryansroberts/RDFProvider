@@ -1,0 +1,389 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.497103
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.443479
+      },
+      {
+        "id": 3,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.2668
+      },
+      {
+        "id": 4,
+        "label": "Sports",
+        "wikiLink": "http://en.wikipedia.org/Category:Sports",
+        "score": 0.2668
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.226971
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Infarction",
+        "wikiLink": "http://en.wikipedia.org/Infarction",
+        "score": 0.282885
+      },
+      {
+        "id": 1,
+        "label": "Myocardial infarction",
+        "wikiLink": "http://en.wikipedia.org/Myocardial_infarction",
+        "score": 0.222526
+      },
+      {
+        "id": 2,
+        "label": "Rosiglitazone",
+        "wikiLink": "http://en.wikipedia.org/Rosiglitazone",
+        "score": 0.725091
+      },
+      {
+        "id": 3,
+        "label": "Causes of death",
+        "wikiLink": "http://en.wikipedia.org/Category:Causes_of_death",
+        "score": 0.105291
+      },
+      {
+        "id": 4,
+        "label": "Death",
+        "wikiLink": "http://en.wikipedia.org/Category:Death",
+        "score": 0.105291
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Diamond GA",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Diamond GA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Bax L",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bax L",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8,
+          9
+        ],
+        "entityId": "Kaul S. Uncertain",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kaul S. Uncertain",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 23,
+        "endingPos": 40
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Rosiglitazone",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 8.56501,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rosiglitazone",
+        "matchedText": "rosiglitazone",
+        "freebaseId": "/m/02vn54",
+        "relevanceScore": 0.725091,
+        "entityEnglishId": "Rosiglitazone",
+        "startingPos": 52,
+        "endingPos": 65
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Myocardial infarction",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/disease_cause",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 7.15134,
+        "wikiLink": "http://en.wikipedia.org/wiki/Myocardial_infarction",
+        "matchedText": "myocardial infarction",
+        "freebaseId": "/m/0gk4g",
+        "relevanceScore": 0.222526,
+        "entityEnglishId": "Myocardial infarction",
+        "startingPos": 82,
+        "endingPos": 103
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Infarction",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.29426,
+        "wikiLink": "http://en.wikipedia.org/wiki/Infarction",
+        "matchedText": "infarction",
+        "freebaseId": "/m/02vnfx",
+        "relevanceScore": 0.282885,
+        "entityEnglishId": "Infarction",
+        "startingPos": 93,
+        "endingPos": 103
+      },
+      {
+        "id": 6,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Circulatory system",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.99316,
+        "wikiLink": "http://en.wikipedia.org/wiki/Circulatory_system",
+        "matchedText": "cardiovascular",
+        "freebaseId": "/m/0frx0",
+        "relevanceScore": 0.039826,
+        "entityEnglishId": "Circulatory system",
+        "startingPos": 108,
+        "endingPos": 122
+      },
+      {
+        "id": 7,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          23,
+          24,
+          25,
+          26
+        ],
+        "entityId": "Annals of Internal Medicine",
+        "freebaseTypes": [
+          "/book/journal",
+          "/book/periodical"
+        ],
+        "confidenceScore": 2.28034,
+        "wikiLink": "http://en.wikipedia.org/wiki/Annals_of_Internal_Medicine",
+        "matchedText": "Annals of Internal Medicine",
+        "freebaseId": "/m/0glqp7",
+        "relevanceScore": 0,
+        "entityEnglishId": "Annals of Internal Medicine",
+        "startingPos": 130,
+        "endingPos": 157
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Internal medicine",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 2.02925,
+        "wikiLink": "http://en.wikipedia.org/wiki/Internal_medicine",
+        "matchedText": "Internal Medicine",
+        "freebaseId": "/m/01d3n8",
+        "relevanceScore": 0,
+        "entityEnglishId": "Internal medicine",
+        "startingPos": 140,
+        "endingPos": 157
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          13
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          18
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          14,
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.322,
+  "ok": true
+}

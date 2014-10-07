@@ -1,0 +1,225 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.320366
+      },
+      {
+        "id": 1,
+        "label": "National Kidney Foundation",
+        "wikiLink": "http://en.wikipedia.org/National_Kidney_Foundation",
+        "score": 0.265929
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.17924,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.106789,
+        "entityEnglishId": "Kidney",
+        "startingPos": 13,
+        "endingPos": 19
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "National Kidney Foundation",
+        "freebaseTypes": [
+          "/business/employer",
+          "/organization/organization",
+          "/book/periodical_publisher",
+          "/organization/non_profit_organization"
+        ],
+        "confidenceScore": 3.97121,
+        "wikiLink": "http://en.wikipedia.org/wiki/National_Kidney_Foundation",
+        "matchedText": "National Kidney Foundation",
+        "freebaseId": "/m/07xdg1",
+        "relevanceScore": 0.132964,
+        "entityEnglishId": "National Kidney Foundation",
+        "startingPos": 4,
+        "endingPos": 30
+      },
+      {
+        "id": 2,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.17924,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.106789,
+        "entityEnglishId": "Kidney",
+        "startingPos": 32,
+        "endingPos": 38
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.17924,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.106789,
+        "entityEnglishId": "Kidney",
+        "startingPos": 97,
+        "endingPos": 103
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          16,
+          17,
+          18
+        ],
+        "entityId": "National Kidney Foundation",
+        "freebaseTypes": [
+          "/business/employer",
+          "/organization/organization",
+          "/book/periodical_publisher",
+          "/organization/non_profit_organization"
+        ],
+        "confidenceScore": 3.97121,
+        "wikiLink": "http://en.wikipedia.org/wiki/National_Kidney_Foundation",
+        "matchedText": "National Kidney Foundation",
+        "freebaseId": "/m/07xdg1",
+        "relevanceScore": 0.132964,
+        "entityEnglishId": "National Kidney Foundation",
+        "startingPos": 88,
+        "endingPos": 114
+      },
+      {
+        "id": 5,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "www.kidney.org.uk",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "www.kidney.org.uk",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 116,
+        "endingPos": 133
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              22
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              26,
+              27,
+              29
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          16,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          16,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.31,
+  "ok": true
+}

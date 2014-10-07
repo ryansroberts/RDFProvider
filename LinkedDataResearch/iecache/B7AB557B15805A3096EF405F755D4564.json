@@ -1,0 +1,270 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.707056
+      },
+      {
+        "id": 3,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.706879
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.703896
+      },
+      {
+        "id": 5,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.413936
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Centre for Reviews and Dissemination",
+        "wikiLink": "http://en.wikipedia.org/Centre_for_Reviews_and_Dissemination",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Systematic review",
+        "wikiLink": "http://en.wikipedia.org/Systematic_review",
+        "score": 0.157558
+      },
+      {
+        "id": 2,
+        "label": "Healthcare management",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_management",
+        "score": 0.453575
+      },
+      {
+        "id": 3,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.453575
+      },
+      {
+        "id": 4,
+        "label": "Healthcare quality",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_quality",
+        "score": 0.453575
+      },
+      {
+        "id": 5,
+        "label": "Quality",
+        "wikiLink": "http://en.wikipedia.org/Category:Quality",
+        "score": 0.453575
+      },
+      {
+        "id": 6,
+        "label": "Social problems",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_problems",
+        "score": 0.453575
+      },
+      {
+        "id": 7,
+        "label": "Research",
+        "wikiLink": "http://en.wikipedia.org/Category:Research_by_field",
+        "score": 0.171218
+      },
+      {
+        "id": 8,
+        "label": "Health research",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_research",
+        "score": 0.171218
+      },
+      {
+        "id": 9,
+        "label": "Euthenics",
+        "wikiLink": "http://en.wikipedia.org/Category:Euthenics",
+        "score": 0.171218
+      },
+      {
+        "id": 10,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.171218
+      },
+      {
+        "id": 11,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.171218
+      },
+      {
+        "id": 12,
+        "label": "Clinical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_research",
+        "score": 0.171218
+      },
+      {
+        "id": 13,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.171218
+      },
+      {
+        "id": 14,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.171218
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "entityId": "Centre for Reviews and Dissemination",
+        "confidenceScore": 5.58999,
+        "wikiLink": "http://en.wikipedia.org/wiki/Centre_for_Reviews_and_Dissemination",
+        "matchedText": "Centre for Reviews and Dissemination",
+        "freebaseId": "/m/0gcgth",
+        "relevanceScore": 1,
+        "entityEnglishId": "Centre for Reviews and Dissemination",
+        "startingPos": 0,
+        "endingPos": 36
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Systematic review",
+        "confidenceScore": 1.4894,
+        "wikiLink": "http://en.wikipedia.org/wiki/Systematic_review",
+        "matchedText": "Systematic Reviews",
+        "freebaseId": "/m/08jd5_",
+        "relevanceScore": 0.157558,
+        "entityEnglishId": "Systematic review",
+        "startingPos": 43,
+        "endingPos": 61
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "CRDs",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "CRDs",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 63,
+        "endingPos": 67
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Health care",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/organization/organization_sector",
+          "/food/tea_type",
+          "/people/professional_field",
+          "/education/field_of_study",
+          "/government/government_service",
+          "/business/industry",
+          "/exhibitions/exhibition_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.2947,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_care",
+        "matchedText": "health care",
+        "freebaseId": "/m/01mw2x",
+        "relevanceScore": 0.0798057,
+        "entityEnglishId": "Health care",
+        "startingPos": 104,
+        "endingPos": 115
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "CRD",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "CRD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 117,
+        "endingPos": 120
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          6,
+          9
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          2,
+          3,
+          4,
+          6,
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "time": 0.315,
+  "ok": true
+}

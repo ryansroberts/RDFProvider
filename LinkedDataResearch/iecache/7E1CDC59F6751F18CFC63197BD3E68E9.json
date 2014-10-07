@@ -1,0 +1,215 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.10713
+      },
+      {
+        "id": 1,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.684353
+      },
+      {
+        "id": 2,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.0668013
+      },
+      {
+        "id": 3,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0668013
+      },
+      {
+        "id": 4,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.0668013
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Kiemeney LA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kiemeney LA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 27
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Swinkels DW",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Swinkels DW",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 29,
+        "endingPos": 40
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.22523,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "estimated GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.300039,
+        "entityEnglishId": "Renal function",
+        "startingPos": 93,
+        "endingPos": 106
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.06889,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.384314,
+        "entityEnglishId": "Renal function",
+        "startingPos": 103,
+        "endingPos": 106
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Nijmegen",
+        "freebaseTypes": [
+          "/location/location",
+          "/location/statistical_region",
+          "/location/citytown",
+          "/location/administrative_division",
+          "/location/nl_municipality",
+          "/location/dated_location",
+          "/film/film_location"
+        ],
+        "confidenceScore": 2.82282,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nijmegen",
+        "matchedText": "Nijmegen",
+        "freebaseId": "/m/05g2b",
+        "relevanceScore": 0.0157655,
+        "entityEnglishId": "Nijmegen",
+        "startingPos": 126,
+        "endingPos": 134
+      },
+      {
+        "id": 5,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          24,
+          25,
+          26
+        ],
+        "entityId": "Nijmegen Biomedical Study",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Nijmegen Biomedical Study",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 126,
+        "endingPos": 151
+      },
+      {
+        "id": 6,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.20346,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.10713,
+        "entityEnglishId": "Kidney",
+        "startingPos": 153,
+        "endingPos": 159
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          28,
+          29
+        ],
+        "entityId": "Kidney International",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kidney International",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 153,
+        "endingPos": 173
+      }
+    ]
+  },
+  "time": 0.315,
+  "ok": true
+}

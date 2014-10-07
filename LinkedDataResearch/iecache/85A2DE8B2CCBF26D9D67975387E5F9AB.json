@@ -1,0 +1,206 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.996739
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.551628
+      },
+      {
+        "id": 4,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.526025
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.501631
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Primary sources",
+        "wikiLink": "http://en.wikipedia.org/Category:Primary_sources",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Murphy MK",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Murphy MK",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Black NA",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Black NA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Lamping DL",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lamping DL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 31
+      },
+      {
+        "id": 3,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Consensus",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Consensus",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 40,
+        "endingPos": 49
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Medical guideline",
+        "confidenceScore": 1.95196,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medical_guideline",
+        "matchedText": "clinical guideline",
+        "freebaseId": "/m/04qpqc",
+        "relevanceScore": 0.0685746,
+        "entityEnglishId": "Medical guideline",
+        "startingPos": 87,
+        "endingPos": 105
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Guideline",
+        "confidenceScore": 1.28442,
+        "wikiLink": "http://en.wikipedia.org/wiki/Guideline",
+        "matchedText": "guideline",
+        "freebaseId": "/m/04xyb9",
+        "relevanceScore": 0,
+        "entityEnglishId": "Guideline",
+        "startingPos": 96,
+        "endingPos": 105
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          6
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          19,
+          20
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.314,
+  "ok": true
+}

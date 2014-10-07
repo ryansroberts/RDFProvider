@@ -1,0 +1,325 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.464253
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.455696
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.454497
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.251607
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.250409
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cholesterol",
+        "wikiLink": "http://en.wikipedia.org/Cholesterol",
+        "score": 0.14413
+      },
+      {
+        "id": 1,
+        "label": "Heart Protection Study",
+        "wikiLink": "http://en.wikipedia.org/Heart_Protection_Study",
+        "score": 0.224739
+      },
+      {
+        "id": 2,
+        "label": "Placebo-controlled study",
+        "wikiLink": "http://en.wikipedia.org/Placebo-controlled_study",
+        "score": 0.218637
+      },
+      {
+        "id": 3,
+        "label": "Simvastatin",
+        "wikiLink": "http://en.wikipedia.org/Simvastatin",
+        "score": 0.436096
+      },
+      {
+        "id": 4,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.159115
+      },
+      {
+        "id": 5,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.119933
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "Heart Protection Study",
+        "confidenceScore": 2.92959,
+        "wikiLink": "http://en.wikipedia.org/wiki/Heart_Protection_Study",
+        "matchedText": "Heart Protection Study",
+        "freebaseId": "/m/02nhgl",
+        "relevanceScore": 0.112369,
+        "entityEnglishId": "Heart Protection Study",
+        "startingPos": 4,
+        "endingPos": 26
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          8,
+          9,
+          10
+        ],
+        "entityId": "Heart Protection Study",
+        "confidenceScore": 2.92959,
+        "wikiLink": "http://en.wikipedia.org/wiki/Heart_Protection_Study",
+        "matchedText": "Heart Protection Study",
+        "freebaseId": "/m/02nhgl",
+        "relevanceScore": 0.112369,
+        "entityEnglishId": "Heart Protection Study",
+        "startingPos": 56,
+        "endingPos": 78
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "entityId": "MRC/BHF Heart Protection Study of cholesterol",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "MRC/BHF Heart Protection Study of cholesterol",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 48,
+        "endingPos": 93
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Cholesterol",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.56957,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cholesterol",
+        "matchedText": "cholesterol",
+        "freebaseId": "/m/01w_3",
+        "relevanceScore": 0.14413,
+        "entityEnglishId": "Cholesterol",
+        "startingPos": 82,
+        "endingPos": 93
+      },
+      {
+        "id": 4,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Simvastatin",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors",
+          "/business/consumer_product",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 8.62324,
+        "wikiLink": "http://en.wikipedia.org/wiki/Simvastatin",
+        "matchedText": "simvastatin",
+        "freebaseId": "/m/02z428",
+        "relevanceScore": 0.436096,
+        "entityEnglishId": "Simvastatin",
+        "startingPos": 108,
+        "endingPos": 119
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Placebo-controlled study",
+        "confidenceScore": 1.1529,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo-controlled_study",
+        "matchedText": "placebo-controlled",
+        "freebaseId": "/m/05b5m22",
+        "relevanceScore": 0.18486,
+        "entityEnglishId": "Placebo-controlled study",
+        "startingPos": 166,
+        "endingPos": 184
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          23,
+          24
+        ],
+        "entityId": "Placebo-controlled study",
+        "confidenceScore": 1.70485,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo-controlled_study",
+        "matchedText": "placebo-controlled trial",
+        "freebaseId": "/m/05b5m22",
+        "relevanceScore": 0.0337763,
+        "entityEnglishId": "Placebo-controlled study",
+        "startingPos": 166,
+        "endingPos": 190
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Lancet",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lancet",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 192,
+        "endingPos": 198
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3,
+          5
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          21,
+          24
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          21,
+          24
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

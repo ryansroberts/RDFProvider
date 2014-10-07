@@ -1,0 +1,217 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.509983
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.509983
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.509983
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.509983
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.490017
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Formulary (pharmacy)",
+        "wikiLink": "http://en.wikipedia.org/Formulary_(pharmacy)",
+        "score": 0.15518
+      },
+      {
+        "id": 1,
+        "label": "Niacin",
+        "wikiLink": "http://en.wikipedia.org/Niacin",
+        "score": 0.120856
+      },
+      {
+        "id": 2,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.0499144
+      },
+      {
+        "id": 3,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.0441993
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Olson BM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Olson BM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Malone DC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Malone DC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 23
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Armstrong EP",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Armstrong EP",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 25,
+        "endingPos": 37
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Dose (biochemistry)",
+        "confidenceScore": 0.95236,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dose_(biochemistry)",
+        "matchedText": "dose",
+        "freebaseId": "/m/02qdgt_",
+        "relevanceScore": 0,
+        "entityEnglishId": "Dose (biochemistry)",
+        "startingPos": 97,
+        "endingPos": 101
+      },
+      {
+        "id": 4,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Niacin",
+        "freebaseTypes": [
+          "/food/nutrient",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 4.80695,
+        "wikiLink": "http://en.wikipedia.org/wiki/Niacin",
+        "matchedText": "niacin",
+        "freebaseId": "/m/09gvd",
+        "relevanceScore": 0.120856,
+        "entityEnglishId": "Niacin",
+        "startingPos": 116,
+        "endingPos": 122
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Formulary (pharmacy)",
+        "confidenceScore": 1.3882,
+        "wikiLink": "http://en.wikipedia.org/wiki/Formulary_(pharmacy)",
+        "matchedText": "Formulary",
+        "freebaseId": "/m/04jbpsm",
+        "relevanceScore": 0.15518,
+        "entityEnglishId": "Formulary (pharmacy)",
+        "startingPos": 127,
+        "endingPos": 136
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          22
+        ],
+        "propertyPositions": [
+          25,
+          27
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

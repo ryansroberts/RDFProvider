@@ -1,0 +1,493 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.988865
+      },
+      {
+        "id": 2,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.97812
+      },
+      {
+        "id": 3,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.959213
+      },
+      {
+        "id": 4,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.912656
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.412556
+      },
+      {
+        "id": 1,
+        "label": "Diabetic foot",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot",
+        "score": 0.100503
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Allenet",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Allenet",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 7
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Paree",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Paree",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 18
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Lebrun",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lebrun",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 24,
+        "endingPos": 30
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Carr",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Carr",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 36,
+        "endingPos": 40
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Martini",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Martini",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 59,
+        "endingPos": 66
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Yvon",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Yvon",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 74,
+        "endingPos": 78
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          43
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.18436,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.206278,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 154,
+        "endingPos": 162
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          43,
+          44
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.01458,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0.100503,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 154,
+        "endingPos": 167
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          48
+        ],
+        "entityId": "France",
+        "freebaseTypes": [
+          "/periodicals/newspaper_circulation_area",
+          "/olympics/olympic_participating_country",
+          "/organization/organization_member",
+          "/media_common/netflix_genre",
+          "/location/statistical_region",
+          "/fictional_universe/fictional_setting",
+          "/law/court_jurisdiction_area",
+          "/location/location",
+          "/organization/organization_founder",
+          "/book/book_subject",
+          "/food/beer_country_region",
+          "/royalty/kingdom",
+          "/sports/sports_team_location",
+          "/government/governmental_jurisdiction",
+          "/location/administrative_division",
+          "/film/film_location",
+          "/symbols/name_source",
+          "/location/dated_location",
+          "/award/award_presenting_organization",
+          "/biology/breed_origin",
+          "/symbols/flag_referent",
+          "/military/military_combatant",
+          "/sports/sport_country",
+          "/visual_art/art_subject",
+          "/location/country",
+          "/organization/organization_scope",
+          "/military/military_unit_place_of_origin"
+        ],
+        "confidenceScore": 1.78835,
+        "wikiLink": "http://en.wikipedia.org/wiki/France",
+        "matchedText": "french",
+        "freebaseId": "/m/0f8l9c",
+        "relevanceScore": 0.0279747,
+        "entityEnglishId": "France",
+        "startingPos": 182,
+        "endingPos": 188
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          51
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.37821,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.206278,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 198,
+        "endingPos": 206
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          53
+        ],
+        "entityId": "Metabolism",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.38934,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metabolism",
+        "matchedText": "Metabolism",
+        "freebaseId": "/m/053p5",
+        "relevanceScore": 0.0358186,
+        "entityEnglishId": "Metabolism",
+        "startingPos": 209,
+        "endingPos": 219
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          59
+        ],
+        "propertyPositions": [
+          62
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          12,
+          14
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          10,
+          12,
+          14
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          35,
+          36,
+          37
+        ],
+        "propertyPositions": [
+          38
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          44,
+          45
+        ],
+        "propertyPositions": [
+          43
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          40,
+          41,
+          42,
+          46
+        ],
+        "propertyPositions": [
+          43,
+          44,
+          45
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          47,
+          49
+        ],
+        "propertyPositions": [
+          48
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          53
+        ],
+        "propertyPositions": [
+          55
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          47,
+          49
+        ],
+        "propertyPositions": [
+          51,
+          52,
+          53,
+          55
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          40,
+          41,
+          42,
+          46
+        ],
+        "propertyPositions": [
+          47,
+          48,
+          49,
+          51,
+          52,
+          53,
+          55
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          0,
+          39
+        ],
+        "propertyPositions": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          51,
+          52,
+          53,
+          55
+        ]
+      }
+    ]
+  },
+  "time": 0.327,
+  "ok": true
+}

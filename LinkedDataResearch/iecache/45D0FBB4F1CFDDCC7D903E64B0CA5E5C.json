@@ -1,0 +1,271 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.5
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Stent",
+        "wikiLink": "http://en.wikipedia.org/Stent",
+        "score": 0.117284
+      },
+      {
+        "id": 1,
+        "label": "Radiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Radiology",
+        "score": 0.0333333
+      },
+      {
+        "id": 2,
+        "label": "Interventional radiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Interventional_radiology",
+        "score": 0.0333333
+      },
+      {
+        "id": 3,
+        "label": "Surgery",
+        "wikiLink": "http://en.wikipedia.org/Category:Surgery",
+        "score": 0.0333333
+      },
+      {
+        "id": 4,
+        "label": "Implants",
+        "wikiLink": "http://en.wikipedia.org/Category:Implants",
+        "score": 0.0333333
+      },
+      {
+        "id": 5,
+        "label": "Human appearance",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_appearance",
+        "score": 0.0333333
+      },
+      {
+        "id": 6,
+        "label": "Medical technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_technology",
+        "score": 0.0333333
+      },
+      {
+        "id": 7,
+        "label": "Body modification",
+        "wikiLink": "http://en.wikipedia.org/Category:Body_modification",
+        "score": 0.0333333
+      },
+      {
+        "id": 8,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Hill R",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hill R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 6
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Boland A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Boland A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 8,
+        "endingPos": 16
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Dickson R",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Dickson R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 18,
+        "endingPos": 27
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Drug-eluting stent",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.85718,
+        "wikiLink": "http://en.wikipedia.org/wiki/Drug-eluting_stent",
+        "matchedText": "Drug-eluting stents",
+        "freebaseId": "/m/0dcjky",
+        "relevanceScore": 0.0397295,
+        "entityEnglishId": "Drug-eluting stent",
+        "startingPos": 36,
+        "endingPos": 55
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Stent",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.49118,
+        "wikiLink": "http://en.wikipedia.org/wiki/Stent",
+        "matchedText": "stents",
+        "freebaseId": "/m/025lvk",
+        "relevanceScore": 0.117284,
+        "entityEnglishId": "Stent",
+        "startingPos": 49,
+        "endingPos": 55
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          10,
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14,
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          21,
+          22
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

@@ -1,0 +1,380 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.99741
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.321981
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.321981
+      },
+      {
+        "id": 4,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.321981
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.321981
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "American Medical Association",
+        "wikiLink": "http://en.wikipedia.org/American_Medical_Association",
+        "score": 0.165333
+      },
+      {
+        "id": 1,
+        "label": "Medical associations",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_associations_by_country",
+        "score": 0.0761292
+      },
+      {
+        "id": 2,
+        "label": "Organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Organizations_by_type",
+        "score": 0.0449112
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Boulware LE",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Boulware LE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 15
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Jaar BG",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Jaar BG",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 18,
+        "endingPos": 25
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Tarver CM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Tarver CM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 28,
+        "endingPos": 37
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Proteinuria",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.36103,
+        "wikiLink": "http://en.wikipedia.org/wiki/Proteinuria",
+        "matchedText": "proteinuria",
+        "freebaseId": "/m/012zf3",
+        "relevanceScore": 0.0325147,
+        "entityEnglishId": "Proteinuria",
+        "startingPos": 62,
+        "endingPos": 73
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "United States",
+        "freebaseTypes": [
+          "/symbols/name_source",
+          "/tv/tv_location",
+          "/symbols/flag_referent",
+          "/biology/breed_origin",
+          "/military/military_combatant",
+          "/film/film_subject",
+          "/government/governmental_jurisdiction",
+          "/travel/travel_destination",
+          "/media_common/quotation_subject",
+          "/exhibitions/exhibition_subject",
+          "/fictional_universe/fictional_setting",
+          "/law/court_jurisdiction_area",
+          "/film/film_location",
+          "/cvg/computer_game_region",
+          "/business/employer",
+          "/radio/radio_subject",
+          "/meteorology/cyclone_affected_area",
+          "/location/country",
+          "/sports/sports_team_location",
+          "/event/speech_topic",
+          "/food/beer_country_region",
+          "/organization/organization_founder",
+          "/visual_art/art_subject",
+          "/media_common/quotation_addressee",
+          "/religion/religious_leadership_jurisdiction",
+          "/location/location",
+          "/book/book_subject",
+          "/periodicals/newspaper_circulation_area",
+          "/sports/sport_country",
+          "/military/military_unit_place_of_origin",
+          "/location/dated_location",
+          "/olympics/olympic_participating_country",
+          "/location/administrative_division",
+          "/location/statistical_region",
+          "/business/asset_owner",
+          "/organization/organization_scope",
+          "/organization/organization_member"
+        ],
+        "confidenceScore": 1.4087,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_States",
+        "matchedText": "US",
+        "freebaseId": "/m/09c7w0",
+        "relevanceScore": 0.0542292,
+        "entityEnglishId": "United States",
+        "startingPos": 78,
+        "endingPos": 80
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Cost-effectiveness analysis",
+        "confidenceScore": 2.33326,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cost-effectiveness_analysis",
+        "matchedText": "cost-effectiveness analysis",
+        "freebaseId": "/m/01n8zs",
+        "relevanceScore": 0.0868531,
+        "entityEnglishId": "Cost-effectiveness analysis",
+        "startingPos": 93,
+        "endingPos": 120
+      },
+      {
+        "id": 6,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          33,
+          34,
+          35
+        ],
+        "entityId": "American Medical Association",
+        "freebaseTypes": [
+          "/business/employer",
+          "/book/periodical_publisher",
+          "/organization/organization",
+          "/internet/website_owner",
+          "/award/award_presenting_organization",
+          "/book/author"
+        ],
+        "confidenceScore": 3.94221,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Medical_Association",
+        "matchedText": "American Medical Association",
+        "freebaseId": "/m/01pq0r",
+        "relevanceScore": 0.165333,
+        "entityEnglishId": "American Medical Association",
+        "startingPos": 162,
+        "endingPos": 190
+      },
+      {
+        "id": 7,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "entityId": "JAMA (journal)",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/publication",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.12948,
+        "wikiLink": "http://en.wikipedia.org/wiki/JAMA_(journal)",
+        "matchedText": "JAMA : the Journal of the American Medical Association",
+        "freebaseId": "/m/02n872",
+        "relevanceScore": 0,
+        "entityEnglishId": "JAMA (journal)",
+        "startingPos": 136,
+        "endingPos": 190
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          29,
+          30,
+          31
+        ],
+        "propertyPositions": [
+          32,
+          33,
+          34,
+          35
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.326,
+  "ok": true
+}

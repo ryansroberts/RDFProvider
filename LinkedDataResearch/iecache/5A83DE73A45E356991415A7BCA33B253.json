@@ -1,0 +1,495 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.501268
+      },
+      {
+        "id": 2,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.501268
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.501268
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "United Kingdom",
+        "wikiLink": "http://en.wikipedia.org/United_Kingdom",
+        "score": 0.126449
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Ansell D",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ansell D",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 2,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Feest T",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Feest T",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 12,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Hodsman A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hodsman A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 30
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Rao",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Rao",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 36,
+        "endingPos": 39
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.68045,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.0421498,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 44,
+        "endingPos": 46
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Associaton",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Associaton",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 73,
+        "endingPos": 83
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Bristol",
+        "freebaseTypes": [
+          "/visual_art/art_subject",
+          "/business/employer",
+          "/location/dated_location",
+          "/film/film_location",
+          "/location/uk_unitary_authority",
+          "/location/citytown",
+          "/book/book_subject",
+          "/location/statistical_region",
+          "/periodicals/newspaper_circulation_area",
+          "/travel/travel_destination",
+          "/location/uk_statistical_location",
+          "/location/location",
+          "/government/governmental_jurisdiction",
+          "/location/administrative_division",
+          "/sports/sports_team_location",
+          "/organization/organization_scope"
+        ],
+        "confidenceScore": 1.32149,
+        "wikiLink": "http://en.wikipedia.org/wiki/Bristol",
+        "matchedText": "Bristol",
+        "freebaseId": "/m/095l0",
+        "relevanceScore": 0.0762012,
+        "entityEnglishId": "Bristol",
+        "startingPos": 110,
+        "endingPos": 117
+      },
+      {
+        "id": 7,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.68045,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.0421498,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 119,
+        "endingPos": 121
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.68045,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.0421498,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 123,
+        "endingPos": 125
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          27
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          31,
+          33
+        ],
+        "propertyPositions": [
+          32
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          27
+        ],
+        "propertyPositions": [
+          31,
+          32,
+          33,
+          35
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          13,
+          14,
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          18,
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          22,
+          25
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          22,
+          25
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          18,
+          20
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          13,
+          14,
+          16
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

@@ -1,0 +1,329 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.978006
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.967088
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.520727
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.520727
+      },
+      {
+        "id": 5,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.473705
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Chemistry",
+        "score": 0.14202
+      },
+      {
+        "id": 1,
+        "label": "Clinical chemistry",
+        "wikiLink": "http://en.wikipedia.org/Clinical_chemistry",
+        "score": 0.180263
+      },
+      {
+        "id": 2,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.476851
+      },
+      {
+        "id": 3,
+        "label": "Animal anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_anatomy",
+        "score": 0.105855
+      },
+      {
+        "id": 4,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.104729
+      },
+      {
+        "id": 5,
+        "label": "Clinical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_pathology",
+        "score": 0.0739383
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Fraser CG",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Fraser CG",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 3,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          4,
+          5,
+          6
+        ],
+        "entityId": "Williams P. Short-term",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Williams P. Short-term",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 36
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Blood plasma",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 1.77066,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_plasma",
+        "matchedText": "plasma",
+        "freebaseId": "/m/01f36w",
+        "relevanceScore": 0,
+        "entityEnglishId": "Blood plasma",
+        "startingPos": 61,
+        "endingPos": 67
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.50813,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.279785,
+        "entityEnglishId": "Kidney",
+        "startingPos": 80,
+        "endingPos": 85
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.12274,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal disease",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.197066,
+        "entityEnglishId": "Kidney",
+        "startingPos": 80,
+        "endingPos": 93
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.07323,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.0802062,
+        "entityEnglishId": "Disease",
+        "startingPos": 86,
+        "endingPos": 93
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Clinical chemistry",
+        "freebaseTypes": [
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 3.04796,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_chemistry",
+        "matchedText": "Clinical Chemistry",
+        "freebaseId": "/m/0hdq2",
+        "relevanceScore": 0.180263,
+        "entityEnglishId": "Clinical chemistry",
+        "startingPos": 95,
+        "endingPos": 113
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Chemistry",
+        "freebaseTypes": [
+          "/book/periodical_subject",
+          "/education/field_of_study",
+          "/media_common/literary_genre",
+          "/organization/organization_sector",
+          "/people/professional_field",
+          "/award/award_discipline",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.61893,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chemistry",
+        "matchedText": "Chemistry",
+        "freebaseId": "/m/01lj9",
+        "relevanceScore": 0.14202,
+        "entityEnglishId": "Chemistry",
+        "startingPos": 104,
+        "endingPos": 113
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          12
+        ],
+        "propertyPositions": [
+          10,
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "time": 0.322,
+  "ok": true
+}

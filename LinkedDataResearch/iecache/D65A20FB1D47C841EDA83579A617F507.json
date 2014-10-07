@@ -1,0 +1,280 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.904329
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.505241
+      },
+      {
+        "id": 1,
+        "label": "Retinopathy",
+        "wikiLink": "http://en.wikipedia.org/Retinopathy",
+        "score": 0.253223
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Pagani A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Pagani A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Greco G",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Greco G",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 17
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Tagliaferro V",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Tagliaferro V",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 19,
+        "endingPos": 32
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Dipyridamole",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 3.18641,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dipyridamole",
+        "matchedText": "Dipyridamole",
+        "freebaseId": "/m/042t0v",
+        "relevanceScore": 0.0312535,
+        "entityEnglishId": "Dipyridamole",
+        "startingPos": 41,
+        "endingPos": 53
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.34727,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "insulin-dependent",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.505241,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 72,
+        "endingPos": 89
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Retinopathy",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.95136,
+        "wikiLink": "http://en.wikipedia.org/wiki/Retinopathy",
+        "matchedText": "retinopathy",
+        "freebaseId": "/m/0fml5",
+        "relevanceScore": 0.253223,
+        "entityEnglishId": "Retinopathy",
+        "startingPos": 116,
+        "endingPos": 127
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Research",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/education/field_of_study",
+          "/education/school_category",
+          "/book/book_subject",
+          "/architecture/building_function",
+          "/book/periodical_subject",
+          "/business/industry",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 1.12497,
+        "wikiLink": "http://en.wikipedia.org/wiki/Research",
+        "matchedText": "Research",
+        "freebaseId": "/m/06cs1",
+        "relevanceScore": 0.0930627,
+        "entityEnglishId": "Research",
+        "startingPos": 171,
+        "endingPos": 179
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          20,
+          22
+        ],
+        "propertyPositions": [
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.314,
+  "ok": true
+}

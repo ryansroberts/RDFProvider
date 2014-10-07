@@ -1,0 +1,371 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.518529
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.511888
+      },
+      {
+        "id": 3,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.511888
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.511888
+      },
+      {
+        "id": 5,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.511888
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.382549
+      },
+      {
+        "id": 1,
+        "label": "Epidemiology",
+        "wikiLink": "http://en.wikipedia.org/Epidemiology",
+        "score": 0.173269
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Coonrod BA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Coonrod BA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Ellis D",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ellis D",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 12,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Becker DJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Becker DJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 30
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Microalbuminuria",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.8528,
+        "wikiLink": "http://en.wikipedia.org/wiki/Microalbuminuria",
+        "matchedText": "microalbuminuria",
+        "freebaseId": "/m/07y7r4",
+        "relevanceScore": 0.0449721,
+        "entityEnglishId": "Microalbuminuria",
+        "startingPos": 53,
+        "endingPos": 69
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "IDDM",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "IDDM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 90,
+        "endingPos": 94
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Pittsburgh",
+        "freebaseTypes": [
+          "/location/hud_foreclosure_area",
+          "/location/location",
+          "/location/dated_location",
+          "/periodicals/newspaper_circulation_area",
+          "/travel/travel_destination",
+          "/location/citytown",
+          "/symbols/namesake",
+          "/tv/tv_location",
+          "/location/capital_of_administrative_division",
+          "/organization/organization_scope",
+          "/location/statistical_region",
+          "/sports/sports_team_location",
+          "/location/hud_county_place",
+          "/book/book_subject",
+          "/film/film_location",
+          "/symbols/name_source",
+          "/location/place_with_neighborhoods",
+          "/government/governmental_jurisdiction"
+        ],
+        "confidenceScore": 1.29591,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pittsburgh",
+        "matchedText": "Pittsburgh",
+        "freebaseId": "/m/068p2",
+        "relevanceScore": 0.0779714,
+        "entityEnglishId": "Pittsburgh",
+        "startingPos": 96,
+        "endingPos": 106
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Pittsburgh Epidemiology",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Pittsburgh Epidemiology",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 96,
+        "endingPos": 119
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Epidemiology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.2918,
+        "wikiLink": "http://en.wikipedia.org/wiki/Epidemiology",
+        "matchedText": "Epidemiology",
+        "freebaseId": "/m/0hnfc",
+        "relevanceScore": 0.173269,
+        "entityEnglishId": "Epidemiology",
+        "startingPos": 107,
+        "endingPos": 119
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.60526,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.191275,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 123,
+        "endingPos": 131
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.60526,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.191275,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 153,
+        "endingPos": 161
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          19,
+          20,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11,
+          12,
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          11,
+          12,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

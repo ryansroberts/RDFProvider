@@ -1,0 +1,256 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.990878
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.990878
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.982232
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.982232
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.510265
+      },
+      {
+        "id": 5,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.510265
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Social services",
+        "wikiLink": "http://en.wikipedia.org/Social_services",
+        "score": 0.171039
+      },
+      {
+        "id": 1,
+        "label": "United Kingdom",
+        "wikiLink": "http://en.wikipedia.org/United_Kingdom",
+        "score": 0.152059
+      },
+      {
+        "id": 2,
+        "label": "Higher education",
+        "wikiLink": "http://en.wikipedia.org/Category:Higher_education_by_country",
+        "score": 0.0383946
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Curtis",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Curtis",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "entityId": "Health and Social Care",
+        "freebaseTypes": [
+          "/organization/organization_sector"
+        ],
+        "confidenceScore": 1.69456,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_and_Social_Care",
+        "matchedText": "Health and Social Care",
+        "freebaseId": "/m/0bglyd",
+        "relevanceScore": 0.0659747,
+        "entityEnglishId": "Health and Social Care",
+        "startingPos": 29,
+        "endingPos": 51
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Canterbury",
+        "freebaseTypes": [
+          "/travel/travel_destination",
+          "/business/employer",
+          "/location/dated_location",
+          "/location/citytown",
+          "/location/statistical_region",
+          "/location/location"
+        ],
+        "confidenceScore": 0.982146,
+        "wikiLink": "http://en.wikipedia.org/wiki/Canterbury",
+        "matchedText": "Canterbury",
+        "freebaseId": "/m/0cy07",
+        "relevanceScore": 0.0760125,
+        "entityEnglishId": "Canterbury",
+        "startingPos": 53,
+        "endingPos": 63
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.72546,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.152059,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 65,
+        "endingPos": 67
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Social services",
+        "confidenceScore": 1.20644,
+        "wikiLink": "http://en.wikipedia.org/wiki/Social_services",
+        "matchedText": "Social Services",
+        "freebaseId": "/m/0kg1fpw",
+        "relevanceScore": 0.171039,
+        "entityEnglishId": "Social services",
+        "startingPos": 78,
+        "endingPos": 93
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          18,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          18,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          22
+        ]
+      }
+    ]
+  },
+  "time": 0.315,
+  "ok": true
+}

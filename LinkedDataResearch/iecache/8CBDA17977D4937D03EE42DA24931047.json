@@ -1,0 +1,416 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.615165
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.312849
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.312849
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chronic kidney disease",
+        "wikiLink": "http://en.wikipedia.org/Chronic_kidney_disease",
+        "score": 0.350766
+      },
+      {
+        "id": 1,
+        "label": "Glomerulus",
+        "wikiLink": "http://en.wikipedia.org/Glomerulus",
+        "score": 0.278225
+      },
+      {
+        "id": 2,
+        "label": "Hyperlipidemia",
+        "wikiLink": "http://en.wikipedia.org/Hyperlipidemia",
+        "score": 0.104484
+      },
+      {
+        "id": 3,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.301533
+      },
+      {
+        "id": 4,
+        "label": "Nephrectomy",
+        "wikiLink": "http://en.wikipedia.org/Nephrectomy",
+        "score": 0.24366
+      },
+      {
+        "id": 5,
+        "label": "Rat",
+        "wikiLink": "http://en.wikipedia.org/Rat",
+        "score": 0.154969
+      },
+      {
+        "id": 6,
+        "label": "Renal failure",
+        "wikiLink": "http://en.wikipedia.org/Renal_failure",
+        "score": 0.419267
+      },
+      {
+        "id": 7,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.400235
+      },
+      {
+        "id": 8,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.388797
+      },
+      {
+        "id": 9,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.388797
+      },
+      {
+        "id": 10,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.115409
+      },
+      {
+        "id": 11,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.10746
+      },
+      {
+        "id": 12,
+        "label": "Urology",
+        "wikiLink": "http://en.wikipedia.org/Category:Urology",
+        "score": 0.0983591
+      },
+      {
+        "id": 13,
+        "label": "Organ failure",
+        "wikiLink": "http://en.wikipedia.org/Category:Organ_failure",
+        "score": 0.0608957
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Kasiske BL",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kasiske BL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "ODonnell",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "ODonnell",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Pharmacology",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/book/periodical_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 1.08554,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmacology",
+        "matchedText": "Pharmacologic",
+        "freebaseId": "/m/062p_",
+        "relevanceScore": 0.0403268,
+        "entityEnglishId": "Pharmacology",
+        "startingPos": 46,
+        "endingPos": 59
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Hyperlipidemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 5.61426,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hyperlipidemia",
+        "matchedText": "hyperlipidemia",
+        "freebaseId": "/m/05f45h",
+        "relevanceScore": 0.104484,
+        "entityEnglishId": "Hyperlipidemia",
+        "startingPos": 73,
+        "endingPos": 87
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Glomerulus",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 2.53298,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glomerulus",
+        "matchedText": "glomerular",
+        "freebaseId": "/m/02_dbc",
+        "relevanceScore": 0.278225,
+        "entityEnglishId": "Glomerulus",
+        "startingPos": 96,
+        "endingPos": 106
+      },
+      {
+        "id": 5,
+        "type": [
+          "Species",
+          "Eukaryote",
+          "Animal",
+          "Mammal"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Rat",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/fictional_universe/character_species",
+          "/biology/organism_classification",
+          "/biology/animal"
+        ],
+        "confidenceScore": 1.35838,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rat",
+        "matchedText": "rat",
+        "freebaseId": "/m/06lk1",
+        "relevanceScore": 0.154969,
+        "entityEnglishId": "Rat",
+        "startingPos": 117,
+        "endingPos": 120
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Nephrectomy",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 5.08839,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephrectomy",
+        "matchedText": "nephrectomy",
+        "freebaseId": "/m/05hrp3",
+        "relevanceScore": 0.24366,
+        "entityEnglishId": "Nephrectomy",
+        "startingPos": 125,
+        "endingPos": 136
+      },
+      {
+        "id": 7,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.39505,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.301533,
+        "entityEnglishId": "Kidney",
+        "startingPos": 154,
+        "endingPos": 159
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          24,
+          25,
+          26
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.01013,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "chronic renal failure",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.350766,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 146,
+        "endingPos": 167
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Renal failure",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 4.63631,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_failure",
+        "matchedText": "renal failure",
+        "freebaseId": "/m/01psyx",
+        "relevanceScore": 0.419267,
+        "entityEnglishId": "Renal failure",
+        "startingPos": 154,
+        "endingPos": 167
+      },
+      {
+        "id": 10,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Garvis WJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Garvis WJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 29,
+        "endingPos": 38
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "time": 0.322,
+  "ok": true
+}

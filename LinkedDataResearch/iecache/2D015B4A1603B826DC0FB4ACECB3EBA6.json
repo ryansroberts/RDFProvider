@@ -1,0 +1,183 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.575179
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.496031
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "International Diabetes Federation",
+        "wikiLink": "http://en.wikipedia.org/International_Diabetes_Federation",
+        "score": 0.620971
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.59191,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 16,
+        "endingPos": 24
+      },
+      {
+        "id": 1,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "International Diabetes Federation",
+        "freebaseTypes": [
+          "/business/employer",
+          "/organization/organization"
+        ],
+        "confidenceScore": 4.16744,
+        "wikiLink": "http://en.wikipedia.org/wiki/International_Diabetes_Federation",
+        "matchedText": "International Diabetes Federation",
+        "freebaseId": "/m/0ft2gc",
+        "relevanceScore": 0.620971,
+        "entityEnglishId": "International Diabetes Federation",
+        "startingPos": 2,
+        "endingPos": 35
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.59191,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 37,
+        "endingPos": 45
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Brussels",
+        "freebaseTypes": [
+          "/visual_art/art_subject",
+          "/travel/travel_destination",
+          "/periodicals/newspaper_circulation_area",
+          "/location/citytown",
+          "/location/administrative_division",
+          "/location/dated_location",
+          "/common/identity",
+          "/location/statistical_region",
+          "/organization/organization_scope",
+          "/location/location"
+        ],
+        "confidenceScore": 1.98704,
+        "wikiLink": "http://en.wikipedia.org/wiki/Brussels",
+        "matchedText": "Brussels",
+        "freebaseId": "/m/0177z",
+        "relevanceScore": 0.036705,
+        "entityEnglishId": "Brussels",
+        "startingPos": 53,
+        "endingPos": 61
+      },
+      {
+        "id": 4,
+        "type": [
+          "Agent",
+          "Organisation",
+          "MilitaryUnit"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Israel Defense Forces",
+        "freebaseTypes": [
+          "/organization/organization_founder",
+          "/military/armed_force",
+          "/organization/organization",
+          "/business/employer",
+          "/book/periodical_publisher",
+          "/broadcast/producer"
+        ],
+        "confidenceScore": 2.04936,
+        "wikiLink": "http://en.wikipedia.org/wiki/Israel_Defense_Forces",
+        "matchedText": "IDF",
+        "freebaseId": "/m/09s93",
+        "relevanceScore": 0.0153192,
+        "entityEnglishId": "Israel Defense Forces",
+        "startingPos": 63,
+        "endingPos": 66
+      }
+    ]
+  },
+  "time": 0.309,
+  "ok": true
+}

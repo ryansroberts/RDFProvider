@@ -1,0 +1,449 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.535523
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.528328
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.523301
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.523301
+      },
+      {
+        "id": 5,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.493766
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Blood pressure",
+        "wikiLink": "http://en.wikipedia.org/Blood_pressure",
+        "score": 0.144632
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.114054
+      },
+      {
+        "id": 2,
+        "label": "Glomerulus",
+        "wikiLink": "http://en.wikipedia.org/Glomerulus",
+        "score": 0.368771
+      },
+      {
+        "id": 3,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.135842
+      },
+      {
+        "id": 4,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.468304
+      },
+      {
+        "id": 5,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.11589
+      },
+      {
+        "id": 6,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.101882
+      },
+      {
+        "id": 7,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.0981278
+      },
+      {
+        "id": 8,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0981278
+      },
+      {
+        "id": 9,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0749716
+      },
+      {
+        "id": 10,
+        "label": "Applied sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Applied_sciences",
+        "score": 0.0488183
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Mathiesen ER",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Mathiesen ER",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Feldt-Rasmussen B",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Feldt-Rasmussen B",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 31
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Hommel E",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hommel E",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 33,
+        "endingPos": 41
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Glomerulus",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 2.72943,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glomerulus",
+        "matchedText": "glomerular",
+        "freebaseId": "/m/02_dbc",
+        "relevanceScore": 0.368771,
+        "entityEnglishId": "Glomerulus",
+        "startingPos": 57,
+        "endingPos": 67
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.38058,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "glomerular filtration",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.269282,
+        "entityEnglishId": "Renal function",
+        "startingPos": 57,
+        "endingPos": 78
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Filtration",
+        "freebaseTypes": [
+          "/business/industry",
+          "/law/invention",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.18785,
+        "wikiLink": "http://en.wikipedia.org/wiki/Filtration",
+        "matchedText": "filtration",
+        "freebaseId": "/m/032x7",
+        "relevanceScore": 0,
+        "entityEnglishId": "Filtration",
+        "startingPos": 68,
+        "endingPos": 78
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          12,
+          13,
+          14
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.52164,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "glomerular filtration rate",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.199022,
+        "entityEnglishId": "Renal function",
+        "startingPos": 57,
+        "endingPos": 83
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Blood pressure",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 1.98915,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_pressure",
+        "matchedText": "normotensive",
+        "freebaseId": "/m/0fmq1",
+        "relevanceScore": 0.144632,
+        "entityEnglishId": "Blood pressure",
+        "startingPos": 87,
+        "endingPos": 99
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 0.9771,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.135842,
+        "entityEnglishId": "Patient",
+        "startingPos": 105,
+        "endingPos": 113
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Microalbuminuria",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.96861,
+        "wikiLink": "http://en.wikipedia.org/wiki/Microalbuminuria",
+        "matchedText": "microalbuminuria",
+        "freebaseId": "/m/07y7r4",
+        "relevanceScore": 0.0919274,
+        "entityEnglishId": "Microalbuminuria",
+        "startingPos": 126,
+        "endingPos": 142
+      },
+      {
+        "id": 10,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.81411,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.114054,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 172,
+        "endingPos": 180
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23,
+          26
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          23,
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

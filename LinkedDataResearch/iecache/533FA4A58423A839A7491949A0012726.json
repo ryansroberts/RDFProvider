@@ -1,0 +1,377 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.979268
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.52039
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Nitric oxide",
+        "wikiLink": "http://en.wikipedia.org/Nitric_oxide",
+        "score": 0.161319
+      },
+      {
+        "id": 1,
+        "label": "Chemical compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_compounds_by_element",
+        "score": 0.106448
+      },
+      {
+        "id": 2,
+        "label": "Chalcogenides",
+        "wikiLink": "http://en.wikipedia.org/Category:Chalcogenides",
+        "score": 0.0488358
+      },
+      {
+        "id": 3,
+        "label": "Solid-state chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Solid-state_chemistry",
+        "score": 0.0488358
+      },
+      {
+        "id": 4,
+        "label": "Oxygen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxygen_compounds",
+        "score": 0.0488358
+      },
+      {
+        "id": 5,
+        "label": "Oxides",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxides",
+        "score": 0.0488358
+      },
+      {
+        "id": 6,
+        "label": "Oxygen",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxygen",
+        "score": 0.0488358
+      },
+      {
+        "id": 7,
+        "label": "Salts",
+        "wikiLink": "http://en.wikipedia.org/Category:Salts",
+        "score": 0.0488358
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Remuzzi G",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Remuzzi G",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Zoja C",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Zoja C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 25,
+        "endingPos": 31
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Nitric oxide",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/award/award_winning_work",
+          "/chemistry/chemical_compound",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 4.61613,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nitric_oxide",
+        "matchedText": "nitric oxide",
+        "freebaseId": "/m/01j5q2",
+        "relevanceScore": 0.161319,
+        "entityEnglishId": "Nitric oxide",
+        "startingPos": 67,
+        "endingPos": 79
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Oxide",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 1.55175,
+        "wikiLink": "http://en.wikipedia.org/wiki/Oxide",
+        "matchedText": "oxide",
+        "freebaseId": "/m/05l4s",
+        "relevanceScore": 0,
+        "entityEnglishId": "Oxide",
+        "startingPos": 74,
+        "endingPos": 79
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Uremia",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 5.86139,
+        "wikiLink": "http://en.wikipedia.org/wiki/Uremia",
+        "matchedText": "uremia",
+        "freebaseId": "/m/02f8hm",
+        "relevanceScore": 0.0567484,
+        "entityEnglishId": "Uremia",
+        "startingPos": 108,
+        "endingPos": 114
+      },
+      {
+        "id": 5,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Perico N",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Perico N",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 23
+      },
+      {
+        "id": 6,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          23,
+          24,
+          25,
+          26
+        ],
+        "entityId": "Journal of Clinical Investigation",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.7448,
+        "wikiLink": "http://en.wikipedia.org/wiki/Journal_of_Clinical_Investigation",
+        "matchedText": "Journal of Clinical Investigation",
+        "freebaseId": "/m/089jjv",
+        "relevanceScore": 0,
+        "entityEnglishId": "Journal of Clinical Investigation",
+        "startingPos": 116,
+        "endingPos": 149
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          16
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.32,
+  "ok": true
+}

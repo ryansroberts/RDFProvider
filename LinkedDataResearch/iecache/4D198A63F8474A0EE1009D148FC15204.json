@@ -1,0 +1,534 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.56437
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.453756
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.273116
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.215927
+      },
+      {
+        "id": 5,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.192833
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.380118
+      },
+      {
+        "id": 1,
+        "label": "Diabetic ketoacidosis",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_ketoacidosis",
+        "score": 0.488553
+      },
+      {
+        "id": 2,
+        "label": "Insulin",
+        "wikiLink": "http://en.wikipedia.org/Insulin",
+        "score": 0.261151
+      },
+      {
+        "id": 3,
+        "label": "Insulin therapy",
+        "wikiLink": "http://en.wikipedia.org/Insulin_therapy",
+        "score": 0.192481
+      },
+      {
+        "id": 4,
+        "label": "Ketoacidosis",
+        "wikiLink": "http://en.wikipedia.org/Ketoacidosis",
+        "score": 0.411124
+      },
+      {
+        "id": 5,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.893734
+      },
+      {
+        "id": 6,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.211446
+      },
+      {
+        "id": 7,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.209271
+      },
+      {
+        "id": 8,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.208087
+      },
+      {
+        "id": 9,
+        "label": "Endocrinology",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrinology",
+        "score": 0.199836
+      },
+      {
+        "id": 10,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.194421
+      },
+      {
+        "id": 11,
+        "label": "Medical procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_procedures",
+        "score": 0.191062
+      },
+      {
+        "id": 12,
+        "label": "Endocrine procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_procedures",
+        "score": 0.191062
+      },
+      {
+        "id": 13,
+        "label": "Insulin therapies",
+        "wikiLink": "http://en.wikipedia.org/Category:Insulin_therapies",
+        "score": 0.191062
+      },
+      {
+        "id": 14,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.0810366
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Fisher JN",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Fisher JN",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Shahshahani MN",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Shahshahani MN",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 25
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Kitabchi AE",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kitabchi AE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 27,
+        "endingPos": 38
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.92782,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.380118,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 40,
+        "endingPos": 48
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Diabetic ketoacidosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 7.18037,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_ketoacidosis",
+        "matchedText": "Diabetic ketoacidosis",
+        "freebaseId": "/m/0fmk8",
+        "relevanceScore": 0.488553,
+        "entityEnglishId": "Diabetic ketoacidosis",
+        "startingPos": 40,
+        "endingPos": 61
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Ketoacidosis",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 5.85903,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ketoacidosis",
+        "matchedText": "ketoacidosis",
+        "freebaseId": "/m/02mwg6",
+        "relevanceScore": 0.411124,
+        "entityEnglishId": "Ketoacidosis",
+        "startingPos": 49,
+        "endingPos": 61
+      },
+      {
+        "id": 6,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 5.61521,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.261151,
+        "entityEnglishId": "Insulin",
+        "startingPos": 72,
+        "endingPos": 79
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Insulin therapy",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.63525,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin_therapy",
+        "matchedText": "insulin therapy",
+        "freebaseId": "/m/0521j1s",
+        "relevanceScore": 0.192481,
+        "entityEnglishId": "Insulin therapy",
+        "startingPos": 72,
+        "endingPos": 87
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.5911,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0,
+        "entityEnglishId": "Therapy",
+        "startingPos": 80,
+        "endingPos": 87
+      },
+      {
+        "id": 9,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "New England",
+        "freebaseTypes": [
+          "/location/region",
+          "/book/book_subject",
+          "/symbols/namesake",
+          "/periodicals/newspaper_circulation_area",
+          "/location/statistical_region",
+          "/location/dated_location",
+          "/meteorology/cyclone_affected_area",
+          "/business/employer",
+          "/visual_art/art_subject",
+          "/organization/organization_scope",
+          "/location/location"
+        ],
+        "confidenceScore": 1.53663,
+        "wikiLink": "http://en.wikipedia.org/wiki/New_England",
+        "matchedText": "New England",
+        "freebaseId": "/m/029jpy",
+        "relevanceScore": 0.0821586,
+        "entityEnglishId": "New England",
+        "startingPos": 107,
+        "endingPos": 118
+      },
+      {
+        "id": 10,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "England",
+        "freebaseTypes": [
+          "/fictional_universe/fictional_setting",
+          "/food/beer_country_region",
+          "/sports/sport_country",
+          "/location/uk_statistical_location",
+          "/organization/organization_scope",
+          "/biology/breed_origin",
+          "/sports/sports_team_location",
+          "/location/statistical_region",
+          "/military/military_combatant",
+          "/symbols/name_source",
+          "/location/uk_constituent_country",
+          "/location/dated_location",
+          "/law/court_jurisdiction_area",
+          "/government/governmental_jurisdiction",
+          "/travel/travel_destination",
+          "/film/film_location",
+          "/military/military_post",
+          "/film/film_subject",
+          "/location/country",
+          "/location/administrative_division",
+          "/olympics/olympic_participating_country",
+          "/periodicals/newspaper_circulation_area",
+          "/symbols/flag_referent",
+          "/book/book_subject",
+          "/event/speech_topic",
+          "/location/location"
+        ],
+        "confidenceScore": 2.25936,
+        "wikiLink": "http://en.wikipedia.org/wiki/England",
+        "matchedText": "England",
+        "freebaseId": "/m/02jx1",
+        "relevanceScore": 0.0405155,
+        "entityEnglishId": "England",
+        "startingPos": 111,
+        "endingPos": 118
+      },
+      {
+        "id": 11,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "entityId": "The New England Journal of Medicine",
+        "freebaseTypes": [
+          "/book/journal",
+          "/book/periodical",
+          "/book/publication"
+        ],
+        "confidenceScore": 2.47442,
+        "wikiLink": "http://en.wikipedia.org/wiki/The_New_England_Journal_of_Medicine",
+        "matchedText": "New England Journal of Medicine",
+        "freebaseId": "/m/02g96l",
+        "relevanceScore": 0,
+        "entityEnglishId": "The New England Journal of Medicine",
+        "startingPos": 107,
+        "endingPos": 138
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          19,
+          20,
+          21,
+          22
+        ],
+        "propertyPositions": [
+          23,
+          24
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

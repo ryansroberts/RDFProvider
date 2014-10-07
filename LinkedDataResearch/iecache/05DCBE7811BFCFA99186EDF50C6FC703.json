@@ -1,0 +1,358 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.662546
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.65327
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.643398
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.328133
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.325642
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Life expectancy",
+        "wikiLink": "http://en.wikipedia.org/Life_expectancy",
+        "score": 0.107836
+      },
+      {
+        "id": 1,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Medicine",
+        "score": 0.148119
+      },
+      {
+        "id": 2,
+        "label": "Public health",
+        "wikiLink": "http://en.wikipedia.org/Public_health",
+        "score": 0.233877
+      },
+      {
+        "id": 3,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0854125
+      },
+      {
+        "id": 4,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0854125
+      },
+      {
+        "id": 5,
+        "label": "Social programs",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_programs",
+        "score": 0.0831892
+      },
+      {
+        "id": 6,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0831892
+      },
+      {
+        "id": 7,
+        "label": "Applied sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Applied_sciences",
+        "score": 0.0831892
+      },
+      {
+        "id": 8,
+        "label": "Service industries",
+        "wikiLink": "http://en.wikipedia.org/Category:Service_industries",
+        "score": 0.0831892
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Jagger C",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Jagger C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Clarke M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Clarke M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 20,
+        "endingPos": 28
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Life expectancy",
+        "confidenceScore": 1.17064,
+        "wikiLink": "http://en.wikipedia.org/wiki/Life_expectancy",
+        "matchedText": "life expectancy",
+        "freebaseId": "/m/04qsq",
+        "relevanceScore": 0.107836,
+        "entityEnglishId": "Life expectancy",
+        "startingPos": 50,
+        "endingPos": 65
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.10289,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.098394,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 93,
+        "endingPos": 101
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Goyder E",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Goyder E",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 18
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Public health",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/book/book_subject",
+          "/medicine/medical_specialty",
+          "/government/governmental_jurisdiction",
+          "/award/award_discipline",
+          "/organization/non_profit_designation",
+          "/film/film_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 1.40615,
+        "wikiLink": "http://en.wikipedia.org/wiki/Public_health",
+        "matchedText": "Public Health",
+        "freebaseId": "/m/02cm61",
+        "relevanceScore": 0.233877,
+        "entityEnglishId": "Public health",
+        "startingPos": 114,
+        "endingPos": 127
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "entityId": "Journal of Public Health Medicine",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Journal of Public Health Medicine",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 103,
+        "endingPos": 136
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Medicine",
+        "freebaseTypes": [
+          "/radio/radio_subject",
+          "/education/field_of_study",
+          "/broadcast/genre",
+          "/book/periodical_subject",
+          "/media_common/literary_genre",
+          "/film/film_subject",
+          "/media_common/quotation_subject",
+          "/organization/organization_sector",
+          "/book/book_subject",
+          "/book/magazine_genre",
+          "/award/award_discipline",
+          "/media_common/media_genre"
+        ],
+        "confidenceScore": 1.25845,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medicine",
+        "matchedText": "Medicine",
+        "freebaseId": "/m/04sh3",
+        "relevanceScore": 0.148119,
+        "entityEnglishId": "Medicine",
+        "startingPos": 128,
+        "endingPos": 136
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          9,
+          14,
+          15,
+          16
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          8,
+          9,
+          14,
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

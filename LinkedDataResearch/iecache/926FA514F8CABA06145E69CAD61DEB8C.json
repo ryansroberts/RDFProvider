@@ -1,0 +1,213 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cell biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cell_biology",
+        "score": 0.0381846
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Hillege HL",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hillege HL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Fidler V",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Fidler V",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Diercks GF",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Diercks GF",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 36
+      },
+      {
+        "id": 3,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Serum albumin",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 1.47025,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_albumin",
+        "matchedText": "albumin",
+        "freebaseId": "/m/051h4z",
+        "relevanceScore": 0.0591199,
+        "entityEnglishId": "Serum albumin",
+        "startingPos": 52,
+        "endingPos": 59
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Excretion",
+        "confidenceScore": 1.82455,
+        "wikiLink": "http://en.wikipedia.org/wiki/Excretion",
+        "matchedText": "excretion",
+        "freebaseId": "/m/01lvt1",
+        "relevanceScore": 0,
+        "entityEnglishId": "Excretion",
+        "startingPos": 60,
+        "endingPos": 69
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          14
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

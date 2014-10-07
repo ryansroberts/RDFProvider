@@ -1,0 +1,416 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.525789
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Nephrology",
+        "score": 0.243721
+      },
+      {
+        "id": 1,
+        "label": "Proteinuria",
+        "wikiLink": "http://en.wikipedia.org/Proteinuria",
+        "score": 0.12352
+      },
+      {
+        "id": 2,
+        "label": "Abnormal clinical and laboratory findings",
+        "wikiLink": "http://en.wikipedia.org/Category:Abnormal_clinical_and_laboratory_findings",
+        "score": 0.0333333
+      },
+      {
+        "id": 3,
+        "label": "Cities",
+        "wikiLink": "http://en.wikipedia.org/Category:Cities_by_continent",
+        "score": 0.0333333
+      },
+      {
+        "id": 4,
+        "label": "Urine",
+        "wikiLink": "http://en.wikipedia.org/Category:Urine",
+        "score": 0.0333333
+      },
+      {
+        "id": 5,
+        "label": "Abnormal clinical and laboratory findings for urine",
+        "wikiLink": "http://en.wikipedia.org/Category:Abnormal_clinical_and_laboratory_findings_for_urine",
+        "score": 0.0333333
+      },
+      {
+        "id": 6,
+        "label": "Urine tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Urine_tests",
+        "score": 0.0333333
+      },
+      {
+        "id": 7,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.0333333
+      },
+      {
+        "id": 8,
+        "label": "Municipalities",
+        "wikiLink": "http://en.wikipedia.org/Category:Municipalities",
+        "score": 0.0333333
+      },
+      {
+        "id": 9,
+        "label": "City",
+        "wikiLink": "http://en.wikipedia.org/Category:City",
+        "score": 0.0333333
+      },
+      {
+        "id": 10,
+        "label": "Continents",
+        "wikiLink": "http://en.wikipedia.org/Category:Continents",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "Town"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Konta",
+        "freebaseTypes": [
+          "/location/dated_location",
+          "/location/citytown",
+          "/location/location",
+          "/location/statistical_region"
+        ],
+        "confidenceScore": 1.59352,
+        "wikiLink": "http://en.wikipedia.org/wiki/Konta",
+        "matchedText": "Konta",
+        "freebaseId": "/m/05pblyz",
+        "relevanceScore": 0,
+        "entityEnglishId": "Konta",
+        "startingPos": 3,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Konta T",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Konta T",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 3,
+        "endingPos": 10
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Hao Z",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hao Z",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 12,
+        "endingPos": 17
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Takasaki, Gunma",
+        "freebaseTypes": [
+          "/location/citytown",
+          "/location/location",
+          "/location/dated_location",
+          "/location/statistical_region"
+        ],
+        "confidenceScore": 1.97104,
+        "wikiLink": "http://en.wikipedia.org/wiki/Takasaki,_Gunma",
+        "matchedText": "Takasaki",
+        "freebaseId": "/m/0gp5zg",
+        "relevanceScore": 0,
+        "entityEnglishId": "Takasaki, Gunma",
+        "startingPos": 19,
+        "endingPos": 27
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Takasaki S",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Takasaki S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 19,
+        "endingPos": 29
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Proteinuria",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 5.20205,
+        "wikiLink": "http://en.wikipedia.org/wiki/Proteinuria",
+        "matchedText": "proteinuria",
+        "freebaseId": "/m/012zf3",
+        "relevanceScore": 0.12352,
+        "entityEnglishId": "Proteinuria",
+        "startingPos": 63,
+        "endingPos": 74
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Microalbuminuria",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.00539,
+        "wikiLink": "http://en.wikipedia.org/wiki/Microalbuminuria",
+        "matchedText": "microalbuminuria",
+        "freebaseId": "/m/07y7r4",
+        "relevanceScore": 0.0603998,
+        "entityEnglishId": "Microalbuminuria",
+        "startingPos": 79,
+        "endingPos": 95
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Nephrology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 4.09697,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephrology",
+        "matchedText": "Nephrology",
+        "freebaseId": "/m/05jd4",
+        "relevanceScore": 0.243721,
+        "entityEnglishId": "Nephrology",
+        "startingPos": 157,
+        "endingPos": 167
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          27
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          12,
+          13,
+          16
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          12,
+          13,
+          16
+        ],
+        "propertyPositions": [
+          14,
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          20,
+          22
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          12,
+          13,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

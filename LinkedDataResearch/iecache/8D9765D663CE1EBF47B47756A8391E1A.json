@@ -1,0 +1,391 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.593509
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.358406
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.315926
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.315926
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.315926
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetic neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_neuropathy",
+        "score": 0.701986
+      },
+      {
+        "id": 1,
+        "label": "Placebo-controlled study",
+        "wikiLink": "http://en.wikipedia.org/Placebo-controlled_study",
+        "score": 0.193931
+      },
+      {
+        "id": 2,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.0505606
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "EthnicGroup"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Dogra",
+        "freebaseTypes": [
+          "/people/ethnicity"
+        ],
+        "confidenceScore": 2.79994,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dogra",
+        "matchedText": "Dogra",
+        "freebaseId": "/m/05ztd1",
+        "relevanceScore": 0,
+        "entityEnglishId": "Dogra",
+        "startingPos": 4,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Dogra S",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Dogra S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 11
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Beydoun S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Beydoun S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 22
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Oxcarbazepine",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.87851,
+        "wikiLink": "http://en.wikipedia.org/wiki/Oxcarbazepine",
+        "matchedText": "Oxcarbazepine",
+        "freebaseId": "/m/025gxv",
+        "relevanceScore": 0.0706993,
+        "entityEnglishId": "Oxcarbazepine",
+        "startingPos": 41,
+        "endingPos": 54
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 5.78031,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "diabetic neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.219816,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 66,
+        "endingPos": 85
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 1.81417,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.48217,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 75,
+        "endingPos": 85
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Placebo-controlled study",
+        "confidenceScore": 1.07425,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo-controlled_study",
+        "matchedText": "placebo-controlled",
+        "freebaseId": "/m/05b5m22",
+        "relevanceScore": 0.0969657,
+        "entityEnglishId": "Placebo-controlled study",
+        "startingPos": 101,
+        "endingPos": 119
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Placebo-controlled study",
+        "confidenceScore": 2.16042,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo-controlled_study",
+        "matchedText": "placebo-controlled study",
+        "freebaseId": "/m/05b5m22",
+        "relevanceScore": 0.0969657,
+        "entityEnglishId": "Placebo-controlled study",
+        "startingPos": 101,
+        "endingPos": 125
+      },
+      {
+        "id": 8,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Mazzola J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Mazzola J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 24,
+        "endingPos": 33
+      },
+      {
+        "id": 9,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          23,
+          24
+        ],
+        "entityId": "European Journal",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "European Journal",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 127,
+        "endingPos": 143
+      },
+      {
+        "id": 10,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Pain",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 147,
+        "endingPos": 151
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          17,
+          21
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          17,
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

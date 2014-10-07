@@ -1,0 +1,155 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Gordge MP",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Gordge MP",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Neild GH",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Neild GH",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 23
+      },
+      {
+        "id": 2,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Platelet",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.22963,
+        "wikiLink": "http://en.wikipedia.org/wiki/Platelet",
+        "matchedText": "Platelet",
+        "freebaseId": "/m/01bw6w",
+        "relevanceScore": 0,
+        "entityEnglishId": "Platelet",
+        "startingPos": 25,
+        "endingPos": 33
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Uremia",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 4.25161,
+        "wikiLink": "http://en.wikipedia.org/wiki/Uremia",
+        "matchedText": "uraemia",
+        "freebaseId": "/m/02f8hm",
+        "relevanceScore": 0,
+        "entityEnglishId": "Uremia",
+        "startingPos": 46,
+        "endingPos": 53
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Platelet",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.94889,
+        "wikiLink": "http://en.wikipedia.org/wiki/Platelet",
+        "matchedText": "Platelets",
+        "freebaseId": "/m/01bw6w",
+        "relevanceScore": 0,
+        "entityEnglishId": "Platelet",
+        "startingPos": 55,
+        "endingPos": 64
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10
+        ]
+      }
+    ]
+  },
+  "time": 0.31,
+  "ok": true
+}

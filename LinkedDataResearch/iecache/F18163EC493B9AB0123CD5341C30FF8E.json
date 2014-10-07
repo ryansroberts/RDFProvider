@@ -1,0 +1,393 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.665854
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.665192
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.336995
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.333254
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Renal failure",
+        "wikiLink": "http://en.wikipedia.org/Renal_failure",
+        "score": 0.120547
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Ihle BU",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ihle BU",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Becker GJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Becker GJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 22
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Whitworth JA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Whitworth JA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 24,
+        "endingPos": 36
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Protein",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/chemistry/chemical_classification",
+          "/medicine/drug_class",
+          "/food/nutrient"
+        ],
+        "confidenceScore": 2.08794,
+        "wikiLink": "http://en.wikipedia.org/wiki/Protein",
+        "matchedText": "protein",
+        "freebaseId": "/m/05wvs",
+        "relevanceScore": 0.0366192,
+        "entityEnglishId": "Protein",
+        "startingPos": 58,
+        "endingPos": 65
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Renal failure",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 3.15863,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_failure",
+        "matchedText": "renal insufficiency",
+        "freebaseId": "/m/01psyx",
+        "relevanceScore": 0.120547,
+        "entityEnglishId": "Renal failure",
+        "startingPos": 100,
+        "endingPos": 119
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          23,
+          24
+        ],
+        "entityId": "New England",
+        "freebaseTypes": [
+          "/location/region",
+          "/book/book_subject",
+          "/symbols/namesake",
+          "/periodicals/newspaper_circulation_area",
+          "/location/statistical_region",
+          "/location/dated_location",
+          "/meteorology/cyclone_affected_area",
+          "/business/employer",
+          "/visual_art/art_subject",
+          "/organization/organization_scope",
+          "/location/location"
+        ],
+        "confidenceScore": 1.52955,
+        "wikiLink": "http://en.wikipedia.org/wiki/New_England",
+        "matchedText": "New England",
+        "freebaseId": "/m/029jpy",
+        "relevanceScore": 0.075931,
+        "entityEnglishId": "New England",
+        "startingPos": 121,
+        "endingPos": 132
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "England",
+        "freebaseTypes": [
+          "/fictional_universe/fictional_setting",
+          "/food/beer_country_region",
+          "/sports/sport_country",
+          "/location/uk_statistical_location",
+          "/organization/organization_scope",
+          "/biology/breed_origin",
+          "/sports/sports_team_location",
+          "/location/statistical_region",
+          "/military/military_combatant",
+          "/symbols/name_source",
+          "/location/uk_constituent_country",
+          "/location/dated_location",
+          "/law/court_jurisdiction_area",
+          "/government/governmental_jurisdiction",
+          "/travel/travel_destination",
+          "/film/film_location",
+          "/military/military_post",
+          "/film/film_subject",
+          "/location/country",
+          "/location/administrative_division",
+          "/olympics/olympic_participating_country",
+          "/periodicals/newspaper_circulation_area",
+          "/symbols/flag_referent",
+          "/book/book_subject",
+          "/event/speech_topic",
+          "/location/location"
+        ],
+        "confidenceScore": 2.24961,
+        "wikiLink": "http://en.wikipedia.org/wiki/England",
+        "matchedText": "England",
+        "freebaseId": "/m/02jx1",
+        "relevanceScore": 0.0259067,
+        "entityEnglishId": "England",
+        "startingPos": 125,
+        "endingPos": 132
+      },
+      {
+        "id": 7,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "entityId": "The New England Journal of Medicine",
+        "freebaseTypes": [
+          "/book/journal",
+          "/book/periodical",
+          "/book/publication"
+        ],
+        "confidenceScore": 2.44939,
+        "wikiLink": "http://en.wikipedia.org/wiki/The_New_England_Journal_of_Medicine",
+        "matchedText": "New England Journal of Medicine",
+        "freebaseId": "/m/02g96l",
+        "relevanceScore": 0,
+        "entityEnglishId": "The New England Journal of Medicine",
+        "startingPos": 121,
+        "endingPos": 152
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23,
+          24,
+          25,
+          26
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          16
+        ],
+        "propertyPositions": [
+          14,
+          15
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.325,
+  "ok": true
+}

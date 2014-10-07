@@ -1,0 +1,527 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.958338
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.957481
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.886897
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.875605
+      },
+      {
+        "id": 5,
+        "label": "Sports",
+        "wikiLink": "http://en.wikipedia.org/Category:Sports",
+        "score": 0.760557
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.135797
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Eckman",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Eckman",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 6
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Greenfield",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Greenfield",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 25
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Mackey",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Mackey",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 31,
+        "endingPos": 37
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Wong",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wong",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 46,
+        "endingPos": 50
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Kaplan",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kaplan",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 59,
+        "endingPos": 65
+      },
+      {
+        "id": 5,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Sullivan",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Sullivan",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 71,
+        "endingPos": 79
+      },
+      {
+        "id": 6,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Dukes",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Dukes",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 85,
+        "endingPos": 90
+      },
+      {
+        "id": 7,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Pauker",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Pauker",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 98,
+        "endingPos": 104
+      },
+      {
+        "id": 8,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          40
+        ],
+        "entityId": "Foot",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Foot",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 120,
+        "endingPos": 124
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          43
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.3244,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.135797,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 139,
+        "endingPos": 147
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          44
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.15117,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Patient",
+        "startingPos": 148,
+        "endingPos": 156
+      },
+      {
+        "id": 11,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          52
+        ],
+        "entityId": "JAMA",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "JAMA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 200,
+        "endingPos": 204
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          58
+        ],
+        "propertyPositions": [
+          61
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          11,
+          12
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          16,
+          17
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          27,
+          29
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          32
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          34
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          37
+        ]
+      },
+      {
+        "id": 16,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          40,
+          41
+        ]
+      },
+      {
+        "id": 17,
+        "wordPositions": [
+          44,
+          45
+        ],
+        "propertyPositions": [
+          43
+        ]
+      },
+      {
+        "id": 18,
+        "wordPositions": [
+          49,
+          50
+        ],
+        "propertyPositions": [
+          52
+        ]
+      },
+      {
+        "id": 19,
+        "wordPositions": [
+          49,
+          50
+        ],
+        "propertyPositions": [
+          54
+        ]
+      },
+      {
+        "id": 20,
+        "wordPositions": [
+          0,
+          42
+        ],
+        "propertyPositions": [
+          43,
+          44,
+          45,
+          46,
+          47,
+          49,
+          50,
+          52,
+          54
+        ]
+      }
+    ]
+  },
+  "time": 0.34,
+  "ok": true
+}

@@ -1,0 +1,401 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.292478
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.292478
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Erectile dysfunction",
+        "wikiLink": "http://en.wikipedia.org/Erectile_dysfunction",
+        "score": 0.556169
+      },
+      {
+        "id": 1,
+        "label": "Pharmaceutical drug",
+        "wikiLink": "http://en.wikipedia.org/Pharmaceutical_drug",
+        "score": 0.356471
+      },
+      {
+        "id": 2,
+        "label": "Sexual dysfunction",
+        "wikiLink": "http://en.wikipedia.org/Sexual_dysfunction",
+        "score": 0.518341
+      },
+      {
+        "id": 3,
+        "label": "Sildenafil",
+        "wikiLink": "http://en.wikipedia.org/Sildenafil",
+        "score": 0.707808
+      },
+      {
+        "id": 4,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.254504
+      },
+      {
+        "id": 5,
+        "label": "Medical diagnosis",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_diagnosis",
+        "score": 0.252746
+      },
+      {
+        "id": 6,
+        "label": "Mental health",
+        "wikiLink": "http://en.wikipedia.org/Category:Mental_health",
+        "score": 0.252746
+      },
+      {
+        "id": 7,
+        "label": "Psychology",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychology",
+        "score": 0.252746
+      },
+      {
+        "id": 8,
+        "label": "Observation",
+        "wikiLink": "http://en.wikipedia.org/Category:Observation",
+        "score": 0.252746
+      },
+      {
+        "id": 9,
+        "label": "Psychiatry",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychiatry",
+        "score": 0.252746
+      },
+      {
+        "id": 10,
+        "label": "Human behavior",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_behavior",
+        "score": 0.252746
+      },
+      {
+        "id": 11,
+        "label": "Analysis",
+        "wikiLink": "http://en.wikipedia.org/Category:Analysis",
+        "score": 0.252746
+      },
+      {
+        "id": 12,
+        "label": "Psychiatric diagnosis",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychiatric_diagnosis",
+        "score": 0.252746
+      },
+      {
+        "id": 13,
+        "label": "Urology",
+        "wikiLink": "http://en.wikipedia.org/Category:Urology",
+        "score": 0.22633
+      },
+      {
+        "id": 14,
+        "label": "Human reproduction",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_reproduction",
+        "score": 0.210192
+      },
+      {
+        "id": 15,
+        "label": "Mammal sexuality",
+        "wikiLink": "http://en.wikipedia.org/Category:Mammal_sexuality",
+        "score": 0.203104
+      },
+      {
+        "id": 16,
+        "label": "Sexuality",
+        "wikiLink": "http://en.wikipedia.org/Category:Sexuality",
+        "score": 0.203104
+      },
+      {
+        "id": 17,
+        "label": "Human sexuality",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_sexuality",
+        "score": 0.203104
+      },
+      {
+        "id": 18,
+        "label": "Interpersonal relationships",
+        "wikiLink": "http://en.wikipedia.org/Category:Interpersonal_relationships",
+        "score": 0.203104
+      },
+      {
+        "id": 19,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.203104
+      },
+      {
+        "id": 20,
+        "label": "PDE5 inhibitors",
+        "wikiLink": "http://en.wikipedia.org/Category:PDE5_inhibitors",
+        "score": 0.0132411
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Gingell JC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Gingell JC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 20
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Sildenafil",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 12.9867,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sildenafil",
+        "matchedText": "Sildenafil",
+        "freebaseId": "/m/07_71",
+        "relevanceScore": 0.707808,
+        "entityEnglishId": "Sildenafil",
+        "startingPos": 43,
+        "endingPos": 53
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Erectile dysfunction",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 10.5538,
+        "wikiLink": "http://en.wikipedia.org/wiki/Erectile_dysfunction",
+        "matchedText": "erectile dysfunction",
+        "freebaseId": "/m/03tkm",
+        "relevanceScore": 0.556169,
+        "entityEnglishId": "Erectile dysfunction",
+        "startingPos": 91,
+        "endingPos": 111
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Sexual dysfunction",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.21728,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sexual_dysfunction",
+        "matchedText": "dysfunction",
+        "freebaseId": "/m/0255qr",
+        "relevanceScore": 0.518341,
+        "entityEnglishId": "Sexual dysfunction",
+        "startingPos": 100,
+        "endingPos": 111
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.52317,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "Medicine",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.356471,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 138,
+        "endingPos": 146
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          27
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          15,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          15,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          24
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          23,
+          24
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          15,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

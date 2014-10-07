@@ -1,0 +1,464 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.493845
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.271074
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.256522
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.219922
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.219691
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Aspirin",
+        "wikiLink": "http://en.wikipedia.org/Aspirin",
+        "score": 0.360398
+      },
+      {
+        "id": 1,
+        "label": "Clopidogrel",
+        "wikiLink": "http://en.wikipedia.org/Clopidogrel",
+        "score": 0.327963
+      },
+      {
+        "id": 2,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.109592
+      },
+      {
+        "id": 3,
+        "label": "Percutaneous coronary intervention",
+        "wikiLink": "http://en.wikipedia.org/Percutaneous_coronary_intervention",
+        "score": 0.17762
+      },
+      {
+        "id": 4,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.252488
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.258151
+      },
+      {
+        "id": 6,
+        "label": "Carboxylate esters",
+        "wikiLink": "http://en.wikipedia.org/Category:Carboxylate_esters",
+        "score": 0.229383
+      },
+      {
+        "id": 7,
+        "label": "Medical treatments",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_treatments",
+        "score": 0.181424
+      },
+      {
+        "id": 8,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.178859
+      },
+      {
+        "id": 9,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.150125
+      },
+      {
+        "id": 10,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.149841
+      },
+      {
+        "id": 11,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0888946
+      },
+      {
+        "id": 12,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0814308
+      },
+      {
+        "id": 13,
+        "label": "Cardiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiology",
+        "score": 0.0460861
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Mehta SR",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Mehta SR",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Yusuf S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Yusuf S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Peters RJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Peters RJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 23,
+        "endingPos": 32
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Clopidogrel",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 9.07709,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clopidogrel",
+        "matchedText": "clopidogrel",
+        "freebaseId": "/m/02svfj",
+        "relevanceScore": 0.327963,
+        "entityEnglishId": "Clopidogrel",
+        "startingPos": 69,
+        "endingPos": 80
+      },
+      {
+        "id": 4,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Aspirin",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors",
+          "/medicine/risk_factor",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 7.19296,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aspirin",
+        "matchedText": "aspirin",
+        "freebaseId": "/m/0qkc",
+        "relevanceScore": 0.360398,
+        "entityEnglishId": "Aspirin",
+        "startingPos": 85,
+        "endingPos": 92
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.26797,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.252488,
+        "entityEnglishId": "Therapy",
+        "startingPos": 116,
+        "endingPos": 123
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.56075,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.109592,
+        "entityEnglishId": "Patient",
+        "startingPos": 127,
+        "endingPos": 135
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Percutaneous",
+        "confidenceScore": 2.05952,
+        "wikiLink": "http://en.wikipedia.org/wiki/Percutaneous",
+        "matchedText": "percutaneous",
+        "freebaseId": "/m/02jrd6",
+        "relevanceScore": 0.0638089,
+        "entityEnglishId": "Percutaneous",
+        "startingPos": 147,
+        "endingPos": 159
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          27,
+          28,
+          29
+        ],
+        "entityId": "Percutaneous coronary intervention",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 6.30871,
+        "wikiLink": "http://en.wikipedia.org/wiki/Percutaneous_coronary_intervention",
+        "matchedText": "percutaneous coronary intervention",
+        "freebaseId": "/m/09xlbt",
+        "relevanceScore": 0.17762,
+        "entityEnglishId": "Percutaneous coronary intervention",
+        "startingPos": 147,
+        "endingPos": 181
+      },
+      {
+        "id": 9,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "PCI-CURE",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "PCI-CURE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 187,
+        "endingPos": 195
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          22,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          31,
+          33
+        ],
+        "propertyPositions": [
+          32
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          29
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          29
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          22,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          32,
+          33
+        ]
+      }
+    ]
+  },
+  "time": 0.327,
+  "ok": true
+}

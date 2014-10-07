@@ -1,0 +1,328 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Bleeding",
+        "wikiLink": "http://en.wikipedia.org/Bleeding",
+        "score": 0.1612
+      },
+      {
+        "id": 1,
+        "label": "Bleeding time",
+        "wikiLink": "http://en.wikipedia.org/Bleeding_time",
+        "score": 0.373358
+      },
+      {
+        "id": 2,
+        "label": "Uremia",
+        "wikiLink": "http://en.wikipedia.org/Uremia",
+        "score": 0.197032
+      },
+      {
+        "id": 3,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.608519
+      },
+      {
+        "id": 4,
+        "label": "Blood",
+        "wikiLink": "http://en.wikipedia.org/Category:Blood",
+        "score": 0.335672
+      },
+      {
+        "id": 5,
+        "label": "Hematology",
+        "wikiLink": "http://en.wikipedia.org/Category:Hematology",
+        "score": 0.0690051
+      },
+      {
+        "id": 6,
+        "label": "Body fluids",
+        "wikiLink": "http://en.wikipedia.org/Category:Body_fluids",
+        "score": 0.0614306
+      },
+      {
+        "id": 7,
+        "label": "Tissues",
+        "wikiLink": "http://en.wikipedia.org/Category:Tissues",
+        "score": 0.0614306
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Steiner RW",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Steiner RW",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Coggins C",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Coggins C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 25
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Carvalho AC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Carvalho AC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 27,
+        "endingPos": 38
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Bleeding",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/people/cause_of_death",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.8386,
+        "wikiLink": "http://en.wikipedia.org/wiki/Bleeding",
+        "matchedText": "Bleeding",
+        "freebaseId": "/m/012n6x",
+        "relevanceScore": 0.0805999,
+        "entityEnglishId": "Bleeding",
+        "startingPos": 40,
+        "endingPos": 48
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          10,
+          11
+        ],
+        "entityId": "Bleeding time",
+        "freebaseTypes": [
+          "/medicine/diagnostic_test"
+        ],
+        "confidenceScore": 1.51147,
+        "wikiLink": "http://en.wikipedia.org/wiki/Bleeding_time",
+        "matchedText": "Bleeding time",
+        "freebaseId": "/m/01gc0k",
+        "relevanceScore": 0.373358,
+        "entityEnglishId": "Bleeding time",
+        "startingPos": 40,
+        "endingPos": 53
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Uremia",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 5.96557,
+        "wikiLink": "http://en.wikipedia.org/wiki/Uremia",
+        "matchedText": "uremia",
+        "freebaseId": "/m/02f8hm",
+        "relevanceScore": 0.197032,
+        "entityEnglishId": "Uremia",
+        "startingPos": 57,
+        "endingPos": 63
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Bleeding",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/people/cause_of_death",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.4386,
+        "wikiLink": "http://en.wikipedia.org/wiki/Bleeding",
+        "matchedText": "bleeding",
+        "freebaseId": "/m/012n6x",
+        "relevanceScore": 0.0805999,
+        "entityEnglishId": "Bleeding",
+        "startingPos": 98,
+        "endingPos": 106
+      },
+      {
+        "id": 7,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          23,
+          24,
+          25,
+          26
+        ],
+        "entityId": "American Journal of Hematology",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal",
+          "/business/employer"
+        ],
+        "confidenceScore": 1.19873,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Journal_of_Hematology",
+        "matchedText": "American Journal of Hematology",
+        "freebaseId": "/m/064krmb",
+        "relevanceScore": 0,
+        "entityEnglishId": "American Journal of Hematology",
+        "startingPos": 108,
+        "endingPos": 138
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Hematology",
+        "freebaseTypes": [
+          "/award/award_discipline",
+          "/education/field_of_study",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 3.58779,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hematology",
+        "matchedText": "Hematology",
+        "freebaseId": "/m/0h212",
+        "relevanceScore": 0,
+        "entityEnglishId": "Hematology",
+        "startingPos": 128,
+        "endingPos": 138
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23,
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15,
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13
+        ]
+      }
+    ]
+  },
+  "time": 0.314,
+  "ok": true
+}

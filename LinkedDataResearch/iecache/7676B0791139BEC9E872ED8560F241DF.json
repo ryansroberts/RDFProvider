@@ -1,0 +1,336 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.478965
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.478965
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Hypoglycemia",
+        "wikiLink": "http://en.wikipedia.org/Hypoglycemia",
+        "score": 0.174275
+      },
+      {
+        "id": 1,
+        "label": "Research",
+        "wikiLink": "http://en.wikipedia.org/Category:Research_by_field",
+        "score": 0.0567566
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Currie CJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Currie CJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Morgan CL",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Morgan CL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Poole CD",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Poole CD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 34
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Hypoglycemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.78908,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypoglycemia",
+        "matchedText": "hypoglycaemia",
+        "freebaseId": "/m/03gwt",
+        "relevanceScore": 0.174275,
+        "entityEnglishId": "Hypoglycemia",
+        "startingPos": 104,
+        "endingPos": 117
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.6428,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0567737,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 133,
+        "endingPos": 141
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          27,
+          28
+        ],
+        "entityId": "Medical research",
+        "freebaseTypes": [
+          "/people/profession",
+          "/education/field_of_study",
+          "/organization/organization_sector",
+          "/book/book_subject",
+          "/government/government_service",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 1.22158,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medical_research",
+        "matchedText": "Medical Research",
+        "freebaseId": "/m/06ywtl",
+        "relevanceScore": 0.0953935,
+        "entityEnglishId": "Medical research",
+        "startingPos": 151,
+        "endingPos": 167
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Research",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/education/field_of_study",
+          "/education/school_category",
+          "/book/book_subject",
+          "/architecture/building_function",
+          "/book/periodical_subject",
+          "/business/industry",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 1.00664,
+        "wikiLink": "http://en.wikipedia.org/wiki/Research",
+        "matchedText": "Research",
+        "freebaseId": "/m/06cs1",
+        "relevanceScore": 0.040492,
+        "entityEnglishId": "Research",
+        "startingPos": 159,
+        "endingPos": 167
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      }
+    ]
+  },
+  "time": 0.324,
+  "ok": true
+}

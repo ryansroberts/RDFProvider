@@ -1,0 +1,322 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.39932
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.39863
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.39863
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Dysautonomia",
+        "wikiLink": "http://en.wikipedia.org/Dysautonomia",
+        "score": 0.163208
+      },
+      {
+        "id": 1,
+        "label": "Endocrinology",
+        "wikiLink": "http://en.wikipedia.org/Endocrinology",
+        "score": 0.173262
+      },
+      {
+        "id": 2,
+        "label": "Peripheral neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Peripheral_neuropathy",
+        "score": 0.224374
+      },
+      {
+        "id": 3,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders_by_system",
+        "score": 0.11699
+      },
+      {
+        "id": 4,
+        "label": "Neurology",
+        "wikiLink": "http://en.wikipedia.org/Category:Neurology",
+        "score": 0.11699
+      },
+      {
+        "id": 5,
+        "label": "Neurological disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Neurological_disorders",
+        "score": 0.11699
+      },
+      {
+        "id": 6,
+        "label": "Peripheral nervous system",
+        "wikiLink": "http://en.wikipedia.org/Category:Peripheral_nervous_system",
+        "score": 0.112079
+      },
+      {
+        "id": 7,
+        "label": "Peripheral nervous system disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Peripheral_nervous_system_disorders",
+        "score": 0.112079
+      },
+      {
+        "id": 8,
+        "label": "Neuroanatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Neuroanatomy",
+        "score": 0.112079
+      },
+      {
+        "id": 9,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.104722
+      },
+      {
+        "id": 10,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.104722
+      },
+      {
+        "id": 11,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.104722
+      },
+      {
+        "id": 12,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.104722
+      },
+      {
+        "id": 13,
+        "label": "Medical terminology",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_terminology",
+        "score": 0.104722
+      },
+      {
+        "id": 14,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.104722
+      },
+      {
+        "id": 15,
+        "label": "Knowledge",
+        "wikiLink": "http://en.wikipedia.org/Category:Knowledge",
+        "score": 0.104722
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Ewing DJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ewing DJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Clarke BF",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Clarke BF",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Dysautonomia",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.75266,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dysautonomia",
+        "matchedText": "Autonomic neuropathy",
+        "freebaseId": "/m/02510j",
+        "relevanceScore": 0.163208,
+        "entityEnglishId": "Dysautonomia",
+        "startingPos": 21,
+        "endingPos": 41
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Peripheral neuropathy",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.89068,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peripheral_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02w1fx",
+        "relevanceScore": 0.224374,
+        "entityEnglishId": "Peripheral neuropathy",
+        "startingPos": 31,
+        "endingPos": 41
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Diagnosis",
+        "confidenceScore": 1.06102,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diagnosis",
+        "matchedText": "diagnosis",
+        "freebaseId": "",
+        "relevanceScore": 0,
+        "entityEnglishId": "Diagnosis",
+        "startingPos": 47,
+        "endingPos": 56
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Prognosis",
+        "confidenceScore": 3.15881,
+        "wikiLink": "http://en.wikipedia.org/wiki/Prognosis",
+        "matchedText": "prognosis",
+        "freebaseId": "/m/03622p",
+        "relevanceScore": 0.0841705,
+        "entityEnglishId": "Prognosis",
+        "startingPos": 61,
+        "endingPos": 70
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Endocrinology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.43206,
+        "wikiLink": "http://en.wikipedia.org/wiki/Endocrinology",
+        "matchedText": "Endocrinology",
+        "freebaseId": "/m/02jvq",
+        "relevanceScore": 0.173262,
+        "entityEnglishId": "Endocrinology",
+        "startingPos": 89,
+        "endingPos": 102
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Metabolism",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.59929,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metabolism",
+        "matchedText": "Metabolism",
+        "freebaseId": "/m/053p5",
+        "relevanceScore": 0,
+        "entityEnglishId": "Metabolism",
+        "startingPos": 107,
+        "endingPos": 117
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

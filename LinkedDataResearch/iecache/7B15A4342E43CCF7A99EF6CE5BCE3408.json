@@ -1,0 +1,314 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.572407
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.314959
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.297757
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.290142
+      },
+      {
+        "id": 5,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.290142
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.224072
+      },
+      {
+        "id": 1,
+        "label": "Diabetic neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_neuropathy",
+        "score": 0.781933
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Wilton TD",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wilton  TD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Carbamazepine",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 2.43855,
+        "wikiLink": "http://en.wikipedia.org/wiki/Carbamazepine",
+        "matchedText": "Tegretol",
+        "freebaseId": "/m/01_y8",
+        "relevanceScore": 0.0912623,
+        "entityEnglishId": "Carbamazepine",
+        "startingPos": 17,
+        "endingPos": 25
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.974632,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.224072,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 51,
+        "endingPos": 59
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 5.73314,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "diabetic  neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.229273,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 51,
+        "endingPos": 71
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 2.02327,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.55266,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 61,
+        "endingPos": 71
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          12,
+          13
+        ],
+        "entityId": "South Africa",
+        "freebaseTypes": [
+          "/film/film_subject",
+          "/location/statistical_region",
+          "/location/location",
+          "/symbols/coat_of_arms_bearer",
+          "/book/book_subject",
+          "/olympics/olympic_participating_country",
+          "/biology/breed_origin",
+          "/symbols/flag_referent",
+          "/military/military_combatant",
+          "/organization/organization_founder",
+          "/government/governmental_jurisdiction",
+          "/organization/organization_member",
+          "/film/film_location",
+          "/book/periodical_subject",
+          "/food/beer_country_region",
+          "/location/dated_location",
+          "/periodicals/newspaper_circulation_area",
+          "/location/country",
+          "/organization/organization_scope",
+          "/sports/sports_team_location",
+          "/sports/sport_country"
+        ],
+        "confidenceScore": 1.778,
+        "wikiLink": "http://en.wikipedia.org/wiki/South_Africa",
+        "matchedText": "South  African",
+        "freebaseId": "/m/0hzlz",
+        "relevanceScore": 0.0255885,
+        "entityEnglishId": "South Africa",
+        "startingPos": 74,
+        "endingPos": 88
+      },
+      {
+        "id": 6,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "entityId": "South African Medical Journal",
+        "confidenceScore": 1.83992,
+        "wikiLink": "http://en.wikipedia.org/wiki/South_African_Medical_Journal",
+        "matchedText": "South  African  Medical  Journal",
+        "freebaseId": "/m/0gff2fr",
+        "relevanceScore": 0,
+        "entityEnglishId": "South African Medical Journal",
+        "startingPos": 74,
+        "endingPos": 106
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Public health journal",
+        "confidenceScore": 2.66154,
+        "wikiLink": "http://en.wikipedia.org/wiki/Public_health_journal",
+        "matchedText": "Medical  Journal",
+        "freebaseId": "/m/02n8hz",
+        "relevanceScore": 0,
+        "entityEnglishId": "Public health journal",
+        "startingPos": 90,
+        "endingPos": 106
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9,
+          10
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "time": 0.32,
+  "ok": true
+}

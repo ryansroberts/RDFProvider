@@ -1,0 +1,590 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.987112
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.495781
+      },
+      {
+        "id": 3,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.495781
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.187833
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.738492
+      },
+      {
+        "id": 2,
+        "label": "Dipeptidyl peptidase-4",
+        "wikiLink": "http://en.wikipedia.org/Dipeptidyl_peptidase-4",
+        "score": 0.255594
+      },
+      {
+        "id": 3,
+        "label": "Thiazolidinedione",
+        "wikiLink": "http://en.wikipedia.org/Thiazolidinedione",
+        "score": 0.577338
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "EthnicGroup"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Fon people",
+        "freebaseTypes": [
+          "/people/ethnicity"
+        ],
+        "confidenceScore": 1.56833,
+        "wikiLink": "http://en.wikipedia.org/wiki/Fon_people",
+        "matchedText": "Fon",
+        "freebaseId": "/m/02phfn",
+        "relevanceScore": 0.0294965,
+        "entityEnglishId": "Fon people",
+        "startingPos": 0,
+        "endingPos": 3
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Fon F",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Fon F",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 5
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Celeya",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Celeya",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 7,
+        "endingPos": 13
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Ayala",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ayala",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 19,
+        "endingPos": 24
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.76773,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.187833,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 76,
+        "endingPos": 84
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19,
+          20,
+          21
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.75831,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "diabetes type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.175242,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 76,
+        "endingPos": 91
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.27331,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.56325,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 85,
+        "endingPos": 91
+      },
+      {
+        "id": 7,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          29,
+          30
+        ],
+        "entityId": "Dipeptidyl peptidase-4",
+        "confidenceScore": 2.73176,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dipeptidyl_peptidase-4",
+        "matchedText": "dipeptidyl peptidase-4",
+        "freebaseId": "/m/0f2wt4",
+        "relevanceScore": 0.127797,
+        "entityEnglishId": "Dipeptidyl peptidase-4",
+        "startingPos": 118,
+        "endingPos": 140
+      },
+      {
+        "id": 8,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Dipeptidyl peptidase-4",
+        "confidenceScore": 1.02769,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dipeptidyl_peptidase-4",
+        "matchedText": "DPP-4",
+        "freebaseId": "/m/0f2wt4",
+        "relevanceScore": 0.127797,
+        "entityEnglishId": "Dipeptidyl peptidase-4",
+        "startingPos": 142,
+        "endingPos": 147
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Thiazolidinedione",
+        "freebaseTypes": [
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 2.86287,
+        "wikiLink": "http://en.wikipedia.org/wiki/Thiazolidinedione",
+        "matchedText": "thiazolidinediones",
+        "freebaseId": "/m/02rnrl",
+        "relevanceScore": 0.288669,
+        "entityEnglishId": "Thiazolidinedione",
+        "startingPos": 153,
+        "endingPos": 171
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Thiazolidinedione",
+        "freebaseTypes": [
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 2.63818,
+        "wikiLink": "http://en.wikipedia.org/wiki/Thiazolidinedione",
+        "matchedText": "TZD",
+        "freebaseId": "/m/02rnrl",
+        "relevanceScore": 0.288669,
+        "entityEnglishId": "Thiazolidinedione",
+        "startingPos": 173,
+        "endingPos": 176
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          41
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 0.942354,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.070716,
+        "entityEnglishId": "Therapy",
+        "startingPos": 188,
+        "endingPos": 195
+      },
+      {
+        "id": 12,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          45
+        ],
+        "entityId": "Health",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Health",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 206,
+        "endingPos": 212
+      },
+      {
+        "id": 13,
+        "type": [
+          "Place",
+          "ArchitecturalStructure",
+          "Infrastructure",
+          "RouteOfTransportation",
+          "Road"
+        ],
+        "matchingTokens": [
+          47
+        ],
+        "entityId": "A254 road",
+        "freebaseTypes": [
+          "/location/location",
+          "/transportation/road"
+        ],
+        "confidenceScore": 1.71511,
+        "wikiLink": "http://en.wikipedia.org/wiki/A254_road",
+        "matchedText": "A254",
+        "freebaseId": "/m/03gq9vg",
+        "relevanceScore": 0,
+        "entityEnglishId": "A254 road",
+        "startingPos": 216,
+        "endingPos": 220
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          43,
+          44
+        ],
+        "propertyPositions": [
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15,
+          17,
+          18,
+          26
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          19,
+          20,
+          39
+        ],
+        "propertyPositions": [
+          23,
+          24
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          41
+        ],
+        "propertyPositions": [
+          40
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          19,
+          20,
+          39
+        ],
+        "propertyPositions": [
+          40,
+          41
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          15,
+          17,
+          18,
+          26
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21,
+          23,
+          24,
+          39,
+          40,
+          41
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          29,
+          30,
+          32,
+          34,
+          35,
+          37
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          15,
+          17,
+          18,
+          26
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          29,
+          30,
+          32,
+          34,
+          35,
+          37
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          5
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          13,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29,
+          30,
+          32,
+          34,
+          35,
+          37,
+          39,
+          40,
+          41
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          3
+        ],
+        "propertyPositions": [
+          5,
+          7,
+          9,
+          10,
+          11,
+          13,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29,
+          30,
+          32,
+          34,
+          35,
+          37,
+          39,
+          40,
+          41
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          5,
+          7,
+          9,
+          10,
+          11,
+          13,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29,
+          30,
+          32,
+          34,
+          35,
+          37,
+          39,
+          40,
+          41
+        ]
+      }
+    ]
+  },
+  "time": 0.32,
+  "ok": true
+}

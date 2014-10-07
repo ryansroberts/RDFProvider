@@ -1,0 +1,494 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.769419
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.272139
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.230581
+      },
+      {
+        "id": 4,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.230581
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "England",
+        "wikiLink": "http://en.wikipedia.org/England",
+        "score": 0.146639
+      },
+      {
+        "id": 1,
+        "label": "Office for National Statistics",
+        "wikiLink": "http://en.wikipedia.org/Office_for_National_Statistics",
+        "score": 0.621827
+      },
+      {
+        "id": 2,
+        "label": "Wales",
+        "wikiLink": "http://en.wikipedia.org/Wales",
+        "score": 0.199153
+      },
+      {
+        "id": 3,
+        "label": "Geography",
+        "wikiLink": "http://en.wikipedia.org/Category:Geography_by_continent",
+        "score": 0.360344
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics_by_region",
+        "score": 0.0942247
+      },
+      {
+        "id": 5,
+        "label": "Archipelagoes",
+        "wikiLink": "http://en.wikipedia.org/Category:Archipelagoes_by_sea_or_ocean",
+        "score": 0.0877926
+      },
+      {
+        "id": 6,
+        "label": "Islands",
+        "wikiLink": "http://en.wikipedia.org/Category:Islands_by_ocean_or_sea",
+        "score": 0.0877926
+      },
+      {
+        "id": 7,
+        "label": "United Kingdom",
+        "wikiLink": "http://en.wikipedia.org/Category:United_Kingdom",
+        "score": 0.0877926
+      },
+      {
+        "id": 8,
+        "label": "Great Britain",
+        "wikiLink": "http://en.wikipedia.org/Category:Great_Britain",
+        "score": 0.0877926
+      },
+      {
+        "id": 9,
+        "label": "Cultural spheres of influence",
+        "wikiLink": "http://en.wikipedia.org/Category:Cultural_spheres_of_influence",
+        "score": 0.0877926
+      },
+      {
+        "id": 10,
+        "label": "British Isles",
+        "wikiLink": "http://en.wikipedia.org/Category:British_Isles",
+        "score": 0.0877926
+      },
+      {
+        "id": 11,
+        "label": "Western Europe",
+        "wikiLink": "http://en.wikipedia.org/Category:Western_Europe",
+        "score": 0.0877926
+      },
+      {
+        "id": 12,
+        "label": "Northern Europe",
+        "wikiLink": "http://en.wikipedia.org/Category:Northern_Europe",
+        "score": 0.0877926
+      },
+      {
+        "id": 13,
+        "label": "Coastal and oceanic landforms",
+        "wikiLink": "http://en.wikipedia.org/Category:Coastal_and_oceanic_landforms",
+        "score": 0.0877926
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Office",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Office",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 3,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Agent",
+          "Organisation",
+          "GovernmentAgency"
+        ],
+        "matchingTokens": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "entityId": "Office for National Statistics",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/government/government_agency"
+        ],
+        "confidenceScore": 7.88626,
+        "wikiLink": "http://en.wikipedia.org/wiki/Office_for_National_Statistics",
+        "matchedText": "Office for National Statistics",
+        "freebaseId": "/m/01vy4f",
+        "relevanceScore": 0.310913,
+        "entityEnglishId": "Office for National Statistics",
+        "startingPos": 3,
+        "endingPos": 33
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "National Statistics",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "National Statistics",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 33
+      },
+      {
+        "id": 3,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Office",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Office",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 35,
+        "endingPos": 41
+      },
+      {
+        "id": 4,
+        "type": [
+          "Agent",
+          "Organisation",
+          "GovernmentAgency"
+        ],
+        "matchingTokens": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "entityId": "Office for National Statistics",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/government/government_agency"
+        ],
+        "confidenceScore": 7.88626,
+        "wikiLink": "http://en.wikipedia.org/wiki/Office_for_National_Statistics",
+        "matchedText": "Office for National Statistics",
+        "freebaseId": "/m/01vy4f",
+        "relevanceScore": 0.310913,
+        "entityEnglishId": "Office for National Statistics",
+        "startingPos": 35,
+        "endingPos": 65
+      },
+      {
+        "id": 5,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "National Statistics",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "National Statistics",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 46,
+        "endingPos": 65
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Statistics",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Statistics",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 87,
+        "endingPos": 97
+      },
+      {
+        "id": 7,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "England",
+        "freebaseTypes": [
+          "/fictional_universe/fictional_setting",
+          "/food/beer_country_region",
+          "/sports/sport_country",
+          "/location/uk_statistical_location",
+          "/organization/organization_scope",
+          "/biology/breed_origin",
+          "/sports/sports_team_location",
+          "/location/statistical_region",
+          "/military/military_combatant",
+          "/symbols/name_source",
+          "/location/uk_constituent_country",
+          "/location/dated_location",
+          "/law/court_jurisdiction_area",
+          "/government/governmental_jurisdiction",
+          "/travel/travel_destination",
+          "/film/film_location",
+          "/military/military_post",
+          "/film/film_subject",
+          "/location/country",
+          "/location/administrative_division",
+          "/olympics/olympic_participating_country",
+          "/periodicals/newspaper_circulation_area",
+          "/symbols/flag_referent",
+          "/book/book_subject",
+          "/event/speech_topic",
+          "/location/location"
+        ],
+        "confidenceScore": 2.40154,
+        "wikiLink": "http://en.wikipedia.org/wiki/England",
+        "matchedText": "England",
+        "freebaseId": "/m/02jx1",
+        "relevanceScore": 0.146639,
+        "entityEnglishId": "England",
+        "startingPos": 99,
+        "endingPos": 106
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          15,
+          16,
+          17
+        ],
+        "entityId": "England and Wales",
+        "freebaseTypes": [
+          "/government/governmental_jurisdiction",
+          "/location/location",
+          "/law/court_jurisdiction_area",
+          "/organization/organization_scope",
+          "/location/uk_statistical_location"
+        ],
+        "confidenceScore": 1.67407,
+        "wikiLink": "http://en.wikipedia.org/wiki/England_and_Wales",
+        "matchedText": "England And Wales",
+        "freebaseId": "/m/01p7b1",
+        "relevanceScore": 0,
+        "entityEnglishId": "England and Wales",
+        "startingPos": 99,
+        "endingPos": 116
+      },
+      {
+        "id": 9,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Wales",
+        "freebaseTypes": [
+          "/location/location",
+          "/fictional_universe/fictional_setting",
+          "/organization/organization_scope",
+          "/sports/sports_team_location",
+          "/sports/sport_country",
+          "/periodicals/newspaper_circulation_area",
+          "/location/statistical_region",
+          "/location/administrative_division",
+          "/location/uk_constituent_country",
+          "/location/country",
+          "/government/governmental_jurisdiction",
+          "/biology/breed_origin",
+          "/book/book_subject",
+          "/location/dated_location",
+          "/law/court_jurisdiction_area",
+          "/location/uk_statistical_location",
+          "/food/beer_country_region",
+          "/military/military_combatant",
+          "/symbols/flag_referent",
+          "/travel/travel_destination",
+          "/film/film_location",
+          "/religion/religious_leadership_jurisdiction"
+        ],
+        "confidenceScore": 2.63986,
+        "wikiLink": "http://en.wikipedia.org/wiki/Wales",
+        "matchedText": "Wales",
+        "freebaseId": "/m/0j5g9",
+        "relevanceScore": 0.199153,
+        "entityEnglishId": "Wales",
+        "startingPos": 111,
+        "endingPos": 116
+      },
+      {
+        "id": 10,
+        "type": [
+          "Date"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "3-12-2007",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "3-12-2007",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 118,
+        "endingPos": 127
+      },
+      {
+        "id": 11,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "http://www.statistics.gov.uk/",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "http://www.statistics.gov.uk/",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 129,
+        "endingPos": 158
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          13
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "time": 0.314,
+  "ok": true
+}

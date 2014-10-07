@@ -1,0 +1,456 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.665971
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.338809
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.338809
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.338809
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Clinical chemistry",
+        "wikiLink": "http://en.wikipedia.org/Clinical_chemistry",
+        "score": 0.13895
+      },
+      {
+        "id": 1,
+        "label": "Creatinine",
+        "wikiLink": "http://en.wikipedia.org/Creatinine",
+        "score": 0.196181
+      },
+      {
+        "id": 2,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.857046
+      },
+      {
+        "id": 3,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.764479
+      },
+      {
+        "id": 4,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.361316
+      },
+      {
+        "id": 5,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.361316
+      },
+      {
+        "id": 6,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.215353
+      },
+      {
+        "id": 7,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.215353
+      },
+      {
+        "id": 8,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.215353
+      },
+      {
+        "id": 9,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.215353
+      },
+      {
+        "id": 10,
+        "label": "Renal physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Renal_physiology",
+        "score": 0.20728
+      },
+      {
+        "id": 11,
+        "label": "Physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Physiology",
+        "score": 0.20728
+      },
+      {
+        "id": 12,
+        "label": "Clinical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_pathology",
+        "score": 0.0530669
+      },
+      {
+        "id": 13,
+        "label": "Body fluids",
+        "wikiLink": "http://en.wikipedia.org/Category:Body_fluids",
+        "score": 0.048932
+      },
+      {
+        "id": 14,
+        "label": "Tissues",
+        "wikiLink": "http://en.wikipedia.org/Category:Tissues",
+        "score": 0.048932
+      },
+      {
+        "id": 15,
+        "label": "Blood",
+        "wikiLink": "http://en.wikipedia.org/Category:Blood",
+        "score": 0.048932
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Shepherd J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Shepherd J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 3,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Warner M",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Warner M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 23
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8,
+          9
+        ],
+        "entityId": "Kilpatrick E. Stabilty",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kilpatrick E. Stabilty",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 25,
+        "endingPos": 47
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 5.09532,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.196181,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 51,
+        "endingPos": 61
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Whole blood",
+        "confidenceScore": 1.71346,
+        "wikiLink": "http://en.wikipedia.org/wiki/Whole_blood",
+        "matchedText": "whole blood",
+        "freebaseId": "/m/0410tsd",
+        "relevanceScore": 0.0705797,
+        "entityEnglishId": "Whole blood",
+        "startingPos": 89,
+        "endingPos": 100
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Blood",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/food/ingredient",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.05439,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood",
+        "matchedText": "blood",
+        "freebaseId": "/m/019jw",
+        "relevanceScore": 0,
+        "entityEnglishId": "Blood",
+        "startingPos": 95,
+        "endingPos": 100
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.22398,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "eGFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.857046,
+        "entityEnglishId": "Renal function",
+        "startingPos": 122,
+        "endingPos": 126
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          23,
+          24,
+          25,
+          26
+        ],
+        "entityId": "Annals of Clinical Biochemistry",
+        "confidenceScore": 1.89211,
+        "wikiLink": "http://en.wikipedia.org/wiki/Annals_of_Clinical_Biochemistry",
+        "matchedText": "Annals of Clinical Biochemistry",
+        "freebaseId": "/m/0y4w281",
+        "relevanceScore": 0,
+        "entityEnglishId": "Annals of Clinical Biochemistry",
+        "startingPos": 128,
+        "endingPos": 159
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Clinical chemistry",
+        "freebaseTypes": [
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 2.74049,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_chemistry",
+        "matchedText": "Clinical Biochemistry",
+        "freebaseId": "/m/0hdq2",
+        "relevanceScore": 0.13895,
+        "entityEnglishId": "Clinical chemistry",
+        "startingPos": 138,
+        "endingPos": 159
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Biochemistry",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/education/field_of_study",
+          "/organization/organization_sector",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 2.13471,
+        "wikiLink": "http://en.wikipedia.org/wiki/Biochemistry",
+        "matchedText": "Biochemistry",
+        "freebaseId": "/m/0193x",
+        "relevanceScore": 0.0293192,
+        "entityEnglishId": "Biochemistry",
+        "startingPos": 147,
+        "endingPos": 159
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          1,
+          2,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.323,
+  "ok": true
+}

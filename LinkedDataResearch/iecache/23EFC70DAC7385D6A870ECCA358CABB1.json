@@ -1,0 +1,179 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Poggioli R.",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Poggioli R.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          5,
+          6,
+          7
+        ],
+        "entityId": "Quality of life",
+        "freebaseTypes": [
+          "/tv/tv_genre",
+          "/media_common/media_genre"
+        ],
+        "confidenceScore": 1.32289,
+        "wikiLink": "http://en.wikipedia.org/wiki/Quality_of_life",
+        "matchedText": "Quality of life",
+        "freebaseId": "/m/0cvgr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Quality of life",
+        "startingPos": 19,
+        "endingPos": 34
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Islet",
+        "freebaseTypes": [
+          "/geography/geographical_feature_category"
+        ],
+        "confidenceScore": 1.33865,
+        "wikiLink": "http://en.wikipedia.org/wiki/Islet",
+        "matchedText": "islet",
+        "freebaseId": "/m/01jyr1",
+        "relevanceScore": 0,
+        "entityEnglishId": "Islet",
+        "startingPos": 41,
+        "endingPos": 46
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Islet cell transplantation",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.94456,
+        "wikiLink": "http://en.wikipedia.org/wiki/Islet_cell_transplantation",
+        "matchedText": "islet transplantation",
+        "freebaseId": "/m/0gcgrr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Islet cell transplantation",
+        "startingPos": 41,
+        "endingPos": 62
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "entityId": "American Journal of Transplantation",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "American Journal of Transplantation",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 64,
+        "endingPos": 99
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1,
+          5,
+          6,
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          5,
+          6,
+          8
+        ],
+        "propertyPositions": [
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  "time": 0.309,
+  "ok": true
+}

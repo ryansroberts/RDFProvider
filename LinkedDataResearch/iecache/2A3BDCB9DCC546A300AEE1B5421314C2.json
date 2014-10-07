@@ -1,0 +1,458 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.880903
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.830652
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.828058
+      },
+      {
+        "id": 4,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.813572
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Glomerulus",
+        "wikiLink": "http://en.wikipedia.org/Glomerulus",
+        "score": 0.176394
+      },
+      {
+        "id": 1,
+        "label": "Hyperlipidemia",
+        "wikiLink": "http://en.wikipedia.org/Hyperlipidemia",
+        "score": 0.106233
+      },
+      {
+        "id": 2,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.171061
+      },
+      {
+        "id": 3,
+        "label": "Obesity",
+        "wikiLink": "http://en.wikipedia.org/Obesity",
+        "score": 0.188247
+      },
+      {
+        "id": 4,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.090851
+      },
+      {
+        "id": 5,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.0899612
+      },
+      {
+        "id": 6,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0899612
+      },
+      {
+        "id": 7,
+        "label": "Metabolic disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Metabolic_disorders",
+        "score": 0.0880906
+      },
+      {
+        "id": 8,
+        "label": "Endocrine, nutritional and metabolic diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine,_nutritional_and_metabolic_diseases",
+        "score": 0.0880906
+      },
+      {
+        "id": 9,
+        "label": "Metabolism",
+        "wikiLink": "http://en.wikipedia.org/Category:Metabolism",
+        "score": 0.0880906
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Kasiske BL",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kasiske BL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "ODonnell",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "ODonnell",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Cleary MP",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Cleary MP",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 29,
+        "endingPos": 38
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Hyperlipidemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 6.30829,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hyperlipidemia",
+        "matchedText": "hyperlipidemia",
+        "freebaseId": "/m/05f45h",
+        "relevanceScore": 0.106233,
+        "entityEnglishId": "Hyperlipidemia",
+        "startingPos": 59,
+        "endingPos": 73
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Glomerulus",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.52106,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glomerulus",
+        "matchedText": "glomerular",
+        "freebaseId": "/m/02_dbc",
+        "relevanceScore": 0.176394,
+        "entityEnglishId": "Glomerulus",
+        "startingPos": 82,
+        "endingPos": 92
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Obesity",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/risk_factor",
+          "/medicine/symptom",
+          "/film/film_subject",
+          "/people/cause_of_death",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 1.1256,
+        "wikiLink": "http://en.wikipedia.org/wiki/Obesity",
+        "matchedText": "obese",
+        "freebaseId": "/m/0fltx",
+        "relevanceScore": 0.188247,
+        "entityEnglishId": "Obesity",
+        "startingPos": 103,
+        "endingPos": 108
+      },
+      {
+        "id": 6,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Zucker",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Zucker",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 109,
+        "endingPos": 115
+      },
+      {
+        "id": 7,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.40619,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.171061,
+        "entityEnglishId": "Kidney",
+        "startingPos": 122,
+        "endingPos": 128
+      },
+      {
+        "id": 8,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          22,
+          23
+        ],
+        "entityId": "Kidney International",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kidney International",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 122,
+        "endingPos": 142
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          14,
+          17
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              15,
+              16,
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          17
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              13,
+              15,
+              16,
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

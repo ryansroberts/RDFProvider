@@ -1,0 +1,358 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.680272
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.517615
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.250391
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.239918
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.226032
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.183433
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "National Institute for Health and Care Excellence",
+        "wikiLink": "http://en.wikipedia.org/National_Institute_for_Health_and_Care_Excellence",
+        "score": 0.384024
+      },
+      {
+        "id": 3,
+        "label": "Retinopathy",
+        "wikiLink": "http://en.wikipedia.org/Retinopathy",
+        "score": 0.451802
+      },
+      {
+        "id": 4,
+        "label": "Sociology",
+        "wikiLink": "http://en.wikipedia.org/Category:Sociology",
+        "score": 0.10848
+      },
+      {
+        "id": 5,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.0754244
+      },
+      {
+        "id": 6,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.0754244
+      },
+      {
+        "id": 7,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.0705219
+      },
+      {
+        "id": 8,
+        "label": "Cities",
+        "wikiLink": "http://en.wikipedia.org/Category:Cities_by_country",
+        "score": 0.0434779
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Institute",
+        "freebaseTypes": [
+          "/organization/organization_type"
+        ],
+        "confidenceScore": 1.21645,
+        "wikiLink": "http://en.wikipedia.org/wiki/Institute",
+        "matchedText": "Institute",
+        "freebaseId": "/m/01q2mr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Institute",
+        "startingPos": 9,
+        "endingPos": 18
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "entityId": "National Institute for Health and Care Excellence",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 6.04652,
+        "wikiLink": "http://en.wikipedia.org/wiki/National_Institute_for_Health_and_Care_Excellence",
+        "matchedText": "National Institute for Clinical Excellence",
+        "freebaseId": "/m/027j90",
+        "relevanceScore": 0.384024,
+        "entityEnglishId": "National Institute for Health and Care Excellence",
+        "startingPos": 0,
+        "endingPos": 42
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.49169,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.797877,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 58,
+        "endingPos": 64
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8,
+          9,
+          10
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.98816,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2 diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.219946,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 58,
+        "endingPos": 73
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.67497,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.183433,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 65,
+        "endingPos": 73
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Retinopathy",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.85257,
+        "wikiLink": "http://en.wikipedia.org/wiki/Retinopathy",
+        "matchedText": "retinopathy",
+        "freebaseId": "/m/0fml5",
+        "relevanceScore": 0.451802,
+        "entityEnglishId": "Retinopathy",
+        "startingPos": 75,
+        "endingPos": 86
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "London",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/film/film_location",
+          "/location/country",
+          "/olympics/olympic_bidding_city",
+          "/location/location",
+          "/olympics/olympic_host_city",
+          "/media_common/quotation_subject",
+          "/sports/sports_team_location",
+          "/government/governmental_jurisdiction",
+          "/location/dated_location",
+          "/periodicals/newspaper_circulation_area",
+          "/rail/railway_terminus",
+          "/organization/organization_scope",
+          "/location/statistical_region",
+          "/exhibitions/exhibition_subject",
+          "/fictional_universe/fictional_setting",
+          "/symbols/name_source",
+          "/location/citytown",
+          "/location/place_with_neighborhoods",
+          "/tv/tv_location",
+          "/location/administrative_division",
+          "/travel/travel_destination",
+          "/visual_art/art_subject",
+          "/olympics/olympic_venue"
+        ],
+        "confidenceScore": 2.22828,
+        "wikiLink": "http://en.wikipedia.org/wiki/London",
+        "matchedText": "London",
+        "freebaseId": "/m/04jpl",
+        "relevanceScore": 0.0543891,
+        "entityEnglishId": "London",
+        "startingPos": 121,
+        "endingPos": 127
+      },
+      {
+        "id": 7,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Nice",
+        "freebaseTypes": [
+          "/periodicals/newspaper_circulation_area",
+          "/location/capital_of_administrative_division",
+          "/location/citytown",
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/travel/travel_destination",
+          "/location/location",
+          "/location/administrative_division"
+        ],
+        "confidenceScore": 0.947936,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nice",
+        "matchedText": "NICE",
+        "freebaseId": "/m/0cp6w",
+        "relevanceScore": 0.0484901,
+        "entityEnglishId": "Nice",
+        "startingPos": 129,
+        "endingPos": 133
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  "time": 0.315,
+  "ok": true
+}

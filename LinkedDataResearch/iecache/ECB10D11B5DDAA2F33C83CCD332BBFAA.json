@@ -1,0 +1,329 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.368081
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.274069
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.274069
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.274069
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.272614
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Dialysis",
+        "wikiLink": "http://en.wikipedia.org/Dialysis",
+        "score": 0.44941
+      },
+      {
+        "id": 1,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Nephrology",
+        "score": 0.566897
+      },
+      {
+        "id": 2,
+        "label": "Organ transplantation",
+        "wikiLink": "http://en.wikipedia.org/Organ_transplantation",
+        "score": 0.204464
+      },
+      {
+        "id": 3,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.135855
+      },
+      {
+        "id": 4,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.475346
+      },
+      {
+        "id": 5,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.435166
+      },
+      {
+        "id": 6,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.268605
+      },
+      {
+        "id": 7,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.187779
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          2,
+          3
+        ],
+        "entityId": "Wit GA",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wit GA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 7,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          5,
+          6
+        ],
+        "entityId": "Merkus MP",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Merkus MP",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Krediet",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Krediet",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 33
+      },
+      {
+        "id": 3,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Health",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Health",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 44,
+        "endingPos": 50
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Dialysis",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 6.01035,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dialysis",
+        "matchedText": "dialysis",
+        "freebaseId": "/m/0fmf0",
+        "relevanceScore": 0.224705,
+        "entityEnglishId": "Dialysis",
+        "startingPos": 86,
+        "endingPos": 94
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.49995,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.135855,
+        "entityEnglishId": "Patient",
+        "startingPos": 95,
+        "endingPos": 103
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Nephrology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 6.73289,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephrology",
+        "matchedText": "Nephrology",
+        "freebaseId": "/m/05jd4",
+        "relevanceScore": 0.566897,
+        "entityEnglishId": "Nephrology",
+        "startingPos": 105,
+        "endingPos": 115
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Dialysis",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 6.01035,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dialysis",
+        "matchedText": "Dialysis",
+        "freebaseId": "/m/0fmf0",
+        "relevanceScore": 0.224705,
+        "entityEnglishId": "Dialysis",
+        "startingPos": 116,
+        "endingPos": 124
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Organ transplantation",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject",
+          "/award/award_winning_work",
+          "/medicine/risk_factor",
+          "/radio/radio_subject"
+        ],
+        "confidenceScore": 2.68714,
+        "wikiLink": "http://en.wikipedia.org/wiki/Organ_transplantation",
+        "matchedText": "Transplantation",
+        "freebaseId": "/m/016bb2",
+        "relevanceScore": 0.204464,
+        "entityEnglishId": "Organ transplantation",
+        "startingPos": 129,
+        "endingPos": 144
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          9
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

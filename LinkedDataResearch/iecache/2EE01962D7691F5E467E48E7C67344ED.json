@@ -1,0 +1,401 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.436458
+      },
+      {
+        "id": 2,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.417141
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.407316
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.382033
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.382033
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.194876
+      },
+      {
+        "id": 1,
+        "label": "Diabetic foot",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot",
+        "score": 0.118798
+      },
+      {
+        "id": 2,
+        "label": "Ulcer (dermatology)",
+        "wikiLink": "http://en.wikipedia.org/Ulcer_(dermatology)",
+        "score": 0.358573
+      },
+      {
+        "id": 3,
+        "label": "Wound",
+        "wikiLink": "http://en.wikipedia.org/Wound",
+        "score": 0.379829
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Willis",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Willis",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 21
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Persson",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Persson",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 29,
+        "endingPos": 36
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Cost-effectiveness",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Cost-effectiveness",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 49,
+        "endingPos": 67
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.37546,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.194876,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 85,
+        "endingPos": 93
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.56114,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0.118798,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 85,
+        "endingPos": 98
+      },
+      {
+        "id": 5,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Foot",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/business/product_category",
+          "/sports/sports_equipment",
+          "/visual_art/art_subject",
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 0.996943,
+        "wikiLink": "http://en.wikipedia.org/wiki/Foot",
+        "matchedText": "foot",
+        "freebaseId": "/m/031n1",
+        "relevanceScore": 0.0547207,
+        "entityEnglishId": "Foot",
+        "startingPos": 94,
+        "endingPos": 98
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Ulcer (dermatology)",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.25907,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ulcer_(dermatology)",
+        "matchedText": "ulcers",
+        "freebaseId": "/m/01klgg",
+        "relevanceScore": 0.358573,
+        "entityEnglishId": "Ulcer (dermatology)",
+        "startingPos": 99,
+        "endingPos": 105
+      },
+      {
+        "id": 7,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Promogran",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Promogran",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 111,
+        "endingPos": 120
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "European",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "European",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 129,
+        "endingPos": 137
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Wound",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 1.22284,
+        "wikiLink": "http://en.wikipedia.org/wiki/Wound",
+        "matchedText": "Wound",
+        "freebaseId": "/m/01xrk2",
+        "relevanceScore": 0.379829,
+        "entityEnglishId": "Wound",
+        "startingPos": 160,
+        "endingPos": 165
+      },
+      {
+        "id": 10,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          32,
+          33
+        ],
+        "entityId": "Wound Care",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wound Care",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 160,
+        "endingPos": 170
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          39
+        ],
+        "propertyPositions": [
+          42
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          28
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          32,
+          33
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          30,
+          31
+        ],
+        "propertyPositions": [
+          32,
+          33,
+          35
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          28
+        ],
+        "propertyPositions": [
+          30,
+          31,
+          32,
+          33,
+          35
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

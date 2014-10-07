@@ -1,0 +1,347 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.320401
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.292205
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.19775
+      },
+      {
+        "id": 1,
+        "label": "Diabetic neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_neuropathy",
+        "score": 0.61533
+      },
+      {
+        "id": 2,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Medical_research",
+        "score": 0.231969
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Choza R",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Choza R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 20,
+        "endingPos": 27
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Rios JM",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Rios JM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 29,
+        "endingPos": 36
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Nortriptyline-fluphenazine",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Nortriptyline-fluphenazine",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 44,
+        "endingPos": 70
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Carbamazepine",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 6.14302,
+        "wikiLink": "http://en.wikipedia.org/wiki/Carbamazepine",
+        "matchedText": "carbamazepine",
+        "freebaseId": "/m/01_y8",
+        "relevanceScore": 0.0980058,
+        "entityEnglishId": "Carbamazepine",
+        "startingPos": 75,
+        "endingPos": 88
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.971105,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.19775,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 121,
+        "endingPos": 129
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 5.65024,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "diabetic neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.165482,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 121,
+        "endingPos": 140
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 1.8409,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.449847,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 130,
+        "endingPos": 140
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "Medical research",
+        "freebaseTypes": [
+          "/people/profession",
+          "/education/field_of_study",
+          "/organization/organization_sector",
+          "/book/book_subject",
+          "/government/government_service",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 1.33631,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medical_research",
+        "matchedText": "Medical Research",
+        "freebaseId": "/m/06ywtl",
+        "relevanceScore": 0.231969,
+        "entityEnglishId": "Medical research",
+        "startingPos": 154,
+        "endingPos": 170
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          15,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          15,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.328,
+  "ok": true
+}

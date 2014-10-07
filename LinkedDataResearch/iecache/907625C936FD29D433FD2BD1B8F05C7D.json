@@ -1,0 +1,374 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.997122
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.964729
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.530657
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.516985
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.516985
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diet (nutrition)",
+        "wikiLink": "http://en.wikipedia.org/Diet_(nutrition)",
+        "score": 0.23567
+      },
+      {
+        "id": 1,
+        "label": "England",
+        "wikiLink": "http://en.wikipedia.org/England",
+        "score": 0.299359
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Health",
+        "score": 0.461221
+      },
+      {
+        "id": 3,
+        "label": "Information Centre for Health and Social Care",
+        "wikiLink": "http://en.wikipedia.org/Information_Centre_for_Health_and_Social_Care",
+        "score": 0.116028
+      },
+      {
+        "id": 4,
+        "label": "London",
+        "wikiLink": "http://en.wikipedia.org/London",
+        "score": 0.333625
+      },
+      {
+        "id": 5,
+        "label": "Obesity",
+        "wikiLink": "http://en.wikipedia.org/Obesity",
+        "score": 0.415825
+      },
+      {
+        "id": 6,
+        "label": "Statistics",
+        "wikiLink": "http://en.wikipedia.org/Statistics",
+        "score": 0.133805
+      },
+      {
+        "id": 7,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.172362
+      },
+      {
+        "id": 8,
+        "label": "Measurement",
+        "wikiLink": "http://en.wikipedia.org/Category:Measurement",
+        "score": 0.156
+      },
+      {
+        "id": 9,
+        "label": "Social sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_sciences",
+        "score": 0.155038
+      },
+      {
+        "id": 10,
+        "label": "Nutrition",
+        "wikiLink": "http://en.wikipedia.org/Category:Nutrition",
+        "score": 0.154039
+      },
+      {
+        "id": 11,
+        "label": "Health policy",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_policy",
+        "score": 0.112996
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Health",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/book/book_subject",
+          "/business/industry",
+          "/organization/organization_sector",
+          "/broadcast/genre",
+          "/book/periodical_subject",
+          "/internet/website_category",
+          "/radio/radio_subject",
+          "/media_common/media_genre",
+          "/exhibitions/exhibition_subject",
+          "/media_common/literary_genre",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.17835,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health",
+        "matchedText": "Health",
+        "freebaseId": "/m/0kt51",
+        "relevanceScore": 0.461221,
+        "entityEnglishId": "Health",
+        "startingPos": 4,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Statistics",
+        "freebaseTypes": [
+          "/computer/software_genre",
+          "/education/field_of_study",
+          "/award/award_discipline",
+          "/book/periodical_subject",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.1795,
+        "wikiLink": "http://en.wikipedia.org/wiki/Statistics",
+        "matchedText": "Statistics",
+        "freebaseId": "/m/06mnr",
+        "relevanceScore": 0.133805,
+        "entityEnglishId": "Statistics",
+        "startingPos": 53,
+        "endingPos": 63
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Obesity",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/risk_factor",
+          "/medicine/symptom",
+          "/film/film_subject",
+          "/people/cause_of_death",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 4.56972,
+        "wikiLink": "http://en.wikipedia.org/wiki/Obesity",
+        "matchedText": "obesity",
+        "freebaseId": "/m/0fltx",
+        "relevanceScore": 0.415825,
+        "entityEnglishId": "Obesity",
+        "startingPos": 67,
+        "endingPos": 74
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Diet (nutrition)",
+        "freebaseTypes": [
+          "/business/industry",
+          "/internet/website_category",
+          "/medicine/condition_prevention_factors",
+          "/book/book_subject",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.34329,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diet_(nutrition)",
+        "matchedText": "diet",
+        "freebaseId": "/m/02zkwn",
+        "relevanceScore": 0.23567,
+        "entityEnglishId": "Diet (nutrition)",
+        "startingPos": 98,
+        "endingPos": 102
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "England",
+        "freebaseTypes": [
+          "/fictional_universe/fictional_setting",
+          "/food/beer_country_region",
+          "/sports/sport_country",
+          "/location/uk_statistical_location",
+          "/organization/organization_scope",
+          "/biology/breed_origin",
+          "/sports/sports_team_location",
+          "/location/statistical_region",
+          "/military/military_combatant",
+          "/symbols/name_source",
+          "/location/uk_constituent_country",
+          "/location/dated_location",
+          "/law/court_jurisdiction_area",
+          "/government/governmental_jurisdiction",
+          "/travel/travel_destination",
+          "/film/film_location",
+          "/military/military_post",
+          "/film/film_subject",
+          "/location/country",
+          "/location/administrative_division",
+          "/olympics/olympic_participating_country",
+          "/periodicals/newspaper_circulation_area",
+          "/symbols/flag_referent",
+          "/book/book_subject",
+          "/event/speech_topic",
+          "/location/location"
+        ],
+        "confidenceScore": 3.32873,
+        "wikiLink": "http://en.wikipedia.org/wiki/England",
+        "matchedText": "England",
+        "freebaseId": "/m/02jx1",
+        "relevanceScore": 0.299359,
+        "entityEnglishId": "England",
+        "startingPos": 104,
+        "endingPos": 111
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "entityId": "Information Centre for Health and Social Care",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/business/employer",
+          "/government/government_agency"
+        ],
+        "confidenceScore": 1.92764,
+        "wikiLink": "http://en.wikipedia.org/wiki/Information_Centre_for_Health_and_Social_Care",
+        "matchedText": "Health and Social Care Information Centre",
+        "freebaseId": "/m/06fj60",
+        "relevanceScore": 0.116028,
+        "entityEnglishId": "Information Centre for Health and Social Care",
+        "startingPos": 4,
+        "endingPos": 45
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "London",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/film/film_location",
+          "/location/country",
+          "/olympics/olympic_bidding_city",
+          "/location/location",
+          "/olympics/olympic_host_city",
+          "/media_common/quotation_subject",
+          "/sports/sports_team_location",
+          "/government/governmental_jurisdiction",
+          "/location/dated_location",
+          "/periodicals/newspaper_circulation_area",
+          "/rail/railway_terminus",
+          "/organization/organization_scope",
+          "/location/statistical_region",
+          "/exhibitions/exhibition_subject",
+          "/fictional_universe/fictional_setting",
+          "/symbols/name_source",
+          "/location/citytown",
+          "/location/place_with_neighborhoods",
+          "/tv/tv_location",
+          "/location/administrative_division",
+          "/travel/travel_destination",
+          "/visual_art/art_subject",
+          "/olympics/olympic_venue"
+        ],
+        "confidenceScore": 2.80826,
+        "wikiLink": "http://en.wikipedia.org/wiki/London",
+        "matchedText": "London",
+        "freebaseId": "/m/04jpl",
+        "relevanceScore": 0.333625,
+        "entityEnglishId": "London",
+        "startingPos": 127,
+        "endingPos": 133
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.322,
+  "ok": true
+}

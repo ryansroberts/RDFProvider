@@ -1,0 +1,313 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.518641
+      },
+      {
+        "id": 2,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.518641
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.518641
+      },
+      {
+        "id": 4,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.481359
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.481359
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Kidney Research UK",
+        "wikiLink": "http://en.wikipedia.org/Kidney_Research_UK",
+        "score": 0.254956
+      },
+      {
+        "id": 1,
+        "label": "United Kingdom",
+        "wikiLink": "http://en.wikipedia.org/United_Kingdom",
+        "score": 0.269393
+      },
+      {
+        "id": 2,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.044318
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.12771,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.0221744,
+        "entityEnglishId": "Kidney",
+        "startingPos": 3,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "Kidney Research UK",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 1.85715,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney_Research_UK",
+        "matchedText": "Kidney Research UK",
+        "freebaseId": "/m/04gtyd7",
+        "relevanceScore": 0.127478,
+        "entityEnglishId": "Kidney Research UK",
+        "startingPos": 3,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.74164,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.134697,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 19,
+        "endingPos": 21
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.12771,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.0221744,
+        "entityEnglishId": "Kidney",
+        "startingPos": 71,
+        "endingPos": 77
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          14,
+          15,
+          16
+        ],
+        "entityId": "Kidney Research UK",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 1.85715,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney_Research_UK",
+        "matchedText": "Kidney Research UK",
+        "freebaseId": "/m/04gtyd7",
+        "relevanceScore": 0.127478,
+        "entityEnglishId": "Kidney Research UK",
+        "startingPos": 71,
+        "endingPos": 89
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.74164,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.134697,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 87,
+        "endingPos": 89
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          19,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              18
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              22,
+              23,
+              25
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          14,
+          15,
+          16
+        ],
+        "propertyPositions": [
+          11,
+          12
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          9
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "time": 0.311,
+  "ok": true
+}

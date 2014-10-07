@@ -1,0 +1,256 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.674077
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.67237
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.512282
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.512282
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.485906
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Guideline",
+        "wikiLink": "http://en.wikipedia.org/Guideline",
+        "score": 0.147301
+      },
+      {
+        "id": 1,
+        "label": "Nice",
+        "wikiLink": "http://en.wikipedia.org/Nice",
+        "score": 0.11458
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Nice",
+        "freebaseTypes": [
+          "/periodicals/newspaper_circulation_area",
+          "/location/capital_of_administrative_division",
+          "/location/citytown",
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/travel/travel_destination",
+          "/location/location",
+          "/location/administrative_division"
+        ],
+        "confidenceScore": 0.970096,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nice",
+        "matchedText": "NICE",
+        "freebaseId": "/m/0cp6w",
+        "relevanceScore": 0.11458,
+        "entityEnglishId": "Nice",
+        "startingPos": 0,
+        "endingPos": 4
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Guideline",
+        "confidenceScore": 1.51913,
+        "wikiLink": "http://en.wikipedia.org/wiki/Guideline",
+        "matchedText": "Guideline",
+        "freebaseId": "/m/04xyb9",
+        "relevanceScore": 0.0736505,
+        "entityEnglishId": "Guideline",
+        "startingPos": 10,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "entityId": "Guideline Development Process Information",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Guideline Development Process Information",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 51
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Information",
+        "freebaseTypes": [
+          "/internet/website_category",
+          "/media_common/quotation_subject",
+          "/education/field_of_study",
+          "/organization/contact_category"
+        ],
+        "confidenceScore": 1.08674,
+        "wikiLink": "http://en.wikipedia.org/wiki/Information",
+        "matchedText": "Information",
+        "freebaseId": "/m/03y39",
+        "relevanceScore": 0.0619969,
+        "entityEnglishId": "Information",
+        "startingPos": 40,
+        "endingPos": 51
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          8,
+          9,
+          10
+        ],
+        "entityId": "National Collaborating Centres",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "National Collaborating Centres",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 56,
+        "endingPos": 86
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Guideline",
+        "confidenceScore": 1.51913,
+        "wikiLink": "http://en.wikipedia.org/wiki/Guideline",
+        "matchedText": "Guideline",
+        "freebaseId": "/m/04xyb9",
+        "relevanceScore": 0.0736505,
+        "entityEnglishId": "Guideline",
+        "startingPos": 91,
+        "endingPos": 100
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          12,
+          13,
+          14
+        ],
+        "entityId": "Guideline Development Groups",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Guideline Development Groups",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 91,
+        "endingPos": 119
+      },
+      {
+        "id": 7,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "www.nice.org.uk",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "www.nice.org.uk",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 121,
+        "endingPos": 136
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          10
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

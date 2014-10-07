@@ -1,0 +1,483 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.537851
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.453987
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.322731
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.32001
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.308958
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes management",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_management",
+        "score": 0.684863
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.397108
+      },
+      {
+        "id": 2,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.809362
+      },
+      {
+        "id": 3,
+        "label": "Exenatide",
+        "wikiLink": "http://en.wikipedia.org/Exenatide",
+        "score": 0.770583
+      },
+      {
+        "id": 4,
+        "label": "Glycemic",
+        "wikiLink": "http://en.wikipedia.org/Glycemic",
+        "score": 0.101154
+      },
+      {
+        "id": 5,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.189837
+      },
+      {
+        "id": 6,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 1
+      },
+      {
+        "id": 7,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 1
+      },
+      {
+        "id": 8,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.886805
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Buse JB",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Buse JB",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Henry RR",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Henry RR",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Han J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Han J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 23,
+        "endingPos": 28
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Exenatide",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 7.80404,
+        "wikiLink": "http://en.wikipedia.org/wiki/Exenatide",
+        "matchedText": "exenatide",
+        "freebaseId": "/m/093_zf",
+        "relevanceScore": 0.770583,
+        "entityEnglishId": "Exenatide",
+        "startingPos": 47,
+        "endingPos": 56
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Glycemic",
+        "confidenceScore": 1.1797,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glycemic",
+        "matchedText": "glycemic",
+        "freebaseId": "/m/0kfwmsx",
+        "relevanceScore": 0.101154,
+        "entityEnglishId": "Glycemic",
+        "startingPos": 72,
+        "endingPos": 80
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Diabetes management",
+        "confidenceScore": 7.80062,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_management",
+        "matchedText": "glycemic control",
+        "freebaseId": "/m/08gmh7",
+        "relevanceScore": 0.684863,
+        "entityEnglishId": "Diabetes management",
+        "startingPos": 72,
+        "endingPos": 88
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.03923,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.189837,
+        "entityEnglishId": "Patient",
+        "startingPos": 127,
+        "endingPos": 135
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          27,
+          28
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.34035,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.619052,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 141,
+        "endingPos": 147
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          27,
+          28,
+          29
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.43578,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2 diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.190309,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 141,
+        "endingPos": 156
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.09728,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.198554,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 148,
+        "endingPos": 156
+      },
+      {
+        "id": 10,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.09728,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.198554,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 158,
+        "endingPos": 166
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          17
+        ],
+        "propertyPositions": [
+          13,
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          19,
+          20,
+          23,
+          26
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          19,
+          20,
+          23,
+          26
+        ],
+        "propertyPositions": [
+          21,
+          22
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          25
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          19,
+          20,
+          23,
+          26
+        ],
+        "propertyPositions": [
+          24,
+          25
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          19,
+          20,
+          23,
+          26
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      }
+    ]
+  },
+  "time": 0.322,
+  "ok": true
+}

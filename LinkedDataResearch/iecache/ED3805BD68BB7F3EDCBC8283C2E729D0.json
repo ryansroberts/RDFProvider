@@ -1,0 +1,406 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.512042
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.512042
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.487958
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.487958
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Creatinine",
+        "wikiLink": "http://en.wikipedia.org/Creatinine",
+        "score": 0.10838
+      },
+      {
+        "id": 1,
+        "label": "Longitudinal study",
+        "wikiLink": "http://en.wikipedia.org/Longitudinal_study",
+        "score": 0.192134
+      },
+      {
+        "id": 2,
+        "label": "Health research",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_research",
+        "score": 0.0778964
+      },
+      {
+        "id": 3,
+        "label": "Statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistics",
+        "score": 0.0778964
+      },
+      {
+        "id": 4,
+        "label": "Clinical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_research",
+        "score": 0.0778964
+      },
+      {
+        "id": 5,
+        "label": "Healthcare quality",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_quality",
+        "score": 0.0778964
+      },
+      {
+        "id": 6,
+        "label": "Fields of application of statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_application_of_statistics",
+        "score": 0.0778964
+      },
+      {
+        "id": 7,
+        "label": "Renal physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Renal_physiology",
+        "score": 0.0365744
+      },
+      {
+        "id": 8,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.0365744
+      },
+      {
+        "id": 9,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0365744
+      },
+      {
+        "id": 10,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.0365744
+      },
+      {
+        "id": 11,
+        "label": "Physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Physiology",
+        "score": 0.0365744
+      },
+      {
+        "id": 12,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0365744
+      },
+      {
+        "id": 13,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.0365744
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Rowe JW",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Rowe JW",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Andres R",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Andres R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Tobin JD",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Tobin JD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 23,
+        "endingPos": 31
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.78197,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.10838,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 60,
+        "endingPos": 70
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.106,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "creatinine clearance",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.0796697,
+        "entityEnglishId": "Renal function",
+        "startingPos": 60,
+        "endingPos": 80
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "Longitudinal study",
+        "freebaseTypes": [
+          "/medicine/medical_trial_design"
+        ],
+        "confidenceScore": 3.03334,
+        "wikiLink": "http://en.wikipedia.org/wiki/Longitudinal_study",
+        "matchedText": "longitudinal study",
+        "freebaseId": "/m/05b5xs",
+        "relevanceScore": 0.192134,
+        "entityEnglishId": "Longitudinal study",
+        "startingPos": 111,
+        "endingPos": 129
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          27,
+          28,
+          29
+        ],
+        "entityId": "Journal of Gerontology",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Journal of Gerontology",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 131,
+        "endingPos": 153
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Gerontology",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 2.30218,
+        "wikiLink": "http://en.wikipedia.org/wiki/Gerontology",
+        "matchedText": "Gerontology",
+        "freebaseId": "/m/028df0",
+        "relevanceScore": 0.0838429,
+        "entityEnglishId": "Gerontology",
+        "startingPos": 142,
+        "endingPos": 153
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          21,
+          25
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          18
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          18
+        ],
+        "propertyPositions": [
+          16,
+          17
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          18
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    ]
+  },
+  "time": 0.323,
+  "ok": true
+}

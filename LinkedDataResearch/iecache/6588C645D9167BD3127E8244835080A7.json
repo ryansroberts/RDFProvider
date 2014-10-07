@@ -1,0 +1,179 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Oda H",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Oda H",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Keane WF",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Keane WF",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Statin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 2.4829,
+        "wikiLink": "http://en.wikipedia.org/wiki/Statin",
+        "matchedText": "statins",
+        "freebaseId": "/m/0187ml",
+        "relevanceScore": 0.0915098,
+        "entityEnglishId": "Statin",
+        "startingPos": 40,
+        "endingPos": 47
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.5053,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.0319775,
+        "entityEnglishId": "Kidney",
+        "startingPos": 56,
+        "endingPos": 62
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.11417,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.0319775,
+        "entityEnglishId": "Kidney",
+        "startingPos": 64,
+        "endingPos": 70
+      },
+      {
+        "id": 5,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Kidney International",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kidney International",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 64,
+        "endingPos": 84
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "S25 (Berlin)",
+        "freebaseTypes": [
+          "/metropolitan_transit/transit_line"
+        ],
+        "confidenceScore": 1.79606,
+        "wikiLink": "http://en.wikipedia.org/wiki/S25_(Berlin)",
+        "matchedText": "S25",
+        "freebaseId": "/m/02tk63",
+        "relevanceScore": 0,
+        "entityEnglishId": "S25 (Berlin)",
+        "startingPos": 108,
+        "endingPos": 111
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "time": 0.311,
+  "ok": true
+}

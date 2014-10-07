@@ -1,0 +1,320 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.908802
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.477929
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.476517
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.471285
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.471285
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chronic (medicine)",
+        "wikiLink": "http://en.wikipedia.org/Chronic_(medicine)",
+        "score": 0.891297
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.218936
+      },
+      {
+        "id": 2,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.968068
+      },
+      {
+        "id": 3,
+        "label": "London",
+        "wikiLink": "http://en.wikipedia.org/London",
+        "score": 0.102907
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "National Collaborating Centre",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "National Collaborating Centre",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 2,
+        "endingPos": 31
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Chronic (medicine)",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.47131,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_(medicine)",
+        "matchedText": "Chronic",
+        "freebaseId": "/m/0c1dj4",
+        "relevanceScore": 0.546401,
+        "entityEnglishId": "Chronic (medicine)",
+        "startingPos": 36,
+        "endingPos": 43
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          5,
+          6
+        ],
+        "entityId": "Chronic (medicine)",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.14797,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_(medicine)",
+        "matchedText": "Chronic Conditions",
+        "freebaseId": "/m/0c1dj4",
+        "relevanceScore": 0.344895,
+        "entityEnglishId": "Chronic (medicine)",
+        "startingPos": 36,
+        "endingPos": 54
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.68703,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "Type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.833048,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 56,
+        "endingPos": 62
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8,
+          9,
+          10
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.5516,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "Type 2 diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.13502,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 56,
+        "endingPos": 71
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 3.23816,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.218936,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 63,
+        "endingPos": 71
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "London",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/film/film_location",
+          "/location/country",
+          "/olympics/olympic_bidding_city",
+          "/location/location",
+          "/olympics/olympic_host_city",
+          "/media_common/quotation_subject",
+          "/sports/sports_team_location",
+          "/government/governmental_jurisdiction",
+          "/location/dated_location",
+          "/periodicals/newspaper_circulation_area",
+          "/rail/railway_terminus",
+          "/organization/organization_scope",
+          "/location/statistical_region",
+          "/exhibitions/exhibition_subject",
+          "/fictional_universe/fictional_setting",
+          "/symbols/name_source",
+          "/location/citytown",
+          "/location/place_with_neighborhoods",
+          "/tv/tv_location",
+          "/location/administrative_division",
+          "/travel/travel_destination",
+          "/visual_art/art_subject",
+          "/olympics/olympic_venue"
+        ],
+        "confidenceScore": 2.30319,
+        "wikiLink": "http://en.wikipedia.org/wiki/London",
+        "matchedText": "London",
+        "freebaseId": "/m/04jpl",
+        "relevanceScore": 0.102907,
+        "entityEnglishId": "London",
+        "startingPos": 91,
+        "endingPos": 97
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "NCC-CC",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "NCC-CC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 99,
+        "endingPos": 105
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          4
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              3,
+              5,
+              6
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6
+        ],
+        "propertyPositions": [
+          5
+        ]
+      }
+    ]
+  },
+  "time": 0.31,
+  "ok": true
+}

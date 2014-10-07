@@ -1,0 +1,364 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.774076
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.56345
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.399505
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.340892
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.311778
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "London",
+        "wikiLink": "http://en.wikipedia.org/London",
+        "score": 0.196617
+      },
+      {
+        "id": 1,
+        "label": "National Institute for Health and Care Excellence",
+        "wikiLink": "http://en.wikipedia.org/National_Institute_for_Health_and_Care_Excellence",
+        "score": 0.943721
+      },
+      {
+        "id": 2,
+        "label": "Nice",
+        "wikiLink": "http://en.wikipedia.org/Nice",
+        "score": 0.12253
+      },
+      {
+        "id": 3,
+        "label": "Sociology",
+        "wikiLink": "http://en.wikipedia.org/Category:Sociology",
+        "score": 0.246346
+      },
+      {
+        "id": 4,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.065811
+      },
+      {
+        "id": 5,
+        "label": "Cities",
+        "wikiLink": "http://en.wikipedia.org/Category:Cities_by_country",
+        "score": 0.063777
+      },
+      {
+        "id": 6,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.046272
+      },
+      {
+        "id": 7,
+        "label": "Healthcare management",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_management",
+        "score": 0.0421733
+      },
+      {
+        "id": 8,
+        "label": "Health economics",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_economics",
+        "score": 0.0311336
+      },
+      {
+        "id": 9,
+        "label": "Healthcare quality",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_quality",
+        "score": 0.0167843
+      },
+      {
+        "id": 10,
+        "label": "Quality",
+        "wikiLink": "http://en.wikipedia.org/Category:Quality",
+        "score": 0.0167843
+      },
+      {
+        "id": 11,
+        "label": "Social problems",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_problems",
+        "score": 0.0167843
+      },
+      {
+        "id": 12,
+        "label": "Health agencies",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_agencies",
+        "score": 0.00432555
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Institute",
+        "freebaseTypes": [
+          "/organization/organization_type"
+        ],
+        "confidenceScore": 1.35255,
+        "wikiLink": "http://en.wikipedia.org/wiki/Institute",
+        "matchedText": "Institute",
+        "freebaseId": "/m/01q2mr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Institute",
+        "startingPos": 9,
+        "endingPos": 18
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "entityId": "National Institute for Health and Care Excellence",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 11.5171,
+        "wikiLink": "http://en.wikipedia.org/wiki/National_Institute_for_Health_and_Care_Excellence",
+        "matchedText": "National Institute for Clinical Excellence",
+        "freebaseId": "/m/027j90",
+        "relevanceScore": 0.943721,
+        "entityEnglishId": "National Institute for Health and Care Excellence",
+        "startingPos": 0,
+        "endingPos": 42
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          8,
+          9,
+          10
+        ],
+        "entityId": "National Collaborating Centres",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "National Collaborating Centres",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 60,
+        "endingPos": 90
+      },
+      {
+        "id": 3,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          12,
+          13,
+          14
+        ],
+        "entityId": "Guideline Development Groups",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Guideline Development Groups",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 95,
+        "endingPos": 123
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Guideline",
+        "confidenceScore": 0.951225,
+        "wikiLink": "http://en.wikipedia.org/wiki/Guideline",
+        "matchedText": "Guideline",
+        "freebaseId": "/m/04xyb9",
+        "relevanceScore": 0.057698,
+        "entityEnglishId": "Guideline",
+        "startingPos": 130,
+        "endingPos": 139
+      },
+      {
+        "id": 5,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "entityId": "Guideline Development Process Series No.",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Guideline Development Process Series No.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 130,
+        "endingPos": 170
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "London",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/film/film_location",
+          "/location/country",
+          "/olympics/olympic_bidding_city",
+          "/location/location",
+          "/olympics/olympic_host_city",
+          "/media_common/quotation_subject",
+          "/sports/sports_team_location",
+          "/government/governmental_jurisdiction",
+          "/location/dated_location",
+          "/periodicals/newspaper_circulation_area",
+          "/rail/railway_terminus",
+          "/organization/organization_scope",
+          "/location/statistical_region",
+          "/exhibitions/exhibition_subject",
+          "/fictional_universe/fictional_setting",
+          "/symbols/name_source",
+          "/location/citytown",
+          "/location/place_with_neighborhoods",
+          "/tv/tv_location",
+          "/location/administrative_division",
+          "/travel/travel_destination",
+          "/visual_art/art_subject",
+          "/olympics/olympic_venue"
+        ],
+        "confidenceScore": 2.29072,
+        "wikiLink": "http://en.wikipedia.org/wiki/London",
+        "matchedText": "London",
+        "freebaseId": "/m/04jpl",
+        "relevanceScore": 0.196617,
+        "entityEnglishId": "London",
+        "startingPos": 174,
+        "endingPos": 180
+      },
+      {
+        "id": 7,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Nice",
+        "freebaseTypes": [
+          "/periodicals/newspaper_circulation_area",
+          "/location/capital_of_administrative_division",
+          "/location/citytown",
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/travel/travel_destination",
+          "/location/location",
+          "/location/administrative_division"
+        ],
+        "confidenceScore": 0.980821,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nice",
+        "matchedText": "NICE",
+        "freebaseId": "/m/0cp6w",
+        "relevanceScore": 0.12253,
+        "entityEnglishId": "Nice",
+        "startingPos": 182,
+        "endingPos": 186
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          10
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

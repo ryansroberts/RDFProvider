@@ -1,0 +1,511 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.733725
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.730596
+      },
+      {
+        "id": 3,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.495511
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.248918
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.240443
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "ACE inhibitor",
+        "wikiLink": "http://en.wikipedia.org/ACE_inhibitor",
+        "score": 0.381142
+      },
+      {
+        "id": 1,
+        "label": "Cost–utility analysis",
+        "wikiLink": "http://en.wikipedia.org/Cost–utility_analysis",
+        "score": 0.139534
+      },
+      {
+        "id": 2,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.120821
+      },
+      {
+        "id": 3,
+        "label": "Diabetic nephropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_nephropathy",
+        "score": 0.245957
+      },
+      {
+        "id": 4,
+        "label": "Nephropathy",
+        "wikiLink": "http://en.wikipedia.org/Nephropathy",
+        "score": 0.256627
+      },
+      {
+        "id": 5,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.157995
+      },
+      {
+        "id": 6,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0757756
+      },
+      {
+        "id": 7,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.0743411
+      },
+      {
+        "id": 8,
+        "label": "Genitourinary system diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Genitourinary_system_diseases",
+        "score": 0.0733744
+      },
+      {
+        "id": 9,
+        "label": "Urological conditions",
+        "wikiLink": "http://en.wikipedia.org/Category:Urological_conditions",
+        "score": 0.0733744
+      },
+      {
+        "id": 10,
+        "label": "Kidney diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney_diseases",
+        "score": 0.0733744
+      },
+      {
+        "id": 11,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.0733744
+      },
+      {
+        "id": 12,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.052201
+      },
+      {
+        "id": 13,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.052201
+      },
+      {
+        "id": 14,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0403991
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Clark WF",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Clark WF",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Churchill DN",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Churchill DN",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 22
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Forwell L",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Forwell L",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 24,
+        "endingPos": 33
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          21,
+          22
+        ],
+        "entityId": "Cost–utility analysis",
+        "confidenceScore": 2.20661,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cost–utility_analysis",
+        "matchedText": "cost-utility analysis",
+        "freebaseId": "/m/04z0p1",
+        "relevanceScore": 0.139534,
+        "entityEnglishId": "Cost–utility analysis",
+        "startingPos": 79,
+        "endingPos": 100
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "ACE inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.42813,
+        "wikiLink": "http://en.wikipedia.org/wiki/ACE_inhibitor",
+        "matchedText": "angiotensin-converting-enzyme inhibitor",
+        "freebaseId": "/m/0110z",
+        "relevanceScore": 0.381142,
+        "entityEnglishId": "ACE inhibitor",
+        "startingPos": 104,
+        "endingPos": 143
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.47253,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.157995,
+        "entityEnglishId": "Therapy",
+        "startingPos": 144,
+        "endingPos": 151
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.947393,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.120821,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 156,
+        "endingPos": 164
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          28,
+          29
+        ],
+        "entityId": "Diabetic nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.11218,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_nephropathy",
+        "matchedText": "diabetic nephropathy",
+        "freebaseId": "/m/057z5c",
+        "relevanceScore": 0.245957,
+        "entityEnglishId": "Diabetic nephropathy",
+        "startingPos": 156,
+        "endingPos": 176
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.10329,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephropathy",
+        "matchedText": "nephropathy",
+        "freebaseId": "/m/02z63k",
+        "relevanceScore": 0.256627,
+        "entityEnglishId": "Nephropathy",
+        "startingPos": 165,
+        "endingPos": 176
+      },
+      {
+        "id": 9,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Canada",
+        "freebaseTypes": [
+          "/law/court_jurisdiction_area",
+          "/sports/sports_team_location",
+          "/royalty/kingdom",
+          "/periodicals/newspaper_circulation_area",
+          "/film/film_location",
+          "/exhibitions/exhibition_sponsor",
+          "/organization/organization_member",
+          "/military/military_combatant",
+          "/cvg/computer_game_region",
+          "/fictional_universe/fictional_setting",
+          "/location/dated_location",
+          "/olympics/olympic_participating_country",
+          "/organization/organization_founder",
+          "/tv/tv_location",
+          "/sports/sport_country",
+          "/business/employer",
+          "/book/book_subject",
+          "/food/beer_country_region",
+          "/location/statistical_region",
+          "/biology/breed_origin",
+          "/location/country",
+          "/symbols/flag_referent",
+          "/film/film_subject",
+          "/government/governmental_jurisdiction",
+          "/symbols/coat_of_arms_bearer",
+          "/location/administrative_division",
+          "/organization/organization_scope",
+          "/location/location"
+        ],
+        "confidenceScore": 2.04882,
+        "wikiLink": "http://en.wikipedia.org/wiki/Canada",
+        "matchedText": "Canadian",
+        "freebaseId": "/m/0d060g",
+        "relevanceScore": 0,
+        "entityEnglishId": "Canada",
+        "startingPos": 178,
+        "endingPos": 186
+      },
+      {
+        "id": 10,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          31,
+          32,
+          33
+        ],
+        "entityId": "Canadian Medical Association",
+        "freebaseTypes": [
+          "/book/periodical_publisher",
+          "/organization/organization",
+          "/business/employer",
+          "/book/author"
+        ],
+        "confidenceScore": 3.66845,
+        "wikiLink": "http://en.wikipedia.org/wiki/Canadian_Medical_Association",
+        "matchedText": "Canadian Medical Association",
+        "freebaseId": "/m/03c2fl",
+        "relevanceScore": 0.0402305,
+        "entityEnglishId": "Canadian Medical Association",
+        "startingPos": 178,
+        "endingPos": 206
+      },
+      {
+        "id": 11,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          31,
+          32,
+          33,
+          34
+        ],
+        "entityId": "Canadian Medical Association Journal",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 2.02254,
+        "wikiLink": "http://en.wikipedia.org/wiki/Canadian_Medical_Association_Journal",
+        "matchedText": "Canadian Medical Association Journal",
+        "freebaseId": "/m/03bc9w",
+        "relevanceScore": 0,
+        "entityEnglishId": "Canadian Medical Association Journal",
+        "startingPos": 178,
+        "endingPos": 214
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          32,
+          33,
+          34
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          25,
+          26,
+          27
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          29
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          25,
+          26,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          29
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          18,
+          19,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      }
+    ]
+  },
+  "time": 0.324,
+  "ok": true
+}

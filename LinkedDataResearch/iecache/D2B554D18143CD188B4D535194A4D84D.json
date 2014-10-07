@@ -1,0 +1,524 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.921201
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.919568
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.918866
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.484105
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.436394
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.194128
+      },
+      {
+        "id": 1,
+        "label": "Foot",
+        "wikiLink": "http://en.wikipedia.org/Foot",
+        "score": 0.25871
+      },
+      {
+        "id": 2,
+        "label": "Ulcer (dermatology)",
+        "wikiLink": "http://en.wikipedia.org/Ulcer_(dermatology)",
+        "score": 0.266471
+      },
+      {
+        "id": 3,
+        "label": "Lower limb anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Lower_limb_anatomy",
+        "score": 0.090279
+      },
+      {
+        "id": 4,
+        "label": "Limbs",
+        "wikiLink": "http://en.wikipedia.org/Category:Limbs",
+        "score": 0.089636
+      },
+      {
+        "id": 5,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0646724
+      },
+      {
+        "id": 6,
+        "label": "Medical terminology",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_terminology",
+        "score": 0.0640295
+      },
+      {
+        "id": 7,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0625974
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Ragnarson",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ragnarson",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 24
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Larsson",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Larsson",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 33,
+        "endingPos": 40
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Persson",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Persson",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 48,
+        "endingPos": 55
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Foot",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/business/product_category",
+          "/sports/sports_equipment",
+          "/visual_art/art_subject",
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.46431,
+        "wikiLink": "http://en.wikipedia.org/wiki/Foot",
+        "matchedText": "foot",
+        "freebaseId": "/m/031n1",
+        "relevanceScore": 0.129355,
+        "entityEnglishId": "Foot",
+        "startingPos": 88,
+        "endingPos": 92
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Ulcer (dermatology)",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 0.945908,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ulcer_(dermatology)",
+        "matchedText": "ulcers",
+        "freebaseId": "/m/01klgg",
+        "relevanceScore": 0.266471,
+        "entityEnglishId": "Ulcer (dermatology)",
+        "startingPos": 93,
+        "endingPos": 99
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.9055,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.194128,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 103,
+        "endingPos": 111
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.31801,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.0274478,
+        "entityEnglishId": "Patient",
+        "startingPos": 112,
+        "endingPos": 120
+      },
+      {
+        "id": 7,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Foot",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/business/product_category",
+          "/sports/sports_equipment",
+          "/visual_art/art_subject",
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.46431,
+        "wikiLink": "http://en.wikipedia.org/wiki/Foot",
+        "matchedText": "Foot",
+        "freebaseId": "/m/031n1",
+        "relevanceScore": 0.129355,
+        "entityEnglishId": "Foot",
+        "startingPos": 153,
+        "endingPos": 157
+      },
+      {
+        "id": 8,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Ankle",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.39404,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ankle",
+        "matchedText": "Ankle",
+        "freebaseId": "/m/01xlvy",
+        "relevanceScore": 0.0871491,
+        "entityEnglishId": "Ankle",
+        "startingPos": 160,
+        "endingPos": 165
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          43
+        ],
+        "propertyPositions": [
+          46
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          22,
+          23,
+          29
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          28
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          24,
+          25,
+          26
+        ],
+        "propertyPositions": [
+          27,
+          28
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          22,
+          23,
+          29
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26,
+          27,
+          28
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          30,
+          32
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          34,
+          36,
+          37
+        ],
+        "propertyPositions": [
+          39
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          30,
+          32
+        ],
+        "propertyPositions": [
+          34,
+          35,
+          36,
+          37,
+          39
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          22,
+          23,
+          29
+        ],
+        "propertyPositions": [
+          30,
+          31,
+          32,
+          34,
+          35,
+          36,
+          37,
+          39
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          4
+        ],
+        "propertyPositions": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          35,
+          36,
+          37,
+          39
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          2
+        ],
+        "propertyPositions": [
+          4,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          35,
+          36,
+          37,
+          39
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          2
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          9
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          0
+        ],
+        "propertyPositions": [
+          2,
+          4,
+          6,
+          7,
+          9,
+          11,
+          13,
+          14,
+          16,
+          18,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          35,
+          36,
+          37,
+          39
+        ]
+      }
+    ]
+  },
+  "time": 0.322,
+  "ok": true
+}

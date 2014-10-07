@@ -1,0 +1,180 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.51385
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Department of Health (United Kingdom)",
+        "wikiLink": "http://en.wikipedia.org/Department_of_Health_(United_Kingdom)",
+        "score": 0.18903
+      },
+      {
+        "id": 1,
+        "label": "Quality and Outcomes Framework",
+        "wikiLink": "http://en.wikipedia.org/Quality_and_Outcomes_Framework",
+        "score": 0.323994
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_by_country",
+        "score": 0.0485276
+      },
+      {
+        "id": 3,
+        "label": "Health policy",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_policy",
+        "score": 0.0485276
+      },
+      {
+        "id": 4,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0485276
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "entityId": "Quality and Outcomes Framework",
+        "confidenceScore": 3.10808,
+        "wikiLink": "http://en.wikipedia.org/wiki/Quality_and_Outcomes_Framework",
+        "matchedText": "Quality and Outcomes Framework",
+        "freebaseId": "/m/0d43t4",
+        "relevanceScore": 0.323994,
+        "entityEnglishId": "Quality and Outcomes Framework",
+        "startingPos": 3,
+        "endingPos": 33
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Outcomes Framework",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Outcomes Framework",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 33
+      },
+      {
+        "id": 2,
+        "type": [
+          "Agent",
+          "Organisation",
+          "GovernmentAgency"
+        ],
+        "matchingTokens": [
+          12,
+          13,
+          14
+        ],
+        "entityId": "Department of Health (United Kingdom)",
+        "freebaseTypes": [
+          "/government/government_agency",
+          "/organization/organization"
+        ],
+        "confidenceScore": 1.2212,
+        "wikiLink": "http://en.wikipedia.org/wiki/Department_of_Health_(United_Kingdom)",
+        "matchedText": "Department of Health",
+        "freebaseId": "/m/020rx0",
+        "relevanceScore": 0.18903,
+        "entityEnglishId": "Department of Health (United Kingdom)",
+        "startingPos": 57,
+        "endingPos": 77
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              16
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              20,
+              21,
+              23
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6
+        ]
+      }
+    ]
+  },
+  "time": 0.309,
+  "ok": true
+}

@@ -1,0 +1,429 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.276024
+      },
+      {
+        "id": 2,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.276024
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.276024
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.231192
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.231192
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Asymptomatic",
+        "wikiLink": "http://en.wikipedia.org/Asymptomatic",
+        "score": 0.149425
+      },
+      {
+        "id": 1,
+        "label": "Dipstick",
+        "wikiLink": "http://en.wikipedia.org/Dipstick",
+        "score": 0.182292
+      },
+      {
+        "id": 2,
+        "label": "Intensive care medicine",
+        "wikiLink": "http://en.wikipedia.org/Intensive_care_medicine",
+        "score": 0.229035
+      },
+      {
+        "id": 3,
+        "label": "Urinary tract infection",
+        "wikiLink": "http://en.wikipedia.org/Urinary_tract_infection",
+        "score": 0.163934
+      },
+      {
+        "id": 4,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.651656
+      },
+      {
+        "id": 5,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.333278
+      },
+      {
+        "id": 6,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.333278
+      },
+      {
+        "id": 7,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.333278
+      },
+      {
+        "id": 8,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders",
+        "score": 0.109196
+      },
+      {
+        "id": 9,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0850449
+      },
+      {
+        "id": 10,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0850449
+      },
+      {
+        "id": 11,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0850449
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Woronoff-Lemsi MC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Woronoff-Lemsi MC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 30
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Cornette C",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Cornette C",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 32,
+        "endingPos": 42
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Dipstick",
+        "confidenceScore": 1.46687,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dipstick",
+        "matchedText": "dipsticks",
+        "freebaseId": "/m/02k131",
+        "relevanceScore": 0.182292,
+        "entityEnglishId": "Dipstick",
+        "startingPos": 80,
+        "endingPos": 89
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Asymptomatic",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.83369,
+        "wikiLink": "http://en.wikipedia.org/wiki/Asymptomatic",
+        "matchedText": "asymptomatic",
+        "freebaseId": "/m/02vj01",
+        "relevanceScore": 0.149425,
+        "entityEnglishId": "Asymptomatic",
+        "startingPos": 100,
+        "endingPos": 112
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Urinary tract infection",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/book/book_subject",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.74603,
+        "wikiLink": "http://en.wikipedia.org/wiki/Urinary_tract_infection",
+        "matchedText": "urinary infections",
+        "freebaseId": "/m/07x16",
+        "relevanceScore": 0.163934,
+        "entityEnglishId": "Urinary tract infection",
+        "startingPos": 133,
+        "endingPos": 151
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          23,
+          24
+        ],
+        "entityId": "Intensive care medicine",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/broadcast/genre",
+          "/medicine/medical_specialty",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.25776,
+        "wikiLink": "http://en.wikipedia.org/wiki/Intensive_care_medicine",
+        "matchedText": "intensive care",
+        "freebaseId": "/m/01rnlj",
+        "relevanceScore": 0.114517,
+        "entityEnglishId": "Intensive care medicine",
+        "startingPos": 158,
+        "endingPos": 172
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          23,
+          24,
+          25
+        ],
+        "entityId": "Intensive care unit",
+        "freebaseTypes": [
+          "/law/invention"
+        ],
+        "confidenceScore": 2.74998,
+        "wikiLink": "http://en.wikipedia.org/wiki/Intensive_care_unit",
+        "matchedText": "intensive care unit",
+        "freebaseId": "/m/0g1gcq",
+        "relevanceScore": 0.0607345,
+        "entityEnglishId": "Intensive care unit",
+        "startingPos": 158,
+        "endingPos": 177
+      },
+      {
+        "id": 7,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Tissot E",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Tissot E",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 3,
+        "endingPos": 11
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          27,
+          28
+        ],
+        "entityId": "Intensive care medicine",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/broadcast/genre",
+          "/medicine/medical_specialty",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.25776,
+        "wikiLink": "http://en.wikipedia.org/wiki/Intensive_care_medicine",
+        "matchedText": "Intensive Care",
+        "freebaseId": "/m/01rnlj",
+        "relevanceScore": 0.114517,
+        "entityEnglishId": "Intensive care medicine",
+        "startingPos": 179,
+        "endingPos": 193
+      },
+      {
+        "id": 9,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          27,
+          28,
+          29
+        ],
+        "entityId": "Intensive Care Med.",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Intensive Care Med.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 179,
+        "endingPos": 198
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          28,
+          29
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          22,
+          24,
+          25
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          15,
+          16,
+          21
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

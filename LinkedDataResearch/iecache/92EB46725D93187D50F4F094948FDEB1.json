@@ -1,0 +1,217 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.674552
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.333333
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.333333
+      },
+      {
+        "id": 4,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.333333
+      }
+    ],
+    "language": "fre",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders_by_system",
+        "score": 0.3
+      },
+      {
+        "id": 1,
+        "label": "Digestive diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Digestive_diseases",
+        "score": 0.0333333
+      },
+      {
+        "id": 2,
+        "label": "Immune system disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Immune_system_disorders",
+        "score": 0.0333333
+      },
+      {
+        "id": 3,
+        "label": "Gastroenterology",
+        "wikiLink": "http://en.wikipedia.org/Category:Gastroenterology",
+        "score": 0.0333333
+      },
+      {
+        "id": 4,
+        "label": "Immunology",
+        "wikiLink": "http://en.wikipedia.org/Category:Immunology",
+        "score": 0.0333333
+      },
+      {
+        "id": 5,
+        "label": "Autoimmune diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Autoimmune_diseases",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Pulitano R",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Pulitano R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 30,
+        "endingPos": 40
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Coeliac disease",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification",
+          "/people/cause_of_death",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.54032,
+        "wikiLink": "http://en.wikipedia.org/wiki/Coeliac_disease",
+        "matchedText": "Celiac disease",
+        "freebaseId": "/m/0h1pq",
+        "relevanceScore": 0,
+        "entityEnglishId": "Coeliac disease",
+        "startingPos": 49,
+        "endingPos": 63
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.73545,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "insulin-dependent diabetes",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 68,
+        "endingPos": 94
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15,
+          16
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.68985,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "insulin-dependent diabetes mellitus",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 68,
+        "endingPos": 103
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "Gastrointestinal disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/internet/website_category"
+        ],
+        "confidenceScore": 1.68964,
+        "wikiLink": "http://en.wikipedia.org/wiki/Gastrointestinal_disease",
+        "matchedText": "Digestive Diseases",
+        "freebaseId": "/m/042qy0",
+        "relevanceScore": 0,
+        "entityEnglishId": "Gastrointestinal disease",
+        "startingPos": 139,
+        "endingPos": 157
+      },
+      {
+        "id": 5,
+        "type": [
+          "TimePeriod",
+          "Year"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "1994",
+        "confidenceScore": 1.10856,
+        "wikiLink": "http://fr.wikipedia.org/wiki/1994",
+        "matchedText": "1994",
+        "freebaseId": "",
+        "relevanceScore": 0,
+        "entityEnglishId": "1994",
+        "startingPos": 171,
+        "endingPos": 175
+      }
+    ]
+  },
+  "time": 0.592,
+  "ok": true
+}

@@ -1,0 +1,360 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.539582
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.539582
+      },
+      {
+        "id": 3,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.460418
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.460418
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Microalbuminuria",
+        "wikiLink": "http://en.wikipedia.org/Microalbuminuria",
+        "score": 0.355817
+      },
+      {
+        "id": 1,
+        "label": "Urinalysis",
+        "wikiLink": "http://en.wikipedia.org/Urinalysis",
+        "score": 0.126999
+      },
+      {
+        "id": 2,
+        "label": "Urine",
+        "wikiLink": "http://en.wikipedia.org/Urine",
+        "score": 0.159683
+      },
+      {
+        "id": 3,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.34585
+      },
+      {
+        "id": 4,
+        "label": "Animal waste products",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_waste_products",
+        "score": 0.0791835
+      },
+      {
+        "id": 5,
+        "label": "Urology",
+        "wikiLink": "http://en.wikipedia.org/Category:Urology",
+        "score": 0.0791835
+      },
+      {
+        "id": 6,
+        "label": "Excretion",
+        "wikiLink": "http://en.wikipedia.org/Category:Excretion",
+        "score": 0.0791835
+      },
+      {
+        "id": 7,
+        "label": "Body fluids",
+        "wikiLink": "http://en.wikipedia.org/Category:Body_fluids",
+        "score": 0.0791835
+      },
+      {
+        "id": 8,
+        "label": "Animal anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_anatomy",
+        "score": 0.0791835
+      },
+      {
+        "id": 9,
+        "label": "Urine tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Urine_tests",
+        "score": 0.0424428
+      },
+      {
+        "id": 10,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.0424428
+      },
+      {
+        "id": 11,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.0333333
+      },
+      {
+        "id": 12,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0333333
+      },
+      {
+        "id": 13,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Gansevoort, New York",
+        "freebaseTypes": [
+          "/location/citytown",
+          "/location/location",
+          "/location/dated_location",
+          "/location/statistical_region"
+        ],
+        "confidenceScore": 0.945637,
+        "wikiLink": "http://en.wikipedia.org/wiki/Gansevoort,_New_York",
+        "matchedText": "Gansevoort",
+        "freebaseId": "/m/04gghyt",
+        "relevanceScore": 0,
+        "entityEnglishId": "Gansevoort, New York",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Verhave JC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Verhave JC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 19,
+        "endingPos": 29
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Hillege HL",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hillege HL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 31,
+        "endingPos": 41
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Urine",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 2.57101,
+        "wikiLink": "http://en.wikipedia.org/wiki/Urine",
+        "matchedText": "urine",
+        "freebaseId": "/m/0b7q43",
+        "relevanceScore": 0.159683,
+        "entityEnglishId": "Urine",
+        "startingPos": 97,
+        "endingPos": 102
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Urinalysis",
+        "freebaseTypes": [
+          "/medicine/diagnostic_test"
+        ],
+        "confidenceScore": 1.3077,
+        "wikiLink": "http://en.wikipedia.org/wiki/Urinalysis",
+        "matchedText": "urine samples",
+        "freebaseId": "/m/02qwsd",
+        "relevanceScore": 0.126999,
+        "entityEnglishId": "Urinalysis",
+        "startingPos": 97,
+        "endingPos": 110
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Microalbuminuria",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.22885,
+        "wikiLink": "http://en.wikipedia.org/wiki/Microalbuminuria",
+        "matchedText": "microalbuminuria",
+        "freebaseId": "/m/07y7r4",
+        "relevanceScore": 0.355817,
+        "entityEnglishId": "Microalbuminuria",
+        "startingPos": 135,
+        "endingPos": 151
+      },
+      {
+        "id": 6,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.15181,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.0380729,
+        "entityEnglishId": "Kidney",
+        "startingPos": 179,
+        "endingPos": 185
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          31,
+          32
+        ],
+        "entityId": "Kidney International",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kidney International",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 179,
+        "endingPos": 199
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          27,
+          29
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      }
+    ]
+  },
+  "time": 0.323,
+  "ok": true
+}

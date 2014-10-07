@@ -1,0 +1,191 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.578329
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.507964
+      },
+      {
+        "id": 3,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.507964
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.507964
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.507964
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "European Medicines Agency",
+        "wikiLink": "http://en.wikipedia.org/European_Medicines_Agency",
+        "score": 0.596761
+      },
+      {
+        "id": 1,
+        "label": "Pharmaceutical drug",
+        "wikiLink": "http://en.wikipedia.org/Pharmaceutical_drug",
+        "score": 0.290887
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.17381,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "Medicines",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.290887,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 13,
+        "endingPos": 22
+      },
+      {
+        "id": 1,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "European Medicines Agency",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/government/government_agency"
+        ],
+        "confidenceScore": 9.32255,
+        "wikiLink": "http://en.wikipedia.org/wiki/European_Medicines_Agency",
+        "matchedText": "European Medicines Agency",
+        "freebaseId": "/m/050ndx",
+        "relevanceScore": 0.596761,
+        "entityEnglishId": "European Medicines Agency",
+        "startingPos": 4,
+        "endingPos": 29
+      },
+      {
+        "id": 2,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "www.emea.europa.eu",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "www.emea.europa.eu",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 102,
+        "endingPos": 120
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "time": 0.31,
+  "ok": true
+}

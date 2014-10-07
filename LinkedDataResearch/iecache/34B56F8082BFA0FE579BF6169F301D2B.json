@@ -1,0 +1,507 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.406814
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.39433
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.37432
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.371592
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.349785
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.236603
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.677827
+      },
+      {
+        "id": 2,
+        "label": "Gliclazide",
+        "wikiLink": "http://en.wikipedia.org/Gliclazide",
+        "score": 0.971871
+      },
+      {
+        "id": 3,
+        "label": "Rosiglitazone",
+        "wikiLink": "http://en.wikipedia.org/Rosiglitazone",
+        "score": 0.539462
+      },
+      {
+        "id": 4,
+        "label": "Sulfonylurea",
+        "wikiLink": "http://en.wikipedia.org/Sulfonylurea",
+        "score": 0.711493
+      },
+      {
+        "id": 5,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.664832
+      },
+      {
+        "id": 6,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.54871
+      },
+      {
+        "id": 7,
+        "label": "Amides",
+        "wikiLink": "http://en.wikipedia.org/Category:Amides",
+        "score": 0.468554
+      },
+      {
+        "id": 8,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.184313
+      },
+      {
+        "id": 9,
+        "label": "Organosulfur compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organosulfur_compounds",
+        "score": 0.113654
+      },
+      {
+        "id": 10,
+        "label": "Sulfonylureas",
+        "wikiLink": "http://en.wikipedia.org/Category:Sulfonylureas",
+        "score": 0.113654
+      },
+      {
+        "id": 11,
+        "label": "Sulfonamides",
+        "wikiLink": "http://en.wikipedia.org/Category:Sulfonamides",
+        "score": 0.113654
+      },
+      {
+        "id": 12,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.00456985
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Baksi A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Baksi A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "James RE",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "James RE",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 21
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Zhou B",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Zhou B",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 23,
+        "endingPos": 29
+      },
+      {
+        "id": 3,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Comparison of",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Comparison of",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 37,
+        "endingPos": 50
+      },
+      {
+        "id": 4,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Gliclazide",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 2.13527,
+        "wikiLink": "http://en.wikipedia.org/wiki/Gliclazide",
+        "matchedText": "gliclazide",
+        "freebaseId": "/m/0dhb9g",
+        "relevanceScore": 0.485936,
+        "entityEnglishId": "Gliclazide",
+        "startingPos": 66,
+        "endingPos": 76
+      },
+      {
+        "id": 5,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Rosiglitazone",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 6.64779,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rosiglitazone",
+        "matchedText": "rosiglitazone",
+        "freebaseId": "/m/02vn54",
+        "relevanceScore": 0.539462,
+        "entityEnglishId": "Rosiglitazone",
+        "startingPos": 98,
+        "endingPos": 111
+      },
+      {
+        "id": 6,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Gliclazide",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 2.13527,
+        "wikiLink": "http://en.wikipedia.org/wiki/Gliclazide",
+        "matchedText": "gliclazide",
+        "freebaseId": "/m/0dhb9g",
+        "relevanceScore": 0.485936,
+        "entityEnglishId": "Gliclazide",
+        "startingPos": 115,
+        "endingPos": 125
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.41598,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.0391498,
+        "entityEnglishId": "Patient",
+        "startingPos": 130,
+        "endingPos": 138
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.41393,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type  2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.584356,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 145,
+        "endingPos": 152
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          26,
+          27,
+          28
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.24994,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type  2 diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.0934703,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 145,
+        "endingPos": 161
+      },
+      {
+        "id": 10,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.69106,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.236603,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 153,
+        "endingPos": 161
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Sulfonylurea",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 3.43035,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sulfonylurea",
+        "matchedText": "sulphonylurea",
+        "freebaseId": "/m/036kty",
+        "relevanceScore": 0.711493,
+        "entityEnglishId": "Sulfonylurea",
+        "startingPos": 217,
+        "endingPos": 230
+      },
+      {
+        "id": 12,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          38,
+          39
+        ],
+        "entityId": "Acta Diabetologica",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Acta Diabetologica",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 232,
+        "endingPos": 250
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          16
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.324,
+  "ok": true
+}

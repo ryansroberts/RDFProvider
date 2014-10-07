@@ -1,0 +1,431 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.501937
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.498063
+      },
+      {
+        "id": 3,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.498063
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.498063
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Hypertension",
+        "wikiLink": "http://en.wikipedia.org/Hypertension",
+        "score": 0.408055
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Williams B",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Williams B",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Poulter NR",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Poulter NR",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 26
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Brown MJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Brown MJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 28,
+        "endingPos": 36
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Hypertension",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.73919,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypertension",
+        "matchedText": "hypertension",
+        "freebaseId": "/m/0k95h",
+        "relevanceScore": 0.136018,
+        "entityEnglishId": "Hypertension",
+        "startingPos": 73,
+        "endingPos": 85
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.79514,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "British",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.0834049,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 129,
+        "endingPos": 136
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Hypertension",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.73919,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypertension",
+        "matchedText": "Hypertension",
+        "freebaseId": "/m/0k95h",
+        "relevanceScore": 0.136018,
+        "entityEnglishId": "Hypertension",
+        "startingPos": 137,
+        "endingPos": 149
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          25,
+          26,
+          27
+        ],
+        "entityId": "British Hypertension Society",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "British Hypertension Society",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 129,
+        "endingPos": 157
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "entityId": "IV. Journal of Human Hypertension",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "IV. Journal of Human Hypertension",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 168,
+        "endingPos": 201
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Hypertension",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.73919,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypertension",
+        "matchedText": "Hypertension",
+        "freebaseId": "/m/0k95h",
+        "relevanceScore": 0.136018,
+        "entityEnglishId": "Hypertension",
+        "startingPos": 189,
+        "endingPos": 201
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          19,
+          22,
+          23
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          19,
+          22,
+          23
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          30,
+          31,
+          32
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          34
+        ],
+        "propertyPositions": [
+          33
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          30,
+          31,
+          32
+        ],
+        "propertyPositions": [
+          33,
+          34
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          19,
+          22,
+          23
+        ],
+        "propertyPositions": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          24,
+          26,
+          27
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          19,
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "time": 0.322,
+  "ok": true
+}

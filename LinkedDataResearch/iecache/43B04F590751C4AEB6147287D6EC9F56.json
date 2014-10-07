@@ -1,0 +1,317 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.268273
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.259445
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.249506
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.23708
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.215127
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.274977
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 1",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_1",
+        "score": 0.927604
+      },
+      {
+        "id": 2,
+        "label": "Hyperglycemia",
+        "wikiLink": "http://en.wikipedia.org/Hyperglycemia",
+        "score": 0.718782
+      },
+      {
+        "id": 3,
+        "label": "World Health Organization",
+        "wikiLink": "http://en.wikipedia.org/World_Health_Organization",
+        "score": 0.287428
+      },
+      {
+        "id": 4,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 1
+      },
+      {
+        "id": 5,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.742942
+      },
+      {
+        "id": 6,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.739217
+      },
+      {
+        "id": 7,
+        "label": "Medical and health organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_and_health_organizations",
+        "score": 0.0960793
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.01869,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.463802,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 16,
+        "endingPos": 24
+      },
+      {
+        "id": 1,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "International Diabetes Federation",
+        "freebaseTypes": [
+          "/business/employer",
+          "/organization/organization"
+        ],
+        "confidenceScore": 3.33049,
+        "wikiLink": "http://en.wikipedia.org/wiki/International_Diabetes_Federation",
+        "matchedText": "International Diabetes Federation",
+        "freebaseId": "/m/0ft2gc",
+        "relevanceScore": 0.0675438,
+        "entityEnglishId": "International Diabetes Federation",
+        "startingPos": 2,
+        "endingPos": 35
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.01869,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.463802,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 65,
+        "endingPos": 73
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 5.67055,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes mellitus",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.274977,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 65,
+        "endingPos": 82
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Hyperglycemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 11.153,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hyperglycemia",
+        "matchedText": "hyperglycemia",
+        "freebaseId": "/m/0kfqw",
+        "relevanceScore": 0.718782,
+        "entityEnglishId": "Hyperglycemia",
+        "startingPos": 97,
+        "endingPos": 110
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Geneva",
+        "freebaseTypes": [
+          "/location/administrative_division",
+          "/location/statistical_region",
+          "/travel/travel_destination",
+          "/location/location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/periodicals/newspaper_circulation_area",
+          "/location/citytown",
+          "/location/capital_of_administrative_division",
+          "/location/dated_location"
+        ],
+        "confidenceScore": 1.60033,
+        "wikiLink": "http://en.wikipedia.org/wiki/Geneva",
+        "matchedText": "Geneva",
+        "freebaseId": "/m/03902",
+        "relevanceScore": 0.0827321,
+        "entityEnglishId": "Geneva",
+        "startingPos": 146,
+        "endingPos": 152
+      },
+      {
+        "id": 6,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          23,
+          24,
+          25
+        ],
+        "entityId": "World Health Organization",
+        "freebaseTypes": [
+          "/award/award_winner",
+          "/organization/organization",
+          "/organization/membership_organization",
+          "/business/employer",
+          "/award/ranked_list_compiler",
+          "/book/author"
+        ],
+        "confidenceScore": 5.90912,
+        "wikiLink": "http://en.wikipedia.org/wiki/World_Health_Organization",
+        "matchedText": "World Health Organisation",
+        "freebaseId": "/m/0840w",
+        "relevanceScore": 0.287428,
+        "entityEnglishId": "World Health Organization",
+        "startingPos": 154,
+        "endingPos": 179
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          13
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

@@ -1,0 +1,333 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.328686
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Verapamil",
+        "wikiLink": "http://en.wikipedia.org/Verapamil",
+        "score": 0.19143
+      },
+      {
+        "id": 1,
+        "label": "Medical associations",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_associations_by_country",
+        "score": 0.0609935
+      },
+      {
+        "id": 2,
+        "label": "American Medical Association",
+        "wikiLink": "http://en.wikipedia.org/Category:American_Medical_Association",
+        "score": 0.0609935
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Black HR",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Black HR",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Elliott WJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Elliott WJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Grandits G",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Grandits G",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 36
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Verapamil",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 5.52619,
+        "wikiLink": "http://en.wikipedia.org/wiki/Verapamil",
+        "matchedText": "Verapamil",
+        "freebaseId": "/m/02lmsl",
+        "relevanceScore": 0.19143,
+        "entityEnglishId": "Verapamil",
+        "startingPos": 86,
+        "endingPos": 95
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          20,
+          21,
+          22
+        ],
+        "entityId": "Cardiovascular End Points",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Cardiovascular End Points",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 113,
+        "endingPos": 138
+      },
+      {
+        "id": 5,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "entityId": "JAMA (journal)",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/publication",
+          "/book/journal"
+        ],
+        "confidenceScore": 2.53426,
+        "wikiLink": "http://en.wikipedia.org/wiki/JAMA_(journal)",
+        "matchedText": "Journal of the American Medical Association",
+        "freebaseId": "/m/02n872",
+        "relevanceScore": 0,
+        "entityEnglishId": "JAMA (journal)",
+        "startingPos": 161,
+        "endingPos": 204
+      },
+      {
+        "id": 6,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          32,
+          33,
+          34
+        ],
+        "entityId": "American Medical Association",
+        "freebaseTypes": [
+          "/business/employer",
+          "/book/periodical_publisher",
+          "/organization/organization",
+          "/internet/website_owner",
+          "/award/award_presenting_organization",
+          "/book/author"
+        ],
+        "confidenceScore": 3.92759,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Medical_Association",
+        "matchedText": "American Medical Association",
+        "freebaseId": "/m/01pq0r",
+        "relevanceScore": 0.0641913,
+        "entityEnglishId": "American Medical Association",
+        "startingPos": 176,
+        "endingPos": 204
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          28,
+          29,
+          30
+        ],
+        "propertyPositions": [
+          31,
+          32,
+          33,
+          34,
+          35
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          14,
+          16,
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          21,
+          22
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14,
+          16,
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          14,
+          16,
+          17,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          24,
+          26
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          24,
+          26
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          24,
+          26
+        ]
+      }
+    ]
+  },
+  "time": 0.323,
+  "ok": true
+}

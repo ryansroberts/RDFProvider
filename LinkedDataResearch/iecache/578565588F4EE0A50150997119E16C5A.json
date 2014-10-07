@@ -1,0 +1,186 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Sports",
+        "wikiLink": "http://en.wikipedia.org/Category:Sports",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.906196
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.906196
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.906196
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.906196
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.897374
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Rand McNally",
+        "wikiLink": "http://en.wikipedia.org/Rand_McNally",
+        "score": 0.100225
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Cook TD",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Cook TD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 7
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Campbell DT",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Campbell DT",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 9,
+        "endingPos": 20
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Chicago",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/exhibitions/exhibition_sponsor",
+          "/government/governmental_jurisdiction",
+          "/symbols/name_source",
+          "/location/capital_of_administrative_division",
+          "/location/hud_county_place",
+          "/location/administrative_division",
+          "/film/film_location",
+          "/organization/organization_scope",
+          "/sports/sports_team_location",
+          "/tv/tv_location",
+          "/location/place_with_neighborhoods",
+          "/location/citytown",
+          "/business/employer",
+          "/fictional_universe/fictional_setting",
+          "/location/dated_location",
+          "/travel/travel_destination",
+          "/periodicals/newspaper_circulation_area",
+          "/award/award_discipline",
+          "/location/location",
+          "/olympics/olympic_bidding_city",
+          "/location/statistical_region"
+        ],
+        "confidenceScore": 1.09522,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chicago",
+        "matchedText": "Chicago",
+        "freebaseId": "/m/01_d4",
+        "relevanceScore": 0.0922089,
+        "entityEnglishId": "Chicago",
+        "startingPos": 98,
+        "endingPos": 105
+      },
+      {
+        "id": 3,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Company"
+        ],
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Rand McNally",
+        "freebaseTypes": [
+          "/book/publishing_company",
+          "/organization/organization",
+          "/internet/social_network_user",
+          "/business/employer",
+          "/business/business_operation",
+          "/book/author"
+        ],
+        "confidenceScore": 4.39178,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rand_McNally",
+        "matchedText": "Rand McNally",
+        "freebaseId": "/m/0223wc",
+        "relevanceScore": 0.100225,
+        "entityEnglishId": "Rand McNally",
+        "startingPos": 107,
+        "endingPos": 119
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          10,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

@@ -1,0 +1,403 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.518162
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.504245
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.495755
+      },
+      {
+        "id": 4,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.495755
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.481838
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Acarbose",
+        "wikiLink": "http://en.wikipedia.org/Acarbose",
+        "score": 0.310728
+      },
+      {
+        "id": 1,
+        "label": "Impaired glucose tolerance",
+        "wikiLink": "http://en.wikipedia.org/Impaired_glucose_tolerance",
+        "score": 0.269858
+      },
+      {
+        "id": 2,
+        "label": "Chemical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_pathology",
+        "score": 0.0421678
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Quilici S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Quilici S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Maclaine G",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Maclaine G",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 29,
+        "endingPos": 39
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Acarbose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.61376,
+        "wikiLink": "http://en.wikipedia.org/wiki/Acarbose",
+        "matchedText": "acarbose",
+        "freebaseId": "/m/048rkb",
+        "relevanceScore": 0.310728,
+        "entityEnglishId": "Acarbose",
+        "startingPos": 69,
+        "endingPos": 77
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Glucose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 2.21256,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucose",
+        "matchedText": "glucose",
+        "freebaseId": "/m/02kb_m_",
+        "relevanceScore": 0.0443097,
+        "entityEnglishId": "Glucose",
+        "startingPos": 109,
+        "endingPos": 116
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19,
+          20
+        ],
+        "entityId": "Impaired glucose tolerance",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.52774,
+        "wikiLink": "http://en.wikipedia.org/wiki/Impaired_glucose_tolerance",
+        "matchedText": "impaired glucose tolerance",
+        "freebaseId": "/m/0cm834",
+        "relevanceScore": 0.0515971,
+        "entityEnglishId": "Impaired glucose tolerance",
+        "startingPos": 100,
+        "endingPos": 126
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Impaired glucose tolerance",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.84728,
+        "wikiLink": "http://en.wikipedia.org/wiki/Impaired_glucose_tolerance",
+        "matchedText": "glucose tolerance",
+        "freebaseId": "/m/0cm834",
+        "relevanceScore": 0.218261,
+        "entityEnglishId": "Impaired glucose tolerance",
+        "startingPos": 109,
+        "endingPos": 126
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Sweden",
+        "freebaseTypes": [
+          "/military/military_combatant",
+          "/government/government",
+          "/book/book_subject",
+          "/location/statistical_region",
+          "/symbols/coat_of_arms_bearer",
+          "/olympics/olympic_participating_country",
+          "/biology/breed_origin",
+          "/food/beer_country_region",
+          "/government/governmental_jurisdiction",
+          "/symbols/flag_referent",
+          "/film/film_location",
+          "/organization/organization_founder",
+          "/government/political_district",
+          "/sports/sport_country",
+          "/location/location",
+          "/location/dated_location",
+          "/periodicals/newspaper_circulation_area",
+          "/fictional_universe/fictional_setting",
+          "/travel/travel_destination",
+          "/sports/sports_team_location",
+          "/royalty/kingdom",
+          "/organization/organization_member",
+          "/organization/organization_scope",
+          "/location/country",
+          "/business/employer"
+        ],
+        "confidenceScore": 2.70931,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sweden",
+        "matchedText": "Sweden",
+        "freebaseId": "/m/0d0vqn",
+        "relevanceScore": 0.050762,
+        "entityEnglishId": "Sweden",
+        "startingPos": 130,
+        "endingPos": 136
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "entityId": "International Journal of Clinical Practice",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "International Journal of Clinical Practice",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 138,
+        "endingPos": 180
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          28
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          24,
+          25,
+          26
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          19,
+          20
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          15,
+          16,
+          17,
+          21
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          15,
+          16,
+          17,
+          21
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

@@ -1,0 +1,305 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Aldose reductase",
+        "wikiLink": "http://en.wikipedia.org/Aldose_reductase",
+        "score": 0.453033
+      },
+      {
+        "id": 1,
+        "label": "Aldose reductase inhibitor",
+        "wikiLink": "http://en.wikipedia.org/Aldose_reductase_inhibitor",
+        "score": 0.327462
+      },
+      {
+        "id": 2,
+        "label": "Diabetic neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_neuropathy",
+        "score": 1
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Williams G",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Williams G",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 9,
+        "endingPos": 19
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Ghatei MA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ghatei MA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 30
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Gill JS",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Gill JS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 7
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Aldose",
+        "freebaseTypes": [
+          "/chemistry/chemical_classification"
+        ],
+        "confidenceScore": 4.20859,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aldose",
+        "matchedText": "aldose",
+        "freebaseId": "/m/01f92v",
+        "relevanceScore": 0,
+        "entityEnglishId": "Aldose",
+        "startingPos": 53,
+        "endingPos": 59
+      },
+      {
+        "id": 4,
+        "type": [
+          "Biomolecule",
+          "Enzyme"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Aldose reductase",
+        "confidenceScore": 4.53949,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aldose_reductase",
+        "matchedText": "aldose reductase",
+        "freebaseId": "/m/026ps6s",
+        "relevanceScore": 0.453033,
+        "entityEnglishId": "Aldose reductase",
+        "startingPos": 53,
+        "endingPos": 69
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          14,
+          15,
+          16
+        ],
+        "entityId": "Aldose reductase inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug"
+        ],
+        "confidenceScore": 3.81525,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aldose_reductase_inhibitor",
+        "matchedText": "aldose reductase inhibitor",
+        "freebaseId": "/m/0flh1",
+        "relevanceScore": 0.327462,
+        "entityEnglishId": "Aldose reductase inhibitor",
+        "startingPos": 53,
+        "endingPos": 79
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21,
+          22
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 9.34118,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "diabetic neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.394885,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 97,
+        "endingPos": 116
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Diabetic neuropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause"
+        ],
+        "confidenceScore": 2.89735,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "matchedText": "neuropathy",
+        "freebaseId": "/m/02kfps",
+        "relevanceScore": 0.688188,
+        "entityEnglishId": "Diabetic neuropathy",
+        "startingPos": 106,
+        "endingPos": 116
+      },
+      {
+        "id": 8,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Diabte",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Diabte",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 118,
+        "endingPos": 124
+      },
+      {
+        "id": 9,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Mtabolisme",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Mtabolisme",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 128,
+        "endingPos": 138
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11,
+          12,
+          20
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16,
+          18
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          22
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          11,
+          12,
+          20
+        ],
+        "propertyPositions": [
+          21,
+          22
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

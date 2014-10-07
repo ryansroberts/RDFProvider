@@ -1,0 +1,385 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.512877
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.512877
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.512877
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.497334
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "University of Oxford",
+        "wikiLink": "http://en.wikipedia.org/University_of_Oxford",
+        "score": 0.119915
+      },
+      {
+        "id": 1,
+        "label": "Visitor attractions",
+        "wikiLink": "http://en.wikipedia.org/Category:Visitor_attractions_by_country",
+        "score": 0.0530736
+      },
+      {
+        "id": 2,
+        "label": "Tourism",
+        "wikiLink": "http://en.wikipedia.org/Category:Tourism_by_country",
+        "score": 0.0530736
+      },
+      {
+        "id": 3,
+        "label": "Universities",
+        "wikiLink": "http://en.wikipedia.org/Category:Universities_by_country",
+        "score": 0.0530736
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Drummond M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Drummond M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "OBrien B",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "OBrien B",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Stoddart G",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Stoddart G",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 36
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Health care",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/organization/organization_sector",
+          "/food/tea_type",
+          "/people/professional_field",
+          "/education/field_of_study",
+          "/government/government_service",
+          "/business/industry",
+          "/exhibitions/exhibition_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.17884,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_care",
+        "matchedText": "health care",
+        "freebaseId": "/m/01mw2x",
+        "relevanceScore": 0.0591736,
+        "entityEnglishId": "Health care",
+        "startingPos": 85,
+        "endingPos": 96
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          10,
+          11,
+          12
+        ],
+        "entityId": "Torrance G. Methods",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Torrance G. Methods",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 38,
+        "endingPos": 57
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Oxford",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Oxford",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 118,
+        "endingPos": 124
+      },
+      {
+        "id": 6,
+        "type": [
+          "Agent",
+          "Organisation",
+          "EducationalInstitution",
+          "University"
+        ],
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "University of Oxford",
+        "freebaseTypes": [
+          "/organization/endowed_organization",
+          "/architecture/architectural_structure_owner",
+          "/education/educational_institution_campus",
+          "/education/academic_institution",
+          "/book/book_subject",
+          "/business/employer",
+          "/education/educational_institution",
+          "/location/location",
+          "/organization/organization",
+          "/fictional_universe/school_in_fiction",
+          "/projects/project_focus",
+          "/award/ranked_item",
+          "/education/university",
+          "/architecture/structure"
+        ],
+        "confidenceScore": 2.39474,
+        "wikiLink": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "matchedText": "Oxford University",
+        "freebaseId": "/m/07tgn",
+        "relevanceScore": 0.119915,
+        "entityEnglishId": "University of Oxford",
+        "startingPos": 126,
+        "endingPos": 143
+      },
+      {
+        "id": 7,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Company",
+          "Publisher"
+        ],
+        "matchingTokens": [
+          26,
+          27,
+          28
+        ],
+        "entityId": "Oxford University Press",
+        "freebaseTypes": [
+          "/book/periodical_publisher",
+          "/projects/project_participant",
+          "/organization/organization",
+          "/book/publishing_company",
+          "/business/employer",
+          "/projects/project_focus",
+          "/business/business_operation",
+          "/book/author"
+        ],
+        "confidenceScore": 4.72656,
+        "wikiLink": "http://en.wikipedia.org/wiki/Oxford_University_Press",
+        "matchedText": "Oxford University Press",
+        "freebaseId": "/m/0czzl",
+        "relevanceScore": 0.0884505,
+        "entityEnglishId": "Oxford University Press",
+        "startingPos": 126,
+        "endingPos": 149
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          22
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          21,
+          22
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          21,
+          22
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          21,
+          22
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

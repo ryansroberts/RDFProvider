@@ -1,0 +1,427 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.315772
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Simvastatin",
+        "wikiLink": "http://en.wikipedia.org/Simvastatin",
+        "score": 0.137016
+      },
+      {
+        "id": 1,
+        "label": "Heterocyclic compounds (1 ring)",
+        "wikiLink": "http://en.wikipedia.org/Category:Heterocyclic_compounds_(1_ring)",
+        "score": 0.0719523
+      },
+      {
+        "id": 2,
+        "label": "Pharmaceutical companies",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_companies_by_country",
+        "score": 0.0719523
+      },
+      {
+        "id": 3,
+        "label": "Statins",
+        "wikiLink": "http://en.wikipedia.org/Category:Statins",
+        "score": 0.0719523
+      },
+      {
+        "id": 4,
+        "label": "Hypolipidemic agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Hypolipidemic_agents",
+        "score": 0.0719523
+      },
+      {
+        "id": 5,
+        "label": "Oxygen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxygen_compounds",
+        "score": 0.0719523
+      },
+      {
+        "id": 6,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.0719523
+      },
+      {
+        "id": 7,
+        "label": "Alcohols",
+        "wikiLink": "http://en.wikipedia.org/Category:Alcohols",
+        "score": 0.0719523
+      },
+      {
+        "id": 8,
+        "label": "Functional groups",
+        "wikiLink": "http://en.wikipedia.org/Category:Functional_groups",
+        "score": 0.0719523
+      },
+      {
+        "id": 9,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.0719523
+      },
+      {
+        "id": 10,
+        "label": "Cardiovascular system",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiovascular_system",
+        "score": 0.0392044
+      },
+      {
+        "id": 11,
+        "label": "Heart",
+        "wikiLink": "http://en.wikipedia.org/Category:Heart",
+        "score": 0.0392044
+      },
+      {
+        "id": 12,
+        "label": "Cardiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiology",
+        "score": 0.0392044
+      },
+      {
+        "id": 13,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0392044
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Insull W",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Insull W",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Kafonek S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kafonek S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 23
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Goldner D",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Goldner D",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 25,
+        "endingPos": 34
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Efficacy",
+        "confidenceScore": 1.33013,
+        "wikiLink": "http://en.wikipedia.org/wiki/Efficacy",
+        "matchedText": "efficacy",
+        "freebaseId": "/m/03mrl3",
+        "relevanceScore": 0.0512841,
+        "entityEnglishId": "Efficacy",
+        "startingPos": 56,
+        "endingPos": 64
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          11,
+          12,
+          13,
+          14
+        ],
+        "entityId": "Comparison of efficacy and",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Comparison of efficacy and",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 42,
+        "endingPos": 68
+      },
+      {
+        "id": 5,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Atorvastatin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 4.62723,
+        "wikiLink": "http://en.wikipedia.org/wiki/Atorvastatin",
+        "matchedText": "atorvastatin",
+        "freebaseId": "/m/02y_rs",
+        "relevanceScore": 0.0813307,
+        "entityEnglishId": "Atorvastatin",
+        "startingPos": 79,
+        "endingPos": 91
+      },
+      {
+        "id": 6,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Simvastatin",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors",
+          "/business/consumer_product",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 6.13578,
+        "wikiLink": "http://en.wikipedia.org/wiki/Simvastatin",
+        "matchedText": "simvastatin",
+        "freebaseId": "/m/02z428",
+        "relevanceScore": 0.137016,
+        "entityEnglishId": "Simvastatin",
+        "startingPos": 104,
+        "endingPos": 115
+      },
+      {
+        "id": 7,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          33,
+          34,
+          35,
+          36
+        ],
+        "entityId": "American Journal of Cardiology",
+        "freebaseTypes": [
+          "/book/journal",
+          "/book/periodical"
+        ],
+        "confidenceScore": 1.5934,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Journal_of_Cardiology",
+        "matchedText": "American Journal of Cardiology",
+        "freebaseId": "/m/04cx_7m",
+        "relevanceScore": 0,
+        "entityEnglishId": "American Journal of Cardiology",
+        "startingPos": 158,
+        "endingPos": 188
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Cardiology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/periodical_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.65807,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiology",
+        "matchedText": "Cardiology",
+        "freebaseId": "/m/01nd8",
+        "relevanceScore": 0,
+        "entityEnglishId": "Cardiology",
+        "startingPos": 178,
+        "endingPos": 188
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          33,
+          34,
+          35
+        ],
+        "propertyPositions": [
+          36,
+          37
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          19,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          24
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          19,
+          21,
+          22,
+          24
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          19,
+          21,
+          22,
+          24
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          26
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          21,
+          22,
+          24
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          26
+        ],
+        "propertyPositions": [
+          27,
+          28
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          21,
+          22,
+          24,
+          26,
+          27,
+          28
+        ]
+      }
+    ]
+  },
+  "time": 0.32,
+  "ok": true
+}

@@ -1,0 +1,257 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.695171
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.346506
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.311504
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "American Diabetes Association",
+        "wikiLink": "http://en.wikipedia.org/American_Diabetes_Association",
+        "score": 0.491272
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.234644
+      },
+      {
+        "id": 2,
+        "label": "Podiatry",
+        "wikiLink": "http://en.wikipedia.org/Podiatry",
+        "score": 0.141582
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0893943
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.64172,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.117322,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 9,
+        "endingPos": 17
+      },
+      {
+        "id": 1,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Non-ProfitOrganisation"
+        ],
+        "matchingTokens": [
+          0,
+          1,
+          2
+        ],
+        "entityId": "American Diabetes Association",
+        "freebaseTypes": [
+          "/internet/social_network_user",
+          "/organization/non_profit_organization",
+          "/book/author",
+          "/book/periodical_publisher",
+          "/business/employer",
+          "/organization/organization"
+        ],
+        "confidenceScore": 5.94781,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Diabetes_Association",
+        "matchedText": "American Diabetes Association",
+        "freebaseId": "/m/06rzq5",
+        "relevanceScore": 0.245636,
+        "entityEnglishId": "American Diabetes Association",
+        "startingPos": 0,
+        "endingPos": 29
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Foot",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Foot",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 57,
+        "endingPos": 61
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Podiatry",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study",
+          "/business/industry"
+        ],
+        "confidenceScore": 1.46364,
+        "wikiLink": "http://en.wikipedia.org/wiki/Podiatry",
+        "matchedText": "Foot care",
+        "freebaseId": "/m/02tgxy",
+        "relevanceScore": 0.141582,
+        "entityEnglishId": "Podiatry",
+        "startingPos": 57,
+        "endingPos": 66
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Alexandria",
+        "freebaseTypes": [
+          "/dataworld/information_source",
+          "/location/statistical_region",
+          "/travel/travel_destination",
+          "/location/place_with_neighborhoods",
+          "/location/dated_location",
+          "/book/book_subject",
+          "/symbols/namesake",
+          "/location/capital_of_administrative_division",
+          "/location/location",
+          "/location/administrative_division",
+          "/location/citytown"
+        ],
+        "confidenceScore": 1.4664,
+        "wikiLink": "http://en.wikipedia.org/wiki/Alexandria",
+        "matchedText": "Alexandria",
+        "freebaseId": "/m/013g3",
+        "relevanceScore": 0.0213145,
+        "entityEnglishId": "Alexandria",
+        "startingPos": 79,
+        "endingPos": 89
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.64172,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.117322,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 104,
+        "endingPos": 112
+      },
+      {
+        "id": 6,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Non-ProfitOrganisation"
+        ],
+        "matchingTokens": [
+          17,
+          18,
+          19
+        ],
+        "entityId": "American Diabetes Association",
+        "freebaseTypes": [
+          "/internet/social_network_user",
+          "/organization/non_profit_organization",
+          "/book/author",
+          "/book/periodical_publisher",
+          "/business/employer",
+          "/organization/organization"
+        ],
+        "confidenceScore": 5.94781,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Diabetes_Association",
+        "matchedText": "American Diabetes Association",
+        "freebaseId": "/m/06rzq5",
+        "relevanceScore": 0.245636,
+        "entityEnglishId": "American Diabetes Association",
+        "startingPos": 95,
+        "endingPos": 124
+      }
+    ]
+  },
+  "time": 0.314,
+  "ok": true
+}

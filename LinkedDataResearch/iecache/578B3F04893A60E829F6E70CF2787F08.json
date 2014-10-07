@@ -1,0 +1,360 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.335757
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.335757
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.335757
+      },
+      {
+        "id": 4,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.334704
+      },
+      {
+        "id": 5,
+        "label": "Sports",
+        "wikiLink": "http://en.wikipedia.org/Category:Sports",
+        "score": 0.334704
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Rat",
+        "wikiLink": "http://en.wikipedia.org/Rat",
+        "score": 0.124702
+      },
+      {
+        "id": 1,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0461282
+      },
+      {
+        "id": 2,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.0418606
+      },
+      {
+        "id": 3,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.0418606
+      },
+      {
+        "id": 4,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0418606
+      },
+      {
+        "id": 5,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.0418606
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Nakagawa T",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Nakagawa T",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Mazzali M",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Mazzali M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 25
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Kang DH",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kang DH",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 27,
+        "endingPos": 34
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Hyperuricemia",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.26621,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hyperuricemia",
+        "matchedText": "Hyperuricemia",
+        "freebaseId": "/m/02hl8g",
+        "relevanceScore": 0.0526072,
+        "entityEnglishId": "Hyperuricemia",
+        "startingPos": 42,
+        "endingPos": 55
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Glomerulus",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.66011,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glomerulus",
+        "matchedText": "glomerular",
+        "freebaseId": "/m/02_dbc",
+        "relevanceScore": 0,
+        "entityEnglishId": "Glomerulus",
+        "startingPos": 63,
+        "endingPos": 73
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Hypertrophy",
+        "confidenceScore": 3.17978,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypertrophy",
+        "matchedText": "hypertrophy",
+        "freebaseId": "/m/02vrdn",
+        "relevanceScore": 0,
+        "entityEnglishId": "Hypertrophy",
+        "startingPos": 74,
+        "endingPos": 85
+      },
+      {
+        "id": 6,
+        "type": [
+          "Species",
+          "Eukaryote",
+          "Animal",
+          "Mammal"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Rat",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/fictional_universe/character_species",
+          "/biology/organism_classification",
+          "/biology/animal"
+        ],
+        "confidenceScore": 1.52227,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rat",
+        "matchedText": "rat",
+        "freebaseId": "/m/06lk1",
+        "relevanceScore": 0.124702,
+        "entityEnglishId": "Rat",
+        "startingPos": 93,
+        "endingPos": 96
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          19,
+          20,
+          21,
+          22
+        ],
+        "entityId": "American Journal of Nephrology",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "American Journal of Nephrology",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 98,
+        "endingPos": 128
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Nephrology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 3.18121,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephrology",
+        "matchedText": "Nephrology",
+        "freebaseId": "/m/05jd4",
+        "relevanceScore": 0.0875426,
+        "entityEnglishId": "Nephrology",
+        "startingPos": 118,
+        "endingPos": 128
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              13,
+              14,
+              15,
+              16,
+              17
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          19,
+          20,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          23
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "time": 0.321,
+  "ok": true
+}

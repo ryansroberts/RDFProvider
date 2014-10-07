@@ -1,0 +1,290 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.493638
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.484131
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.232933
+      },
+      {
+        "id": 1,
+        "label": "Nephrectomy",
+        "wikiLink": "http://en.wikipedia.org/Nephrectomy",
+        "score": 0.464737
+      },
+      {
+        "id": 2,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.152516
+      },
+      {
+        "id": 3,
+        "label": "Urology",
+        "wikiLink": "http://en.wikipedia.org/Category:Urology",
+        "score": 0.0758344
+      },
+      {
+        "id": 4,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.0530753
+      },
+      {
+        "id": 5,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0530753
+      },
+      {
+        "id": 6,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.0530753
+      },
+      {
+        "id": 7,
+        "label": "Mayo Clinic",
+        "wikiLink": "http://en.wikipedia.org/Category:Mayo_Clinic",
+        "score": 0.0385698
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Wilson DM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wilson DM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 14,
+        "endingPos": 23
+      },
+      {
+        "id": 1,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 0.970709,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.232933,
+        "entityEnglishId": "Kidney",
+        "startingPos": 32,
+        "endingPos": 37
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.94814,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "renal function",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.152516,
+        "entityEnglishId": "Renal function",
+        "startingPos": 32,
+        "endingPos": 46
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Nephrectomy",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 4.507,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephrectomy",
+        "matchedText": "nephrectomy",
+        "freebaseId": "/m/05hrp3",
+        "relevanceScore": 0.464737,
+        "entityEnglishId": "Nephrectomy",
+        "startingPos": 96,
+        "endingPos": 107
+      },
+      {
+        "id": 4,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Company"
+        ],
+        "matchingTokens": [
+          22,
+          23
+        ],
+        "entityId": "Mayo Clinic",
+        "freebaseTypes": [
+          "/award/ranked_item",
+          "/medicine/cancer_center_constituent",
+          "/organization/non_profit_organization",
+          "/organization/organization",
+          "/medicine/hospital",
+          "/business/employer",
+          "/business/business_operation",
+          "/award/award_winner"
+        ],
+        "confidenceScore": 5.63526,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mayo_Clinic",
+        "matchedText": "Mayo Clinic",
+        "freebaseId": "/m/0158xh",
+        "relevanceScore": 0.0296834,
+        "entityEnglishId": "Mayo Clinic",
+        "startingPos": 109,
+        "endingPos": 120
+      },
+      {
+        "id": 5,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          22,
+          23,
+          24
+        ],
+        "entityId": "Mayo Clinic Proceedings",
+        "freebaseTypes": [
+          "/book/journal",
+          "/book/periodical"
+        ],
+        "confidenceScore": 1.35293,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mayo_Clinic_Proceedings",
+        "matchedText": "Mayo Clinic Proceedings",
+        "freebaseId": "/m/047gmfp",
+        "relevanceScore": 0,
+        "entityEnglishId": "Mayo Clinic Proceedings",
+        "startingPos": 109,
+        "endingPos": 132
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          9,
+          17
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9,
+          17
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          11,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          9,
+          17
+        ],
+        "propertyPositions": [
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.322,
+  "ok": true
+}

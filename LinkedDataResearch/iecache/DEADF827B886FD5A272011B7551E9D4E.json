@@ -1,0 +1,326 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.535056
+      },
+      {
+        "id": 2,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.535056
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.464944
+      },
+      {
+        "id": 4,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.464944
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.459563
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Department of Health (United Kingdom)",
+        "wikiLink": "http://en.wikipedia.org/Department_of_Health_(United_Kingdom)",
+        "score": 0.438824
+      },
+      {
+        "id": 1,
+        "label": "Glomerulus",
+        "wikiLink": "http://en.wikipedia.org/Glomerulus",
+        "score": 0.539962
+      },
+      {
+        "id": 2,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.220804
+      },
+      {
+        "id": 4,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.220804
+      },
+      {
+        "id": 5,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.220804
+      },
+      {
+        "id": 6,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.220804
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Agent",
+          "Organisation",
+          "GovernmentAgency"
+        ],
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "Department of Health (United Kingdom)",
+        "freebaseTypes": [
+          "/government/government_agency",
+          "/organization/organization"
+        ],
+        "confidenceScore": 2.01497,
+        "wikiLink": "http://en.wikipedia.org/wiki/Department_of_Health_(United_Kingdom)",
+        "matchedText": "Department of Health",
+        "freebaseId": "/m/020rx0",
+        "relevanceScore": 0.438824,
+        "entityEnglishId": "Department of Health (United Kingdom)",
+        "startingPos": 3,
+        "endingPos": 23
+      },
+      {
+        "id": 1,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Glomerulus",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 3.31655,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glomerulus",
+        "matchedText": "Glomerular",
+        "freebaseId": "/m/02_dbc",
+        "relevanceScore": 0.539962,
+        "entityEnglishId": "Glomerulus",
+        "startingPos": 35,
+        "endingPos": 45
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.5583,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "Glomerular Filtration",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.256324,
+        "entityEnglishId": "Renal function",
+        "startingPos": 35,
+        "endingPos": 56
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Filtration",
+        "freebaseTypes": [
+          "/business/industry",
+          "/law/invention",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 0.996059,
+        "wikiLink": "http://en.wikipedia.org/wiki/Filtration",
+        "matchedText": "Filtration",
+        "freebaseId": "/m/032x7",
+        "relevanceScore": 0,
+        "entityEnglishId": "Filtration",
+        "startingPos": 46,
+        "endingPos": 56
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.79403,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "Estimated Glomerular Filtration Rate",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.0237275,
+        "entityEnglishId": "Renal function",
+        "startingPos": 25,
+        "endingPos": 61
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          6,
+          7,
+          8
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.34837,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "Glomerular Filtration Rate",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.153448,
+        "entityEnglishId": "Renal function",
+        "startingPos": 35,
+        "endingPos": 61
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.01535,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "eGFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.807307,
+        "entityEnglishId": "Renal function",
+        "startingPos": 63,
+        "endingPos": 67
+      },
+      {
+        "id": 7,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "London",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/film/film_location",
+          "/location/country",
+          "/olympics/olympic_bidding_city",
+          "/location/location",
+          "/olympics/olympic_host_city",
+          "/media_common/quotation_subject",
+          "/sports/sports_team_location",
+          "/government/governmental_jurisdiction",
+          "/location/dated_location",
+          "/periodicals/newspaper_circulation_area",
+          "/rail/railway_terminus",
+          "/organization/organization_scope",
+          "/location/statistical_region",
+          "/exhibitions/exhibition_subject",
+          "/fictional_universe/fictional_setting",
+          "/symbols/name_source",
+          "/location/citytown",
+          "/location/place_with_neighborhoods",
+          "/tv/tv_location",
+          "/location/administrative_division",
+          "/travel/travel_destination",
+          "/visual_art/art_subject",
+          "/olympics/olympic_venue"
+        ],
+        "confidenceScore": 2.23495,
+        "wikiLink": "http://en.wikipedia.org/wiki/London",
+        "matchedText": "London",
+        "freebaseId": "/m/04jpl",
+        "relevanceScore": 0.0836404,
+        "entityEnglishId": "London",
+        "startingPos": 70,
+        "endingPos": 76
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "propertyPositions": [
+          10
+        ]
+      }
+    ]
+  },
+  "time": 0.311,
+  "ok": true
+}

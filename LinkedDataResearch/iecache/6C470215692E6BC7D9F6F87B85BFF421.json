@@ -1,0 +1,436 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.656614
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.570494
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.287255
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.278932
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.107721
+      },
+      {
+        "id": 1,
+        "label": "Diabetic foot",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot",
+        "score": 0.114319
+      },
+      {
+        "id": 2,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Medicine",
+        "score": 0.273315
+      },
+      {
+        "id": 3,
+        "label": "Podiatry",
+        "wikiLink": "http://en.wikipedia.org/Podiatry",
+        "score": 0.848162
+      },
+      {
+        "id": 4,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.252294
+      },
+      {
+        "id": 5,
+        "label": "Foot",
+        "wikiLink": "http://en.wikipedia.org/Category:Foot",
+        "score": 0.2219
+      },
+      {
+        "id": 6,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.190619
+      },
+      {
+        "id": 7,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.190619
+      },
+      {
+        "id": 8,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.190197
+      },
+      {
+        "id": 9,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.190197
+      },
+      {
+        "id": 10,
+        "label": "Social programs",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_programs",
+        "score": 0.1687
+      },
+      {
+        "id": 11,
+        "label": "Service industries",
+        "wikiLink": "http://en.wikipedia.org/Category:Service_industries",
+        "score": 0.1687
+      },
+      {
+        "id": 12,
+        "label": "Lower limb anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Lower_limb_anatomy",
+        "score": 0.160225
+      },
+      {
+        "id": 13,
+        "label": "Surgery",
+        "wikiLink": "http://en.wikipedia.org/Category:Surgery",
+        "score": 0.138185
+      },
+      {
+        "id": 14,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0766082
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Albert",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Albert",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 6
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.76288,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.107721,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 59,
+        "endingPos": 67
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.40722,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0.114319,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 59,
+        "endingPos": 72
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Foot",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/business/product_category",
+          "/sports/sports_equipment",
+          "/visual_art/art_subject",
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 1.14939,
+        "wikiLink": "http://en.wikipedia.org/wiki/Foot",
+        "matchedText": "foot",
+        "freebaseId": "/m/031n1",
+        "relevanceScore": 0.0263533,
+        "entityEnglishId": "Foot",
+        "startingPos": 68,
+        "endingPos": 72
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Podiatry",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study",
+          "/business/industry"
+        ],
+        "confidenceScore": 4.6249,
+        "wikiLink": "http://en.wikipedia.org/wiki/Podiatry",
+        "matchedText": "Podiatric",
+        "freebaseId": "/m/02tgxy",
+        "relevanceScore": 0.4855,
+        "entityEnglishId": "Podiatry",
+        "startingPos": 92,
+        "endingPos": 101
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Podiatry",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study",
+          "/business/industry"
+        ],
+        "confidenceScore": 4.32071,
+        "wikiLink": "http://en.wikipedia.org/wiki/Podiatry",
+        "matchedText": "Podiatric Medicine",
+        "freebaseId": "/m/02tgxy",
+        "relevanceScore": 0.362662,
+        "entityEnglishId": "Podiatry",
+        "startingPos": 92,
+        "endingPos": 110
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Medicine",
+        "freebaseTypes": [
+          "/radio/radio_subject",
+          "/education/field_of_study",
+          "/broadcast/genre",
+          "/book/periodical_subject",
+          "/media_common/literary_genre",
+          "/film/film_subject",
+          "/media_common/quotation_subject",
+          "/organization/organization_sector",
+          "/book/book_subject",
+          "/book/magazine_genre",
+          "/award/award_discipline",
+          "/media_common/media_genre"
+        ],
+        "confidenceScore": 1.92544,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medicine",
+        "matchedText": "Medicine",
+        "freebaseId": "/m/04sh3",
+        "relevanceScore": 0.273315,
+        "entityEnglishId": "Medicine",
+        "startingPos": 102,
+        "endingPos": 110
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Surgery",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/book/book_subject",
+          "/people/cause_of_death",
+          "/education/field_of_study",
+          "/medicine/medical_treatment",
+          "/tv/tv_subject",
+          "/visual_art/art_subject",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 1.34037,
+        "wikiLink": "http://en.wikipedia.org/wiki/Surgery",
+        "matchedText": "Surgery",
+        "freebaseId": "/m/0cd25",
+        "relevanceScore": 0.0304248,
+        "entityEnglishId": "Surgery",
+        "startingPos": 113,
+        "endingPos": 120
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0
+        ],
+        "propertyPositions": [
+          2,
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          20
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          0
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.323,
+  "ok": true
+}

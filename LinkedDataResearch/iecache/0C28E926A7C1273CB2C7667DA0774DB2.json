@@ -1,0 +1,410 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.521425
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.516103
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.508693
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.508693
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.508693
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.131014
+      },
+      {
+        "id": 1,
+        "label": "Major depressive disorder",
+        "wikiLink": "http://en.wikipedia.org/Major_depressive_disorder",
+        "score": 0.243803
+      },
+      {
+        "id": 2,
+        "label": "Social support",
+        "wikiLink": "http://en.wikipedia.org/Social_support",
+        "score": 0.461023
+      },
+      {
+        "id": 3,
+        "label": "Psychology",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychology",
+        "score": 0.127018
+      },
+      {
+        "id": 4,
+        "label": "Mental health",
+        "wikiLink": "http://en.wikipedia.org/Category:Mental_health",
+        "score": 0.122304
+      },
+      {
+        "id": 5,
+        "label": "Psychiatry",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychiatry",
+        "score": 0.122304
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Connell CM",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Connell CM",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Davis WK",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Davis WK",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 12,
+        "endingPos": 20
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Gallant MP",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Gallant MP",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 22,
+        "endingPos": 32
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9,
+          10,
+          11
+        ],
+        "entityId": "Sharpe PA. Impact",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Sharpe PA. Impact",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 34,
+        "endingPos": 51
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Social support",
+        "confidenceScore": 2.10308,
+        "wikiLink": "http://en.wikipedia.org/wiki/Social_support",
+        "matchedText": "social support",
+        "freebaseId": "/m/05cd4q",
+        "relevanceScore": 0.461023,
+        "entityEnglishId": "Social support",
+        "startingPos": 55,
+        "endingPos": 69
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Major depressive disorder",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.1934,
+        "wikiLink": "http://en.wikipedia.org/wiki/Major_depressive_disorder",
+        "matchedText": "depression",
+        "freebaseId": "/m/02bft",
+        "relevanceScore": 0.243803,
+        "entityEnglishId": "Major depressive disorder",
+        "startingPos": 123,
+        "endingPos": 133
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.77132,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.131014,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 152,
+        "endingPos": 160
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          30,
+          31
+        ],
+        "entityId": "Health Psycholology",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Health Psycholology",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 162,
+        "endingPos": 181
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          18
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          18
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          0,
+          1,
+          21
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          22,
+          23,
+          25
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          26,
+          27
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          22,
+          23,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27,
+          28
+        ]
+      }
+    ]
+  },
+  "time": 0.327,
+  "ok": true
+}

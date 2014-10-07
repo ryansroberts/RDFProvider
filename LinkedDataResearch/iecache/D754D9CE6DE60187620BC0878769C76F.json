@@ -1,0 +1,338 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.500873
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.262728
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.25908
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cardiovascular disease",
+        "wikiLink": "http://en.wikipedia.org/Cardiovascular_disease",
+        "score": 0.216902
+      },
+      {
+        "id": 1,
+        "label": "Rosiglitazone",
+        "wikiLink": "http://en.wikipedia.org/Rosiglitazone",
+        "score": 0.539778
+      },
+      {
+        "id": 2,
+        "label": "Medical associations",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_associations_by_country",
+        "score": 0.0399979
+      },
+      {
+        "id": 3,
+        "label": "American Medical Association",
+        "wikiLink": "http://en.wikipedia.org/Category:American_Medical_Association",
+        "score": 0.0399979
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Singh S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Singh S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Loke YK",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Loke YK",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 20
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Furberg CD",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Furberg CD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 22,
+        "endingPos": 32
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.32626,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "cardiovascular events",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.216902,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 52,
+        "endingPos": 73
+      },
+      {
+        "id": 4,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Rosiglitazone",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 6.76173,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rosiglitazone",
+        "matchedText": "rosiglitazone",
+        "freebaseId": "/m/02vn54",
+        "relevanceScore": 0.539778,
+        "entityEnglishId": "Rosiglitazone",
+        "startingPos": 79,
+        "endingPos": 92
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Meta-analysis",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.06131,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meta-analysis",
+        "matchedText": "meta-analysis",
+        "freebaseId": "/m/0gvjk",
+        "relevanceScore": 0.0936203,
+        "entityEnglishId": "Meta-analysis",
+        "startingPos": 96,
+        "endingPos": 109
+      },
+      {
+        "id": 6,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "entityId": "JAMA (journal)",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/publication",
+          "/book/journal"
+        ],
+        "confidenceScore": 2.59696,
+        "wikiLink": "http://en.wikipedia.org/wiki/JAMA_(journal)",
+        "matchedText": "Journal of the American Medical Association",
+        "freebaseId": "/m/02n872",
+        "relevanceScore": 0,
+        "entityEnglishId": "JAMA (journal)",
+        "startingPos": 129,
+        "endingPos": 172
+      },
+      {
+        "id": 7,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          29,
+          30,
+          31
+        ],
+        "entityId": "American Medical Association",
+        "freebaseTypes": [
+          "/business/employer",
+          "/book/periodical_publisher",
+          "/organization/organization",
+          "/internet/website_owner",
+          "/award/award_presenting_organization",
+          "/book/author"
+        ],
+        "confidenceScore": 3.92061,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Medical_Association",
+        "matchedText": "American Medical Association",
+        "freebaseId": "/m/01pq0r",
+        "relevanceScore": 0.0944186,
+        "entityEnglishId": "American Medical Association",
+        "startingPos": 144,
+        "endingPos": 172
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          25,
+          26,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          11,
+          12,
+          15
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          11,
+          12,
+          15
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          11,
+          12,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          18,
+          19,
+          21,
+          22
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

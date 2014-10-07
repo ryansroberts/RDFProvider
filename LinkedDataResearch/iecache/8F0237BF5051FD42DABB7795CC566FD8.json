@@ -1,0 +1,298 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.3188
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.101012
+      },
+      {
+        "id": 1,
+        "label": "Retinopathy",
+        "wikiLink": "http://en.wikipedia.org/Retinopathy",
+        "score": 0.134785
+      },
+      {
+        "id": 2,
+        "label": "Ophthalmology",
+        "wikiLink": "http://en.wikipedia.org/Category:Ophthalmology",
+        "score": 0.0731008
+      },
+      {
+        "id": 3,
+        "label": "Disorders of choroid and retina",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_choroid_and_retina",
+        "score": 0.0679717
+      },
+      {
+        "id": 4,
+        "label": "Diseases of the eye and adnexa",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_of_the_eye_and_adnexa",
+        "score": 0.0679717
+      },
+      {
+        "id": 5,
+        "label": "Visual system",
+        "wikiLink": "http://en.wikipedia.org/Category:Visual_system",
+        "score": 0.0485285
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Mota MC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Mota MC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 7
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Leite E",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Leite E",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 9,
+        "endingPos": 16
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Ruas MA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ruas MA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 18,
+        "endingPos": 25
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.955126,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.101012,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 66,
+        "endingPos": 74
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Diabetic retinopathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 4.41819,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_retinopathy",
+        "matchedText": "diabetic retinopathy",
+        "freebaseId": "/m/0fmlk",
+        "relevanceScore": 0.032363,
+        "entityEnglishId": "Diabetic retinopathy",
+        "startingPos": 66,
+        "endingPos": 86
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Retinopathy",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.1469,
+        "wikiLink": "http://en.wikipedia.org/wiki/Retinopathy",
+        "matchedText": "retinopathy",
+        "freebaseId": "/m/0fml5",
+        "relevanceScore": 0.134785,
+        "entityEnglishId": "Retinopathy",
+        "startingPos": 75,
+        "endingPos": 86
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "International Ophthalmology",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "International Ophthalmology",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 88,
+        "endingPos": 115
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Ophthalmology",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/book/book_subject",
+          "/people/profession",
+          "/medicine/medical_specialty"
+        ],
+        "confidenceScore": 2.40784,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ophthalmology",
+        "matchedText": "Ophthalmology",
+        "freebaseId": "/m/0fkdq",
+        "relevanceScore": 0.038351,
+        "entityEnglishId": "Ophthalmology",
+        "startingPos": 102,
+        "endingPos": 115
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          12,
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          11,
+          12,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "time": 0.311,
+  "ok": true
+}

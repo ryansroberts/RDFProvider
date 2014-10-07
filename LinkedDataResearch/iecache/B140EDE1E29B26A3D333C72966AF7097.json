@@ -1,0 +1,496 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.754948
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.341654
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.341654
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.341654
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.555594
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 1",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_1",
+        "score": 0.475828
+      },
+      {
+        "id": 2,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.043444
+      },
+      {
+        "id": 3,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.043444
+      },
+      {
+        "id": 4,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.043444
+      },
+      {
+        "id": 5,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "McHardy KC",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "McHardy KC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Gann ME",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Gann ME",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 12,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Ross",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ross",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 25
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Pearson DW",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Pearson DW",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 30,
+        "endingPos": 40
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Microalbuminuria",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.98141,
+        "wikiLink": "http://en.wikipedia.org/wiki/Microalbuminuria",
+        "matchedText": "microalbuminuria",
+        "freebaseId": "/m/07y7r4",
+        "relevanceScore": 0.0606021,
+        "entityEnglishId": "Microalbuminuria",
+        "startingPos": 77,
+        "endingPos": 93
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21,
+          22
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.42816,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "type 1",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.475828,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 99,
+        "endingPos": 105
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.52462,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "insulin-dependent",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.475359,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 107,
+        "endingPos": 124
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 0.9262,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0802344,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 126,
+        "endingPos": 134
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          29,
+          30,
+          31,
+          32
+        ],
+        "entityId": "Annals of Clinical Biochemistry",
+        "confidenceScore": 1.89211,
+        "wikiLink": "http://en.wikipedia.org/wiki/Annals_of_Clinical_Biochemistry",
+        "matchedText": "Annals of Clinical Biochemistry",
+        "freebaseId": "/m/0y4w281",
+        "relevanceScore": 0,
+        "entityEnglishId": "Annals of Clinical Biochemistry",
+        "startingPos": 147,
+        "endingPos": 178
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          31,
+          32
+        ],
+        "entityId": "Clinical chemistry",
+        "freebaseTypes": [
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 2.46023,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_chemistry",
+        "matchedText": "Clinical Biochemistry",
+        "freebaseId": "/m/0hdq2",
+        "relevanceScore": 0.0478367,
+        "entityEnglishId": "Clinical chemistry",
+        "startingPos": 157,
+        "endingPos": 178
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Biochemistry",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/education/field_of_study",
+          "/organization/organization_sector",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 2.09003,
+        "wikiLink": "http://en.wikipedia.org/wiki/Biochemistry",
+        "matchedText": "Biochemistry",
+        "freebaseId": "/m/0193x",
+        "relevanceScore": 0.0249041,
+        "entityEnglishId": "Biochemistry",
+        "startingPos": 166,
+        "endingPos": 178
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          32
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          29,
+          30
+        ],
+        "propertyPositions": [
+          31,
+          32,
+          33
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          9,
+          10
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          0,
+          1,
+          3,
+          4,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          0,
+          1,
+          3,
+          4,
+          6
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          12,
+          14,
+          15,
+          17
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          27
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          27
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          24,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          12,
+          14,
+          15,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          24,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          12,
+          14,
+          15,
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

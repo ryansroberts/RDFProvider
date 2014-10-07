@@ -1,0 +1,355 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.906372
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.446366
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.445066
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.4315
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cell growth",
+        "wikiLink": "http://en.wikipedia.org/Cell_growth",
+        "score": 0.428902
+      },
+      {
+        "id": 1,
+        "label": "Lovastatin",
+        "wikiLink": "http://en.wikipedia.org/Lovastatin",
+        "score": 0.345732
+      },
+      {
+        "id": 2,
+        "label": "Mesangium",
+        "wikiLink": "http://en.wikipedia.org/Mesangium",
+        "score": 0.117116
+      },
+      {
+        "id": 3,
+        "label": "Rat",
+        "wikiLink": "http://en.wikipedia.org/Rat",
+        "score": 0.143108
+      },
+      {
+        "id": 4,
+        "label": "Cell biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cell_biology",
+        "score": 0.215853
+      },
+      {
+        "id": 5,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.168609
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "ODonnell",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "ODonnell",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Kasiske BL",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kasiske BL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 17,
+        "endingPos": 27
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Kim Y",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kim Y",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 29,
+        "endingPos": 34
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Lovastatin",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 4.01381,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lovastatin",
+        "matchedText": "Lovastatin",
+        "freebaseId": "/m/02z8k9",
+        "relevanceScore": 0.345732,
+        "entityEnglishId": "Lovastatin",
+        "startingPos": 42,
+        "endingPos": 52
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Cell growth",
+        "confidenceScore": 1.81861,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cell_growth",
+        "matchedText": "proliferation",
+        "freebaseId": "/m/02qkc6",
+        "relevanceScore": 0.428902,
+        "entityEnglishId": "Cell growth",
+        "startingPos": 62,
+        "endingPos": 75
+      },
+      {
+        "id": 5,
+        "type": [
+          "Species",
+          "Eukaryote",
+          "Animal",
+          "Mammal"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Rat",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/fictional_universe/character_species",
+          "/biology/organism_classification",
+          "/biology/animal"
+        ],
+        "confidenceScore": 1.37768,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rat",
+        "matchedText": "rat",
+        "freebaseId": "/m/06lk1",
+        "relevanceScore": 0.143108,
+        "entityEnglishId": "Rat",
+        "startingPos": 79,
+        "endingPos": 82
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Mesangium",
+        "confidenceScore": 1.36566,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mesangium",
+        "matchedText": "mesangial",
+        "freebaseId": "/m/026663j",
+        "relevanceScore": 0.117116,
+        "entityEnglishId": "Mesangium",
+        "startingPos": 83,
+        "endingPos": 92
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Mesangial cell",
+        "confidenceScore": 1.83397,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mesangial_cell",
+        "matchedText": "mesangial cells",
+        "freebaseId": "",
+        "relevanceScore": 0,
+        "entityEnglishId": "Mesangial cell",
+        "startingPos": 83,
+        "endingPos": 98
+      },
+      {
+        "id": 8,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          19,
+          20,
+          21,
+          22
+        ],
+        "entityId": "Journal of Clinical Investigation",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.7601,
+        "wikiLink": "http://en.wikipedia.org/wiki/Journal_of_Clinical_Investigation",
+        "matchedText": "Journal of Clinical Investigation",
+        "freebaseId": "/m/089jjv",
+        "relevanceScore": 0,
+        "entityEnglishId": "Journal of Clinical Investigation",
+        "startingPos": 100,
+        "endingPos": 133
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              13,
+              14,
+              15,
+              16,
+              17
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          22
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21,
+          22
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          15,
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "time": 0.323,
+  "ok": true
+}

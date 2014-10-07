@@ -1,0 +1,64 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": false,
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          3,
+          4,
+          5
+        ],
+        "entityId": "ACCORD Study Announcement",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "ACCORD Study Announcement",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 36
+      },
+      {
+        "id": 1,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "www.accordtrial.org",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "www.accordtrial.org",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 37,
+        "endingPos": 56
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "time": 0.303,
+  "ok": true
+}

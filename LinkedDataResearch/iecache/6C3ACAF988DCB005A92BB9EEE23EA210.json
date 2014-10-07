@@ -1,0 +1,484 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.405184
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.400663
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.400663
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.400663
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.400663
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Disease",
+        "wikiLink": "http://en.wikipedia.org/Disease",
+        "score": 0.108195
+      },
+      {
+        "id": 1,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.377615
+      },
+      {
+        "id": 2,
+        "label": "Nephropathy",
+        "wikiLink": "http://en.wikipedia.org/Nephropathy",
+        "score": 0.456671
+      },
+      {
+        "id": 3,
+        "label": "Uric acid",
+        "wikiLink": "http://en.wikipedia.org/Uric_acid",
+        "score": 0.60953
+      },
+      {
+        "id": 4,
+        "label": "Acid-base chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Acid-base_chemistry",
+        "score": 0.0584812
+      },
+      {
+        "id": 5,
+        "label": "Acids",
+        "wikiLink": "http://en.wikipedia.org/Category:Acids",
+        "score": 0.0584812
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Chonchol M",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Chonchol M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Shlipak MG",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Shlipak MG",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 26
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Katz R",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Katz R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 28,
+        "endingPos": 34
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Uric acid",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 1.69866,
+        "wikiLink": "http://en.wikipedia.org/wiki/Uric_acid",
+        "matchedText": "uric",
+        "freebaseId": "/m/07syk",
+        "relevanceScore": 0.304765,
+        "entityEnglishId": "Uric acid",
+        "startingPos": 58,
+        "endingPos": 62
+      },
+      {
+        "id": 4,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Uric acid",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 7.10389,
+        "wikiLink": "http://en.wikipedia.org/wiki/Uric_acid",
+        "matchedText": "uric acid",
+        "freebaseId": "/m/07syk",
+        "relevanceScore": 0.304765,
+        "entityEnglishId": "Uric acid",
+        "startingPos": 58,
+        "endingPos": 67
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Acid",
+        "freebaseTypes": [
+          "/chemistry/chemical_classification"
+        ],
+        "confidenceScore": 1.07838,
+        "wikiLink": "http://en.wikipedia.org/wiki/Acid",
+        "matchedText": "acid",
+        "freebaseId": "/m/0hqs",
+        "relevanceScore": 0,
+        "entityEnglishId": "Acid",
+        "startingPos": 63,
+        "endingPos": 67
+      },
+      {
+        "id": 6,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.36764,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.188808,
+        "entityEnglishId": "Kidney",
+        "startingPos": 88,
+        "endingPos": 94
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.61881,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephropathy",
+        "matchedText": "kidney disease",
+        "freebaseId": "/m/02z63k",
+        "relevanceScore": 0.228335,
+        "entityEnglishId": "Nephropathy",
+        "startingPos": 88,
+        "endingPos": 102
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.36075,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.0540975,
+        "entityEnglishId": "Disease",
+        "startingPos": 95,
+        "endingPos": 102
+      },
+      {
+        "id": 9,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.55394,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Kidney",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.188808,
+        "entityEnglishId": "Kidney",
+        "startingPos": 124,
+        "endingPos": 130
+      },
+      {
+        "id": 10,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "entityId": "American Journal of Kidney Diseases",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.43842,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Journal_of_Kidney_Diseases",
+        "matchedText": "American Journal of Kidney Diseases",
+        "freebaseId": "/m/05f7xzp",
+        "relevanceScore": 0,
+        "entityEnglishId": "American Journal of Kidney Diseases",
+        "startingPos": 104,
+        "endingPos": 139
+      },
+      {
+        "id": 11,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "Nephropathy",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.93083,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephropathy",
+        "matchedText": "Kidney Diseases",
+        "freebaseId": "/m/02z63k",
+        "relevanceScore": 0.228335,
+        "entityEnglishId": "Nephropathy",
+        "startingPos": 124,
+        "endingPos": 139
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.31558,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "Diseases",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.0540975,
+        "entityEnglishId": "Disease",
+        "startingPos": 131,
+        "endingPos": 139
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          21,
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          14
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          15
+        ],
+        "propertyPositions": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "time": 0.321,
+  "ok": true
+}

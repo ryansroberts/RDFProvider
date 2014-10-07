@@ -1,0 +1,408 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.497676
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.280648
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.241373
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.217028
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.217028
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Duloxetine",
+        "wikiLink": "http://en.wikipedia.org/Duloxetine",
+        "score": 0.410941
+      },
+      {
+        "id": 1,
+        "label": "Neurology",
+        "wikiLink": "http://en.wikipedia.org/Neurology",
+        "score": 0.117332
+      },
+      {
+        "id": 2,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Pain",
+        "score": 0.44299
+      },
+      {
+        "id": 3,
+        "label": "Peripheral neuropathy",
+        "wikiLink": "http://en.wikipedia.org/Peripheral_neuropathy",
+        "score": 0.507257
+      },
+      {
+        "id": 4,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0495892
+      },
+      {
+        "id": 5,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0495892
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Wernicke JF",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wernicke JF",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 15
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Pritchett YL",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Pritchett YL",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 17,
+        "endingPos": 29
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "DSouza DN",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "DSouza DN",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 31,
+        "endingPos": 40
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          12,
+          13,
+          14
+        ],
+        "entityId": "Randomized controlled trial",
+        "freebaseTypes": [
+          "/law/invention"
+        ],
+        "confidenceScore": 5.9649,
+        "wikiLink": "http://en.wikipedia.org/wiki/Randomized_controlled_trial",
+        "matchedText": "randomized controlled trial",
+        "freebaseId": "/m/015p9x",
+        "relevanceScore": 0.0314384,
+        "entityEnglishId": "Randomized controlled trial",
+        "startingPos": 50,
+        "endingPos": 77
+      },
+      {
+        "id": 4,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Duloxetine",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 6.35075,
+        "wikiLink": "http://en.wikipedia.org/wiki/Duloxetine",
+        "matchedText": "duloxetine",
+        "freebaseId": "/m/02qr8l",
+        "relevanceScore": 0.410941,
+        "entityEnglishId": "Duloxetine",
+        "startingPos": 81,
+        "endingPos": 91
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Peripheral neuropathy",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.54786,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peripheral_neuropathy",
+        "matchedText": "neuropathic",
+        "freebaseId": "/m/02w1fx",
+        "relevanceScore": 0.507257,
+        "entityEnglishId": "Peripheral neuropathy",
+        "startingPos": 115,
+        "endingPos": 126
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.28303,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "neuropathic pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.172941,
+        "entityEnglishId": "Pain",
+        "startingPos": 115,
+        "endingPos": 131
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.44299,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.27005,
+        "entityEnglishId": "Pain",
+        "startingPos": 127,
+        "endingPos": 131
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Neurology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/medicine/physician",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.6461,
+        "wikiLink": "http://en.wikipedia.org/wiki/Neurology",
+        "matchedText": "Neurology",
+        "freebaseId": "/m/05b1j",
+        "relevanceScore": 0.117332,
+        "entityEnglishId": "Neurology",
+        "startingPos": 133,
+        "endingPos": 142
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          11,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          13,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          11,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          8,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

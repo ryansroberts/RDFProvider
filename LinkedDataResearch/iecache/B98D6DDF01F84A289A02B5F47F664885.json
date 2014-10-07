@@ -1,0 +1,155 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 1
+      },
+      {
+        "id": 5,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Committee",
+        "wikiLink": "http://en.wikipedia.org/Committee",
+        "score": 0.609331
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Committee",
+        "confidenceScore": 1.20219,
+        "wikiLink": "http://en.wikipedia.org/wiki/Committee",
+        "matchedText": "Executive Committee",
+        "freebaseId": "/m/014vp3",
+        "relevanceScore": 0.111608,
+        "entityEnglishId": "Committee",
+        "startingPos": 20,
+        "endingPos": 39
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Committee",
+        "confidenceScore": 1.13008,
+        "wikiLink": "http://en.wikipedia.org/wiki/Committee",
+        "matchedText": "Committee",
+        "freebaseId": "/m/014vp3",
+        "relevanceScore": 0.248861,
+        "entityEnglishId": "Committee",
+        "startingPos": 30,
+        "endingPos": 39
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          8,
+          9,
+          10
+        ],
+        "entityId": "Safety Monitoring Committee",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Safety Monitoring Committee",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 53,
+        "endingPos": 80
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Committee",
+        "confidenceScore": 1.13008,
+        "wikiLink": "http://en.wikipedia.org/wiki/Committee",
+        "matchedText": "Committee",
+        "freebaseId": "/m/014vp3",
+        "relevanceScore": 0.248861,
+        "entityEnglishId": "Committee",
+        "startingPos": 71,
+        "endingPos": 80
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          13
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          4
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          2,
+          4
+        ],
+        "propertyPositions": [
+          3
+        ]
+      }
+    ]
+  },
+  "time": 0.312,
+  "ok": true
+}

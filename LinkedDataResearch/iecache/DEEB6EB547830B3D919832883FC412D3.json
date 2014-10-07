@@ -1,0 +1,285 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.328561
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.328561
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "American Society of Nephrology",
+        "wikiLink": "http://en.wikipedia.org/American_Society_of_Nephrology",
+        "score": 0.153468
+      },
+      {
+        "id": 1,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Nephrology",
+        "score": 0.136709
+      },
+      {
+        "id": 2,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.578287
+      },
+      {
+        "id": 3,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.0449533
+      },
+      {
+        "id": 4,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0449533
+      },
+      {
+        "id": 5,
+        "label": "Cell biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Cell_biology",
+        "score": 0.0423034
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Bakker SJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bakker SJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 16,
+        "endingPos": 25
+      },
+      {
+        "id": 1,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Serum albumin",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 1.42486,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_albumin",
+        "matchedText": "albumin",
+        "freebaseId": "/m/051h4z",
+        "relevanceScore": 0,
+        "entityEnglishId": "Serum albumin",
+        "startingPos": 77,
+        "endingPos": 84
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Excretion",
+        "confidenceScore": 1.70787,
+        "wikiLink": "http://en.wikipedia.org/wiki/Excretion",
+        "matchedText": "excretion",
+        "freebaseId": "/m/01lvt1",
+        "relevanceScore": 0,
+        "entityEnglishId": "Excretion",
+        "startingPos": 85,
+        "endingPos": 94
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.33283,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "cardiovascular events",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 99,
+        "endingPos": 120
+      },
+      {
+        "id": 4,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Non-ProfitOrganisation"
+        ],
+        "matchingTokens": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "entityId": "American Society of Nephrology",
+        "freebaseTypes": [
+          "/organization/non_profit_organization",
+          "/organization/membership_organization",
+          "/organization/organization",
+          "/business/employer"
+        ],
+        "confidenceScore": 2.23362,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Society_of_Nephrology",
+        "matchedText": "Journal of the American Society of Nephrology",
+        "freebaseId": "/m/04n1tbm",
+        "relevanceScore": 0.0446339,
+        "entityEnglishId": "American Society of Nephrology",
+        "startingPos": 122,
+        "endingPos": 167
+      },
+      {
+        "id": 5,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Non-ProfitOrganisation"
+        ],
+        "matchingTokens": [
+          25,
+          26,
+          27,
+          28
+        ],
+        "entityId": "American Society of Nephrology",
+        "freebaseTypes": [
+          "/organization/non_profit_organization",
+          "/organization/membership_organization",
+          "/organization/organization",
+          "/business/employer"
+        ],
+        "confidenceScore": 4.04151,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Society_of_Nephrology",
+        "matchedText": "American Society of Nephrology",
+        "freebaseId": "/m/04n1tbm",
+        "relevanceScore": 0.108834,
+        "entityEnglishId": "American Society of Nephrology",
+        "startingPos": 137,
+        "endingPos": 167
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Nephrology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 3.38643,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nephrology",
+        "matchedText": "Nephrology",
+        "freebaseId": "/m/05jd4",
+        "relevanceScore": 0.136709,
+        "entityEnglishId": "Nephrology",
+        "startingPos": 157,
+        "endingPos": 167
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          7,
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26,
+          27,
+          28
+        ]
+      }
+    ]
+  },
+  "time": 0.32,
+  "ok": true
+}

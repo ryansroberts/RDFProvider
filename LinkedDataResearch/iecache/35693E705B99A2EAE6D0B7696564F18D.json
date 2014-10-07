@@ -1,0 +1,356 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.988087
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.361224
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.355105
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.343727
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.309646
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chronic kidney disease",
+        "wikiLink": "http://en.wikipedia.org/Chronic_kidney_disease",
+        "score": 0.695072
+      },
+      {
+        "id": 1,
+        "label": "Clinical chemistry",
+        "wikiLink": "http://en.wikipedia.org/Clinical_chemistry",
+        "score": 0.275167
+      },
+      {
+        "id": 2,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.223926
+      },
+      {
+        "id": 3,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 0.143932
+      },
+      {
+        "id": 4,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.420189
+      },
+      {
+        "id": 5,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.162117
+      },
+      {
+        "id": 6,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.153361
+      },
+      {
+        "id": 7,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.148193
+      },
+      {
+        "id": 8,
+        "label": "Animal anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_anatomy",
+        "score": 0.114821
+      },
+      {
+        "id": 9,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.0255256
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Serum (blood)",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 2.04157,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_(blood)",
+        "matchedText": "serum",
+        "freebaseId": "/m/07s8fsr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Serum (blood)",
+        "startingPos": 61,
+        "endingPos": 66
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.54158,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.143932,
+        "entityEnglishId": "Patient",
+        "startingPos": 70,
+        "endingPos": 78
+      },
+      {
+        "id": 2,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.28582,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.223926,
+        "entityEnglishId": "Kidney",
+        "startingPos": 92,
+        "endingPos": 97
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15,
+          16
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 5.9368,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "chronic renal failure",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.347536,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 84,
+        "endingPos": 105
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15,
+          16
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.12648,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "renal failure",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.347536,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 92,
+        "endingPos": 105
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Clinical chemistry",
+        "freebaseTypes": [
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 4.06812,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clinical_chemistry",
+        "matchedText": "Clinical Chemistry",
+        "freebaseId": "/m/0hdq2",
+        "relevanceScore": 0.275167,
+        "entityEnglishId": "Clinical chemistry",
+        "startingPos": 107,
+        "endingPos": 125
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Chemistry",
+        "freebaseTypes": [
+          "/book/periodical_subject",
+          "/education/field_of_study",
+          "/media_common/literary_genre",
+          "/organization/organization_sector",
+          "/people/professional_field",
+          "/award/award_discipline",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.07117,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chemistry",
+        "matchedText": "Chemistry",
+        "freebaseId": "/m/01lj9",
+        "relevanceScore": 0.0338914,
+        "entityEnglishId": "Chemistry",
+        "startingPos": 116,
+        "endingPos": 125
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          6,
+          13
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          5,
+          6,
+          13
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          16
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          5,
+          6,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "time": 0.321,
+  "ok": true
+}

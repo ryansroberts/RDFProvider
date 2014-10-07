@@ -1,0 +1,410 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.491823
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.430985
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.430865
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.230153
+      },
+      {
+        "id": 5,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.223586
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.204853
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.739905
+      },
+      {
+        "id": 2,
+        "label": "Dose (biochemistry)",
+        "wikiLink": "http://en.wikipedia.org/Dose_(biochemistry)",
+        "score": 0.141612
+      },
+      {
+        "id": 3,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Medical_research",
+        "score": 0.102766
+      },
+      {
+        "id": 4,
+        "label": "Metformin",
+        "wikiLink": "http://en.wikipedia.org/Metformin",
+        "score": 0.910724
+      },
+      {
+        "id": 5,
+        "label": "Rosiglitazone",
+        "wikiLink": "http://en.wikipedia.org/Rosiglitazone",
+        "score": 0.444176
+      },
+      {
+        "id": 6,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.254053
+      },
+      {
+        "id": 7,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.201642
+      },
+      {
+        "id": 8,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.15595
+      },
+      {
+        "id": 9,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0589494
+      },
+      {
+        "id": 10,
+        "label": "Research",
+        "wikiLink": "http://en.wikipedia.org/Category:Research_by_field",
+        "score": 0.0544675
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Goldstein BJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Goldstein BJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 27
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Rosenstock J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Rosenstock J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 29,
+        "endingPos": 41
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Rosiglitazone",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.7975,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rosiglitazone",
+        "matchedText": "rosiglitazone",
+        "freebaseId": "/m/02vn54",
+        "relevanceScore": 0.444176,
+        "entityEnglishId": "Rosiglitazone",
+        "startingPos": 60,
+        "endingPos": 73
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 10.3661,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.455362,
+        "entityEnglishId": "Metformin",
+        "startingPos": 103,
+        "endingPos": 112
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Dose (biochemistry)",
+        "confidenceScore": 1.45506,
+        "wikiLink": "http://en.wikipedia.org/wiki/Dose_(biochemistry)",
+        "matchedText": "dose",
+        "freebaseId": "/m/02qdgt_",
+        "relevanceScore": 0.141612,
+        "entityEnglishId": "Dose (biochemistry)",
+        "startingPos": 127,
+        "endingPos": 131
+      },
+      {
+        "id": 5,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 10.3661,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.455362,
+        "entityEnglishId": "Metformin",
+        "startingPos": 146,
+        "endingPos": 155
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          27,
+          28
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.17521,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.559961,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 159,
+        "endingPos": 165
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          27,
+          28,
+          29
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.12655,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "type 2 diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.179944,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 159,
+        "endingPos": 174
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.88212,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.204853,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 166,
+        "endingPos": 174
+      },
+      {
+        "id": 9,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          32,
+          33
+        ],
+        "entityId": "EMPIRE Study",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "EMPIRE Study",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 180,
+        "endingPos": 192
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          36,
+          37
+        ],
+        "entityId": "Medical research",
+        "freebaseTypes": [
+          "/people/profession",
+          "/education/field_of_study",
+          "/organization/organization_sector",
+          "/book/book_subject",
+          "/government/government_service",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 1.27749,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medical_research",
+        "matchedText": "Medical Research",
+        "freebaseId": "/m/06ywtl",
+        "relevanceScore": 0.102766,
+        "entityEnglishId": "Medical research",
+        "startingPos": 202,
+        "endingPos": 218
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Research",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/education/field_of_study",
+          "/education/school_category",
+          "/book/book_subject",
+          "/architecture/building_function",
+          "/book/periodical_subject",
+          "/business/industry",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/award/award_discipline"
+        ],
+        "confidenceScore": 0.997358,
+        "wikiLink": "http://en.wikipedia.org/wiki/Research",
+        "matchedText": "Research",
+        "freebaseId": "/m/06cs1",
+        "relevanceScore": 0.069075,
+        "entityEnglishId": "Research",
+        "startingPos": 210,
+        "endingPos": 218
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          36,
+          37
+        ],
+        "propertyPositions": [
+          35
+        ]
+      }
+    ]
+  },
+  "time": 0.322,
+  "ok": true
+}

@@ -1,0 +1,181 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.519027
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.519027
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.519027
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.519027
+      },
+      {
+        "id": 5,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.519027
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Lithner FG",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lithner FG",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 10
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.85812,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 22,
+        "endingPos": 35
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Epidemiology",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/education/field_of_study",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.70357,
+        "wikiLink": "http://en.wikipedia.org/wiki/Epidemiology",
+        "matchedText": "epidemiology",
+        "freebaseId": "/m/0hnfc",
+        "relevanceScore": 0,
+        "entityEnglishId": "Epidemiology",
+        "startingPos": 37,
+        "endingPos": 49
+      },
+      {
+        "id": 3,
+        "type": [
+          "Agent",
+          "Organisation",
+          "MilitaryUnit"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Israel Defense Forces",
+        "freebaseTypes": [
+          "/organization/organization_founder",
+          "/military/armed_force",
+          "/organization/organization",
+          "/business/employer",
+          "/book/periodical_publisher",
+          "/broadcast/producer"
+        ],
+        "confidenceScore": 2.05376,
+        "wikiLink": "http://en.wikipedia.org/wiki/Israel_Defense_Forces",
+        "matchedText": "IDF",
+        "freebaseId": "/m/09s93",
+        "relevanceScore": 0.0299867,
+        "entityEnglishId": "Israel Defense Forces",
+        "startingPos": 71,
+        "endingPos": 74
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "IDF Bulletin",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "IDF Bulletin",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 71,
+        "endingPos": 83
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5,
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      }
+    ]
+  },
+  "time": 0.31,
+  "ok": true
+}

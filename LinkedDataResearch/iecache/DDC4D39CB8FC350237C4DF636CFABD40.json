@@ -1,0 +1,540 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.263386
+      },
+      {
+        "id": 2,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.256686
+      },
+      {
+        "id": 3,
+        "label": "Violence",
+        "wikiLink": "http://en.wikipedia.org/Category:Violence",
+        "score": 0.249744
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.241597
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.241018
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Amputation",
+        "wikiLink": "http://en.wikipedia.org/Amputation",
+        "score": 0.290023
+      },
+      {
+        "id": 1,
+        "label": "Diabetic foot",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot",
+        "score": 0.108015
+      },
+      {
+        "id": 2,
+        "label": "Diabetic foot ulcer",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot_ulcer",
+        "score": 0.59974
+      },
+      {
+        "id": 3,
+        "label": "Internal medicine",
+        "wikiLink": "http://en.wikipedia.org/Internal_medicine",
+        "score": 0.113186
+      },
+      {
+        "id": 4,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Medicine",
+        "score": 0.123013
+      },
+      {
+        "id": 5,
+        "label": "Ulcer (dermatology)",
+        "wikiLink": "http://en.wikipedia.org/Ulcer_(dermatology)",
+        "score": 0.270183
+      },
+      {
+        "id": 6,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.370569
+      },
+      {
+        "id": 7,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.145224
+      },
+      {
+        "id": 8,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.145224
+      },
+      {
+        "id": 9,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.145224
+      },
+      {
+        "id": 10,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0501984
+      },
+      {
+        "id": 11,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0501984
+      },
+      {
+        "id": 12,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0501984
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Ragnarson",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Ragnarson",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 24
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Persson",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Persson",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 33,
+        "endingPos": 40
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Larsson",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Larsson",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 48,
+        "endingPos": 55
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.86986,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0962054,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 68,
+        "endingPos": 76
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          21,
+          22
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.1188,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "Diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0.108015,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 68,
+        "endingPos": 81
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          22,
+          23
+        ],
+        "entityId": "Diabetic foot ulcer",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.46855,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot_ulcer",
+        "matchedText": "foot ulcers",
+        "freebaseId": "/m/064p1q4",
+        "relevanceScore": 0.59974,
+        "entityEnglishId": "Diabetic foot ulcer",
+        "startingPos": 77,
+        "endingPos": 88
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Ulcer (dermatology)",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.04461,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ulcer_(dermatology)",
+        "matchedText": "ulcers",
+        "freebaseId": "/m/01klgg",
+        "relevanceScore": 0.270183,
+        "entityEnglishId": "Ulcer (dermatology)",
+        "startingPos": 82,
+        "endingPos": 88
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "Amputation",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 3.33918,
+        "wikiLink": "http://en.wikipedia.org/wiki/Amputation",
+        "matchedText": "amputation",
+        "freebaseId": "/m/012r6",
+        "relevanceScore": 0.290023,
+        "entityEnglishId": "Amputation",
+        "startingPos": 178,
+        "endingPos": 188
+      },
+      {
+        "id": 8,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          40,
+          41,
+          42,
+          43
+        ],
+        "entityId": "Jounral of Internal Medicine",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Jounral of Internal Medicine",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 190,
+        "endingPos": 218
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          42,
+          43
+        ],
+        "entityId": "Internal medicine",
+        "freebaseTypes": [
+          "/medicine/medical_specialty",
+          "/book/book_subject",
+          "/education/field_of_study"
+        ],
+        "confidenceScore": 1.98755,
+        "wikiLink": "http://en.wikipedia.org/wiki/Internal_medicine",
+        "matchedText": "Internal Medicine",
+        "freebaseId": "/m/01d3n8",
+        "relevanceScore": 0.113186,
+        "entityEnglishId": "Internal medicine",
+        "startingPos": 201,
+        "endingPos": 218
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          43
+        ],
+        "entityId": "Medicine",
+        "freebaseTypes": [
+          "/radio/radio_subject",
+          "/education/field_of_study",
+          "/broadcast/genre",
+          "/book/periodical_subject",
+          "/media_common/literary_genre",
+          "/film/film_subject",
+          "/media_common/quotation_subject",
+          "/organization/organization_sector",
+          "/book/book_subject",
+          "/book/magazine_genre",
+          "/award/award_discipline",
+          "/media_common/media_genre"
+        ],
+        "confidenceScore": 1.55015,
+        "wikiLink": "http://en.wikipedia.org/wiki/Medicine",
+        "matchedText": "Medicine",
+        "freebaseId": "/m/04sh3",
+        "relevanceScore": 0.123013,
+        "entityEnglishId": "Medicine",
+        "startingPos": 210,
+        "endingPos": 218
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          29,
+          31,
+          32,
+          36,
+          37
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          40,
+          41
+        ],
+        "propertyPositions": [
+          42,
+          43
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          38
+        ],
+        "propertyPositions": [
+          40,
+          41,
+          42,
+          43
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          38
+        ],
+        "propertyPositions": [
+          45
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          34
+        ],
+        "propertyPositions": [
+          33
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          29,
+          31,
+          32,
+          36,
+          37
+        ],
+        "propertyPositions": [
+          33,
+          34
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          2
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          9
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          2
+        ],
+        "propertyPositions": [
+          9,
+          11
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          0
+        ],
+        "propertyPositions": [
+          2,
+          4,
+          6,
+          7,
+          9,
+          11,
+          13,
+          14,
+          16,
+          18
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          22,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          25,
+          27
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          22,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          0
+        ],
+        "propertyPositions": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      }
+    ]
+  },
+  "time": 0.324,
+  "ok": true
+}

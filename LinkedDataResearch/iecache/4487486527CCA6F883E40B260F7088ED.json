@@ -1,0 +1,469 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.955637
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.493233
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.464913
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.447223
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.443933
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.187168
+      },
+      {
+        "id": 1,
+        "label": "Diabetic foot",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot",
+        "score": 0.156312
+      },
+      {
+        "id": 2,
+        "label": "Diabetic foot ulcer",
+        "wikiLink": "http://en.wikipedia.org/Diabetic_foot_ulcer",
+        "score": 0.534052
+      },
+      {
+        "id": 3,
+        "label": "Health economics",
+        "wikiLink": "http://en.wikipedia.org/Health_economics",
+        "score": 0.291594
+      },
+      {
+        "id": 4,
+        "label": "Peptic ulcer",
+        "wikiLink": "http://en.wikipedia.org/Peptic_ulcer",
+        "score": 0.118568
+      },
+      {
+        "id": 5,
+        "label": "University of York",
+        "wikiLink": "http://en.wikipedia.org/University_of_York",
+        "score": 0.287868
+      },
+      {
+        "id": 6,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.197392
+      },
+      {
+        "id": 7,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.197392
+      },
+      {
+        "id": 8,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.197392
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Agent",
+          "Organisation",
+          "EducationalInstitution",
+          "University"
+        ],
+        "matchingTokens": [
+          0,
+          1,
+          2
+        ],
+        "entityId": "University of York",
+        "freebaseTypes": [
+          "/education/educational_institution_campus",
+          "/broadcast/radio_station_owner",
+          "/education/educational_institution",
+          "/location/location",
+          "/education/university",
+          "/organization/organization_founder",
+          "/business/employer",
+          "/organization/endowed_organization",
+          "/organization/organization",
+          "/award/ranked_item"
+        ],
+        "confidenceScore": 4.55734,
+        "wikiLink": "http://en.wikipedia.org/wiki/University_of_York",
+        "matchedText": "University of York",
+        "freebaseId": "/m/014d4v",
+        "relevanceScore": 0.287868,
+        "entityEnglishId": "University of York",
+        "startingPos": 0,
+        "endingPos": 18
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "entityId": "University of York Health",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "University of York Health",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 25
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Health economics",
+        "confidenceScore": 3.13445,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_economics",
+        "matchedText": "Health Economics",
+        "freebaseId": "/m/01ncd3",
+        "relevanceScore": 0.291594,
+        "entityEnglishId": "Health economics",
+        "startingPos": 19,
+        "endingPos": 35
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Economics",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/media_common/media_genre",
+          "/media_common/literary_genre",
+          "/education/school_category",
+          "/organization/organization_sector",
+          "/book/periodical_subject",
+          "/radio/radio_subject",
+          "/education/department",
+          "/internet/website_category",
+          "/award/award_discipline",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.42847,
+        "wikiLink": "http://en.wikipedia.org/wiki/Economics",
+        "matchedText": "Economics",
+        "freebaseId": "/m/02j62",
+        "relevanceScore": 0.051641,
+        "entityEnglishId": "Economics",
+        "startingPos": 26,
+        "endingPos": 35
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.26111,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.187168,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 120,
+        "endingPos": 128
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Diabetic foot",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 2.30509,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot",
+        "matchedText": "diabetic foot",
+        "freebaseId": "/m/0bv_67",
+        "relevanceScore": 0.156312,
+        "entityEnglishId": "Diabetic foot",
+        "startingPos": 120,
+        "endingPos": 133
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Diabetic foot ulcer",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.18909,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetic_foot_ulcer",
+        "matchedText": "foot ulcers",
+        "freebaseId": "/m/064p1q4",
+        "relevanceScore": 0.534052,
+        "entityEnglishId": "Diabetic foot ulcer",
+        "startingPos": 129,
+        "endingPos": 140
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Peptic ulcer",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/symptom",
+          "/medicine/risk_factor",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.14851,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peptic_ulcer",
+        "matchedText": "ulcers",
+        "freebaseId": "/m/0h3h4",
+        "relevanceScore": 0.118568,
+        "entityEnglishId": "Peptic ulcer",
+        "startingPos": 134,
+        "endingPos": 140
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.69918,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.0939361,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 148,
+        "endingPos": 150
+      },
+      {
+        "id": 9,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "York",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "York",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 153,
+        "endingPos": 157
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          13
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          14,
+          15,
+          16,
+          20
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          14,
+          15,
+          16,
+          20
+        ],
+        "propertyPositions": [
+          21,
+          22
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          7,
+          8,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

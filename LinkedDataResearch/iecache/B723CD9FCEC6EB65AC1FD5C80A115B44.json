@@ -1,0 +1,323 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.993467
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.980794
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.594672
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.524759
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.514822
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.147356
+      },
+      {
+        "id": 1,
+        "label": "Economics",
+        "wikiLink": "http://en.wikipedia.org/Economics",
+        "score": 0.240827
+      },
+      {
+        "id": 2,
+        "label": "Health economics",
+        "wikiLink": "http://en.wikipedia.org/Health_economics",
+        "score": 0.238462
+      },
+      {
+        "id": 3,
+        "label": "Utility",
+        "wikiLink": "http://en.wikipedia.org/Utility",
+        "score": 0.198106
+      },
+      {
+        "id": 4,
+        "label": "Socioeconomics",
+        "wikiLink": "http://en.wikipedia.org/Category:Socioeconomics",
+        "score": 0.125837
+      },
+      {
+        "id": 5,
+        "label": "Epistemology of science",
+        "wikiLink": "http://en.wikipedia.org/Category:Epistemology_of_science",
+        "score": 0.110384
+      },
+      {
+        "id": 6,
+        "label": "Economic theories",
+        "wikiLink": "http://en.wikipedia.org/Category:Economic_theories",
+        "score": 0.110384
+      },
+      {
+        "id": 7,
+        "label": "Health, education, and welfare economics",
+        "wikiLink": "http://en.wikipedia.org/Category:Health,_education,_and_welfare_economics",
+        "score": 0.108805
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Bagust A",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bagust A",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Beale S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Beale S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 17
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Utility",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.20368,
+        "wikiLink": "http://en.wikipedia.org/wiki/Utility",
+        "matchedText": "utility",
+        "freebaseId": "/m/0cc73",
+        "relevanceScore": 0.198106,
+        "entityEnglishId": "Utility",
+        "startingPos": 58,
+        "endingPos": 65
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.14624,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.147356,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 77,
+        "endingPos": 85
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Health economics",
+        "confidenceScore": 2.07364,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_economics",
+        "matchedText": "Health Economics",
+        "freebaseId": "/m/01ncd3",
+        "relevanceScore": 0.238462,
+        "entityEnglishId": "Health economics",
+        "startingPos": 118,
+        "endingPos": 134
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Economics",
+        "freebaseTypes": [
+          "/education/field_of_study",
+          "/media_common/media_genre",
+          "/media_common/literary_genre",
+          "/education/school_category",
+          "/organization/organization_sector",
+          "/book/periodical_subject",
+          "/radio/radio_subject",
+          "/education/department",
+          "/internet/website_category",
+          "/award/award_discipline",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.80718,
+        "wikiLink": "http://en.wikipedia.org/wiki/Economics",
+        "matchedText": "Economics",
+        "freebaseId": "/m/02j62",
+        "relevanceScore": 0.240827,
+        "entityEnglishId": "Economics",
+        "startingPos": 125,
+        "endingPos": 134
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              3,
+              4,
+              6
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              10,
+              11,
+              12,
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              3,
+              4,
+              6
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

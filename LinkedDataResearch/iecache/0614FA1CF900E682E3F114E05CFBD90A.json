@@ -1,0 +1,99 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Currency",
+        "wikiLink": "http://en.wikipedia.org/Currency",
+        "score": 0.17335
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "International",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "International",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 17
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Currency",
+        "freebaseTypes": [
+          "/measurement_unit/dimension",
+          "/book/book_subject",
+          "/interests/collection_category"
+        ],
+        "confidenceScore": 2.25195,
+        "wikiLink": "http://en.wikipedia.org/wiki/Currency",
+        "matchedText": "currency",
+        "freebaseId": "/m/01q7l",
+        "relevanceScore": 0.17335,
+        "entityEnglishId": "Currency",
+        "startingPos": 18,
+        "endingPos": 26
+      },
+      {
+        "id": 2,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "Newspaper"
+        ],
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Financial Times",
+        "freebaseTypes": [
+          "/award/ranked_list_compiler",
+          "/book/newspaper",
+          "/book/periodical"
+        ],
+        "confidenceScore": 1.94967,
+        "wikiLink": "http://en.wikipedia.org/wiki/Financial_Times",
+        "matchedText": "Financial Times",
+        "freebaseId": "/m/0108kc",
+        "relevanceScore": 0.0769511,
+        "entityEnglishId": "Financial Times",
+        "startingPos": 50,
+        "endingPos": 65
+      }
+    ]
+  },
+  "time": 0.306,
+  "ok": true
+}

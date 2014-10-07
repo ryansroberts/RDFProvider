@@ -1,0 +1,717 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.630968
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.593433
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.569849
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.401486
+      },
+      {
+        "id": 5,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.312731
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.684338
+      },
+      {
+        "id": 1,
+        "label": "Glomerulus",
+        "wikiLink": "http://en.wikipedia.org/Glomerulus",
+        "score": 0.400464
+      },
+      {
+        "id": 2,
+        "label": "Mortality rate",
+        "wikiLink": "http://en.wikipedia.org/Mortality_rate",
+        "score": 0.489413
+      },
+      {
+        "id": 3,
+        "label": "Pharmaceutical drug",
+        "wikiLink": "http://en.wikipedia.org/Pharmaceutical_drug",
+        "score": 0.13074
+      },
+      {
+        "id": 4,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 1
+      },
+      {
+        "id": 5,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.148849
+      },
+      {
+        "id": 6,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.132872
+      },
+      {
+        "id": 7,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.0880397
+      },
+      {
+        "id": 8,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0863306
+      },
+      {
+        "id": 9,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.0857474
+      },
+      {
+        "id": 10,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.0465765
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Nag S",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Nag S",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Bilous R",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Bilous R",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 11,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Kelly W",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kelly  W",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 21,
+        "endingPos": 29
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Circulatory system",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.33148,
+        "wikiLink": "http://en.wikipedia.org/wiki/Circulatory_system",
+        "matchedText": "cardiovascular",
+        "freebaseId": "/m/0frx0",
+        "relevanceScore": 0.0586872,
+        "entityEnglishId": "Circulatory system",
+        "startingPos": 52,
+        "endingPos": 66
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Mortality rate",
+        "confidenceScore": 1.94936,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mortality_rate",
+        "matchedText": "mortality",
+        "freebaseId": "/m/01b4_q",
+        "relevanceScore": 0.244707,
+        "entityEnglishId": "Mortality rate",
+        "startingPos": 67,
+        "endingPos": 76
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.31322,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.228113,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 80,
+        "endingPos": 88
+      },
+      {
+        "id": 6,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Glomerulus",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 2.75626,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glomerulus",
+        "matchedText": "glomerular",
+        "freebaseId": "/m/02_dbc",
+        "relevanceScore": 0.400464,
+        "entityEnglishId": "Glomerulus",
+        "startingPos": 146,
+        "endingPos": 156
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          23,
+          24
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.8597,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "glomerular filtration",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.340113,
+        "entityEnglishId": "Renal function",
+        "startingPos": 146,
+        "endingPos": 167
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Filtration",
+        "freebaseTypes": [
+          "/business/industry",
+          "/law/invention",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.26352,
+        "wikiLink": "http://en.wikipedia.org/wiki/Filtration",
+        "matchedText": "filtration",
+        "freebaseId": "/m/032x7",
+        "relevanceScore": 0.0611766,
+        "entityEnglishId": "Filtration",
+        "startingPos": 157,
+        "endingPos": 167
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          22,
+          23,
+          24,
+          25
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.34393,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "estimated glomerular filtration rate",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.190043,
+        "entityEnglishId": "Renal function",
+        "startingPos": 136,
+        "endingPos": 172
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          23,
+          24,
+          25
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.90542,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "glomerular filtration rate",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.273738,
+        "entityEnglishId": "Renal function",
+        "startingPos": 146,
+        "endingPos": 172
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.94301,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "eGFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.695605,
+        "entityEnglishId": "Renal function",
+        "startingPos": 174,
+        "endingPos": 178
+      },
+      {
+        "id": 12,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.80669,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.228113,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 215,
+        "endingPos": 223
+      },
+      {
+        "id": 13,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          35,
+          36,
+          37,
+          38
+        ],
+        "entityId": "South Tees Diabetes Mortality",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "South Tees Diabetes Mortality",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 204,
+        "endingPos": 233
+      },
+      {
+        "id": 14,
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "Mortality rate",
+        "confidenceScore": 1.94936,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mortality_rate",
+        "matchedText": "Mortality",
+        "freebaseId": "/m/01b4_q",
+        "relevanceScore": 0.244707,
+        "entityEnglishId": "Mortality rate",
+        "startingPos": 224,
+        "endingPos": 233
+      },
+      {
+        "id": 15,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          41
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.31322,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.228113,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 241,
+        "endingPos": 249
+      },
+      {
+        "id": 16,
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.44535,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "Medicine",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.13074,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 250,
+        "endingPos": 258
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          18,
+          19,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              27,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              27,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          42
+        ],
+        "propertyPositions": [
+          41
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          31,
+          32,
+          33
+        ],
+        "propertyPositions": [
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          23
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          27
+        ]
+      }
+    ]
+  },
+  "time": 0.335,
+  "ok": true
+}

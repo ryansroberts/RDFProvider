@@ -1,0 +1,261 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.570408
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.318234
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.313661
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.270981
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.265068
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 1",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_1",
+        "score": 0.474995
+      },
+      {
+        "id": 2,
+        "label": "Hyperglycemia",
+        "wikiLink": "http://en.wikipedia.org/Hyperglycemia",
+        "score": 0.664655
+      },
+      {
+        "id": 3,
+        "label": "World Health Organization",
+        "wikiLink": "http://en.wikipedia.org/World_Health_Organization",
+        "score": 0.176987
+      },
+      {
+        "id": 4,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.756378
+      },
+      {
+        "id": 5,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.709652
+      },
+      {
+        "id": 6,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.415436
+      },
+      {
+        "id": 7,
+        "label": "Organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Organizations_by_country",
+        "score": 0.0419004
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          0,
+          1,
+          2
+        ],
+        "entityId": "World Health Organization",
+        "freebaseTypes": [
+          "/award/award_winner",
+          "/organization/organization",
+          "/organization/membership_organization",
+          "/business/employer",
+          "/award/ranked_list_compiler",
+          "/book/author"
+        ],
+        "confidenceScore": 5.69169,
+        "wikiLink": "http://en.wikipedia.org/wiki/World_Health_Organization",
+        "matchedText": "World Health Organisation",
+        "freebaseId": "/m/0840w",
+        "relevanceScore": 0.176987,
+        "entityEnglishId": "World Health Organization",
+        "startingPos": 0,
+        "endingPos": 25
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.00713,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.474995,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 55,
+        "endingPos": 63
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8,
+          9
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 5.57264,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes mellitus",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.265068,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 55,
+        "endingPos": 72
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Hyperglycemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 10.8433,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hyperglycemia",
+        "matchedText": "hyperglycemia",
+        "freebaseId": "/m/0kfqw",
+        "relevanceScore": 0.664655,
+        "entityEnglishId": "Hyperglycemia",
+        "startingPos": 90,
+        "endingPos": 103
+      },
+      {
+        "id": 4,
+        "type": [
+          "Agent",
+          "Organisation",
+          "MilitaryUnit"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Israel Defense Forces",
+        "freebaseTypes": [
+          "/organization/organization_founder",
+          "/military/armed_force",
+          "/organization/organization",
+          "/business/employer",
+          "/book/periodical_publisher",
+          "/broadcast/producer"
+        ],
+        "confidenceScore": 2.04831,
+        "wikiLink": "http://en.wikipedia.org/wiki/Israel_Defense_Forces",
+        "matchedText": "IDF",
+        "freebaseId": "/m/09s93",
+        "relevanceScore": 0.0118284,
+        "entityEnglishId": "Israel Defense Forces",
+        "startingPos": 151,
+        "endingPos": 154
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          12
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

@@ -1,0 +1,251 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.5
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.5
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.5
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": false,
+    "topics": [
+      {
+        "id": 0,
+        "label": "GlaxoSmithKline",
+        "wikiLink": "http://en.wikipedia.org/GlaxoSmithKline",
+        "score": 0.162135
+      },
+      {
+        "id": 1,
+        "label": "Rosiglitazone",
+        "wikiLink": "http://en.wikipedia.org/Rosiglitazone",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Oxygen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxygen_compounds",
+        "score": 0.132775
+      },
+      {
+        "id": 3,
+        "label": "Functional groups",
+        "wikiLink": "http://en.wikipedia.org/Category:Functional_groups",
+        "score": 0.132775
+      },
+      {
+        "id": 4,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.132775
+      },
+      {
+        "id": 5,
+        "label": "Public health",
+        "wikiLink": "http://en.wikipedia.org/Category:Public_health",
+        "score": 0.0333333
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Company"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "GlaxoSmithKline",
+        "freebaseTypes": [
+          "/medicine/drug_manufacturer",
+          "/business/consumer_company",
+          "/business/issuer",
+          "/organization/organization",
+          "/award/award_nominee",
+          "/business/business_operation",
+          "/award/ranked_item",
+          "/venture_capital/venture_investor",
+          "/business/employer"
+        ],
+        "confidenceScore": 5.14692,
+        "wikiLink": "http://en.wikipedia.org/wiki/GlaxoSmithKline",
+        "matchedText": "GlaxoSmithKline",
+        "freebaseId": "/m/01bbm7",
+        "relevanceScore": 0.0810677,
+        "entityEnglishId": "GlaxoSmithKline",
+        "startingPos": 4,
+        "endingPos": 19
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Rosiglitazone",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 7.75937,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rosiglitazone",
+        "matchedText": "Rosiglitazone",
+        "freebaseId": "/m/02vn54",
+        "relevanceScore": 0.536322,
+        "entityEnglishId": "Rosiglitazone",
+        "startingPos": 21,
+        "endingPos": 34
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Rosiglitazone",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 1.86181,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rosiglitazone",
+        "matchedText": "Rosiglitazone maleate",
+        "freebaseId": "/m/02vn54",
+        "relevanceScore": 0.536322,
+        "entityEnglishId": "Rosiglitazone",
+        "startingPos": 21,
+        "endingPos": 42
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Maleic acid",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 1.69124,
+        "wikiLink": "http://en.wikipedia.org/wiki/Maleic_acid",
+        "matchedText": "maleate",
+        "freebaseId": "/m/02kc34h",
+        "relevanceScore": 0,
+        "entityEnglishId": "Maleic acid",
+        "startingPos": 35,
+        "endingPos": 42
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Meta-analysis",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.81501,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meta-analysis",
+        "matchedText": "meta-analysis",
+        "freebaseId": "/m/0gvjk",
+        "relevanceScore": 0,
+        "entityEnglishId": "Meta-analysis",
+        "startingPos": 59,
+        "endingPos": 72
+      },
+      {
+        "id": 5,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Company"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "GlaxoSmithKline",
+        "freebaseTypes": [
+          "/medicine/drug_manufacturer",
+          "/business/consumer_company",
+          "/business/issuer",
+          "/organization/organization",
+          "/award/award_nominee",
+          "/business/business_operation",
+          "/award/ranked_item",
+          "/venture_capital/venture_investor",
+          "/business/employer"
+        ],
+        "confidenceScore": 5.14692,
+        "wikiLink": "http://en.wikipedia.org/wiki/GlaxoSmithKline",
+        "matchedText": "GlaxoSmithKline",
+        "freebaseId": "/m/01bbm7",
+        "relevanceScore": 0.0810677,
+        "entityEnglishId": "GlaxoSmithKline",
+        "startingPos": 77,
+        "endingPos": 92
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          9
+        ]
+      }
+    ]
+  },
+  "time": 0.305,
+  "ok": true
+}

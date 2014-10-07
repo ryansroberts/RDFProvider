@@ -1,0 +1,284 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.912557
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes management",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_management",
+        "score": 0.143235
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.315221
+      },
+      {
+        "id": 2,
+        "label": "Health maintenance organization",
+        "wikiLink": "http://en.wikipedia.org/Health_maintenance_organization",
+        "score": 0.19691
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Sadur CN",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Sadur CN",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Moline, Illinois",
+        "freebaseTypes": [
+          "/location/statistical_region",
+          "/location/hud_county_place",
+          "/location/hud_foreclosure_area",
+          "/location/citytown",
+          "/location/dated_location",
+          "/location/location",
+          "/periodicals/newspaper_circulation_area"
+        ],
+        "confidenceScore": 1.23052,
+        "wikiLink": "http://en.wikipedia.org/wiki/Moline,_Illinois",
+        "matchedText": "Moline",
+        "freebaseId": "/m/0sg4x",
+        "relevanceScore": 0.0402763,
+        "entityEnglishId": "Moline, Illinois",
+        "startingPos": 10,
+        "endingPos": 16
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Moline N",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Moline N",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 18
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Costa M",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Costa M",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 20,
+        "endingPos": 27
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.00702,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.157611,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 36,
+        "endingPos": 44
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Diabetes management",
+        "confidenceScore": 1.33545,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_management",
+        "matchedText": "Diabetes management",
+        "freebaseId": "/m/08gmh7",
+        "relevanceScore": 0.143235,
+        "entityEnglishId": "Diabetes management",
+        "startingPos": 36,
+        "endingPos": 55
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          15,
+          16,
+          17
+        ],
+        "entityId": "Health maintenance organization",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 4.22906,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_maintenance_organization",
+        "matchedText": "health maintenance organization",
+        "freebaseId": "/m/0g3kb",
+        "relevanceScore": 0.19691,
+        "entityEnglishId": "Health maintenance organization",
+        "startingPos": 61,
+        "endingPos": 92
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.00702,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.157611,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 144,
+        "endingPos": 152
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          19,
+          20,
+          23
+        ],
+        "propertyPositions": [
+          21,
+          22
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

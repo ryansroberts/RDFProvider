@@ -1,0 +1,708 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.361642
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.329227
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.314213
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.31008
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.31008
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Coronary artery disease",
+        "wikiLink": "http://en.wikipedia.org/Coronary_artery_disease",
+        "score": 0.796646
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.225093
+      },
+      {
+        "id": 2,
+        "label": "Disease",
+        "wikiLink": "http://en.wikipedia.org/Disease",
+        "score": 0.122503
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Sandbaek A.",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Sandbaek A.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Griffin SJ",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Griffin SJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 13,
+        "endingPos": 23
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Rutten G.",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Rutten G.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 35
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          10,
+          11
+        ],
+        "entityId": "Davies M.",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Davies M.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 37,
+        "endingPos": 46
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Borch-Johnsen K.",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Borch-Johnsen K.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 69,
+        "endingPos": 85
+      },
+      {
+        "id": 5,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Wareham, Dorset",
+        "freebaseTypes": [
+          "/location/location",
+          "/location/uk_civil_parish",
+          "/government/governmental_jurisdiction",
+          "/location/administrative_division",
+          "/location/citytown",
+          "/location/statistical_region",
+          "/location/dated_location"
+        ],
+        "confidenceScore": 2.12616,
+        "wikiLink": "http://en.wikipedia.org/wiki/Wareham,_Dorset",
+        "matchedText": "Wareham",
+        "freebaseId": "/m/021qjc",
+        "relevanceScore": 0.0594388,
+        "entityEnglishId": "Wareham, Dorset",
+        "startingPos": 93,
+        "endingPos": 100
+      },
+      {
+        "id": 6,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "Wareham NJ",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Wareham NJ",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 93,
+        "endingPos": 103
+      },
+      {
+        "id": 7,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Khunti K.",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Khunti K.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 58,
+        "endingPos": 67
+      },
+      {
+        "id": 8,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          13,
+          14
+        ],
+        "entityId": "Stolk R.",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Stolk R.",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 48,
+        "endingPos": 56
+      },
+      {
+        "id": 9,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          28,
+          29,
+          30
+        ],
+        "entityId": "Lauritzen T. Stepwise",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Lauritzen T. Stepwise",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 106,
+        "endingPos": 127
+      },
+      {
+        "id": 10,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.85876,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.225093,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 142,
+        "endingPos": 150
+      },
+      {
+        "id": 11,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          40,
+          41,
+          42
+        ],
+        "entityId": "Coronary artery disease",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 5.65593,
+        "wikiLink": "http://en.wikipedia.org/wiki/Coronary_artery_disease",
+        "matchedText": "coronary heart disease",
+        "freebaseId": "/m/01s1m",
+        "relevanceScore": 0.251678,
+        "entityEnglishId": "Coronary artery disease",
+        "startingPos": 194,
+        "endingPos": 216
+      },
+      {
+        "id": 12,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          41,
+          42
+        ],
+        "entityId": "Coronary artery disease",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 1.55617,
+        "wikiLink": "http://en.wikipedia.org/wiki/Coronary_artery_disease",
+        "matchedText": "heart disease",
+        "freebaseId": "/m/01s1m",
+        "relevanceScore": 0.544968,
+        "entityEnglishId": "Coronary artery disease",
+        "startingPos": 203,
+        "endingPos": 216
+      },
+      {
+        "id": 13,
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "Disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/visual_art/art_subject"
+        ],
+        "confidenceScore": 1.57828,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disease",
+        "matchedText": "disease",
+        "freebaseId": "/m/027x3",
+        "relevanceScore": 0.122503,
+        "entityEnglishId": "Disease",
+        "startingPos": 209,
+        "endingPos": 216
+      },
+      {
+        "id": 14,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          49
+        ],
+        "entityId": "Diabetologia",
+        "confidenceScore": 1.62148,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetologia",
+        "matchedText": "Diabetologia",
+        "freebaseId": "/m/0cmbmrs",
+        "relevanceScore": 0.0985042,
+        "entityEnglishId": "Diabetologia",
+        "startingPos": 243,
+        "endingPos": 255
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          34,
+          36
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              28,
+              29,
+              30,
+              31,
+              32,
+              33
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              35,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              45,
+              46,
+              47
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          34,
+          35,
+          36
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              28,
+              29,
+              30,
+              31,
+              32,
+              33
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              45,
+              46,
+              47
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          34,
+          36,
+          45,
+          46,
+          47
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              28,
+              29,
+              30,
+              31,
+              32,
+              33
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              35,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          34,
+          36,
+          37,
+          38,
+          40,
+          41,
+          42,
+          43
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              28,
+              29,
+              30,
+              31,
+              32,
+              33
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              35,
+              39,
+              45,
+              46,
+              47
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          19,
+          20
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          23,
+          24,
+          25
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          13,
+          14
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          16,
+          17,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          13,
+          14,
+          16,
+          17,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "propertyPositions": [
+          33
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          41,
+          42,
+          43
+        ],
+        "propertyPositions": [
+          37,
+          38,
+          39
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          41,
+          42,
+          43
+        ],
+        "propertyPositions": [
+          40
+        ]
+      }
+    ]
+  },
+  "time": 0.336,
+  "ok": true
+}

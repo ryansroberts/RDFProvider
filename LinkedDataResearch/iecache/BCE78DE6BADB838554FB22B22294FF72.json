@@ -1,0 +1,407 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.328672
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.319705
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.319705
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.31133
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.174873
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Blind experiment",
+        "wikiLink": "http://en.wikipedia.org/Blind_experiment",
+        "score": 0.425038
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.149518
+      },
+      {
+        "id": 2,
+        "label": "Wound",
+        "wikiLink": "http://en.wikipedia.org/Wound",
+        "score": 0.372826
+      },
+      {
+        "id": 3,
+        "label": "Xeroderma",
+        "wikiLink": "http://en.wikipedia.org/Xeroderma",
+        "score": 0.201762
+      },
+      {
+        "id": 4,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.340259
+      },
+      {
+        "id": 5,
+        "label": "Medical treatments",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_treatments",
+        "score": 0.105265
+      },
+      {
+        "id": 6,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.0907185
+      },
+      {
+        "id": 7,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0630427
+      },
+      {
+        "id": 8,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0630427
+      },
+      {
+        "id": 9,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.0628434
+      },
+      {
+        "id": 10,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.0484958
+      },
+      {
+        "id": 11,
+        "label": "Integumentary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Integumentary_system",
+        "score": 0.0476809
+      },
+      {
+        "id": 12,
+        "label": "Medical terminology",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_terminology",
+        "score": 0.0476809
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Pham HT",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Pham HT",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 7
+      },
+      {
+        "id": 1,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Exelbert L",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Exelbert L",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 9,
+        "endingPos": 19
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Blind experiment",
+        "freebaseTypes": [
+          "/medicine/medical_trial_design"
+        ],
+        "confidenceScore": 3.90653,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blind_experiment",
+        "matchedText": "double-blind",
+        "freebaseId": "/m/01ph3t",
+        "relevanceScore": 0.212519,
+        "entityEnglishId": "Blind experiment",
+        "startingPos": 91,
+        "endingPos": 103
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          21,
+          22
+        ],
+        "entityId": "Blind experiment",
+        "freebaseTypes": [
+          "/medicine/medical_trial_design"
+        ],
+        "confidenceScore": 2.15759,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blind_experiment",
+        "matchedText": "double-blind study",
+        "freebaseId": "/m/01ph3t",
+        "relevanceScore": 0.212519,
+        "entityEnglishId": "Blind experiment",
+        "startingPos": 91,
+        "endingPos": 109
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Moisturizer",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.71444,
+        "wikiLink": "http://en.wikipedia.org/wiki/Moisturizer",
+        "matchedText": "moisturizer",
+        "freebaseId": "/m/04k9pm",
+        "relevanceScore": 0,
+        "entityEnglishId": "Moisturizer",
+        "startingPos": 115,
+        "endingPos": 126
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Xeroderma",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.35968,
+        "wikiLink": "http://en.wikipedia.org/wiki/Xeroderma",
+        "matchedText": "xerosis",
+        "freebaseId": "/m/08xv95",
+        "relevanceScore": 0.201762,
+        "entityEnglishId": "Xeroderma",
+        "startingPos": 131,
+        "endingPos": 138
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.03857,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Patient",
+        "startingPos": 154,
+        "endingPos": 162
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.65834,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.149518,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 168,
+        "endingPos": 176
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Stoma (medicine)",
+        "confidenceScore": 2.0154,
+        "wikiLink": "http://en.wikipedia.org/wiki/Stoma_(medicine)",
+        "matchedText": "Ostomy",
+        "freebaseId": "/m/04r1c9",
+        "relevanceScore": 0,
+        "entityEnglishId": "Stoma (medicine)",
+        "startingPos": 178,
+        "endingPos": 184
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Wound",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 0.917947,
+        "wikiLink": "http://en.wikipedia.org/wiki/Wound",
+        "matchedText": "Wound",
+        "freebaseId": "/m/01xrk2",
+        "relevanceScore": 0.372826,
+        "entityEnglishId": "Wound",
+        "startingPos": 185,
+        "endingPos": 190
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              3,
+              4,
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              10,
+              13,
+              15,
+              16,
+              18
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10,
+          18
+        ],
+        "propertyPositions": [
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

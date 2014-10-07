@@ -1,0 +1,250 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.96516
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.939532
+      },
+      {
+        "id": 4,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.508147
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.508147
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Edinburgh",
+        "wikiLink": "http://en.wikipedia.org/Edinburgh",
+        "score": 0.129111
+      },
+      {
+        "id": 1,
+        "label": "Hypertension",
+        "wikiLink": "http://en.wikipedia.org/Hypertension",
+        "score": 0.182974
+      },
+      {
+        "id": 2,
+        "label": "Scotland",
+        "wikiLink": "http://en.wikipedia.org/Scotland",
+        "score": 0.160124
+      },
+      {
+        "id": 3,
+        "label": "Geography",
+        "wikiLink": "http://en.wikipedia.org/Category:Geography_by_continent",
+        "score": 0.0835
+      },
+      {
+        "id": 4,
+        "label": "Organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Organizations_by_country",
+        "score": 0.0631707
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Scotland",
+        "freebaseTypes": [
+          "/film/film_subject",
+          "/film/film_location",
+          "/location/uk_statistical_location",
+          "/location/dated_location",
+          "/location/country",
+          "/location/uk_constituent_country",
+          "/biology/breed_origin",
+          "/periodicals/newspaper_circulation_area",
+          "/organization/organization_scope",
+          "/location/administrative_division",
+          "/law/court_jurisdiction_area",
+          "/travel/travel_destination",
+          "/government/governmental_jurisdiction",
+          "/olympics/olympic_participating_country",
+          "/organization/club_interest",
+          "/location/statistical_region",
+          "/royalty/system_of_nobility",
+          "/symbols/coat_of_arms_bearer",
+          "/symbols/flag_referent",
+          "/location/location",
+          "/sports/sport_country",
+          "/sports/sports_team_location",
+          "/book/book_subject",
+          "/fictional_universe/fictional_setting"
+        ],
+        "confidenceScore": 2.01847,
+        "wikiLink": "http://en.wikipedia.org/wiki/Scotland",
+        "matchedText": "Scottish",
+        "freebaseId": "/m/06q1r",
+        "relevanceScore": 0.160124,
+        "entityEnglishId": "Scotland",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Scottish Intercollegiate",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Scottish Intercollegiate",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "entityId": "Healthcare Improvement Scotland",
+        "confidenceScore": 1.37468,
+        "wikiLink": "http://en.wikipedia.org/wiki/Healthcare_Improvement_Scotland",
+        "matchedText": "Scottish Intercollegiate Guidelines Network",
+        "freebaseId": "/m/0ggb0r2",
+        "relevanceScore": 0.0468516,
+        "entityEnglishId": "Healthcare Improvement Scotland",
+        "startingPos": 0,
+        "endingPos": 43
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Hypertension",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.69197,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypertension",
+        "matchedText": "Hypertension",
+        "freebaseId": "/m/0k95h",
+        "relevanceScore": 0.182974,
+        "entityEnglishId": "Hypertension",
+        "startingPos": 45,
+        "endingPos": 57
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Edinburgh",
+        "freebaseTypes": [
+          "/periodicals/newspaper_circulation_area",
+          "/location/capital_of_administrative_division",
+          "/location/citytown",
+          "/location/dated_location",
+          "/location/administrative_division",
+          "/book/book_subject",
+          "/travel/travel_destination",
+          "/sports/sports_team_location",
+          "/organization/organization_scope",
+          "/government/governmental_jurisdiction",
+          "/location/statistical_region",
+          "/location/uk_statistical_location",
+          "/location/place_with_neighborhoods",
+          "/film/film_location",
+          "/location/location"
+        ],
+        "confidenceScore": 2.02928,
+        "wikiLink": "http://en.wikipedia.org/wiki/Edinburgh",
+        "matchedText": "Edinburgh",
+        "freebaseId": "/m/02m77",
+        "relevanceScore": 0.129111,
+        "entityEnglishId": "Edinburgh",
+        "startingPos": 101,
+        "endingPos": 110
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  "time": 0.308,
+  "ok": true
+}

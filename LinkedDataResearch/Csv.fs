@@ -126,6 +126,10 @@ module Import =
     let domainToIndicatorMap = Csv.DomainToIndicatorMap.Load(csvfile "OutcomesFramework/DomainToIndicatorMap")
     let qSToIndicatorMap = Csv.QSToIndicatorMap.Load(csvfile "OutcomesFramework/QSToIndicatorMap")
     
+    let loadStudies = 
+        [for s in studies.Rows do
+                  yield { Id = Identifier s.``Study GUID``
+                          References = s.Reference } ]  
     let loadStudy id = 
         [ let sm = esToStudyMap
           let sx = studies

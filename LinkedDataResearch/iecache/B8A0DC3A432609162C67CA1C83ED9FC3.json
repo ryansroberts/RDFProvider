@@ -1,0 +1,159 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Units of measurement",
+        "wikiLink": "http://en.wikipedia.org/Units_of_measurement",
+        "score": 0.119779
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Health",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Health",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 54,
+        "endingPos": 60
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "City"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Rowlett, Texas",
+        "freebaseTypes": [
+          "/location/citytown",
+          "/location/hud_county_place",
+          "/location/statistical_region",
+          "/location/location",
+          "/location/dated_location",
+          "/location/hud_foreclosure_area"
+        ],
+        "confidenceScore": 1.54413,
+        "wikiLink": "http://en.wikipedia.org/wiki/Rowlett,_Texas",
+        "matchedText": "Rowlett",
+        "freebaseId": "/m/013mdv",
+        "relevanceScore": 0,
+        "entityEnglishId": "Rowlett, Texas",
+        "startingPos": 84,
+        "endingPos": 91
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          28,
+          29,
+          30
+        ],
+        "entityId": "Units of measurement",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.48783,
+        "wikiLink": "http://en.wikipedia.org/wiki/Units_of_measurement",
+        "matchedText": "units of measurement",
+        "freebaseId": "/m/02sql7",
+        "relevanceScore": 0.119779,
+        "entityEnglishId": "Units of measurement",
+        "startingPos": 121,
+        "endingPos": 141
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          28,
+          29
+        ],
+        "propertyPositions": [
+          30,
+          31
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          25,
+          26,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          29,
+          30,
+          31
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  "time": 0.312,
+  "ok": true
+}

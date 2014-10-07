@@ -1,0 +1,523 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.454665
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.453931
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.451768
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.250632
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.223282
+      },
+      {
+        "id": 1,
+        "label": "Hospital",
+        "wikiLink": "http://en.wikipedia.org/Hospital",
+        "score": 0.339415
+      },
+      {
+        "id": 2,
+        "label": "Length of stay",
+        "wikiLink": "http://en.wikipedia.org/Length_of_stay",
+        "score": 0.36486
+      },
+      {
+        "id": 3,
+        "label": "Patient",
+        "wikiLink": "http://en.wikipedia.org/Patient",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Pharmaceutical drug",
+        "wikiLink": "http://en.wikipedia.org/Pharmaceutical_drug",
+        "score": 0.145639
+      },
+      {
+        "id": 5,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.747491
+      },
+      {
+        "id": 6,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.417085
+      },
+      {
+        "id": 7,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.218126
+      },
+      {
+        "id": 8,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.1331
+      },
+      {
+        "id": 9,
+        "label": "Medical terminology",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_terminology",
+        "score": 0.1331
+      },
+      {
+        "id": 10,
+        "label": "Knowledge",
+        "wikiLink": "http://en.wikipedia.org/Category:Knowledge",
+        "score": 0.1331
+      },
+      {
+        "id": 11,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.130741
+      },
+      {
+        "id": 12,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.123073
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement",
+          "Town"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Cavan",
+        "freebaseTypes": [
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/location/citytown",
+          "/location/capital_of_administrative_division",
+          "/location/location"
+        ],
+        "confidenceScore": 1.43123,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cavan",
+        "matchedText": "Cavan",
+        "freebaseId": "/m/03bb2c",
+        "relevanceScore": 0,
+        "entityEnglishId": "Cavan",
+        "startingPos": 0,
+        "endingPos": 5
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          0,
+          1
+        ],
+        "entityId": "Cavan DA",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Cavan DA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Hamilton P",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Hamilton P",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 10,
+        "endingPos": 20
+      },
+      {
+        "id": 3,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          6,
+          7
+        ],
+        "entityId": "Everett J",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Everett J",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 22,
+        "endingPos": 31
+      },
+      {
+        "id": 4,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          9,
+          10,
+          11
+        ],
+        "entityId": "Kerr D. Reducing",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Kerr D. Reducing",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 33,
+        "endingPos": 49
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Hospital",
+        "freebaseTypes": [
+          "/architecture/structure",
+          "/fictional_universe/type_of_fictional_setting",
+          "/media_common/quotation_subject",
+          "/location/location",
+          "/architecture/building",
+          "/organization/contact_category",
+          "/book/book_subject",
+          "/medicine/hospital",
+          "/architecture/building_function"
+        ],
+        "confidenceScore": 1.10106,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hospital",
+        "matchedText": "hospital",
+        "freebaseId": "/m/0hpnr",
+        "relevanceScore": 0.339415,
+        "entityEnglishId": "Hospital",
+        "startingPos": 50,
+        "endingPos": 58
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 2.58217,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "inpatient",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.645661,
+        "entityEnglishId": "Patient",
+        "startingPos": 59,
+        "endingPos": 68
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          14,
+          15,
+          16
+        ],
+        "entityId": "Length of stay",
+        "confidenceScore": 1.37014,
+        "wikiLink": "http://en.wikipedia.org/wiki/Length_of_stay",
+        "matchedText": "length of stay",
+        "freebaseId": "/m/01fw7b",
+        "relevanceScore": 0.36486,
+        "entityEnglishId": "Length of stay",
+        "startingPos": 69,
+        "endingPos": 83
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 2.06389,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.659571,
+        "entityEnglishId": "Patient",
+        "startingPos": 88,
+        "endingPos": 96
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.16135,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.111641,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 102,
+        "endingPos": 110
+      },
+      {
+        "id": 10,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.62561,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "Diabetic",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.111641,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 112,
+        "endingPos": 120
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Pharmaceutical drug",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.3992,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pharmaceutical_drug",
+        "matchedText": "Medicine",
+        "freebaseId": "/m/018l35",
+        "relevanceScore": 0.145639,
+        "entityEnglishId": "Pharmaceutical drug",
+        "startingPos": 121,
+        "endingPos": 129
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.328,
+  "ok": true
+}

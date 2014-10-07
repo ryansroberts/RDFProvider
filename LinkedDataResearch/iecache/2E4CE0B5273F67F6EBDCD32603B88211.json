@@ -1,0 +1,360 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.991998
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.991998
+      },
+      {
+        "id": 5,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.977609
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "British National Formulary",
+        "wikiLink": "http://en.wikipedia.org/British_National_Formulary",
+        "score": 0.317652
+      },
+      {
+        "id": 1,
+        "label": "Formulary (pharmacy)",
+        "wikiLink": "http://en.wikipedia.org/Formulary_(pharmacy)",
+        "score": 0.121408
+      },
+      {
+        "id": 2,
+        "label": "United Kingdom",
+        "wikiLink": "http://en.wikipedia.org/United_Kingdom",
+        "score": 0.177937
+      },
+      {
+        "id": 3,
+        "label": "Pharmacy",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacy",
+        "score": 0.30785
+      },
+      {
+        "id": 4,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.30785
+      },
+      {
+        "id": 5,
+        "label": "Organizations",
+        "wikiLink": "http://en.wikipedia.org/Category:Organizations_by_type",
+        "score": 0.0533991
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.79883,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "British",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.114671,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 4,
+        "endingPos": 11
+      },
+      {
+        "id": 1,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "Book"
+        ],
+        "matchingTokens": [
+          1,
+          2,
+          3
+        ],
+        "entityId": "British National Formulary",
+        "freebaseTypes": [
+          "/book/book",
+          "/book/written_work"
+        ],
+        "confidenceScore": 2.23048,
+        "wikiLink": "http://en.wikipedia.org/wiki/British_National_Formulary",
+        "matchedText": "British National Formulary",
+        "freebaseId": "/m/0x8_8",
+        "relevanceScore": 0.317652,
+        "entityEnglishId": "British National Formulary",
+        "startingPos": 4,
+        "endingPos": 30
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          2,
+          3
+        ],
+        "entityId": "Formulary (pharmacy)",
+        "confidenceScore": 1.84233,
+        "wikiLink": "http://en.wikipedia.org/wiki/Formulary_(pharmacy)",
+        "matchedText": "National Formulary",
+        "freebaseId": "/m/04jbpsm",
+        "relevanceScore": 0.0607039,
+        "entityEnglishId": "Formulary (pharmacy)",
+        "startingPos": 12,
+        "endingPos": 30
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Formulary (pharmacy)",
+        "confidenceScore": 1.34656,
+        "wikiLink": "http://en.wikipedia.org/wiki/Formulary_(pharmacy)",
+        "matchedText": "Formulary",
+        "freebaseId": "/m/04jbpsm",
+        "relevanceScore": 0.0607039,
+        "entityEnglishId": "Formulary (pharmacy)",
+        "startingPos": 21,
+        "endingPos": 30
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.69247,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.0632659,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 45,
+        "endingPos": 47
+      },
+      {
+        "id": 5,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Company",
+          "Publisher"
+        ],
+        "matchingTokens": [
+          12,
+          13,
+          14
+        ],
+        "entityId": "BMJ Group",
+        "freebaseTypes": [
+          "/book/periodical_publisher",
+          "/organization/organization",
+          "/business/business_operation",
+          "/business/employer"
+        ],
+        "confidenceScore": 2.46593,
+        "wikiLink": "http://en.wikipedia.org/wiki/BMJ_Group",
+        "matchedText": "BMJ Publishing  Group",
+        "freebaseId": "/m/0c5nll",
+        "relevanceScore": 0.0424616,
+        "entityEnglishId": "BMJ Group",
+        "startingPos": 50,
+        "endingPos": 71
+      },
+      {
+        "id": 6,
+        "type": [
+          "Agent",
+          "Organisation",
+          "Company",
+          "Publisher"
+        ],
+        "matchingTokens": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "entityId": "BMJ Group",
+        "freebaseTypes": [
+          "/book/periodical_publisher",
+          "/organization/organization",
+          "/business/business_operation",
+          "/business/employer"
+        ],
+        "confidenceScore": 1.67101,
+        "wikiLink": "http://en.wikipedia.org/wiki/BMJ_Group",
+        "matchedText": "BMJ Publishing  Group Ltd",
+        "freebaseId": "/m/0c5nll",
+        "relevanceScore": 0.0424616,
+        "entityEnglishId": "BMJ Group",
+        "startingPos": 50,
+        "endingPos": 75
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          17,
+          18
+        ],
+        "entityId": "Royal Pharmaceutical Society",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 1.72285,
+        "wikiLink": "http://en.wikipedia.org/wiki/Royal_Pharmaceutical_Society",
+        "matchedText": "RPS  Publishing",
+        "freebaseId": "/m/0g5pw8m",
+        "relevanceScore": 0,
+        "entityEnglishId": "Royal Pharmaceutical Society",
+        "startingPos": 80,
+        "endingPos": 95
+      },
+      {
+        "id": 8,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "http://www.bnf.org/bnf/",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "http://www.bnf.org/bnf/",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 97,
+        "endingPos": 120
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          5
+        ]
+      }
+    ]
+  },
+  "time": 0.311,
+  "ok": true
+}

@@ -1,0 +1,505 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.41285
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.265083
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.244547
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.203681
+      },
+      {
+        "id": 5,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.198852
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "American Medical Association",
+        "wikiLink": "http://en.wikipedia.org/American_Medical_Association",
+        "score": 0.327775
+      },
+      {
+        "id": 1,
+        "label": "Hypertension",
+        "wikiLink": "http://en.wikipedia.org/Hypertension",
+        "score": 0.424156
+      },
+      {
+        "id": 2,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.143283
+      },
+      {
+        "id": 3,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.180941
+      },
+      {
+        "id": 4,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.101245
+      },
+      {
+        "id": 5,
+        "label": "Medical associations",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_associations_by_country",
+        "score": 0.100932
+      },
+      {
+        "id": 6,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0957079
+      },
+      {
+        "id": 7,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.0849087
+      },
+      {
+        "id": 8,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.0367434
+      },
+      {
+        "id": 9,
+        "label": "Cardiovascular diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Cardiovascular_diseases",
+        "score": 0.0222459
+      },
+      {
+        "id": 10,
+        "label": "Vascular diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Vascular_diseases",
+        "score": 0.0203717
+      },
+      {
+        "id": 11,
+        "label": "Angiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Angiology",
+        "score": 0.00563105
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          1,
+          2
+        ],
+        "entityId": "Walker WG",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Walker WG",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Neaton JD",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Neaton JD",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 15,
+        "endingPos": 24
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          7,
+          8
+        ],
+        "entityId": "Cutler JA",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Cutler JA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 26,
+        "endingPos": 35
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.6688,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "Renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.143283,
+        "entityEnglishId": "Kidney",
+        "startingPos": 43,
+        "endingPos": 48
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.84191,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "Renal function",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.180941,
+        "entityEnglishId": "Renal function",
+        "startingPos": 43,
+        "endingPos": 57
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Hypertension",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.59355,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypertension",
+        "matchedText": "hypertensive",
+        "freebaseId": "/m/0k95h",
+        "relevanceScore": 0.424156,
+        "entityEnglishId": "Hypertension",
+        "startingPos": 68,
+        "endingPos": 80
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Risk factor",
+        "confidenceScore": 2.58314,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk_factor",
+        "matchedText": "Risk Factor",
+        "freebaseId": "/m/03nznf",
+        "relevanceScore": 0,
+        "entityEnglishId": "Risk factor",
+        "startingPos": 105,
+        "endingPos": 116
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "entityId": "Multiple Risk Factor Intervention Trial",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Multiple Risk Factor Intervention Trial",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 96,
+        "endingPos": 135
+      },
+      {
+        "id": 8,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          31,
+          32,
+          33
+        ],
+        "entityId": "MRFIT Research Group",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "MRFIT Research Group",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 171,
+        "endingPos": 191
+      },
+      {
+        "id": 9,
+        "type": [
+          "Agent",
+          "Organisation"
+        ],
+        "matchingTokens": [
+          41,
+          42,
+          43
+        ],
+        "entityId": "American Medical Association",
+        "freebaseTypes": [
+          "/business/employer",
+          "/book/periodical_publisher",
+          "/organization/organization",
+          "/internet/website_owner",
+          "/award/award_presenting_organization",
+          "/book/author"
+        ],
+        "confidenceScore": 4.08325,
+        "wikiLink": "http://en.wikipedia.org/wiki/American_Medical_Association",
+        "matchedText": "American Medical Association",
+        "freebaseId": "/m/01pq0r",
+        "relevanceScore": 0.327775,
+        "entityEnglishId": "American Medical Association",
+        "startingPos": 218,
+        "endingPos": 246
+      },
+      {
+        "id": 10,
+        "type": [
+          "Work",
+          "WrittenWork",
+          "PeriodicalLiterature",
+          "AcademicJournal"
+        ],
+        "matchingTokens": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "entityId": "JAMA (journal)",
+        "freebaseTypes": [
+          "/book/periodical",
+          "/book/publication",
+          "/book/journal"
+        ],
+        "confidenceScore": 1.1504,
+        "wikiLink": "http://en.wikipedia.org/wiki/JAMA_(journal)",
+        "matchedText": "JAMA: the Journal of the American Medical Association",
+        "freebaseId": "/m/02n872",
+        "relevanceScore": 0.0697354,
+        "entityEnglishId": "JAMA (journal)",
+        "startingPos": 193,
+        "endingPos": 246
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          25,
+          26
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          37,
+          38,
+          39
+        ],
+        "propertyPositions": [
+          40,
+          41,
+          42,
+          43
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          18,
+          20,
+          21,
+          22,
+          23
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    ]
+  },
+  "time": 0.347,
+  "ok": true
+}

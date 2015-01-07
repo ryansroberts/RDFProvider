@@ -1,0 +1,194 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Telmisartan",
+        "wikiLink": "http://en.wikipedia.org/Telmisartan",
+        "score": 0.125834
+      },
+      {
+        "id": 1,
+        "label": "Heterocyclic compounds according to element",
+        "wikiLink": "http://en.wikipedia.org/Category:Heterocyclic_compounds_according_to_element",
+        "score": 0.0489467
+      },
+      {
+        "id": 2,
+        "label": "Agents acting on the renin-angiotensin system",
+        "wikiLink": "http://en.wikipedia.org/Category:Agents_acting_on_the_renin-angiotensin_system",
+        "score": 0.0489467
+      },
+      {
+        "id": 3,
+        "label": "Organonitrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organonitrogen_compounds",
+        "score": 0.0489467
+      },
+      {
+        "id": 4,
+        "label": "Antihypertensive agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Antihypertensive_agents",
+        "score": 0.0489467
+      },
+      {
+        "id": 5,
+        "label": "Nitrogen heterocycles",
+        "wikiLink": "http://en.wikipedia.org/Category:Nitrogen_heterocycles",
+        "score": 0.0489467
+      },
+      {
+        "id": 6,
+        "label": "Carboxylic acids",
+        "wikiLink": "http://en.wikipedia.org/Category:Carboxylic_acids",
+        "score": 0.0489467
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Lisinopril",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 2.99396,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lisinopril",
+        "matchedText": "lisinopril",
+        "freebaseId": "/m/04nl71",
+        "relevanceScore": 0.0810604,
+        "entityEnglishId": "Lisinopril",
+        "startingPos": 19,
+        "endingPos": 29
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Telmisartan",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.41103,
+        "wikiLink": "http://en.wikipedia.org/wiki/Telmisartan",
+        "matchedText": "telmisartan",
+        "freebaseId": "/m/065xz3",
+        "relevanceScore": 0.125834,
+        "entityEnglishId": "Telmisartan",
+        "startingPos": 34,
+        "endingPos": 45
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "AER",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "AER",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 79,
+        "endingPos": 82
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          9,
+          11
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          9,
+          11
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          9,
+          11
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          8,
+          9,
+          11
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  "time": 0.309,
+  "ok": true
+}

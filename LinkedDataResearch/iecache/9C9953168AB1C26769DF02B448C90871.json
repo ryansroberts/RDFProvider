@@ -1,0 +1,358 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Retinopathy",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.8033,
+        "wikiLink": "http://en.wikipedia.org/wiki/Retinopathy",
+        "matchedText": "retinopathy",
+        "freebaseId": "/m/0fml5",
+        "relevanceScore": 0,
+        "entityEnglishId": "Retinopathy",
+        "startingPos": 143,
+        "endingPos": 154
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          60
+        ],
+        "entityId": "Retinopathy",
+        "freebaseTypes": [
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.8033,
+        "wikiLink": "http://en.wikipedia.org/wiki/Retinopathy",
+        "matchedText": "retinopathy",
+        "freebaseId": "/m/0fml5",
+        "relevanceScore": 0,
+        "entityEnglishId": "Retinopathy",
+        "startingPos": 298,
+        "endingPos": 309
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          34,
+          35,
+          36,
+          38
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              37
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              39,
+              41,
+              42,
+              43,
+              44,
+              46,
+              47,
+              49,
+              50,
+              51,
+              52
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          38
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              37
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              39,
+              41,
+              42,
+              43,
+              44,
+              46,
+              47,
+              49,
+              50,
+              51,
+              52
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          38,
+          39,
+          46
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              37
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              41,
+              42,
+              43,
+              44,
+              47,
+              49,
+              50,
+              51,
+              52
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          17
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              11,
+              12,
+              13,
+              14,
+              16
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              18,
+              19
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          56,
+          65
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              55
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              66,
+              67
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          25,
+          28
+        ],
+        "propertyPositions": [
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          22,
+          23,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          34,
+          36,
+          38
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          58,
+          59,
+          61
+        ],
+        "propertyPositions": [
+          57
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          58,
+          59,
+          61
+        ],
+        "propertyPositions": [
+          60
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          62,
+          64
+        ],
+        "propertyPositions": [
+          63
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          58,
+          59,
+          61
+        ],
+        "propertyPositions": [
+          62,
+          63,
+          64
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          70,
+          71
+        ],
+        "propertyPositions": [
+          69
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          70,
+          71
+        ],
+        "propertyPositions": [
+          80,
+          81,
+          83
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          70,
+          71
+        ],
+        "propertyPositions": [
+          72,
+          73,
+          74,
+          76,
+          77,
+          78
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          85
+        ],
+        "propertyPositions": [
+          87,
+          88,
+          89,
+          91,
+          92,
+          94
+        ]
+      }
+    ]
+  },
+  "time": 0.314,
+  "ok": true
+}

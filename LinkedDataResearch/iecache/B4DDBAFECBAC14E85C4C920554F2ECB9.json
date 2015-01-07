@@ -1,0 +1,920 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.873397
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.806278
+      },
+      {
+        "id": 3,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.596848
+      },
+      {
+        "id": 4,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.414164
+      },
+      {
+        "id": 5,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.411125
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Eating",
+        "wikiLink": "http://en.wikipedia.org/Eating",
+        "score": 0.775186
+      },
+      {
+        "id": 1,
+        "label": "Glucose",
+        "wikiLink": "http://en.wikipedia.org/Glucose",
+        "score": 0.133773
+      },
+      {
+        "id": 2,
+        "label": "Hypoglycemia",
+        "wikiLink": "http://en.wikipedia.org/Hypoglycemia",
+        "score": 0.619561
+      },
+      {
+        "id": 3,
+        "label": "Insulin",
+        "wikiLink": "http://en.wikipedia.org/Insulin",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Insulin analog",
+        "wikiLink": "http://en.wikipedia.org/Insulin_analog",
+        "score": 0.546682
+      },
+      {
+        "id": 5,
+        "label": "Insulin glargine",
+        "wikiLink": "http://en.wikipedia.org/Insulin_glargine",
+        "score": 0.801432
+      },
+      {
+        "id": 6,
+        "label": "Insulin pump",
+        "wikiLink": "http://en.wikipedia.org/Insulin_pump",
+        "score": 0.502549
+      },
+      {
+        "id": 7,
+        "label": "Nocturnality",
+        "wikiLink": "http://en.wikipedia.org/Nocturnality",
+        "score": 0.122323
+      },
+      {
+        "id": 8,
+        "label": "Endocrinology",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrinology",
+        "score": 1
+      },
+      {
+        "id": 9,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 1
+      },
+      {
+        "id": 10,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.988074
+      },
+      {
+        "id": 11,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.988074
+      },
+      {
+        "id": 12,
+        "label": "Medical procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_procedures",
+        "score": 0.985326
+      },
+      {
+        "id": 13,
+        "label": "Endocrine procedures",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_procedures",
+        "score": 0.985326
+      },
+      {
+        "id": 14,
+        "label": "Insulin therapies",
+        "wikiLink": "http://en.wikipedia.org/Category:Insulin_therapies",
+        "score": 0.985326
+      },
+      {
+        "id": 15,
+        "label": "Biomolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Biomolecules_by_chemical_classification",
+        "score": 0.459192
+      },
+      {
+        "id": 16,
+        "label": "Molecular biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Molecular_biology",
+        "score": 0.455924
+      },
+      {
+        "id": 17,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.455881
+      },
+      {
+        "id": 18,
+        "label": "Hormones",
+        "wikiLink": "http://en.wikipedia.org/Category:Hormones_by_chemical_structure",
+        "score": 0.452612
+      },
+      {
+        "id": 19,
+        "label": "Chemical structures",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_structures",
+        "score": 0.452612
+      },
+      {
+        "id": 20,
+        "label": "Peptides",
+        "wikiLink": "http://en.wikipedia.org/Category:Peptides",
+        "score": 0.452612
+      },
+      {
+        "id": 21,
+        "label": "Peptide hormones",
+        "wikiLink": "http://en.wikipedia.org/Category:Peptide_hormones",
+        "score": 0.452612
+      },
+      {
+        "id": 22,
+        "label": "Recombinant proteins",
+        "wikiLink": "http://en.wikipedia.org/Category:Recombinant_proteins",
+        "score": 0.452612
+      },
+      {
+        "id": 23,
+        "label": "Zoology",
+        "wikiLink": "http://en.wikipedia.org/Category:Zoology",
+        "score": 0.452612
+      },
+      {
+        "id": 24,
+        "label": "Nutrition",
+        "wikiLink": "http://en.wikipedia.org/Category:Nutrition",
+        "score": 0.393037
+      },
+      {
+        "id": 25,
+        "label": "Manufacturing",
+        "wikiLink": "http://en.wikipedia.org/Category:Manufacturing_by_country",
+        "score": 0.191522
+      },
+      {
+        "id": 26,
+        "label": "Pharmaceutical companies",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_companies_by_country",
+        "score": 0.191522
+      },
+      {
+        "id": 27,
+        "label": "Eli Lilly and Company",
+        "wikiLink": "http://en.wikipedia.org/Category:Eli_Lilly_and_Company",
+        "score": 0.191522
+      },
+      {
+        "id": 28,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.154971
+      },
+      {
+        "id": 29,
+        "label": "Human metabolites",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_metabolites",
+        "score": 0.151029
+      },
+      {
+        "id": 30,
+        "label": "Clinical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_pathology",
+        "score": 0.151029
+      },
+      {
+        "id": 31,
+        "label": "Chemical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_pathology",
+        "score": 0.151029
+      },
+      {
+        "id": 32,
+        "label": "Human biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_biology",
+        "score": 0.150234
+      },
+      {
+        "id": 33,
+        "label": "Proteins",
+        "wikiLink": "http://en.wikipedia.org/Category:Proteins_by_type_of_organism",
+        "score": 0.146966
+      },
+      {
+        "id": 34,
+        "label": "Animal proteins",
+        "wikiLink": "http://en.wikipedia.org/Category:Animal_proteins",
+        "score": 0.146966
+      },
+      {
+        "id": 35,
+        "label": "Human proteins",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_proteins",
+        "score": 0.146966
+      },
+      {
+        "id": 36,
+        "label": "Humans",
+        "wikiLink": "http://en.wikipedia.org/Category:Humans",
+        "score": 0.146966
+      },
+      {
+        "id": 37,
+        "label": "Animals",
+        "wikiLink": "http://en.wikipedia.org/Category:Animals",
+        "score": 0.11682
+      },
+      {
+        "id": 38,
+        "label": "Physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Physiology",
+        "score": 0.0999196
+      },
+      {
+        "id": 39,
+        "label": "Gastronomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Gastronomy",
+        "score": 0.0916847
+      },
+      {
+        "id": 40,
+        "label": "Food and drink",
+        "wikiLink": "http://en.wikipedia.org/Category:Food_and_drink",
+        "score": 0.0916847
+      },
+      {
+        "id": 41,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.0916847
+      },
+      {
+        "id": 42,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.0884163
+      },
+      {
+        "id": 43,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0772837
+      },
+      {
+        "id": 44,
+        "label": "Behavior",
+        "wikiLink": "http://en.wikipedia.org/Category:Behavior",
+        "score": 0.0759517
+      },
+      {
+        "id": 45,
+        "label": "Hydraulics",
+        "wikiLink": "http://en.wikipedia.org/Category:Hydraulics",
+        "score": 0.0715059
+      },
+      {
+        "id": 46,
+        "label": "Machines",
+        "wikiLink": "http://en.wikipedia.org/Category:Machines",
+        "score": 0.0715059
+      },
+      {
+        "id": 47,
+        "label": "Pumps",
+        "wikiLink": "http://en.wikipedia.org/Category:Pumps",
+        "score": 0.0715059
+      },
+      {
+        "id": 48,
+        "label": "Fluid dynamics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fluid_dynamics",
+        "score": 0.0715059
+      },
+      {
+        "id": 49,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.0407903
+      },
+      {
+        "id": 50,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.0340991
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Nocturnality",
+        "confidenceScore": 1.50523,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nocturnality",
+        "matchedText": "Nocturnal",
+        "freebaseId": "/m/0gznd",
+        "relevanceScore": 0.122323,
+        "entityEnglishId": "Nocturnality",
+        "startingPos": 0,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Hypoglycemia",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease_cause",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 8.92001,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypoglycemia",
+        "matchedText": "hypoglycaemia",
+        "freebaseId": "/m/03gwt",
+        "relevanceScore": 0.619561,
+        "entityEnglishId": "Hypoglycemia",
+        "startingPos": 10,
+        "endingPos": 23
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Skill",
+        "freebaseTypes": [
+          "/internet/website_category",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.76655,
+        "wikiLink": "http://en.wikipedia.org/wiki/Skill",
+        "matchedText": "skills",
+        "freebaseId": "/m/01zsxh",
+        "relevanceScore": 0.0966521,
+        "entityEnglishId": "Skill",
+        "startingPos": 129,
+        "endingPos": 135
+      },
+      {
+        "id": 3,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.26315,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.388072,
+        "entityEnglishId": "Insulin",
+        "startingPos": 157,
+        "endingPos": 164
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Eating",
+        "confidenceScore": 2.4296,
+        "wikiLink": "http://en.wikipedia.org/wiki/Eating",
+        "matchedText": "eating",
+        "freebaseId": "/m/01f5gx",
+        "relevanceScore": 0.387593,
+        "entityEnglishId": "Eating",
+        "startingPos": 185,
+        "endingPos": 191
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          29,
+          30
+        ],
+        "entityId": "Eating",
+        "confidenceScore": 1.17083,
+        "wikiLink": "http://en.wikipedia.org/wiki/Eating",
+        "matchedText": "eating habits",
+        "freebaseId": "/m/01f5gx",
+        "relevanceScore": 0.387593,
+        "entityEnglishId": "Eating",
+        "startingPos": 185,
+        "endingPos": 198
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Habit",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.38155,
+        "wikiLink": "http://en.wikipedia.org/wiki/Habit",
+        "matchedText": "habits",
+        "freebaseId": "/m/02z8pxn",
+        "relevanceScore": 0.0203986,
+        "entityEnglishId": "Habit",
+        "startingPos": 192,
+        "endingPos": 198
+      },
+      {
+        "id": 7,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          39
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 5.36682,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.388072,
+        "entityEnglishId": "Insulin",
+        "startingPos": 245,
+        "endingPos": 252
+      },
+      {
+        "id": 8,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          49
+        ],
+        "entityId": "Glucose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/food/nutrient",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 2.81444,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glucose",
+        "matchedText": "glucose",
+        "freebaseId": "/m/02kb_m_",
+        "relevanceScore": 0.133773,
+        "entityEnglishId": "Glucose",
+        "startingPos": 305,
+        "endingPos": 312
+      },
+      {
+        "id": 9,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          65
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 3.77298,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.388072,
+        "entityEnglishId": "Insulin",
+        "startingPos": 367,
+        "endingPos": 374
+      },
+      {
+        "id": 10,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          79
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 5.77586,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.388072,
+        "entityEnglishId": "Insulin",
+        "startingPos": 448,
+        "endingPos": 455
+      },
+      {
+        "id": 11,
+        "matchingTokens": [
+          79,
+          80
+        ],
+        "entityId": "Insulin analog",
+        "confidenceScore": 2.44234,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin_analog",
+        "matchedText": "insulin analogues",
+        "freebaseId": "/m/0qxb2d5",
+        "relevanceScore": 0.546682,
+        "entityEnglishId": "Insulin analog",
+        "startingPos": 448,
+        "endingPos": 465
+      },
+      {
+        "id": 12,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          82
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 5.77586,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.388072,
+        "entityEnglishId": "Insulin",
+        "startingPos": 467,
+        "endingPos": 474
+      },
+      {
+        "id": 13,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          82,
+          83
+        ],
+        "entityId": "Insulin glargine",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 2.94397,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin_glargine",
+        "matchedText": "insulin glargine",
+        "freebaseId": "/m/05qxx3",
+        "relevanceScore": 0.254804,
+        "entityEnglishId": "Insulin glargine",
+        "startingPos": 467,
+        "endingPos": 483
+      },
+      {
+        "id": 14,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          83
+        ],
+        "entityId": "Insulin glargine",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 2.97478,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin_glargine",
+        "matchedText": "glargine",
+        "freebaseId": "/m/05qxx3",
+        "relevanceScore": 0.546628,
+        "entityEnglishId": "Insulin glargine",
+        "startingPos": 475,
+        "endingPos": 483
+      },
+      {
+        "id": 15,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          87
+        ],
+        "entityId": "Insulin",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/book/book_subject",
+          "/biology/protein",
+          "/award/award_winning_work",
+          "/medicine/drug_ingredient",
+          "/medicine/hormone",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.01658,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin",
+        "matchedText": "insulin",
+        "freebaseId": "/m/03vf7",
+        "relevanceScore": 0.388072,
+        "entityEnglishId": "Insulin",
+        "startingPos": 488,
+        "endingPos": 495
+      },
+      {
+        "id": 16,
+        "matchingTokens": [
+          87,
+          88
+        ],
+        "entityId": "Insulin pump",
+        "confidenceScore": 5.41026,
+        "wikiLink": "http://en.wikipedia.org/wiki/Insulin_pump",
+        "matchedText": "insulin pump",
+        "freebaseId": "/m/03vg7",
+        "relevanceScore": 0.502549,
+        "entityEnglishId": "Insulin pump",
+        "startingPos": 488,
+        "endingPos": 500
+      },
+      {
+        "id": 17,
+        "matchingTokens": [
+          88
+        ],
+        "entityId": "Pump",
+        "freebaseTypes": [
+          "/law/invention"
+        ],
+        "confidenceScore": 1.31055,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pump",
+        "matchedText": "pump",
+        "freebaseId": "/m/05wn0",
+        "relevanceScore": 0.0847683,
+        "entityEnglishId": "Pump",
+        "startingPos": 496,
+        "endingPos": 500
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          61,
+          63,
+          65,
+          66
+        ],
+        "propertyPositions": [
+          67
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          79,
+          80
+        ],
+        "propertyPositions": [
+          78
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          71,
+          72
+        ],
+        "propertyPositions": [
+          70
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          71,
+          72
+        ],
+        "propertyPositions": [
+          73,
+          74,
+          75
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          1
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          1
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          25,
+          26
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          34
+        ],
+        "propertyPositions": [
+          32
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          34
+        ],
+        "propertyPositions": [
+          33
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          45,
+          46,
+          47
+        ],
+        "propertyPositions": [
+          44
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          49,
+          50,
+          51
+        ],
+        "propertyPositions": [
+          48
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          49,
+          50,
+          51
+        ],
+        "propertyPositions": [
+          52,
+          53,
+          54
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          38,
+          39,
+          40,
+          43
+        ],
+        "propertyPositions": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          56,
+          57
+        ]
+      }
+    ]
+  },
+  "time": 0.331,
+  "ok": true
+}

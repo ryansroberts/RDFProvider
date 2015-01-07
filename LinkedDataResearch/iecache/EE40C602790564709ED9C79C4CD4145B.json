@@ -1,0 +1,388 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.945239
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.51783
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.492028
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.486492
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.466201
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Combination therapy",
+        "wikiLink": "http://en.wikipedia.org/Combination_therapy",
+        "score": 0.166207
+      },
+      {
+        "id": 1,
+        "label": "Biomolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Biomolecules_by_chemical_classification",
+        "score": 0.0648752
+      },
+      {
+        "id": 2,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0586116
+      },
+      {
+        "id": 3,
+        "label": "Nutrients",
+        "wikiLink": "http://en.wikipedia.org/Category:Nutrients",
+        "score": 0.057338
+      },
+      {
+        "id": 4,
+        "label": "Macromolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Macromolecules",
+        "score": 0.057338
+      },
+      {
+        "id": 5,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.057338
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Acarbose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.1523,
+        "wikiLink": "http://en.wikipedia.org/wiki/Acarbose",
+        "matchedText": "acarbose",
+        "freebaseId": "/m/048rkb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Acarbose",
+        "startingPos": 38,
+        "endingPos": 46
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Combination therapy",
+        "confidenceScore": 1.70236,
+        "wikiLink": "http://en.wikipedia.org/wiki/Combination_therapy",
+        "matchedText": "monotherapy",
+        "freebaseId": "/m/058jwm",
+        "relevanceScore": 0.166207,
+        "entityEnglishId": "Combination therapy",
+        "startingPos": 56,
+        "endingPos": 67
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Acarbose",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 3.1523,
+        "wikiLink": "http://en.wikipedia.org/wiki/Acarbose",
+        "matchedText": "acarbose",
+        "freebaseId": "/m/048rkb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Acarbose",
+        "startingPos": 189,
+        "endingPos": 197
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          40
+        ],
+        "entityId": "Lipid",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/food/nutrient"
+        ],
+        "confidenceScore": 2.86985,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lipid",
+        "matchedText": "lipid",
+        "freebaseId": "/m/04k8n",
+        "relevanceScore": 0.0986626,
+        "entityEnglishId": "Lipid",
+        "startingPos": 258,
+        "endingPos": 263
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          44,
+          45
+        ],
+        "entityId": "Body weight",
+        "confidenceScore": 1.33085,
+        "wikiLink": "http://en.wikipedia.org/wiki/Body_weight",
+        "matchedText": "body weight",
+        "freebaseId": "/m/02mw60",
+        "relevanceScore": 0.0736552,
+        "entityEnglishId": "Body weight",
+        "startingPos": 277,
+        "endingPos": 288
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          7,
+          8,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              9,
+              11,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          7,
+          8,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              9,
+              11,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8,
+          10,
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              9,
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          31,
+          32,
+          33,
+          35
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              28,
+              29,
+              30
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              34,
+              36,
+              37,
+              38,
+              39,
+              40
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          28,
+          29
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          38
+        ],
+        "propertyPositions": [
+          36
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          38
+        ],
+        "propertyPositions": [
+          37
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

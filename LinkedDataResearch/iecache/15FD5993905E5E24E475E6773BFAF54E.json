@@ -1,0 +1,491 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.822955
+      },
+      {
+        "id": 2,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.580564
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.306445
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.291683
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.29053
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Meta-analysis",
+        "wikiLink": "http://en.wikipedia.org/Meta-analysis",
+        "score": 0.286039
+      },
+      {
+        "id": 1,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Pain",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Perception",
+        "wikiLink": "http://en.wikipedia.org/Category:Perception",
+        "score": 0.269733
+      },
+      {
+        "id": 3,
+        "label": "Feeling",
+        "wikiLink": "http://en.wikipedia.org/Category:Feeling",
+        "score": 0.259805
+      },
+      {
+        "id": 4,
+        "label": "Symptoms and signs: General",
+        "wikiLink": "http://en.wikipedia.org/Category:Symptoms_and_signs:_General",
+        "score": 0.259805
+      },
+      {
+        "id": 5,
+        "label": "Cognitive science",
+        "wikiLink": "http://en.wikipedia.org/Category:Cognitive_science",
+        "score": 0.201871
+      },
+      {
+        "id": 6,
+        "label": "Psychological concepts",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychological_concepts",
+        "score": 0.169937
+      },
+      {
+        "id": 7,
+        "label": "Experimental psychology",
+        "wikiLink": "http://en.wikipedia.org/Category:Experimental_psychology",
+        "score": 0.169937
+      },
+      {
+        "id": 8,
+        "label": "Sources of knowledge",
+        "wikiLink": "http://en.wikipedia.org/Category:Sources_of_knowledge",
+        "score": 0.169937
+      },
+      {
+        "id": 9,
+        "label": "Subjective experience",
+        "wikiLink": "http://en.wikipedia.org/Category:Subjective_experience",
+        "score": 0.169937
+      },
+      {
+        "id": 10,
+        "label": "Neuropsychological assessment",
+        "wikiLink": "http://en.wikipedia.org/Category:Neuropsychological_assessment",
+        "score": 0.169937
+      },
+      {
+        "id": 11,
+        "label": "Symptoms and signs",
+        "wikiLink": "http://en.wikipedia.org/Category:Symptoms_and_signs",
+        "score": 0.160009
+      },
+      {
+        "id": 12,
+        "label": "Emotion",
+        "wikiLink": "http://en.wikipedia.org/Category:Emotion",
+        "score": 0.160009
+      },
+      {
+        "id": 13,
+        "label": "Qualia",
+        "wikiLink": "http://en.wikipedia.org/Category:Qualia",
+        "score": 0.160009
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.31222,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "neuropathic",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.656798,
+        "entityEnglishId": "Pain",
+        "startingPos": 62,
+        "endingPos": 73
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          9,
+          10
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.61113,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "neuropathic pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.310248,
+        "entityEnglishId": "Pain",
+        "startingPos": 62,
+        "endingPos": 78
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 3.0417,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.450105,
+        "entityEnglishId": "Pain",
+        "startingPos": 74,
+        "endingPos": 78
+      },
+      {
+        "id": 3,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Network",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Network",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 176,
+        "endingPos": 183
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Meta-analysis",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.54783,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meta-analysis",
+        "matchedText": "meta-analyses",
+        "freebaseId": "/m/0gvjk",
+        "relevanceScore": 0.286039,
+        "entityEnglishId": "Meta-analysis",
+        "startingPos": 184,
+        "endingPos": 197
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          48,
+          49,
+          50
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              46,
+              47
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              51,
+              52,
+              53
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          5
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          6
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          26
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          6
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          21,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          42,
+          43,
+          44
+        ],
+        "propertyPositions": [
+          41
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          33,
+          34
+        ],
+        "propertyPositions": [
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          33,
+          34
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          57,
+          58
+        ],
+        "propertyPositions": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          64
+        ],
+        "propertyPositions": [
+          57,
+          58,
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          64
+        ],
+        "propertyPositions": [
+          62,
+          63
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          15,
+          16,
+          18,
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 16,
+        "wordPositions": [
+          46,
+          47
+        ],
+        "propertyPositions": [
+          50
+        ]
+      },
+      {
+        "id": 17,
+        "wordPositions": [
+          53
+        ],
+        "propertyPositions": [
+          52
+        ]
+      },
+      {
+        "id": 18,
+        "wordPositions": [
+          46,
+          47
+        ],
+        "propertyPositions": [
+          51,
+          52,
+          53
+        ]
+      }
+    ]
+  },
+  "time": 0.324,
+  "ok": true
+}

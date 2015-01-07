@@ -1,0 +1,413 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.506867
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.493133
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.493133
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.493133
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Lipid",
+        "wikiLink": "http://en.wikipedia.org/Lipid",
+        "score": 0.225511
+      },
+      {
+        "id": 1,
+        "label": "Triglyceride",
+        "wikiLink": "http://en.wikipedia.org/Triglyceride",
+        "score": 0.208434
+      },
+      {
+        "id": 2,
+        "label": "Biomolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Biomolecules_by_chemical_classification",
+        "score": 0.110694
+      },
+      {
+        "id": 3,
+        "label": "Membrane-active molecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Membrane-active_molecules",
+        "score": 0.110694
+      },
+      {
+        "id": 4,
+        "label": "Nutrients",
+        "wikiLink": "http://en.wikipedia.org/Category:Nutrients",
+        "score": 0.110694
+      },
+      {
+        "id": 5,
+        "label": "Lipids",
+        "wikiLink": "http://en.wikipedia.org/Category:Lipids",
+        "score": 0.110694
+      },
+      {
+        "id": 6,
+        "label": "Macromolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Macromolecules",
+        "score": 0.110694
+      },
+      {
+        "id": 7,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.110694
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "MeanOfTransportation",
+          "SpaceStation"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Mir",
+        "freebaseTypes": [
+          "/spaceflight/spacecraft",
+          "/spaceflight/satellite",
+          "/book/book_subject",
+          "/projects/project_focus"
+        ],
+        "confidenceScore": 1.23948,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mir",
+        "matchedText": "MIR",
+        "freebaseId": "/m/0kzv7",
+        "relevanceScore": 0.0737083,
+        "entityEnglishId": "Mir",
+        "startingPos": 6,
+        "endingPos": 9
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "MXR",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/business/business_operation",
+          "/business/employer"
+        ],
+        "confidenceScore": 1.91818,
+        "wikiLink": "http://en.wikipedia.org/wiki/MXR",
+        "matchedText": "MXR",
+        "freebaseId": "/m/0fb7tf",
+        "relevanceScore": 0.0184351,
+        "entityEnglishId": "MXR",
+        "startingPos": 28,
+        "endingPos": 31
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Lipid",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/food/nutrient"
+        ],
+        "confidenceScore": 2.69347,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lipid",
+        "matchedText": "lipid",
+        "freebaseId": "/m/04k8n",
+        "relevanceScore": 0.225511,
+        "entityEnglishId": "Lipid",
+        "startingPos": 43,
+        "endingPos": 48
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Statistical significance",
+        "confidenceScore": 1.83018,
+        "wikiLink": "http://en.wikipedia.org/wiki/Statistical_significance",
+        "matchedText": "statistical significance",
+        "freebaseId": "/m/0159l8",
+        "relevanceScore": 0.0876864,
+        "entityEnglishId": "Statistical significance",
+        "startingPos": 88,
+        "endingPos": 112
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Triglyceride",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 4.73694,
+        "wikiLink": "http://en.wikipedia.org/wiki/Triglyceride",
+        "matchedText": "triglycerides",
+        "freebaseId": "/m/0fmjs",
+        "relevanceScore": 0.208434,
+        "entityEnglishId": "Triglyceride",
+        "startingPos": 138,
+        "endingPos": 151
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          45
+        ],
+        "entityId": "MXR",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/business/business_operation",
+          "/business/employer"
+        ],
+        "confidenceScore": 1.91818,
+        "wikiLink": "http://en.wikipedia.org/wiki/MXR",
+        "matchedText": "MXR",
+        "freebaseId": "/m/0fb7tf",
+        "relevanceScore": 0.0184351,
+        "entityEnglishId": "MXR",
+        "startingPos": 257,
+        "endingPos": 260
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          56
+        ],
+        "entityId": "MXR",
+        "freebaseTypes": [
+          "/organization/organization",
+          "/business/business_operation",
+          "/business/employer"
+        ],
+        "confidenceScore": 1.91818,
+        "wikiLink": "http://en.wikipedia.org/wiki/MXR",
+        "matchedText": "MXR",
+        "freebaseId": "/m/0fb7tf",
+        "relevanceScore": 0.0184351,
+        "entityEnglishId": "MXR",
+        "startingPos": 296,
+        "endingPos": 299
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          18,
+          19,
+          21
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              16,
+              17
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          2,
+          3
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          2,
+          3,
+          5,
+          6
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          49,
+          54
+        ],
+        "propertyPositions": [
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          17
+        ],
+        "propertyPositions": [
+          16
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          9
+        ],
+        "propertyPositions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          32,
+          34
+        ],
+        "propertyPositions": [
+          33
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          30,
+          31
+        ],
+        "propertyPositions": [
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          30,
+          31
+        ],
+        "propertyPositions": [
+          35,
+          36,
+          37,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          42,
+          43
+        ],
+        "propertyPositions": [
+          44,
+          45,
+          46,
+          47
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

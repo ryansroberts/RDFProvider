@@ -1,0 +1,912 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.246247
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.23512
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.232078
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.22858
+      },
+      {
+        "id": 5,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.227042
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cardiovascular disease",
+        "wikiLink": "http://en.wikipedia.org/Cardiovascular_disease",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Risk",
+        "wikiLink": "http://en.wikipedia.org/Risk",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Simvastatin",
+        "wikiLink": "http://en.wikipedia.org/Simvastatin",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Statin",
+        "wikiLink": "http://en.wikipedia.org/Statin",
+        "score": 0.785414
+      },
+      {
+        "id": 4,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.276836
+      },
+      {
+        "id": 5,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.281759
+      },
+      {
+        "id": 6,
+        "label": "Hypolipidemic agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Hypolipidemic_agents",
+        "score": 0.267269
+      },
+      {
+        "id": 7,
+        "label": "Statins",
+        "wikiLink": "http://en.wikipedia.org/Category:Statins",
+        "score": 0.212966
+      },
+      {
+        "id": 8,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.204542
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.88017,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.138418,
+        "entityEnglishId": "Therapy",
+        "startingPos": 52,
+        "endingPos": 59
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Simvastatin",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors",
+          "/business/consumer_product",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 10.9088,
+        "wikiLink": "http://en.wikipedia.org/wiki/Simvastatin",
+        "matchedText": "simvastatin",
+        "freebaseId": "/m/02z428",
+        "relevanceScore": 0.817616,
+        "entityEnglishId": "Simvastatin",
+        "startingPos": 73,
+        "endingPos": 84
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Statin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 7.90448,
+        "wikiLink": "http://en.wikipedia.org/wiki/Statin",
+        "matchedText": "statin",
+        "freebaseId": "/m/0187ml",
+        "relevanceScore": 0.392707,
+        "entityEnglishId": "Statin",
+        "startingPos": 101,
+        "endingPos": 107
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Efficacy",
+        "confidenceScore": 2.25636,
+        "wikiLink": "http://en.wikipedia.org/wiki/Efficacy",
+        "matchedText": "efficacy",
+        "freebaseId": "/m/03mrl3",
+        "relevanceScore": 0,
+        "entityEnglishId": "Efficacy",
+        "startingPos": 119,
+        "endingPos": 127
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 0.914338,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "cardiovascular",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.472177,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 148,
+        "endingPos": 162
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          32,
+          33
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.90292,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "cardiovascular risk",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.326995,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 148,
+        "endingPos": 167
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Risk",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.07532,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk",
+        "matchedText": "risk",
+        "freebaseId": "/m/06d5f",
+        "relevanceScore": 0.260883,
+        "entityEnglishId": "Risk",
+        "startingPos": 163,
+        "endingPos": 167
+      },
+      {
+        "id": 7,
+        "type": [
+          "Date"
+        ],
+        "matchingTokens": [
+          41
+        ],
+        "entityId": "1.9.1",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "1.9.1",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 220,
+        "endingPos": 225
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          45
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 0.914338,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "cardiovascular",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.472177,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 235,
+        "endingPos": 249
+      },
+      {
+        "id": 9,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          45,
+          46
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.90292,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "cardiovascular risk",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.326995,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 235,
+        "endingPos": 254
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          46
+        ],
+        "entityId": "Risk",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.07532,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk",
+        "matchedText": "risk",
+        "freebaseId": "/m/06d5f",
+        "relevanceScore": 0.260883,
+        "entityEnglishId": "Risk",
+        "startingPos": 250,
+        "endingPos": 254
+      },
+      {
+        "id": 11,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          54
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 0.914338,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "cardiovascular",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.472177,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 310,
+        "endingPos": 324
+      },
+      {
+        "id": 12,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          54,
+          55
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.90292,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "cardiovascular risk",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.326995,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 310,
+        "endingPos": 329
+      },
+      {
+        "id": 13,
+        "matchingTokens": [
+          55
+        ],
+        "entityId": "Risk",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.07532,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk",
+        "matchedText": "risk",
+        "freebaseId": "/m/06d5f",
+        "relevanceScore": 0.260883,
+        "entityEnglishId": "Risk",
+        "startingPos": 325,
+        "endingPos": 329
+      },
+      {
+        "id": 14,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          58
+        ],
+        "entityId": "UKPDS",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "UKPDS",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 340,
+        "endingPos": 345
+      },
+      {
+        "id": 15,
+        "matchingTokens": [
+          59
+        ],
+        "entityId": "Risk",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.07532,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk",
+        "matchedText": "risk",
+        "freebaseId": "/m/06d5f",
+        "relevanceScore": 0.260883,
+        "entityEnglishId": "Risk",
+        "startingPos": 346,
+        "endingPos": 350
+      },
+      {
+        "id": 16,
+        "type": [
+          "Date"
+        ],
+        "matchingTokens": [
+          63
+        ],
+        "entityId": "1.9.2",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "1.9.2",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 363,
+        "endingPos": 368
+      },
+      {
+        "id": 17,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          67
+        ],
+        "entityId": "Simvastatin",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors",
+          "/business/consumer_product",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 10.9088,
+        "wikiLink": "http://en.wikipedia.org/wiki/Simvastatin",
+        "matchedText": "simvastatin",
+        "freebaseId": "/m/02z428",
+        "relevanceScore": 0.817616,
+        "entityEnglishId": "Simvastatin",
+        "startingPos": 383,
+        "endingPos": 394
+      },
+      {
+        "id": 18,
+        "matchingTokens": [
+          68
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.88017,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.138418,
+        "entityEnglishId": "Therapy",
+        "startingPos": 395,
+        "endingPos": 402
+      },
+      {
+        "id": 19,
+        "matchingTokens": [
+          77
+        ],
+        "entityId": "Statin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 7.90448,
+        "wikiLink": "http://en.wikipedia.org/wiki/Statin",
+        "matchedText": "statin",
+        "freebaseId": "/m/0187ml",
+        "relevanceScore": 0.392707,
+        "entityEnglishId": "Statin",
+        "startingPos": 420,
+        "endingPos": 426
+      },
+      {
+        "id": 20,
+        "matchingTokens": [
+          80
+        ],
+        "entityId": "Efficacy",
+        "confidenceScore": 2.25636,
+        "wikiLink": "http://en.wikipedia.org/wiki/Efficacy",
+        "matchedText": "efficacy",
+        "freebaseId": "/m/03mrl3",
+        "relevanceScore": 0,
+        "entityEnglishId": "Efficacy",
+        "startingPos": 438,
+        "endingPos": 446
+      },
+      {
+        "id": 21,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          86
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 0.914338,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "cardiovascular",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.472177,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 464,
+        "endingPos": 478
+      },
+      {
+        "id": 22,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          86,
+          87
+        ],
+        "entityId": "Cardiovascular disease",
+        "freebaseTypes": [
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.90292,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cardiovascular_disease",
+        "matchedText": "cardiovascular risk",
+        "freebaseId": "/m/02k6hp",
+        "relevanceScore": 0.326995,
+        "entityEnglishId": "Cardiovascular disease",
+        "startingPos": 464,
+        "endingPos": 483
+      },
+      {
+        "id": 23,
+        "matchingTokens": [
+          87
+        ],
+        "entityId": "Risk",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.07532,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk",
+        "matchedText": "risk",
+        "freebaseId": "/m/06d5f",
+        "relevanceScore": 0.260883,
+        "entityEnglishId": "Risk",
+        "startingPos": 479,
+        "endingPos": 483
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          84,
+          88
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              85,
+              86,
+              87
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              89,
+              90,
+              91,
+              92
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          16,
+          18
+        ],
+        "propertyPositions": [
+          15
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          16,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          22
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          18,
+          19,
+          20,
+          22
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          27
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          23,
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          31,
+          33,
+          34
+        ],
+        "propertyPositions": [
+          32
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          36
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          31,
+          33,
+          34
+        ],
+        "propertyPositions": [
+          35,
+          36
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          23,
+          24,
+          25
+        ],
+        "propertyPositions": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          40,
+          41,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          31,
+          33,
+          34
+        ],
+        "propertyPositions": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          37,
+          38,
+          40,
+          41,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          44,
+          46,
+          47
+        ],
+        "propertyPositions": [
+          45
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          49
+        ],
+        "propertyPositions": [
+          48
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          44,
+          46,
+          47
+        ],
+        "propertyPositions": [
+          48,
+          49
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          44,
+          46,
+          47
+        ],
+        "propertyPositions": [
+          43,
+          50,
+          51
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          55
+        ],
+        "propertyPositions": [
+          54
+        ]
+      },
+      {
+        "id": 16,
+        "wordPositions": [
+          80
+        ],
+        "propertyPositions": [
+          79
+        ]
+      },
+      {
+        "id": 17,
+        "wordPositions": [
+          76,
+          77,
+          78
+        ],
+        "propertyPositions": [
+          79,
+          80,
+          81,
+          82
+        ]
+      },
+      {
+        "id": 18,
+        "wordPositions": [
+          85,
+          87
+        ],
+        "propertyPositions": [
+          86
+        ]
+      }
+    ]
+  },
+  "time": 0.337,
+  "ok": true
+}

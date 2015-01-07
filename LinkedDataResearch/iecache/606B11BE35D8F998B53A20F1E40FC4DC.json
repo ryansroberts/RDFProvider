@@ -1,0 +1,585 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.890812
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.83691
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.834626
+      },
+      {
+        "id": 4,
+        "label": "Weather",
+        "wikiLink": "http://en.wikipedia.org/Category:Weather",
+        "score": 0.834626
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Albuminuria",
+        "wikiLink": "http://en.wikipedia.org/Albuminuria",
+        "score": 0.334474
+      },
+      {
+        "id": 1,
+        "label": "Blood",
+        "wikiLink": "http://en.wikipedia.org/Blood",
+        "score": 0.117804
+      },
+      {
+        "id": 2,
+        "label": "Blood pressure",
+        "wikiLink": "http://en.wikipedia.org/Blood_pressure",
+        "score": 0.192188
+      },
+      {
+        "id": 3,
+        "label": "Hematuria",
+        "wikiLink": "http://en.wikipedia.org/Hematuria",
+        "score": 0.347604
+      },
+      {
+        "id": 4,
+        "label": "Proteinuria",
+        "wikiLink": "http://en.wikipedia.org/Proteinuria",
+        "score": 0.351705
+      },
+      {
+        "id": 5,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.318822
+      },
+      {
+        "id": 6,
+        "label": "Urine",
+        "wikiLink": "http://en.wikipedia.org/Category:Urine",
+        "score": 0.376222
+      },
+      {
+        "id": 7,
+        "label": "Urine tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Urine_tests",
+        "score": 0.376222
+      },
+      {
+        "id": 8,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.376222
+      },
+      {
+        "id": 9,
+        "label": "Abnormal clinical and laboratory findings",
+        "wikiLink": "http://en.wikipedia.org/Category:Abnormal_clinical_and_laboratory_findings",
+        "score": 0.375492
+      },
+      {
+        "id": 10,
+        "label": "Abnormal clinical and laboratory findings for urine",
+        "wikiLink": "http://en.wikipedia.org/Category:Abnormal_clinical_and_laboratory_findings_for_urine",
+        "score": 0.375492
+      },
+      {
+        "id": 11,
+        "label": "Body fluids",
+        "wikiLink": "http://en.wikipedia.org/Category:Body_fluids",
+        "score": 0.0863011
+      },
+      {
+        "id": 12,
+        "label": "Tissues",
+        "wikiLink": "http://en.wikipedia.org/Category:Tissues",
+        "score": 0.0855712
+      },
+      {
+        "id": 13,
+        "label": "Pressure",
+        "wikiLink": "http://en.wikipedia.org/Category:Pressure",
+        "score": 0.0577354
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Hematuria",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 5.35137,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hematuria",
+        "matchedText": "haematuria",
+        "freebaseId": "/m/02sc7d",
+        "relevanceScore": 0.115868,
+        "entityEnglishId": "Hematuria",
+        "startingPos": 21,
+        "endingPos": 31
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Proteinuria",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 9.36691,
+        "wikiLink": "http://en.wikipedia.org/wiki/Proteinuria",
+        "matchedText": "proteinuria",
+        "freebaseId": "/m/012zf3",
+        "relevanceScore": 0.175853,
+        "entityEnglishId": "Proteinuria",
+        "startingPos": 50,
+        "endingPos": 61
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Hematuria",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 5.35137,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hematuria",
+        "matchedText": "haematuria",
+        "freebaseId": "/m/02sc7d",
+        "relevanceScore": 0.115868,
+        "entityEnglishId": "Hematuria",
+        "startingPos": 117,
+        "endingPos": 127
+      },
+      {
+        "id": 3,
+        "type": [
+          "Date"
+        ],
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "1.1.24",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "1.1.24",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 149,
+        "endingPos": 155
+      },
+      {
+        "id": 4,
+        "type": [
+          "Date"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "1.1.25",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "1.1.25",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 160,
+        "endingPos": 166
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Proteinuria",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 9.36691,
+        "wikiLink": "http://en.wikipedia.org/wiki/Proteinuria",
+        "matchedText": "proteinuria",
+        "freebaseId": "/m/012zf3",
+        "relevanceScore": 0.175853,
+        "entityEnglishId": "Proteinuria",
+        "startingPos": 169,
+        "endingPos": 180
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.62164,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "albuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.334474,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 184,
+        "endingPos": 195
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          30
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.66098,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.318822,
+        "entityEnglishId": "Renal function",
+        "startingPos": 197,
+        "endingPos": 200
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Blood",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/food/ingredient",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.88292,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood",
+        "matchedText": "blood",
+        "freebaseId": "/m/019jw",
+        "relevanceScore": 0.117804,
+        "entityEnglishId": "Blood",
+        "startingPos": 205,
+        "endingPos": 210
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          32,
+          33
+        ],
+        "entityId": "Blood pressure",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 2.40202,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_pressure",
+        "matchedText": "blood pressure",
+        "freebaseId": "/m/0fmq1",
+        "relevanceScore": 0.192188,
+        "entityEnglishId": "Blood pressure",
+        "startingPos": 205,
+        "endingPos": 219
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Pressure",
+        "freebaseTypes": [
+          "/measurement_unit/common_dimension",
+          "/medicine/disease_cause",
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 1.11602,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pressure",
+        "matchedText": "pressure",
+        "freebaseId": "/m/05wnx",
+        "relevanceScore": 0.0703425,
+        "entityEnglishId": "Pressure",
+        "startingPos": 211,
+        "endingPos": 219
+      },
+      {
+        "id": 11,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          39
+        ],
+        "entityId": "Hematuria",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 5.35137,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hematuria",
+        "matchedText": "haematuria",
+        "freebaseId": "/m/02sc7d",
+        "relevanceScore": 0.115868,
+        "entityEnglishId": "Hematuria",
+        "startingPos": 246,
+        "endingPos": 256
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          19,
+          35,
+          36
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              14,
+              15,
+              16,
+              17,
+              20,
+              21,
+              22,
+              23,
+              26,
+              27,
+              28,
+              30,
+              31,
+              32,
+              33,
+              34,
+              37,
+              38,
+              39,
+              40
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              14,
+              15,
+              16,
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          37,
+          40
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              38,
+              39
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              35,
+              36,
+              37,
+              38,
+              39,
+              40
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          14,
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17
+        ]
+      }
+    ]
+  },
+  "time": 0.323,
+  "ok": true
+}

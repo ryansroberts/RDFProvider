@@ -1,0 +1,320 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Albuminuria",
+        "wikiLink": "http://en.wikipedia.org/Albuminuria",
+        "score": 0.237095
+      },
+      {
+        "id": 1,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.787182
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.44488,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.393591,
+        "entityEnglishId": "Renal function",
+        "startingPos": 55,
+        "endingPos": 58
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Prevalence",
+        "confidenceScore": 1.44705,
+        "wikiLink": "http://en.wikipedia.org/wiki/Prevalence",
+        "matchedText": "prevalence",
+        "freebaseId": "/m/0y25r",
+        "relevanceScore": 0,
+        "entityEnglishId": "Prevalence",
+        "startingPos": 81,
+        "endingPos": 91
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "normo",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "normo",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 96,
+        "endingPos": 101
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.85068,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "macroalbuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.118547,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 115,
+        "endingPos": 131
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          41
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.44488,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.393591,
+        "entityEnglishId": "Renal function",
+        "startingPos": 196,
+        "endingPos": 199
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          47
+        ],
+        "entityId": "Prevalence",
+        "confidenceScore": 1.14328,
+        "wikiLink": "http://en.wikipedia.org/wiki/Prevalence",
+        "matchedText": "prevalence",
+        "freebaseId": "/m/0y25r",
+        "relevanceScore": 0,
+        "entityEnglishId": "Prevalence",
+        "startingPos": 223,
+        "endingPos": 233
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          55
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.85068,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "macroalbuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.118547,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 256,
+        "endingPos": 272
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          39,
+          54,
+          56
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              52,
+              55
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          4
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          2,
+          4,
+          5,
+          7,
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              3,
+              6,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          46,
+          47,
+          48
+        ],
+        "propertyPositions": [
+          49
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

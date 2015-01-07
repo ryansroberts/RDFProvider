@@ -160,4 +160,5 @@ let server url db =
                                        error_handler    = default_error_handler
                                        logger           = Loggers.sane_defaults_for Debug
                                        listen_timeout   = System.TimeSpan.FromMilliseconds 2000.
+                                       bindings = [ HttpBinding.Create(HTTP, "0.0.0.0", 8030);  ]
                       }

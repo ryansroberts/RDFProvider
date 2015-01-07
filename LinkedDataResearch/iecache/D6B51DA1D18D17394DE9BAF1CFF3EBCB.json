@@ -1,0 +1,640 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.52914
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.254806
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Alpha-glucosidase",
+        "wikiLink": "http://en.wikipedia.org/Alpha-glucosidase",
+        "score": 0.288721
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Gliclazide",
+        "wikiLink": "http://en.wikipedia.org/Gliclazide",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Glimepiride",
+        "wikiLink": "http://en.wikipedia.org/Glimepiride",
+        "score": 0.84158
+      },
+      {
+        "id": 4,
+        "label": "Metformin",
+        "wikiLink": "http://en.wikipedia.org/Metformin",
+        "score": 1
+      },
+      {
+        "id": 5,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 1
+      },
+      {
+        "id": 6,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.610784
+      },
+      {
+        "id": 7,
+        "label": "Anti-diabetic drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Anti-diabetic_drugs",
+        "score": 0.535105
+      },
+      {
+        "id": 8,
+        "label": "Amides",
+        "wikiLink": "http://en.wikipedia.org/Category:Amides",
+        "score": 0.0850068
+      },
+      {
+        "id": 9,
+        "label": "Organosulfur compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organosulfur_compounds",
+        "score": 0.0678946
+      },
+      {
+        "id": 10,
+        "label": "Sulfonylureas",
+        "wikiLink": "http://en.wikipedia.org/Category:Sulfonylureas",
+        "score": 0.0651199
+      },
+      {
+        "id": 11,
+        "label": "Sulfonamides",
+        "wikiLink": "http://en.wikipedia.org/Category:Sulfonamides",
+        "score": 0.0651199
+      },
+      {
+        "id": 12,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.0606285
+      },
+      {
+        "id": 13,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.00274734
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Gliclazide",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 2.14193,
+        "wikiLink": "http://en.wikipedia.org/wiki/Gliclazide",
+        "matchedText": "gliclazide",
+        "freebaseId": "/m/0dhb9g",
+        "relevanceScore": 0.517607,
+        "entityEnglishId": "Gliclazide",
+        "startingPos": 35,
+        "endingPos": 45
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Glimepiride",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.37709,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glimepiride",
+        "matchedText": "glimepiride",
+        "freebaseId": "/m/01lmkg",
+        "relevanceScore": 0.42079,
+        "entityEnglishId": "Glimepiride",
+        "startingPos": 64,
+        "endingPos": 75
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.88543,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "Type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.890032,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 92,
+        "endingPos": 98
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14,
+          15,
+          16
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 6.26222,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "Type 2 diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.457507,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 92,
+        "endingPos": 107
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.05942,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.504921,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 99,
+        "endingPos": 107
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Diet (nutrition)",
+        "freebaseTypes": [
+          "/business/industry",
+          "/internet/website_category",
+          "/medicine/condition_prevention_factors",
+          "/book/book_subject",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.00646,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diet_(nutrition)",
+        "matchedText": "diet",
+        "freebaseId": "/m/02zkwn",
+        "relevanceScore": 0.0658837,
+        "entityEnglishId": "Diet (nutrition)",
+        "startingPos": 127,
+        "endingPos": 131
+      },
+      {
+        "id": 6,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 12.9876,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.678967,
+        "entityEnglishId": "Metformin",
+        "startingPos": 153,
+        "endingPos": 162
+      },
+      {
+        "id": 7,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          27
+        ],
+        "entityId": "Alpha-glucosidase",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 2.60766,
+        "wikiLink": "http://en.wikipedia.org/wiki/Alpha-glucosidase",
+        "matchedText": "alpha-glucosidase",
+        "freebaseId": "/m/02p9w35",
+        "relevanceScore": 0.14436,
+        "entityEnglishId": "Alpha-glucosidase",
+        "startingPos": 166,
+        "endingPos": 183
+      },
+      {
+        "id": 8,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "inhibitors:both",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "inhibitors:both",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 185,
+        "endingPos": 200
+      },
+      {
+        "id": 9,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          37,
+          38
+        ],
+        "entityId": "glycaemic control",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "glycaemic control",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 250,
+        "endingPos": 267
+      },
+      {
+        "id": 10,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          46
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 12.1715,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.678967,
+        "entityEnglishId": "Metformin",
+        "startingPos": 299,
+        "endingPos": 308
+      },
+      {
+        "id": 11,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          48
+        ],
+        "entityId": "Alpha-glucosidase",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 2.60766,
+        "wikiLink": "http://en.wikipedia.org/wiki/Alpha-glucosidase",
+        "matchedText": "alpha-glucosidase",
+        "freebaseId": "/m/02p9w35",
+        "relevanceScore": 0.14436,
+        "entityEnglishId": "Alpha-glucosidase",
+        "startingPos": 312,
+        "endingPos": 329
+      },
+      {
+        "id": 12,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          51
+        ],
+        "entityId": "Gliclazide",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 2.14193,
+        "wikiLink": "http://en.wikipedia.org/wiki/Gliclazide",
+        "matchedText": "gliclazide",
+        "freebaseId": "/m/0dhb9g",
+        "relevanceScore": 0.517607,
+        "entityEnglishId": "Gliclazide",
+        "startingPos": 342,
+        "endingPos": 352
+      },
+      {
+        "id": 13,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          59
+        ],
+        "entityId": "Glimepiride",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 2.37709,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glimepiride",
+        "matchedText": "glimepiride",
+        "freebaseId": "/m/01lmkg",
+        "relevanceScore": 0.42079,
+        "entityEnglishId": "Glimepiride",
+        "startingPos": 389,
+        "endingPos": 400
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          17,
+          18,
+          19,
+          22
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              14,
+              15,
+              16
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              20,
+              21,
+              23,
+              24,
+              25,
+              26,
+              27
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          6,
+          7,
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              10,
+              11,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          53
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              51,
+              52
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              54,
+              55,
+              56,
+              57,
+              58,
+              59
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          29,
+          30
+        ],
+        "propertyPositions": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          40,
+          41,
+          42
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          38
+        ],
+        "propertyPositions": [
+          37
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          35,
+          36
+        ],
+        "propertyPositions": [
+          37,
+          38
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          1,
+          3,
+          4
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          1,
+          3,
+          4
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          44,
+          45
+        ],
+        "propertyPositions": [
+          46,
+          47,
+          48,
+          49
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          54,
+          56,
+          57,
+          58
+        ],
+        "propertyPositions": [
+          55
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          54,
+          56,
+          57,
+          58
+        ],
+        "propertyPositions": [
+          59
+        ]
+      }
+    ]
+  },
+  "time": 0.32,
+  "ok": true
+}

@@ -1,0 +1,813 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.940544
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.719629
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.652136
+      },
+      {
+        "id": 4,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.365142
+      },
+      {
+        "id": 5,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.318691
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chronic kidney disease",
+        "wikiLink": "http://en.wikipedia.org/Chronic_kidney_disease",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Creatinine",
+        "wikiLink": "http://en.wikipedia.org/Creatinine",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Incidence (epidemiology)",
+        "wikiLink": "http://en.wikipedia.org/Incidence_(epidemiology)",
+        "score": 0.500821
+      },
+      {
+        "id": 3,
+        "label": "Losartan",
+        "wikiLink": "http://en.wikipedia.org/Losartan",
+        "score": 0.185957
+      },
+      {
+        "id": 4,
+        "label": "Petroleum",
+        "wikiLink": "http://en.wikipedia.org/Petroleum",
+        "score": 0.130844
+      },
+      {
+        "id": 5,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.475346
+      },
+      {
+        "id": 6,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.407612
+      },
+      {
+        "id": 7,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.349666
+      },
+      {
+        "id": 8,
+        "label": "Euthenics",
+        "wikiLink": "http://en.wikipedia.org/Category:Euthenics",
+        "score": 0.132737
+      },
+      {
+        "id": 9,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.0893175
+      },
+      {
+        "id": 10,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.0390145
+      },
+      {
+        "id": 11,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.0383246
+      },
+      {
+        "id": 12,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.0244431
+      },
+      {
+        "id": 13,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0144715
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Incidence (epidemiology)",
+        "confidenceScore": 1.34249,
+        "wikiLink": "http://en.wikipedia.org/wiki/Incidence_(epidemiology)",
+        "matchedText": "incidence",
+        "freebaseId": "/m/0169mv",
+        "relevanceScore": 0.250411,
+        "entityEnglishId": "Incidence (epidemiology)",
+        "startingPos": 36,
+        "endingPos": 45
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.31417,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "ESRD",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.693367,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 49,
+        "endingPos": 53
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Serum (blood)",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 2.34986,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_(blood)",
+        "matchedText": "serum",
+        "freebaseId": "/m/07s8fsr",
+        "relevanceScore": 0.0379102,
+        "entityEnglishId": "Serum (blood)",
+        "startingPos": 88,
+        "endingPos": 93
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 2.4648,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "serum creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.570191,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 88,
+        "endingPos": 104
+      },
+      {
+        "id": 4,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 8.38015,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.818495,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 94,
+        "endingPos": 104
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Concentration",
+        "confidenceScore": 1.26487,
+        "wikiLink": "http://en.wikipedia.org/wiki/Concentration",
+        "matchedText": "concentration",
+        "freebaseId": "/m/023qq",
+        "relevanceScore": 0,
+        "entityEnglishId": "Concentration",
+        "startingPos": 105,
+        "endingPos": 118
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          46
+        ],
+        "entityId": "Petroleum",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound",
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 1.01116,
+        "wikiLink": "http://en.wikipedia.org/wiki/Petroleum",
+        "matchedText": "crude",
+        "freebaseId": "/m/05r_j",
+        "relevanceScore": 0.130844,
+        "entityEnglishId": "Petroleum",
+        "startingPos": 237,
+        "endingPos": 242
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          47
+        ],
+        "entityId": "Incidence (epidemiology)",
+        "confidenceScore": 1.34249,
+        "wikiLink": "http://en.wikipedia.org/wiki/Incidence_(epidemiology)",
+        "matchedText": "incidence",
+        "freebaseId": "/m/0169mv",
+        "relevanceScore": 0.250411,
+        "entityEnglishId": "Incidence (epidemiology)",
+        "startingPos": 243,
+        "endingPos": 252
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          49
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.31417,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "ESRD",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.693367,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 256,
+        "endingPos": 260
+      },
+      {
+        "id": 9,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          91
+        ],
+        "entityId": "Losartan",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 3.09712,
+        "wikiLink": "http://en.wikipedia.org/wiki/Losartan",
+        "matchedText": "losartan",
+        "freebaseId": "/m/072klj",
+        "relevanceScore": 0.185957,
+        "entityEnglishId": "Losartan",
+        "startingPos": 446,
+        "endingPos": 454
+      },
+      {
+        "id": 10,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          96
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.31417,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "ESRD",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.693367,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 477,
+        "endingPos": 481
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          89
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              87,
+              88
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              100,
+              102,
+              103,
+              104,
+              105,
+              106,
+              108,
+              110,
+              111,
+              112,
+              113
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          92,
+          97,
+          102,
+          105
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              91
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              90,
+              93,
+              94,
+              95,
+              96,
+              98,
+              100,
+              103,
+              104,
+              106,
+              108,
+              110,
+              111,
+              112,
+              113
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          92,
+          93,
+          94,
+          95,
+          97,
+          102,
+          105
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              91
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              90,
+              96,
+              98,
+              100,
+              103,
+              104,
+              106,
+              108,
+              110,
+              111,
+              112,
+              113
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          40,
+          41,
+          42,
+          51,
+          52,
+          53
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              43,
+              50,
+              54,
+              55,
+              57,
+              58,
+              60,
+              61,
+              63,
+              64,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              73,
+              74,
+              76,
+              78,
+              79,
+              80,
+              81,
+              83,
+              84
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          42,
+          51,
+          52,
+          53
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              40,
+              41,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              43,
+              50,
+              54,
+              55,
+              57,
+              58,
+              60,
+              61,
+              63,
+              64,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              73,
+              74,
+              76,
+              78,
+              79,
+              80,
+              81,
+              83,
+              84
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          93,
+          94,
+          95
+        ],
+        "propertyPositions": [
+          96
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          112,
+          113
+        ],
+        "propertyPositions": [
+          111
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          30
+        ],
+        "propertyPositions": [
+          25
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          37
+        ],
+        "propertyPositions": [
+          32
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "propertyPositions": [
+          18,
+          20,
+          21,
+          22,
+          23,
+          25,
+          27,
+          28,
+          29,
+          30,
+          32,
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16,
+          18,
+          20,
+          21,
+          22,
+          23,
+          25,
+          27,
+          28,
+          29,
+          30,
+          32,
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          44,
+          46,
+          47,
+          48
+        ],
+        "propertyPositions": [
+          45
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          44,
+          46,
+          47,
+          48
+        ],
+        "propertyPositions": [
+          49
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          54,
+          58
+        ],
+        "propertyPositions": [
+          55
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          66,
+          67,
+          68,
+          69
+        ],
+        "propertyPositions": [
+          61
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          66,
+          67,
+          68,
+          69
+        ],
+        "propertyPositions": [
+          63,
+          64
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          74
+        ],
+        "propertyPositions": [
+          71
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          70,
+          78,
+          79,
+          80
+        ],
+        "propertyPositions": [
+          76
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          70,
+          78,
+          79,
+          80
+        ],
+        "propertyPositions": [
+          81
+        ]
+      },
+      {
+        "id": 16,
+        "wordPositions": [
+          66,
+          67,
+          68,
+          69
+        ],
+        "propertyPositions": [
+          70,
+          71,
+          73,
+          74,
+          76,
+          78,
+          79,
+          80,
+          81,
+          83,
+          84
+        ]
+      }
+    ]
+  },
+  "time": 0.333,
+  "ok": true
+}

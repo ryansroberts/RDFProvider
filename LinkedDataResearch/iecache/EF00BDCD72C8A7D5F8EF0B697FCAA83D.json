@@ -1,0 +1,243 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.510117
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.489883
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.468054
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.468054
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Gastroparesis",
+        "wikiLink": "http://en.wikipedia.org/Gastroparesis",
+        "score": 0.277636
+      },
+      {
+        "id": 1,
+        "label": "Vomiting",
+        "wikiLink": "http://en.wikipedia.org/Vomiting",
+        "score": 0.179946
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Gastroparesis",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.25193,
+        "wikiLink": "http://en.wikipedia.org/wiki/Gastroparesis",
+        "matchedText": "gastroparesis",
+        "freebaseId": "/m/02w1n2",
+        "relevanceScore": 0.277636,
+        "entityEnglishId": "Gastroparesis",
+        "startingPos": 3,
+        "endingPos": 16
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Differential diagnosis",
+        "confidenceScore": 2.67635,
+        "wikiLink": "http://en.wikipedia.org/wiki/Differential_diagnosis",
+        "matchedText": "differential diagnosis",
+        "freebaseId": "/m/03pj48",
+        "relevanceScore": 0.0545391,
+        "entityEnglishId": "Differential diagnosis",
+        "startingPos": 81,
+        "endingPos": 103
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Vomiting",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 2.51545,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vomiting",
+        "matchedText": "vomiting",
+        "freebaseId": "/m/012qjw",
+        "relevanceScore": 0.179946,
+        "entityEnglishId": "Vomiting",
+        "startingPos": 142,
+        "endingPos": 150
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          2,
+          3
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              13,
+              14,
+              15
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              18,
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              8,
+              9
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          25
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13,
+          14,
+          15
+        ],
+        "propertyPositions": [
+          18,
+          20
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9
+        ],
+        "propertyPositions": [
+          8
+        ]
+      }
+    ]
+  },
+  "time": 0.307,
+  "ok": true
+}

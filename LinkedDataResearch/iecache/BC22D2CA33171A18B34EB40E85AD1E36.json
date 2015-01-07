@@ -1,0 +1,527 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Millimeter of mercury",
+        "wikiLink": "http://en.wikipedia.org/Millimeter_of_mercury",
+        "score": 0.183205
+      },
+      {
+        "id": 1,
+        "label": "Stroke",
+        "wikiLink": "http://en.wikipedia.org/Stroke",
+        "score": 0.243739
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Millimeter of mercury",
+        "confidenceScore": 1.80712,
+        "wikiLink": "http://en.wikipedia.org/wiki/Millimeter_of_mercury",
+        "matchedText": "mmHg",
+        "freebaseId": "/m/0r3vbng",
+        "relevanceScore": 0.0305342,
+        "entityEnglishId": "Millimeter of mercury",
+        "startingPos": 74,
+        "endingPos": 78
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Millimeter of mercury",
+        "confidenceScore": 1.80712,
+        "wikiLink": "http://en.wikipedia.org/wiki/Millimeter_of_mercury",
+        "matchedText": "mmHg",
+        "freebaseId": "/m/0r3vbng",
+        "relevanceScore": 0.0305342,
+        "entityEnglishId": "Millimeter of mercury",
+        "startingPos": 155,
+        "endingPos": 159
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          50
+        ],
+        "entityId": "Millimeter of mercury",
+        "confidenceScore": 1.80712,
+        "wikiLink": "http://en.wikipedia.org/wiki/Millimeter_of_mercury",
+        "matchedText": "mmHg",
+        "freebaseId": "/m/0r3vbng",
+        "relevanceScore": 0.0305342,
+        "entityEnglishId": "Millimeter of mercury",
+        "startingPos": 260,
+        "endingPos": 264
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          62
+        ],
+        "entityId": "Millimeter of mercury",
+        "confidenceScore": 1.80712,
+        "wikiLink": "http://en.wikipedia.org/wiki/Millimeter_of_mercury",
+        "matchedText": "mmHg",
+        "freebaseId": "/m/0r3vbng",
+        "relevanceScore": 0.0305342,
+        "entityEnglishId": "Millimeter of mercury",
+        "startingPos": 309,
+        "endingPos": 313
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          73
+        ],
+        "entityId": "Stroke",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/risk_factor",
+          "/organization/organization_sector",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.35246,
+        "wikiLink": "http://en.wikipedia.org/wiki/Stroke",
+        "matchedText": "stroke",
+        "freebaseId": "/m/02y0js",
+        "relevanceScore": 0.243739,
+        "entityEnglishId": "Stroke",
+        "startingPos": 348,
+        "endingPos": 354
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          77
+        ],
+        "entityId": "Millimeter of mercury",
+        "confidenceScore": 1.80712,
+        "wikiLink": "http://en.wikipedia.org/wiki/Millimeter_of_mercury",
+        "matchedText": "mmHg",
+        "freebaseId": "/m/0r3vbng",
+        "relevanceScore": 0.0305342,
+        "entityEnglishId": "Millimeter of mercury",
+        "startingPos": 364,
+        "endingPos": 368
+      },
+      {
+        "id": 6,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          88
+        ],
+        "entityId": "DBP",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "DBP",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 407,
+        "endingPos": 410
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          111
+        ],
+        "entityId": "Millimeter of mercury",
+        "confidenceScore": 1.80712,
+        "wikiLink": "http://en.wikipedia.org/wiki/Millimeter_of_mercury",
+        "matchedText": "mmHg",
+        "freebaseId": "/m/0r3vbng",
+        "relevanceScore": 0.0305342,
+        "entityEnglishId": "Millimeter of mercury",
+        "startingPos": 519,
+        "endingPos": 523
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              10,
+              11,
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          85,
+          86
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              83,
+              84
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          85,
+          86,
+          90,
+          91
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              83,
+              84,
+              88
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              87,
+              89,
+              92,
+              93,
+              94,
+              95
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          23
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              22
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              24,
+              25,
+              27,
+              28,
+              31,
+              32
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          106
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              105
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              107,
+              108,
+              110,
+              111,
+              114,
+              115
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          57
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              56
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              58,
+              59,
+              61,
+              62,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          71
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              70
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              72,
+              73
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          77
+        ],
+        "propertyPositions": [
+          80,
+          81
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          2
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          88
+        ],
+        "propertyPositions": [
+          87,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          92,
+          93
+        ],
+        "propertyPositions": [
+          94,
+          95
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          28
+        ],
+        "propertyPositions": [
+          31,
+          32
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          40,
+          41,
+          42,
+          43
+        ],
+        "propertyPositions": [
+          44,
+          45,
+          46,
+          47,
+          49,
+          50
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          31,
+          32
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          111
+        ],
+        "propertyPositions": [
+          114,
+          115
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          107,
+          108
+        ],
+        "propertyPositions": [
+          110,
+          111,
+          114,
+          115
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          97,
+          98
+        ],
+        "propertyPositions": [
+          100,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          110,
+          111,
+          114,
+          115
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          58,
+          59
+        ],
+        "propertyPositions": [
+          61,
+          62,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ]
+      }
+    ]
+  },
+  "time": 0.318,
+  "ok": true
+}

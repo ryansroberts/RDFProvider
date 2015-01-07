@@ -1,0 +1,376 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.354016
+      },
+      {
+        "id": 2,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.289497
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.285469
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.281123
+      },
+      {
+        "id": 5,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.27341
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "ACE inhibitor",
+        "wikiLink": "http://en.wikipedia.org/ACE_inhibitor",
+        "score": 0.561491
+      },
+      {
+        "id": 1,
+        "label": "Calcium channel",
+        "wikiLink": "http://en.wikipedia.org/Calcium_channel",
+        "score": 0.101638
+      },
+      {
+        "id": 2,
+        "label": "Calcium channel blocker",
+        "wikiLink": "http://en.wikipedia.org/Calcium_channel_blocker",
+        "score": 0.248675
+      },
+      {
+        "id": 3,
+        "label": "Diuretic",
+        "wikiLink": "http://en.wikipedia.org/Diuretic",
+        "score": 0.319174
+      },
+      {
+        "id": 4,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.203958
+      },
+      {
+        "id": 5,
+        "label": "Antihypertensive agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Antihypertensive_agents",
+        "score": 0.710084
+      },
+      {
+        "id": 6,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.620898
+      },
+      {
+        "id": 7,
+        "label": "Ion channels",
+        "wikiLink": "http://en.wikipedia.org/Category:Ion_channels",
+        "score": 0.42478
+      },
+      {
+        "id": 8,
+        "label": "Hypertension",
+        "wikiLink": "http://en.wikipedia.org/Category:Hypertension",
+        "score": 0.329519
+      },
+      {
+        "id": 9,
+        "label": "Antiarrhythmic agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Antiarrhythmic_agents",
+        "score": 0.161526
+      },
+      {
+        "id": 10,
+        "label": "Ion channel blockers",
+        "wikiLink": "http://en.wikipedia.org/Category:Ion_channel_blockers",
+        "score": 0.10894
+      },
+      {
+        "id": 11,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0892313
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Blood",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/food/ingredient",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.44689,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood",
+        "matchedText": "blood",
+        "freebaseId": "/m/019jw",
+        "relevanceScore": 0.0308011,
+        "entityEnglishId": "Blood",
+        "startingPos": 15,
+        "endingPos": 20
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.23188,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.203958,
+        "entityEnglishId": "Therapy",
+        "startingPos": 39,
+        "endingPos": 46
+      },
+      {
+        "id": 2,
+        "type": [
+          "EthnicGroup"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "British African-Caribbean people",
+        "freebaseTypes": [
+          "/people/ethnicity"
+        ],
+        "confidenceScore": 1.54236,
+        "wikiLink": "http://en.wikipedia.org/wiki/British_African-Caribbean_people",
+        "matchedText": "African-Caribbean",
+        "freebaseId": "/m/0dtkkb",
+        "relevanceScore": 0.0486254,
+        "entityEnglishId": "British African-Caribbean people",
+        "startingPos": 63,
+        "endingPos": 80
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "ACE inhibitor",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 12.123,
+        "wikiLink": "http://en.wikipedia.org/wiki/ACE_inhibitor",
+        "matchedText": "ACE inhibitor",
+        "freebaseId": "/m/0110z",
+        "relevanceScore": 0.561491,
+        "entityEnglishId": "ACE inhibitor",
+        "startingPos": 102,
+        "endingPos": 115
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Diuretic",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 7.20007,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diuretic",
+        "matchedText": "diuretic",
+        "freebaseId": "/m/02hn3",
+        "relevanceScore": 0.319174,
+        "entityEnglishId": "Diuretic",
+        "startingPos": 130,
+        "endingPos": 138
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Calcium",
+        "freebaseTypes": [
+          "/chemistry/chemical_element",
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/food/nutrient",
+          "/medicine/drug",
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 1.77042,
+        "wikiLink": "http://en.wikipedia.org/wiki/Calcium",
+        "matchedText": "calcium",
+        "freebaseId": "/m/025tkqy",
+        "relevanceScore": 0.062044,
+        "entityEnglishId": "Calcium",
+        "startingPos": 152,
+        "endingPos": 159
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          23,
+          24
+        ],
+        "entityId": "Calcium channel",
+        "confidenceScore": 3.04108,
+        "wikiLink": "http://en.wikipedia.org/wiki/Calcium_channel",
+        "matchedText": "calcium channel",
+        "freebaseId": "/m/02vk82k",
+        "relevanceScore": 0.101638,
+        "entityEnglishId": "Calcium channel",
+        "startingPos": 152,
+        "endingPos": 167
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          23,
+          24,
+          25
+        ],
+        "entityId": "Calcium channel blocker",
+        "freebaseTypes": [
+          "/medicine/drug_class",
+          "/law/invention",
+          "/medicine/risk_factor",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 9.09553,
+        "wikiLink": "http://en.wikipedia.org/wiki/Calcium_channel_blocker",
+        "matchedText": "calcium channel blocker",
+        "freebaseId": "/m/01lgk8",
+        "relevanceScore": 0.248675,
+        "entityEnglishId": "Calcium channel blocker",
+        "startingPos": 152,
+        "endingPos": 175
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          10
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          9,
+          10
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          21,
+          23,
+          24,
+          25
+        ],
+        "propertyPositions": [
+          22
+        ]
+      }
+    ]
+  },
+  "time": 0.323,
+  "ok": true
+}

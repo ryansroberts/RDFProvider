@@ -1,0 +1,141 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.459319
+      },
+      {
+        "id": 2,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.459319
+      },
+      {
+        "id": 3,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.459319
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cancer",
+        "wikiLink": "http://en.wikipedia.org/Cancer",
+        "score": 0.153915
+      },
+      {
+        "id": 1,
+        "label": "Preterm birth",
+        "wikiLink": "http://en.wikipedia.org/Preterm_birth",
+        "score": 0.342705
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Preterm birth",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 0.963367,
+        "wikiLink": "http://en.wikipedia.org/wiki/Preterm_birth",
+        "matchedText": "premature",
+        "freebaseId": "/m/027hpx",
+        "relevanceScore": 0.342705,
+        "entityEnglishId": "Preterm birth",
+        "startingPos": 8,
+        "endingPos": 17
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Cancer",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/people/cause_of_death",
+          "/education/field_of_study",
+          "/medicine/disease_cause",
+          "/book/book_subject",
+          "/book/periodical_subject",
+          "/tv/tv_subject",
+          "/organization/organization_sector",
+          "/medicine/icd_9_cm_classification",
+          "/media_common/quotation_subject",
+          "/film/film_subject",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.78539,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cancer",
+        "matchedText": "cancer",
+        "freebaseId": "/m/0qcr0",
+        "relevanceScore": 0.153915,
+        "entityEnglishId": "Cancer",
+        "startingPos": 33,
+        "endingPos": 39
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4
+        ]
+      }
+    ]
+  },
+  "time": 0.303,
+  "ok": true
+}

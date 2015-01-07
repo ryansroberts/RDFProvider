@@ -1,0 +1,458 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.958182
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.652396
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.570924
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.534463
+      },
+      {
+        "id": 5,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.503781
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Sensitivity and specificity",
+        "wikiLink": "http://en.wikipedia.org/Sensitivity_and_specificity",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Urine",
+        "wikiLink": "http://en.wikipedia.org/Urine",
+        "score": 0.202264
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Sensitivity and specificity",
+        "confidenceScore": 1.66555,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sensitivity_and_specificity",
+        "matchedText": "specificity",
+        "freebaseId": "/m/047vmjj",
+        "relevanceScore": 0.542671,
+        "entityEnglishId": "Sensitivity and specificity",
+        "startingPos": 34,
+        "endingPos": 45
+      },
+      {
+        "id": 1,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "UAC",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "UAC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 49,
+        "endingPos": 52
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "UACR",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "UACR",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 57,
+        "endingPos": 61
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Sensitivity and specificity",
+        "confidenceScore": 1.39225,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sensitivity_and_specificity",
+        "matchedText": "sensitivity",
+        "freebaseId": "/m/047vmjj",
+        "relevanceScore": 0.35301,
+        "entityEnglishId": "Sensitivity and specificity",
+        "startingPos": 101,
+        "endingPos": 112
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Sensitivity and specificity",
+        "confidenceScore": 1.39225,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sensitivity_and_specificity",
+        "matchedText": "sensitivity",
+        "freebaseId": "/m/047vmjj",
+        "relevanceScore": 0.35301,
+        "entityEnglishId": "Sensitivity and specificity",
+        "startingPos": 133,
+        "endingPos": 144
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          23,
+          24,
+          25
+        ],
+        "entityId": "Sensitivity and specificity",
+        "confidenceScore": 2.27906,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sensitivity_and_specificity",
+        "matchedText": "sensitivity and specificity",
+        "freebaseId": "/m/047vmjj",
+        "relevanceScore": 0.207247,
+        "entityEnglishId": "Sensitivity and specificity",
+        "startingPos": 133,
+        "endingPos": 160
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Sensitivity and specificity",
+        "confidenceScore": 1.66555,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sensitivity_and_specificity",
+        "matchedText": "specificity",
+        "freebaseId": "/m/047vmjj",
+        "relevanceScore": 0.542671,
+        "entityEnglishId": "Sensitivity and specificity",
+        "startingPos": 149,
+        "endingPos": 160
+      },
+      {
+        "id": 7,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          28,
+          29
+        ],
+        "entityId": "Micral-Test II",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Micral-Test II",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 168,
+        "endingPos": 182
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          46
+        ],
+        "entityId": "Urine",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 2.30825,
+        "wikiLink": "http://en.wikipedia.org/wiki/Urine",
+        "matchedText": "urine",
+        "freebaseId": "/m/0b7q43",
+        "relevanceScore": 0.202264,
+        "entityEnglishId": "Urine",
+        "startingPos": 258,
+        "endingPos": 263
+      },
+      {
+        "id": 9,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          50
+        ],
+        "entityId": "ROC",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "ROC",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 281,
+        "endingPos": 284
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          52
+        ],
+        "entityId": "Curve",
+        "confidenceScore": 1.27414,
+        "wikiLink": "http://en.wikipedia.org/wiki/Curve",
+        "matchedText": "curve",
+        "freebaseId": "/m/0m8xx",
+        "relevanceScore": 0.0643485,
+        "entityEnglishId": "Curve",
+        "startingPos": 286,
+        "endingPos": 291
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              11,
+              13,
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          12,
+          13,
+          14
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              11
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          52,
+          53
+        ],
+        "propertyPositions": [
+          55,
+          57,
+          58,
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          22,
+          23,
+          26,
+          31
+        ],
+        "propertyPositions": [
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          2
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          5,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          5,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          4,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          33,
+          37,
+          39,
+          40,
+          41,
+          44,
+          48,
+          49
+        ],
+        "propertyPositions": [
+          34,
+          35
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          33,
+          37,
+          39,
+          40,
+          41,
+          44,
+          48,
+          49
+        ],
+        "propertyPositions": [
+          36
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          46,
+          47
+        ],
+        "propertyPositions": [
+          45
+        ]
+      }
+    ]
+  },
+  "time": 0.322,
+  "ok": true
+}

@@ -1,0 +1,353 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chronic kidney disease",
+        "wikiLink": "http://en.wikipedia.org/Chronic_kidney_disease",
+        "score": 0.352272
+      },
+      {
+        "id": 1,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Sensitivity and specificity",
+        "wikiLink": "http://en.wikipedia.org/Sensitivity_and_specificity",
+        "score": 0.45698
+      },
+      {
+        "id": 3,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.499924
+      },
+      {
+        "id": 4,
+        "label": "Renal physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Renal_physiology",
+        "score": 0.186998
+      },
+      {
+        "id": 5,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.186998
+      },
+      {
+        "id": 6,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.186998
+      },
+      {
+        "id": 7,
+        "label": "Physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Physiology",
+        "score": 0.186998
+      },
+      {
+        "id": 8,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.186998
+      },
+      {
+        "id": 9,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.186998
+      },
+      {
+        "id": 10,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.0966833
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          5,
+          6,
+          7
+        ],
+        "entityId": "Sensitivity and specificity",
+        "confidenceScore": 2.20328,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sensitivity_and_specificity",
+        "matchedText": "sensitivity and specificity",
+        "freebaseId": "/m/047vmjj",
+        "relevanceScore": 0.0571326,
+        "entityEnglishId": "Sensitivity and specificity",
+        "startingPos": 27,
+        "endingPos": 54
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Sensitivity and specificity",
+        "confidenceScore": 1.34413,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sensitivity_and_specificity",
+        "matchedText": "specificity",
+        "freebaseId": "/m/047vmjj",
+        "relevanceScore": 0.399848,
+        "entityEnglishId": "Sensitivity and specificity",
+        "startingPos": 43,
+        "endingPos": 54
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "entityId": "Integral",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.79093,
+        "wikiLink": "http://en.wikipedia.org/wiki/Integral",
+        "matchedText": "area under the curve",
+        "freebaseId": "/m/03_14",
+        "relevanceScore": 0.0784748,
+        "entityEnglishId": "Integral",
+        "startingPos": 58,
+        "endingPos": 78
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.01763,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "CKD",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.352272,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 83,
+        "endingPos": 86
+      },
+      {
+        "id": 4,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "CKD EPI",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "CKD EPI",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 83,
+        "endingPos": 90
+      },
+      {
+        "id": 5,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.74595,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.0311233,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 92,
+        "endingPos": 102
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.23532,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "MDRD",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 1,
+        "entityEnglishId": "Renal function",
+        "startingPos": 115,
+        "endingPos": 119
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23,
+          24,
+          25,
+          26
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              21,
+              22
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              27,
+              28,
+              29
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          27,
+          29
+        ],
+        "propertyPositions": [
+          28
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          10,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          10,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          10,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

@@ -1,0 +1,138 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Proteinuria",
+        "wikiLink": "http://en.wikipedia.org/Proteinuria",
+        "score": 0.198876
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Knock-down kit",
+        "confidenceScore": 2.10121,
+        "wikiLink": "http://en.wikipedia.org/wiki/Knock-down_kit",
+        "matchedText": "CKD",
+        "freebaseId": "/m/04p2lp",
+        "relevanceScore": 0.0662386,
+        "entityEnglishId": "Knock-down kit",
+        "startingPos": 57,
+        "endingPos": 60
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          33
+        ],
+        "entityId": "Proteinuria",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.60447,
+        "wikiLink": "http://en.wikipedia.org/wiki/Proteinuria",
+        "matchedText": "proteinuria",
+        "freebaseId": "/m/012zf3",
+        "relevanceScore": 0.198876,
+        "entityEnglishId": "Proteinuria",
+        "startingPos": 166,
+        "endingPos": 177
+      },
+      {
+        "id": 2,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "albumin:creatinine",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "albumin:creatinine",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 179,
+        "endingPos": 197
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Ratio",
+        "freebaseTypes": [
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 0.990212,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ratio",
+        "matchedText": "ratio",
+        "freebaseId": "/m/0m1mr",
+        "relevanceScore": 0.0469208,
+        "entityEnglishId": "Ratio",
+        "startingPos": 198,
+        "endingPos": 203
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          5,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          15,
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      }
+    ]
+  },
+  "time": 0.325,
+  "ok": true
+}

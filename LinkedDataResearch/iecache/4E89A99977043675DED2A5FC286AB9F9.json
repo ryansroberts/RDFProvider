@@ -1,0 +1,509 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.498365
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.441572
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.429359
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.427986
+      },
+      {
+        "id": 5,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.27234
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Aspirin",
+        "wikiLink": "http://en.wikipedia.org/Aspirin",
+        "score": 0.568345
+      },
+      {
+        "id": 1,
+        "label": "Asymptomatic",
+        "wikiLink": "http://en.wikipedia.org/Asymptomatic",
+        "score": 0.117236
+      },
+      {
+        "id": 2,
+        "label": "Bleeding",
+        "wikiLink": "http://en.wikipedia.org/Bleeding",
+        "score": 0.714214
+      },
+      {
+        "id": 3,
+        "label": "Clopidogrel",
+        "wikiLink": "http://en.wikipedia.org/Clopidogrel",
+        "score": 0.240449
+      },
+      {
+        "id": 4,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.304673
+      },
+      {
+        "id": 5,
+        "label": "Carboxylate esters",
+        "wikiLink": "http://en.wikipedia.org/Category:Carboxylate_esters",
+        "score": 0.24451
+      },
+      {
+        "id": 6,
+        "label": "Diseases and disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:Diseases_and_disorders",
+        "score": 0.13589
+      },
+      {
+        "id": 7,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0952351
+      },
+      {
+        "id": 8,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0952351
+      },
+      {
+        "id": 9,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.0927384
+      },
+      {
+        "id": 10,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0892595
+      },
+      {
+        "id": 11,
+        "label": "Medical terminology",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_terminology",
+        "score": 0.0695088
+      },
+      {
+        "id": 12,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0676877
+      },
+      {
+        "id": 13,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.0676877
+      },
+      {
+        "id": 14,
+        "label": "Knowledge",
+        "wikiLink": "http://en.wikipedia.org/Category:Knowledge",
+        "score": 0.0676877
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Asymptomatic",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.9801,
+        "wikiLink": "http://en.wikipedia.org/wiki/Asymptomatic",
+        "matchedText": "asymptomatic",
+        "freebaseId": "/m/02vj01",
+        "relevanceScore": 0.117236,
+        "entityEnglishId": "Asymptomatic",
+        "startingPos": 6,
+        "endingPos": 18
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.43747,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Patient",
+        "startingPos": 19,
+        "endingPos": 27
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Bleeding",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/people/cause_of_death",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.35451,
+        "wikiLink": "http://en.wikipedia.org/wiki/Bleeding",
+        "matchedText": "bleeding",
+        "freebaseId": "/m/012n6x",
+        "relevanceScore": 0.357107,
+        "entityEnglishId": "Bleeding",
+        "startingPos": 91,
+        "endingPos": 99
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Bleeding",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor",
+          "/people/cause_of_death",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.35451,
+        "wikiLink": "http://en.wikipedia.org/wiki/Bleeding",
+        "matchedText": "bleeding",
+        "freebaseId": "/m/012n6x",
+        "relevanceScore": 0.357107,
+        "entityEnglishId": "Bleeding",
+        "startingPos": 159,
+        "endingPos": 167
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.53306,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Patient",
+        "startingPos": 187,
+        "endingPos": 195
+      },
+      {
+        "id": 5,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          40
+        ],
+        "entityId": "Aspirin",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors",
+          "/medicine/risk_factor",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 8.0591,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aspirin",
+        "matchedText": "aspirin",
+        "freebaseId": "/m/0qkc",
+        "relevanceScore": 0.284173,
+        "entityEnglishId": "Aspirin",
+        "startingPos": 244,
+        "endingPos": 251
+      },
+      {
+        "id": 6,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "Clopidogrel",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 8.01217,
+        "wikiLink": "http://en.wikipedia.org/wiki/Clopidogrel",
+        "matchedText": "clopidogrel",
+        "freebaseId": "/m/02svfj",
+        "relevanceScore": 0.240449,
+        "entityEnglishId": "Clopidogrel",
+        "startingPos": 257,
+        "endingPos": 268
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          46
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.09143,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Patient",
+        "startingPos": 278,
+        "endingPos": 286
+      },
+      {
+        "id": 8,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          48
+        ],
+        "entityId": "Aspirin",
+        "freebaseTypes": [
+          "/law/invention",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/condition_prevention_factors",
+          "/medicine/risk_factor",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 7.60394,
+        "wikiLink": "http://en.wikipedia.org/wiki/Aspirin",
+        "matchedText": "aspirin",
+        "freebaseId": "/m/0qkc",
+        "relevanceScore": 0.284173,
+        "entityEnglishId": "Aspirin",
+        "startingPos": 297,
+        "endingPos": 304
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          50
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 3.64325,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.304673,
+        "entityEnglishId": "Placebo",
+        "startingPos": 310,
+        "endingPos": 317
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          4,
+          5
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          21,
+          24,
+          25,
+          26,
+          29
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          28
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          32
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          21,
+          24,
+          25,
+          26,
+          29
+        ],
+        "propertyPositions": [
+          27,
+          28
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          32
+        ],
+        "propertyPositions": [
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          6,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          6,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          2
+        ],
+        "propertyPositions": [
+          1
+        ]
+      }
+    ]
+  },
+  "time": 0.317,
+  "ok": true
+}

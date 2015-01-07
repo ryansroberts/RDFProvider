@@ -25,18 +25,18 @@
     <meta name="msapplication-TileImage" content="../Content/nice/favicon-144.png">
 
     <style>
-        body {
-            background: #DB7769;
+    html, body {
+            background: #fff;
         }
         h4 {
-            position: absolute;
+            /* position: absolute; 
             bottom: 20px;
             left: 20px;
             margin: 0;
             font-weight: 200;
             opacity: .5;
             font-family: sans-serif;
-            color: #fff;
+            color: #fff; */
         }
         #loader {
             animation: loader 5s cubic-bezier(0.8, 0, 0.2, 1) infinite;
@@ -130,13 +130,29 @@
             margin: 0;
             padding: 0;
         }
+
+        section.rec {
+            background: #eee;
+            padding: 20px;
+            font-size: 18px;
+        }
+        ul.interactions {
+            background: #ddd;
+            margin: 10px;
+            padding: 20px;
+            border: 2px solid;
+        }
+        section.filters {
+            border: 2px dotted;
+            padding: 40px;
+        }
     </style>
 </head>
 
 <body>
     <div>
-        <header>
-            <h1>Linked Data</h1>
+        <header class="container">
+            <h1>Linked Data Demonstrator</h1>
         </header>
         <section id="output" class="container">
 

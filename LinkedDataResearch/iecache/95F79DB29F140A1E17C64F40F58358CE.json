@@ -1,0 +1,353 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.817801
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.784016
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.744045
+      },
+      {
+        "id": 4,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.494196
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.277669
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Health_care",
+        "score": 0.48912
+      },
+      {
+        "id": 1,
+        "label": "Health care provider",
+        "wikiLink": "http://en.wikipedia.org/Health_care_provider",
+        "score": 0.171499
+      },
+      {
+        "id": 2,
+        "label": "Primary health care",
+        "wikiLink": "http://en.wikipedia.org/Primary_health_care",
+        "score": 0.250154
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.394518
+      },
+      {
+        "id": 4,
+        "label": "Social programs",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_programs",
+        "score": 0.381845
+      },
+      {
+        "id": 5,
+        "label": "Service industries",
+        "wikiLink": "http://en.wikipedia.org/Category:Service_industries",
+        "score": 0.381845
+      },
+      {
+        "id": 6,
+        "label": "Social policy",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_policy",
+        "score": 0.372077
+      },
+      {
+        "id": 7,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.101899
+      },
+      {
+        "id": 8,
+        "label": "Socioeconomics",
+        "wikiLink": "http://en.wikipedia.org/Category:Socioeconomics",
+        "score": 0.0944184
+      },
+      {
+        "id": 9,
+        "label": "Society",
+        "wikiLink": "http://en.wikipedia.org/Category:Society",
+        "score": 0.0851706
+      },
+      {
+        "id": 10,
+        "label": "Government",
+        "wikiLink": "http://en.wikipedia.org/Category:Government",
+        "score": 0.084319
+      },
+      {
+        "id": 11,
+        "label": "Programs",
+        "wikiLink": "http://en.wikipedia.org/Category:Programs",
+        "score": 0.0751122
+      },
+      {
+        "id": 12,
+        "label": "Public services",
+        "wikiLink": "http://en.wikipedia.org/Category:Public_services",
+        "score": 0.0751122
+      },
+      {
+        "id": 13,
+        "label": "Social ethics",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_ethics",
+        "score": 0.0751122
+      },
+      {
+        "id": 14,
+        "label": "Primary care",
+        "wikiLink": "http://en.wikipedia.org/Category:Primary_care",
+        "score": 0.0680933
+      },
+      {
+        "id": 15,
+        "label": "Services (economics)",
+        "wikiLink": "http://en.wikipedia.org/Category:Services_(economics)",
+        "score": 0.0652053
+      },
+      {
+        "id": 16,
+        "label": "Industries",
+        "wikiLink": "http://en.wikipedia.org/Category:Industries",
+        "score": 0.0652053
+      },
+      {
+        "id": 17,
+        "label": "Social issues",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_issues",
+        "score": 0.0636313
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Global Positioning System",
+        "freebaseTypes": [
+          "/law/invention",
+          "/business/industry"
+        ],
+        "confidenceScore": 2.14401,
+        "wikiLink": "http://en.wikipedia.org/wiki/Global_Positioning_System",
+        "matchedText": "GPs",
+        "freebaseId": "/m/0344_",
+        "relevanceScore": 0.0902602,
+        "entityEnglishId": "Global Positioning System",
+        "startingPos": 0,
+        "endingPos": 3
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Primary health care",
+        "confidenceScore": 1.22408,
+        "wikiLink": "http://en.wikipedia.org/wiki/Primary_health_care",
+        "matchedText": "primary healthcare",
+        "freebaseId": "/m/07pkj8",
+        "relevanceScore": 0.250154,
+        "entityEnglishId": "Primary health care",
+        "startingPos": 14,
+        "endingPos": 32
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Health care",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/organization/organization_sector",
+          "/food/tea_type",
+          "/people/professional_field",
+          "/education/field_of_study",
+          "/government/government_service",
+          "/business/industry",
+          "/exhibitions/exhibition_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.3519,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_care",
+        "matchedText": "healthcare",
+        "freebaseId": "/m/01mw2x",
+        "relevanceScore": 0.48912,
+        "entityEnglishId": "Health care",
+        "startingPos": 22,
+        "endingPos": 32
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          4,
+          5
+        ],
+        "entityId": "Health care provider",
+        "freebaseTypes": [
+          "/people/profession",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.11432,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_care_provider",
+        "matchedText": "healthcare professionals",
+        "freebaseId": "/m/0fsbk0",
+        "relevanceScore": 0.171499,
+        "entityEnglishId": "Health care provider",
+        "startingPos": 22,
+        "endingPos": 46
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6,
+          7,
+          8,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          23,
+          25,
+          26,
+          29
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              12,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              24
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              27,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          18,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          12,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

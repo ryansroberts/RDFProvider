@@ -1,0 +1,170 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.632239
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.616396
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.326104
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.312658
+      },
+      {
+        "id": 5,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.311039
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cancer",
+        "wikiLink": "http://en.wikipedia.org/Cancer",
+        "score": 0.162669
+      },
+      {
+        "id": 1,
+        "label": "Preterm birth",
+        "wikiLink": "http://en.wikipedia.org/Preterm_birth",
+        "score": 0.386875
+      },
+      {
+        "id": 2,
+        "label": "Death",
+        "wikiLink": "http://en.wikipedia.org/Category:Death",
+        "score": 0.112011
+      },
+      {
+        "id": 3,
+        "label": "Risk",
+        "wikiLink": "http://en.wikipedia.org/Category:Risk",
+        "score": 0.104718
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Preterm birth",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/icd_9_cm_classification",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.02524,
+        "wikiLink": "http://en.wikipedia.org/wiki/Preterm_birth",
+        "matchedText": "premature",
+        "freebaseId": "/m/027hpx",
+        "relevanceScore": 0.386875,
+        "entityEnglishId": "Preterm birth",
+        "startingPos": 9,
+        "endingPos": 18
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Mortality rate",
+        "confidenceScore": 1.05843,
+        "wikiLink": "http://en.wikipedia.org/wiki/Mortality_rate",
+        "matchedText": "mortality",
+        "freebaseId": "/m/01b4_q",
+        "relevanceScore": 0.0840337,
+        "entityEnglishId": "Mortality rate",
+        "startingPos": 19,
+        "endingPos": 28
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Cancer",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/people/cause_of_death",
+          "/education/field_of_study",
+          "/medicine/disease_cause",
+          "/book/book_subject",
+          "/book/periodical_subject",
+          "/tv/tv_subject",
+          "/organization/organization_sector",
+          "/medicine/icd_9_cm_classification",
+          "/media_common/quotation_subject",
+          "/film/film_subject",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.47703,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cancer",
+        "matchedText": "cancers",
+        "freebaseId": "/m/0qcr0",
+        "relevanceScore": 0.162669,
+        "entityEnglishId": "Cancer",
+        "startingPos": 38,
+        "endingPos": 45
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7
+        ]
+      }
+    ]
+  },
+  "time": 0.313,
+  "ok": true
+}

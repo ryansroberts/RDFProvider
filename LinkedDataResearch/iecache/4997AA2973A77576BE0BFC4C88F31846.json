@@ -1,0 +1,1076 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.316924
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.316122
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.303062
+      },
+      {
+        "id": 4,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.276088
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.272965
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Drug withdrawal",
+        "wikiLink": "http://en.wikipedia.org/Drug_withdrawal",
+        "score": 0.162821
+      },
+      {
+        "id": 1,
+        "label": "Irbesartan",
+        "wikiLink": "http://en.wikipedia.org/Irbesartan",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.856577
+      },
+      {
+        "id": 3,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.26094
+      },
+      {
+        "id": 4,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.234294
+      },
+      {
+        "id": 5,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.120263
+      },
+      {
+        "id": 6,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.117482
+      },
+      {
+        "id": 7,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.0948086
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "IRMA",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "IRMA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 27,
+        "endingPos": 31
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "Irbesartan",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 1.82125,
+        "wikiLink": "http://en.wikipedia.org/wiki/Irbesartan",
+        "matchedText": "irbesartan",
+        "freebaseId": "/m/038t69",
+        "relevanceScore": 0.202155,
+        "entityEnglishId": "Irbesartan",
+        "startingPos": 155,
+        "endingPos": 165
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "Irbesartan",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 1.62125,
+        "wikiLink": "http://en.wikipedia.org/wiki/Irbesartan",
+        "matchedText": "irbesartan",
+        "freebaseId": "/m/038t69",
+        "relevanceScore": 0.202155,
+        "entityEnglishId": "Irbesartan",
+        "startingPos": 177,
+        "endingPos": 187
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          58
+        ],
+        "entityId": "UAER",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "UAER",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 266,
+        "endingPos": 270
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          64
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 3.91509,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.428288,
+        "entityEnglishId": "Placebo",
+        "startingPos": 304,
+        "endingPos": 311
+      },
+      {
+        "id": 5,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          69
+        ],
+        "entityId": "Drug withdrawal",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.18395,
+        "wikiLink": "http://en.wikipedia.org/wiki/Drug_withdrawal",
+        "matchedText": "withdrawal",
+        "freebaseId": "/m/026750",
+        "relevanceScore": 0.162821,
+        "entityEnglishId": "Drug withdrawal",
+        "startingPos": 329,
+        "endingPos": 339
+      },
+      {
+        "id": 6,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          71
+        ],
+        "entityId": "Irbesartan",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 1.82125,
+        "wikiLink": "http://en.wikipedia.org/wiki/Irbesartan",
+        "matchedText": "irbesartan",
+        "freebaseId": "/m/038t69",
+        "relevanceScore": 0.202155,
+        "entityEnglishId": "Irbesartan",
+        "startingPos": 343,
+        "endingPos": 353
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          72
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.62436,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.234294,
+        "entityEnglishId": "Therapy",
+        "startingPos": 354,
+        "endingPos": 361
+      },
+      {
+        "id": 8,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          84
+        ],
+        "entityId": "UAER",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "UAER",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 427,
+        "endingPos": 431
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          86
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.222,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.0271701,
+        "entityEnglishId": "Patient",
+        "startingPos": 435,
+        "endingPos": 443
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          88
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 3.91509,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.428288,
+        "entityEnglishId": "Placebo",
+        "startingPos": 454,
+        "endingPos": 461
+      },
+      {
+        "id": 11,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          90
+        ],
+        "entityId": "Irbesartan",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 1.62125,
+        "wikiLink": "http://en.wikipedia.org/wiki/Irbesartan",
+        "matchedText": "irbesartan",
+        "freebaseId": "/m/038t69",
+        "relevanceScore": 0.202155,
+        "entityEnglishId": "Irbesartan",
+        "startingPos": 465,
+        "endingPos": 475
+      },
+      {
+        "id": 12,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          105
+        ],
+        "entityId": "UAER",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "UAER",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 552,
+        "endingPos": 556
+      },
+      {
+        "id": 13,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          120
+        ],
+        "entityId": "Irbesartan",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 1.82125,
+        "wikiLink": "http://en.wikipedia.org/wiki/Irbesartan",
+        "matchedText": "irbesartan",
+        "freebaseId": "/m/038t69",
+        "relevanceScore": 0.202155,
+        "entityEnglishId": "Irbesartan",
+        "startingPos": 619,
+        "endingPos": 629
+      },
+      {
+        "id": 14,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          136
+        ],
+        "entityId": "Irbesartan",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 1.82125,
+        "wikiLink": "http://en.wikipedia.org/wiki/Irbesartan",
+        "matchedText": "irbesartan",
+        "freebaseId": "/m/038t69",
+        "relevanceScore": 0.202155,
+        "entityEnglishId": "Irbesartan",
+        "startingPos": 698,
+        "endingPos": 708
+      },
+      {
+        "id": 15,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          151
+        ],
+        "entityId": "Irbesartan",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 1.82125,
+        "wikiLink": "http://en.wikipedia.org/wiki/Irbesartan",
+        "matchedText": "irbesartan",
+        "freebaseId": "/m/038t69",
+        "relevanceScore": 0.202155,
+        "entityEnglishId": "Irbesartan",
+        "startingPos": 790,
+        "endingPos": 800
+      },
+      {
+        "id": 16,
+        "matchingTokens": [
+          166
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.74122,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.26094,
+        "entityEnglishId": "Renal function",
+        "startingPos": 866,
+        "endingPos": 869
+      },
+      {
+        "id": 17,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          171
+        ],
+        "entityId": "Irbesartan",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 1.82125,
+        "wikiLink": "http://en.wikipedia.org/wiki/Irbesartan",
+        "matchedText": "irbesartan",
+        "freebaseId": "/m/038t69",
+        "relevanceScore": 0.202155,
+        "entityEnglishId": "Irbesartan",
+        "startingPos": 887,
+        "endingPos": 897
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          161
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              159,
+              160
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              162,
+              163,
+              164,
+              165,
+              166
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          59,
+          60,
+          61
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              54,
+              55,
+              56,
+              57,
+              58
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              62,
+              63,
+              64
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          99,
+          103
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              101,
+              102
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              112,
+              113,
+              114,
+              115,
+              116,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              125,
+              126,
+              127,
+              128
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          106
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              105
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              104,
+              107,
+              108,
+              109,
+              110
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          79
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              74,
+              75,
+              76,
+              77,
+              78
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          79,
+          80,
+          81,
+          82,
+          83,
+          85
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              74,
+              75,
+              76,
+              77,
+              78
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              84,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              20,
+              21,
+              22,
+              23,
+              24,
+              27,
+              28,
+              30,
+              31,
+              32,
+              33,
+              34,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              48,
+              49,
+              50,
+              51
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          8,
+          10,
+          16,
+          17,
+          27,
+          36
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              11,
+              12,
+              13,
+              14,
+              15,
+              18,
+              20,
+              21,
+              22,
+              23,
+              24,
+              28,
+              30,
+              31,
+              32,
+              33,
+              34,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              48,
+              49,
+              50,
+              51
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          162,
+          163,
+          164,
+          165
+        ],
+        "propertyPositions": [
+          166
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          54,
+          56,
+          57
+        ],
+        "propertyPositions": [
+          55
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          54,
+          56,
+          57
+        ],
+        "propertyPositions": [
+          58
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          131,
+          133,
+          134
+        ],
+        "propertyPositions": [
+          132
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          131,
+          133,
+          134
+        ],
+        "propertyPositions": [
+          135,
+          136,
+          137,
+          138,
+          139
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          131,
+          133,
+          134
+        ],
+        "propertyPositions": [
+          141,
+          142,
+          143,
+          144,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          155,
+          156
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          151,
+          153
+        ],
+        "propertyPositions": [
+          155,
+          156
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          119,
+          120,
+          122,
+          123
+        ],
+        "propertyPositions": [
+          125,
+          126,
+          127,
+          128
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          113
+        ],
+        "propertyPositions": [
+          119,
+          120,
+          121,
+          122,
+          123,
+          125,
+          126,
+          127,
+          128
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          69,
+          70
+        ],
+        "propertyPositions": [
+          71,
+          72
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          67,
+          68
+        ],
+        "propertyPositions": [
+          69,
+          70,
+          71,
+          72
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          74,
+          76
+        ],
+        "propertyPositions": [
+          75
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          80,
+          82,
+          83,
+          85
+        ],
+        "propertyPositions": [
+          81
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          80,
+          82,
+          83,
+          85
+        ],
+        "propertyPositions": [
+          84
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          92
+        ],
+        "propertyPositions": [
+          90
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          80,
+          82,
+          83,
+          85
+        ],
+        "propertyPositions": [
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97
+        ]
+      },
+      {
+        "id": 16,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 17,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15
+        ]
+      },
+      {
+        "id": 18,
+        "wordPositions": [
+          21
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 19,
+        "wordPositions": [
+          44,
+          45
+        ],
+        "propertyPositions": [
+          42
+        ]
+      }
+    ]
+  },
+  "time": 0.338,
+  "ok": true
+}

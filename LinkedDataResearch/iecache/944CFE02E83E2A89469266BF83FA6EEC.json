@@ -1,0 +1,200 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Technology",
+        "score": 0.227307
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Technology",
+        "freebaseTypes": [
+          "/book/periodical_subject",
+          "/exhibitions/exhibition_subject",
+          "/film/film_subject",
+          "/media_common/media_genre",
+          "/tv/tv_subject",
+          "/book/book_subject",
+          "/conferences/conference_subject",
+          "/media_common/literary_genre",
+          "/organization/organization_sector",
+          "/education/field_of_study",
+          "/business/industry",
+          "/media_common/netflix_genre",
+          "/media_common/quotation_subject",
+          "/award/award_discipline",
+          "/internet/website_category",
+          "/broadcast/genre",
+          "/people/professional_field"
+        ],
+        "confidenceScore": 1.24289,
+        "wikiLink": "http://en.wikipedia.org/wiki/Technology",
+        "matchedText": "technology",
+        "freebaseId": "/m/07c1v",
+        "relevanceScore": 0.227307,
+        "entityEnglishId": "Technology",
+        "startingPos": 49,
+        "endingPos": 59
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6,
+          10,
+          11,
+          12,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              8,
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          6,
+          10,
+          11,
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              8,
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          6,
+          10,
+          11,
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              8,
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              7,
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          10,
+          11,
+          12
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              8,
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              13
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4,
+          6,
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4,
+          6,
+          10,
+          11,
+          12
+        ],
+        "propertyPositions": [
+          5
+        ]
+      }
+    ]
+  },
+  "time": 0.311,
+  "ok": true
+}

@@ -1,0 +1,493 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.861609
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.659435
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.352969
+      },
+      {
+        "id": 4,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.324955
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.324685
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cystatin C",
+        "wikiLink": "http://en.wikipedia.org/Cystatin_C",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Glomerulus",
+        "wikiLink": "http://en.wikipedia.org/Glomerulus",
+        "score": 0.568994
+      },
+      {
+        "id": 2,
+        "label": "Prediction",
+        "wikiLink": "http://en.wikipedia.org/Prediction",
+        "score": 0.176831
+      },
+      {
+        "id": 3,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.684529
+      },
+      {
+        "id": 5,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.645312
+      },
+      {
+        "id": 6,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.64482
+      },
+      {
+        "id": 7,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.64482
+      },
+      {
+        "id": 8,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.279454
+      },
+      {
+        "id": 9,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.251882
+      },
+      {
+        "id": 10,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.214409
+      },
+      {
+        "id": 11,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.191882
+      },
+      {
+        "id": 12,
+        "label": "Scientific method",
+        "wikiLink": "http://en.wikipedia.org/Category:Scientific_method",
+        "score": 0.0775193
+      },
+      {
+        "id": 13,
+        "label": "Applied sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Applied_sciences",
+        "score": 0.0601427
+      },
+      {
+        "id": 14,
+        "label": "Critical thinking",
+        "wikiLink": "http://en.wikipedia.org/Category:Critical_thinking",
+        "score": 0.05071
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Serum (blood)",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 0.949203,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_(blood)",
+        "matchedText": "serum",
+        "freebaseId": "/m/07s8fsr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Serum (blood)",
+        "startingPos": 23,
+        "endingPos": 28
+      },
+      {
+        "id": 1,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Cystatin",
+        "confidenceScore": 2.24462,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cystatin",
+        "matchedText": "cystatin",
+        "freebaseId": "/m/0fhtpr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Cystatin",
+        "startingPos": 29,
+        "endingPos": 37
+      },
+      {
+        "id": 2,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          5,
+          6
+        ],
+        "entityId": "Cystatin C",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 5.67711,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cystatin_C",
+        "matchedText": "cystatin C",
+        "freebaseId": "/m/02qzgpw",
+        "relevanceScore": 0.969014,
+        "entityEnglishId": "Cystatin C",
+        "startingPos": 29,
+        "endingPos": 39
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Measurement",
+        "confidenceScore": 1.00446,
+        "wikiLink": "http://en.wikipedia.org/wiki/Measurement",
+        "matchedText": "measurement",
+        "freebaseId": "/m/04t14",
+        "relevanceScore": 0.0977757,
+        "entityEnglishId": "Measurement",
+        "startingPos": 40,
+        "endingPos": 51
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Glomerulus",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 2.97152,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glomerulus",
+        "matchedText": "glomerular",
+        "freebaseId": "/m/02_dbc",
+        "relevanceScore": 0.568994,
+        "entityEnglishId": "Glomerulus",
+        "startingPos": 114,
+        "endingPos": 124
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          19,
+          20
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 6.17016,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "glomerular filtration",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.95155,
+        "entityEnglishId": "Renal function",
+        "startingPos": 114,
+        "endingPos": 135
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Filtration",
+        "freebaseTypes": [
+          "/business/industry",
+          "/law/invention",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 0.971821,
+        "wikiLink": "http://en.wikipedia.org/wiki/Filtration",
+        "matchedText": "filtration",
+        "freebaseId": "/m/032x7",
+        "relevanceScore": 0.0752493,
+        "entityEnglishId": "Filtration",
+        "startingPos": 125,
+        "endingPos": 135
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          19,
+          20,
+          21
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 9.46038,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "glomerular filtration rate",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.866713,
+        "entityEnglishId": "Renal function",
+        "startingPos": 114,
+        "endingPos": 140
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Prediction",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/media_genre",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 0.957324,
+        "wikiLink": "http://en.wikipedia.org/wiki/Prediction",
+        "matchedText": "prediction",
+        "freebaseId": "/m/01klyk",
+        "relevanceScore": 0.176831,
+        "entityEnglishId": "Prediction",
+        "startingPos": 167,
+        "endingPos": 177
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Equation",
+        "confidenceScore": 1.27074,
+        "wikiLink": "http://en.wikipedia.org/wiki/Equation",
+        "matchedText": "equation",
+        "freebaseId": "/m/02jnw",
+        "relevanceScore": 0,
+        "entityEnglishId": "Equation",
+        "startingPos": 178,
+        "endingPos": 186
+      },
+      {
+        "id": 10,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "Cystatin",
+        "confidenceScore": 2.24462,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cystatin",
+        "matchedText": "cystatin",
+        "freebaseId": "/m/0fhtpr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Cystatin",
+        "startingPos": 247,
+        "endingPos": 255
+      },
+      {
+        "id": 11,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          42,
+          43
+        ],
+        "entityId": "Cystatin C",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 5.67711,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cystatin_C",
+        "matchedText": "cystatin C",
+        "freebaseId": "/m/02qzgpw",
+        "relevanceScore": 0.969014,
+        "entityEnglishId": "Cystatin C",
+        "startingPos": 247,
+        "endingPos": 257
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          14,
+          15
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              13
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              13
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          8,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              11
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          16,
+          17,
+          18
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  "time": 0.322,
+  "ok": true
+}

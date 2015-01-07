@@ -1,0 +1,228 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.581511
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.335737
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.314109
+      },
+      {
+        "id": 4,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.296889
+      },
+      {
+        "id": 5,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.285766
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cost-effectiveness analysis",
+        "wikiLink": "http://en.wikipedia.org/Cost-effectiveness_analysis",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Life expectancy",
+        "wikiLink": "http://en.wikipedia.org/Life_expectancy",
+        "score": 0.237389
+      },
+      {
+        "id": 2,
+        "label": "Metformin",
+        "wikiLink": "http://en.wikipedia.org/Metformin",
+        "score": 0.306545
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Cost-effectiveness analysis",
+        "confidenceScore": 2.16944,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cost-effectiveness_analysis",
+        "matchedText": "cost-effectiveness",
+        "freebaseId": "/m/01n8zs",
+        "relevanceScore": 0.722844,
+        "entityEnglishId": "Cost-effectiveness analysis",
+        "startingPos": 12,
+        "endingPos": 30
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          3,
+          4
+        ],
+        "entityId": "Cost-effectiveness analysis",
+        "confidenceScore": 3.01644,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cost-effectiveness_analysis",
+        "matchedText": "cost-effectiveness analysis",
+        "freebaseId": "/m/01n8zs",
+        "relevanceScore": 0.433084,
+        "entityEnglishId": "Cost-effectiveness analysis",
+        "startingPos": 12,
+        "endingPos": 39
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.81473,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.306545,
+        "entityEnglishId": "Metformin",
+        "startingPos": 66,
+        "endingPos": 75
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          25,
+          26
+        ],
+        "entityId": "Life expectancy",
+        "confidenceScore": 1.58543,
+        "wikiLink": "http://en.wikipedia.org/wiki/Life_expectancy",
+        "matchedText": "life expectancy",
+        "freebaseId": "/m/04qsq",
+        "relevanceScore": 0.237389,
+        "entityEnglishId": "Life expectancy",
+        "startingPos": 157,
+        "endingPos": 172
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          7,
+          8,
+          11
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          7,
+          8,
+          11
+        ],
+        "propertyPositions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          7,
+          8,
+          11
+        ],
+        "propertyPositions": [
+          9,
+          10
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          7,
+          8,
+          11
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          23,
+          25,
+          26,
+          27
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          23,
+          25,
+          26,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          18
+        ],
+        "propertyPositions": [
+          17
+        ]
+      }
+    ]
+  },
+  "time": 0.313,
+  "ok": true
+}

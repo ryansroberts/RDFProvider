@@ -1,0 +1,829 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.974278
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.944111
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.909426
+      },
+      {
+        "id": 4,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.605358
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.517845
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chronic kidney disease",
+        "wikiLink": "http://en.wikipedia.org/Chronic_kidney_disease",
+        "score": 0.787958
+      },
+      {
+        "id": 1,
+        "label": "Glomerulus",
+        "wikiLink": "http://en.wikipedia.org/Glomerulus",
+        "score": 0.460239
+      },
+      {
+        "id": 2,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.996303
+      },
+      {
+        "id": 3,
+        "label": "Millimeter of mercury",
+        "wikiLink": "http://en.wikipedia.org/Millimeter_of_mercury",
+        "score": 0.100029
+      },
+      {
+        "id": 4,
+        "label": "Ratio",
+        "wikiLink": "http://en.wikipedia.org/Ratio",
+        "score": 0.111248
+      },
+      {
+        "id": 5,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 1
+      },
+      {
+        "id": 6,
+        "label": "Risk",
+        "wikiLink": "http://en.wikipedia.org/Risk",
+        "score": 0.220433
+      },
+      {
+        "id": 7,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.561658
+      },
+      {
+        "id": 8,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.558706
+      },
+      {
+        "id": 9,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.558706
+      },
+      {
+        "id": 10,
+        "label": "Applied sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Applied_sciences",
+        "score": 0.0580076
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "IDNT",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "IDNT",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 30,
+        "endingPos": 34
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.80852,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "ESRD",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.787958,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 116,
+        "endingPos": 120
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Millimeter of mercury",
+        "confidenceScore": 1.80345,
+        "wikiLink": "http://en.wikipedia.org/wiki/Millimeter_of_mercury",
+        "matchedText": "mmHg",
+        "freebaseId": "/m/0r3vbng",
+        "relevanceScore": 0.0200057,
+        "entityEnglishId": "Millimeter of mercury",
+        "startingPos": 166,
+        "endingPos": 170
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          39
+        ],
+        "entityId": "Millimeter of mercury",
+        "confidenceScore": 1.80345,
+        "wikiLink": "http://en.wikipedia.org/wiki/Millimeter_of_mercury",
+        "matchedText": "mmHg",
+        "freebaseId": "/m/0r3vbng",
+        "relevanceScore": 0.0200057,
+        "entityEnglishId": "Millimeter of mercury",
+        "startingPos": 223,
+        "endingPos": 227
+      },
+      {
+        "id": 4,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          41
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.40906,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.332101,
+        "entityEnglishId": "Kidney",
+        "startingPos": 236,
+        "endingPos": 241
+      },
+      {
+        "id": 5,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          49
+        ],
+        "entityId": "Glomerulus",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 3.35834,
+        "wikiLink": "http://en.wikipedia.org/wiki/Glomerulus",
+        "matchedText": "glomerular",
+        "freebaseId": "/m/02_dbc",
+        "relevanceScore": 0.460239,
+        "entityEnglishId": "Glomerulus",
+        "startingPos": 288,
+        "endingPos": 298
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          49,
+          50
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 4.23324,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "glomerular filtration",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.540612,
+        "entityEnglishId": "Renal function",
+        "startingPos": 288,
+        "endingPos": 309
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          50
+        ],
+        "entityId": "Filtration",
+        "freebaseTypes": [
+          "/business/industry",
+          "/law/invention",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.29723,
+        "wikiLink": "http://en.wikipedia.org/wiki/Filtration",
+        "matchedText": "filtration",
+        "freebaseId": "/m/032x7",
+        "relevanceScore": 0.0952303,
+        "entityEnglishId": "Filtration",
+        "startingPos": 299,
+        "endingPos": 309
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          48,
+          49,
+          50,
+          51
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.1569,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "estimated glomerular filtration rate",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.422801,
+        "entityEnglishId": "Renal function",
+        "startingPos": 278,
+        "endingPos": 314
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          49,
+          50,
+          51
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 8.12936,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "glomerular filtration rate",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.488505,
+        "entityEnglishId": "Renal function",
+        "startingPos": 288,
+        "endingPos": 314
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          53
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.7859,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "eGFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.819686,
+        "entityEnglishId": "Renal function",
+        "startingPos": 316,
+        "endingPos": 320
+      },
+      {
+        "id": 11,
+        "type": [
+          "URL"
+        ],
+        "matchingTokens": [
+          56
+        ],
+        "entityId": "albumin:creatinine",
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "albumin:creatinine",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 326,
+        "endingPos": 344
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          57
+        ],
+        "entityId": "Ratio",
+        "freebaseTypes": [
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 1.37083,
+        "wikiLink": "http://en.wikipedia.org/wiki/Ratio",
+        "matchedText": "ratio",
+        "freebaseId": "/m/0m1mr",
+        "relevanceScore": 0.111248,
+        "entityEnglishId": "Ratio",
+        "startingPos": 345,
+        "endingPos": 350
+      },
+      {
+        "id": 13,
+        "matchingTokens": [
+          63
+        ],
+        "entityId": "Millimeter of mercury",
+        "confidenceScore": 1.80345,
+        "wikiLink": "http://en.wikipedia.org/wiki/Millimeter_of_mercury",
+        "matchedText": "mmHg",
+        "freebaseId": "/m/0r3vbng",
+        "relevanceScore": 0.0200057,
+        "entityEnglishId": "Millimeter of mercury",
+        "startingPos": 365,
+        "endingPos": 369
+      },
+      {
+        "id": 14,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          67
+        ],
+        "entityId": "SBP",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "SBP",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 383,
+        "endingPos": 386
+      },
+      {
+        "id": 15,
+        "matchingTokens": [
+          76
+        ],
+        "entityId": "Risk",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 0.965357,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risk",
+        "matchedText": "risk",
+        "freebaseId": "/m/06d5f",
+        "relevanceScore": 0.220433,
+        "entityEnglishId": "Risk",
+        "startingPos": 430,
+        "endingPos": 434
+      },
+      {
+        "id": 16,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          79
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.40906,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.332101,
+        "entityEnglishId": "Kidney",
+        "startingPos": 440,
+        "endingPos": 445
+      },
+      {
+        "id": 17,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          98
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.40906,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.332101,
+        "entityEnglishId": "Kidney",
+        "startingPos": 535,
+        "endingPos": 540
+      },
+      {
+        "id": 18,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          107
+        ],
+        "entityId": "SBP",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "SBP",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 579,
+        "endingPos": 582
+      },
+      {
+        "id": 19,
+        "matchingTokens": [
+          109
+        ],
+        "entityId": "Millimeter of mercury",
+        "confidenceScore": 1.80345,
+        "wikiLink": "http://en.wikipedia.org/wiki/Millimeter_of_mercury",
+        "matchedText": "mmHg",
+        "freebaseId": "/m/0r3vbng",
+        "relevanceScore": 0.0200057,
+        "entityEnglishId": "Millimeter of mercury",
+        "startingPos": 588,
+        "endingPos": 592
+      },
+      {
+        "id": 20,
+        "matchingTokens": [
+          118
+        ],
+        "entityId": "Millimeter of mercury",
+        "confidenceScore": 1.80345,
+        "wikiLink": "http://en.wikipedia.org/wiki/Millimeter_of_mercury",
+        "matchedText": "mmHg",
+        "freebaseId": "/m/0r3vbng",
+        "relevanceScore": 0.0200057,
+        "entityEnglishId": "Millimeter of mercury",
+        "startingPos": 650,
+        "endingPos": 654
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          15,
+          19,
+          29
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              16,
+              17,
+              18,
+              30,
+              31
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          68,
+          69,
+          70
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              65,
+              66,
+              67
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          89,
+          90,
+          91
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              88
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          42
+        ],
+        "propertyPositions": [
+          41
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          50,
+          51
+        ],
+        "propertyPositions": [
+          48
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          50,
+          51
+        ],
+        "propertyPositions": [
+          49
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          57
+        ],
+        "propertyPositions": [
+          56
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          57
+        ],
+        "propertyPositions": [
+          59
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          50,
+          51
+        ],
+        "propertyPositions": [
+          53,
+          55,
+          56,
+          57,
+          59,
+          61,
+          62,
+          63
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          0,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          0,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          65,
+          66
+        ],
+        "propertyPositions": [
+          67
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          78,
+          80
+        ],
+        "propertyPositions": [
+          79
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          75,
+          76,
+          77
+        ],
+        "propertyPositions": [
+          78,
+          79,
+          80
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          71,
+          73,
+          74
+        ],
+        "propertyPositions": [
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          92,
+          94,
+          95
+        ],
+        "propertyPositions": [
+          93
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          97,
+          99,
+          100
+        ],
+        "propertyPositions": [
+          98
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          102
+        ],
+        "propertyPositions": [
+          101
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          97,
+          99,
+          100
+        ],
+        "propertyPositions": [
+          101,
+          102
+        ]
+      }
+    ]
+  },
+  "time": 0.339,
+  "ok": true
+}

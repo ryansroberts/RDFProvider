@@ -1,0 +1,227 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.923274
+      },
+      {
+        "id": 2,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.873036
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.668726
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.627048
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.516083
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Health equity",
+        "wikiLink": "http://en.wikipedia.org/Health_equity",
+        "score": 0.207832
+      },
+      {
+        "id": 1,
+        "label": "Well-being",
+        "wikiLink": "http://en.wikipedia.org/Well-being",
+        "score": 0.338627
+      },
+      {
+        "id": 2,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.315155
+      },
+      {
+        "id": 3,
+        "label": "Economic problems",
+        "wikiLink": "http://en.wikipedia.org/Category:Economic_problems",
+        "score": 0.255558
+      },
+      {
+        "id": 4,
+        "label": "Social programs",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_programs",
+        "score": 0.206769
+      },
+      {
+        "id": 5,
+        "label": "Public health",
+        "wikiLink": "http://en.wikipedia.org/Category:Public_health",
+        "score": 0.0342414
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Well-being",
+        "confidenceScore": 1.4689,
+        "wikiLink": "http://en.wikipedia.org/wiki/Well-being",
+        "matchedText": "wellbeing",
+        "freebaseId": "/m/0n525z3",
+        "relevanceScore": 0.338627,
+        "entityEnglishId": "Well-being",
+        "startingPos": 60,
+        "endingPos": 69
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Health equity",
+        "confidenceScore": 1.77821,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_equity",
+        "matchedText": "health inequalities",
+        "freebaseId": "/m/05ys4d",
+        "relevanceScore": 0.207832,
+        "entityEnglishId": "Health equity",
+        "startingPos": 76,
+        "endingPos": 95
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2,
+          3,
+          5,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              7,
+              8,
+              11,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          5,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              7,
+              8,
+              11,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          5,
+          6,
+          7,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              4
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              8,
+              11,
+              12
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          5
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "time": 0.311,
+  "ok": true
+}

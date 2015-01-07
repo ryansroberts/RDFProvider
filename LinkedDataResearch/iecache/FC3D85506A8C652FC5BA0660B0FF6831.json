@@ -1,0 +1,90 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Epidermal growth factor receptor",
+        "wikiLink": "http://en.wikipedia.org/Epidermal_growth_factor_receptor",
+        "score": 0.132226
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Knock-down kit",
+        "confidenceScore": 2.09126,
+        "wikiLink": "http://en.wikipedia.org/wiki/Knock-down_kit",
+        "matchedText": "CKD",
+        "freebaseId": "/m/04p2lp",
+        "relevanceScore": 0.0330769,
+        "entityEnglishId": "Knock-down kit",
+        "startingPos": 15,
+        "endingPos": 18
+      },
+      {
+        "id": 1,
+        "type": [
+          "Biomolecule",
+          "Protein"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Epidermal growth factor receptor",
+        "freebaseTypes": [
+          "/biology/protein"
+        ],
+        "confidenceScore": 2.07698,
+        "wikiLink": "http://en.wikipedia.org/wiki/Epidermal_growth_factor_receptor",
+        "matchedText": "eGFR",
+        "freebaseId": "/m/064z4d",
+        "relevanceScore": 0.132226,
+        "entityEnglishId": "Epidermal growth factor receptor",
+        "startingPos": 73,
+        "endingPos": 77
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          8,
+          9
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3
+        ]
+      }
+    ]
+  },
+  "time": 0.313,
+  "ok": true
+}

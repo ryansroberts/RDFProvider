@@ -1,0 +1,317 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.931367
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.07709,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.310456,
+        "entityEnglishId": "Renal function",
+        "startingPos": 97,
+        "endingPos": 100
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.84364,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "macroalbuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.0950784,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 146,
+        "endingPos": 162
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          44
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.07709,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.310456,
+        "entityEnglishId": "Renal function",
+        "startingPos": 228,
+        "endingPos": 231
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          54
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.07709,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.310456,
+        "entityEnglishId": "Renal function",
+        "startingPos": 266,
+        "endingPos": 269
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          19,
+          20,
+          28
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              16,
+              18
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              23,
+              24,
+              25,
+              29,
+              30,
+              31
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          30
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              29
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              31
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          3
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          7,
+          8,
+          10,
+          11,
+          12,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          41
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              37,
+              38,
+              40
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          0,
+          3,
+          7,
+          8,
+          12,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              9,
+              10,
+              11,
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          41,
+          51
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              37,
+              38,
+              40,
+              50
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          38
+        ],
+        "propertyPositions": [
+          37
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          42,
+          44,
+          46,
+          48
+        ],
+        "propertyPositions": [
+          43
+        ]
+      }
+    ]
+  },
+  "time": 0.314,
+  "ok": true
+}

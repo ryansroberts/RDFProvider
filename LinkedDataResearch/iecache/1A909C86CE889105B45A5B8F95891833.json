@@ -1,0 +1,192 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.357804
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.29383
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.292336
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.292336
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.200951
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Peptic ulcer",
+        "wikiLink": "http://en.wikipedia.org/Peptic_ulcer",
+        "score": 0.379852
+      },
+      {
+        "id": 1,
+        "label": "Digestive diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Digestive_diseases",
+        "score": 0.0756017
+      },
+      {
+        "id": 2,
+        "label": "GI tract disorders",
+        "wikiLink": "http://en.wikipedia.org/Category:GI_tract_disorders",
+        "score": 0.0756017
+      },
+      {
+        "id": 3,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.0073156
+      },
+      {
+        "id": 4,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Category:Pain",
+        "score": 0.00348572
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.27748,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "Patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Patient",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Peptic ulcer",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/symptom",
+          "/medicine/risk_factor",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.63677,
+        "wikiLink": "http://en.wikipedia.org/wiki/Peptic_ulcer",
+        "matchedText": "ulceration",
+        "freebaseId": "/m/0h3h4",
+        "relevanceScore": 0.379852,
+        "entityEnglishId": "Peptic ulcer",
+        "startingPos": 26,
+        "endingPos": 36
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              10,
+              11,
+              12,
+              13
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1
+        ],
+        "propertyPositions": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  "time": 0.312,
+  "ok": true
+}

@@ -1,13 +1,13 @@
 var crc = require('crc'),
     colour = require('rgb'),
-    domify = require('domify')
+    domify = require('domify');
 
-function spannerify(content, annotations) {
+function spannerify(content, annotations, callback) {
     var spannered = "",
         chk = new crc.CRC32().update(content).checksum(),
         style = "";
     
-    for(var i = 0; i != content.length;i++) {
+    for(var i = 0; i !== content.length;i++) {
         spannered += '<span class="char' + i + '">' + content[i] + '</span>';
     }
 
@@ -16,7 +16,7 @@ function spannerify(content, annotations) {
         var start = annotations[an].selectors[1] ,
             end = annotations[an].selectors[0] ;
 
-        annotationKey(an,annotations[an]);
+        annotationKey(an,annotations[an], callback);
 
         for(var i = start;i != end;i++){
             style += '.annotated' + chk + ' .char' + i + '{ border-bottom: solid ' + conceptColor(an,annotations[an].concept) + ' 2px; }\r\n'; 
@@ -40,8 +40,9 @@ function listFor(annotation) {
     return "annotationkeys";
 }
 
-function annotationKey(uri, annotation) {
+function annotationKey(uri, annotation, callback) {
     var k = "key_" + new crc.CRC8().update(uri).checksum();
+    var a;
     if (document.getElementById(k)) return;
    
     var li = document.getElementById(listFor(annotation)).appendChild(domify(
@@ -50,7 +51,17 @@ function annotationKey(uri, annotation) {
 
     var freebaseUri = uri.replace("http://rdf.freebase.com/ns/m.", "http://freebase.com/m/");
 
-    li.appendChild(domify('<a style="color:#fff; text-decoration: none;" target="new" href="' + freebaseUri + '">' + annotation.concept ))
+    var a = domify('<a style="color:#fff; text-decoration: none;" target="new" href="' + freebaseUri + '">' + annotation.concept )
+
+    li.appendChild(a);
+
+    a.addEventListener('click', function (e){
+
+        e.preventDefault();
+        callback(uri, a);
+        return false;
+
+    }, false);
 
     var meshUri = 'http://www.nlm.nih.gov/cgi/mesh/2011/MB_cgi?field=uid&term=';
 
@@ -61,6 +72,8 @@ function annotationKey(uri, annotation) {
     if (annotation.drugbank.length) {
         li.appendChild(domify('<a style="color:#fff; text-decoration: none;" target="new" href="http://www.drugbank.ca/drugs/' + '"><sub>Drugbank</sub></a>'))
     }
+
+
 }
 
 module.exports = spannerify;

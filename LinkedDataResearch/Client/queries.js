@@ -179,7 +179,7 @@ module.exports = {
             uri(individual) + ' a nice:Recommendation .',
             uri(individual) + ' nice:isAbout ?t',
             '}'
-        )
+        );
 
     },
     'shinyGraph' : function (){
@@ -200,8 +200,47 @@ module.exports = {
             '?ann oa:hasTarget ?tgt .',
             '?ann oa:hasBody/content:chars ?txt .',
             '?ann oa:hasBody/owl:sameAs ?tag .',
+            '} LIMIT 500'
+        )
+            '} LIMIT 500'
+        );
+    },
+    'allStudies' : function (){
+        return concat(
+            prefixes,
+            'construct {',
+              '?gr content:chars ?cnt .',
+            '}',
+            'WHERE {',
+                '?gr content:chars ?cnt',
+                '{',
+                  'SELECT DISTINCT ?gr ',
+                  'WHERE {',
+                      '?st a nice:Study .',
+                      '?st nice:hasReference ?gr .',
+                      '?gr content:chars ?cnt .',
+                  '}',
+                '}',
+            '}'
             'FILTER (REGEX(STR(?t), "CH15", "i"))',
             '} limit 100'
         );
+
+    },
+    'recommendationsFrom' : function (study){
+        return concat(
+            prefixes,
+        'construct { ?rec nice:Influenced <' + study + '>}',
+        'WHERE {',
+         '?est nice:hasReference <' + study +'> .',
+         '?est nice:isSummarisedBy ?es .',
+         '?es nice:isAbout ?t .',
+         '?dis a nice:Discussion .',
+         '?dis nice:isAbout ?t .',
+         '?t a nice:Topic .',
+         '?rec a nice:Recommendation .',
+         '?rec nice:isAbout ?t ',
+        '}'
+        )        
     }
 };

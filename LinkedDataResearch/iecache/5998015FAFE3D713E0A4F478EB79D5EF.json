@@ -1,0 +1,460 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.983215
+      },
+      {
+        "id": 2,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.983215
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.938075
+      },
+      {
+        "id": 4,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.922494
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.482116
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Sensitivity and specificity",
+        "wikiLink": "http://en.wikipedia.org/Sensitivity_and_specificity",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Type I and type II errors",
+        "wikiLink": "http://en.wikipedia.org/Type_I_and_type_II_errors",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Urine",
+        "wikiLink": "http://en.wikipedia.org/Urine",
+        "score": 0.188622
+      },
+      {
+        "id": 3,
+        "label": "Philosophy",
+        "wikiLink": "http://en.wikipedia.org/Category:Philosophy_by_field",
+        "score": 0.176177
+      },
+      {
+        "id": 4,
+        "label": "Scientific theories",
+        "wikiLink": "http://en.wikipedia.org/Category:Scientific_theories",
+        "score": 0.176177
+      },
+      {
+        "id": 5,
+        "label": "Statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistics",
+        "score": 0.176177
+      },
+      {
+        "id": 6,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.176177
+      },
+      {
+        "id": 7,
+        "label": "Statistical theory",
+        "wikiLink": "http://en.wikipedia.org/Category:Statistical_theory",
+        "score": 0.176177
+      },
+      {
+        "id": 8,
+        "label": "Fields of application of statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_application_of_statistics",
+        "score": 0.176177
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "UAER",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "UAER",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 47,
+        "endingPos": 51
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Urine",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 1.46014,
+        "wikiLink": "http://en.wikipedia.org/wiki/Urine",
+        "matchedText": "urine",
+        "freebaseId": "/m/0b7q43",
+        "relevanceScore": 0.188622,
+        "entityEnglishId": "Urine",
+        "startingPos": 72,
+        "endingPos": 77
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Sensitivity and specificity",
+        "confidenceScore": 1.57931,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sensitivity_and_specificity",
+        "matchedText": "sensitivity",
+        "freebaseId": "/m/047vmjj",
+        "relevanceScore": 0.64127,
+        "entityEnglishId": "Sensitivity and specificity",
+        "startingPos": 102,
+        "endingPos": 113
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Sensitivity and specificity",
+        "confidenceScore": 2.26377,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sensitivity_and_specificity",
+        "matchedText": "specificity",
+        "freebaseId": "/m/047vmjj",
+        "relevanceScore": 0.794932,
+        "entityEnglishId": "Sensitivity and specificity",
+        "startingPos": 124,
+        "endingPos": 135
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          83,
+          84
+        ],
+        "entityId": "Type I and type II errors",
+        "confidenceScore": 1.15374,
+        "wikiLink": "http://en.wikipedia.org/wiki/Type_I_and_type_II_errors",
+        "matchedText": "false negatives",
+        "freebaseId": "/m/0dynqq",
+        "relevanceScore": 0.270729,
+        "entityEnglishId": "Type I and type II errors",
+        "startingPos": 427,
+        "endingPos": 442
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          92,
+          93
+        ],
+        "entityId": "Type I and type II errors",
+        "confidenceScore": 2.45027,
+        "wikiLink": "http://en.wikipedia.org/wiki/Type_I_and_type_II_errors",
+        "matchedText": "false positives",
+        "freebaseId": "/m/0dynqq",
+        "relevanceScore": 0.373892,
+        "entityEnglishId": "Type I and type II errors",
+        "startingPos": 460,
+        "endingPos": 475
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          112
+        ],
+        "entityId": "Micral",
+        "confidenceScore": 2.52501,
+        "wikiLink": "http://en.wikipedia.org/wiki/Micral",
+        "matchedText": "Micral",
+        "freebaseId": "/m/0g2s64",
+        "relevanceScore": 0.0473596,
+        "entityEnglishId": "Micral",
+        "startingPos": 530,
+        "endingPos": 536
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          120,
+          121
+        ],
+        "entityId": "Type I and type II errors",
+        "confidenceScore": 4.33451,
+        "wikiLink": "http://en.wikipedia.org/wiki/Type_I_and_type_II_errors",
+        "matchedText": "false positive",
+        "freebaseId": "/m/0dynqq",
+        "relevanceScore": 0.373892,
+        "entityEnglishId": "Type I and type II errors",
+        "startingPos": 570,
+        "endingPos": 584
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          42,
+          43,
+          44,
+          45,
+          47
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              39,
+              40,
+              41
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              46,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          26,
+          28,
+          29,
+          30
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              27
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              31,
+              32
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          36
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              34,
+              35
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              37
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          51,
+          53,
+          54
+        ],
+        "propertyPositions": [
+          52
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          49,
+          50
+        ],
+        "propertyPositions": [
+          51,
+          52,
+          53,
+          54
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          32
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          10,
+          13,
+          14
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          111,
+          113
+        ],
+        "propertyPositions": [
+          112
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          57
+        ],
+        "propertyPositions": [
+          56
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          66
+        ],
+        "propertyPositions": [
+          65
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          66
+        ],
+        "propertyPositions": [
+          68,
+          70,
+          71,
+          72,
+          73,
+          75,
+          76
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          80
+        ],
+        "propertyPositions": [
+          79
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          84
+        ],
+        "propertyPositions": [
+          83
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          93
+        ],
+        "propertyPositions": [
+          92
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          82,
+          98
+        ],
+        "propertyPositions": [
+          83,
+          84,
+          86,
+          88,
+          89,
+          91,
+          92,
+          93,
+          95
+        ]
+      }
+    ]
+  },
+  "time": 0.321,
+  "ok": true
+}

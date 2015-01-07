@@ -1,0 +1,296 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.674035
+      },
+      {
+        "id": 3,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.653332
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.346668
+      },
+      {
+        "id": 5,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.346668
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.188942
+      },
+      {
+        "id": 1,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Health_care",
+        "score": 0.213875
+      },
+      {
+        "id": 2,
+        "label": "Society",
+        "wikiLink": "http://en.wikipedia.org/Category:Society",
+        "score": 0.0651041
+      },
+      {
+        "id": 3,
+        "label": "Management",
+        "wikiLink": "http://en.wikipedia.org/Category:Management",
+        "score": 0.0651041
+      },
+      {
+        "id": 4,
+        "label": "Social policy",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_policy",
+        "score": 0.0488888
+      },
+      {
+        "id": 5,
+        "label": "Social programs",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_programs",
+        "score": 0.0488888
+      },
+      {
+        "id": 6,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.0488888
+      },
+      {
+        "id": 7,
+        "label": "Service industries",
+        "wikiLink": "http://en.wikipedia.org/Category:Service_industries",
+        "score": 0.0488888
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Management",
+        "freebaseTypes": [
+          "/media_common/quotation_subject",
+          "/broadcast/genre",
+          "/book/periodical_subject",
+          "/book/book_subject",
+          "/education/field_of_study",
+          "/education/school_category"
+        ],
+        "confidenceScore": 1.38582,
+        "wikiLink": "http://en.wikipedia.org/wiki/Management",
+        "matchedText": "management",
+        "freebaseId": "/m/04_tv",
+        "relevanceScore": 0.0701118,
+        "entityEnglishId": "Management",
+        "startingPos": 18,
+        "endingPos": 28
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 2.44156,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.188942,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 49,
+        "endingPos": 57
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          10,
+          11
+        ],
+        "entityId": "Health care",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/organization/organization_sector",
+          "/food/tea_type",
+          "/people/professional_field",
+          "/education/field_of_study",
+          "/government/government_service",
+          "/business/industry",
+          "/exhibitions/exhibition_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.35205,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_care",
+        "matchedText": "health care",
+        "freebaseId": "/m/01mw2x",
+        "relevanceScore": 0.213875,
+        "entityEnglishId": "Health care",
+        "startingPos": 62,
+        "endingPos": 73
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          10,
+          11,
+          12
+        ],
+        "entityId": "Health care provider",
+        "freebaseTypes": [
+          "/people/profession",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.4914,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_care_provider",
+        "matchedText": "health care professionals",
+        "freebaseId": "/m/0fsbk0",
+        "relevanceScore": 0.0927422,
+        "entityEnglishId": "Health care provider",
+        "startingPos": 62,
+        "endingPos": 87
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          18,
+          19
+        ],
+        "propertyPositions": [
+          20
+        ]
+      }
+    ]
+  },
+  "time": 0.312,
+  "ok": true
+}

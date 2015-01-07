@@ -1,0 +1,191 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Antihypertensive drug",
+        "wikiLink": "http://en.wikipedia.org/Antihypertensive_drug",
+        "score": 0.249795
+      },
+      {
+        "id": 1,
+        "label": "Losartan",
+        "wikiLink": "http://en.wikipedia.org/Losartan",
+        "score": 0.489419
+      },
+      {
+        "id": 2,
+        "label": "Antihypertensive agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Antihypertensive_agents",
+        "score": 0.0948265
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Losartan",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 3.37919,
+        "wikiLink": "http://en.wikipedia.org/wiki/Losartan",
+        "matchedText": "Losartan",
+        "freebaseId": "/m/072klj",
+        "relevanceScore": 0.489419,
+        "entityEnglishId": "Losartan",
+        "startingPos": 0,
+        "endingPos": 8
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Antihypertensive drug",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_class"
+        ],
+        "confidenceScore": 4.36722,
+        "wikiLink": "http://en.wikipedia.org/wiki/Antihypertensive_drug",
+        "matchedText": "antihypertensive",
+        "freebaseId": "/m/02yx18",
+        "relevanceScore": 0.249795,
+        "entityEnglishId": "Antihypertensive drug",
+        "startingPos": 75,
+        "endingPos": 91
+      },
+      {
+        "id": 2,
+        "type": [
+          "Person"
+        ],
+        "matchingTokens": [
+          17
+        ],
+        "entityId": "Vora",
+        "freebaseTypes": [
+          "/people/person"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Vora",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 104,
+        "endingPos": 108
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          15
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          21,
+          23
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          9,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "time": 0.308,
+  "ok": true
+}

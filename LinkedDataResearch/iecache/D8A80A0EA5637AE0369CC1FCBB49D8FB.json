@@ -1,0 +1,550 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.470646
+      },
+      {
+        "id": 2,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.470646
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.470646
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Lipid",
+        "wikiLink": "http://en.wikipedia.org/Lipid",
+        "score": 0.293964
+      },
+      {
+        "id": 1,
+        "label": "Lipid profile",
+        "wikiLink": "http://en.wikipedia.org/Lipid_profile",
+        "score": 0.289826
+      },
+      {
+        "id": 2,
+        "label": "Metformin",
+        "wikiLink": "http://en.wikipedia.org/Metformin",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Nateglinide",
+        "wikiLink": "http://en.wikipedia.org/Nateglinide",
+        "score": 0.181457
+      },
+      {
+        "id": 4,
+        "label": "Triglyceride",
+        "wikiLink": "http://en.wikipedia.org/Triglyceride",
+        "score": 0.290781
+      },
+      {
+        "id": 5,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.703102
+      },
+      {
+        "id": 6,
+        "label": "Biomolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Biomolecules_by_chemical_classification",
+        "score": 0.407361
+      },
+      {
+        "id": 7,
+        "label": "Membrane-active molecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Membrane-active_molecules",
+        "score": 0.407361
+      },
+      {
+        "id": 8,
+        "label": "Nutrients",
+        "wikiLink": "http://en.wikipedia.org/Category:Nutrients",
+        "score": 0.407361
+      },
+      {
+        "id": 9,
+        "label": "Lipids",
+        "wikiLink": "http://en.wikipedia.org/Category:Lipids",
+        "score": 0.407361
+      },
+      {
+        "id": 10,
+        "label": "Macromolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Macromolecules",
+        "score": 0.407361
+      },
+      {
+        "id": 11,
+        "label": "Organic chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_chemistry",
+        "score": 0.345731
+      },
+      {
+        "id": 12,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.0947298
+      },
+      {
+        "id": 13,
+        "label": "Carbon compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Carbon_compounds",
+        "score": 0.0790648
+      },
+      {
+        "id": 14,
+        "label": "Hydrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Hydrogen_compounds",
+        "score": 0.0790648
+      },
+      {
+        "id": 15,
+        "label": "Molecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Molecules",
+        "score": 0.0790648
+      },
+      {
+        "id": 16,
+        "label": "Membrane biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Membrane_biology",
+        "score": 0.0790648
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.45041,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.371709,
+        "entityEnglishId": "Metformin",
+        "startingPos": 23,
+        "endingPos": 32
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Combination therapy",
+        "confidenceScore": 1.74567,
+        "wikiLink": "http://en.wikipedia.org/wiki/Combination_therapy",
+        "matchedText": "monotherapy",
+        "freebaseId": "/m/058jwm",
+        "relevanceScore": 0.073861,
+        "entityEnglishId": "Combination therapy",
+        "startingPos": 33,
+        "endingPos": 44
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 6.8775,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.371709,
+        "entityEnglishId": "Metformin",
+        "startingPos": 50,
+        "endingPos": 59
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Lipid",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/food/nutrient"
+        ],
+        "confidenceScore": 4.63777,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lipid",
+        "matchedText": "lipid",
+        "freebaseId": "/m/04k8n",
+        "relevanceScore": 0.293964,
+        "entityEnglishId": "Lipid",
+        "startingPos": 111,
+        "endingPos": 116
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          16,
+          17
+        ],
+        "entityId": "Lipid profile",
+        "freebaseTypes": [
+          "/medicine/diagnostic_test"
+        ],
+        "confidenceScore": 2.19232,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lipid_profile",
+        "matchedText": "lipid profile",
+        "freebaseId": "/m/0b6gmq8",
+        "relevanceScore": 0.289826,
+        "entityEnglishId": "Lipid profile",
+        "startingPos": 111,
+        "endingPos": 124
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Triglyceride",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 7.26999,
+        "wikiLink": "http://en.wikipedia.org/wiki/Triglyceride",
+        "matchedText": "triglycerides",
+        "freebaseId": "/m/0fmjs",
+        "relevanceScore": 0.290781,
+        "entityEnglishId": "Triglyceride",
+        "startingPos": 161,
+        "endingPos": 174
+      },
+      {
+        "id": 6,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.90257,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.371709,
+        "entityEnglishId": "Metformin",
+        "startingPos": 216,
+        "endingPos": 225
+      },
+      {
+        "id": 7,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Nateglinide",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 1.93855,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nateglinide",
+        "matchedText": "nateglinide",
+        "freebaseId": "/m/0dlcpz",
+        "relevanceScore": 0.0907284,
+        "entityEnglishId": "Nateglinide",
+        "startingPos": 230,
+        "endingPos": 241
+      },
+      {
+        "id": 8,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          34,
+          35
+        ],
+        "entityId": "nateglinide group",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "nateglinide group",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 230,
+        "endingPos": 247
+      },
+      {
+        "id": 9,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Nateglinide",
+        "freebaseTypes": [
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/chemistry/chemical_compound",
+          "/medicine/drug_ingredient"
+        ],
+        "confidenceScore": 1.93855,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nateglinide",
+        "matchedText": "nateglinide",
+        "freebaseId": "/m/0dlcpz",
+        "relevanceScore": 0.0907284,
+        "entityEnglishId": "Nateglinide",
+        "startingPos": 249,
+        "endingPos": 260
+      },
+      {
+        "id": 10,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          43
+        ],
+        "entityId": "daily",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "daily",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 284,
+        "endingPos": 289
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          1,
+          3,
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1,
+          3
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          10
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              11
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          13,
+          14,
+          18,
+          22
+        ],
+        "propertyPositions": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          13,
+          14,
+          18,
+          22
+        ],
+        "propertyPositions": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          13,
+          14,
+          18,
+          22
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          5,
+          6
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "time": 0.313,
+  "ok": true
+}

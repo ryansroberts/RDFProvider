@@ -1,0 +1,199 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.668404
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.374172
+      },
+      {
+        "id": 3,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.292785
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.284061
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.284061
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Carbamazepine",
+        "wikiLink": "http://en.wikipedia.org/Carbamazepine",
+        "score": 0.278806
+      },
+      {
+        "id": 1,
+        "label": "Pain",
+        "wikiLink": "http://en.wikipedia.org/Pain",
+        "score": 0.224833
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Carbamazepine",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 7.41148,
+        "wikiLink": "http://en.wikipedia.org/wiki/Carbamazepine",
+        "matchedText": "carbamazepine",
+        "freebaseId": "/m/01_y8",
+        "relevanceScore": 0.278806,
+        "entityEnglishId": "Carbamazepine",
+        "startingPos": 26,
+        "endingPos": 39
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Contraindication",
+        "confidenceScore": 1.37674,
+        "wikiLink": "http://en.wikipedia.org/wiki/Contraindication",
+        "matchedText": "contraindicated",
+        "freebaseId": "/m/02cr52",
+        "relevanceScore": 0.060159,
+        "entityEnglishId": "Contraindication",
+        "startingPos": 83,
+        "endingPos": 98
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Pain",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification",
+          "/book/book_subject",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.20959,
+        "wikiLink": "http://en.wikipedia.org/wiki/Pain",
+        "matchedText": "pain",
+        "freebaseId": "/m/062t2",
+        "relevanceScore": 0.224833,
+        "entityEnglishId": "Pain",
+        "startingPos": 195,
+        "endingPos": 199
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "condition-specific",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "condition-specific",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 215,
+        "endingPos": 233
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          36,
+          38
+        ],
+        "propertyPositions": [
+          37
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          2,
+          3
+        ],
+        "propertyPositions": [
+          0,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          28
+        ],
+        "propertyPositions": [
+          27
+        ]
+      }
+    ]
+  },
+  "time": 0.313,
+  "ok": true
+}

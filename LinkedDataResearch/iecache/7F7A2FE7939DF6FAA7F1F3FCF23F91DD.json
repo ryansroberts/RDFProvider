@@ -1,0 +1,981 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.994671
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.645075
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.519446
+      },
+      {
+        "id": 4,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.472064
+      },
+      {
+        "id": 5,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.461481
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Color vision",
+        "wikiLink": "http://en.wikipedia.org/Color_vision",
+        "score": 0.496938
+      },
+      {
+        "id": 1,
+        "label": "Disability",
+        "wikiLink": "http://en.wikipedia.org/Disability",
+        "score": 0.310734
+      },
+      {
+        "id": 2,
+        "label": "Self-monitoring",
+        "wikiLink": "http://en.wikipedia.org/Self-monitoring",
+        "score": 0.441701
+      },
+      {
+        "id": 3,
+        "label": "Visual impairment",
+        "wikiLink": "http://en.wikipedia.org/Visual_impairment",
+        "score": 0.264845
+      },
+      {
+        "id": 4,
+        "label": "Visual perception",
+        "wikiLink": "http://en.wikipedia.org/Visual_perception",
+        "score": 0.677872
+      },
+      {
+        "id": 5,
+        "label": "Psychology",
+        "wikiLink": "http://en.wikipedia.org/Category:Psychology",
+        "score": 0.447689
+      },
+      {
+        "id": 6,
+        "label": "Visual system",
+        "wikiLink": "http://en.wikipedia.org/Category:Visual_system",
+        "score": 0.215345
+      },
+      {
+        "id": 7,
+        "label": "Perception",
+        "wikiLink": "http://en.wikipedia.org/Category:Perception",
+        "score": 0.214181
+      },
+      {
+        "id": 8,
+        "label": "Cognitive science",
+        "wikiLink": "http://en.wikipedia.org/Category:Cognitive_science",
+        "score": 0.214168
+      },
+      {
+        "id": 9,
+        "label": "Vision",
+        "wikiLink": "http://en.wikipedia.org/Category:Vision",
+        "score": 0.187383
+      },
+      {
+        "id": 10,
+        "label": "Cognition",
+        "wikiLink": "http://en.wikipedia.org/Category:Cognition",
+        "score": 0.162476
+      },
+      {
+        "id": 11,
+        "label": "Personal life",
+        "wikiLink": "http://en.wikipedia.org/Category:Personal_life",
+        "score": 0.110019
+      },
+      {
+        "id": 12,
+        "label": "Education",
+        "wikiLink": "http://en.wikipedia.org/Category:Education_by_subject",
+        "score": 0.105231
+      },
+      {
+        "id": 13,
+        "label": "Humans",
+        "wikiLink": "http://en.wikipedia.org/Category:Humans",
+        "score": 0.102843
+      },
+      {
+        "id": 14,
+        "label": "Fields of application of statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_application_of_statistics",
+        "score": 0.0970879
+      },
+      {
+        "id": 15,
+        "label": "Skills",
+        "wikiLink": "http://en.wikipedia.org/Category:Skills",
+        "score": 0.0939834
+      },
+      {
+        "id": 16,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.085369
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          37
+        ],
+        "entityId": "Training",
+        "freebaseTypes": [
+          "/education/school_category",
+          "/organization/organization_sector",
+          "/organization/contact_category",
+          "/media_common/quotation_subject",
+          "/book/book_subject",
+          "/business/industry"
+        ],
+        "confidenceScore": 1.56075,
+        "wikiLink": "http://en.wikipedia.org/wiki/Training",
+        "matchedText": "training",
+        "freebaseId": "/m/014jg3",
+        "relevanceScore": 0.0759163,
+        "entityEnglishId": "Training",
+        "startingPos": 193,
+        "endingPos": 201
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          39
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.36265,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Patient",
+        "startingPos": 205,
+        "endingPos": 213
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          60,
+          61
+        ],
+        "entityId": "Visual impairment",
+        "confidenceScore": 1.78526,
+        "wikiLink": "http://en.wikipedia.org/wiki/Visual_impairment",
+        "matchedText": "visual impairments",
+        "freebaseId": "/m/0bwbz0j",
+        "relevanceScore": 0.264845,
+        "entityEnglishId": "Visual impairment",
+        "startingPos": 307,
+        "endingPos": 325
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          78
+        ],
+        "entityId": "Disability",
+        "freebaseTypes": [
+          "/tv/tv_subject",
+          "/book/book_subject",
+          "/media_common/quotation_subject",
+          "/film/film_subject"
+        ],
+        "confidenceScore": 1.15292,
+        "wikiLink": "http://en.wikipedia.org/wiki/Disability",
+        "matchedText": "impairment",
+        "freebaseId": "/m/0fl5x",
+        "relevanceScore": 0.310734,
+        "entityEnglishId": "Disability",
+        "startingPos": 413,
+        "endingPos": 423
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          80,
+          81
+        ],
+        "entityId": "Color vision",
+        "freebaseTypes": [
+          "/people/profession"
+        ],
+        "confidenceScore": 2.37034,
+        "wikiLink": "http://en.wikipedia.org/wiki/Color_vision",
+        "matchedText": "colour vision",
+        "freebaseId": "/m/01s337",
+        "relevanceScore": 0.248469,
+        "entityEnglishId": "Color vision",
+        "startingPos": 427,
+        "endingPos": 440
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          81
+        ],
+        "entityId": "Visual perception",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.09912,
+        "wikiLink": "http://en.wikipedia.org/wiki/Visual_perception",
+        "matchedText": "vision",
+        "freebaseId": "/m/01k1vd",
+        "relevanceScore": 0.338936,
+        "entityEnglishId": "Visual perception",
+        "startingPos": 434,
+        "endingPos": 440
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          87
+        ],
+        "entityId": "Self-monitoring",
+        "confidenceScore": 1.73745,
+        "wikiLink": "http://en.wikipedia.org/wiki/Self-monitoring",
+        "matchedText": "self-monitoring",
+        "freebaseId": "/m/025sv8d",
+        "relevanceScore": 0.220851,
+        "entityEnglishId": "Self-monitoring",
+        "startingPos": 474,
+        "endingPos": 489
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          96
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.29972,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0,
+        "entityEnglishId": "Patient",
+        "startingPos": 537,
+        "endingPos": 545
+      },
+      {
+        "id": 8,
+        "matchingTokens": [
+          101,
+          102
+        ],
+        "entityId": "Color vision",
+        "freebaseTypes": [
+          "/people/profession"
+        ],
+        "confidenceScore": 2.37034,
+        "wikiLink": "http://en.wikipedia.org/wiki/Color_vision",
+        "matchedText": "colour vision",
+        "freebaseId": "/m/01s337",
+        "relevanceScore": 0.248469,
+        "entityEnglishId": "Color vision",
+        "startingPos": 569,
+        "endingPos": 582
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          102
+        ],
+        "entityId": "Visual perception",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 2.09912,
+        "wikiLink": "http://en.wikipedia.org/wiki/Visual_perception",
+        "matchedText": "vision",
+        "freebaseId": "/m/01k1vd",
+        "relevanceScore": 0.338936,
+        "entityEnglishId": "Visual perception",
+        "startingPos": 576,
+        "endingPos": 582
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          104
+        ],
+        "entityId": "Self-monitoring",
+        "confidenceScore": 1.73745,
+        "wikiLink": "http://en.wikipedia.org/wiki/Self-monitoring",
+        "matchedText": "self-monitoring",
+        "freebaseId": "/m/025sv8d",
+        "relevanceScore": 0.220851,
+        "entityEnglishId": "Self-monitoring",
+        "startingPos": 590,
+        "endingPos": 605
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          8,
+          9,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              10,
+              11,
+              12,
+              13,
+              15,
+              16,
+              17,
+              18,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              15,
+              16,
+              17,
+              18,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          9,
+          10,
+          11,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              12,
+              13,
+              15,
+              16,
+              17,
+              18,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          76
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              74,
+              75
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          82
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              78,
+              79,
+              80,
+              81
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              77,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          82,
+          83,
+          84,
+          85,
+          86,
+          88
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              78,
+              79,
+              80,
+              81
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              77,
+              87,
+              89,
+              90,
+              91,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          82,
+          93
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              78,
+              79,
+              80,
+              81
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              77,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          97,
+          98,
+          99,
+          100
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              95,
+              96
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              94,
+              101,
+              102,
+              103,
+              104,
+              105
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          32,
+          33,
+          34,
+          35,
+          41
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              29,
+              30,
+              31
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              36,
+              37,
+              38,
+              39,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              57,
+              58,
+              59,
+              60,
+              61,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          32,
+          33,
+          34,
+          35,
+          41,
+          42,
+          43,
+          44
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              29,
+              30,
+              31
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              36,
+              37,
+              38,
+              39,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              57,
+              58,
+              59,
+              60,
+              61,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          42,
+          43,
+          44,
+          63,
+          69,
+          70,
+          71
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              67,
+              68
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              57,
+              58,
+              59,
+              60,
+              61,
+              64,
+              65,
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          63,
+          69,
+          70,
+          71
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              67,
+              68
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              64,
+              65,
+              66
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          0,
+          2,
+          4,
+          5,
+          6
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          78,
+          79
+        ],
+        "propertyPositions": [
+          80,
+          81
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          91
+        ],
+        "propertyPositions": [
+          89,
+          90
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          61
+        ],
+        "propertyPositions": [
+          60
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          58,
+          59
+        ],
+        "propertyPositions": [
+          60,
+          61
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          54,
+          55
+        ],
+        "propertyPositions": [
+          53
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          68
+        ],
+        "propertyPositions": [
+          67
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          46
+        ],
+        "propertyPositions": [
+          45
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          37,
+          38
+        ],
+        "propertyPositions": [
+          36
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          37,
+          38
+        ],
+        "propertyPositions": [
+          39
+        ]
+      }
+    ]
+  },
+  "time": 0.367,
+  "ok": true
+}

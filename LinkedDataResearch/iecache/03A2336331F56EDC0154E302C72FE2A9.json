@@ -1,0 +1,411 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.94348
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.91217
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.800254
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.56771
+      },
+      {
+        "id": 5,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.425829
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Cost-effectiveness analysis",
+        "wikiLink": "http://en.wikipedia.org/Cost-effectiveness_analysis",
+        "score": 0.418434
+      },
+      {
+        "id": 1,
+        "label": "Systematic review",
+        "wikiLink": "http://en.wikipedia.org/Systematic_review",
+        "score": 0.567446
+      },
+      {
+        "id": 2,
+        "label": "United Kingdom",
+        "wikiLink": "http://en.wikipedia.org/United_Kingdom",
+        "score": 0.32684
+      },
+      {
+        "id": 3,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.309646
+      },
+      {
+        "id": 4,
+        "label": "Social problems",
+        "wikiLink": "http://en.wikipedia.org/Category:Social_problems",
+        "score": 0.217452
+      },
+      {
+        "id": 5,
+        "label": "Healthcare management",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_management",
+        "score": 0.206016
+      },
+      {
+        "id": 6,
+        "label": "Healthcare quality",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_quality",
+        "score": 0.206016
+      },
+      {
+        "id": 7,
+        "label": "Quality",
+        "wikiLink": "http://en.wikipedia.org/Category:Quality",
+        "score": 0.206016
+      },
+      {
+        "id": 8,
+        "label": "Information science",
+        "wikiLink": "http://en.wikipedia.org/Category:Information_science",
+        "score": 0.171624
+      },
+      {
+        "id": 9,
+        "label": "Information",
+        "wikiLink": "http://en.wikipedia.org/Category:Information",
+        "score": 0.151557
+      },
+      {
+        "id": 10,
+        "label": "Information technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Information_technology",
+        "score": 0.147021
+      },
+      {
+        "id": 11,
+        "label": "Cognitive science",
+        "wikiLink": "http://en.wikipedia.org/Category:Cognitive_science",
+        "score": 0.136213
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          5,
+          6
+        ],
+        "entityId": "Systematic review",
+        "confidenceScore": 4.57683,
+        "wikiLink": "http://en.wikipedia.org/wiki/Systematic_review",
+        "matchedText": "systematic review",
+        "freebaseId": "/m/08jd5_",
+        "relevanceScore": 0.567446,
+        "entityEnglishId": "Systematic review",
+        "startingPos": 33,
+        "endingPos": 50
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Cost-effectiveness analysis",
+        "confidenceScore": 1.53404,
+        "wikiLink": "http://en.wikipedia.org/wiki/Cost-effectiveness_analysis",
+        "matchedText": "cost-effectiveness",
+        "freebaseId": "/m/01n8zs",
+        "relevanceScore": 0.418434,
+        "entityEnglishId": "Cost-effectiveness analysis",
+        "startingPos": 74,
+        "endingPos": 92
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          33,
+          34
+        ],
+        "entityId": "Assessment Group",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Assessment Group",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 210,
+        "endingPos": 226
+      },
+      {
+        "id": 3,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          38
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.71752,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.16342,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 238,
+        "endingPos": 240
+      },
+      {
+        "id": 4,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Country"
+        ],
+        "matchingTokens": [
+          65
+        ],
+        "entityId": "United Kingdom",
+        "freebaseTypes": [
+          "/food/beer_country_region",
+          "/cvg/computer_game_region",
+          "/sports/sports_team_location",
+          "/periodicals/newspaper_circulation_area",
+          "/book/book_subject",
+          "/location/administrative_division",
+          "/tv/tv_location",
+          "/fictional_universe/fictional_setting",
+          "/government/governmental_jurisdiction",
+          "/law/court_jurisdiction_area",
+          "/location/statistical_region",
+          "/media_common/netflix_genre",
+          "/location/uk_statistical_location",
+          "/location/country",
+          "/organization/organization_member",
+          "/location/location",
+          "/organization/organization_scope",
+          "/book/periodical_subject",
+          "/royalty/kingdom",
+          "/military/military_combatant",
+          "/business/employer",
+          "/symbols/flag_referent",
+          "/location/dated_location",
+          "/film/film_location",
+          "/sports/sport_country",
+          "/organization/organization_founder",
+          "/biology/breed_origin",
+          "/olympics/olympic_participating_country"
+        ],
+        "confidenceScore": 1.71752,
+        "wikiLink": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "matchedText": "UK",
+        "freebaseId": "/m/07ssc",
+        "relevanceScore": 0.16342,
+        "entityEnglishId": "United Kingdom",
+        "startingPos": 401,
+        "endingPos": 403
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          17,
+          18
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              15,
+              16
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          56,
+          57
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              53,
+              54,
+              55
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              49,
+              50,
+              51,
+              58,
+              59
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          43,
+          44,
+          45
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              42
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              46,
+              47
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          25,
+          26,
+          27
+        ],
+        "propertyPositions": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          53,
+          55
+        ],
+        "propertyPositions": [
+          54
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          4,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          9
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          4,
+          6,
+          7
+        ],
+        "propertyPositions": [
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "time": 0.333,
+  "ok": true
+}

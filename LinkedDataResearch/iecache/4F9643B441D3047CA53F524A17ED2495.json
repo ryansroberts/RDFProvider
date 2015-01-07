@@ -1,0 +1,754 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.501338
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.494398
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.49114
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.267951
+      },
+      {
+        "id": 5,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.247551
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Incidence (epidemiology)",
+        "wikiLink": "http://en.wikipedia.org/Incidence_(epidemiology)",
+        "score": 0.2934
+      },
+      {
+        "id": 1,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Kidney",
+        "score": 0.854235
+      },
+      {
+        "id": 2,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.704515
+      },
+      {
+        "id": 3,
+        "label": "Placebo-controlled study",
+        "wikiLink": "http://en.wikipedia.org/Placebo-controlled_study",
+        "score": 0.28265
+      },
+      {
+        "id": 4,
+        "label": "Renal failure",
+        "wikiLink": "http://en.wikipedia.org/Renal_failure",
+        "score": 0.698982
+      },
+      {
+        "id": 5,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.169004
+      },
+      {
+        "id": 6,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.129576
+      },
+      {
+        "id": 7,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.112202
+      },
+      {
+        "id": 8,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.101667
+      },
+      {
+        "id": 9,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.101667
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Incidence (epidemiology)",
+        "confidenceScore": 1.05352,
+        "wikiLink": "http://en.wikipedia.org/wiki/Incidence_(epidemiology)",
+        "matchedText": "incidence",
+        "freebaseId": "/m/0169mv",
+        "relevanceScore": 0.1467,
+        "entityEnglishId": "Incidence (epidemiology)",
+        "startingPos": 4,
+        "endingPos": 13
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Risedronic acid",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound",
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors"
+        ],
+        "confidenceScore": 2.62244,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risedronic_acid",
+        "matchedText": "risedronate",
+        "freebaseId": "/m/0hqvfl5",
+        "relevanceScore": 0,
+        "entityEnglishId": "Risedronic acid",
+        "startingPos": 72,
+        "endingPos": 83
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 3.74024,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.352257,
+        "entityEnglishId": "Placebo",
+        "startingPos": 106,
+        "endingPos": 113
+      },
+      {
+        "id": 3,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.75792,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.284745,
+        "entityEnglishId": "Kidney",
+        "startingPos": 154,
+        "endingPos": 159
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "Renal failure",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 2.12537,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_failure",
+        "matchedText": "renal impairment",
+        "freebaseId": "/m/01psyx",
+        "relevanceScore": 0.232994,
+        "entityEnglishId": "Renal failure",
+        "startingPos": 154,
+        "endingPos": 170
+      },
+      {
+        "id": 5,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Risedronic acid",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/chemistry/chemical_compound",
+          "/medicine/drug",
+          "/medicine/medical_treatment",
+          "/medicine/condition_prevention_factors"
+        ],
+        "confidenceScore": 2.62244,
+        "wikiLink": "http://en.wikipedia.org/wiki/Risedronic_acid",
+        "matchedText": "risedronate",
+        "freebaseId": "/m/0hqvfl5",
+        "relevanceScore": 0,
+        "entityEnglishId": "Risedronic acid",
+        "startingPos": 202,
+        "endingPos": 213
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          39
+        ],
+        "entityId": "Incidence (epidemiology)",
+        "confidenceScore": 1.05352,
+        "wikiLink": "http://en.wikipedia.org/wiki/Incidence_(epidemiology)",
+        "matchedText": "incidence",
+        "freebaseId": "/m/0169mv",
+        "relevanceScore": 0.1467,
+        "entityEnglishId": "Incidence (epidemiology)",
+        "startingPos": 235,
+        "endingPos": 244
+      },
+      {
+        "id": 7,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          47
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.75792,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.284745,
+        "entityEnglishId": "Kidney",
+        "startingPos": 291,
+        "endingPos": 296
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          47,
+          48
+        ],
+        "entityId": "Renal failure",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 2.12537,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_failure",
+        "matchedText": "renal  impairment",
+        "freebaseId": "/m/01psyx",
+        "relevanceScore": 0.232994,
+        "entityEnglishId": "Renal failure",
+        "startingPos": 291,
+        "endingPos": 308
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          57
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 3.74024,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.352257,
+        "entityEnglishId": "Placebo",
+        "startingPos": 341,
+        "endingPos": 348
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          57,
+          58
+        ],
+        "entityId": "Placebo-controlled study",
+        "confidenceScore": 1.08539,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo-controlled_study",
+        "matchedText": "placebo group",
+        "freebaseId": "/m/05b5m22",
+        "relevanceScore": 0.28265,
+        "entityEnglishId": "Placebo-controlled study",
+        "startingPos": 341,
+        "endingPos": 354
+      },
+      {
+        "id": 11,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          69
+        ],
+        "entityId": "Kidney",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.75792,
+        "wikiLink": "http://en.wikipedia.org/wiki/Kidney",
+        "matchedText": "renal",
+        "freebaseId": "/m/04br3",
+        "relevanceScore": 0.284745,
+        "entityEnglishId": "Kidney",
+        "startingPos": 432,
+        "endingPos": 437
+      },
+      {
+        "id": 12,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          69,
+          70
+        ],
+        "entityId": "Renal failure",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/symptom",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 2.12537,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_failure",
+        "matchedText": "renal impairment",
+        "freebaseId": "/m/01psyx",
+        "relevanceScore": 0.232994,
+        "entityEnglishId": "Renal failure",
+        "startingPos": 432,
+        "endingPos": 448
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          55,
+          63,
+          64,
+          65
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              60,
+              61,
+              62
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              56,
+              57,
+              58,
+              66,
+              67,
+              68,
+              69,
+              70,
+              72,
+              73
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          55,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              60,
+              61,
+              62
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              56,
+              57,
+              58,
+              69,
+              70,
+              72,
+              73
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          43
+        ],
+        "propertyPositions": [
+          41
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          43
+        ],
+        "propertyPositions": [
+          42
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          38,
+          39,
+          40
+        ],
+        "propertyPositions": [
+          41,
+          42,
+          43
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          34,
+          35,
+          36
+        ],
+        "propertyPositions": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          51,
+          52
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          48,
+          49
+        ],
+        "propertyPositions": [
+          47
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          48,
+          49
+        ],
+        "propertyPositions": [
+          51,
+          52
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          62
+        ],
+        "propertyPositions": [
+          60
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          62
+        ],
+        "propertyPositions": [
+          61
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          67,
+          68
+        ],
+        "propertyPositions": [
+          66
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          70
+        ],
+        "propertyPositions": [
+          69
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          70
+        ],
+        "propertyPositions": [
+          72,
+          73
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          67,
+          68
+        ],
+        "propertyPositions": [
+          69,
+          70,
+          72,
+          73
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          5
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          5
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "id": 16,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 17,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          21,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "id": 18,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 19,
+        "wordPositions": [
+          18,
+          19,
+          20
+        ],
+        "propertyPositions": [
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "id": 20,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "id": 21,
+        "wordPositions": [
+          10,
+          11
+        ],
+        "propertyPositions": [
+          13,
+          14,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      }
+    ]
+  },
+  "time": 0.326,
+  "ok": true
+}

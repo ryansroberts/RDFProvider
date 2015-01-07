@@ -1,0 +1,294 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.985361
+      },
+      {
+        "id": 1,
+        "label": "Leisure",
+        "wikiLink": "http://en.wikipedia.org/Category:Leisure",
+        "score": 0.985361
+      },
+      {
+        "id": 2,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.985361
+      },
+      {
+        "id": 3,
+        "label": "Sports",
+        "wikiLink": "http://en.wikipedia.org/Category:Sports",
+        "score": 0.985361
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.985361
+      },
+      {
+        "id": 5,
+        "label": "Arts",
+        "wikiLink": "http://en.wikipedia.org/Category:Arts",
+        "score": 0.985361
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.239719
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Place",
+          "SportFacility",
+          "Stadium"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Melbourne Cricket Ground",
+        "freebaseTypes": [
+          "/architecture/structure",
+          "/olympics/olympic_venue",
+          "/architecture/venue",
+          "/architecture/building",
+          "/projects/project_focus",
+          "/sports/sports_facility",
+          "/cricket/cricket_stadium",
+          "/location/location",
+          "/travel/tourist_attraction"
+        ],
+        "confidenceScore": 2.1837,
+        "wikiLink": "http://en.wikipedia.org/wiki/Melbourne_Cricket_Ground",
+        "matchedText": "MCG",
+        "freebaseId": "/m/04_1m",
+        "relevanceScore": 0.00788091,
+        "entityEnglishId": "Melbourne Cricket Ground",
+        "startingPos": 46,
+        "endingPos": 49
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.12175,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.239719,
+        "entityEnglishId": "Renal function",
+        "startingPos": 108,
+        "endingPos": 111
+      },
+      {
+        "id": 2,
+        "type": [
+          "Place",
+          "SportFacility",
+          "Stadium"
+        ],
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Melbourne Cricket Ground",
+        "freebaseTypes": [
+          "/architecture/structure",
+          "/olympics/olympic_venue",
+          "/architecture/venue",
+          "/architecture/building",
+          "/projects/project_focus",
+          "/sports/sports_facility",
+          "/cricket/cricket_stadium",
+          "/location/location",
+          "/travel/tourist_attraction"
+        ],
+        "confidenceScore": 2.1837,
+        "wikiLink": "http://en.wikipedia.org/wiki/Melbourne_Cricket_Ground",
+        "matchedText": "MCG",
+        "freebaseId": "/m/04_1m",
+        "relevanceScore": 0.00788091,
+        "entityEnglishId": "Melbourne Cricket Ground",
+        "startingPos": 171,
+        "endingPos": 174
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          2
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          2,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          17,
+          21,
+          22,
+          23
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              18,
+              19,
+              20
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              24,
+              25,
+              27,
+              29,
+              30,
+              32,
+              33,
+              35
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          47,
+          49,
+          50
+        ],
+        "propertyPositions": [
+          48
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          47,
+          49,
+          50
+        ],
+        "propertyPositions": [
+          51
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          18,
+          20
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          29
+        ],
+        "propertyPositions": [
+          32,
+          33
+        ]
+      }
+    ]
+  },
+  "time": 0.316,
+  "ok": true
+}

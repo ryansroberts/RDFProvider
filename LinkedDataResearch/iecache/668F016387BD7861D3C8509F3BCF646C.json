@@ -1,0 +1,894 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.362812
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.358201
+      },
+      {
+        "id": 3,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.33058
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.323685
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.307089
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Albuminuria",
+        "wikiLink": "http://en.wikipedia.org/Albuminuria",
+        "score": 0.564421
+      },
+      {
+        "id": 1,
+        "label": "Chronic kidney disease",
+        "wikiLink": "http://en.wikipedia.org/Chronic_kidney_disease",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Creatinine",
+        "wikiLink": "http://en.wikipedia.org/Creatinine",
+        "score": 1
+      },
+      {
+        "id": 3,
+        "label": "Diabetes mellitus",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus",
+        "score": 0.311038
+      },
+      {
+        "id": 4,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Health_care",
+        "score": 0.171265
+      },
+      {
+        "id": 5,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 1
+      },
+      {
+        "id": 6,
+        "label": "Screening (medicine)",
+        "wikiLink": "http://en.wikipedia.org/Screening_(medicine)",
+        "score": 0.823053
+      },
+      {
+        "id": 7,
+        "label": "Serum (blood)",
+        "wikiLink": "http://en.wikipedia.org/Serum_(blood)",
+        "score": 0.151788
+      },
+      {
+        "id": 8,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.831043
+      },
+      {
+        "id": 9,
+        "label": "Branches of biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Branches_of_biology",
+        "score": 0.645162
+      },
+      {
+        "id": 10,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.406252
+      },
+      {
+        "id": 11,
+        "label": "Abdomen",
+        "wikiLink": "http://en.wikipedia.org/Category:Abdomen",
+        "score": 0.36302
+      },
+      {
+        "id": 12,
+        "label": "Endocrine system",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_system",
+        "score": 0.361801
+      },
+      {
+        "id": 13,
+        "label": "Urinary system",
+        "wikiLink": "http://en.wikipedia.org/Category:Urinary_system",
+        "score": 0.360756
+      },
+      {
+        "id": 14,
+        "label": "Physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Physiology",
+        "score": 0.287235
+      },
+      {
+        "id": 15,
+        "label": "Renal physiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Renal_physiology",
+        "score": 0.268963
+      },
+      {
+        "id": 16,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.267552
+      },
+      {
+        "id": 17,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.163136
+      },
+      {
+        "id": 18,
+        "label": "Nephrology",
+        "wikiLink": "http://en.wikipedia.org/Category:Nephrology",
+        "score": 0.06208
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 3.71127,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "CKD",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 1,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 47,
+        "endingPos": 50
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 6.23925,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 1,
+        "entityEnglishId": "Renal function",
+        "startingPos": 81,
+        "endingPos": 84
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          28
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 7.57099,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.82892,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 145,
+        "endingPos": 155
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          31
+        ],
+        "entityId": "Serum (blood)",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 1.90009,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_(blood)",
+        "matchedText": "serum",
+        "freebaseId": "/m/07s8fsr",
+        "relevanceScore": 0.0758938,
+        "entityEnglishId": "Serum (blood)",
+        "startingPos": 162,
+        "endingPos": 167
+      },
+      {
+        "id": 4,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          31,
+          32
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.60071,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "serum creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.633718,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 162,
+        "endingPos": 178
+      },
+      {
+        "id": 5,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          32
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 7.57099,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.82892,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 168,
+        "endingPos": 178
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          52
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.78447,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.311038,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 278,
+        "endingPos": 286
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          54,
+          55
+        ],
+        "entityId": "Health care",
+        "freebaseTypes": [
+          "/organization/organization_type",
+          "/organization/organization_sector",
+          "/food/tea_type",
+          "/people/professional_field",
+          "/education/field_of_study",
+          "/government/government_service",
+          "/business/industry",
+          "/exhibitions/exhibition_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.72666,
+        "wikiLink": "http://en.wikipedia.org/wiki/Health_care",
+        "matchedText": "secondary care",
+        "freebaseId": "/m/01mw2x",
+        "relevanceScore": 0.171265,
+        "entityEnglishId": "Health care",
+        "startingPos": 291,
+        "endingPos": 305
+      },
+      {
+        "id": 8,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          68
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 4.03372,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "albuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.282211,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 349,
+        "endingPos": 360
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          72
+        ],
+        "entityId": "Screening (medicine)",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors"
+        ],
+        "confidenceScore": 1.24062,
+        "wikiLink": "http://en.wikipedia.org/wiki/Screening_(medicine)",
+        "matchedText": "screening",
+        "freebaseId": "/m/08zlcj",
+        "relevanceScore": 0.458887,
+        "entityEnglishId": "Screening (medicine)",
+        "startingPos": 367,
+        "endingPos": 376
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          72,
+          73
+        ],
+        "entityId": "Screening (medicine)",
+        "freebaseTypes": [
+          "/medicine/condition_prevention_factors"
+        ],
+        "confidenceScore": 1.16384,
+        "wikiLink": "http://en.wikipedia.org/wiki/Screening_(medicine)",
+        "matchedText": "screening test",
+        "freebaseId": "/m/08zlcj",
+        "relevanceScore": 0.364166,
+        "entityEnglishId": "Screening (medicine)",
+        "startingPos": 367,
+        "endingPos": 381
+      },
+      {
+        "id": 11,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          78
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 3.71127,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "CKD",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 1,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 406,
+        "endingPos": 409
+      },
+      {
+        "id": 12,
+        "matchingTokens": [
+          96
+        ],
+        "entityId": "Serum (blood)",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 1.82408,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_(blood)",
+        "matchedText": "serum",
+        "freebaseId": "/m/07s8fsr",
+        "relevanceScore": 0.0758938,
+        "entityEnglishId": "Serum (blood)",
+        "startingPos": 475,
+        "endingPos": 480
+      },
+      {
+        "id": 13,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          96,
+          97
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 3.60071,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "serum creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.633718,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 475,
+        "endingPos": 491
+      },
+      {
+        "id": 14,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          97
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 7.57099,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.82892,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 481,
+        "endingPos": 491
+      },
+      {
+        "id": 15,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          99
+        ],
+        "entityId": "Albuminuria",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 3.78372,
+        "wikiLink": "http://en.wikipedia.org/wiki/Albuminuria",
+        "matchedText": "albuminuria",
+        "freebaseId": "/m/0g6q2",
+        "relevanceScore": 0.282211,
+        "entityEnglishId": "Albuminuria",
+        "startingPos": 496,
+        "endingPos": 507
+      },
+      {
+        "id": 16,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          102
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 3.71127,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "CKD",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 1,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 520,
+        "endingPos": 523
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          103
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              104,
+              105,
+              106,
+              107
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          103,
+          104,
+          105
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              106,
+              107
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          74,
+          75
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              72,
+              73
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              76,
+              77,
+              78,
+              79,
+              80,
+              82,
+              83,
+              85,
+              86,
+              87,
+              88
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          74,
+          75,
+          76,
+          77
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              72,
+              73
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              78,
+              79,
+              80,
+              82,
+              83,
+              85,
+              86,
+              87,
+              88
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          111
+        ],
+        "propertyPositions": [
+          113,
+          114,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          109,
+          110
+        ],
+        "propertyPositions": [
+          111,
+          113,
+          114,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          55,
+          56
+        ],
+        "propertyPositions": [
+          54
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          61,
+          63
+        ],
+        "propertyPositions": [
+          64
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          96,
+          97,
+          100,
+          101
+        ],
+        "propertyPositions": [
+          95
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          26,
+          28
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          26,
+          28
+        ],
+        "propertyPositions": [
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          23,
+          24,
+          25
+        ],
+        "propertyPositions": [
+          26,
+          27,
+          28,
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          18,
+          20,
+          22
+        ],
+        "propertyPositions": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          78,
+          79
+        ],
+        "propertyPositions": [
+          80
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          35
+        ],
+        "propertyPositions": [
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          49
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          0,
+          2
+        ],
+        "propertyPositions": [
+          1
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          44,
+          45,
+          46
+        ],
+        "propertyPositions": [
+          49
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          7,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          11,
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "time": 0.338,
+  "ok": true
+}

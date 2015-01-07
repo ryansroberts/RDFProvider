@@ -1,0 +1,200 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.726027
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Hypertension",
+        "wikiLink": "http://en.wikipedia.org/Hypertension",
+        "score": 0.312305
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          4
+        ],
+        "entityId": "Hypertension",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease",
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.28902,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hypertension",
+        "matchedText": "hypertensive",
+        "freebaseId": "/m/0k95h",
+        "relevanceScore": 0.312305,
+        "entityEnglishId": "Hypertension",
+        "startingPos": 22,
+        "endingPos": 34
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          21
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3,
+          5
+        ],
+        "propertyPositions": [
+          4
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          7,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          8
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          13
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          7,
+          9,
+          10
+        ],
+        "propertyPositions": [
+          11,
+          12
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "time": 0.312,
+  "ok": true
+}

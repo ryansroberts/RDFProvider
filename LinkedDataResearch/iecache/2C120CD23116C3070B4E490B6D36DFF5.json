@@ -1,0 +1,440 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.666725
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.564699
+      },
+      {
+        "id": 3,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.53747
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.53747
+      },
+      {
+        "id": 5,
+        "label": "Environment",
+        "wikiLink": "http://en.wikipedia.org/Category:Environment",
+        "score": 0.529539
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Creatinine",
+        "wikiLink": "http://en.wikipedia.org/Creatinine",
+        "score": 0.827025
+      },
+      {
+        "id": 1,
+        "label": "Losartan",
+        "wikiLink": "http://en.wikipedia.org/Losartan",
+        "score": 0.348278
+      },
+      {
+        "id": 2,
+        "label": "Median",
+        "wikiLink": "http://en.wikipedia.org/Median",
+        "score": 0.177338
+      },
+      {
+        "id": 3,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.273373
+      },
+      {
+        "id": 4,
+        "label": "Proteinuria",
+        "wikiLink": "http://en.wikipedia.org/Proteinuria",
+        "score": 1
+      },
+      {
+        "id": 5,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.137901
+      },
+      {
+        "id": 6,
+        "label": "Analysis",
+        "wikiLink": "http://en.wikipedia.org/Category:Analysis",
+        "score": 0.0985829
+      },
+      {
+        "id": 7,
+        "label": "Fields of mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_mathematics",
+        "score": 0.0765391
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Proteinuria",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 4.75825,
+        "wikiLink": "http://en.wikipedia.org/wiki/Proteinuria",
+        "matchedText": "proteinuria",
+        "freebaseId": "/m/012zf3",
+        "relevanceScore": 0.514583,
+        "entityEnglishId": "Proteinuria",
+        "startingPos": 43,
+        "endingPos": 54
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          18
+        ],
+        "entityId": "Serum (blood)",
+        "freebaseTypes": [
+          "/medicine/biofluid"
+        ],
+        "confidenceScore": 1.56429,
+        "wikiLink": "http://en.wikipedia.org/wiki/Serum_(blood)",
+        "matchedText": "serum",
+        "freebaseId": "/m/07s8fsr",
+        "relevanceScore": 0,
+        "entityEnglishId": "Serum (blood)",
+        "startingPos": 104,
+        "endingPos": 109
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          18,
+          19
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 2.25116,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "serum creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.299721,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 104,
+        "endingPos": 120
+      },
+      {
+        "id": 3,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Creatinine",
+        "freebaseTypes": [
+          "/chemistry/chemical_compound"
+        ],
+        "confidenceScore": 7.70534,
+        "wikiLink": "http://en.wikipedia.org/wiki/Creatinine",
+        "matchedText": "creatinine",
+        "freebaseId": "/m/0hdqh",
+        "relevanceScore": 0.527303,
+        "entityEnglishId": "Creatinine",
+        "startingPos": 110,
+        "endingPos": 120
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Concentration",
+        "confidenceScore": 1.02841,
+        "wikiLink": "http://en.wikipedia.org/wiki/Concentration",
+        "matchedText": "concentration",
+        "freebaseId": "/m/023qq",
+        "relevanceScore": 0,
+        "entityEnglishId": "Concentration",
+        "startingPos": 121,
+        "endingPos": 134
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          55
+        ],
+        "entityId": "Median",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.40704,
+        "wikiLink": "http://en.wikipedia.org/wiki/Median",
+        "matchedText": "median",
+        "freebaseId": "/m/04rkg",
+        "relevanceScore": 0.177338,
+        "entityEnglishId": "Median",
+        "startingPos": 269,
+        "endingPos": 275
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          57
+        ],
+        "entityId": "Percentage",
+        "freebaseTypes": [
+          "/type/unit"
+        ],
+        "confidenceScore": 1.27992,
+        "wikiLink": "http://en.wikipedia.org/wiki/Percentage",
+        "matchedText": "percentage",
+        "freebaseId": "/m/0h6zk",
+        "relevanceScore": 0.0520654,
+        "entityEnglishId": "Percentage",
+        "startingPos": 277,
+        "endingPos": 287
+      },
+      {
+        "id": 7,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          58
+        ],
+        "entityId": "Proteinuria",
+        "freebaseTypes": [
+          "/medicine/symptom",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 5.26987,
+        "wikiLink": "http://en.wikipedia.org/wiki/Proteinuria",
+        "matchedText": "proteinuria",
+        "freebaseId": "/m/012zf3",
+        "relevanceScore": 0.514583,
+        "entityEnglishId": "Proteinuria",
+        "startingPos": 288,
+        "endingPos": 299
+      },
+      {
+        "id": 8,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          65
+        ],
+        "entityId": "Losartan",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 3.14582,
+        "wikiLink": "http://en.wikipedia.org/wiki/Losartan",
+        "matchedText": "losartan",
+        "freebaseId": "/m/072klj",
+        "relevanceScore": 0.348278,
+        "entityEnglishId": "Losartan",
+        "startingPos": 331,
+        "endingPos": 339
+      },
+      {
+        "id": 9,
+        "matchingTokens": [
+          68
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 2.74867,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.273373,
+        "entityEnglishId": "Placebo",
+        "startingPos": 348,
+        "endingPos": 355
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          47
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              45,
+              46
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              48,
+              49,
+              51,
+              52,
+              54,
+              55
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          42
+        ],
+        "propertyPositions": [
+          37
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          55
+        ],
+        "propertyPositions": [
+          54
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          5,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          5,
+          7,
+          8
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          27
+        ],
+        "propertyPositions": [
+          17,
+          18,
+          19,
+          20,
+          22
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          27
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          62,
+          64,
+          66
+        ],
+        "propertyPositions": [
+          65
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          62,
+          64,
+          66
+        ],
+        "propertyPositions": [
+          68
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          62,
+          64,
+          66
+        ],
+        "propertyPositions": [
+          70,
+          71
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          57,
+          58,
+          59
+        ],
+        "propertyPositions": [
+          61,
+          62,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71
+        ]
+      }
+    ]
+  },
+  "time": 0.327,
+  "ok": true
+}

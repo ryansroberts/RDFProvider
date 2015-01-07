@@ -1,0 +1,384 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.906704
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.484552
+      },
+      {
+        "id": 3,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.454231
+      },
+      {
+        "id": 4,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.414786
+      },
+      {
+        "id": 5,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.387186
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Blood",
+        "wikiLink": "http://en.wikipedia.org/Blood",
+        "score": 0.285115
+      },
+      {
+        "id": 1,
+        "label": "Blood test",
+        "wikiLink": "http://en.wikipedia.org/Blood_test",
+        "score": 0.451865
+      },
+      {
+        "id": 2,
+        "label": "Laboratory",
+        "wikiLink": "http://en.wikipedia.org/Laboratory",
+        "score": 0.177763
+      },
+      {
+        "id": 3,
+        "label": "Meat",
+        "wikiLink": "http://en.wikipedia.org/Meat",
+        "score": 0.223958
+      },
+      {
+        "id": 4,
+        "label": "Venipuncture",
+        "wikiLink": "http://en.wikipedia.org/Venipuncture",
+        "score": 1
+      },
+      {
+        "id": 5,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.631865
+      },
+      {
+        "id": 6,
+        "label": "Hematology",
+        "wikiLink": "http://en.wikipedia.org/Category:Hematology",
+        "score": 0.605077
+      },
+      {
+        "id": 7,
+        "label": "Medical tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_tests",
+        "score": 0.406966
+      },
+      {
+        "id": 8,
+        "label": "Clinical medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_medicine",
+        "score": 0.335069
+      },
+      {
+        "id": 9,
+        "label": "Clinical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Clinical_pathology",
+        "score": 0.301993
+      },
+      {
+        "id": 10,
+        "label": "Body fluids",
+        "wikiLink": "http://en.wikipedia.org/Category:Body_fluids",
+        "score": 0.287377
+      },
+      {
+        "id": 11,
+        "label": "Biochemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Biochemistry",
+        "score": 0.270756
+      },
+      {
+        "id": 12,
+        "label": "Blood tests",
+        "wikiLink": "http://en.wikipedia.org/Category:Blood_tests",
+        "score": 0.26804
+      },
+      {
+        "id": 13,
+        "label": "Chemical pathology",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemical_pathology",
+        "score": 0.26804
+      },
+      {
+        "id": 14,
+        "label": "Human metabolites",
+        "wikiLink": "http://en.wikipedia.org/Category:Human_metabolites",
+        "score": 0.253069
+      },
+      {
+        "id": 15,
+        "label": "Tissues",
+        "wikiLink": "http://en.wikipedia.org/Category:Tissues",
+        "score": 0.238174
+      },
+      {
+        "id": 16,
+        "label": "Healthcare occupations",
+        "wikiLink": "http://en.wikipedia.org/Category:Healthcare_occupations",
+        "score": 0.23586
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Meat",
+        "freebaseTypes": [
+          "/food/ingredient",
+          "/book/book_subject",
+          "/business/consumer_product",
+          "/food/food"
+        ],
+        "confidenceScore": 0.921437,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meat",
+        "matchedText": "meat",
+        "freebaseId": "/m/04scj",
+        "relevanceScore": 0.223958,
+        "entityEnglishId": "Meat",
+        "startingPos": 29,
+        "endingPos": 33
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Blood",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/food/ingredient",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.61613,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood",
+        "matchedText": "blood",
+        "freebaseId": "/m/019jw",
+        "relevanceScore": 0.142557,
+        "entityEnglishId": "Blood",
+        "startingPos": 66,
+        "endingPos": 71
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          14,
+          15
+        ],
+        "entityId": "Blood test",
+        "freebaseTypes": [
+          "/medicine/diagnostic_test"
+        ],
+        "confidenceScore": 2.44951,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_test",
+        "matchedText": "blood test",
+        "freebaseId": "/m/01xkrb",
+        "relevanceScore": 0.451865,
+        "entityEnglishId": "Blood test",
+        "startingPos": 66,
+        "endingPos": 76
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          24
+        ],
+        "entityId": "Blood",
+        "freebaseTypes": [
+          "/medicine/biofluid",
+          "/food/ingredient",
+          "/media_common/quotation_subject",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.69734,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood",
+        "matchedText": "blood",
+        "freebaseId": "/m/019jw",
+        "relevanceScore": 0.142557,
+        "entityEnglishId": "Blood",
+        "startingPos": 128,
+        "endingPos": 133
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          24,
+          25
+        ],
+        "entityId": "Venipuncture",
+        "confidenceScore": 1.21498,
+        "wikiLink": "http://en.wikipedia.org/wiki/Venipuncture",
+        "matchedText": "blood samples",
+        "freebaseId": "/m/01j3ww",
+        "relevanceScore": 0.426679,
+        "entityEnglishId": "Venipuncture",
+        "startingPos": 128,
+        "endingPos": 141
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Laboratory",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/architecture/building_function"
+        ],
+        "confidenceScore": 1.2221,
+        "wikiLink": "http://en.wikipedia.org/wiki/Laboratory",
+        "matchedText": "laboratory",
+        "freebaseId": "/m/017clw",
+        "relevanceScore": 0.177763,
+        "entityEnglishId": "Laboratory",
+        "startingPos": 197,
+        "endingPos": 207
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          41
+        ],
+        "entityId": "Venipuncture",
+        "confidenceScore": 5.21148,
+        "wikiLink": "http://en.wikipedia.org/wiki/Venipuncture",
+        "matchedText": "venepuncture",
+        "freebaseId": "/m/01j3ww",
+        "relevanceScore": 0.903317,
+        "entityEnglishId": "Venipuncture",
+        "startingPos": 227,
+        "endingPos": 239
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          30,
+          31,
+          32
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              29
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              28,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          37
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              29
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              28,
+              35,
+              36,
+              38,
+              39,
+              40,
+              41
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "propertyPositions": [
+          17
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          21,
+          22,
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          39,
+          40
+        ],
+        "propertyPositions": [
+          41
+        ]
+      }
+    ]
+  },
+  "time": 0.322,
+  "ok": true
+}

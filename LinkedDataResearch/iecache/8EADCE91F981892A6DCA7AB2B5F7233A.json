@@ -1,0 +1,249 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Lipid profile",
+        "wikiLink": "http://en.wikipedia.org/Lipid_profile",
+        "score": 0.115282
+      },
+      {
+        "id": 1,
+        "label": "Metformin",
+        "wikiLink": "http://en.wikipedia.org/Metformin",
+        "score": 0.427789
+      },
+      {
+        "id": 2,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.20001
+      },
+      {
+        "id": 3,
+        "label": "Biomolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Biomolecules_by_chemical_classification",
+        "score": 0.0646605
+      },
+      {
+        "id": 4,
+        "label": "Carbon compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Carbon_compounds",
+        "score": 0.0646605
+      },
+      {
+        "id": 5,
+        "label": "Membrane-active molecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Membrane-active_molecules",
+        "score": 0.0646605
+      },
+      {
+        "id": 6,
+        "label": "Nutrients",
+        "wikiLink": "http://en.wikipedia.org/Category:Nutrients",
+        "score": 0.0646605
+      },
+      {
+        "id": 7,
+        "label": "Lipids",
+        "wikiLink": "http://en.wikipedia.org/Category:Lipids",
+        "score": 0.0646605
+      },
+      {
+        "id": 8,
+        "label": "Hydrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Hydrogen_compounds",
+        "score": 0.0646605
+      },
+      {
+        "id": 9,
+        "label": "Macromolecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Macromolecules",
+        "score": 0.0646605
+      },
+      {
+        "id": 10,
+        "label": "Organic chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_chemistry",
+        "score": 0.0646605
+      },
+      {
+        "id": 11,
+        "label": "Molecules",
+        "wikiLink": "http://en.wikipedia.org/Category:Molecules",
+        "score": 0.0646605
+      },
+      {
+        "id": 12,
+        "label": "Membrane biology",
+        "wikiLink": "http://en.wikipedia.org/Category:Membrane_biology",
+        "score": 0.0646605
+      },
+      {
+        "id": 13,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.0646605
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          5
+        ],
+        "entityId": "Lipid",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/food/nutrient"
+        ],
+        "confidenceScore": 2.24782,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lipid",
+        "matchedText": "lipid",
+        "freebaseId": "/m/04k8n",
+        "relevanceScore": 0.0620716,
+        "entityEnglishId": "Lipid",
+        "startingPos": 40,
+        "endingPos": 45
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          5,
+          6
+        ],
+        "entityId": "Lipid profile",
+        "freebaseTypes": [
+          "/medicine/diagnostic_test"
+        ],
+        "confidenceScore": 2.00701,
+        "wikiLink": "http://en.wikipedia.org/wiki/Lipid_profile",
+        "matchedText": "lipid profile",
+        "freebaseId": "/m/0b6gmq8",
+        "relevanceScore": 0.115282,
+        "entityEnglishId": "Lipid profile",
+        "startingPos": 40,
+        "endingPos": 53
+      },
+      {
+        "id": 2,
+        "type": [
+          "ChemicalSubstance",
+          "ChemicalCompound"
+        ],
+        "matchingTokens": [
+          10
+        ],
+        "entityId": "Metformin",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/drug_ingredient",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 6.85649,
+        "wikiLink": "http://en.wikipedia.org/wiki/Metformin",
+        "matchedText": "metformin",
+        "freebaseId": "/m/01lmkt",
+        "relevanceScore": 0.427789,
+        "entityEnglishId": "Metformin",
+        "startingPos": 70,
+        "endingPos": 79
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          15
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 2.71029,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.20001,
+        "entityEnglishId": "Placebo",
+        "startingPos": 99,
+        "endingPos": 106
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7,
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              10,
+              11,
+              12
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          3,
+          4
+        ],
+        "propertyPositions": [
+          5,
+          6
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    ]
+  },
+  "time": 0.31,
+  "ok": true
+}

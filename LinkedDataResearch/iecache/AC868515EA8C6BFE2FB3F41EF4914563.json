@@ -1,0 +1,577 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.883446
+      },
+      {
+        "id": 2,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.531264
+      },
+      {
+        "id": 3,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.530605
+      },
+      {
+        "id": 4,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.481959
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.433026
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Measurement",
+        "wikiLink": "http://en.wikipedia.org/Measurement",
+        "score": 0.296997
+      },
+      {
+        "id": 1,
+        "label": "Meta-analysis",
+        "wikiLink": "http://en.wikipedia.org/Meta-analysis",
+        "score": 1
+      },
+      {
+        "id": 2,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.629964
+      },
+      {
+        "id": 3,
+        "label": "Sleep",
+        "wikiLink": "http://en.wikipedia.org/Sleep",
+        "score": 1
+      },
+      {
+        "id": 4,
+        "label": "Scientific method",
+        "wikiLink": "http://en.wikipedia.org/Category:Scientific_method",
+        "score": 0.381035
+      },
+      {
+        "id": 5,
+        "label": "Problem solving",
+        "wikiLink": "http://en.wikipedia.org/Category:Problem_solving",
+        "score": 0.0183137
+      },
+      {
+        "id": 6,
+        "label": "Fields of application of statistics",
+        "wikiLink": "http://en.wikipedia.org/Category:Fields_of_application_of_statistics",
+        "score": 0.011275
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          13
+        ],
+        "entityId": "Sleep",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 2.51805,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sleep",
+        "matchedText": "sleep",
+        "freebaseId": "/m/06xzh",
+        "relevanceScore": 0.339717,
+        "entityEnglishId": "Sleep",
+        "startingPos": 101,
+        "endingPos": 106
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Measurement",
+        "confidenceScore": 2.08654,
+        "wikiLink": "http://en.wikipedia.org/wiki/Measurement",
+        "matchedText": "measurement",
+        "freebaseId": "/m/04t14",
+        "relevanceScore": 0.296997,
+        "entityEnglishId": "Measurement",
+        "startingPos": 147,
+        "endingPos": 158
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          56
+        ],
+        "entityId": "Network",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Network",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 332,
+        "endingPos": 339
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          57
+        ],
+        "entityId": "Meta-analysis",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 7.87634,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meta-analysis",
+        "matchedText": "meta-analyses",
+        "freebaseId": "/m/0gvjk",
+        "relevanceScore": 0.786098,
+        "entityEnglishId": "Meta-analysis",
+        "startingPos": 340,
+        "endingPos": 353
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          61
+        ],
+        "entityId": "Meta-analysis",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 7.77843,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meta-analysis",
+        "matchedText": "meta-analysis",
+        "freebaseId": "/m/0gvjk",
+        "relevanceScore": 0.675551,
+        "entityEnglishId": "Meta-analysis",
+        "startingPos": 369,
+        "endingPos": 382
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          85
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 4.63694,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.629964,
+        "entityEnglishId": "Placebo",
+        "startingPos": 479,
+        "endingPos": 486
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          88
+        ],
+        "entityId": "Sleep",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.44995,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sleep",
+        "matchedText": "sleep",
+        "freebaseId": "/m/06xzh",
+        "relevanceScore": 0.339717,
+        "entityEnglishId": "Sleep",
+        "startingPos": 500,
+        "endingPos": 505
+      },
+      {
+        "id": 7,
+        "matchingTokens": [
+          120
+        ],
+        "entityId": "Sleep",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.11537,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sleep",
+        "matchedText": "sleep",
+        "freebaseId": "/m/06xzh",
+        "relevanceScore": 0.339717,
+        "entityEnglishId": "Sleep",
+        "startingPos": 677,
+        "endingPos": 682
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          9,
+          14,
+          15,
+          16
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              17
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          3
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          37
+        ],
+        "propertyPositions": [
+          33,
+          34,
+          35,
+          38,
+          39,
+          40,
+          41,
+          42
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          132,
+          133
+        ],
+        "propertyPositions": [
+          134
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          124
+        ],
+        "propertyPositions": [
+          122,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          74
+        ],
+        "propertyPositions": [
+          73
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          110,
+          111
+        ],
+        "propertyPositions": [
+          109
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          110,
+          111
+        ],
+        "propertyPositions": [
+          112,
+          113
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          76,
+          77,
+          78
+        ],
+        "propertyPositions": [
+          79
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          74
+        ],
+        "propertyPositions": [
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          110,
+          111
+        ],
+        "propertyPositions": [
+          114,
+          115,
+          116,
+          117
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          96
+        ],
+        "propertyPositions": [
+          94,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ]
+      },
+      {
+        "id": 14,
+        "wordPositions": [
+          101
+        ],
+        "propertyPositions": [
+          100,
+          102,
+          103,
+          104,
+          105
+        ]
+      },
+      {
+        "id": 15,
+        "wordPositions": [
+          52,
+          54
+        ],
+        "propertyPositions": [
+          53
+        ]
+      },
+      {
+        "id": 16,
+        "wordPositions": [
+          44,
+          45,
+          46
+        ],
+        "propertyPositions": [
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54
+        ]
+      },
+      {
+        "id": 17,
+        "wordPositions": [
+          136,
+          137
+        ],
+        "propertyPositions": [
+          138,
+          139,
+          140,
+          141
+        ]
+      },
+      {
+        "id": 18,
+        "wordPositions": [
+          142
+        ],
+        "propertyPositions": [
+          136,
+          137,
+          138,
+          139,
+          140,
+          141
+        ]
+      },
+      {
+        "id": 19,
+        "wordPositions": [
+          20,
+          21,
+          24
+        ],
+        "propertyPositions": [
+          19
+        ]
+      },
+      {
+        "id": 20,
+        "wordPositions": [
+          20,
+          21,
+          24
+        ],
+        "propertyPositions": [
+          22,
+          23
+        ]
+      },
+      {
+        "id": 21,
+        "wordPositions": [
+          20,
+          21,
+          24
+        ],
+        "propertyPositions": [
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "id": 22,
+        "wordPositions": [
+          59,
+          61,
+          62
+        ],
+        "propertyPositions": [
+          60
+        ]
+      },
+      {
+        "id": 23,
+        "wordPositions": [
+          59,
+          61,
+          62
+        ],
+        "propertyPositions": [
+          63,
+          64
+        ]
+      },
+      {
+        "id": 24,
+        "wordPositions": [
+          90,
+          92
+        ],
+        "propertyPositions": [
+          91
+        ]
+      }
+    ]
+  },
+  "time": 0.35,
+  "ok": true
+}

@@ -21,20 +21,50 @@ module.exports = function(ctx, uri) {
 
     uri = uri.replace('/evidence-statements/', '');
 
+    output.appendChild(domify('<h3>Recommendation ' + uri + '</h3>'));
+
+    var recommendation = domify('<section class="rec"></section>');
     var statementList = domify('<ul></ul>');
     var discussionSection = domify('<section class="discussion"><h4>Discussion</h4></section>');
 
-    output.appendChild(domify('<ul id="annotationkeys"></ul>'));
-    output.appendChild(domify('<ul id="meshkeys"></ul>'));
-    output.appendChild(domify('<ul id="drugbankkeys"></ul>'));
 
-    output.appendChild(domify('<h3>Evidence For Recommendation ' + uri + '</h3>'));
+    var filters = domify('<section class="filters" style="display:none;"></section>');
+    output.appendChild(filters);
+
+    filters.appendChild(domify('<ul id="annotationkeys"></ul>'));
+    filters.appendChild(domify('<ul id="meshkeys"></ul>'));
+    filters.appendChild(domify('<ul id="drugbankkeys"></ul>'));
+
+    output.appendChild(recommendation);
+
+    
 
     output.appendChild(discussionSection);
 
     output.appendChild(domify('<h4>Evidence statements</h4>'));
 
     output.appendChild(statementList);
+
+
+    getAnnotatedContent(uri, function(err, text, annotations) {
+
+        recommendation.appendChild(domify('<p>' + text + '</em></p>'));
+
+        /*
+        if (!err) {
+
+            item.innerHTML = "";
+            item.appendChild(domify('<h3>' + triple.object + '</h4><p>' + spannerify(text, annotations) + '</p>'));
+            
+            processAnnotatedEvidenceStatement(item, references, annotations);
+
+        } else {
+
+            item.innerHTML = "<p>Error loading!</p>";
+
+        }
+        */
+    });
 
     // load the discussion...
     sparql

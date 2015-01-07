@@ -1,0 +1,86 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 0.754488
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Hospital-acquired infection",
+        "wikiLink": "http://en.wikipedia.org/Hospital-acquired_infection",
+        "score": 0.917671
+      },
+      {
+        "id": 1,
+        "label": "Infectious diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Infectious_diseases",
+        "score": 0.0107859
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          8
+        ],
+        "entityId": "Hospital-acquired infection",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 3.92033,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hospital-acquired_infection",
+        "matchedText": "HCAI",
+        "freebaseId": "/m/03ktk4",
+        "relevanceScore": 0.917671,
+        "entityEnglishId": "Hospital-acquired infection",
+        "startingPos": 60,
+        "endingPos": 64
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          6
+        ],
+        "propertyPositions": [
+          5
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6
+        ]
+      }
+    ]
+  },
+  "time": 0.309,
+  "ok": true
+}

@@ -1,0 +1,612 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.336293
+      },
+      {
+        "id": 2,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.297005
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.255381
+      },
+      {
+        "id": 4,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.242607
+      },
+      {
+        "id": 5,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.216887
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Adverse effect",
+        "wikiLink": "http://en.wikipedia.org/Adverse_effect",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Drug withdrawal",
+        "wikiLink": "http://en.wikipedia.org/Drug_withdrawal",
+        "score": 0.359121
+      },
+      {
+        "id": 2,
+        "label": "Meta-analysis",
+        "wikiLink": "http://en.wikipedia.org/Meta-analysis",
+        "score": 0.513563
+      },
+      {
+        "id": 3,
+        "label": "Placebo",
+        "wikiLink": "http://en.wikipedia.org/Placebo",
+        "score": 0.597965
+      },
+      {
+        "id": 4,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.366297
+      },
+      {
+        "id": 5,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Category:Therapy",
+        "score": 0.353188
+      },
+      {
+        "id": 6,
+        "label": "Medicinal chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicinal_chemistry",
+        "score": 0.324142
+      },
+      {
+        "id": 7,
+        "label": "Pharmaceutical sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmaceutical_sciences",
+        "score": 0.324142
+      },
+      {
+        "id": 8,
+        "label": "Analysis",
+        "wikiLink": "http://en.wikipedia.org/Category:Analysis",
+        "score": 0.214552
+      },
+      {
+        "id": 9,
+        "label": "Medical treatments",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_treatments",
+        "score": 0.14078
+      },
+      {
+        "id": 10,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.0972351
+      },
+      {
+        "id": 11,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.0769925
+      },
+      {
+        "id": 12,
+        "label": "Medical research",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_research",
+        "score": 0.0528195
+      },
+      {
+        "id": 13,
+        "label": "Chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Chemistry",
+        "score": 0.0479196
+      },
+      {
+        "id": 14,
+        "label": "Substance dependence",
+        "wikiLink": "http://en.wikipedia.org/Category:Substance_dependence",
+        "score": 0.0201006
+      },
+      {
+        "id": 15,
+        "label": "Syndromes",
+        "wikiLink": "http://en.wikipedia.org/Category:Syndromes",
+        "score": 0.0044078
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          2
+        ],
+        "entityId": "Meta-analysis",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 7.06189,
+        "wikiLink": "http://en.wikipedia.org/wiki/Meta-analysis",
+        "matchedText": "meta-analysis",
+        "freebaseId": "/m/0gvjk",
+        "relevanceScore": 0.513563,
+        "entityEnglishId": "Meta-analysis",
+        "startingPos": 10,
+        "endingPos": 23
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Drug withdrawal",
+        "freebaseTypes": [
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.11219,
+        "wikiLink": "http://en.wikipedia.org/wiki/Drug_withdrawal",
+        "matchedText": "withdrawal",
+        "freebaseId": "/m/026750",
+        "relevanceScore": 0.359121,
+        "entityEnglishId": "Drug withdrawal",
+        "startingPos": 48,
+        "endingPos": 58
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          11,
+          12
+        ],
+        "entityId": "Adverse effect",
+        "confidenceScore": 2.14539,
+        "wikiLink": "http://en.wikipedia.org/wiki/Adverse_effect",
+        "matchedText": "adverse effects",
+        "freebaseId": "/m/054ffx",
+        "relevanceScore": 0.455651,
+        "entityEnglishId": "Adverse effect",
+        "startingPos": 68,
+        "endingPos": 83
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          19
+        ],
+        "entityId": "Drug",
+        "freebaseTypes": [
+          "/medicine/drug_formulation_category",
+          "/film/film_subject",
+          "/book/book_subject",
+          "/media_common/quotation_subject"
+        ],
+        "confidenceScore": 1.77827,
+        "wikiLink": "http://en.wikipedia.org/wiki/Drug",
+        "matchedText": "drugs",
+        "freebaseId": "/m/02kjb_",
+        "relevanceScore": 0.0533783,
+        "entityEnglishId": "Drug",
+        "startingPos": 118,
+        "endingPos": 123
+      },
+      {
+        "id": 4,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          26,
+          27
+        ],
+        "entityId": "Adverse effect",
+        "confidenceScore": 2.14539,
+        "wikiLink": "http://en.wikipedia.org/wiki/Adverse_effect",
+        "matchedText": "adverse effects",
+        "freebaseId": "/m/054ffx",
+        "relevanceScore": 0.455651,
+        "entityEnglishId": "Adverse effect",
+        "startingPos": 154,
+        "endingPos": 169
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Placebo",
+        "confidenceScore": 5.31071,
+        "wikiLink": "http://en.wikipedia.org/wiki/Placebo",
+        "matchedText": "placebo",
+        "freebaseId": "/m/011_zf",
+        "relevanceScore": 0.597965,
+        "entityEnglishId": "Placebo",
+        "startingPos": 175,
+        "endingPos": 182
+      },
+      {
+        "id": 6,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          49,
+          50
+        ],
+        "entityId": "Adverse effect",
+        "confidenceScore": 2.14539,
+        "wikiLink": "http://en.wikipedia.org/wiki/Adverse_effect",
+        "matchedText": "adverse effects",
+        "freebaseId": "/m/054ffx",
+        "relevanceScore": 0.455651,
+        "entityEnglishId": "Adverse effect",
+        "startingPos": 289,
+        "endingPos": 304
+      },
+      {
+        "id": 7,
+        "type": [
+          "Place"
+        ],
+        "matchingTokens": [
+          77
+        ],
+        "entityId": "base-case",
+        "freebaseTypes": [
+          "/location/location"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "base-case",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 458,
+        "endingPos": 467
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          83,
+          84
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              81,
+              82
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              85,
+              86
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          57,
+          60,
+          61,
+          62
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              59
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              58,
+              63,
+              64,
+              65,
+              66,
+              67
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          57,
+          58,
+          60,
+          61,
+          62
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              59
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              63,
+              64,
+              65,
+              66,
+              67
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          16
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              17,
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          16,
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              18,
+              19
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          20
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              18,
+              19
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              17
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          86
+        ],
+        "propertyPositions": [
+          85
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          50
+        ],
+        "propertyPositions": [
+          49
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          45,
+          46
+        ],
+        "propertyPositions": [
+          47,
+          48,
+          49,
+          50
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          11
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          12,
+          13
+        ],
+        "propertyPositions": [
+          14,
+          15
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          19
+        ],
+        "propertyPositions": [
+          18
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          26
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          27,
+          28
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          36,
+          37
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 12,
+        "wordPositions": [
+          36,
+          37
+        ],
+        "propertyPositions": [
+          38,
+          39
+        ]
+      },
+      {
+        "id": 13,
+        "wordPositions": [
+          36,
+          37
+        ],
+        "propertyPositions": [
+          40,
+          41,
+          42,
+          43
+        ]
+      }
+    ]
+  },
+  "time": 0.34,
+  "ok": true
+}

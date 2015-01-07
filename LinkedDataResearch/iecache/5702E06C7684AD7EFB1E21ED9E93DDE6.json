@@ -1,0 +1,375 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 0.982515
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Atenolol",
+        "wikiLink": "http://en.wikipedia.org/Atenolol",
+        "score": 0.158522
+      },
+      {
+        "id": 1,
+        "label": "Organonitrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organonitrogen_compounds",
+        "score": 0.0431362
+      },
+      {
+        "id": 2,
+        "label": "Oxygen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxygen_compounds",
+        "score": 0.0431362
+      },
+      {
+        "id": 3,
+        "label": "Nitrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Nitrogen_compounds",
+        "score": 0.0431362
+      },
+      {
+        "id": 4,
+        "label": "Organic chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_chemistry",
+        "score": 0.0431362
+      },
+      {
+        "id": 5,
+        "label": "Ethers",
+        "wikiLink": "http://en.wikipedia.org/Category:Ethers",
+        "score": 0.0431362
+      },
+      {
+        "id": 6,
+        "label": "Drugs",
+        "wikiLink": "http://en.wikipedia.org/Category:Drugs_by_target_organ_system",
+        "score": 0.0431362
+      },
+      {
+        "id": 7,
+        "label": "Antianginals",
+        "wikiLink": "http://en.wikipedia.org/Category:Antianginals",
+        "score": 0.0431362
+      },
+      {
+        "id": 8,
+        "label": "Functional groups",
+        "wikiLink": "http://en.wikipedia.org/Category:Functional_groups",
+        "score": 0.0431362
+      },
+      {
+        "id": 9,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.0431362
+      },
+      {
+        "id": 10,
+        "label": "Antihypertensive agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Antihypertensive_agents",
+        "score": 0.0380789
+      },
+      {
+        "id": 11,
+        "label": "Hypertension",
+        "wikiLink": "http://en.wikipedia.org/Category:Hypertension",
+        "score": 0.0380789
+      },
+      {
+        "id": 12,
+        "label": "Antiarrhythmic agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Antiarrhythmic_agents",
+        "score": 0.0380789
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "ASCOT-BPLA",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "ASCOT-BPLA",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 4,
+        "endingPos": 14
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 1.62466,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0753872,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 40,
+        "endingPos": 48
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          23
+        ],
+        "entityId": "Amlodipine",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/drug",
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 3.25025,
+        "wikiLink": "http://en.wikipedia.org/wiki/Amlodipine",
+        "matchedText": "amlodipine",
+        "freebaseId": "/m/02_0mv",
+        "relevanceScore": 0.0435749,
+        "entityEnglishId": "Amlodipine",
+        "startingPos": 144,
+        "endingPos": 154
+      },
+      {
+        "id": 3,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Atenolol",
+        "freebaseTypes": [
+          "/medicine/contraindication",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 4.28468,
+        "wikiLink": "http://en.wikipedia.org/wiki/Atenolol",
+        "matchedText": "atenolol",
+        "freebaseId": "/m/034yzx",
+        "relevanceScore": 0.158522,
+        "entityEnglishId": "Atenolol",
+        "startingPos": 175,
+        "endingPos": 183
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          5
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              4,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          26
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              22,
+              23,
+              24,
+              25
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              27
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          45,
+          46,
+          47,
+          48
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              29,
+              30,
+              31,
+              33,
+              34,
+              36,
+              37,
+              38,
+              40,
+              41,
+              44
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              49,
+              50
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          20,
+          21
+        ],
+        "propertyPositions": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          22,
+          23,
+          25
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "propertyPositions": [
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          29,
+          31
+        ],
+        "propertyPositions": [
+          30
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          29,
+          31,
+          33
+        ],
+        "propertyPositions": [
+          36,
+          37,
+          38
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          29,
+          31,
+          33
+        ],
+        "propertyPositions": [
+          40,
+          41
+        ]
+      }
+    ]
+  },
+  "time": 0.313,
+  "ok": true
+}

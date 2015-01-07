@@ -1,0 +1,459 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Science",
+        "wikiLink": "http://en.wikipedia.org/Category:Science",
+        "score": 0.578094
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.409572
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.387365
+      },
+      {
+        "id": 4,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.344245
+      },
+      {
+        "id": 5,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.259466
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Blood pressure",
+        "wikiLink": "http://en.wikipedia.org/Blood_pressure",
+        "score": 0.425812
+      },
+      {
+        "id": 1,
+        "label": "Diabetes mellitus type 1",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_1",
+        "score": 0.43503
+      },
+      {
+        "id": 2,
+        "label": "Diabetes mellitus type 2",
+        "wikiLink": "http://en.wikipedia.org/Diabetes_mellitus_type_2",
+        "score": 0.977671
+      },
+      {
+        "id": 3,
+        "label": "Incidence (epidemiology)",
+        "wikiLink": "http://en.wikipedia.org/Incidence_(epidemiology)",
+        "score": 0.163849
+      },
+      {
+        "id": 4,
+        "label": "Treatment and control groups",
+        "wikiLink": "http://en.wikipedia.org/Treatment_and_control_groups",
+        "score": 0.149386
+      },
+      {
+        "id": 5,
+        "label": "Diabetes",
+        "wikiLink": "http://en.wikipedia.org/Category:Diabetes",
+        "score": 0.589008
+      },
+      {
+        "id": 6,
+        "label": "Disorders of endocrine pancreas",
+        "wikiLink": "http://en.wikipedia.org/Category:Disorders_of_endocrine_pancreas",
+        "score": 0.54028
+      },
+      {
+        "id": 7,
+        "label": "Endocrine diseases",
+        "wikiLink": "http://en.wikipedia.org/Category:Endocrine_diseases",
+        "score": 0.54028
+      },
+      {
+        "id": 8,
+        "label": "Health sciences",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_sciences",
+        "score": 0.11881
+      },
+      {
+        "id": 9,
+        "label": "Health care",
+        "wikiLink": "http://en.wikipedia.org/Category:Health_care",
+        "score": 0.102741
+      },
+      {
+        "id": 10,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.059569
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          22
+        ],
+        "entityId": "Blood pressure",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/measurement_unit/dimension"
+        ],
+        "confidenceScore": 2.52438,
+        "wikiLink": "http://en.wikipedia.org/wiki/Blood_pressure",
+        "matchedText": "normotensive",
+        "freebaseId": "/m/0fmq1",
+        "relevanceScore": 0.425812,
+        "entityEnglishId": "Blood pressure",
+        "startingPos": 102,
+        "endingPos": 114
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23,
+          24
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 1.64372,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "Type 2",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.734004,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 115,
+        "endingPos": 121
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          23,
+          24,
+          25
+        ],
+        "entityId": "Diabetes mellitus type 2",
+        "freebaseTypes": [
+          "/medicine/disease_cause",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/medicine/disease"
+        ],
+        "confidenceScore": 6.48361,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2",
+        "matchedText": "Type 2 diabetes",
+        "freebaseId": "/m/0146bp",
+        "relevanceScore": 0.243667,
+        "entityEnglishId": "Diabetes mellitus type 2",
+        "startingPos": 115,
+        "endingPos": 130
+      },
+      {
+        "id": 3,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          25
+        ],
+        "entityId": "Diabetes mellitus type 1",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 0.978061,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus_type_1",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0849qj",
+        "relevanceScore": 0.43503,
+        "entityEnglishId": "Diabetes mellitus type 1",
+        "startingPos": 122,
+        "endingPos": 130
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          26
+        ],
+        "entityId": "Patient",
+        "freebaseTypes": [
+          "/fictional_universe/character_occupation"
+        ],
+        "confidenceScore": 1.3097,
+        "wikiLink": "http://en.wikipedia.org/wiki/Patient",
+        "matchedText": "patients",
+        "freebaseId": "/m/028hfb",
+        "relevanceScore": 0.039106,
+        "entityEnglishId": "Patient",
+        "startingPos": 131,
+        "endingPos": 139
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          34
+        ],
+        "entityId": "Incidence (epidemiology)",
+        "confidenceScore": 1.44166,
+        "wikiLink": "http://en.wikipedia.org/wiki/Incidence_(epidemiology)",
+        "matchedText": "incidence",
+        "freebaseId": "/m/0169mv",
+        "relevanceScore": 0.163849,
+        "entityEnglishId": "Incidence (epidemiology)",
+        "startingPos": 183,
+        "endingPos": 192
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          45,
+          46
+        ],
+        "entityId": "Treatment and control groups",
+        "confidenceScore": 1.133,
+        "wikiLink": "http://en.wikipedia.org/wiki/Treatment_and_control_groups",
+        "matchedText": "control group",
+        "freebaseId": "/m/05v3vl",
+        "relevanceScore": 0.149386,
+        "entityEnglishId": "Treatment and control groups",
+        "startingPos": 245,
+        "endingPos": 258
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          27,
+          28,
+          29
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              16,
+              17,
+              18,
+              19,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              30,
+              31
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              9,
+              10,
+              11,
+              12,
+              14
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          23
+        ],
+        "propertyPositions": [
+          22
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          16,
+          21
+        ],
+        "propertyPositions": [
+          22,
+          23,
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          3,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          0,
+          1,
+          2
+        ],
+        "propertyPositions": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          10
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          34,
+          35,
+          38
+        ],
+        "propertyPositions": [
+          33
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          11,
+          12
+        ],
+        "propertyPositions": [
+          14
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          34,
+          35,
+          38
+        ],
+        "propertyPositions": [
+          36,
+          37
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          42,
+          44,
+          45,
+          46
+        ],
+        "propertyPositions": [
+          43
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          42,
+          44,
+          45,
+          46
+        ],
+        "propertyPositions": [
+          48
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          34,
+          35,
+          38
+        ],
+        "propertyPositions": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          48
+        ]
+      }
+    ]
+  },
+  "time": 0.322,
+  "ok": true
+}

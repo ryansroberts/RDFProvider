@@ -1,0 +1,57 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4,
+          5
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              6,
+              7,
+              8,
+              9
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          6
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          7
+        ],
+        "propertyPositions": [
+          9
+        ]
+      }
+    ]
+  },
+  "time": 0.307,
+  "ok": true
+}

@@ -1,0 +1,147 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.847983
+      },
+      {
+        "id": 2,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.836554
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          3
+        ],
+        "entityId": "Evidence (law)",
+        "confidenceScore": 0.97645,
+        "wikiLink": "http://en.wikipedia.org/wiki/Evidence_(law)",
+        "matchedText": "evidence",
+        "freebaseId": "/m/06d34f",
+        "relevanceScore": 0.0900435,
+        "entityEnglishId": "Evidence (law)",
+        "startingPos": 22,
+        "endingPos": 30
+      },
+      {
+        "id": 1,
+        "type": [
+          "Place",
+          "PopulatedPlace",
+          "Settlement"
+        ],
+        "matchingTokens": [
+          29
+        ],
+        "entityId": "Nice",
+        "freebaseTypes": [
+          "/periodicals/newspaper_circulation_area",
+          "/location/capital_of_administrative_division",
+          "/location/citytown",
+          "/location/dated_location",
+          "/location/statistical_region",
+          "/travel/travel_destination",
+          "/location/location",
+          "/location/administrative_division"
+        ],
+        "confidenceScore": 0.942769,
+        "wikiLink": "http://en.wikipedia.org/wiki/Nice",
+        "matchedText": "NICE",
+        "freebaseId": "/m/0cp6w",
+        "relevanceScore": 0.0593587,
+        "entityEnglishId": "Nice",
+        "startingPos": 163,
+        "endingPos": 167
+      },
+      {
+        "id": 2,
+        "type": [
+          "Company"
+        ],
+        "matchingTokens": [
+          31,
+          32
+        ],
+        "entityId": "Technology Appraisal",
+        "freebaseTypes": [
+          "/organization/organization"
+        ],
+        "confidenceScore": 0.5,
+        "wikiLink": "",
+        "matchedText": "Technology Appraisal",
+        "relevanceScore": 0,
+        "entityEnglishId": "",
+        "startingPos": 169,
+        "endingPos": 189
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3
+        ],
+        "propertyPositions": [
+          2
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          8,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8,
+          10,
+          11
+        ],
+        "propertyPositions": [
+          12
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          3
+        ],
+        "propertyPositions": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "time": 0.315,
+  "ok": true
+}

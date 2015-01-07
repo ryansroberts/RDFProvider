@@ -1,0 +1,199 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Business",
+        "wikiLink": "http://en.wikipedia.org/Category:Business",
+        "score": 1
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Organonitrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organonitrogen_compounds",
+        "score": 0.03983
+      },
+      {
+        "id": 1,
+        "label": "Antihypertensive agents",
+        "wikiLink": "http://en.wikipedia.org/Category:Antihypertensive_agents",
+        "score": 0.03983
+      },
+      {
+        "id": 2,
+        "label": "Oxygen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxygen_compounds",
+        "score": 0.03983
+      },
+      {
+        "id": 3,
+        "label": "Nitrogen compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Nitrogen_compounds",
+        "score": 0.03983
+      },
+      {
+        "id": 4,
+        "label": "Oxygen",
+        "wikiLink": "http://en.wikipedia.org/Category:Oxygen",
+        "score": 0.03983
+      },
+      {
+        "id": 5,
+        "label": "Organic chemistry",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_chemistry",
+        "score": 0.03983
+      },
+      {
+        "id": 6,
+        "label": "Amides",
+        "wikiLink": "http://en.wikipedia.org/Category:Amides",
+        "score": 0.03983
+      },
+      {
+        "id": 7,
+        "label": "Functional groups",
+        "wikiLink": "http://en.wikipedia.org/Category:Functional_groups",
+        "score": 0.03983
+      },
+      {
+        "id": 8,
+        "label": "Organic compounds",
+        "wikiLink": "http://en.wikipedia.org/Category:Organic_compounds",
+        "score": 0.03983
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Captopril",
+        "freebaseTypes": [
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug",
+          "/medicine/condition_prevention_factors"
+        ],
+        "confidenceScore": 4.9144,
+        "wikiLink": "http://en.wikipedia.org/wiki/Captopril",
+        "matchedText": "captopril",
+        "freebaseId": "/m/02pzhs",
+        "relevanceScore": 0.0362001,
+        "entityEnglishId": "Captopril",
+        "startingPos": 58,
+        "endingPos": 67
+      },
+      {
+        "id": 1,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          9
+        ],
+        "entityId": "Atenolol",
+        "freebaseTypes": [
+          "/medicine/contraindication",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 5.47154,
+        "wikiLink": "http://en.wikipedia.org/wiki/Atenolol",
+        "matchedText": "atenolol",
+        "freebaseId": "/m/034yzx",
+        "relevanceScore": 0.0358537,
+        "entityEnglishId": "Atenolol",
+        "startingPos": 72,
+        "endingPos": 80
+      },
+      {
+        "id": 2,
+        "type": [
+          "Drug"
+        ],
+        "matchingTokens": [
+          11
+        ],
+        "entityId": "Atenolol",
+        "freebaseTypes": [
+          "/medicine/contraindication",
+          "/medicine/drug_ingredient",
+          "/medicine/medical_treatment",
+          "/medicine/drug"
+        ],
+        "confidenceScore": 4.40051,
+        "wikiLink": "http://en.wikipedia.org/wiki/Atenolol",
+        "matchedText": "Atenolol",
+        "freebaseId": "/m/034yzx",
+        "relevanceScore": 0.0358537,
+        "entityEnglishId": "Atenolol",
+        "startingPos": 82,
+        "endingPos": 90
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          4,
+          5,
+          6
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              7,
+              8,
+              9
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          16,
+          17
+        ],
+        "propertyPositions": [
+          14,
+          15
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          0,
+          3
+        ],
+        "propertyPositions": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "time": 0.307,
+  "ok": true
+}

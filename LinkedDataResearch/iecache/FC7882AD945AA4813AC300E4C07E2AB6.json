@@ -1,0 +1,663 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Technology",
+        "wikiLink": "http://en.wikipedia.org/Category:Technology",
+        "score": 0.691004
+      },
+      {
+        "id": 2,
+        "label": "Nature",
+        "wikiLink": "http://en.wikipedia.org/Category:Nature",
+        "score": 0.521731
+      },
+      {
+        "id": 3,
+        "label": "Mathematics",
+        "wikiLink": "http://en.wikipedia.org/Category:Mathematics",
+        "score": 0.336997
+      },
+      {
+        "id": 4,
+        "label": "Politics",
+        "wikiLink": "http://en.wikipedia.org/Category:Politics",
+        "score": 0.331164
+      },
+      {
+        "id": 5,
+        "label": "Law",
+        "wikiLink": "http://en.wikipedia.org/Category:Law",
+        "score": 0.326482
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Brain death",
+        "wikiLink": "http://en.wikipedia.org/Brain_death",
+        "score": 0.320487
+      },
+      {
+        "id": 1,
+        "label": "Catheter",
+        "wikiLink": "http://en.wikipedia.org/Catheter",
+        "score": 0.118351
+      },
+      {
+        "id": 2,
+        "label": "Immunosuppression",
+        "wikiLink": "http://en.wikipedia.org/Immunosuppression",
+        "score": 0.399347
+      },
+      {
+        "id": 3,
+        "label": "Intravenous therapy",
+        "wikiLink": "http://en.wikipedia.org/Intravenous_therapy",
+        "score": 0.826423
+      },
+      {
+        "id": 4,
+        "label": "Liver",
+        "wikiLink": "http://en.wikipedia.org/Liver",
+        "score": 0.471496
+      },
+      {
+        "id": 5,
+        "label": "Therapy",
+        "wikiLink": "http://en.wikipedia.org/Therapy",
+        "score": 0.116129
+      },
+      {
+        "id": 6,
+        "label": "Vein",
+        "wikiLink": "http://en.wikipedia.org/Vein",
+        "score": 0.150705
+      },
+      {
+        "id": 7,
+        "label": "Medical specialties",
+        "wikiLink": "http://en.wikipedia.org/Category:Medical_specialties",
+        "score": 0.854509
+      },
+      {
+        "id": 8,
+        "label": "Anatomy",
+        "wikiLink": "http://en.wikipedia.org/Category:Anatomy",
+        "score": 0.406167
+      },
+      {
+        "id": 9,
+        "label": "Medicine",
+        "wikiLink": "http://en.wikipedia.org/Category:Medicine",
+        "score": 0.3863
+      },
+      {
+        "id": 10,
+        "label": "Pharmacology",
+        "wikiLink": "http://en.wikipedia.org/Category:Pharmacology",
+        "score": 0.196054
+      },
+      {
+        "id": 11,
+        "label": "Zoology",
+        "wikiLink": "http://en.wikipedia.org/Category:Zoology",
+        "score": 0.175078
+      },
+      {
+        "id": 12,
+        "label": "Morphology",
+        "wikiLink": "http://en.wikipedia.org/Category:Morphology",
+        "score": 0.125786
+      },
+      {
+        "id": 13,
+        "label": "Organs",
+        "wikiLink": "http://en.wikipedia.org/Category:Organs",
+        "score": 0.104478
+      },
+      {
+        "id": 14,
+        "label": "Torso",
+        "wikiLink": "http://en.wikipedia.org/Category:Torso",
+        "score": 0.0930202
+      },
+      {
+        "id": 15,
+        "label": "Angiology",
+        "wikiLink": "http://en.wikipedia.org/Category:Angiology",
+        "score": 0.0850543
+      },
+      {
+        "id": 16,
+        "label": "Veins",
+        "wikiLink": "http://en.wikipedia.org/Category:Veins",
+        "score": 0.0749911
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "matchingTokens": [
+          0
+        ],
+        "entityId": "Islet",
+        "freebaseTypes": [
+          "/geography/geographical_feature_category"
+        ],
+        "confidenceScore": 1.36552,
+        "wikiLink": "http://en.wikipedia.org/wiki/Islet",
+        "matchedText": "Islet",
+        "freebaseId": "/m/01jyr1",
+        "relevanceScore": 0.075187,
+        "entityEnglishId": "Islet",
+        "startingPos": 0,
+        "endingPos": 5
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          7
+        ],
+        "entityId": "Brain death",
+        "freebaseTypes": [
+          "/medicine/disease",
+          "/medicine/symptom",
+          "/people/cause_of_death"
+        ],
+        "confidenceScore": 1.19096,
+        "wikiLink": "http://en.wikipedia.org/wiki/Brain_death",
+        "matchedText": "brain-dead",
+        "freebaseId": "/m/019m0c",
+        "relevanceScore": 0.320487,
+        "entityEnglishId": "Brain death",
+        "startingPos": 43,
+        "endingPos": 53
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          20
+        ],
+        "entityId": "Immunosuppression",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 1.4678,
+        "wikiLink": "http://en.wikipedia.org/wiki/Immunosuppression",
+        "matchedText": "immunosuppressive",
+        "freebaseId": "/m/016mlj",
+        "relevanceScore": 0.236231,
+        "entityEnglishId": "Immunosuppression",
+        "startingPos": 112,
+        "endingPos": 129
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          20,
+          21
+        ],
+        "entityId": "Immunosuppression",
+        "freebaseTypes": [
+          "/medicine/medical_treatment",
+          "/medicine/disease_cause",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.79988,
+        "wikiLink": "http://en.wikipedia.org/wiki/Immunosuppression",
+        "matchedText": "immunosuppressive therapy",
+        "freebaseId": "/m/016mlj",
+        "relevanceScore": 0.163116,
+        "entityEnglishId": "Immunosuppression",
+        "startingPos": 112,
+        "endingPos": 137
+      },
+      {
+        "id": 4,
+        "matchingTokens": [
+          21
+        ],
+        "entityId": "Therapy",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.47521,
+        "wikiLink": "http://en.wikipedia.org/wiki/Therapy",
+        "matchedText": "therapy",
+        "freebaseId": "/m/03c1dkx",
+        "relevanceScore": 0.116129,
+        "entityEnglishId": "Therapy",
+        "startingPos": 130,
+        "endingPos": 137
+      },
+      {
+        "id": 5,
+        "matchingTokens": [
+          35
+        ],
+        "entityId": "Sedation",
+        "freebaseTypes": [
+          "/medicine/symptom"
+        ],
+        "confidenceScore": 1.85655,
+        "wikiLink": "http://en.wikipedia.org/wiki/Sedation",
+        "matchedText": "sedation",
+        "freebaseId": "/m/019bf4",
+        "relevanceScore": 0.0650014,
+        "entityEnglishId": "Sedation",
+        "startingPos": 212,
+        "endingPos": 220
+      },
+      {
+        "id": 6,
+        "matchingTokens": [
+          42
+        ],
+        "entityId": "Catheter",
+        "freebaseTypes": [
+          "/medicine/medical_device"
+        ],
+        "confidenceScore": 5.15246,
+        "wikiLink": "http://en.wikipedia.org/wiki/Catheter",
+        "matchedText": "catheter",
+        "freebaseId": "/m/01qpdz",
+        "relevanceScore": 0.118351,
+        "entityEnglishId": "Catheter",
+        "startingPos": 251,
+        "endingPos": 259
+      },
+      {
+        "id": 7,
+        "type": [
+          "AnatomicalStructure",
+          "Vein"
+        ],
+        "matchingTokens": [
+          47,
+          48
+        ],
+        "entityId": "Hepatic portal vein",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/medicine/vein"
+        ],
+        "confidenceScore": 3.63306,
+        "wikiLink": "http://en.wikipedia.org/wiki/Hepatic_portal_vein",
+        "matchedText": "portal vein",
+        "freebaseId": "/m/01j72q",
+        "relevanceScore": 0,
+        "entityEnglishId": "Hepatic portal vein",
+        "startingPos": 295,
+        "endingPos": 306
+      },
+      {
+        "id": 8,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          48
+        ],
+        "entityId": "Vein",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure"
+        ],
+        "confidenceScore": 3.0162,
+        "wikiLink": "http://en.wikipedia.org/wiki/Vein",
+        "matchedText": "vein",
+        "freebaseId": "/m/0dzb2",
+        "relevanceScore": 0.150705,
+        "entityEnglishId": "Vein",
+        "startingPos": 302,
+        "endingPos": 306
+      },
+      {
+        "id": 9,
+        "type": [
+          "AnatomicalStructure"
+        ],
+        "matchingTokens": [
+          56
+        ],
+        "entityId": "Liver",
+        "freebaseTypes": [
+          "/medicine/anatomical_structure",
+          "/book/book_subject"
+        ],
+        "confidenceScore": 3.46929,
+        "wikiLink": "http://en.wikipedia.org/wiki/Liver",
+        "matchedText": "liver",
+        "freebaseId": "/m/04p8w",
+        "relevanceScore": 0.471496,
+        "entityEnglishId": "Liver",
+        "startingPos": 351,
+        "endingPos": 356
+      },
+      {
+        "id": 10,
+        "matchingTokens": [
+          61
+        ],
+        "entityId": "Intravenous therapy",
+        "freebaseTypes": [
+          "/medicine/medical_treatment"
+        ],
+        "confidenceScore": 1.89431,
+        "wikiLink": "http://en.wikipedia.org/wiki/Intravenous_therapy",
+        "matchedText": "infusion",
+        "freebaseId": "/m/018c_8",
+        "relevanceScore": 0.826423,
+        "entityEnglishId": "Intravenous therapy",
+        "startingPos": 372,
+        "endingPos": 380
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          17,
+          18,
+          19
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              16
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              20,
+              21,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          24,
+          25
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              23
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              26,
+              27,
+              28
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          2,
+          3,
+          4
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8,
+              10,
+              11,
+              12,
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          2,
+          3,
+          4,
+          11,
+          12,
+          13
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              0,
+              1,
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          30,
+          33,
+          34,
+          37,
+          43,
+          44,
+          45
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              41,
+              42
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              31,
+              35,
+              38,
+              39,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          21,
+          24,
+          25
+        ],
+        "propertyPositions": [
+          20
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          26,
+          28
+        ],
+        "propertyPositions": [
+          27
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          8
+        ],
+        "propertyPositions": [
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          5,
+          6
+        ],
+        "propertyPositions": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          41,
+          42
+        ],
+        "propertyPositions": [
+          30,
+          34
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          41,
+          42
+        ],
+        "propertyPositions": [
+          45
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          41,
+          42
+        ],
+        "propertyPositions": [
+          31
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          41,
+          42
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          41,
+          42
+        ],
+        "propertyPositions": [
+          37
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          41,
+          42
+        ],
+        "propertyPositions": [
+          38,
+          39
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          46,
+          48
+        ],
+        "propertyPositions": [
+          47
+        ]
+      },
+      {
+        "id": 11,
+        "wordPositions": [
+          41,
+          42
+        ],
+        "propertyPositions": [
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ]
+      }
+    ]
+  },
+  "time": 0.324,
+  "ok": true
+}

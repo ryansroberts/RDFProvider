@@ -1,0 +1,363 @@
+{
+  "response": {
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Chronic kidney disease",
+        "wikiLink": "http://en.wikipedia.org/Chronic_kidney_disease",
+        "score": 0.657903
+      },
+      {
+        "id": 1,
+        "label": "Renal function",
+        "wikiLink": "http://en.wikipedia.org/Renal_function",
+        "score": 0.943306
+      },
+      {
+        "id": 2,
+        "label": "Kidney",
+        "wikiLink": "http://en.wikipedia.org/Category:Kidney",
+        "score": 0.173234
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          1
+        ],
+        "entityId": "Chronic kidney disease",
+        "freebaseTypes": [
+          "/people/cause_of_death",
+          "/medicine/disease_cause",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 2.48803,
+        "wikiLink": "http://en.wikipedia.org/wiki/Chronic_kidney_disease",
+        "matchedText": "CKD",
+        "freebaseId": "/m/035482",
+        "relevanceScore": 0.657903,
+        "entityEnglishId": "Chronic kidney disease",
+        "startingPos": 9,
+        "endingPos": 12
+      },
+      {
+        "id": 1,
+        "matchingTokens": [
+          6
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.12017,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.314435,
+        "entityEnglishId": "Renal function",
+        "startingPos": 36,
+        "endingPos": 39
+      },
+      {
+        "id": 2,
+        "matchingTokens": [
+          36
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.12017,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.314435,
+        "entityEnglishId": "Renal function",
+        "startingPos": 182,
+        "endingPos": 185
+      },
+      {
+        "id": 3,
+        "matchingTokens": [
+          50
+        ],
+        "entityId": "Renal function",
+        "freebaseTypes": [
+          "/book/book_subject"
+        ],
+        "confidenceScore": 1.12017,
+        "wikiLink": "http://en.wikipedia.org/wiki/Renal_function",
+        "matchedText": "GFR",
+        "freebaseId": "/m/02xr01",
+        "relevanceScore": 0.314435,
+        "entityEnglishId": "Renal function",
+        "startingPos": 267,
+        "endingPos": 270
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          37,
+          38,
+          39
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              35,
+              36
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              40,
+              41,
+              42,
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              35,
+              36
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          26,
+          27,
+          28
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              24,
+              25
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              29,
+              30,
+              31,
+              32
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              24,
+              25
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              32
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          53
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              54,
+              55,
+              56,
+              57
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          3,
+          4,
+          5
+        ],
+        "propertyPositions": [
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 1,
+        "wordPositions": [
+          36
+        ],
+        "propertyPositions": [
+          35
+        ]
+      },
+      {
+        "id": 2,
+        "wordPositions": [
+          41,
+          42
+        ],
+        "propertyPositions": [
+          40
+        ]
+      },
+      {
+        "id": 3,
+        "wordPositions": [
+          41,
+          42
+        ],
+        "propertyPositions": [
+          43
+        ]
+      },
+      {
+        "id": 4,
+        "wordPositions": [
+          25
+        ],
+        "propertyPositions": [
+          24
+        ]
+      },
+      {
+        "id": 5,
+        "wordPositions": [
+          30,
+          31
+        ],
+        "propertyPositions": [
+          29
+        ]
+      },
+      {
+        "id": 6,
+        "wordPositions": [
+          30,
+          31
+        ],
+        "propertyPositions": [
+          32
+        ]
+      },
+      {
+        "id": 7,
+        "wordPositions": [
+          47,
+          51
+        ],
+        "propertyPositions": [
+          46
+        ]
+      },
+      {
+        "id": 8,
+        "wordPositions": [
+          50
+        ],
+        "propertyPositions": [
+          49
+        ]
+      },
+      {
+        "id": 9,
+        "wordPositions": [
+          47,
+          51
+        ],
+        "propertyPositions": [
+          52
+        ]
+      },
+      {
+        "id": 10,
+        "wordPositions": [
+          54,
+          55,
+          56
+        ],
+        "propertyPositions": [
+          57
+        ]
+      }
+    ]
+  },
+  "time": 0.319,
+  "ok": true
+}

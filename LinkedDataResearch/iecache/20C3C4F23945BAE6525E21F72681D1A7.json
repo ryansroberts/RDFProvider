@@ -1,0 +1,185 @@
+{
+  "response": {
+    "coarseTopics": [
+      {
+        "id": 0,
+        "label": "Health",
+        "wikiLink": "http://en.wikipedia.org/Category:Health",
+        "score": 1
+      },
+      {
+        "id": 1,
+        "label": "Belief",
+        "wikiLink": "http://en.wikipedia.org/Category:Belief",
+        "score": 0.49305
+      },
+      {
+        "id": 2,
+        "label": "Culture",
+        "wikiLink": "http://en.wikipedia.org/Category:Culture",
+        "score": 0.49305
+      },
+      {
+        "id": 3,
+        "label": "Language",
+        "wikiLink": "http://en.wikipedia.org/Category:Language",
+        "score": 0.476612
+      }
+    ],
+    "language": "eng",
+    "languageIsReliable": true,
+    "topics": [
+      {
+        "id": 0,
+        "label": "Asthma",
+        "wikiLink": "http://en.wikipedia.org/Asthma",
+        "score": 0.139354
+      },
+      {
+        "id": 1,
+        "label": "Epilepsy",
+        "wikiLink": "http://en.wikipedia.org/Epilepsy",
+        "score": 0.1168
+      }
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          12
+        ],
+        "entityId": "Asthma",
+        "freebaseTypes": [
+          "/medicine/risk_factor",
+          "/medicine/disease_cause",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/disease",
+          "/people/cause_of_death",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 6.91427,
+        "wikiLink": "http://en.wikipedia.org/wiki/Asthma",
+        "matchedText": "asthma",
+        "freebaseId": "/m/0c78m",
+        "relevanceScore": 0.139354,
+        "entityEnglishId": "Asthma",
+        "startingPos": 59,
+        "endingPos": 65
+      },
+      {
+        "id": 1,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          14
+        ],
+        "entityId": "Diabetes mellitus",
+        "freebaseTypes": [
+          "/book/book_subject",
+          "/medicine/disease_cause",
+          "/organization/organization_sector",
+          "/fictional_universe/medical_condition_in_fiction",
+          "/people/cause_of_death",
+          "/medicine/disease",
+          "/medicine/risk_factor",
+          "/film/film_subject",
+          "/medicine/symptom",
+          "/medicine/icd_9_cm_classification"
+        ],
+        "confidenceScore": 3.37161,
+        "wikiLink": "http://en.wikipedia.org/wiki/Diabetes_mellitus",
+        "matchedText": "diabetes",
+        "freebaseId": "/m/0c58k",
+        "relevanceScore": 0.0983655,
+        "entityEnglishId": "Diabetes mellitus",
+        "startingPos": 67,
+        "endingPos": 75
+      },
+      {
+        "id": 2,
+        "type": [
+          "Disease"
+        ],
+        "matchingTokens": [
+          16
+        ],
+        "entityId": "Epilepsy",
+        "freebaseTypes": [
+          "/fictional_universe/medical_condition_in_fiction",
+          "/medicine/disease_cause",
+          "/book/book_subject",
+          "/medicine/symptom",
+          "/people/cause_of_death",
+          "/organization/organization_sector",
+          "/medicine/icd_9_cm_classification",
+          "/medicine/disease",
+          "/medicine/risk_factor"
+        ],
+        "confidenceScore": 4.4282,
+        "wikiLink": "http://en.wikipedia.org/wiki/Epilepsy",
+        "matchedText": "epilepsy",
+        "freebaseId": "/m/02vrr",
+        "relevanceScore": 0.1168,
+        "entityEnglishId": "Epilepsy",
+        "startingPos": 79,
+        "endingPos": 87
+      }
+    ],
+    "relations": [
+      {
+        "id": 0,
+        "wordPositions": [
+          11
+        ],
+        "params": [
+          {
+            "relation": "SUBJECT",
+            "wordPositions": [
+              10
+            ]
+          },
+          {
+            "relation": "OBJECT",
+            "wordPositions": [
+              12,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "id": 0,
+        "wordPositions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "propertyPositions": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "time": 0.313,
+  "ok": true
+}

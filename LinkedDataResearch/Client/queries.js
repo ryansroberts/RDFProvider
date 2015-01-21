@@ -201,8 +201,6 @@ module.exports = {
             '?ann oa:hasBody/content:chars ?txt .',
             '?ann oa:hasBody/owl:sameAs ?tag .',
             '} LIMIT 500'
-        )
-            '} LIMIT 500'
         );
     },
     'allStudies' : function (){
@@ -221,7 +219,7 @@ module.exports = {
                       '?gr content:chars ?cnt .',
                   '}',
                 '}',
-            '}'
+            '}',
             'FILTER (REGEX(STR(?t), "CH15", "i"))',
             '} limit 100'
         );
@@ -241,6 +239,6 @@ module.exports = {
          '?rec a nice:Recommendation .',
          '?rec nice:isAbout ?t ',
         '}'
-        )        
+        );      
     }
 };

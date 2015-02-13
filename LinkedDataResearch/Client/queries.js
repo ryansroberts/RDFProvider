@@ -203,6 +203,7 @@ module.exports = {
             '} LIMIT 500'
         );
     },
+
     'allStudies' : function (){
         return concat(
             prefixes,
@@ -219,8 +220,6 @@ module.exports = {
                       '?gr content:chars ?cnt .',
                   '}',
                 '}',
-            '}',
-            'FILTER (REGEX(STR(?t), "CH15", "i"))',
             '} limit 100'
         );
 
